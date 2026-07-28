@@ -119,11 +119,23 @@ ffmpeg -version
 
 ## 9. 최종 영상 조립
 
-모든 `scene_N.mp4`가 생성되었는지 확인한 뒤 프로젝트 폴더에서 실행합니다. `세션ID`를 실제 폴더 이름으로 바꿉니다.
+모든 `scene_N.mp4`가 생성되었는지 확인한 뒤 프로젝트 폴더에서 실행합니다. `세션ID`를 실제 폴더 이름으로 바꿉니다. 기본 조립은 BGM 없이 원본 장면 영상과 오디오를 그대로 결합합니다.
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID"
 ```
+
+### 선택적으로 BGM 넣기
+
+- `-BgmPath`: 사용할 BGM 파일 경로
+- `-BgmVolume`: BGM 음량 배율, 기본값 `1.0`
+- `-BgmFadeOutSeconds`: 마지막 페이드아웃 시간(초), 기본값 `2.0`
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -BgmPath ".\bgm.mp3" -BgmVolume 0.5 -BgmFadeOutSeconds 2.0
+```
+
+> **주의:** BGM을 사용하면 장면의 원본 오디오는 제거되고 지정한 BGM으로 교체됩니다. BGM이 영상보다 짧으면 반복 재생되며 최종 영상 길이에 맞게 잘립니다.
 
 최종 영상은 다음 위치에 생성됩니다.
 
