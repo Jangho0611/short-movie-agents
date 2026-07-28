@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory = $true, Position = 0)]
+    [Parameter(Position = 0)]
     [string]$SessionFolder,
 
     [Parameter(Position = 1)]
@@ -13,6 +13,35 @@ try {
     $ffmpeg = Get-Command ffmpeg -ErrorAction SilentlyContinue
     if (-not $ffmpeg) {
         throw 'FFmpeg가 설치되어 있지 않거나 PATH에서 찾을 수 없습니다.'
+    }
+
+    if ([string]::IsNullOrWhiteSpace($SessionFolder)) {
+        $outputRoot = Join-Path $PSScriptRoot 'output'
+        if (-not (Test-Path -LiteralPath $outputRoot -PathType Container)) {
+            throw "output 폴더를 찾을 수 없습니다: $outputRoot"
+        }
+        $candidates = @(
+            Get-ChildItem -LiteralPath $outputRoot -Directory | ForEach-Object {
+                $validScenes = @(
+                    Get-ChildItem -LiteralPath $_.FullName -File |
+                        Where-Object { $_.Name -match '^scene_(\d+)\.mp4$' }
+                )
+                if ($validScenes.Count -gt 0) {
+                    [pscustomobject]@{
+                        Folder = $_
+                        LatestSceneWriteTime = ($validScenes |
+                            Measure-Object -Property LastWriteTime -Maximum).Maximum
+                    }
+                }
+            } | Sort-Object `
+                @{ Expression = 'LatestSceneWriteTime'; Descending = $true },
+                @{ Expression = { $_.Folder.Name }; Descending = $false }
+        )
+        if ($candidates.Count -eq 0) {
+            throw "유효한 장면 영상이 있는 세션 폴더를 찾을 수 없습니다: $outputRoot"
+        }
+        $SessionFolder = $candidates[0].Folder.FullName
+        Write-Host "자동 선택된 세션: $SessionFolder"
     }
 
     $sessionPath = (Resolve-Path -LiteralPath $SessionFolder).Path
