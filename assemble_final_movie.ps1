@@ -10,7 +10,9 @@ param(
 
     [double]$BgmVolume = 1.0,
 
-    [double]$BgmFadeOutSeconds = 2.0
+    [double]$BgmFadeOutSeconds = 2.0,
+
+    [string]$LogoPath
 )
 
 $ErrorActionPreference = 'Stop'
@@ -37,6 +39,16 @@ try {
         if (-not $ffprobe) {
             throw 'BGM 처리에 필요한 ffprobe를 PATH에서 찾을 수 없습니다.'
         }
+    }
+
+    if (-not [string]::IsNullOrWhiteSpace($LogoPath)) {
+        if (-not (Test-Path -LiteralPath $LogoPath -PathType Leaf)) {
+            throw "로고 PNG 파일이 아닙니다: $LogoPath"
+        }
+        if ([System.IO.Path]::GetExtension($LogoPath) -ine '.png') {
+            throw "로고 파일 확장자는 .png여야 합니다: $LogoPath"
+        }
+        $LogoPath = (Resolve-Path -LiteralPath $LogoPath).Path
     }
 
     if ([string]::IsNullOrWhiteSpace($SessionFolder)) {
@@ -103,7 +115,8 @@ try {
             [System.Text.UTF8Encoding]::new($false)
         )
 
-        if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+        if ([string]::IsNullOrWhiteSpace($BgmPath) -and
+            [string]::IsNullOrWhiteSpace($LogoPath)) {
             & $ffmpeg.Source -y -f concat -safe 0 -i $concatListPath -c copy $OutputPath
             if ($LASTEXITCODE -ne 0) {
                 throw "FFmpeg 영상 결합에 실패했습니다. 종료 코드: $LASTEXITCODE"
@@ -117,30 +130,52 @@ try {
                 throw "FFmpeg 임시 영상 결합에 실패했습니다. 종료 코드: $LASTEXITCODE"
             }
 
-            $durationText = & $ffprobe.Source -v error -show_entries format=duration `
-                -of default=noprint_wrappers=1:nokey=1 $temporaryVideoPath
-            if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($durationText)) {
-                throw '최종 영상 길이를 확인할 수 없습니다.'
+            if (-not [string]::IsNullOrWhiteSpace($BgmPath)) {
+                $durationText = & $ffprobe.Source -v error -show_entries format=duration `
+                    -of default=noprint_wrappers=1:nokey=1 $temporaryVideoPath
+                if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($durationText)) {
+                    throw '최종 영상 길이를 확인할 수 없습니다.'
+                }
+
+                $culture = [System.Globalization.CultureInfo]::InvariantCulture
+                $duration = [double]::Parse($durationText.Trim(), $culture)
+                $fadeDuration = [Math]::Min($BgmFadeOutSeconds, $duration)
+                $fadeStart = [Math]::Max(0, $duration - $fadeDuration)
+                $durationValue = $duration.ToString('0.######', $culture)
+                $volumeValue = $BgmVolume.ToString('0.######', $culture)
+                $audioFilter = "volume=$volumeValue"
+                if ($fadeDuration -gt 0) {
+                    $fadeStartValue = $fadeStart.ToString('0.######', $culture)
+                    $fadeDurationValue = $fadeDuration.ToString('0.######', $culture)
+                    $audioFilter += ",afade=t=out:st=$fadeStartValue`:d=$fadeDurationValue"
+                }
             }
 
-            $culture = [System.Globalization.CultureInfo]::InvariantCulture
-            $duration = [double]::Parse($durationText.Trim(), $culture)
-            $fadeDuration = [Math]::Min($BgmFadeOutSeconds, $duration)
-            $fadeStart = [Math]::Max(0, $duration - $fadeDuration)
-            $durationValue = $duration.ToString('0.######', $culture)
-            $volumeValue = $BgmVolume.ToString('0.######', $culture)
-            $audioFilter = "volume=$volumeValue"
-            if ($fadeDuration -gt 0) {
-                $fadeStartValue = $fadeStart.ToString('0.######', $culture)
-                $fadeDurationValue = $fadeDuration.ToString('0.######', $culture)
-                $audioFilter += ",afade=t=out:st=$fadeStartValue`:d=$fadeDurationValue"
-            }
+            if (-not [string]::IsNullOrWhiteSpace($LogoPath)) {
+                $logoFilter = "[1:v]format=rgba[logo];" +
+                    "[logo][0:v]scale2ref=w='min(iw,main_w*0.15)':h=-1[scaled][base];" +
+                    "[base][scaled]overlay=x='W-w-W*0.03':y='H*0.03':" +
+                    "eof_action=repeat:format=auto[outv]"
 
-            & $ffmpeg.Source -y -i $temporaryVideoPath -stream_loop -1 -i $BgmPath `
-                -map '0:v:0' -map '1:a:0' -filter:a $audioFilter -t $durationValue `
-                -c:v copy -c:a aac -b:a 192k $OutputPath
+                if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+                    & $ffmpeg.Source -y -i $temporaryVideoPath -i $LogoPath `
+                        -filter_complex $logoFilter -map '[outv]' -map '0:a:0?' `
+                        -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
+                        -c:a copy $OutputPath
+                } else {
+                    & $ffmpeg.Source -y -i $temporaryVideoPath -i $LogoPath `
+                        -stream_loop -1 -i $BgmPath -filter_complex $logoFilter `
+                        -map '[outv]' -map '2:a:0' -filter:a $audioFilter `
+                        -t $durationValue -c:v libx264 -preset medium -crf 18 `
+                        -pix_fmt yuv420p -c:a aac -b:a 192k $OutputPath
+                }
+            } else {
+                & $ffmpeg.Source -y -i $temporaryVideoPath -stream_loop -1 -i $BgmPath `
+                    -map '0:v:0' -map '1:a:0' -filter:a $audioFilter -t $durationValue `
+                    -c:v copy -c:a aac -b:a 192k $OutputPath
+            }
             if ($LASTEXITCODE -ne 0) {
-                throw "FFmpeg BGM 적용에 실패했습니다. 종료 코드: $LASTEXITCODE"
+                throw "FFmpeg 최종 영상 처리에 실패했습니다. 종료 코드: $LASTEXITCODE"
             }
         }
     } finally {
@@ -153,6 +188,9 @@ try {
     Write-Host "사용한 세션: $sessionPath"
     if (-not [string]::IsNullOrWhiteSpace($BgmPath)) {
         Write-Host "사용한 BGM: $BgmPath"
+    }
+    if (-not [string]::IsNullOrWhiteSpace($LogoPath)) {
+        Write-Host "사용한 로고: $LogoPath"
     }
     Write-Host "최종 출력: $OutputPath"
 } catch {
