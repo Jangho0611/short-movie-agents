@@ -4,7 +4,13 @@ param(
     [string]$SessionFolder,
 
     [Parameter(Position = 1)]
-    [string]$OutputPath
+    [string]$OutputPath,
+
+    [string]$BgmPath,
+
+    [double]$BgmVolume = 1.0,
+
+    [double]$BgmFadeOutSeconds = 2.0
 )
 
 $ErrorActionPreference = 'Stop'
@@ -13,6 +19,24 @@ try {
     $ffmpeg = Get-Command ffmpeg -ErrorAction SilentlyContinue
     if (-not $ffmpeg) {
         throw 'FFmpeg가 설치되어 있지 않거나 PATH에서 찾을 수 없습니다.'
+    }
+
+    $ffprobe = $null
+    if (-not [string]::IsNullOrWhiteSpace($BgmPath)) {
+        if ($BgmVolume -lt 0) {
+            throw 'BgmVolume은 0 이상이어야 합니다.'
+        }
+        if ($BgmFadeOutSeconds -lt 0) {
+            throw 'BgmFadeOutSeconds는 0 이상이어야 합니다.'
+        }
+        if (-not (Test-Path -LiteralPath $BgmPath -PathType Leaf)) {
+            throw "BGM 파일이 아닙니다: $BgmPath"
+        }
+        $BgmPath = (Resolve-Path -LiteralPath $BgmPath).Path
+        $ffprobe = Get-Command ffprobe -ErrorAction SilentlyContinue
+        if (-not $ffprobe) {
+            throw 'BGM 처리에 필요한 ffprobe를 PATH에서 찾을 수 없습니다.'
+        }
     }
 
     if ([string]::IsNullOrWhiteSpace($SessionFolder)) {
@@ -66,6 +90,7 @@ try {
     }
 
     $concatListPath = Join-Path $sessionPath ('.ffmpeg_concat_{0}.txt' -f [guid]::NewGuid().ToString('N'))
+    $temporaryVideoPath = $null
 
     try {
         $concatLines = $sceneFiles | ForEach-Object {
@@ -78,15 +103,58 @@ try {
             [System.Text.UTF8Encoding]::new($false)
         )
 
-        & $ffmpeg.Source -y -f concat -safe 0 -i $concatListPath -c copy $OutputPath
-        if ($LASTEXITCODE -ne 0) {
-            throw "FFmpeg 영상 결합에 실패했습니다. 종료 코드: $LASTEXITCODE"
+        if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+            & $ffmpeg.Source -y -f concat -safe 0 -i $concatListPath -c copy $OutputPath
+            if ($LASTEXITCODE -ne 0) {
+                throw "FFmpeg 영상 결합에 실패했습니다. 종료 코드: $LASTEXITCODE"
+            }
+        } else {
+            $temporaryVideoPath = Join-Path $sessionPath (
+                '.ffmpeg_video_{0}.mp4' -f [guid]::NewGuid().ToString('N')
+            )
+            & $ffmpeg.Source -y -f concat -safe 0 -i $concatListPath -c copy $temporaryVideoPath
+            if ($LASTEXITCODE -ne 0) {
+                throw "FFmpeg 임시 영상 결합에 실패했습니다. 종료 코드: $LASTEXITCODE"
+            }
+
+            $durationText = & $ffprobe.Source -v error -show_entries format=duration `
+                -of default=noprint_wrappers=1:nokey=1 $temporaryVideoPath
+            if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($durationText)) {
+                throw '최종 영상 길이를 확인할 수 없습니다.'
+            }
+
+            $culture = [System.Globalization.CultureInfo]::InvariantCulture
+            $duration = [double]::Parse($durationText.Trim(), $culture)
+            $fadeDuration = [Math]::Min($BgmFadeOutSeconds, $duration)
+            $fadeStart = [Math]::Max(0, $duration - $fadeDuration)
+            $durationValue = $duration.ToString('0.######', $culture)
+            $volumeValue = $BgmVolume.ToString('0.######', $culture)
+            $audioFilter = "volume=$volumeValue"
+            if ($fadeDuration -gt 0) {
+                $fadeStartValue = $fadeStart.ToString('0.######', $culture)
+                $fadeDurationValue = $fadeDuration.ToString('0.######', $culture)
+                $audioFilter += ",afade=t=out:st=$fadeStartValue`:d=$fadeDurationValue"
+            }
+
+            & $ffmpeg.Source -y -i $temporaryVideoPath -stream_loop -1 -i $BgmPath `
+                -map '0:v:0' -map '1:a:0' -filter:a $audioFilter -t $durationValue `
+                -c:v copy -c:a aac -b:a 192k $OutputPath
+            if ($LASTEXITCODE -ne 0) {
+                throw "FFmpeg BGM 적용에 실패했습니다. 종료 코드: $LASTEXITCODE"
+            }
         }
     } finally {
         Remove-Item -LiteralPath $concatListPath -Force -ErrorAction SilentlyContinue
+        if ($temporaryVideoPath) {
+            Remove-Item -LiteralPath $temporaryVideoPath -Force -ErrorAction SilentlyContinue
+        }
     }
 
-    Write-Host "완료: $OutputPath"
+    Write-Host "사용한 세션: $sessionPath"
+    if (-not [string]::IsNullOrWhiteSpace($BgmPath)) {
+        Write-Host "사용한 BGM: $BgmPath"
+    }
+    Write-Host "최종 출력: $OutputPath"
 } catch {
     Write-Error $_
     exit 1
