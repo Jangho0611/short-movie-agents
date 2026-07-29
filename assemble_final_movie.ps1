@@ -153,7 +153,8 @@ try {
 
             if (-not [string]::IsNullOrWhiteSpace($LogoPath)) {
                 $logoFilter = "[1:v]format=rgba[logo];" +
-                    "[logo][0:v]scale2ref=w='min(iw,main_w*0.15)':h=-1[scaled][base];" +
+                    "[0:v]split[base][ref];" +
+                    "[logo][ref]scale=w='min(iw,rw*0.15)':h=-1[scaled];" +
                     "[base][scaled]overlay=x='W-w-W*0.03':y='H*0.03':" +
                     "eof_action=repeat:format=auto[outv]"
 
