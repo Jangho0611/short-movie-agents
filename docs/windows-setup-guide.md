@@ -165,6 +165,60 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.p
 
 실제 브랜드 로고는 투명 배경의 가로형 PNG를 권장하며, 불필요한 투명 여백은 최소화하세요.
 
+### 선택적으로 JSON 자막 넣기
+
+- `-SubtitleConfigPath`: 자막 시간과 문구가 저장된 UTF-8 JSON 파일 경로
+- `start`: 자막 시작 시간(초)
+- `end`: 자막 종료 시간(초)
+- `text`: 표시할 자막 문구
+
+```json
+{
+  "subtitles": [
+    {
+      "start": 0.0,
+      "end": 3.5,
+      "text": "첫 번째 자막"
+    },
+    {
+      "start": 3.5,
+      "end": 7.0,
+      "text": "두 번째 자막"
+    }
+  ]
+}
+```
+
+`start`, `end`, `text`는 모두 필수입니다. `start`는 0 이상이고 `end`는 `start`보다 커야 하며, 빈 자막 문구는 사용할 수 없습니다. 자막 구간은 서로 겹칠 수 없고 영상 길이를 초과할 수 없습니다. JSON 파일은 UTF-8로 저장합니다.
+
+기본 자막 스타일은 Malgun Gothic, 하단 중앙, 흰색 글자와 검은색 외곽선입니다.
+
+자막만 적용:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -SubtitleConfigPath ".\subtitles.json"
+```
+
+자막과 BGM 적용:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -SubtitleConfigPath ".\subtitles.json" -BgmPath ".\bgm.mp3" -BgmVolume 0.25 -BgmFadeOutSeconds 2
+```
+
+자막과 로고 적용:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -SubtitleConfigPath ".\subtitles.json" -LogoPath ".\logo.png"
+```
+
+자막, BGM과 로고 적용:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -SubtitleConfigPath ".\subtitles.json" -BgmPath ".\bgm.mp3" -BgmVolume 0.25 -BgmFadeOutSeconds 2 -LogoPath ".\logo.png"
+```
+
+> **주의:** 자막을 사용하면 영상은 H.264로 재인코딩됩니다. 자막과 로고만 사용하면 원본 오디오는 유지되고, BGM도 사용하면 원본 오디오는 BGM으로 교체됩니다.
+
 최종 영상은 다음 위치에 생성됩니다.
 
 ```text
