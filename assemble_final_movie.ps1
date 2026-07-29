@@ -70,9 +70,8 @@ try {
     $ffprobe = $null
     $subtitleEntries = @()
     if (-not [string]::IsNullOrWhiteSpace($SubtitleConfigPath)) {
-        if (-not [string]::IsNullOrWhiteSpace($BgmPath) -or
-            -not [string]::IsNullOrWhiteSpace($LogoPath)) {
-            throw '이번 자막 MVP에서는 BGM 또는 로고와 자막을 함께 사용할 수 없습니다.'
+        if (-not [string]::IsNullOrWhiteSpace($LogoPath)) {
+            throw '이번 자막 MVP에서는 로고와 자막을 함께 사용할 수 없습니다.'
         }
         if (-not (Test-Path -LiteralPath $SubtitleConfigPath -PathType Leaf)) {
             throw "자막 JSON 파일이 아닙니다: $SubtitleConfigPath"
@@ -284,14 +283,16 @@ try {
             }
 
             if (-not [string]::IsNullOrWhiteSpace($SubtitleConfigPath)) {
-                $durationText = & $ffprobe.Source -v error -show_entries format=duration `
-                    -of default=noprint_wrappers=1:nokey=1 $temporaryVideoPath
-                if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($durationText)) {
-                    throw '최종 영상 길이를 확인할 수 없습니다.'
-                }
+                if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+                    $durationText = & $ffprobe.Source -v error -show_entries format=duration `
+                        -of default=noprint_wrappers=1:nokey=1 $temporaryVideoPath
+                    if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($durationText)) {
+                        throw '최종 영상 길이를 확인할 수 없습니다.'
+                    }
 
-                $culture = [System.Globalization.CultureInfo]::InvariantCulture
-                $duration = [double]::Parse($durationText.Trim(), $culture)
+                    $culture = [System.Globalization.CultureInfo]::InvariantCulture
+                    $duration = [double]::Parse($durationText.Trim(), $culture)
+                }
                 foreach ($entry in $subtitleEntries) {
                     if ($entry.Start -ge $duration) {
                         throw "자막 $($entry.OriginalIndex)의 start가 영상 길이 이상입니다."
@@ -338,11 +339,21 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 $assFileName = [System.IO.Path]::GetFileName($temporaryAssPath)
                 Push-Location -LiteralPath $sessionPath
                 try {
-                    & $ffmpeg.Source -y -i $temporaryVideoPath `
-                        -vf "ass=filename='$assFileName'" `
-                        -map '0:v:0' -map '0:a:0?' `
-                        -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
-                        -c:a copy $OutputPath
+                    if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+                        & $ffmpeg.Source -y -i $temporaryVideoPath `
+                            -vf "ass=filename='$assFileName'" `
+                            -map '0:v:0' -map '0:a:0?' `
+                            -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
+                            -c:a copy $OutputPath
+                    } else {
+                        & $ffmpeg.Source -y -i $temporaryVideoPath `
+                            -stream_loop -1 -i $BgmPath `
+                            -vf "ass=filename='$assFileName'" `
+                            -map '0:v:0' -map '1:a:0' `
+                            -filter:a $audioFilter -t $durationValue `
+                            -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
+                            -c:a aac -b:a 192k $OutputPath
+                    }
                 } finally {
                     Pop-Location
                 }
