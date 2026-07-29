@@ -131,11 +131,39 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.p
 - `-BgmVolume`: BGM 음량 배율, 기본값 `1.0`
 - `-BgmFadeOutSeconds`: 마지막 페이드아웃 시간(초), 기본값 `2.0`
 
+BGM만 적용:
+
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -BgmPath ".\bgm.mp3" -BgmVolume 0.5 -BgmFadeOutSeconds 2.0
 ```
 
 > **주의:** BGM을 사용하면 장면의 원본 오디오는 제거되고 지정한 BGM으로 교체됩니다. BGM이 영상보다 짧으면 반복 재생되며 최종 영상 길이에 맞게 잘립니다.
+
+### 선택적으로 로고 넣기
+
+- `-LogoPath`: 사용할 PNG 로고 파일 경로
+- PNG 파일만 지원합니다.
+- 로고는 우측 상단에 고정됩니다.
+- 최대 너비는 영상 너비의 15%입니다.
+- 원본 로고가 더 작으면 확대하지 않습니다.
+- 상단과 우측 여백은 영상 크기의 3%입니다.
+- 투명 PNG를 지원합니다.
+
+로고만 적용:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -LogoPath ".\logo.png"
+```
+
+BGM과 로고 함께 적용:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\assemble_final_movie.ps1 -SessionFolder "output\세션ID" -BgmPath ".\bgm.mp3" -BgmVolume 0.5 -BgmFadeOutSeconds 2.0 -LogoPath ".\logo.png"
+```
+
+> **주의:** 로고를 사용하면 영상은 H.264로 재인코딩되므로 기본 조립보다 시간이 더 걸릴 수 있습니다. 로고만 사용하면 원본 오디오는 유지되고, BGM도 사용하면 원본 오디오는 BGM으로 교체됩니다.
+
+실제 브랜드 로고는 투명 배경의 가로형 PNG를 권장하며, 불필요한 투명 여백은 최소화하세요.
 
 최종 영상은 다음 위치에 생성됩니다.
 
