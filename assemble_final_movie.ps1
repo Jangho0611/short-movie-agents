@@ -70,9 +70,6 @@ try {
     $ffprobe = $null
     $subtitleEntries = @()
     if (-not [string]::IsNullOrWhiteSpace($SubtitleConfigPath)) {
-        if (-not [string]::IsNullOrWhiteSpace($LogoPath)) {
-            throw '이번 자막 MVP에서는 로고와 자막을 함께 사용할 수 없습니다.'
-        }
         if (-not (Test-Path -LiteralPath $SubtitleConfigPath -PathType Leaf)) {
             throw "자막 JSON 파일이 아닙니다: $SubtitleConfigPath"
         }
@@ -339,20 +336,44 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 $assFileName = [System.IO.Path]::GetFileName($temporaryAssPath)
                 Push-Location -LiteralPath $sessionPath
                 try {
-                    if ([string]::IsNullOrWhiteSpace($BgmPath)) {
-                        & $ffmpeg.Source -y -i $temporaryVideoPath `
-                            -vf "ass=filename='$assFileName'" `
-                            -map '0:v:0' -map '0:a:0?' `
-                            -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
-                            -c:a copy $OutputPath
+                    if ([string]::IsNullOrWhiteSpace($LogoPath)) {
+                        if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+                            & $ffmpeg.Source -y -i $temporaryVideoPath `
+                                -vf "ass=filename='$assFileName'" `
+                                -map '0:v:0' -map '0:a:0?' `
+                                -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
+                                -c:a copy $OutputPath
+                        } else {
+                            & $ffmpeg.Source -y -i $temporaryVideoPath `
+                                -stream_loop -1 -i $BgmPath `
+                                -vf "ass=filename='$assFileName'" `
+                                -map '0:v:0' -map '1:a:0' `
+                                -filter:a $audioFilter -t $durationValue `
+                                -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
+                                -c:a aac -b:a 192k $OutputPath
+                        }
                     } else {
-                        & $ffmpeg.Source -y -i $temporaryVideoPath `
-                            -stream_loop -1 -i $BgmPath `
-                            -vf "ass=filename='$assFileName'" `
-                            -map '0:v:0' -map '1:a:0' `
-                            -filter:a $audioFilter -t $durationValue `
-                            -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
-                            -c:a aac -b:a 192k $OutputPath
+                        $subtitleLogoFilter = "[0:v]ass=filename='$assFileName'[subtitled];" +
+                            "[subtitled]split[base][ref];" +
+                            "[1:v]format=rgba[logo];" +
+                            "[logo][ref]scale=w='min(iw,rw*0.15)':h=-1[scaled];" +
+                            "[base][scaled]overlay=x='W-w-W*0.03':y='H*0.03':" +
+                            "eof_action=repeat:format=auto[outv]"
+
+                        if ([string]::IsNullOrWhiteSpace($BgmPath)) {
+                            & $ffmpeg.Source -y -i $temporaryVideoPath -i $LogoPath `
+                                -filter_complex $subtitleLogoFilter `
+                                -map '[outv]' -map '0:a:0?' `
+                                -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p `
+                                -c:a copy $OutputPath
+                        } else {
+                            & $ffmpeg.Source -y -i $temporaryVideoPath -i $LogoPath `
+                                -stream_loop -1 -i $BgmPath `
+                                -filter_complex $subtitleLogoFilter `
+                                -map '[outv]' -map '2:a:0' -filter:a $audioFilter `
+                                -t $durationValue -c:v libx264 -preset medium -crf 18 `
+                                -pix_fmt yuv420p -c:a aac -b:a 192k $OutputPath
+                        }
                     }
                 } finally {
                     Pop-Location
