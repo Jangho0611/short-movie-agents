@@ -17,6 +17,11 @@ Diagram:
 
 See [Changelog.md](Changelog.md).
 
+## Production Guides
+
+- [Shorts 제작 운영가이드](docs/Shorts_제작_운영가이드.md) — 기획부터 렌더·정리·Git까지의 전체 제작 프로세스
+- [건축자재 AI 이미지 품목별 프롬프트 가이드](docs/건축자재_AI이미지_품목별_프롬프트_가이드.md) — 이미지와 Flow Start Frame을 위한 Visual Grammar
+
 ## Project Structure
 
 This project is organized as follows:
