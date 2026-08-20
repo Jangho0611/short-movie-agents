@@ -1,11 +1,18 @@
-# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.1
+# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.2
 
-- 문서 버전: `v1.1`
+- 문서 버전: `v1.2`
 - 최초 작성일: `2026-08-19`
 - 상태: `운영 중 / 지속 고도화`
 - 역할: `건축자재 AI 이미지 및 Flow Start Frame 제작을 위한 공통 마스터 가이드`
 
 ## 변경 이력
+
+### v1.2 — 2026-08-20
+
+- Figma / Notion / Linear / Framer `DESIGN.md` 외부 디자인 reference 라이브러리 연결
+- 콘텐츠 유형별 reference 선택 구조 추가
+- 기존 공통 Visual Grammar를 상위 규칙으로 유지
+- 원문은 브랜드 복제가 아닌 레이아웃·타이포·색·모션 참고 자료로만 사용
 
 ### v1.1 — 2026-08-20
 
@@ -69,6 +76,17 @@
 - **[근거 부족]**: 결과 이미지나 기획만 있고 prompt 및 반복 검증 기록이 부족하다. v1.0에서는 상세 문법을 만들지 않고 추후 보완 대상으로 남긴다.
 
 근거가 강한 대표 프로젝트는 `sosong-webtoon-shorts`, `sosong-lvl-webtoon-shorts`, `remotion_video/mdf-density`, `darukki-vs-twobuy-webtoon-shorts`, `xi-natural-gypsum-webtoon-shorts`다. 석고보드 시공과 Xi 실제 제품 사례는 상세 작업기록에 기반한 재구성이다.
+
+### 외부 디자인 레퍼런스
+
+콘텐츠 성격에 따라 다음 원문을 선택 가능한 시각 reference로 사용할 수 있다.
+
+- [Figma DESIGN.md](./design-styles/figma/DESIGN.md)
+- [Notion DESIGN.md](./design-styles/notion/DESIGN.md)
+- [Linear DESIGN.md](./design-styles/linear/DESIGN.md)
+- [Framer DESIGN.md](./design-styles/framer/DESIGN.md)
+
+선택 기준은 [DESIGN.md 스타일 라이브러리](./design-styles/README.md)를 참조한다. 이 자료는 getdesign.md의 독립 분석이며 공식 브랜드 가이드가 아니다. 브랜드 디자인을 복제하지 않고 레이아웃·타이포·색의 역할·모션 원칙만 참고한다. 본 문서의 공통 Visual Grammar가 항상 상위 규칙이다.
 
 ## 3. 공통 이미지 생성 26개 규칙
 

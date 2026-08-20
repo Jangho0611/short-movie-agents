@@ -386,6 +386,8 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 - [ ] Scene 구조와 Scene별 한 메시지 확정
 - [ ] 실사 / 캐릭터 / 정보그래픽 방식 판정
 - [ ] 최신 [Visual Grammar](./건축자재_AI이미지_품목별_프롬프트_가이드.md) 읽기
+- [ ] [DESIGN.md 스타일 라이브러리](./design-styles/README.md) 선택 매트릭스 확인
+- [ ] 콘텐츠 유형에 맞는 DESIGN.md를 영상 또는 Scene 단위로 선택
 - [ ] 실제 제품 reference와 canonical 캐릭터 확보
 - [ ] 기준 이미지 생성·사용자 승인·canonical 저장
 - [ ] Flow/Veo가 꼭 필요한 Scene만 선정
