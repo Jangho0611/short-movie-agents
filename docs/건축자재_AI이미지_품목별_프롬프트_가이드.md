@@ -1,11 +1,24 @@
-# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.0
+# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.1
 
-- 문서 버전: `v1.0`
+- 문서 버전: `v1.1`
 - 최초 작성일: `2026-08-19`
 - 상태: `운영 중 / 지속 고도화`
 - 역할: `건축자재 AI 이미지 및 Flow Start Frame 제작을 위한 공통 마스터 가이드`
 
 ## 변경 이력
+
+### v1.1 — 2026-08-20
+
+- Figma-inspired Shorts visual grammar 추가
+- 한 Scene 한 pastel accent 원칙 추가
+- 실사 제품과 Remotion 정보 레이어 분리 원칙 강화
+- 제품 표면 위 라벨 지양 및 미세한 제품 차이 과장 금지
+- Flow Start Frame 완성도와 최소 모션 원칙 강화
+- 제품/캐릭터 역할 분리 및 반복 이미지 수정 제한 추가
+- 마지막 승인본 복원 규칙과 실패 회복 절차 추가
+- Vertex AI 우선 후보 생성과 도구별 역할 분리 방향 추가
+- MASTER TEMPLATE 및 생성 후 QA 체크리스트 고도화
+- 근거 프로젝트: `eboard-explainer-shorts-v1`
 
 ### v1.0 — 2026-08-19
 
@@ -167,6 +180,53 @@ Use this as the exact first frame. No reframe, crop change or late-frame drift.
 - **[원문 확보]** 한 Scene에는 한 메시지와 한 동작만 둔다.
 - **[원문 확보]** 빈 공간을 지나치게 키워 제품이 작아지지 않게 한다.
 - **[원문 확보]** safe area는 “아무것도 없는 공간”만 뜻하지 않는다. 약한 배경 요소는 허용하되 핵심 정보는 배치하지 않는다.
+
+## 5A. Figma-inspired Shorts 비주얼 문법
+
+이 섹션은 특정 품목의 디자인을 복제하는 규칙이 아니라, 건축자재 정보형 Shorts에서 검증된 범용 화면 구성 원칙이다. 실제 제품 정확도가 모든 그래픽 스타일보다 우선한다.
+
+1. **9:16 layout**: 세로 9:16을 기본으로 하고 제품·캐릭터·정보의 시각적 위계를 첫 프레임에서 읽히게 한다.
+2. **Upper negative space**: 상단 20~30%를 넓은 여백과 typography safe zone으로 계획한다. 긴 문장은 의미 단위 최대 2줄로 나눈다.
+3. **Pastel color block**: warm off-white canvas 위에 한 개의 rounded pastel color block을 보조 그래픽으로 사용할 수 있다.
+4. **One accent color**: 한 Scene에는 pastel accent를 하나만 사용한다. 여러 색으로 정보를 분류해야 할 때도 제품의 실제 색을 임의 변경하지 않는다.
+5. **No-gradient/no-glow default**: gradient, glow, 강한 그림자와 광고형 광택은 기본적으로 사용하지 않는다. 필요한 예외는 메시지 전달 근거가 있을 때만 허용한다.
+6. **Real product priority**: 실제 촬영 reference, 승인 제품 이미지, 디자인 스타일 순으로 우선한다. 실사 표면·단면·인쇄를 그래픽 스타일에 맞추려고 재해석하지 않는다.
+7. **Remotion information layer**: 텍스트, 라벨, 화살표, 숫자와 순차 강조는 이미지에 굽지 않고 Remotion 후편집 레이어로 분리한다.
+8. **Label readability**: 질감과 차이를 설명해야 하는 제품 표면 위에 라벨을 놓지 않는다. 제품 아래 또는 깨끗한 여백에 대응 관계가 명확하게 배치한다.
+9. **Comparison layout**: 비교 대상은 좌우에 같은 시점과 시각 비중으로 두고 가운데 여백을 확보한다. 우열이 목적이 아니면 밝기, 크기, 청결도와 glow로 한쪽을 과장하지 않는다.
+10. **Close-up texture layout**: 단면·표면 close-up은 실제 촬영 reference를 우선하고 층 순서, 끝단, 경계와 두께를 보존한다. 라벨은 후편집한다.
+11. **Subtle difference honesty**: 육안 차이가 작은 제품은 AI로 차이를 키우지 않는다. “겉보기에는 비슷하지만 실제 표면이 다르다”는 사실 자체를 시각 문법으로 사용한다.
+12. **Product/character hierarchy**: 제품 정보 Scene에서는 제품이 주인공이고 캐릭터는 보조다. Hook·마무리 Scene에서만 캐릭터 비중을 필요 범위에서 높인다.
+13. **Controlled mixed media**: 제품은 photorealistic, 캐릭터는 canonical flat 2D/editorial 스타일을 유지할 수 있다. 둘을 억지로 하나의 CGI 스타일로 통일하지 않는다.
+14. **Flow-ready start frame**: Flow Start Frame은 움직임이 없어도 한 장의 완성된 정보 화면이어야 하며, 상단 safe area와 Remotion 라벨 공간까지 미리 확보한다.
+15. **Failure recovery**: 같은 이미지에서 수정 대상은 한 번에 하나만 두고 나머지는 LOCK한다. 2~3회 실패하거나 승인 요소가 퇴보하면 생성을 반복하지 않고 마지막 승인본으로 복귀한 뒤 Remotion 또는 다른 방식으로 전환한다.
+
+### 승인본과 변경 범위 관리
+
+- Preview/후보마다 바뀐 항목을 기록하고 서로 무관한 변경을 한 번에 섞지 않는다.
+- 최신 후보가 항상 최선이라고 가정하지 않는다. 새 수정이 악화되면 사용자가 마지막으로 승인한 버전을 기준으로 복원한다.
+- 캐릭터, 제품, 배경을 번갈아 반복 수정하지 않는다. `수정 대상 1개 + 나머지 LOCK`을 기본 단위로 한다.
+
+### Flow 최소 모션 원칙
+
+- 제품은 가능한 한 static으로 선언한다.
+- 캐릭터의 시선, 손짓 또는 한 가지 작은 반응만 허용한다.
+- 카메라 이동은 메시지에 꼭 필요할 때만 최소화한다.
+- 제품, 캐릭터, 크기, 위치, 제품 모션과 카메라를 한 번에 해결하려 하지 않는다.
+- late-frame drift, 얼굴·단면·외곽선 변형과 마지막 프레임 안정성을 확인한다.
+- 자연스러운 원본 움직임 위에 push-in, zoom, crossfade를 자동 보정처럼 추가하지 않는다. 먼저 마지막 승인본과 재생 방식의 차이를 조사한다.
+
+## 5B. 생성 도구 운영 방향
+
+도구는 역할에 따라 분리한다. 특정 생성 모델을 제품 정확도의 정답으로 간주하지 않는다.
+
+- **GPT**: 기획, prompt 작성, reference 요구사항 정리와 QA 체크리스트 구성
+- **Vertex AI**: 1차 이미지 후보 생성과 후보 비교의 우선 경로
+- **Veo on Vertex**: 승인 Start Frame을 기반으로 한 영상 생성 후보
+- **Flow**: 핵심 Scene이거나 Vertex/Veo 후보가 요구 품질에 미달할 때 선택적으로 사용
+- **Remotion**: 자막, 라벨, 정보 강조, 최소 모션, 음성 싱크와 최종 조립
+
+Vertex AI 사용 전에도 실제 건축자재 reference와 사람의 QA가 필수다. Google Cloud credential, API key, token, service account JSON과 인증 경로는 prompt, 작업 기록, 가이드와 Git 저장소에 기록하지 않는다.
 
 ## 6. 실사 표현 문법
 
@@ -842,6 +902,14 @@ single solid-wood slab
 - [ ] 실제 현장 조명, 그림자와 재료 texture가 자연스러운가?
 - [ ] 첫 프레임 오류가 영상화 과정에서 확대될 위험이 없는가?
 - [ ] Final Start Frame을 사람이 승인했는가?
+- [ ] 한 Scene에 pastel accent가 하나만 사용됐는가?
+- [ ] 제품 표면을 라벨이나 자막이 가리지 않는가?
+- [ ] 실사 제품과 Remotion 정보 레이어가 분리됐는가?
+- [ ] 미세한 제품 차이를 색, 광택, 크기로 과장하지 않았는가?
+- [ ] 움직임이 없어도 Start Frame 자체가 완성된 화면인가?
+- [ ] 제품과 캐릭터의 주·보조 관계가 Scene 목적에 맞는가?
+- [ ] 수정 대상 외 승인 요소가 LOCK됐는가?
+- [ ] 실패 시 복귀할 마지막 승인본과 변경 범위가 기록됐는가?
 
 ## 16. MASTER TEMPLATE
 
@@ -857,6 +925,12 @@ single solid-wood slab
 [자재 규격]
 [보존 요소]
 [금지 요소]
+[상단 typography safe area]
+[Scene pastel accent 1개]
+[Remotion 라벨 여백]
+[제품/캐릭터 주·보조 관계]
+[마지막 승인본]
+[이번 수정 대상 1개]
 ```
 
 ### 복붙용 영어 Prompt MASTER TEMPLATE
@@ -870,6 +944,14 @@ Visual mode: [photorealistic / editorial webtoon / controlled mixed media].
 REFERENCE RULE
 [No reference / Use the supplied image as the exact structural first frame / Use the supplied character image as the single canonical identity reference / Use the supplied real product cutout unchanged.]
 Do not blend the canonical character with any other character design.
+
+REFERENCE PRIORITY
+Use references in this order: verified real product photography, approved product image, then visual style.
+Never sacrifice material accuracy to match a decorative style.
+
+PRODUCT ACCURACY LOCK
+Lock the approved material geometry, cross-section, layer order, surface texture, edge detail, print and object count.
+Do not exaggerate subtle product differences through invented color, gloss, scale or cleanliness.
 
 SCENE PURPOSE
 One scene, one message: [CORE MESSAGE].
@@ -889,10 +971,12 @@ CRITICAL GEOMETRY AND SPECIFICATION
 
 COMPOSITION
 Vertical 9:16 canvas.
-Reserve approximately 20% at the top for later captions and approximately 15% at the bottom as a safe area.
+Reserve approximately 20-30% at the top as an upper typography safe area and approximately 15% at the bottom as a safe area.
 Keep the main object group within the middle 55-65% of the frame.
 Place [OBJECT POSITIONS].
 Leave clear movement space in front of [MOVING SUBJECT] toward [DIRECTION].
+Use one restrained pastel accent color only. Keep labels off the product surface and reserve clean Remotion label space below or beside the product.
+Default to no gradient, no glow and no strong decorative shadow.
 
 MATERIAL AND SURFACE
 Show realistic [GRAIN / FIBER / PARTICLE / PAPER FACING / CORE / END-GRAIN] texture.
@@ -910,6 +994,10 @@ Use only the single supplied canonical reference.
 Preserve the exact face, palette, outline, head-to-body ratio, short torso and short limbs.
 The character is secondary to the material.
 
+PRODUCT VS CHARACTER HIERARCHY
+For product-information scenes, the real product is the primary subject and the character is secondary.
+Increase character prominence only when the scene role is a hook, reaction or closing tip.
+
 ALLOWED MOTION, IF FLOW IS USED
 Allow only one action: [ONE ACTION].
 Duration target: [4 seconds for a restrained reaction / 6 seconds for one structural reveal or construction action].
@@ -918,6 +1006,11 @@ All other objects remain completely static.
 PRESERVE EXACTLY
 Preserve [GEOMETRY, OBJECT COUNT, POSITION, BACKGROUND, PRODUCT PRINT, CHARACTER IDENTITY] from the first frame through the final frame.
 The first and final frames must retain nearly identical geometry and composition.
+
+LOCK UNCHANGED ELEMENTS
+Change only [ONE TARGET ELEMENT].
+Lock every previously approved product, character, background, camera, lighting and composition element.
+If the result regresses after 2-3 attempts, stop regenerating and restore [LAST APPROVED VERSION].
 
 NEGATIVE PROMPT
 CGI, 3D render, plastic surface, glossy commercial render, cinematic exaggeration,
@@ -933,12 +1026,15 @@ POST-PRODUCTION
 Do not generate captions, numeric labels, arrows or graphic logos.
 These elements will be added later in Remotion.
 Do not redraw real product printing; preserve the supplied product cutout unchanged.
+Reserve clean overlay space so Remotion labels never cover important product texture.
 
 FLOW START-FRAME CONDITIONS
 Use this image as the exact first frame.
 Do not reinterpret the approved structure.
 Keep static objects frozen and animate only [MOVING SUBJECT].
 No reframe, crop change, new visual storytelling or late-frame drift.
+The still frame must already work as a complete composition without motion.
+Do not add corrective push-in, zoom or crossfade before comparing against the last approved motion treatment.
 ```
 
 ## 17. 품목별 QUICK TEMPLATE
