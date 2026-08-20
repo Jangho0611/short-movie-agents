@@ -22,6 +22,7 @@ See [Changelog.md](Changelog.md).
 - [Shorts 제작 운영가이드](docs/Shorts_제작_운영가이드.md) — 기획부터 렌더·정리·Git까지의 전체 제작 프로세스
 - [건축자재 AI 이미지 품목별 프롬프트 가이드](docs/건축자재_AI이미지_품목별_프롬프트_가이드.md) — 이미지와 Flow Start Frame을 위한 Visual Grammar
 - [DESIGN.md 스타일 라이브러리](docs/design-styles/README.md) — 건축자재 Shorts용 10종 reference
+- [대산 Shorts Cover System](docs/COVER.md) — SNS 대표이미지의 hierarchy, Hero Product, Brand Lockup, Feed Safe와 승인·정리 기준
 - [Canonical Product Reference Library](references/README.md) — 실제 촬영 건축자재의 Source of Truth
 
 ## Project Structure

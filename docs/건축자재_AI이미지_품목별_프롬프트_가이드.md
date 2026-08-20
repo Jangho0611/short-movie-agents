@@ -1,11 +1,15 @@
-# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.4
+# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.5
 
-- 문서 버전: `v1.4`
+- 문서 버전: `v1.5`
 - 최초 작성일: `2026-08-19`
 - 상태: `운영 중 / 지속 고도화`
 - 역할: `건축자재 AI 이미지 및 Flow Start Frame 제작을 위한 공통 마스터 가이드`
 
 ## 변경 이력
+
+### v1.5 — 2026-08-21
+
+- SNS 대표이미지의 hierarchy, brand lockup, feed crop, 승인·정리 세부 규칙은 [대산 Shorts Cover System](./COVER.md)으로 분리해 연결했다.
 
 ### v1.4 — 2026-08-20
 
@@ -67,6 +71,8 @@
 - 이미지 생성 단계부터 Flow 동작과 Remotion 자막·그래픽 후편집을 고려한다.
 - 실제 제품 사진, 누끼, canonical character reference의 사용 기준을 통일한다.
 - 실패한 prompt를 같은 방식으로 반복하지 않고 기록된 해결책으로 전환한다.
+
+SNS 대표이미지의 세부 제작·운영 규칙은 [대산 Shorts Cover System](./COVER.md)을 사용한다. 본 문서에는 Cover hierarchy와 brand lockup 규칙을 중복하지 않는다.
 
 ### 이미지 유형 구분
 

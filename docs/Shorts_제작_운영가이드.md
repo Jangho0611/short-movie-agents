@@ -1,6 +1,6 @@
 # 건축자재 Shorts 제작 운영가이드
 
-- 문서 버전: `v1.2`
+- 문서 버전: `v1.3`
 - 작성 기준일: `2026-08-20`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `기획 → 조사 → 이미지 → Flow/Veo → Remotion → TTS → QA → 최종 렌더 → 정리 → Git` 전체 제작 프로세스
@@ -9,7 +9,7 @@
 
 이 문서는 실제로 최종 렌더까지 진행한 건축자재 Shorts 프로젝트의 소스와 작업 기록을 바탕으로, 다른 작업자와 Codex가 같은 방식으로 작업을 이어 가기 위한 운영 기준이다. 반복 시행착오를 줄이고, 생성 비용을 통제하며, Scene·TTS·Remotion QA의 일관성과 프로젝트 종료 후 재현 가능성을 보존한다.
 
-이미지와 화면 자체를 만드는 문법은 공식 Visual Grammar 문서인 [건축자재 AI 이미지 품목별 프롬프트 가이드](./건축자재_AI이미지_품목별_프롬프트_가이드.md)를 따른다. 이 운영가이드는 **어떤 순서로 제작하는가**, Visual Grammar는 **어떤 이미지와 화면을 만드는가**를 담당한다. 품목별 프롬프트를 이 문서에 중복하지 않는다.
+이미지와 화면 자체를 만드는 문법은 공식 Visual Grammar 문서인 [건축자재 AI 이미지 품목별 프롬프트 가이드](./건축자재_AI이미지_품목별_프롬프트_가이드.md)를 따른다. SNS 대표이미지는 [대산 Shorts Cover System](./COVER.md)을 따른다. 이 운영가이드는 **어떤 순서로 제작하는가**, Visual Grammar는 **어떤 이미지와 화면을 만드는가**, COVER.md는 **대표이미지를 어떻게 제작·QA·운영하는가**를 담당한다. 세부 규칙을 이 문서에 중복하지 않는다.
 
 ## 조사 근거와 규칙 등급
 
@@ -269,6 +269,17 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 
 전달본 FPS를 변환한 경우 승인 Remotion 마스터와 전달본의 재생 시간이 같은지 확인하고 둘의 역할을 final README에 기록한다.
 
+## 17A. 대표이미지 제작과 업로드 흐름
+
+최종 영상 승인 뒤 영상 첫 Scene과 별도로 대표이미지를 제작한다. 세부 hierarchy, Hero Product, Brand Lockup, Feed Safe, 승인·정리 규칙은 [대산 Shorts Cover System](./COVER.md)을 따른다.
+
+`최종 영상 승인 → 대표이미지 제작 → COVER.md 기준 QA → 업로드 문구 제작 → 업로드 → 불필요 자산 정리`
+
+- Cover Headline과 MAIN / SECONDARY DESIGN을 먼저 결정한다.
+- Vertex를 사용하면 제품+환경만 생성하고 한글과 DAESAN branding은 정확한 후처리 layer로 분리한다.
+- 최종 Cover를 위해 영상 첫 Scene, TTS, Remotion Scene을 임의 수정하지 않는다.
+- 승인 Cover와 재편집에 필요한 Hero를 보존한 뒤 실패·중간 Cover의 의존성을 확인해 정리한다.
+
 ## 18. 최종 자산 정리
 
 정리 전에 전체 프로젝트 용량을 기록하고 final과 코드 참조를 확인한다.
@@ -405,6 +416,9 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 - [ ] 대산 엔딩 로고·TTS·문구·Scene 번호 확인
 - [ ] final 1080×1920 H.264/AAC 렌더
 - [ ] 해상도·FPS·길이·audio/video 전체 디코딩
+- [ ] 최종 영상 승인 뒤 [COVER.md](./COVER.md) 기준 대표이미지 제작
+- [ ] Cover Product QA, Feed Safe QA, DAESAN Brand Lockup 및 사용자 승인
+- [ ] 플랫폼별 업로드 문구 제작과 별도 PNG Cover 적용 여부 확인
 - [ ] 실패본 정리 전 코드 참조와 승인본 확인
 - [ ] 프로젝트에만 필요한 복사본과 장기 재사용 canonical reference 구분
 - [ ] 신규 실사 촬영본의 canonical library 승격 여부를 프로젝트 종료 전에 판단
@@ -441,6 +455,7 @@ Scene 5: Framer
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-08-21 | v1.3 | 대산 Shorts Cover System 연결, 최종 영상 승인 이후 대표이미지·업로드·정리 흐름 추가 |
 | 2026-08-20 | v1.2 | DESIGN.md reference library 4종 → 10종 확장 및 실제 스타일 사용 기록 규칙 추가 |
 | 2026-08-20 | v1.1 | canonical reference 사전 확인과 장기 자산 승격·정리 절차 연결 |
 | 2026-08-20 | v1.0 | 기존 Shorts 제작 기록 기반 최초 통합 |
