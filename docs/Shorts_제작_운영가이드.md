@@ -1,6 +1,6 @@
 # 건축자재 Shorts 제작 운영가이드
 
-- 문서 버전: `v1.0`
+- 문서 버전: `v1.1`
 - 작성 기준일: `2026-08-20`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `기획 → 조사 → 이미지 → Flow/Veo → Remotion → TTS → QA → 최종 렌더 → 정리 → Git` 전체 제작 프로세스
@@ -379,6 +379,8 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 ## 새 Shorts 시작 체크리스트
 
 - [ ] `Wiki_시장`과 기존 source MD 확인
+- [ ] 해당 품목의 [canonical reference library](../references/README.md) 존재 여부 확인
+- [ ] canonical reference가 있으면 `references/<product>/REFERENCE.md` 먼저 읽기
 - [ ] 부족 데이터만 외부 조사하고 출처 기록
 - [ ] 건축자재 지식과 영상 기획 문서 분리
 - [ ] 핵심 주제·시청자·한 문장 결론 확정
@@ -404,6 +406,8 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 - [ ] final 1080×1920 H.264/AAC 렌더
 - [ ] 해상도·FPS·길이·audio/video 전체 디코딩
 - [ ] 실패본 정리 전 코드 참조와 승인본 확인
+- [ ] 프로젝트에만 필요한 복사본과 장기 재사용 canonical reference 구분
+- [ ] 신규 실사 촬영본의 canonical library 승격 여부를 프로젝트 종료 전에 판단
 - [ ] 정리 전후 용량과 보존 자산 기록
 - [ ] `YY.MM.DD수정.md`와 final README/manifest 작성
 - [ ] secret·credential 보안검사
@@ -424,4 +428,5 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-08-20 | v1.1 | canonical reference 사전 확인과 장기 자산 승격·정리 절차 연결 |
 | 2026-08-20 | v1.0 | 기존 Shorts 제작 기록 기반 최초 통합 |

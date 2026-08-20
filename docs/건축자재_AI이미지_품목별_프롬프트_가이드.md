@@ -1,11 +1,16 @@
-# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.2
+# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.3
 
-- 문서 버전: `v1.2`
+- 문서 버전: `v1.3`
 - 최초 작성일: `2026-08-19`
 - 상태: `운영 중 / 지속 고도화`
 - 역할: `건축자재 AI 이미지 및 Flow Start Frame 제작을 위한 공통 마스터 가이드`
 
 ## 변경 이력
+
+### v1.3 — 2026-08-20
+
+- 실제 촬영 제품의 장기 재사용 기준인 [Canonical Product Reference Library](../references/README.md)를 연결했다.
+- 실사가 존재하는 품목은 프롬프트 작성 전에 품목별 `REFERENCE.md`를 우선 확인하도록 명시했다.
 
 ### v1.2 — 2026-08-20
 
@@ -671,6 +676,10 @@ single solid-wood slab
 조사 프로젝트에서 재사용 가능한 실제 이미지 prompt와 시행착오가 확인되지 않았다. 일반 건축 지식으로 문법을 추정하지 않는다.
 
 ## 13. 실제 제품 reference workflow
+
+### Canonical Product Reference Library
+
+실제 제품 실사가 존재하면 AI 프롬프트 작성 전에 [canonical reference library](../references/README.md)와 해당 품목의 `REFERENCE.md`를 먼저 읽는다. 디자인 표현과 실제 제품 외형이 충돌하면 실제 reference 정확도를 우선한다.
 
 대표 사례: Xi 천연석고보드. 근거 등급: **[기록 기반 재구성]**
 
