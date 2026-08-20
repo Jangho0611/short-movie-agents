@@ -1,11 +1,16 @@
-# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.3
+# 건축자재 AI 이미지 품목별 프롬프트 가이드 v1.4
 
-- 문서 버전: `v1.3`
+- 문서 버전: `v1.4`
 - 최초 작성일: `2026-08-19`
 - 상태: `운영 중 / 지속 고도화`
 - 역할: `건축자재 AI 이미지 및 Flow Start Frame 제작을 위한 공통 마스터 가이드`
 
 ## 변경 이력
+
+### v1.4 — 2026-08-20
+
+- DESIGN.md reference library를 4종에서 10종으로 확장했다.
+- 콘텐츠 성격별 선택 기준은 `docs/design-styles/README.md`에서 관리한다.
 
 ### v1.3 — 2026-08-20
 
@@ -90,6 +95,12 @@
 - [Notion DESIGN.md](./design-styles/notion/DESIGN.md)
 - [Linear DESIGN.md](./design-styles/linear/DESIGN.md)
 - [Framer DESIGN.md](./design-styles/framer/DESIGN.md)
+- [Apple DESIGN.md](./design-styles/apple/DESIGN.md)
+- [Airbnb DESIGN.md](./design-styles/airbnb/DESIGN.md)
+- [NVIDIA DESIGN.md](./design-styles/nvidia/DESIGN.md)
+- [Stripe DESIGN.md](./design-styles/stripe/DESIGN.md)
+- [Spotify DESIGN.md](./design-styles/spotify/DESIGN.md)
+- [Shopify DESIGN.md](./design-styles/shopify/DESIGN.md)
 
 선택 기준은 [DESIGN.md 스타일 라이브러리](./design-styles/README.md)를 참조한다. 이 자료는 getdesign.md의 독립 분석이며 공식 브랜드 가이드가 아니다. 브랜드 디자인을 복제하지 않고 레이아웃·타이포·색의 역할·모션 원칙만 참고한다. 본 문서의 공통 Visual Grammar가 항상 상위 규칙이다.
 

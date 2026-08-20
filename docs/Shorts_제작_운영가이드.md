@@ -1,6 +1,6 @@
 # 건축자재 Shorts 제작 운영가이드
 
-- 문서 버전: `v1.1`
+- 문서 버전: `v1.2`
 - 작성 기준일: `2026-08-20`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `기획 → 조사 → 이미지 → Flow/Veo → Remotion → TTS → QA → 최종 렌더 → 정리 → Git` 전체 제작 프로세스
@@ -388,8 +388,8 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 - [ ] Scene 구조와 Scene별 한 메시지 확정
 - [ ] 실사 / 캐릭터 / 정보그래픽 방식 판정
 - [ ] 최신 [Visual Grammar](./건축자재_AI이미지_품목별_프롬프트_가이드.md) 읽기
-- [ ] [DESIGN.md 스타일 라이브러리](./design-styles/README.md) 선택 매트릭스 확인
-- [ ] 콘텐츠 유형에 맞는 DESIGN.md를 영상 또는 Scene 단위로 선택
+- [ ] [10종 DESIGN.md 스타일 라이브러리](./design-styles/README.md) 선택 매트릭스 확인
+- [ ] 콘텐츠 유형에 맞는 DESIGN.md를 선택 매트릭스에서 영상 또는 Scene 단위로 선택
 - [ ] 실제 제품 reference와 canonical 캐릭터 확보
 - [ ] 기준 이미지 생성·사용자 승인·canonical 저장
 - [ ] Flow/Veo가 꼭 필요한 Scene만 선정
@@ -409,10 +409,23 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 - [ ] 프로젝트에만 필요한 복사본과 장기 재사용 canonical reference 구분
 - [ ] 신규 실사 촬영본의 canonical library 승격 여부를 프로젝트 종료 전에 판단
 - [ ] 정리 전후 용량과 보존 자산 기록
-- [ ] `YY.MM.DD수정.md`와 final README/manifest 작성
+- [ ] `YY.MM.DD수정.md`에 실제 사용한 `DESIGN.md`를 Main·Scene별로 기록하고 final README/manifest 작성
 - [ ] secret·credential 보안검사
 - [ ] 관련 파일만 commit
 - [ ] `origin/main` push와 최종 git status 확인
+
+### DESIGN.md 사용 기록
+
+각 프로젝트의 `YY.MM.DD수정.md`에는 실제 적용한 스타일만 다음처럼 기록한다.
+
+```text
+사용 DESIGN.md
+Main: Notion
+Scene 3: Linear
+Scene 5: Framer
+```
+
+실제로 사용하지 않은 `DESIGN.md`는 기록하지 않는다. 이 기록은 건축자재 콘텐츠에서 효과적이었던 스타일과 실패 사례를 축적하는 근거로 사용한다.
 
 ## 문서 고도화 규칙
 
@@ -428,5 +441,6 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-08-20 | v1.2 | DESIGN.md reference library 4종 → 10종 확장 및 실제 스타일 사용 기록 규칙 추가 |
 | 2026-08-20 | v1.1 | canonical reference 사전 확인과 장기 자산 승격·정리 절차 연결 |
 | 2026-08-20 | v1.0 | 기존 Shorts 제작 기록 기반 최초 통합 |
