@@ -1,6 +1,6 @@
 # 대산 Shorts Cover System
 
-- 문서 버전: `v1.2`
+- 문서 버전: `v1.3`
 - 제정일: `2026-08-21`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `Shorts / Reels / Clip 대표이미지의 제작·QA·승인·정리 기준`
@@ -163,6 +163,18 @@ Cover는 영상 Scene과 별도 자산으로 관리한다. 대표이미지를 �
 - 실패·중간 Cover는 코드·문서 의존성을 확인한 뒤 macOS 휴지통으로 이동한다. 영구 삭제하지 않는다.
 - 정리한 파일 수와 절약 용량을 프로젝트 작업 기록에 남긴다.
 
+### 외부 제작 / 스케치컷 영상 Cover
+
+원본 프로젝트 기록, 작업 MD, canonical reference가 없는 사수/외부 제작 스케치컷·드로잉형 영상은 다음 순서로 진행한다.
+
+`영상 제공 → 실제 영상 내용 분석 → 대표 프레임/스케치 요소 선정 → DAESAN Cover System 재구성 → 사용자 시각 승인`
+
+- 파일명만 보고 내용을 추정하거나 기억만으로 Headline을 작성하지 않는다.
+- 원본 영상은 수정하지 않고 Cover만 별도 생성한다.
+- 원본 Scene을 사각형 카드처럼 그대로 삽입하지 않는다.
+- 영상 프레임의 full-bleed/crop, 스케치 요소의 독립 Hero 재구성, 기존 손글씨·그림의 자연스러운 활용을 우선한다.
+- 제품·캐릭터·선화 손상 위험이 있으면 억지로 배경을 제거하지 않고 자연스러운 full-bleed/crop을 사용한다.
+
 ## 14. Canonical Cover Case 01 — 석고보드, 먹어도 되나요?
 
 ### 초기 실사 Cover
@@ -256,10 +268,145 @@ canonical 실사의 베이지색 원지 면을 identity로 너무 강하게 반�
 - 공통 보존: `references/covers/mdf-pb-plywood-cover-approved-v1.png`
 - 확인 필요사항: 원 프로젝트 작업기록에는 최종 렌더 완료가 명시되어 있으나 현재 final MP4 위치는 확인되지 않음
 
+## 19. Approved Case 06 — 소송각재 납품 품질
+
+- 콘텐츠명: `소송각재 납품 품질`
+- Headline: `각재가 휘었다면, / 원인은 뭘까?`
+- Category: `현장 자재 상식 · 소송각재`
+- MAIN DESIGN: `Notion`
+- SECONDARY DESIGN: `Figma`
+- 사용 asset: `sosong-webtoon-shorts/public/assets/images/scene01-vertex-reference-v4.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 승인 Scene에서 정상·휘어진·묶음 각재와 대산이를 독립 Hero로 재구성하고 배경 제거 artifact를 v3에서 수정
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/sosong-lumber-quality-cover-v3.png`
+- 공통 보존: `references/covers/sosong-lumber-quality-cover-approved-v1.png`
+
+## 20. Approved Case 07 — 소송각재 vs LVL
+
+- 콘텐츠명: `소송각재 vs LVL`
+- Headline: `소송각재 vs LVL, / 무엇이 다를까?`
+- Category: `건축자재 비교 · 구조용 각재`
+- MAIN DESIGN: `Stripe`
+- SECONDARY DESIGN: `Linear`
+- 사용 asset: `sosong-lvl-webtoon-shorts/public/assets/images/scene01-reference-v1.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 소송각재와 LVL 적층 구조를 좌우 독립 Hero로 재구성
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/sosong-vs-lvl-cover-v2.png`
+- 공통 보존: `references/covers/sosong-vs-lvl-cover-approved-v1.png`
+
+## 21. Approved Case 08 — 천연석고 vs 배연탈황석고
+
+- 콘텐츠명: `천연석고 vs 배연탈황석고`
+- Headline: `같은 석고보드, / 원료도 같을까?`
+- Category: `건축자재 상식 · 석고보드 원료`
+- MAIN DESIGN: `Airbnb`
+- SECONDARY DESIGN: `Figma`
+- 사용 asset: `xi-natural-gypsum-webtoon-shorts/public/assets/images/scene02-final.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 천연석고와 배연탈황석고 스케치 요소를 독립 비교 Hero로 재구성
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/natural-vs-fgd-gypsum-cover-v2.png`
+- 공통 보존: `references/covers/natural-vs-fgd-gypsum-cover-approved-v1.png`
+
+## 22. Approved Case 09 — PF보드 vs XPS
+
+- 콘텐츠명: `PF보드 vs XPS`
+- Headline: `같은 단열 성능, / 두께는 왜 다를까?`
+- Category: `건축자재 비교 · 단열재`
+- MAIN DESIGN: `Shopify`
+- SECONDARY DESIGN: `Linear`
+- 사용 asset: `remotion_video/pf-vs-xps/src/components/ProductBoard.tsx`, `src/scenes/Scene1Hook.tsx`
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 코드형 제품 geometry를 PF 115mm와 XPS 160mm 독립 Hero로 재구성
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/pf-vs-xps-cover-v1.png`
+- 공통 보존: `references/covers/pf-vs-xps-cover-approved-v1.png`
+
+## 23. Approved Case 10 — MDF 밀도
+
+- 콘텐츠명: `MDF 밀도`
+- Headline: `같은 MDF인데, / 왜 처질까?`
+- Category: `건축자재 상식 · MDF`
+- MAIN DESIGN: `NVIDIA`
+- SECONDARY DESIGN: `Figma`
+- 사용 asset: `remotion_video/mdf-density/reference/scene1-v5-reference-001-9x16.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 처진 MDF 선반 사진을 full-bleed crop하고 선반 중심으로 최소 명암 보정
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/mdf-density-cover-v2.png`
+- 공통 보존: `references/covers/mdf-density-cover-approved-v1.png`
+
+## 24. Approved Case 11 — 창호 결로
+
+- 콘텐츠명: `창호 결로`
+- Headline: `새 창호인데, / 왜 결로가 생길까?`
+- Category: `시공 상식 · 창호와 단열`
+- MAIN DESIGN: `Airbnb`
+- SECONDARY DESIGN: `Apple`
+- 사용 asset: `remotion_video/projects/window-condensation-shorts-v1/public/assets/images/scene01.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 실제 창호·결로 사진을 full-bleed로 사용하고 불필요한 지시 그래픽을 제거
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/window-condensation-cover-v2.png`
+- 공통 보존: `references/covers/window-condensation-cover-approved-v1.png`
+
+## 25. Approved Case 12 — 자이 천연석고 외부영상
+
+- 원본: 외부 제작 MP4 `external-shorts/자이천연석고1.mp4`
+- 프로젝트 기록: 없음
+- 콘텐츠명: `자이 천연석고`
+- Headline: `석고보드의 시작, / 땅일까 설비일까?`
+- Category: `건축자재 원료 · 석고보드`
+- MAIN DESIGN: `Figma`
+- SECONDARY DESIGN: `Notion`
+- 분석/asset: 실제 MP4 내용 분석 후 천연석고 채굴과 합성석고 탈황설비 스케치 프레임 사용
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: 영상 프레임의 스케치 요소를 DAESAN Cover System 비교 Hero로 재구성
+- 원본 MP4: 무수정
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/xi-natural-gypsum-external-cover-v1.png`
+- 공통 보존: `references/covers/xi-natural-gypsum-external-cover-approved-v1.png`
+
+## 26. Approved Case 13 — 중국산 석고보드 외부영상
+
+- 원본: 외부 제작 MP4 `external-shorts/중국산석고1.mp4`
+- 프로젝트 기록: 없음
+- 콘텐츠명: `중국산 석고보드`
+- Headline: `10% 저렴한데, / 왜 선택받지 못했을까?`
+- Category: `건축자재 비교 · 석고보드`
+- MAIN DESIGN: `Spotify`
+- SECONDARY DESIGN: `Linear`
+- 분석/asset: 실제 MP4 내용 분석 후 중국산·국산·소비자·저울 비교 스케치 프레임 사용
+- Vertex 사용 여부: `미사용 / 0회`
+- Cover 방식: Hero 전체를 보존한 비교형 composition으로 재구성하고 v2에서 손글씨와 비교 요소를 완전 노출
+- 원본 MP4: 무수정
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/chinese-gypsum-external-cover-v2.png`
+- 공통 보존: `references/covers/chinese-gypsum-external-cover-approved-v1.png`
+
 ## 변경 이력
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-08-21 | v1.3 | Case 06~13, 외부 제작/스케치컷 영상 운영 규칙과 전체 Cover 정비 완료 상태 추가 |
 | 2026-08-21 | v1.2 | BATCH 01 Approved Case 03~05와 배경 직접 배치 Brand Lockup 규칙 추가 |
 | 2026-08-21 | v1.1 | 이보드 Approved Case 02, 3-reference 기본 규칙과 Vertex response 진단 규칙 추가 |
 | 2026-08-21 | v1.0 | 대산 Cover System 제정 및 석고보드 첫 Canonical Cover Case 등록 |

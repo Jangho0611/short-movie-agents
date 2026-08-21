@@ -96,3 +96,101 @@ Credential, API key, token과 private key는 이 reference에 기록하지 않�
 - 확인 필요사항: 원 프로젝트 작업기록에는 최종 렌더 완료가 명시되어 있으나 현재 final MP4 위치는 확인되지 않음
 
 Case 03~05 승인본도 원본 final Cover를 재인코딩하지 않고 byte-for-byte 복사해 보존한다. Credential, API key, token과 private key는 기록하지 않는다.
+
+## sosong-lumber-quality-cover-approved-v1.png — Case 06
+
+- 콘텐츠명: `소송각재 납품 품질`
+- Headline: `각재가 휘었다면, / 원인은 뭘까?`
+- 승인 원본: `public/covers/sosong-lumber-quality-cover-v3.png`
+- 사용 DESIGN.md: MAIN `Notion`, SECONDARY `Figma`
+- 사용 asset: `sosong-webtoon-shorts/public/assets/images/scene01-vertex-reference-v4.png`
+- Cover 방식: 독립 Hero 재구성, v3 rectangular artifact 수정
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## sosong-vs-lvl-cover-approved-v1.png — Case 07
+
+- 콘텐츠명: `소송각재 vs LVL`
+- Headline: `소송각재 vs LVL, / 무엇이 다를까?`
+- 승인 원본: `public/covers/sosong-vs-lvl-cover-v2.png`
+- 사용 DESIGN.md: MAIN `Stripe`, SECONDARY `Linear`
+- 사용 asset: `sosong-lvl-webtoon-shorts/public/assets/images/scene01-reference-v1.png`
+- Cover 방식: 좌우 구조 비교형 독립 Hero
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## natural-vs-fgd-gypsum-cover-approved-v1.png — Case 08
+
+- 콘텐츠명: `천연석고 vs 배연탈황석고`
+- Headline: `같은 석고보드, / 원료도 같을까?`
+- 승인 원본: `public/covers/natural-vs-fgd-gypsum-cover-v2.png`
+- 사용 DESIGN.md: MAIN `Airbnb`, SECONDARY `Figma`
+- 사용 asset: `xi-natural-gypsum-webtoon-shorts/public/assets/images/scene02-final.png`
+- Cover 방식: 스케치 요소 독립 비교 Hero
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## pf-vs-xps-cover-approved-v1.png — Case 09
+
+- 콘텐츠명: `PF보드 vs XPS`
+- Headline: `같은 단열 성능, / 두께는 왜 다를까?`
+- 승인 원본: `public/covers/pf-vs-xps-cover-v1.png`
+- 사용 DESIGN.md: MAIN `Shopify`, SECONDARY `Linear`
+- 사용 asset: `remotion_video/pf-vs-xps/src/components/ProductBoard.tsx`
+- Cover 방식: 코드형 PF 115mm / XPS 160mm 독립 제품 Hero
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## mdf-density-cover-approved-v1.png — Case 10
+
+- 콘텐츠명: `MDF 밀도`
+- Headline: `같은 MDF인데, / 왜 처질까?`
+- 승인 원본: `public/covers/mdf-density-cover-v2.png`
+- 사용 DESIGN.md: MAIN `NVIDIA`, SECONDARY `Figma`
+- 사용 asset: `remotion_video/mdf-density/reference/scene1-v5-reference-001-9x16.png`
+- Cover 방식: 처진 MDF 선반 사진 full-bleed crop과 최소 명암 보정
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## window-condensation-cover-approved-v1.png — Case 11
+
+- 콘텐츠명: `창호 결로`
+- Headline: `새 창호인데, / 왜 결로가 생길까?`
+- 승인 원본: `public/covers/window-condensation-cover-v2.png`
+- 사용 DESIGN.md: MAIN `Airbnb`, SECONDARY `Apple`
+- 사용 asset: `remotion_video/projects/window-condensation-shorts-v1/public/assets/images/scene01.png`
+- Cover 방식: 실제 창호·결로 사진 full-bleed
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## xi-natural-gypsum-external-cover-approved-v1.png — Case 12
+
+- 콘텐츠명: `자이 천연석고 외부영상`
+- 승인 원본: `public/covers/xi-natural-gypsum-external-cover-v1.png`
+- 원본 영상: `external-shorts/자이천연석고1.mp4` (외부 제작, 프로젝트 기록 없음)
+- 제작 근거: 실제 MP4 분석과 천연석고 채굴·합성석고 설비 스케치 프레임
+- 사용 DESIGN.md: MAIN `Figma`, SECONDARY `Notion`
+- 원본 MP4: 무수정
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+## chinese-gypsum-external-cover-approved-v1.png — Case 13
+
+- 콘텐츠명: `중국산 석고보드 외부영상`
+- 승인 원본: `public/covers/chinese-gypsum-external-cover-v2.png`
+- 원본 영상: `external-shorts/중국산석고1.mp4` (외부 제작, 프로젝트 기록 없음)
+- 제작 근거: 실제 MP4 분석과 중국산·국산·소비자·저울 비교 스케치 프레임
+- 사용 DESIGN.md: MAIN `Spotify`, SECONDARY `Linear`
+- 원본 MP4: 무수정
+- Vertex: 미사용
+- Feed Safe: `PASS`
+- 승인일/상태: `2026-08-21 / APPROVED`
+
+Case 06~13 승인본은 원본 Cover를 재인코딩하지 않고 byte-for-byte 복사해 보존하며 `cmp`와 SHA-256으로 동일성을 검증했다. Credential, API key, token과 private key는 기록하지 않는다.

@@ -1,10 +1,14 @@
 # 기존 Shorts Cover 정비계획
 
+- 상태: `COMPLETED`
+- 완료일: `2026-08-21`
+- 적용 범위: 현재 SNS 업로드·업로드 대상 기존 영상과 외부 제작 영상 Cover
+
 ## 목적
 
 Instagram에 이미 게시했거나 업로드용으로 완성된 대산 Shorts/Reels의 대표이미지를 `대산 Shorts Cover System`의 공통 시각 문법으로 순차 정비한다. 모든 게시물을 같은 템플릿으로 복제하지 않고, 품목과 영상 형식에 맞춰 구도·배경·Headline 위치를 달리하면서도 한 채널로 인지되게 한다.
 
-이번 문서는 조사와 제작 계획만 다룬다. Cover·Hero 이미지를 생성하거나 기존 영상, TTS, Remotion 소스를 수정하지 않았다.
+초기 조사와 제작 계획에서 시작해 BATCH 01~03 및 외부 제작 영상 Cover까지 완료했다. Cover 정비 과정에서 기존 영상, TTS, Remotion 소스와 final MP4는 수정하지 않았다.
 
 ## 조사 범위와 판정 기준
 
@@ -91,11 +95,16 @@ Instagram에 이미 게시했거나 업로드용으로 완성된 대산 Shorts/R
 - Vertex 필요 여부: 아니오
 - 선택 이유: 세 제품 인지와 비교 검색성이 높고 단면형 Cover 훅이 강하며 기존 실사·승인 비교 자산이 풍부하다. 단, 제작 시작 전 현재 Instagram 게시본 또는 최종 MP4 위치를 먼저 확인한다.
 
-## 이후 Batch 후보
+## 이후 Batch 완료 결과
 
-1. 소송각재 납품 품질: `각재가 휘었다면, / 원인은 뭘까?` — MAIN Notion / SECONDARY Figma
-2. 소송각재 vs LVL: `소송각재 vs LVL, / 무엇이 다를까?` — MAIN Stripe / SECONDARY Linear
-3. 천연석고 vs 배연탈황석고: `같은 석고보드, / 원료도 같을까?` — MAIN Airbnb / SECONDARY Figma
+1. 소송각재 납품 품질: `public/covers/sosong-lumber-quality-cover-v3.png` — APPROVED
+2. 소송각재 vs LVL: `public/covers/sosong-vs-lvl-cover-v2.png` — APPROVED
+3. 천연석고 vs 배연탈황석고: `public/covers/natural-vs-fgd-gypsum-cover-v2.png` — APPROVED
+4. PF보드 vs XPS: `public/covers/pf-vs-xps-cover-v1.png` — APPROVED
+5. MDF 밀도: `public/covers/mdf-density-cover-v2.png` — APPROVED
+6. 창호 결로: `public/covers/window-condensation-cover-v2.png` — APPROVED
+7. 자이 천연석고 외부영상: `public/covers/xi-natural-gypsum-external-cover-v1.png` — APPROVED
+8. 중국산 석고보드 외부영상: `public/covers/chinese-gypsum-external-cover-v2.png` — APPROVED
 
 ## BATCH 01 승인 후 정리
 
@@ -109,11 +118,12 @@ Instagram에 이미 게시했거나 업로드용으로 완성된 대산 Shorts/R
 ## 집계
 
 - 조사한 프로젝트: 10개
-- 실제 완성 Shorts: 8개
-- Cover System 적용 완료: 5개
-- 신규 Cover 정비 대상: 6개 중 3개 완료, 3개 잔여
+- 기존 Cover System Approved Case: 13개
+- 현재 업로드·업로드 대상 영상 Cover: 전부 생성/수정 완료
+- 현재 미처리 Cover: 0개
+- 향후 신규 업로드 영상: `docs/COVER.md` 기준으로 영상 승인 후 Cover를 별도 제작
 - Canonical Product Reference 보유 콘텐츠: 4개(석고보드 관련 3개, 이보드 1개)
-- Vertex 필요 예상: 0개. 모든 대상에서 실제 촬영 reference, 승인 이미지 또는 고품질 영상 Hero를 우선 사용할 수 있다.
+- 기존 Cover 정비 중 Vertex 추가 호출: 0회
 - 작은 대산이/대산이 캐릭터 사용: 6개
 
 ## 실행 제한 확인
@@ -121,3 +131,7 @@ Instagram에 이미 게시했거나 업로드용으로 완성된 대산 Shorts/R
 - BATCH 01 final Cover 제작 및 승인: 완료
 - Vertex 호출: 0회
 - 기존 영상/TTS/Remotion 수정: 없음
+
+## 최종 완료 선언
+
+현재 SNS에 업로드되어 있거나 업로드 대상으로 확정된 기존 영상의 Cover 정비는 `COMPLETED`다. 현재 미처리 Cover는 없으며, 신규 업로드 영상부터 `docs/COVER.md`의 최신 Workflow, Feed Safe, Brand Lockup, 외부 제작/스케치컷 운영 규칙을 적용한다.
