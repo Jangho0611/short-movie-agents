@@ -1,6 +1,6 @@
 # 대산 Shorts Cover System
 
-- 문서 버전: `v1.0`
+- 문서 버전: `v1.1`
 - 제정일: `2026-08-21`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `Shorts / Reels / Clip 대표이미지의 제작·QA·승인·정리 기준`
@@ -80,6 +80,10 @@ Canonical Reference가 있으면 프롬프트 작성 전에 반드시 확인한�
 
 Canonical Reference가 최종 Cover Background여야 한다는 뜻은 아니다. 필요하면 Vertex AI로 editorial Hero Product를 재구성할 수 있지만 제품 정체성이 달라지면 FAIL이다. 사진에서 보이는 면이 소비자가 대표적으로 인식하는 제품 면인지도 함께 판단한다.
 
+Cover용 Vertex reference는 제품 identity를 설명하는 대표 2~3장부터 시작한다. 기본 조합은 `전체/사선 + 정면/표면 + 단면`이며, 사진 수가 많다고 항상 더 좋은 결과가 나오는 것은 아니다. Canonical 원본은 수정하지 않고 호출용 축소 copy를 만든다.
+
+이보드 사례에서는 canonical reference 9장(실제 이미지 약 36MB, base64 약 48MB)을 inline으로 전달한 요청에서 이미지 output이 없었다. 대표 3장을 1600×2134로 축소한 copy(총 binary 약 1.63MB, 예상 base64 약 2.18MB)로 구성한 다음 요청에서는 이미지가 정상 생성됐다. 이 사례에서 과도한 inline payload를 가장 유력한 실패 원인으로 기록하되, 단일 사례만으로 모델의 고정 이미지 개수 제한이라고 단정하지 않는다.
+
 ## 7. 제품 정확도 QA
 
 AI Hero 생성 뒤 다음을 PASS / WARN / FAIL로 검사한다.
@@ -113,6 +117,8 @@ Cover 시작 시 `MAIN DESIGN / SECONDARY DESIGN`을 먼저 결정한다. 항상
 기본 후보는 1~2장이다. QA 전에 자동 재생성하지 않으며 단순 취향 문제로 후보를 무작정 늘리지 않는다.
 
 `Reference 확인 → Prompt 설계 → 1~2장 생성 → Product QA → 사용자 확인 → 필요한 경우에만 수정`
+
+성공·실패와 관계없이 민감정보를 제외한 response summary를 남길 수 있다. 기록 항목은 candidate count, part type, inlineData 존재 여부, MIME, finishReason, blockReason, usage metadata로 제한한다. raw base64, credential, token, API key는 기록하지 않는다.
 
 ## 10. Cover 표준 Workflow 13단계
 
@@ -180,8 +186,27 @@ canonical 실사의 베이지색 원지 면을 identity로 너무 강하게 반�
 
 최종 승인 Cover는 `references/covers/gypsum-food-cover-approved-v1.png`에 보존한다. 이 사례의 구도를 모든 Cover에 복제하지 않고 공통 Visual Grammar만 계승한다.
 
+## 15. Approved Case 02 — 이보드
+
+- 콘텐츠: `이보드`
+- Cover headline: `단열 후 / 석고보드까지?`
+- 승인 Cover: `eboard-cover-v1.png`
+- MAIN DESIGN: `Apple`
+- SECONDARY DESIGN: `Figma`
+- Vertex 모델: `gemini-3.1-flash-image`
+- 승인 Hero: `eboard-hero-v1.png`
+- 제품: 복합단열재 이보드
+- 제품 identity: 검정 계열 표면 + 분홍 XPS core
+- Brand Lockup: `DAESAN / 대산종합건축자재`
+- Feed Safe: Instagram profile grid를 포함한 중앙 crop `PASS`
+- 최종 상태: `APPROVED`
+- 승인일: `2026-08-21`
+
+최종 승인 Cover는 `references/covers/eboard-cover-approved-v1.png`에 보존한다. Vertex Hero와 정확한 한글 typography·Brand Lockup을 분리해 조립했으며, 제품의 표면과 단면 identity를 모바일에서도 읽을 수 있게 유지했다.
+
 ## 변경 이력
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-08-21 | v1.1 | 이보드 Approved Case 02, 3-reference 기본 규칙과 Vertex response 진단 규칙 추가 |
 | 2026-08-21 | v1.0 | 대산 Cover System 제정 및 석고보드 첫 Canonical Cover Case 등록 |

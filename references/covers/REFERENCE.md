@@ -28,3 +28,20 @@
 - Instagram profile grid를 포함한 중앙 Feed Safe: PASS
 
 Credential, API key, token과 private key는 이 reference에 기록하지 않는다.
+
+## eboard-cover-approved-v1.png
+
+- 원 프로젝트: `eboard-explainer-shorts-v1`
+- 콘텐츠명: `이보드`
+- 승인일: `2026-08-21`
+- 승인 Cover: `public/covers/eboard-cover-v1.png`
+- 사용 DESIGN.md: MAIN `Apple`, SECONDARY `Figma`
+- Vertex 모델: `gemini-3.1-flash-image`
+- 승인 Hero: `public/covers/vertex/eboard-hero-v1.png`
+- Hero Product 특징: 검정 계열 표면과 분홍 XPS core가 드러나는 복합단열재 이보드
+- Brand Lockup: `DAESAN / 대산종합건축자재`
+- 공통 보존 파일: `references/covers/eboard-cover-approved-v1.png`
+- Feed Safe: Instagram profile grid를 포함한 중앙 crop `PASS`
+- 승인 상태: `APPROVED`
+
+원 프로젝트 승인 Cover를 변환하거나 재인코딩하지 않고 byte-for-byte 복사해 보존한다. Credential, API key, token과 private key는 이 reference에 기록하지 않는다.
