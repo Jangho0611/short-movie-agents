@@ -1,6 +1,6 @@
 # 대산 Shorts Cover System
 
-- 문서 버전: `v1.1`
+- 문서 버전: `v1.2`
 - 제정일: `2026-08-21`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `Shorts / Reels / Clip 대표이미지의 제작·QA·승인·정리 기준`
@@ -50,6 +50,9 @@ Supporting Copy는 강제하지 않는다. Headline만으로 메시지가 충분
 - `DAESAN`과 `대산종합건축자재`는 정확한 후처리 typography layer로 만든다.
 - Brand Lockup은 Headline보다 먼저 보이거나 강해지면 안 된다.
 - 하단 좌·중·우 위치는 composition에 따라 바꿀 수 있으나 크기와 시각적 위계는 유사하게 유지한다.
+- Brand Lockup은 불투명 흰색 카드 안에 넣지 않는다. 기본은 배경 위에 `[심볼] + DAESAN + 대산종합건축자재`를 직접 배치한다.
+- 밝은 배경에서는 대산 Green을 중심으로 사용하고, 어두운 배경에서는 White 또는 충분히 밝은 색을 사용할 수 있다.
+- 가독성 문제는 위치, 색과 주변 대비의 최소 보정으로 해결하며 큰 카드·박스를 추가하지 않는다. Brand Lockup은 정보 카드가 아니라 브랜드 서명으로 보이게 한다.
 
 현재 승인 asset 예시는 `public/assets/logos/daesanlogo2.png`다.
 
@@ -204,9 +207,59 @@ canonical 실사의 베이지색 원지 면을 identity로 너무 강하게 반�
 
 최종 승인 Cover는 `references/covers/eboard-cover-approved-v1.png`에 보존한다. Vertex Hero와 정확한 한글 typography·Brand Lockup을 분리해 조립했으며, 제품의 표면과 단면 identity를 모바일에서도 읽을 수 있게 유지했다.
 
+## 16. Approved Case 03 — 석고보드 벽체 시공
+
+- 콘텐츠명: `석고보드 벽체 시공`
+- Headline: `석고보드 벽, / 안쪽은 어떻게 만들까?`
+- Category: `건축자재 상식 · 석고보드 시공`
+- MAIN DESIGN: `Framer`
+- SECONDARY DESIGN: `Notion`
+- 사용 asset: `gypsum-board-installation-shorts/public/references/scene05-start-v1.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Brand Lockup: 배경 위에 승인 심볼과 대산 Green 계열 텍스트를 직접 배치. 불투명 카드 없이 가독성을 위해 Lockup 색만 최소 보정
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/gypsum-wall-cover-final.png`
+- 공통 보존: `references/covers/gypsum-wall-cover-approved-v1.png`
+
+## 17. Approved Case 04 — 다루끼 vs 투바이
+
+- 콘텐츠명: `다루끼 vs 투바이`
+- Headline: `다루끼 vs 투바이, / 크기만 다를까?`
+- Category: `건축자재 상식 · 각재`
+- MAIN DESIGN: `Figma`
+- SECONDARY DESIGN: `Linear`
+- 사용 asset: `darukki-vs-twobuy-webtoon-shorts/public/references/scene01-hook-reference-final.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Brand Lockup: 밝은 배경 위에 승인 심볼과 대산 Green 계열 텍스트를 직접 배치
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/daruki-vs-twoby-cover-final.png`
+- 공통 보존: `references/covers/daruki-vs-twoby-cover-approved-v1.png`
+
+## 18. Approved Case 05 — MDF·PB·합판
+
+- 콘텐츠명: `MDF·PB·합판`
+- Headline: `MDF·PB·합판, / 속은 어떻게 다를까?`
+- Category: `건축자재 상식 · 판재`
+- MAIN DESIGN: `Linear`
+- SECONDARY DESIGN: `NVIDIA`
+- 사용 asset: `MDF_vs_PB_vs_Plywood/reference/generated/scene2-compare-final.png`
+- Vertex 사용 여부: `미사용 / 0회`
+- Brand Lockup: 어두운 배경 위에 승인 심볼과 White 계열 텍스트를 직접 배치
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-08-21`
+- 상태: `APPROVED`
+- 최종 Cover: `public/covers/mdf-pb-plywood-cover-final.png`
+- 공통 보존: `references/covers/mdf-pb-plywood-cover-approved-v1.png`
+- 확인 필요사항: 원 프로젝트 작업기록에는 최종 렌더 완료가 명시되어 있으나 현재 final MP4 위치는 확인되지 않음
+
 ## 변경 이력
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-08-21 | v1.2 | BATCH 01 Approved Case 03~05와 배경 직접 배치 Brand Lockup 규칙 추가 |
 | 2026-08-21 | v1.1 | 이보드 Approved Case 02, 3-reference 기본 규칙과 Vertex response 진단 규칙 추가 |
 | 2026-08-21 | v1.0 | 대산 Cover System 제정 및 석고보드 첫 Canonical Cover Case 등록 |
