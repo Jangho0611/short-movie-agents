@@ -143,8 +143,11 @@ Cover 시작 시 `MAIN DESIGN / SECONDARY DESIGN`을 먼저 결정한다. 항상
 
 - 기본 원본: `1080×1920 PNG`, 세로 9:16
 - 사용 대상: Instagram Reels / profile grid, YouTube Shorts, Naver Clip
+- Instagram 피드/그리드 정사각형(1:1) 크롭 시 제목·로고가 잘리지 않도록, 세로 중앙 `1080×1080` 안전영역 안에 제목·로고를 배치한다.
+- 1080×1920 원본 기준 상하 약 `420px` 구간은 정사각형 크롭에서 잘리는 영역으로 간주하며, 이 구간에는 Category 등 비핵심 요소만 허용한다.
 - Headline, Category, Hero Product 핵심부와 Brand Lockup이 크롭에서 지나치게 잘리지 않게 중앙 안전영역을 고려한다.
 - 특히 Instagram profile grid 중앙 crop에서 Headline과 Category가 유지되는지 확인한다.
+- 카테고리 라벨+제목 블록의 세로 위치는 모든 편 동일하게 고정한다(기존 틀 기준 상단 y좌표). 하단 DAESAN 로고 위치만 이미지 구도에 따라 좌·우로 배치 조정할 수 있다.
 - 필요하면 crop preview를 만들 수 있으나 승인 후 임시 preview는 정리한다.
 
 ## 12. Cover와 Video Hook의 분리
