@@ -1,0 +1,7 @@
+*.mp4
+*.mov
+*.mp3
+*.wav
+assets/
+renders/
+temp/
