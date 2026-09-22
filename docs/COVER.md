@@ -1,6 +1,6 @@
 # 대산 Shorts Cover System
 
-- 문서 버전: `v1.3`
+- 문서 버전: `v1.4`
 - 제정일: `2026-08-21`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `Shorts / Reels / Clip 대표이미지의 제작·QA·승인·정리 기준`
@@ -15,6 +15,13 @@
 - [DESIGN.md 스타일 라이브러리](./design-styles/README.md): 콘텐츠별 디자인 스타일 선택 기준
 - **COVER.md**: SNS 대표이미지의 hierarchy, brand lockup, crop, 승인과 정리 규칙
 - [Shorts 제작 운영가이드](./Shorts_제작_운영가이드.md): 전체 제작 파이프라인과 문서 연결 허브
+
+### 승인본 재사용과 부분 수정
+
+- Cover는 최종 영상 승인 후 영상과 별도 자산으로 제작한다.
+- 기존 승인 Cover 또는 최근 승인된 동일 시스템의 Cover가 있으면 전면 재설계하지 않는다. 사용자가 지적한 요소만 최소 수정하고 승인된 나머지 레이아웃·타이포·제품·캐릭터·브랜드 요소를 유지한다.
+- 표준 좌표는 기본 템플릿이며 사용자 최신 승인본과 최신 명시 지시가 우선한다. 명시적 변경 지시가 없으면 승인 좌표와 Visual Grammar를 임의 변경하지 않는다.
+- 수정 결과가 악화되면 마지막 승인본으로 복귀한다.
 
 ## 2. 핵심 Visual Identity 10개
 
@@ -57,6 +64,8 @@ Supporting Copy는 강제하지 않는다. Headline만으로 메시지가 충분
 현재 승인 asset 예시는 `public/assets/logos/daesanlogo2.png`다.
 
 ## 5. Vertex와 Codex 역할 분리
+
+실제 제품 사진, 승인 Canonical Reference, 승인 Scene 자산 재사용을 AI 생성보다 우선한다. 새 AI Hero가 반드시 필요하지 않으면 생성하지 않는다. 아래 역할 분담은 신규 생성이 필요한 경우에 적용한다.
 
 > Vertex = Visual / Codex = Typography + Brand
 
@@ -141,14 +150,12 @@ Cover 시작 시 `MAIN DESIGN / SECONDARY DESIGN`을 먼저 결정한다. 항상
 
 ## 11. Feed Safe와 출력
 
-- 기본 원본: `1080×1920 PNG`, 세로 9:16
-- 사용 대상: Instagram Reels / profile grid, YouTube Shorts, Naver Clip
-- Instagram 피드/그리드 정사각형(1:1) 크롭 시 제목·로고가 잘리지 않도록, 세로 중앙 `1080×1080` 안전영역 안에 제목·로고를 배치한다.
-- 1080×1920 원본 기준 상하 약 `420px` 구간은 정사각형 크롭에서 잘리는 영역으로 간주하며, 이 구간에는 Category 등 비핵심 요소만 허용한다.
-- Headline, Category, Hero Product 핵심부와 Brand Lockup이 크롭에서 지나치게 잘리지 않게 중앙 안전영역을 고려한다.
-- 특히 Instagram profile grid 중앙 crop에서 Headline과 Category가 유지되는지 확인한다.
-- 카테고리 라벨+제목 블록의 세로 위치는 모든 편 동일하게 고정한다(기존 틀 기준 상단 y좌표). 하단 DAESAN 로고 위치만 이미지 구도에 따라 좌·우로 배치 조정할 수 있다.
-- 필요하면 crop preview를 만들 수 있으나 승인 후 임시 preview는 정리한다.
+- 기본 원본: `1080×1920 PNG`, 세로 9:16. Instagram Reels / profile grid, YouTube Shorts, Naver Clip에 사용한다.
+- 반드시 실제 렌더된 세로 원본과 중앙 `1080×1080` square crop(`y=420~1500`)을 모두 시각적으로 확인한다. 숫자·좌표 검사만으로 QA를 끝내지 않는다.
+- 중앙 crop에는 **Headline 전체, Hero Product 또는 핵심 비교 대상, DAESAN Brand Lockup, 콘텐츠 이해에 필요한 캐릭터 얼굴·상체 또는 핵심 시각 요소**를 유지한다.
+- Category는 비핵심 요소로 취급할 수 있다. 승인된 공통 좌표 때문에 중앙 crop 밖으로 빠지는 것은 허용할 수 있으며, Category를 살리려고 승인된 전체 레이아웃을 임의 이동하지 않는다.
+- 핵심 요소가 crop 안에 존재하는지만 보지 않는다. 서로 겹치지 않는지, 제품의 중요한 부분을 가리지 않는지, 모바일 크기에서 제목 위계가 즉시 읽히는지, 시각적 무게중심이 한쪽으로 과도하게 쏠리지 않는지 실제 이미지로 판단한다.
+- 승인된 카테고리·제목·브랜드 좌표를 기본으로 유지하며 변경은 §1의 승인본 우선 원칙을 따른다. 최종 square QA도 §13에 따라 보존한다.
 
 ## 12. Cover와 Video Hook의 분리
 
@@ -162,7 +169,8 @@ Cover는 영상 Scene과 별도 자산으로 관리한다. 대표이미지를 �
 
 - 승인 Cover는 버전 파일명으로 보존하고 덮어쓰지 않는다.
 - 장기 가치가 있는 승인본은 `references/covers/`에 Canonical Cover Case로 별도 보존한다.
-- 최종 승인본, 재편집에 필요한 Hero, canonical product reference, 승인 logo와 final 영상은 삭제하지 않는다.
+- 최종 승인 시 `1080×1920 Cover`, 중앙 square QA 또는 최종 square-safe 결과, 최종 Cover 구현 소스, 그 소스가 직접 참조하는 Hero·제품·캐릭터 이미지, 승인 로고 및 재현에 필요한 폰트·자산을 함께 보존한다.
+- 직접 참조 Hero/Source를 파일명의 “후보” 표시만으로 중간본으로 판단해 정리하지 않는다. canonical product reference와 final 영상도 삭제하지 않는다.
 - 실패·중간 Cover는 코드·문서 의존성을 확인한 뒤 macOS 휴지통으로 이동한다. 영구 삭제하지 않는다.
 - 정리한 파일 수와 절약 용량을 프로젝트 작업 기록에 남긴다.
 
@@ -409,6 +417,7 @@ canonical 실사의 베이지색 원지 면을 identity로 너무 강하게 반�
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-09-22 | v1.4 | 승인본 최소 수정·최신 지시 우선, 실제 세로/square 시각 QA, Category 예외, 직접 참조 소스·자산과 square 결과 보존 및 기존 자산 우선 원칙 보강 |
 | 2026-08-21 | v1.3 | Case 06~13, 외부 제작/스케치컷 영상 운영 규칙과 전체 Cover 정비 완료 상태 추가 |
 | 2026-08-21 | v1.2 | BATCH 01 Approved Case 03~05와 배경 직접 배치 Brand Lockup 규칙 추가 |
 | 2026-08-21 | v1.1 | 이보드 Approved Case 02, 3-reference 기본 규칙과 Vertex response 진단 규칙 추가 |
