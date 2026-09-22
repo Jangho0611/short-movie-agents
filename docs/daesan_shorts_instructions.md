@@ -1,6 +1,6 @@
 # 대산 건축자재 Shorts/Reels/Naver Clip 제작 지침어 (통합본)
 
-- 버전: `v2.5` (Claude 세션에서 여러 영상 제작 경험을 통합 작성, ChatGPT 프로젝트 이관용)
+- 버전: `v2.6` (Claude 세션에서 여러 영상 제작 경험을 통합 작성, ChatGPT 프로젝트 이관용)
 - 작성 기준일: `2026-09-18`
 - `Shorts_제작_운영가이드.md`는 기존부터 사용해온 대산 Shorts의 기본 제작·운영 상세 가이드다. 이 문서는 운영가이드를 대체하지 않으며, 공통 가이드의 핵심 규칙을 요약하고 최근 사용자 승인으로 확정된 실행 방식·우선순위·보완 규칙을 추가하는 실행 지침이다. 일반 Shorts 작업에서는 두 문서를 기본 세트로 함께 적용하며, 이 문서에 요약되지 않은 운영가이드의 상세 규칙도 계속 유효하다.
 
@@ -202,6 +202,26 @@
 - 정리 후 날짜형 작업기록 MD(`YY.MM.DD수정.md`)를 남기고, 실제 사용한 DESIGN.md 스타일을 Main/Scene별로 기록한다.
 - Git 종료 시 working tree가 clean인지 확인한다.
 
+### 8.1 완료 프로젝트 Slim Archive
+
+영상·Cover·SNS·작업기록까지 최종 승인된 프로젝트는 로컬 용량 누적을 막기 위해 Slim Archive를 기본 종료 절차로 적용한다.
+
+- Slim 전 `git status`, 현재 branch, `HEAD`, upstream을 확인한다. Git에 반영해야 할 최신 작업기록·SNS·Cover·소스가 남아 있으면 먼저 성격을 확인하고 필요한 파일만 commit/push한다.
+- 작업기록 MD가 프로젝트 루트에 남아 있으면 내용 동일성을 SHA256으로 확인한 뒤 `docs/YY.MM.DD수정.md`로 이동하고 Git에 rename으로 반영한다.
+- `node_modules`는 `package.json`과 lockfile(`package-lock.json` 등) 또는 설치 버전 고정 등 재현 근거가 확인되고, Git이 CLEAN/SYNC인 완료 프로젝트에서만 제거할 수 있다. 제거는 영구삭제보다 휴지통 이동을 우선한다.
+- `node_modules` 제거 대상은 실행환경일 뿐이다. 최종 영상, Scene별 최종 영상·이미지, 최종 TTS, Cover, 승인 Hero, canonical/reference, 제작 소스, 작업기록은 Slim 대상에 포함하지 않는다.
+- 미추적(`??`), 수정(`M`), 삭제(`D`) 파일이 있으면 자동 정리하지 않는다. 파일의 역할·승인 여부·최종본과의 관계를 먼저 확인하고, 불명확하면 그대로 보존한다.
+- 승인 여부가 명확하지 않은 Cover 후보, 테스트 영상, 생성 중간본 등은 용량이 작다는 이유로 임의 삭제하지 않는다. 삭제 후보를 사용자에게 먼저 보고한다.
+- 비정상적으로 큰 `.git`은 즉시 삭제하거나 history rewrite하지 않는다. 먼저 `.git` 용량, `git count-objects -vH`, refs, Codex checkpoint refs, main/all-refs reachable 객체, unreachable/garbage 객체를 조사한다.
+- `.git` object 정리가 필요한 경우 정리 전에 `git bundle create <backup>.bundle --all`로 Complete Bundle을 만들고 `git bundle verify`로 검증한다. 미추적 중요 자산이 있으면 파일 목록과 SHA256도 별도 기록한다.
+- 검증된 Complete Bundle이 있을 때만 불필요한 로컬 Codex checkpoint/capture refs를 제거할 수 있다. `main`, `origin/main`, 필요한 remote refs는 보존한다.
+- Git 정리는 reflog 만료와 `git gc --prune=now` 등 일반 object 정리 범위에서 수행하며, main history rewrite와 force push는 하지 않는다.
+- Git 정리 후 `git fsck --full`, `git count-objects -vH`, `HEAD = origin/main`, working tree, 미추적 중요 자산 SHA256을 다시 검증한다.
+- Git history 자체에 필요한 최종 영상·reference가 포함돼 `.git`이 큰 경우에는 용량만을 이유로 history를 재작성하지 않는다.
+- 정리 파일은 macOS 휴지통의 작업별 폴더로 먼저 이동하고 검증이 끝난 뒤 사용자 승인 후 휴지통을 비운다.
+- Git 정리 전 생성한 Complete Bundle 안전백업은 즉시 삭제하지 않는다. 이후 실제 프로젝트 사용에 문제가 없음을 확인한 뒤 삭제 후보로 보고하고 사용자 승인 후 정리한다.
+- Slim 완료 후 프로젝트 용량, 제거한 실행환경 용량, Git 상태, 보존 자산, commit/push 결과를 해당 영상의 `docs/YY.MM.DD수정.md`에 기록한다.
+
 ## 9. 응답 방식
 
 - 설명은 짧고 실행 중심으로 한다. 불필요하게 장황한 설명을 피한다.
@@ -331,6 +351,8 @@ Terminal 명령은 가능한 경우 하나의 실행 가능한 코드블록으�
 `pbcopy`는 단순 지시문 복사용이 아니라, 실제 Terminal 작업이 끝난 뒤 결과 보고를 사용자가 ChatGPT에 바로 전달할 수 있도록 마지막 단계에 사용하는 것을 기본으로 한다.
 
 - v2.5 (2026-09-21): Astra는 판단·최초 구현 중심으로 사용하고, 실행 방식이 확정된 TTS 재생성·단순 코드/타이밍 수정·Remotion 재렌더·기계적 QA·Git 등은 Terminal 우선으로 병행. Terminal 명령은 실제 실행·검증 후 완료 보고를 마지막 `pbcopy`로 전달하는 방식으로 구체화.
+
+- v2.6 (2026-09-22): 완료 프로젝트 Slim Archive 절차 추가. 재현 가능한 `node_modules` 정리, 최종/Scene/TTS/Cover/소스 보존, 미추적 파일 선확인, 비정상 `.git` 진단, Complete Bundle 백업 후 Codex refs·unreachable object 안전 정리, Git 무결성 재검증 및 안전백업 사후 삭제 원칙을 확정.
 
 ### 대산이 기본 포즈 자산 운영
 - 신규 영상 프로젝트 생성 시 승인된 대산이 기본 포즈 3종을 공통 원본에서 해당 영상 프로젝트 내부로 복사해 보존한다.

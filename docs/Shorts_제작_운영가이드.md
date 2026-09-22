@@ -334,6 +334,115 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 
 새 프로젝트를 시작할 때는 전체 프로젝트를 복제하지 않는다. 실행에 필요한 source, 설정, `package.json`, lockfile, 승인 asset, canonical reference만 슬림 복사한다. `node_modules`는 복사하지 않고 대상 프로젝트에서 lockfile 기준으로 재설치한다. Scene reference는 특별한 분리 사유가 없으면 `public/references/` flat 구조를 우선하고 파일명으로 Scene과 역할을 구분한다.
 
+## 18.1 완료 프로젝트 Slim Archive
+
+최종 영상·Cover·SNS 문구·작업기록까지 승인된 프로젝트는 장기 로컬 보관 시 실행환경과 Git 임시 객체가 누적되지 않도록 Slim Archive 절차를 적용한다.
+
+### Slim 전 확인
+
+1. 현재 branch, `git status`, `HEAD`, upstream을 확인한다.
+2. 최신 작업기록·SNS·Cover·제작 소스가 Git에 빠져 있지 않은지 확인한다.
+3. 루트에 있는 작업기록은 `docs/YY.MM.DD수정.md`와 SHA256 동일성을 확인한 뒤 rename으로 Git 반영한다.
+4. `M`, `D`, `??` 파일은 자동 처리하지 않고 각각의 역할과 승인 여부를 확인한다.
+5. 최종 영상과 Scene별 최종 영상·이미지는 별개의 보존 대상으로 다시 확인한다.
+
+### 항상 보존
+
+- 승인 최종 영상
+- Scene별 최종 영상과 최종 이미지
+- 실제 최종 영상에 사용한 Scene별 TTS
+- 승인 Cover와 재편집에 필요한 승인 Hero
+- canonical/reference 원본
+- Remotion 및 제작 소스
+- `package.json`과 lockfile
+- 최종 SNS 문구
+- `docs/YY.MM.DD수정.md`
+- 재현에 필요한 README/manifest
+
+코드가 현재 직접 참조하지 않는다는 이유만으로 Scene별 최종 자산을 삭제하지 않는다.
+
+### `node_modules` Slim
+
+`node_modules`는 다음 조건을 모두 만족할 때만 Slim 대상으로 본다.
+
+- 프로젝트 제작이 완료됐다.
+- 필요한 최신 변경이 Git에 반영됐다.
+- `HEAD`와 upstream이 동기화됐다.
+- `package.json`과 lockfile 등 재설치 근거가 있다.
+- 최종 영상·Scene·TTS·Cover·소스가 별도로 보존돼 있다.
+
+조건을 만족하면 `node_modules`를 프로젝트에서 제거하고 필요 시 `npm ci` 등 lockfile 기준으로 재설치한다. 바로 영구 삭제하지 않고 `~/.Trash/`의 작업별 폴더로 이동한 뒤 검증하는 방식을 우선한다.
+
+### 미추적·수정 파일
+
+미추적(`??`), 수정(`M`), 삭제(`D`) 파일이 있으면 CLEAN 상태를 만들기 위해 임의 삭제하거나 reset하지 않는다.
+
+- 최신 승인 작업이면 필요한 파일만 Git에 반영한다.
+- 작업기록의 단순 위치 이동이면 SHA256 동일성을 확인하고 rename으로 반영한다.
+- 승인 여부가 불명확한 Cover·테스트 영상·생성 후보는 판단 전까지 보존한다.
+- 타 프로젝트 파일이 명확하면 영구삭제하지 않고 휴지통 격리 후 검증한다.
+
+### 비정상적으로 큰 `.git`
+
+완료 프로젝트의 `.git`이 프로젝트 크기에 비해 비정상적으로 크면 다음 순서로 조사한다.
+
+1. `.git` 및 `.git/objects` 용량 확인
+2. `git count-objects -vH`
+3. 전체 refs와 `refs/codex/` 확인
+4. main reachable 객체와 all-refs reachable 객체 비교
+5. unreachable/garbage 객체 확인
+6. history의 대용량 blob과 현재 main의 대용량 추적 파일 구분
+
+Codex checkpoint/capture refs 또는 unreachable/garbage 객체가 원인으로 확인돼도 바로 제거하지 않는다.
+
+### Git object 정리 안전장치
+
+Git object 정리 전에는 반드시:
+
+- `git bundle create <backup>.bundle --all`
+- `git bundle verify <backup>.bundle`
+- refs, Git log, status 기록
+- 미추적 중요 자산 목록 및 SHA256 기록
+
+을 수행한다.
+
+Complete Bundle이 정상 검증된 뒤에만 불필요한 로컬 `refs/codex/...`를 제거할 수 있다. 이후 reflog 만료와 `git gc --prune=now` 범위에서 정리한다.
+
+금지:
+
+- main history rewrite
+- force push
+- 원격 main 변경
+- 용량 절감만을 목적으로 현재 main에 필요한 최종 영상/reference history 제거
+
+정리 후에는:
+
+- `git fsck --full`
+- `git count-objects -vH`
+- `HEAD = origin/main`
+- 필요한 remote ref 보존
+- working tree
+- 미추적 중요 자산 SHA256
+- `.git` 정리 전후 용량
+
+을 검증한다.
+
+### 안전백업 사후 처리
+
+Git 정리 전에 만든 Complete Bundle은 정리 성공 직후 삭제하지 않는다. 실제 프로젝트를 이후 다시 열고 필요한 수정·재설치·렌더 작업에 문제가 없음을 확인한 뒤 삭제 후보로 보고한다. 사용자 승인 없이 안전백업을 삭제하지 않는다.
+
+### 종료 기록
+
+Slim Archive 완료 시 작업기록에는 최소한 다음을 남긴다.
+
+- Slim 전후 프로젝트 용량
+- 제거한 `node_modules`/캐시 등 실행환경 용량
+- 최종 보존 자산 확인 결과
+- Git commit/push hash
+- `HEAD = origin/main` 여부
+- `.git` object 정리를 했다면 정리 전후 용량과 bundle 백업 위치
+- 판단 보류로 남긴 미추적/수정 자산
+
 ## 19. Git 저장
 
 순서는 `최종 승인 → 실패본 정리 → 작업 MD → 보안검사 → commit → push`다.
@@ -507,6 +616,7 @@ Scene 5: Framer
 
 | 날짜 | 버전 | 변경 내용 |
 |---|---|---|
+| 2026-09-22 | v1.14 | 완료 프로젝트 Slim Archive 절차 추가: 재현 가능한 node_modules 정리, 최종/Scene/TTS/Cover/소스 보존, 미추적 변경 선확인, Complete Bundle 기반 Git object 안전 정리, 무결성 검증 및 안전백업 사후 삭제 규칙 확정 |
 | 2026-09-14 | v1.12 | Codex 토큰 소진 시 터미널 완전 대체 방법(Vertex REST 직접 호출, Pillow Cover 조립, OpenCV 알파 처리)과 터미널 명령어 전달 시 반복 실패 패턴 추가 |
 | 2026-09-14 | v1.11 | 패딩 캐릭터 레퍼런스, OffthreadVideo 알파 필수 규칙, 대산 Cover 표준 템플릿 좌표 추가 |
 | 2026-09-09 | v1.10 | Codex 역할 분담에 순수 기계적 실행(render, ffmpeg 등)은 AI 에이전트 없이 터미널 직접 실행 원칙 추가 |
