@@ -413,3 +413,19 @@ canonical 실사의 베이지색 원지 면을 identity로 너무 강하게 반�
 | 2026-08-21 | v1.2 | BATCH 01 Approved Case 03~05와 배경 직접 배치 Brand Lockup 규칙 추가 |
 | 2026-08-21 | v1.1 | 이보드 Approved Case 02, 3-reference 기본 규칙과 Vertex response 진단 규칙 추가 |
 | 2026-08-21 | v1.0 | 대산 Cover System 제정 및 석고보드 첫 Canonical Cover Case 등록 |
+
+## 21. Approved Case 14 — 방화석고 vs 방염 (방염 시리즈 3편)
+
+- 콘텐츠명: `방화석고 vs 방염`
+- Headline: `방화석고 썼는데, / 방염은 안 해도 될까?`
+- Category: `건축자재 상식 · 방염·방화`
+- MAIN DESIGN: 방염 시리즈 전용 고정 템플릿(네이비 박스 + 오렌지 포인트, Ep1/Ep2와 동일 좌표)
+- 사용 asset: `gypsum-flame-retardant-shorts-v1/public/assets/images/scene04-1-start-v3.png` (벽 단면 컷어웨이)
+- Vertex 사용 여부: 사용 (Scene 이미지 재사용, Cover 전용 신규 생성 없음)
+- Brand Lockup: 배경 위에 로고+텍스트 직접 배치, 색상은 로고 실측 색상(#123628) 사용
+- 정확한 좌표: 본문 [Shorts 제작 운영가이드] 23번 항목 참고
+- Feed Safe QA: 1080×1920 및 Instagram 중앙 crop `PASS`
+- 승인일: `2026-09-14`
+- 상태: `APPROVED`
+- 최종 Cover: `gypsum-flame-retardant-shorts-v1/public/covers/gypsum-flame-cover-v10.png`
+- 특이사항: 방염 시리즈(Ep1, Ep2)의 시각 포맷이 향후 모든 방염/방화 관련 에피소드의 고정 템플릿임을 이번에 확인. 포인트 컬러만 콘텐츠별로 변경 가능하나 레이아웃 좌표는 고정.

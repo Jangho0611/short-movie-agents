@@ -12,19 +12,28 @@ credentials.json
 
 # 생성된 영상 결과물 (용량 크고 재생성 가능)
 output/
-
 # QA 임시 산출물
 tmp/
-
 # 백업 파일들
 *.bak
 *.bak_*
-
 # Python 관련
 __pycache__/
 *.pyc
 .venv/
 venv/
-
 # macOS
 .DS_Store
+# Node / Remotion 로컬 실행환경
+node_modules/
+.remotion/
+.npm-cache/
+.cache/
+# 일반 빌드/캐시
+dist/
+build/
+coverage/
+# 로컬 영상 프로젝트 / 테스트 작업영역
+projects/
+# 로컬 실행 로그
+logs/
