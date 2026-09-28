@@ -46,6 +46,13 @@
 
 Supporting Copy는 강제하지 않는다. Headline만으로 메시지가 충분하면 생략한다. Headline은 짧은 질문형·문제 제기형을 우선하고 모바일에서 즉시 이해되어야 하며, 기본 2~4줄로 제한한다. 영상 제목 전체를 그대로 복사하지 않는다.
 
+### 대산이 캐릭터 재사용
+
+- 대산이를 사용할 때는 공용 `assets/daesani-motion-library/cover/`의 승인 투명 정지 포즈를 우선한다: 오른손 pointing(`daesani-cover-point-right.png`), 왼손 pointing(`daesani-cover-point-left.png`), 양손 open-arms(`daesani-cover-open-arms.png`).
+- 콘텐츠와 Hero Product 위치에 맞춰 포즈를 선택하고 모든 Cover에서 동일 포즈를 고정 반복하지 않는다.
+- 캐릭터 때문에 승인된 Hero/Headline/Brand Lockup을 재설계하지 않는다. 승인 PNG의 좌우반전·AI 재생성은 금지하며 x/y/scale 조절만 기본 허용한다.
+- 신규 프로젝트 Slim Copy 시 승인 로고와 3종을 기본 Cover 자산으로 프로젝트 내부에 복사한다. 흰 배경 원본·QA 이미지는 기본 세트에 포함하지 않는다.
+
 ## 4. DAESAN Brand Lockup
 
 기본 구성은 `[승인 대산 심볼] / DAESAN / 대산종합건축자재`다.

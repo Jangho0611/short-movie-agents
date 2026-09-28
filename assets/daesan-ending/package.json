@@ -1,0 +1,14 @@
+{
+  "name": "daesan-ending-approved-v1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render": "remotion render src/index.tsx DaesanEnding"
+  },
+  "dependencies": {
+    "remotion": "4.0.523",
+    "@remotion/cli": "4.0.523",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}

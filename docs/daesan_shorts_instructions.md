@@ -32,7 +32,10 @@
 - 생성 이미지 안에 자막·한글·라벨·로고를 굽지 않고 Remotion 후편집으로 처리한다.
 - Flow/Veo는 꼭 필요한 최소 모션에만 사용한다. 정보형 화면·자막·비교·수치·그래픽은 Remotion을 우선한다.
 - 실사/Flow 영상이 포함된 Scene은 Remotion으로 직접 캡처(video-in-video)하지 않는다. (1) 자막/박스를 투명 PNG로 Remotion still 렌더 → (2) ffmpeg로 원본 영상에 오버레이+TTS mux 순서로 처리한다. 여러 Scene 합치기는 Remotion 통합 렌더보다 ffmpeg concat을 기본값으로 하되, 실제 통합 렌더에서 스터터가 확인되지 않으면 굳이 우회하지 않아도 된다.
-- 최종 Remotion 조립 전 공통 엔딩의 컴포넌트, 영상/이미지 자산, TTS/오디오, 길이, 직접 참조 파일을 하나의 세트로 확인한다. 기존 승인 엔딩은 재설계하지 않고 그대로 재사용한다.
+- 현재 Canonical 공통 엔딩은 `assets/daesan-ending/`의 **대산 본사 전경 approved v1**이다. 상세 기준은 `DAESAN_ENDING.md`(공용 원본: `assets/daesan-ending/docs/README.md`)를 따른다. 운영가이드의 기존 Scene5Ending/배경 우선 기준은 신규 프로젝트에서 이 승인 기준으로 대체하며 Legacy 원본은 보존한다.
+- 신규 프로젝트 Slim Copy 시 공용 daesan-ending의 직접 의존 소스·본사 배경 원본/정상속도+Hold 재생본·승인 TTS·로고·실사용 폰트를 프로젝트 내부로 복사한다. 공용/테스트/다른 프로젝트를 런타임 직접 참조하지 않는다.
+- 1080×1920, 170프레임/30fps(5.667초), 본사 배경 3.233초 정상 재생 후 마지막 프레임 Hold, 승인 `ending-approved-v3.mp3`, 자막·로고 모션 및 대표번호 `031-388-3833` / `1661-6612`를 임의 변경하지 않는다. 전화번호는 TTS로 읽지 않는다. Canonical Preview는 사용자 승인 영상 복사본으로 보존한다.
+- 최종 조립 전 위 엔딩 세트와 SHA256을 확인한다. 기존 완료 영상에는 별도 지시 없이 소급 적용하지 않고 Legacy 엔딩·테스트 원본도 삭제하지 않는다.
 
 ### 1.1. Wiki_시장 제한 조사와 공식자료 교차검증
 
@@ -296,6 +299,16 @@ Terminal은 콘텐츠 기획이나 임의 판단을 하지 않는다.
 - 결과물에 영향을 주는 복합 수정
 
 ### Slim Copy
+
+#### 신규 프로젝트 기본 Cover 자산
+
+- 신규 영상 Slim Copy의 기본 Cover 자산 세트에 승인 대산 로고(`daesanlogo2.png`, 승인 원본 사용)와 공용 `assets/daesani-motion-library/cover/`의 아래 3개를 포함한다.
+  - `daesani-cover-point-right.png`
+  - `daesani-cover-point-left.png`
+  - `daesani-cover-open-arms.png`
+- 실제 Cover에 대산이를 쓰지 않더라도 위 3종은 용량이 작은 공용 기본 세트로 함께 복사할 수 있다. 로고는 프로젝트 `public/assets/logos/`, 포즈는 `public/assets/images/`에 복사하고 원본과 SHA256 동일성을 확인한다. 공용 경로를 런타임 직접 참조하지 않는다.
+- Cover 제작 시 콘텐츠·Hero 배치에 맞춰 3종 중 선택하고 같은 포즈 고정 반복을 피한다. 승인 투명 PNG를 신규 생성보다 우선하며 좌우반전·AI 재생성 없이 x/y/scale만 조절한다.
+
 
 복사 기준과 대상이 이미 확정된 일반적인 Slim Copy는 Terminal을 우선한다.
 
