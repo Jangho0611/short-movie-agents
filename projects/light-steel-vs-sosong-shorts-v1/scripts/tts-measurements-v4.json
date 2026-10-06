@@ -1,0 +1,270 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "method": "Single SSML synthesis per scene, then shorten only silence centers using the established -35 dB workflow. Raw originals retained.",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "scene01-v4.mp3",
+      "duration": "4.694333",
+      "pauses": [
+        {
+          "after": "인테리어 하지 작업 시,",
+          "requested": 0.3,
+          "raw_pause": {
+            "start": 2.007083,
+            "end": 2.998875,
+            "duration": 0.991792
+          },
+          "measured": {
+            "start": 1.753083,
+            "end": 2.053208,
+            "duration": 0.300125
+          }
+        }
+      ],
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.180042,
+          "duration": 0.180042
+        },
+        {
+          "start": 0.750917,
+          "end": 1.016417,
+          "duration": 0.2655
+        },
+        {
+          "start": 1.753083,
+          "end": 2.053208,
+          "duration": 0.300125
+        },
+        {
+          "start": 4.469833,
+          "end": 4.694333,
+          "duration": 0.2245
+        }
+      ],
+      "edits": "Only silent sample ranges removed; voiced PCM untouched before MP3 encoding. No gain, rate, or pitch processing.",
+      "sha256": "1164ce8322598cf918bd1b273e144504d62afbe460d807af30929ddb0a858ffd"
+    },
+    {
+      "scene": 2,
+      "file": "scene02-v4.mp3",
+      "duration": "6.677583",
+      "pauses": [
+        {
+          "after": "경량철골은,",
+          "requested": 0.325,
+          "raw_pause": {
+            "start": 1.664917,
+            "end": 2.810542,
+            "duration": 1.145625
+          },
+          "measured": {
+            "start": 1.127625,
+            "end": 1.452667,
+            "duration": 0.325042
+          }
+        },
+        {
+          "after": "규격이 일정해서 넓은 벽체나 천장처럼",
+          "requested": 0.225,
+          "raw_pause": {
+            "start": 5.761125,
+            "end": 6.830667,
+            "duration": 1.069542
+          },
+          "measured": {
+            "start": 4.403208,
+            "end": 4.628292,
+            "duration": 0.225083
+          }
+        }
+      ],
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "duration": 0.18
+        },
+        {
+          "start": 1.127625,
+          "end": 1.452667,
+          "duration": 0.325042
+        },
+        {
+          "start": 2.492292,
+          "end": 2.869792,
+          "duration": 0.3775
+        },
+        {
+          "start": 4.403208,
+          "end": 4.628292,
+          "duration": 0.225083
+        },
+        {
+          "start": 6.466833,
+          "end": 6.677583,
+          "duration": 0.21075
+        }
+      ],
+      "edits": "Only silent sample ranges removed; voiced PCM untouched before MP3 encoding. No gain, rate, or pitch processing.",
+      "sha256": "495780786a55e112a8a36e46cc92b620eb30c031d6fef7722ef02611f891bcfc"
+    },
+    {
+      "scene": 3,
+      "file": "scene03-v4.mp3",
+      "duration": "8.354333",
+      "pauses": [
+        {
+          "after": "하지만,",
+          "requested": 0.45,
+          "raw_pause": {
+            "start": 0.968917,
+            "end": 2.111208,
+            "duration": 1.142292
+          },
+          "measured": {
+            "start": 0.663792,
+            "end": 1.113917,
+            "duration": 0.450125
+          }
+        },
+        {
+          "after": "각재가 더 편한 작업도 있습니다.",
+          "requested": 0.55,
+          "raw_pause": {
+            "start": 3.949583,
+            "end": 5.084708,
+            "duration": 1.135125
+          },
+          "measured": {
+            "start": 2.951958,
+            "end": 3.50225,
+            "duration": 0.550292
+          }
+        },
+        {
+          "after": "현장에서 가공이 쉽고,",
+          "requested": 0.3,
+          "raw_pause": {
+            "start": 6.6615,
+            "end": 7.632708,
+            "duration": 0.971208
+          },
+          "measured": {
+            "start": 5.079,
+            "end": 5.380917,
+            "duration": 0.301917
+          }
+        }
+      ],
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "duration": 0.18
+        },
+        {
+          "start": 0.663792,
+          "end": 1.113917,
+          "duration": 0.450125
+        },
+        {
+          "start": 2.951958,
+          "end": 3.50225,
+          "duration": 0.550292
+        },
+        {
+          "start": 4.746458,
+          "end": 4.898458,
+          "duration": 0.152
+        },
+        {
+          "start": 5.079,
+          "end": 5.380917,
+          "duration": 0.301917
+        },
+        {
+          "start": 8.101167,
+          "end": 8.354333,
+          "duration": 0.253167
+        }
+      ],
+      "edits": "Only silent sample ranges removed; voiced PCM untouched before MP3 encoding. No gain, rate, or pitch processing.",
+      "sha256": "15823b04282caef10cc27e625d8205691d3b1b7ea5256a35a8d48673172c1a8d"
+    },
+    {
+      "scene": 4,
+      "file": "scene04-v4.mp3",
+      "duration": "5.861958",
+      "pauses": [
+        {
+          "after": "그래서 현장에서는,",
+          "requested": 0.325,
+          "raw_pause": {
+            "start": 1.922417,
+            "end": 2.459083,
+            "duration": 0.536667
+          },
+          "measured": {
+            "start": 1.277417,
+            "end": 1.602458,
+            "duration": 0.325042
+          }
+        },
+        {
+          "after": "작업에 따라 골라 쓰거나",
+          "requested": 0.25,
+          "raw_pause": {
+            "start": 3.940083,
+            "end": 4.5755,
+            "duration": 0.635417
+          },
+          "measured": {
+            "start": 3.083333,
+            "end": 3.333458,
+            "duration": 0.250125
+          }
+        }
+      ],
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.180042,
+          "duration": 0.180042
+        },
+        {
+          "start": 1.277417,
+          "end": 1.602458,
+          "duration": 0.325042
+        },
+        {
+          "start": 3.083333,
+          "end": 3.333458,
+          "duration": 0.250125
+        },
+        {
+          "start": 5.657542,
+          "end": 5.861958,
+          "duration": 0.204417
+        }
+      ],
+      "edits": "Only silent sample ranges removed; voiced PCM untouched before MP3 encoding. No gain, rate, or pitch processing.",
+      "sha256": "9bf61bfa1acef780cc3ac55179171b06ae7c433ae4dbcef3f9372a4c313ced37"
+    },
+    {
+      "scene": 5,
+      "file": "scene05-v3.mp3",
+      "duration": "5.196958",
+      "retained_unchanged": true
+    }
+  ],
+  "total_duration": "30.785165",
+  "qa_duration": "30.785167",
+  "qa_max_silence": 0.556,
+  "preexisting_audio_unchanged": true,
+  "listening_qa": "Not performed; naturalness, articulation, emphasis and absence of fillers require human listening. Pause locations matched from SSML order and corresponding long silent intervals."
+}

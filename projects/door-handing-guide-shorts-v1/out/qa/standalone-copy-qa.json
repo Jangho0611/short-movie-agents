@@ -1,0 +1,32 @@
+{
+  "source": "/Users/janghokim/Documents/short-movie-agents/projects/door-order-direction-shorts-v1",
+  "destination": "/Users/janghokim/Documents/door-handing-guide-shorts-v1",
+  "identicalFiles": [
+    "src/timing.json",
+    "src/Scenes.tsx",
+    "src/global.css",
+    "src/geometry.ts",
+    "src/Root.tsx",
+    "src/index.ts",
+    "src/design/fonts.ts",
+    "src/ending/Ending.tsx",
+    "src/ending/tokens.ts",
+    "src/ending/brief.ts",
+    "public/previews/door-order-direction-preview-v1.mp4",
+    "public/assets/logos/daesanlogo2.png",
+    "public/assets/audio/scene02-v1.mp3",
+    "public/assets/audio/full-tts-qa-v1.mp3",
+    "public/assets/audio/scene06-v1.mp3",
+    "public/assets/audio/scene06-ending.wav",
+    "public/assets/audio/scene04-v1.mp3",
+    "public/assets/audio/scene01-v1.mp3",
+    "public/assets/audio/scene03-v1.mp3",
+    "public/assets/audio/scene05-v1.mp3",
+    "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "public/assets/fonts/Pretendard-Bold.woff2",
+    "public/assets/fonts/Pretendard-Medium.woff2",
+    "scripts/tts-input-v1.json"
+  ],
+  "externalDependencySymlinks": []
+}

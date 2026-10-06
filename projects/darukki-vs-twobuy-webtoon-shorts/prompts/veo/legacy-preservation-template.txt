@@ -1,0 +1,22 @@
+[SCENE-SPECIFIC APPROVED ACTION]
+Insert the user-approved Scene prompt here without paraphrasing or changing its natural-language style.
+
+CRITICAL PRESERVATION
+- List the exact character, timber, structure, proportions, positions, and identity details that must remain unchanged.
+
+NEGATIVE MOTION RULES
+- List motions, deformations, substitutions, and unintended actions that must not occur.
+
+STATIC ELEMENTS
+- List every element that must remain completely stationary.
+
+TEXT PRESERVATION
+- Preserve approved text exactly when text exists in the supplied frame.
+- Do not add, rewrite, translate, duplicate, deform, or remove text unless the approved Scene prompt explicitly instructs it.
+- No new letters, labels, captions, symbols, logos, or watermarks.
+
+VISUAL PRESERVATION
+- Preserve the supplied Korean editorial webtoon visual style.
+- Preserve the original framing, composition, colors, proportions, and hand-drawn linework.
+- Static camera unless the approved Scene prompt explicitly states otherwise.
+- No unintended pan, zoom, rotation, cut, transition, photorealistic rendering, or 3D transformation.

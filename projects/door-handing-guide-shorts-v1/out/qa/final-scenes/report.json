@@ -1,0 +1,373 @@
+{
+  "master": "public/previews/door-order-direction-preview-v3.mp4",
+  "masterSha256": "1438429b2740c3c7c86f7539f89fd2371d1b3da482232e9fa6c0643295b5d9eb",
+  "protectedFilesUnchanged": true,
+  "comparisons": "Start/mid/end full-resolution SSIM >0.99; audio correlation >0.98 with max 2ms alignment; exact frame counts and video durations. H.264/AAC encodings are not expected to be byte-identical.",
+  "results": [
+    {
+      "scene": "Scene1",
+      "file": "public/previews/scenes/scene01-final.mp4",
+      "frames": 93,
+      "duration": 3.875,
+      "masterStartFrame": 0,
+      "masterEndFrameInclusive": 92,
+      "sampleLocalFrames": [
+        0,
+        46,
+        92
+      ],
+      "sampleFrameSSIM": [
+        0.999975,
+        0.999972,
+        0.999965
+      ],
+      "audioCorrelation": 1.0,
+      "audioOffsetMs": 0.0,
+      "sha256": "fab694f4df28b9c1e1e098e72ffe54a510e8c6c6bb2593cb35a93f862d3e078e",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "3.875000",
+            "nb_frames": "93",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "3.861333",
+            "nb_frames": "181"
+          }
+        ],
+        "format": {
+          "duration": "3.875000"
+        }
+      },
+      "decode": "PASS"
+    },
+    {
+      "scene": "Scene2",
+      "file": "public/previews/scenes/scene02-final.mp4",
+      "frames": 131,
+      "duration": 5.458333333333333,
+      "masterStartFrame": 93,
+      "masterEndFrameInclusive": 223,
+      "sampleLocalFrames": [
+        0,
+        65,
+        130
+      ],
+      "sampleFrameSSIM": [
+        0.999721,
+        0.999766,
+        0.999764
+      ],
+      "audioCorrelation": 0.9999478496267514,
+      "audioOffsetMs": 0.0,
+      "sha256": "c6364daced1dcd105c42c8a2cc9953de588b1f1d3965eddf32922db8960b940b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "5.458333",
+            "nb_frames": "131",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "5.504000",
+            "nb_frames": "258"
+          }
+        ],
+        "format": {
+          "duration": "5.504000"
+        }
+      },
+      "decode": "PASS"
+    },
+    {
+      "scene": "Scene3",
+      "file": "public/previews/scenes/scene03-final.mp4",
+      "frames": 142,
+      "duration": 5.916666666666667,
+      "masterStartFrame": 224,
+      "masterEndFrameInclusive": 365,
+      "sampleLocalFrames": [
+        0,
+        71,
+        141
+      ],
+      "sampleFrameSSIM": [
+        0.999538,
+        0.999522,
+        0.999521
+      ],
+      "audioCorrelation": 0.9999488314789882,
+      "audioOffsetMs": -0.375,
+      "sha256": "e3b9e3a0d0f6f20e96f5ed1838459e3e197a715af699975aeb1e4057ca08c2c5",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "5.916667",
+            "nb_frames": "142",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "5.909333",
+            "nb_frames": "277"
+          }
+        ],
+        "format": {
+          "duration": "5.916667"
+        }
+      },
+      "decode": "PASS"
+    },
+    {
+      "scene": "Scene4",
+      "file": "public/previews/scenes/scene04-final.mp4",
+      "frames": 126,
+      "duration": 5.25,
+      "masterStartFrame": 366,
+      "masterEndFrameInclusive": 491,
+      "sampleLocalFrames": [
+        0,
+        63,
+        125
+      ],
+      "sampleFrameSSIM": [
+        0.999395,
+        0.999456,
+        0.999459
+      ],
+      "audioCorrelation": 0.9999715527325552,
+      "audioOffsetMs": 0.0,
+      "sha256": "3cf2cb7cc077615201a529bce234a7af736ebe1b0f40268c74e7198b2195d3ba",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "5.250000",
+            "nb_frames": "126",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "5.248000",
+            "nb_frames": "246"
+          }
+        ],
+        "format": {
+          "duration": "5.250000"
+        }
+      },
+      "decode": "PASS"
+    },
+    {
+      "scene": "Scene5",
+      "file": "public/previews/scenes/scene05-final.mp4",
+      "frames": 116,
+      "duration": 4.833333333333333,
+      "masterStartFrame": 492,
+      "masterEndFrameInclusive": 607,
+      "sampleLocalFrames": [
+        0,
+        58,
+        115
+      ],
+      "sampleFrameSSIM": [
+        0.999425,
+        0.999417,
+        0.999422
+      ],
+      "audioCorrelation": 0.9999507495502963,
+      "audioOffsetMs": 0.0,
+      "sha256": "999b125f12e3778a35444e77834be03b2d494412b12c1127a63a86a0d39a73df",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "4.833333",
+            "nb_frames": "116",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "4.885333",
+            "nb_frames": "229"
+          }
+        ],
+        "format": {
+          "duration": "4.885333"
+        }
+      },
+      "decode": "PASS"
+    },
+    {
+      "scene": "Scene6",
+      "file": "public/previews/scenes/scene06-final.mp4",
+      "frames": 150,
+      "duration": 6.25,
+      "masterStartFrame": 608,
+      "masterEndFrameInclusive": 757,
+      "sampleLocalFrames": [
+        0,
+        75,
+        149
+      ],
+      "sampleFrameSSIM": [
+        0.999533,
+        0.999577,
+        0.999578
+      ],
+      "audioCorrelation": 0.9999643240653794,
+      "audioOffsetMs": -0.375,
+      "sha256": "4d0f460d61743cdaf1fa8e52ae9504c6a8c54bb5610f653df78a74ab028195f1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "6.250000",
+            "nb_frames": "150",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "6.293333",
+            "nb_frames": "295"
+          }
+        ],
+        "format": {
+          "duration": "6.293333"
+        }
+      },
+      "decode": "PASS"
+    },
+    {
+      "scene": "Ending",
+      "file": "public/previews/scenes/ending-final.mp4",
+      "frames": 136,
+      "duration": 5.666666666666667,
+      "masterStartFrame": 758,
+      "masterEndFrameInclusive": 893,
+      "sampleLocalFrames": [
+        0,
+        68,
+        135
+      ],
+      "sampleFrameSSIM": [
+        1.0,
+        0.999686,
+        0.999687
+      ],
+      "audioCorrelation": 0.9999581528651134,
+      "audioOffsetMs": -0.375,
+      "sha256": "4bc2feb9cb20714387d8029ef87aefdefd49566f4cf24f57450d7b9e0e9553a4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1",
+            "duration": "5.666667",
+            "nb_frames": "136",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "5.717333",
+            "nb_frames": "268"
+          }
+        ],
+        "format": {
+          "duration": "5.717333"
+        }
+      },
+      "decode": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

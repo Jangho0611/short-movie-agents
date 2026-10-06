@@ -1,0 +1,61 @@
+{
+  "fps": 30,
+  "scenes": [
+    {
+      "id": 1,
+      "audio": "scene01-v7.mp3",
+      "from": 0,
+      "frames": 135,
+      "duration": 4.5,
+      "ttsDuration": 4.107167,
+      "padding": 0.392833,
+      "sha256": "1c9b9832673434ef562f4da4892212e2776687ca67de0ea68484ea3a30947d5b"
+    },
+    {
+      "id": 2,
+      "audio": "scene02-v4.mp3",
+      "from": 135,
+      "frames": 213,
+      "duration": 7.1,
+      "ttsDuration": 6.677583,
+      "padding": 0.4224169999999994,
+      "sha256": "495780786a55e112a8a36e46cc92b620eb30c031d6fef7722ef02611f891bcfc"
+    },
+    {
+      "id": 3,
+      "audio": "scene03-v4.mp3",
+      "from": 348,
+      "frames": 267,
+      "duration": 8.9,
+      "ttsDuration": 8.354333,
+      "padding": 0.5456669999999999,
+      "sha256": "15823b04282caef10cc27e625d8205691d3b1b7ea5256a35a8d48673172c1a8d"
+    },
+    {
+      "id": 4,
+      "audio": "scene04-v4.mp3",
+      "from": 615,
+      "frames": 189,
+      "duration": 6.3,
+      "ttsDuration": 5.861958,
+      "padding": 0.43804200000000026,
+      "sha256": "9bf61bfa1acef780cc3ac55179171b06ae7c433ae4dbcef3f9372a4c313ced37"
+    },
+    {
+      "id": 5,
+      "audio": "scene05-v3.mp3",
+      "from": 804,
+      "frames": 174,
+      "duration": 5.8,
+      "ttsDuration": 5.196958,
+      "padding": 0.6030419999999994,
+      "sha256": "c4d31575a84d744ca9c52e6f316dc9f187718a13169f7d94dba4a2408d9239dc"
+    }
+  ],
+  "ending": {
+    "from": 978,
+    "frames": 170,
+    "duration": 5.666666666666667
+  },
+  "totalFrames": 1148
+}

@@ -1,0 +1,16 @@
+const {spawnSync}=require('node:child_process');
+const fs=require('node:fs');
+const path=require('node:path');
+const {PNG}=require('pngjs');
+const root=path.resolve(__dirname,'..');
+const out=path.join(root,'public/covers/door-frame-integrated-vs-separate-cover-v2.png');
+const square=out.replace('.png','-square-qa.png');
+fs.mkdirSync(path.dirname(out),{recursive:true});
+const res=spawnSync(path.join(root,'node_modules/.bin/remotion'),['still','src/cover-v2.tsx','DoorFrameIntegratedCoverV2',out,'--frame=0','--timeout=90000','--log=error'],{cwd:root,stdio:'inherit'});
+if(res.status!==0)process.exit(res.status||1);
+const img=PNG.sync.read(fs.readFileSync(out));
+if(img.width!==1080||img.height!==1920)throw Error('Wrong portrait size');
+const crop=new PNG({width:1080,height:1080});
+PNG.bitblt(img,crop,0,420,1080,1080,0,0);
+fs.writeFileSync(square,PNG.sync.write(crop));
+console.log('Portrait and square saved to public/covers/');

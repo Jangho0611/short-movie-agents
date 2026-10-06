@@ -1,0 +1,147 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "text": "인테리어 하지 작업시, 경량철골이 각재보다 무조건 더 좋을까요?",
+  "scene01_duration": "5.052708",
+  "pause_after_작업시": {
+    "start": 1.465625,
+    "end": 1.793167,
+    "duration": 0.327542
+  },
+  "scene01_silence": [
+    {
+      "start": 0.0,
+      "end": 0.180042,
+      "duration": 0.180042
+    },
+    {
+      "start": 1.465625,
+      "end": 1.793167,
+      "duration": 0.327542
+    },
+    {
+      "start": 2.671958,
+      "end": 2.92775,
+      "duration": 0.255792
+    },
+    {
+      "start": 4.847542,
+      "end": 5.052708,
+      "duration": 0.205167
+    }
+  ],
+  "intro_other_detected_silences": [],
+  "qa_order": [
+    "scene01-v5.mp3",
+    "scene02-v4.mp3",
+    "scene03-v4.mp3",
+    "scene04-v4.mp3",
+    "scene05-v3.mp3"
+  ],
+  "qa_duration": "31.143542",
+  "all_prior_audio_hashes_unchanged": true,
+  "qa_silence": [
+    {
+      "start": 0.0,
+      "end": 0.180083,
+      "duration": 0.180083
+    },
+    {
+      "start": 1.465542,
+      "end": 1.793167,
+      "duration": 0.327625
+    },
+    {
+      "start": 2.671917,
+      "end": 2.92775,
+      "duration": 0.255833
+    },
+    {
+      "start": 4.8475,
+      "end": 5.232708,
+      "duration": 0.385208
+    },
+    {
+      "start": 6.180208,
+      "end": 6.505417,
+      "duration": 0.325208
+    },
+    {
+      "start": 7.544917,
+      "end": 7.9225,
+      "duration": 0.377583
+    },
+    {
+      "start": 9.455875,
+      "end": 9.681042,
+      "duration": 0.225167
+    },
+    {
+      "start": 11.519542,
+      "end": 11.910875,
+      "duration": 0.391333
+    },
+    {
+      "start": 12.394042,
+      "end": 12.844208,
+      "duration": 0.450167
+    },
+    {
+      "start": 14.676542,
+      "end": 15.232542,
+      "duration": 0.556
+    },
+    {
+      "start": 16.476458,
+      "end": 16.62875,
+      "duration": 0.152292
+    },
+    {
+      "start": 16.809208,
+      "end": 17.11125,
+      "duration": 0.302042
+    },
+    {
+      "start": 19.831375,
+      "end": 20.264708,
+      "duration": 0.433333
+    },
+    {
+      "start": 21.362,
+      "end": 21.687083,
+      "duration": 0.325083
+    },
+    {
+      "start": 23.167917,
+      "end": 23.418083,
+      "duration": 0.250167
+    },
+    {
+      "start": 25.742125,
+      "end": 26.126583,
+      "duration": 0.384458
+    },
+    {
+      "start": 26.553875,
+      "end": 26.954125,
+      "duration": 0.40025
+    },
+    {
+      "start": 28.182625,
+      "end": 28.599,
+      "duration": 0.416375
+    },
+    {
+      "start": 30.01325,
+      "end": 30.299917,
+      "duration": 0.286667
+    },
+    {
+      "start": 30.918125,
+      "end": 31.143542,
+      "duration": 0.225417
+    }
+  ],
+  "listening_qa": "Unavailable. Natural connected phrasing and question intonation cannot be certified. Only one explicit SSML pause; all voiced PCM preserved before MP3 encoding."
+}

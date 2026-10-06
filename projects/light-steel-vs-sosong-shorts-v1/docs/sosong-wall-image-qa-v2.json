@@ -1,0 +1,24 @@
+{
+  "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s01-sosong-wall-v2.png",
+  "reference": "public/assets/images/s02-light-steel-wall-v3.png",
+  "tool": "built-in image_gen reference edit",
+  "generation_count": 1,
+  "prompt": "Generate ONE edited photorealistic image from reference 1 (metal wall). Reference 2 (wood v1) is a NEGATIVE THICKNESS EXAMPLE only: its timber is much too thick. Preserve reference 1's exact camera pose, portrait framing, window, concrete wall marks, room geometry, floor, ceiling, daylight and stud locations. Replace the metal wall subframing with VERY THIN Korean sosong hanchi-gak darukki softwood battens, EXACT intended physical section 27mm x 27mm, square not rectangular. These are slender one-inch battens, not structural wood studs. All vertical battens have both width AND wall projection 27mm. For a roughly 2.5m high wall each timber width is about ONE NINETIETH of its full height. At the nearest right upright, roughly 1500 pixels high in this reference, front face and side face should each be only around 10-16 pixels wide after perspective, not 30-50 pixels. Dramatically reduce both width and depth relative to reference 2, approximately one-third its perceived bulk. Broad areas of concrete remain between slender wooden lines. Upper and lower horizontal battens must also be only 27x27mm, slim single sticks rather than thick plates. Consistent evenly spaced upright locations as reference 1. Pale unfinished practical softwood, fine natural grain, occasional tiny knots. Simple wood butt joints; all framing tight to concrete backing, no braces, metal brackets, joist hangers, heavy bolts or metal studs. Keep existing window metal unchanged. Not 2x4, not 38x89, not 40x90, not house framing, not timber posts, not broad rectangular studs, no OSB/plywood/plasterboard. Preserve realism; no text, logos, watermark, illustration or CGI. One full scene photograph, not split-screen/collage, near 9:16. The defining visual change is thin square-section battens whose slenderness is obvious at room scale.",
+  "sha256": "633c45b28ba0504883e560f88b757d276f6045a2c9d3d9c95f87861239671434",
+  "qa": {
+    "27×27 수준 가느다란 다루끼 인상": "PASS",
+    "v1 대비 확실한 굵기 감소": "PASS",
+    "2×4 구조목 아님": "PASS",
+    "폭/깊이 정사각형 인상": "PASS",
+    "수직 간격 일정": "PASS",
+    "상하 목재 가늘음": "PASS",
+    "경량철골 혼입 없음": "PASS",
+    "불필요 구조철물 없음": "PASS",
+    "콘크리트 앞 목재 하지 자연스러움": "PASS",
+    "기준 이미지와 동일 작업 비교 가능": "PASS"
+  },
+  "final": "PASS",
+  "limitation": "Visual proportion QA only. Exact 27mm physical dimensions cannot be measured or certified from an AI image without scale calibration. Perspective makes visible front/side pixel widths differ.",
+  "observation": "v1보다 수직 및 상하 부재가 현저히 가늘며 동일 콘크리트/창문/구도 보존. 정사각 단면의 가는 하지 인상.",
+  "prior_assets_unchanged": true
+}

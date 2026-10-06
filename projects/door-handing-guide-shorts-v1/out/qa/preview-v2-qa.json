@@ -1,0 +1,97 @@
+{
+  "timing": [
+    {
+      "scene": 1,
+      "file": "scene01-v2.mp3",
+      "ttsSeconds": 4.536,
+      "frames": 112,
+      "duration": 4.666666666666667
+    },
+    {
+      "scene": 2,
+      "file": "scene02-v2.mp3",
+      "ttsSeconds": 5.328,
+      "frames": 131,
+      "duration": 5.458333333333333
+    },
+    {
+      "scene": 3,
+      "file": "scene03-v2.mp3",
+      "ttsSeconds": 5.544,
+      "frames": 136,
+      "duration": 5.666666666666667
+    },
+    {
+      "scene": 4,
+      "file": "scene04-v2.mp3",
+      "ttsSeconds": 6.024,
+      "frames": 148,
+      "duration": 6.166666666666667
+    },
+    {
+      "scene": 5,
+      "file": "scene05-v2.mp3",
+      "ttsSeconds": 4.704,
+      "frames": 116,
+      "duration": 4.833333333333333
+    },
+    {
+      "scene": 6,
+      "file": "scene06-v2.mp3",
+      "ttsSeconds": 6.096,
+      "frames": 150,
+      "duration": 6.25
+    },
+    {
+      "scene": 7,
+      "file": "scene06-ending.wav",
+      "ttsSeconds": 5.666667,
+      "frames": 136,
+      "duration": 5.666666666666667
+    }
+  ],
+  "videoSeconds": 38.708333333333336,
+  "previousVideoSeconds": 34.208333333333336,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1",
+        "duration": "38.708333",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "38.762667"
+      }
+    ],
+    "format": {
+      "duration": "38.762667",
+      "size": "2083859"
+    }
+  },
+  "decode": "PASS full video and audio",
+  "unchangedVisualSourceAndEnding": true,
+  "lockedHashes": {
+    "src/Scenes.tsx": "582b8bba3780bd6797bfd961ae0e4cad91e371a73ed79130611d6d2ad9b0892c",
+    "src/global.css": "33fd89e46ce7eca9204d381840ab5b7c6cd7ec359bf2dc28f6a253e6e2f1e08c",
+    "src/geometry.ts": "bc2a8b75e8c9c6041ce588c7e2586849ddb81080834fd821bf3ef814b97ab447",
+    "src/Root.tsx": "16bb3acc59d451906f75de0db10d23a6cd02bad2c5381b31d375fa4096e938fa",
+    "src/index.ts": "fbc5b8e42156a0a4b71cb0c6b035eab0262b63c5dd2961ceae5a7e954b37c0ea",
+    "src/design/fonts.ts": "f06a89b8d7e96d3d19bfbe4098088cb46069c753c19f98a7dfaaf8b11c7483a1",
+    "src/ending/Ending.tsx": "1a3ebaa5668260e61b7f28be90b053c9092b2f06fc758b4a07baf5fc1b1a37b4",
+    "src/ending/tokens.ts": "06a3a406dbb45a6e5a352c07a6f9c61b940950a6fa8e8ca30cfc87d9eba5f3b6",
+    "src/ending/brief.ts": "09801109c48a5360aff403c0f8bcd61549f31657d50903aa7de7545c0005f01b",
+    "public/assets/audio/scene06-ending.wav": "68f823f1c630afa465cd0d46c8bb5eda51f6af375b664e66c0bafa954bfef416",
+    "public/assets/logos/daesanlogo2.png": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "scene01-v4.mp3": "<speak>도어 주문하실 때,<break time=\"200ms\"/> 문 여는 방향으로 헷갈리신 적 있으시죠?</speak>",
+  "scene03-v4.mp3": "<speak>문을 안쪽으로 밀어서 여는 문은 '밀',<break time=\"200ms\"/> 거실 쪽으로 당겨서 여는 문은 '당'으로 봅니다.</speak>",
+  "scene04-v4.mp3": "<speak>그리고 손잡이 위치만 보시면 돼요.<break time=\"200ms\"/> 왼쪽은 좌손,<break time=\"200ms\"/> 오른쪽은 우손입니다.</speak>"
+}

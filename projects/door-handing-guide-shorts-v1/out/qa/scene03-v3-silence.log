@@ -1,0 +1,21 @@
+[in#0/mp3 @ 0x7b77018000] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/assets/audio/scene03-v3.mp3':
+  Duration: 00:00:05.50, start: 0.000000, bitrate: 32 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 32 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Stream #0:0: Audio: pcm_s16le, 24000 Hz, mono, s16, 384 kb/s
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+[Parsed_silencedetect_0 @ 0x7b76c18a80] silence_start: 0
+[Parsed_silencedetect_0 @ 0x7b76c18a80] silence_end: 0.259875 | silence_duration: 0.259875
+[Parsed_silencedetect_0 @ 0x7b76c18a80] silence_start: 1.664625
+[Parsed_silencedetect_0 @ 0x7b76c18a80] silence_end: 1.980792 | silence_duration: 0.316167
+[Parsed_silencedetect_0 @ 0x7b76c18a80] silence_start: 5.281625
+[Parsed_silencedetect_0 @ 0x7b76c18a80] silence_end: 5.496 | silence_duration: 0.214375
+[out#0/null @ 0x7b76c18240] video:0KiB audio:258KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:05.49 bitrate=N/A speed=2.56e+03x elapsed=0:00:00.00    

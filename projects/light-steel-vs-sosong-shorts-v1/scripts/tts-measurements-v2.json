@@ -1,0 +1,148 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "input_mode": "text, one synthesis per scene, punctuation unchanged",
+  "duration_total": "28.416000",
+  "files": [
+    {
+      "file": "scene01-v2.mp3",
+      "duration": "4.464000",
+      "bytes": 17856,
+      "sha256": "57ec65bbc6534b4bbac88325e2cb0b48564af783c4c1bbd81949b0599cda85c2",
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.308333,
+          "duration": 0.308333,
+          "position": "start"
+        },
+        {
+          "start": 2.086667,
+          "end": 2.3885,
+          "duration": 0.301833,
+          "position": "middle"
+        },
+        {
+          "start": 4.252708,
+          "end": 4.464,
+          "duration": 0.211292,
+          "position": "end"
+        }
+      ]
+    },
+    {
+      "file": "scene02-v2.mp3",
+      "duration": "6.048000",
+      "bytes": 24192,
+      "sha256": "addf14bd058ace4e1a88d5d2dce283e8114fc6dcd6f48f87ed66cb2d508ca544",
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.411,
+          "duration": 0.411,
+          "position": "start"
+        },
+        {
+          "start": 1.274792,
+          "end": 1.43575,
+          "duration": 0.160958,
+          "position": "middle"
+        },
+        {
+          "start": 5.828042,
+          "end": 6.048,
+          "duration": 0.219958,
+          "position": "end"
+        }
+      ]
+    },
+    {
+      "file": "scene03-v2.mp3",
+      "duration": "6.936000",
+      "bytes": 27744,
+      "sha256": "76b6e2fea7a1be410b146a0456b6042b400d33fbfddce6acc2cb3e95a2741f69",
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.176,
+          "duration": 0.176,
+          "position": "start"
+        },
+        {
+          "start": 2.486833,
+          "end": 2.922625,
+          "duration": 0.435792,
+          "position": "middle"
+        },
+        {
+          "start": 3.683625,
+          "end": 3.940708,
+          "duration": 0.257083,
+          "position": "middle"
+        },
+        {
+          "start": 5.103375,
+          "end": 5.371167,
+          "duration": 0.267792,
+          "position": "middle"
+        }
+      ]
+    },
+    {
+      "file": "scene04-v2.mp3",
+      "duration": "6.384000",
+      "bytes": 25536,
+      "sha256": "ca6f140fd3d51504301ab2ead5f80df2f7a6081a3e812542d8a295c0b2bf34c6",
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.405292,
+          "duration": 0.405292,
+          "position": "start"
+        },
+        {
+          "start": 3.958792,
+          "end": 4.239417,
+          "duration": 0.280625,
+          "position": "middle"
+        },
+        {
+          "start": 6.120083,
+          "end": 6.384,
+          "duration": 0.263917,
+          "position": "end"
+        }
+      ]
+    },
+    {
+      "file": "scene05-v2.mp3",
+      "duration": "4.584000",
+      "bytes": 18336,
+      "sha256": "03a6c8b5b0a4171c9720b2ac4b391cc325e981de7588ef2156ccc03e73e40ee0",
+      "silence": [
+        {
+          "start": 0.0,
+          "end": 0.659208,
+          "duration": 0.659208,
+          "position": "start"
+        },
+        {
+          "start": 2.051625,
+          "end": 2.414167,
+          "duration": 0.362542,
+          "position": "middle"
+        },
+        {
+          "start": 4.36325,
+          "end": 4.584,
+          "duration": 0.22075,
+          "position": "end"
+        }
+      ]
+    }
+  ],
+  "full_qa_duration": "28.416000",
+  "preexisting_files_unchanged": true,
+  "listening_qa": "Not available; signal-based silence measurement only. Scene 3 linguistic boundary cannot be verified by silence detection alone."
+}

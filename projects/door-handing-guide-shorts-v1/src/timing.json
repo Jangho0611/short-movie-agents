@@ -1,0 +1,51 @@
+[
+  {
+    "scene": 1,
+    "file": "scene01-v5.mp3",
+    "ttsSeconds": 3.745958,
+    "frames": 93,
+    "duration": 3.875
+  },
+  {
+    "scene": 2,
+    "file": "scene02-v2.mp3",
+    "ttsSeconds": 5.328,
+    "frames": 131,
+    "duration": 5.458333333333333
+  },
+  {
+    "scene": 3,
+    "file": "scene03-v5.mp3",
+    "ttsSeconds": 5.781542,
+    "frames": 142,
+    "duration": 5.916666666666667
+  },
+  {
+    "scene": 4,
+    "file": "scene04-v5.mp3",
+    "ttsSeconds": 5.102375,
+    "frames": 126,
+    "duration": 5.25
+  },
+  {
+    "scene": 5,
+    "file": "scene05-v2.mp3",
+    "ttsSeconds": 4.704,
+    "frames": 116,
+    "duration": 4.833333333333333
+  },
+  {
+    "scene": 6,
+    "file": "scene06-v2.mp3",
+    "ttsSeconds": 6.096,
+    "frames": 150,
+    "duration": 6.25
+  },
+  {
+    "scene": 7,
+    "file": "scene06-ending.wav",
+    "ttsSeconds": 5.666667,
+    "frames": 136,
+    "duration": 5.666666666666667
+  }
+]

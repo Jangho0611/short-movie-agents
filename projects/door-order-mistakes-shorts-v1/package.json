@@ -1,0 +1,14 @@
+{
+  "name": "door-order-mistakes-shorts-v1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preview": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.523",
+    "remotion": "4.0.523",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}

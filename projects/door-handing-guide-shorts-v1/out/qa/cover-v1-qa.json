@@ -1,0 +1,38 @@
+{
+  "cover": "/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/covers/door-handing-guide-cover-v1.png",
+  "crop": "/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/covers/square-safe/door-handing-guide-cover-v1-square.png",
+  "mainDesign": "Figma",
+  "secondaryDesign": "Notion",
+  "box": "#C8E6CD",
+  "boxAlpha": 0.92,
+  "accent": "#146335",
+  "brandLockup": "#123628",
+  "videoAssetsUnchanged": true,
+  "boxBounds": [
+    53,
+    341,
+    770,
+    694
+  ],
+  "feedSafeY": [
+    420,
+    1500
+  ],
+  "headlineTopY": [
+    437,
+    529
+  ],
+  "brandBounds": [
+    90,
+    1380,
+    470,
+    1467
+  ],
+  "heroSource": "src/Scenes.tsx FrontDoor (right handle)",
+  "heroBoundsApprox": [
+    441,
+    749,
+    781,
+    1311
+  ]
+}

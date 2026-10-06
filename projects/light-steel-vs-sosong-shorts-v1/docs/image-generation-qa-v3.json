@@ -1,0 +1,84 @@
+{
+  "tool": "built-in image_gen",
+  "generation_count": 3,
+  "additional_v4": false,
+  "inspection": "Full image and enlarged detail inspection. PASS means visible image screening only; hidden physical connections cannot be verified from generated pixels.",
+  "images": [
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s01-light-steel-v3.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-bab1898f-4132-4daf-8de2-e0863eb2a6de.png",
+      "sha256": "1214a225aace9f68fec9e19f4d4c2cb52e8cb147b6a43062933dcb2f95193201",
+      "size": [
+        941,
+        1672
+      ],
+      "checks": {
+        "동일 프로파일": "PASS",
+        "열린 채널": "PASS",
+        "각파이프 없음": "PASS",
+        "타공 없음": "PASS",
+        "단면 이상 없음": "FAIL",
+        "얇은 절곡 강판": "PASS"
+      },
+      "final": "FAIL",
+      "note": "전경 다섯 자재의 양쪽 끝에 길게 180도 되접힌 립이 반복되어 일반적인 단순 C형 스터드 단면 기준 미달.",
+      "prompt": "One standalone natural photorealistic site-camera photograph, portrait 9:16, Korean apartment renovation, unfinished concrete and ordinary soft daylight. Technical accuracy above visual beauty. No text, logos, watermark, people, CGI, illustration, cinematic lighting or HDR. Simple physically plausible thin galvanized steel parts only, never invent decorative perforations or complicated fittings. Several IDENTICAL unperforated lightweight drywall wall studs neatly laid parallel on dusty concrete floor, only one type of profile, no runners mixed in. Camera slightly above cut ends, modest 40mm perspective, not macro closeup. Every member is the SAME simple open C channel made from thin bent sheet metal, with flat web and two straight flanges with very short simple straight inward 90-degree returns. No rolled or curled edges, no doubled flanges, no decorative hems. Orient all channels OPEN SIDE UP with wide longitudinal opening plainly visible from near end along entire length. Arrange one flat layer side by side with modest gaps, not nested or overlapping into apparent rectangular boxes. Ends face toward foreground, long straight members recede. No holes/slots/punching/service knockouts anywhere. No square tubes, box sections, H beams or heavy structural steel. Ordinary unfinished interior backdrop, spare space above."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s02-light-steel-wall-v3.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-b0edf1f4-5f25-4ff0-a193-4c5d1bb73d46.png",
+      "sha256": "83d4f6bd0e7a534cd63e8eabd13aa0302d5ea71e66279ad4d4f919fac0f28214",
+      "size": [
+        941,
+        1672
+      ],
+      "checks": {
+        "상부 런너": "PASS",
+        "하부 런너": "PASS",
+        "스터드 간격": "PASS",
+        "타공 없음": "PASS",
+        "하단 브라켓 없음": "PASS",
+        "상단 브라켓 없음": "PASS",
+        "런너 결합": "PASS",
+        "목재 혼입 없음": "PASS",
+        "각파이프 아님": "PASS",
+        "AI 구조 오류 없음": "PASS"
+      },
+      "final": "PASS",
+      "note": "확대 시 상하 런너 내부 결합, 무타공 스터드와 일정 간격 확인. 별도 앵글형 브라켓 없음.",
+      "prompt": "One standalone natural photorealistic site-camera photograph, portrait 9:16, Korean apartment renovation, unfinished concrete and ordinary soft daylight. Technical accuracy above visual beauty. No text, logos, watermark, people, CGI, illustration, cinematic lighting or HDR. Simple physically plausible thin galvanized steel parts only, never invent decorative perforations or complicated fittings. Broad exposed drywall lining frame in front of bare concrete wall. Eight to ten identical thin galvanized open C-profile vertical studs equally spaced and parallel, same orientation. Continuous simple U runner along floor and matching U runner on ceiling. Stud ends simply inserted INSIDE these two tracks. No separate foot plates, angles, L brackets, triangles, tabs, clips or base shoes at either end, not even small ones. Track side flange overlaps stud side flange directly; any necessary small screw flush and unobtrusive. Camera slightly oblique wide full-height view shows regular repeated plain metal members. No drywall concealing frame. Smooth continuous stud webs/flanges with absolutely no holes, rectangles, knockouts, slots or decorative grooves. No timber, no square tubes, no floating joints. Emphasize simple stud-inside-track geometry rather than joint detail."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s02-light-steel-ceiling-v3.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-10d803db-14f0-40d2-a78d-4322170e08bf.png",
+      "sha256": "d97f3a1a883eda4d831418082bc5df88fcdd111b738f1f374fcc4958b9b45a1a",
+      "size": [
+        941,
+        1672
+      ],
+      "checks": {
+        "슬래브/행거": "PASS",
+        "상하 구조 구분": "PASS",
+        "최하단 동일 레벨": "PASS",
+        "하부면 평탄성": "PASS",
+        "석고보드 밀착 가능": "PASS",
+        "볼트 돌출 없음": "PASS",
+        "너트 돌출 없음": "PASS",
+        "클립 돌출 없음": "PASS",
+        "브라켓 돌출 없음": "PASS",
+        "석고보드 사이 장애물 없음": "PASS",
+        "석고보드 밀착": "PASS",
+        "부재 연속성": "PASS",
+        "스터드 오용 없음": "PASS",
+        "넓은 천장 표현": "PASS",
+        "AI 구조 오류 없음": "PASS"
+      },
+      "final": "PASS",
+      "note": "상부 지지재와 하부 연속 부재의 높이 구분. 하부면 정렬 및 우측 석고보드 직접 밀착 확인. 보이는 영역에서 마감면 아래 돌출 철물이나 명백한 구조 오류 발견 없음.",
+      "prompt": "One standalone natural photorealistic site-camera photograph, portrait 9:16, Korean apartment renovation, unfinished concrete and ordinary soft daylight. Technical accuracy above visual beauty. No text, logos, watermark, people, CGI, illustration, cinematic lighting or HDR. Simple physically plausible thin galvanized steel parts only, never invent decorative perforations or complicated fittings. Wide view from floor looking obliquely upward at large exposed galvanized M-bar gypsum-board ceiling in a Korean renovation. Camera pulled back, NOT joint closeup. Concrete slab above, sparse regular vertical threaded hanger rods attached to slab support upper carrying channels. BELOW upper channels run many long continuous parallel shallow hat/M-shaped galvanized furring channels perpendicular to carriers. Every lower furring underside is one flat metal strip, all at exactly the SAME horizontal elevation, forming a single unobstructed drywall fixing plane. Upper channels, hangers, nuts and authentic minimal clips all strictly ABOVE that underside plane, never underneath it. All lower members continuous across view with no breaks/floating ends. Show a modest area of real gypsum board already fastened at right edge: top of board flush in DIRECT CONTACT with bottom faces of several lower channels, no gap or intervening hardware. Board underside flat and screw heads flush. Uncovered majority shows broad evenly spaced flat mounting strips ready for sheets. No bolt/nut/clip/bracket projecting below contact plane, no hardware between sheet and mounting face. Different upper carriers and shallow lower furring profiles/levels clearly distinguished. Not wall studs, not tubes, not T-bar tile system, not same-level crossing grid. Use simple believable existing construction detailing, no fictional connectors."
+    }
+  ],
+  "image02": "s01-sosong-lumber-v1.png unchanged PASS",
+  "prior_public_assets_unchanged": true,
+  "size_note": "941x1672 near-9:16 native output retained without resampling."
+}

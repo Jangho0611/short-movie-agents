@@ -1,0 +1,55 @@
+{
+  "source": "/Users/janghokim/Documents/bathroom-door-moisture-shorts-v1",
+  "assets": [
+    {
+      "path": "src/ending/Ending.tsx",
+      "sha256": "1a3ebaa5668260e61b7f28be90b053c9092b2f06fc758b4a07baf5fc1b1a37b4",
+      "identical": true
+    },
+    {
+      "path": "src/ending/brief.ts",
+      "sha256": "09801109c48a5360aff403c0f8bcd61549f31657d50903aa7de7545c0005f01b",
+      "identical": true
+    },
+    {
+      "path": "src/ending/tokens.ts",
+      "sha256": "06a3a406dbb45a6e5a352c07a6f9c61b940950a6fa8e8ca30cfc87d9eba5f3b6",
+      "identical": true
+    },
+    {
+      "path": "src/design/fonts.ts",
+      "sha256": "f06a89b8d7e96d3d19bfbe4098088cb46069c753c19f98a7dfaaf8b11c7483a1",
+      "identical": true
+    },
+    {
+      "path": "public/assets/audio/scene06-ending.wav",
+      "sha256": "68f823f1c630afa465cd0d46c8bb5eda51f6af375b664e66c0bafa954bfef416",
+      "identical": true
+    },
+    {
+      "path": "public/assets/logos/daesanlogo2.png",
+      "sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+      "identical": true
+    },
+    {
+      "path": "public/assets/fonts/Pretendard-SemiBold.woff2",
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "identical": true
+    },
+    {
+      "path": "public/assets/fonts/Pretendard-ExtraBold.woff2",
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "identical": true
+    },
+    {
+      "path": "public/assets/fonts/Pretendard-Bold.woff2",
+      "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+      "identical": true
+    },
+    {
+      "path": "public/assets/fonts/Pretendard-Medium.woff2",
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "identical": true
+    }
+  ]
+}

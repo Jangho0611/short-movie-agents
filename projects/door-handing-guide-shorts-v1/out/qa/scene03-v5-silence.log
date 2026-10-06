@@ -1,0 +1,28 @@
+Input #0, mp3, from '/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/assets/audio/scene03-v5.mp3':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Duration: 00:00:05.78, start: 0.046042, bitrate: 129 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 128 kb/s, start 0.046042
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Stream #0:0: Audio: pcm_s16le, 24000 Hz, mono, s16, 384 kb/s
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_start: 0
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_end: 0.180083 | silence_duration: 0.180083
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_start: 1.449583
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_end: 1.569792 | silence_duration: 0.120208
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_start: 2.476458
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_end: 2.676583 | silence_duration: 0.200125
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_start: 3.887417
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_end: 4.009667 | silence_duration: 0.12225
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_start: 4.64125
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_end: 4.761333 | silence_duration: 0.120083
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_start: 5.597625
+[Parsed_silencedetect_0 @ 0x75d8c28a80] silence_end: 5.781542 | silence_duration: 0.183917
+[out#0/null @ 0x75d8c28240] video:0KiB audio:271KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:05.78 bitrate=N/A speed=2.42e+03x elapsed=0:00:00.00    

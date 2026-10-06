@@ -1,0 +1,116 @@
+🧹 Webpack config change detected. Clearing cache...
+Bundling 6%
+Bundling 21%
+Bundling 32%
+Bundling 43%
+Bundling 54%
+Bundling 65%
+Bundling 70%
+Bundling 75%
+Bundling 80%
+Bundling 85%
+Bundling 91%
+Bundling 98%
+Bundling 100%
+Getting composition
+⚡️ Cached bundle. Subsequent renders will be faster.
+Composition          Scene1
+Codec                h264
+Output               /Users/janghokim/Documents/door-handing-guide-shorts-v1/public/previews/scenes/scene01-final.mp4
+Concurrency          4x
+Rendered 0/93
+Rendered 1/93, time remaining: 28s
+Rendered 2/93, time remaining: 16s
+Rendered 3/93, time remaining: 12s
+Rendered 4/93, time remaining: 11s
+Rendered 5/93, time remaining: 10s
+Rendered 6/93, time remaining: 10s
+Rendered 7/93, time remaining: 9s
+Rendered 8/93, time remaining: 9s
+Rendered 9/93, time remaining: 8s
+Rendered 10/93, time remaining: 7s
+Rendered 11/93, time remaining: 7s
+Rendered 12/93, time remaining: 7s
+Rendered 13/93, time remaining: 6s
+Rendered 14/93, time remaining: 6s
+Rendered 15/93, time remaining: 6s
+Rendered 16/93, time remaining: 6s
+Rendered 17/93, time remaining: 5s
+Rendered 18/93, time remaining: 5s
+Rendered 19/93, time remaining: 5s
+Rendered 20/93, time remaining: 5s
+Rendered 21/93, time remaining: 5s
+Rendered 22/93, time remaining: 4s
+Rendered 23/93, time remaining: 4s
+Rendered 24/93, time remaining: 4s
+Rendered 25/93, time remaining: 4s
+Rendered 26/93, time remaining: 4s
+Rendered 27/93, time remaining: 4s
+Rendered 28/93, time remaining: 4s
+Rendered 29/93, time remaining: 4s
+Rendered 30/93, time remaining: 4s
+Rendered 31/93, time remaining: 4s
+Rendered 32/93, time remaining: 3s
+Rendered 33/93, time remaining: 3s
+Rendered 34/93, time remaining: 3s
+Rendered 35/93, time remaining: 3s
+Rendered 36/93, time remaining: 3s
+Rendered 37/93, time remaining: 3s
+Rendered 38/93, time remaining: 3s
+Rendered 39/93, time remaining: 3s
+Rendered 40/93, time remaining: 3s
+Rendered 41/93, time remaining: 3s
+Rendered 42/93, time remaining: 3s
+Rendered 43/93, time remaining: 3s
+Rendered 44/93, time remaining: 2s
+Rendered 45/93, time remaining: 2s
+Rendered 46/93, time remaining: 2s
+Rendered 47/93, time remaining: 2s
+Rendered 48/93, time remaining: 2s
+Rendered 49/93, time remaining: 2s
+Rendered 50/93, time remaining: 2s
+Rendered 51/93, time remaining: 2s
+Rendered 52/93, time remaining: 2s
+Rendered 53/93, time remaining: 2s
+Rendered 54/93, time remaining: 2s
+Rendered 55/93, time remaining: 2s
+Rendered 56/93, time remaining: 2s
+Rendered 57/93, time remaining: 2s
+Rendered 58/93, time remaining: 2s
+Rendered 59/93, time remaining: 1s
+Rendered 60/93, time remaining: 1s
+Rendered 61/93, time remaining: 1s
+Rendered 62/93, time remaining: 1s
+Rendered 63/93, time remaining: 1s
+Rendered 64/93, time remaining: 1s
+Rendered 65/93, time remaining: 1s
+Rendered 66/93, time remaining: 1s
+Rendered 67/93, time remaining: 1s
+Rendered 68/93, time remaining: 1s
+Rendered 69/93, time remaining: 1s
+Rendered 70/93, time remaining: 1s
+Rendered 71/93, time remaining: 1s
+Rendered 72/93, time remaining: 1s
+Rendered 73/93, time remaining: 1s
+Rendered 74/93, time remaining: 1s
+Rendered 75/93, time remaining: 1s
+Rendered 76/93, time remaining: 0s
+Rendered 77/93, time remaining: 0s
+Rendered 78/93, time remaining: 0s
+Rendered 79/93, time remaining: 0s
+Rendered 80/93, time remaining: 0s
+Rendered 81/93, time remaining: 0s
+Rendered 82/93, time remaining: 0s
+Rendered 83/93, time remaining: 0s
+Rendered 84/93, time remaining: 0s
+Rendered 85/93, time remaining: 0s
+Rendered 86/93, time remaining: 0s
+Rendered 87/93, time remaining: 0s
+Rendered 88/93, time remaining: 0s
+Rendered 89/93, time remaining: 0s
+Rendered 90/93, time remaining: 0s
+Rendered 91/93, time remaining: 0s
+Rendered 92/93, time remaining: 0s
+Rendered 93/93
+Encoded 93/93
++                    /Users/janghokim/Documents/door-handing-guide-shorts-v1/public/previews/scenes/scene01-final.mp4 202.4 kB

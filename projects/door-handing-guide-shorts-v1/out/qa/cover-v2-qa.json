@@ -1,0 +1,30 @@
+{
+  "cover": "/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/covers/door-handing-guide-cover-v2.png",
+  "crop": "/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/covers/square-safe/door-handing-guide-cover-v2-square.png",
+  "canonical": "/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/references/characters/small-daesan-canonical-noshadow-v2.png",
+  "canonicalSource": "/Users/janghokim/Documents/door-order-tips-v1/public/references/characters/small-daesan-canonical-noshadow-v2.png",
+  "canonicalHash": "59f078494a5fc56cc9b650ed9266c4e5140ca7feab43ef3a3d5659f2c32df80b",
+  "category": "건축자재 상식 · 도어 발주",
+  "brandLogoBounds": [
+    650,
+    1380,
+    728,
+    1458
+  ],
+  "brandTextOrigin": [
+    740,
+    1387
+  ],
+  "brandSubtextOrigin": [
+    740,
+    1441
+  ],
+  "brandColor": "#123628",
+  "characterBounds": [
+    70,
+    955,
+    384.363636,
+    1475
+  ],
+  "lockedSourceAndV1Unchanged": true
+}

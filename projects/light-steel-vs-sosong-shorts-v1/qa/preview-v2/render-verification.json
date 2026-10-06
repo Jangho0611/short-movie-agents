@@ -1,0 +1,159 @@
+{
+  "outputs": {
+    "light-steel-vs-sosong-preview-v2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "1175",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "nb_frames": "1836"
+        }
+      ],
+      "format": {
+        "duration": "39.168000",
+        "size": "3091839"
+      }
+    },
+    "scene01-preview-v2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "162",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "nb_frames": "255"
+        }
+      ],
+      "format": {
+        "duration": "5.400000",
+        "size": "324774"
+      }
+    },
+    "scene02-preview-v2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "213",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "nb_frames": "334"
+        }
+      ],
+      "format": {
+        "duration": "7.100000",
+        "size": "567486"
+      }
+    },
+    "scene03-preview-v2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "267",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "nb_frames": "419"
+        }
+      ],
+      "format": {
+        "duration": "8.900000",
+        "size": "646903"
+      }
+    },
+    "scene04-preview-v2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "189",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "nb_frames": "297"
+        }
+      ],
+      "format": {
+        "duration": "6.300000",
+        "size": "698649"
+      }
+    },
+    "scene05-preview-v2.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "174",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "nb_frames": "273"
+        }
+      ],
+      "format": {
+        "duration": "5.800000",
+        "size": "385545"
+      }
+    }
+  },
+  "preservedAssets": false,
+  "changedAssets": [
+    "public/assets/.DS_Store"
+  ],
+  "note": "Scene 3 now follows processing-custom-reinforcement order. Uses measured phrase pauses; the custom-to-reinforcement word boundary is estimated. Listening QA not performed."
+}

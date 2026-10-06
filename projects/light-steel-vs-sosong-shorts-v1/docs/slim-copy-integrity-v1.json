@@ -1,0 +1,158 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/scripts/tts-measurements-v1.json",
+    "local": "scripts/tts-measurements-v1.json",
+    "bytes": 3219,
+    "sha256": "1c6711ac6813b17bb2cfc332367e4a65c06f5475b465c842754b4c94c5c39ea2",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/scripts/tts-input-v1.json",
+    "local": "scripts/tts-input-v1.json",
+    "bytes": 713,
+    "sha256": "c5a192daa189f90c921b78a60c552d999bf83285d566dbc2c15c19669b1a25e2",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/public/assets/audio/scene02-v1.mp3",
+    "local": "public/assets/audio/scene02-v1.mp3",
+    "bytes": 24864,
+    "sha256": "b028402124c9661567c836f2573f85e718ed48a561b8b074c8afbe753deceb7f",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/public/assets/audio/full-tts-qa-v1.mp3",
+    "local": "public/assets/audio/full-tts-qa-v1.mp3",
+    "bytes": 497324,
+    "sha256": "41368c2ec39dc2eb86f7c10807e1d17b3c8a687f149f67e6c198caa9c6d12e92",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/public/assets/audio/scene04-v1.mp3",
+    "local": "public/assets/audio/scene04-v1.mp3",
+    "bytes": 24672,
+    "sha256": "7a49e4acaa6e7a29946c4ced1c46f1704fbece6ee46461d9b6bf1996f4e860ba",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/public/assets/audio/scene01-v1.mp3",
+    "local": "public/assets/audio/scene01-v1.mp3",
+    "bytes": 17856,
+    "sha256": "57ec65bbc6534b4bbac88325e2cb0b48564af783c4c1bbd81949b0599cda85c2",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/public/assets/audio/scene03-v1.mp3",
+    "local": "public/assets/audio/scene03-v1.mp3",
+    "bytes": 26496,
+    "sha256": "3ea7bd8a66faab2ac7ee6233d0f16480952d814c9866579640ac7273ed22406c",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/light-steel-vs-sosong-shorts-v1/public/assets/audio/scene05-v1.mp3",
+    "local": "public/assets/audio/scene05-v1.mp3",
+    "bytes": 30144,
+    "sha256": "689f44ab3bae3fd19c05007f70cafdc2f44bd2d70f290f6e7debe636bc588df7",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/package-lock.json",
+    "local": "package-lock.json",
+    "bytes": 142149,
+    "sha256": "2929eaaa6fdf13454512c03d5fc7b71194b81b7247dad1e2b1da9211cede0661",
+    "match": false,
+    "sourceSha256": "008a17614b2c6613853b3a59ccc9a4022f1381a20eb5d35e3e0977cd59a9b269",
+    "note": "Only project name metadata changed; dependency versions preserved."
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/tsconfig.json",
+    "local": "tsconfig.json",
+    "bytes": 356,
+    "sha256": "dcfd46b39e5fe316ca85f140c9c94661135bdcb0dc370667385930c136293355",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/remotion.config.ts",
+    "local": "remotion.config.ts",
+    "bytes": 496,
+    "sha256": "d1d6ad60003768947028004cda50532bad659f61595247035504b613b975dc1c",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/src/browser-fonts.d.ts",
+    "local": "src/browser-fonts.d.ts",
+    "bytes": 147,
+    "sha256": "03a367652c137cb50810aefafee189d0251990b9141351141c561c0f3759557c",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/src/scene5/Scene5Ending.tsx",
+    "local": "src/scene5/Scene5Ending.tsx",
+    "bytes": 7084,
+    "sha256": "f22b30f0e452eb5b92c14594ed42dd82fe53e6c137825b2408a7ac328b263ca6",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/src/scene5/fonts.ts",
+    "local": "src/scene5/fonts.ts",
+    "bytes": 891,
+    "sha256": "9413c67f64a284b4dc4bac15592f1a6a2c3ff129b69ff41dd021ddd658cf64df",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/src/scene5/brief.ts",
+    "local": "src/scene5/brief.ts",
+    "bytes": 662,
+    "sha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/src/scene5/tokens.ts",
+    "local": "src/scene5/tokens.ts",
+    "bytes": 496,
+    "sha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/public/assets/fonts/Pretendard-Medium.woff2",
+    "local": "public/assets/fonts/Pretendard-Medium.woff2",
+    "bytes": 778432,
+    "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/public/assets/fonts/Pretendard-SemiBold.woff2",
+    "local": "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "bytes": 785856,
+    "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/public/assets/fonts/Pretendard-Bold.woff2",
+    "local": "public/assets/fonts/Pretendard-Bold.woff2",
+    "bytes": 791156,
+    "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "local": "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "bytes": 793540,
+    "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lumber-grade-shorts-v1/public/assets/logos/daesanlogo2.png",
+    "local": "public/assets/logos/daesanlogo2.png",
+    "bytes": 10343,
+    "sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+    "match": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/audio/scene06-tts-v3.mp3",
+    "local": "public/assets/audio/scene06-tts-v3.mp3",
+    "bytes": 19916,
+    "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+    "match": true
+  }
+]

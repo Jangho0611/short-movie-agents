@@ -1,0 +1,51 @@
+[
+  {
+    "scene": 1,
+    "correlation": 0.99464,
+    "offsetMs": 42.625,
+    "peak": 0.81538,
+    "rmsDb": -20.85
+  },
+  {
+    "scene": 2,
+    "correlation": 0.9929,
+    "offsetMs": 43.0,
+    "peak": 0.77271,
+    "rmsDb": -20.67
+  },
+  {
+    "scene": 3,
+    "correlation": 0.9929,
+    "offsetMs": 42.25,
+    "peak": 0.74568,
+    "rmsDb": -19.51
+  },
+  {
+    "scene": 4,
+    "correlation": 0.99287,
+    "offsetMs": 42.25,
+    "peak": 0.97733,
+    "rmsDb": -19.17
+  },
+  {
+    "scene": 5,
+    "correlation": 0.99126,
+    "offsetMs": 42.25,
+    "peak": 0.8144,
+    "rmsDb": -19.17
+  },
+  {
+    "scene": 6,
+    "correlation": 0.99384,
+    "offsetMs": 42.25,
+    "peak": 0.67597,
+    "rmsDb": -19.31
+  },
+  {
+    "scene": 7,
+    "correlation": 0.99411,
+    "offsetMs": 43.0,
+    "peak": 0.58779,
+    "rmsDb": -22.68
+  }
+]

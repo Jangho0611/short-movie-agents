@@ -38,7 +38,19 @@ projects/
 !/projects/
 /projects/*
 !/projects/water-resistant-gypsum-shorts/
+!/projects/door-handing-guide-shorts-v1/
+!/projects/door-order-mistakes-shorts-v1/
+!/projects/light-steel-vs-sosong-shorts-v1/
+!/projects/flame-retardant-episode2-shorts-v1/
+!/projects/darukki-vs-twobuy-webtoon-shorts/
+!/projects/door-frame-integrated-vs-separate-v1/
+!/projects/gypsum-flame-retardant-shorts-v1/
+!/projects/mdf-weakness-shorts-v1/
+!/projects/sosong-lvl-webtoon-shorts/
 # 재생성 가능한 일반 캐시
 cache/
 # 로컬 실행 로그
 logs/
+
+# Batch 1A 환경/OS 제외 유지
+Thumbs.db

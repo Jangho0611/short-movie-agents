@@ -1,0 +1,24 @@
+{
+  "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s03-sosong-cutting-v3.png",
+  "tool": "built-in image_gen",
+  "generation_count": 1,
+  "prompt": "Create exactly ONE photorealistic natural Korean apartment remodel site-camera photo, portrait 9:16. Subject: CROSSCUTTING ONE LONG SLENDER 27x27mm square sosong softwood batten to LENGTH on a simple portable carpenter's site-built TOPDAI table saw bench. Critical geometry: camera obliquely ABOVE bench looking down; long batten runs unmistakably LEFT TO RIGHT across photograph. Table-mounted vertical circular blade lies in FRONT-TO-BACK plane, EXACTLY PERPENDICULAR to batten long axis. Blade makes a transverse kerf across the entire 27x27mm cross-section, separating a short square-section end piece on right from a long main piece extending left. Never wood parallel to blade; never ripping, narrowing width or splitting lengthwise. Use a practical guided CROSSCUT SLED with simple wooden rear fence perpendicular to blade and supported flat on site workbench. The slim batten is held flat against the sled's crosscut fence, clamped well LEFT of blade. No parallel rip fence trapping an offcut. Show a paused just-completed transverse cut: short 10-15cm offcut resting supported on right side, cut ends aligned, small safe gap at saw kerf, both parts maintain identical square section. Blade only protrudes modestly above slender stock and has a plausible clear overhead blade guard; mount mechanism below tabletop, no saw floating above bench. No worker needed: the clamped stock and just-completed cut communicate work, no hands or faces to distract. Wide enough composition shows left-to-right length and front-to-back blade plane together so 90 degree relationship is instantly obvious. Rough practical portable plywood-topped bench on solid trestles, bare concrete apartment, window daylight, small thin battens in background. Realistic thin softwood grain, no 2x4, no structural timber or board workpiece. Plywood only as bench/sled, NOT the material being cut. No miter/chop saw, factory machinery, push stick, disconnected parts, impossible tool, floating wood, text, numbers, logo, watermark, CGI, illustration, cinematic lighting or HDR.",
+  "sha256": "36b4a0f6913f6f70b98e41fb9ecd748b158c24d8dec9822e313c8a3c69f46fc2",
+  "qa": {
+    "1 가는 다루끼 비율": "PASS — 시각적 인상, 27mm 실측 불가",
+    "2 축과 절단선 직각": "PASS — 원근 투영 기준",
+    "3 전체 단면 가로 절단": "PASS",
+    "4 rip cut 아님": "PASS",
+    "5 짧은 조각 생성 방향": "PASS",
+    "6 길이 재단 전달": "PASS",
+    "7 현장 톱다이 분위기": "PASS",
+    "8 작업대 지지": "PASS",
+    "9 손과 톱날 이격": "PASS — 사람/손 미등장",
+    "10 명백한 AI 오류 없음": "FAIL"
+  },
+  "final": "FAIL",
+  "issue": "톱날 위 투명 덮개에 연결 암/지지대/체결 구조가 보이지 않아 공중에 떠 있는 형태. 현실적인 공구 구조를 확인할 수 없음.",
+  "v2_additional_failure_reason": "사용자 정정: 목재 길이 방향과 톱날이 평행해 길이 재단이 아닌 rip cut처럼 보임.",
+  "all_prior_images_tts_unchanged": true,
+  "no_auto_v4": true
+}

@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "generation_count": 4,
+  "regenerations": 0,
+  "size_note": "941x1672 pixels, approximately 9:16 (exact 9:16 not provided by generator); originals preserved without resampling.",
+  "structural_reference": "https://hf.go.kr/ko/sub05/sub05_06.do?articleNo=458867&attachNo=79611&mode=download",
+  "images": [
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s01-light-steel-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-75ba0f50-91d5-4057-8daa-071d4e8563f8.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "6f880b521b951ff4aec972f277fe01f61c804e7a71786e641aadc97978739ccb",
+      "visual_qa": "FAIL",
+      "note": "일부 적재 단면이 폐쇄형 사각 튜브처럼 보이며, 스터드/런너의 열린 단면이 일관되게 표현되지 않음.",
+      "prompt": "Create exactly ONE standalone photorealistic natural construction-site photograph, portrait 9:16 aspect ratio, ideally 1080x1920. Korean apartment or small commercial interior renovation site, unfinished concrete, ordinary diffuse daylight from left, neutral restrained colors, some believable dust and wear. Candid site-camera realism, not a studio/catalog, not CGI or illustration, no HDR or cinematic lighting. No people, no readable text, letters, brands, logos, watermarks, phone numbers, annotations or graphic overlays. Keep the important material/structure unobscured in central area, leave quiet negative space near top and bottom for later subtitles. Physically coherent materials and connections. Image 01, material comparison left source. Low material-height camera, natural 40mm equivalent perspective. Several long LIGHT GAUGE galvanized drywall partition wall studs and separate U runner tracks stacked neatly on a dusty concrete floor, near ends clearly visible. Thin folded sheet-metal edges, open shallow U-shaped runner cross sections and open lipped stud cross sections, light spangled zinc finish, small realistic scuffs. Slender approximately 3 metre lengths recede into scene. Open channels are unmistakable, thin walls visually distinguish these drywall components from heavy structural sections. Material is hero, unfinished interior softly blurred. Avoid structural C purlins, H or I beams, square tubes, thick steel, aluminum extrusions, closed rectangular profiles, floating material or finished interiors."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s01-sosong-lumber-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-311ce81e-48c9-4bcb-be61-fb63ef857c00.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "2db67eb9520c1473d980d73b5f6fde3b828599b5951eea188939e8483312a3cb",
+      "visual_qa": "PASS",
+      "note": "길고 가는 사각 단면, 자연스러운 결/옹이, 실용적 현장 각재 표현. 수종 자체는 사진만으로 확정하지 않음.",
+      "prompt": "Create exactly ONE standalone photorealistic natural construction-site photograph, portrait 9:16 aspect ratio, ideally 1080x1920. Korean apartment or small commercial interior renovation site, unfinished concrete, ordinary diffuse daylight from left, neutral restrained colors, some believable dust and wear. Candid site-camera realism, not a studio/catalog, not CGI or illustration, no HDR or cinematic lighting. No people, no readable text, letters, brands, logos, watermarks, phone numbers, annotations or graphic overlays. Keep the important material/structure unobscured in central area, leave quiet negative space near top and bottom for later subtitles. Physically coherent materials and connections. Image 02, material comparison right source. Low material-height camera, natural 40mm equivalent perspective. Neat modest stack of several long slender square-section softwood battens used as sosong-gakja Korean interior carpentry subframing, pale cream softwood grain, small natural knots and rough practical saw-cut end grain. Approximately 30x30mm square-section and long lengths, visible length far greater than ten times width. Flat faces and square end faces clearly visible, no rounded logs. Practical construction stock, minor irregularities but straight usable timbers, not luxurious hardwood or furniture. Dusty concrete floor and softly blurred unfinished concrete Korean renovation interior, same muted daylight from left as ordinary metal framing material photo. Avoid broad boards, panels, plywood, MDF, polished wood, decorative timber or furniture."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s02-light-steel-wall-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-c17d1436-9b0d-4154-bc19-7cff0c9ec2d2.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "07ae7b4c9eb505192253d972894d62b378bfa5985d6d9131827a12ac22a902c9",
+      "visual_qa": "FAIL",
+      "note": "사용자 기술 QA 정정: 수직 스터드에 정체 불명의 직사각형 슬롯/타공이 반복 생성되어 일반 벽체용 스터드 이미지로 사용하지 않음.",
+      "prompt": "Create exactly ONE standalone photorealistic natural construction-site photograph, portrait 9:16 aspect ratio, ideally 1080x1920. Korean apartment or small commercial interior renovation site, unfinished concrete, ordinary diffuse daylight from left, neutral restrained colors, some believable dust and wear. Candid site-camera realism, not a studio/catalog, not CGI or illustration, no HDR or cinematic lighting. No people, no readable text, letters, brands, logos, watermarks, phone numbers, annotations or graphic overlays. Keep the important material/structure unobscured in central area, leave quiet negative space near top and bottom for later subtitles. Physically coherent materials and connections. Image 03. Exposed light-gauge galvanized drywall partition wall framing before plasterboard installation, Korean shop renovation. Show broad straight plane of at least eight identical vertical thin-sheet wall studs spaced evenly, parallel and plumb. Visible continuous bottom U runner fixed on concrete floor, continuous upper U runner at wall top, vertical stud ends seated realistically inside both runners. Full top-to-bottom relationship clear. Oblique natural 35mm equivalent camera view along wall gives regular repeated bays without extreme perspective. Almost all framing exposed, no wood mixed in, minimal utilities, understated unfinished concrete site. No random spacing, bent studs, unsupported joints, crossing planes, heavy steel, H beams, square tubes, finished drywall concealing structure.",
+      "previous_visual_qa": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s02-light-steel-ceiling-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-3aefc8b3-eb4c-41d7-ac5f-f084505cc55a.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "64842509f3c2f53ed08b015ac6fa4490d6fc1e8c58d57498a3589c7456ec5609",
+      "visual_qa": "FAIL",
+      "note": "행거는 보이나 주/부재가 유사한 채널 형태로 표현되어 캐링채널 상부와 하부 M-Bar의 층별 관계 및 접합이 불명확. 정확한 천장 시스템 설명용으로 부적합.",
+      "prompt": "Create exactly ONE standalone photorealistic natural construction-site photograph, portrait 9:16 aspect ratio, ideally 1080x1920. Korean apartment or small commercial interior renovation site, unfinished concrete, ordinary diffuse daylight from left, neutral restrained colors, some believable dust and wear. Candid site-camera realism, not a studio/catalog, not CGI or illustration, no HDR or cinematic lighting. No people, no readable text, letters, brands, logos, watermarks, phone numbers, annotations or graphic overlays. Keep the important material/structure unobscured in central area, leave quiet negative space near top and bottom for later subtitles. Physically coherent materials and connections. Image 04. Looking obliquely upward across a broad exposed gypsum-board ceiling substructure in a Korean commercial remodel, a REAL concealed M-BAR ceiling system rather than wall framing or exposed T-grid. Raw concrete soffit above; regularly spaced slender threaded hanger rods descend vertically from slab anchors to formed hanger brackets holding upper primary carrying channels. Below these, perpendicular closely spaced shallow galvanized double-M / hat-shaped furring bars connect with small metal clips. Clearly show separate upper carrier level and lower flat, coplanar gypsum fixing surface. Realistic visible hangers, clips, consistent member profiles and physically supported joints. Light thin folded steel, subdued diffuse daylight. Majority uncovered for readable structure; a small single edge strip of unfinished gypsum is acceptable. Low angle 35mm-equivalent but no ultra-wide distortion, large repeating ceiling plane, plain wall edge near bottom. Absolutely no wall studs laid sideways on ceiling, deep wall-stud channels as furring, exposed T-bar tile grid, wood, square tubes, random grid, floating suspension, thick steel, finished ceiling hiding frame."
+    }
+  ],
+  "all_prior_public_assets_unchanged": true,
+  "all_usable": false
+}

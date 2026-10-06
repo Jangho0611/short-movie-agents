@@ -1,0 +1,23 @@
+{
+  "name": "light-steel-vs-sosong-shorts-v1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "preview": "remotion studio src/index.ts",
+    "render:preview": "remotion render src/index.ts LightSteelVsSosong public/assets/video/light-steel-vs-sosong-preview-v5.mp4 --codec=h264 --crf=18 --audio-bitrate=192k --concurrency=2"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.523",
+    "@remotion/cli": "4.0.523",
+    "@remotion/renderer": "4.0.523",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.523"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "pngjs": "7.0.0",
+    "typescript": "5.9.3"
+  }
+}

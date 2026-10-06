@@ -1,0 +1,29 @@
+[in#0/mp3 @ 0x7c1cc1c000] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/Users/janghokim/Documents/door-handing-guide-shorts-v1/public/assets/audio/scene04-v4.mp3':
+  Duration: 00:00:07.13, start: 0.000000, bitrate: 32 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 32 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Stream #0:0: Audio: pcm_s16le, 24000 Hz, mono, s16, 384 kb/s
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 0
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 0.502333 | silence_duration: 0.502333
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 0.881833
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 1.21675 | silence_duration: 0.334917
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 2.708
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 3.475 | silence_duration: 0.767
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 4.022042
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 4.443542 | silence_duration: 0.4215
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 4.8275
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 5.647375 | silence_duration: 0.819875
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 6.186583
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 6.29825 | silence_duration: 0.111667
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_start: 6.891625
+[Parsed_silencedetect_0 @ 0x7c1cc24a80] silence_end: 7.128 | silence_duration: 0.236375
+[out#0/null @ 0x7c1cc24240] video:0KiB audio:334KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:07.12 bitrate=N/A speed=2.85e+03x elapsed=0:00:00.00    

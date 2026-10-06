@@ -1,0 +1,60 @@
+Scene 4 animation goal:
+- An interior partition-wall frame already has part of a gypsum board or plywood panel attached.
+- One loose two-by timber on the right rises naturally and settles vertically into the intended empty wall-frame position.
+- The final frame completes the basic partition-wall frame.
+- The partial panel remains unchanged from beginning to end.
+- The existing partition-wall frame does not move.
+- Small Daesani preserves position and appearance.
+- Only an extremely subtle eye or head reaction toward the partition wall is allowed if necessary.
+- The practical partition-wall use must read more clearly than Scene 3's single backing-member insertion.
+
+CRITICAL PRESERVATION
+- preserve Daesani identity
+- preserve gypsum/plywood panel position and shape
+- preserve wall frame geometry
+- preserve existing installed studs
+- preserve timber width and proportions
+- preserve camera framing
+- preserve white editorial webtoon style
+
+STATIC ELEMENTS
+- partial wall panel stays completely fixed
+- existing wall frame stays fixed
+- top and bottom plates stay fixed
+- Daesani stays in place
+- camera stays fixed
+
+ALLOWED MOTION
+- only the single loose two-by timber on the right may move
+- it should rise smoothly and settle vertically into the intended empty wall-frame position
+- subtle Daesani eye/head reaction only if necessary
+
+NEGATIVE MOTION RULES
+- no camera movement
+- no zoom
+- no pan
+- no shaking
+- no walking
+- no arm waving
+- no body rotation
+- no floating
+- no duplicated timber
+- no timber bending
+- no ghosting
+- no new wall panels appearing
+- no removal of existing wall panel
+
+TEXT PRESERVATION
+- no generated text
+- no labels
+- no letters
+- no symbols
+- no watermark
+
+VISUAL PRESERVATION
+- preserve the supplied Korean editorial webtoon visual style
+- preserve the original framing and composition
+- preserve the same pale natural wood colors
+- preserve the same hand-drawn black linework
+- no photorealistic transformation
+- no 3D transformation

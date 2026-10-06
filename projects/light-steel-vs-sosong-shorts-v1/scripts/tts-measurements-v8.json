@@ -1,0 +1,32 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "text": "인테리어 공사할 때, 경량철골이 각재보다 무조건 더 좋을까요?",
+  "scene01_duration": "4.553000",
+  "pause_after_공사할때": {
+    "start": 1.387292,
+    "end": 1.712333,
+    "duration": 0.325042
+  },
+  "scene01_silence": [
+    {
+      "start": 0.0,
+      "end": 0.180083,
+      "duration": 0.180083
+    },
+    {
+      "start": 1.387292,
+      "end": 1.712333,
+      "duration": 0.325042
+    },
+    {
+      "start": 4.327875,
+      "end": 4.553,
+      "duration": 0.225125
+    }
+  ],
+  "intro_other_detected_silences": [],
+  "all_prior_audio_hashes_unchanged": true,
+  "listening_qa": "Unavailable. Natural connected phrasing and question intonation cannot be certified. Only one explicit SSML pause; all voiced PCM preserved before MP3 encoding."
+}

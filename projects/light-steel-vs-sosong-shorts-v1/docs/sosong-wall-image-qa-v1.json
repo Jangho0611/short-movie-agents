@@ -1,0 +1,29 @@
+{
+  "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s01-sosong-wall-v1.png",
+  "reference": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s02-light-steel-wall-v3.png",
+  "tool": "built-in image_gen reference edit",
+  "generation_count": 1,
+  "prompt": "Edit the supplied reference photograph into exactly ONE comparison photograph. Preserve the reference camera position, height, lens perspective, framing, portrait near-9:16 dimensions, entire concrete wall/ceiling/floor, window on left and distant exterior, concrete marks, lighting, shadows and room proportions as closely as possible. Change ONLY the exposed galvanized wall frame material into practical pale softwood sosong-gakja battens used for Korean interior carpentry drywall subframing. Replace every vertical metal stud with a straight slender solid square-section light softwood batten at the SAME position and spacing, consistent modest thickness (not heavy structural timber); replace upper and lower metal tracks with plain matching horizontal solid wood battens. Simple natural wood-to-wood butt joints, upright ends fit between top and bottom wood members, no overlapping impossible joints. Natural grain and a few small knots, unfinished inexpensive construction softwood, not polished hardwood or luxury furniture. No exposed metal framing left anywhere in the wall frame; the existing WINDOW FRAME must remain unchanged. No angle brackets, joist hangers, base shoes, diagonal braces, giant screws, connectors or decorative hardware. All wood frame exposed before gypsum installation; concrete remains visible between uprights. The result must feel like the exact same construction task at the exact same site and viewpoint with only the subframing material changed. No new props, no text/logos/watermarks, no CGI or illustration. Photorealistic ordinary Korean apartment renovation site. Deliver one image, not a comparison collage.",
+  "size": [
+    941,
+    1672
+  ],
+  "sha256": "3a4ed8dd1ccca39e654c2d7bc588d5957bb6876a5b50b8750812164fb1e77e22",
+  "qa": {
+    "소송각재 벽체 하지 표현": "PASS",
+    "수직 간격 일정": "PASS",
+    "단면/두께 일정": "PASS",
+    "과도한 구조목 아님": "PASS",
+    "금속 골조 혼입 없음": "PASS",
+    "정체불명 철물 없음": "PASS",
+    "명백한 비현실적 접합 없음": "PASS",
+    "석고보드 시공 전 상태": "PASS",
+    "기준 카메라/구도 유사": "PASS",
+    "동일 작업의 자재 비교 가능": "PASS"
+  },
+  "final": "FAIL",
+  "note": "Visible image QA: concrete marks, window, framing locations and perspective closely match reference. Wood species and concealed fixing cannot be verified from pixels. Native near-9:16 dimensions retained.",
+  "existing_assets_unchanged": true,
+  "previous_final": "PASS",
+  "correction": "사용자 판정: 실제 소송 다루끼보다 목재가 두꺼워 북미식 2×4 구조목 벽체처럼 보임. 기존 이미지 파일은 보존."
+}

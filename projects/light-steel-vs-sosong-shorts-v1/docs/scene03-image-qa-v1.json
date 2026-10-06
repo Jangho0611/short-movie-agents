@@ -1,0 +1,72 @@
+{
+  "tool": "built-in image_gen",
+  "generation_count": 3,
+  "regenerations": 0,
+  "inspection": "Full images and magnified details. Visual QA only; exact physical dimensions, hidden fixings and load capacity are not verified.",
+  "images": [
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s03-sosong-cutting-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-289eccf8-e867-41e6-b3c1-418543819a8b.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "ded6a4c666a1f43bc53bca8843ab64929656e509fbd81565c50bbf8dbc29788d",
+      "qa": {
+        "다루끼 비율": "PASS",
+        "공구": "PASS",
+        "작업 자세": "PASS",
+        "손 오류": "발견 없음",
+        "안전성": "PASS — 보이는 손은 날에서 떨어진 손잡이에 위치, 목재 클램프 고정",
+        "현장 가공 전달": "PASS"
+      },
+      "final": "PASS",
+      "note": "정지된 재단 준비 순간. 얼굴 없음. 실제 공구 작동/보이지 않는 자세까지 인증하는 판정은 아님.",
+      "prompt": "Generate exactly ONE photorealistic natural site-camera photo, vertical 9:16. Korean residential apartment remodel with raw concrete and natural daylight, practical dusty unfinished worksite. Technical physical plausibility prioritized over beauty. No readable text, markings, brand, logo, watermark, CGI, illustration, cinematic lighting, HDR. Pale practical softwood, natural fine grain, small knots. Ordinary interior subframing battens are slender 27x27mm SQUARE sosong darukki, NOT 2x4 or 38x89 structural lumber. Do not invent hardware or joints. Image 05 on-site cutting. A realistic unbranded compact electric miter saw firmly fixed on a stable portable workbench. One slender 27x27mm square softwood batten lies flat on the saw bed against the rear fence, supported along its long length by a level side support. A proper small workpiece clamp holds the batten securely, away from the blade path. The saw head poised at the cut line with blade guard intact; straightforward believable saw geometry. Only worker's forearm and one anatomically correct hand gripping the actual saw operating handle high above and well away from blade. Other hand not shown, no hand holding wood near blade, no face. Plausible paused moment while sizing a batten to length, not dangerous motion. Show material thin square end and small neat offcuts, apartment renovation backdrop and spare slender battens. No floating saw/wood, extra fingers, distorted hands, inappropriate blade contact, heavy timber, factory or finished workshop."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s03-sosong-reinforcement-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-d7ae0d2e-c39c-452c-b35c-20a06fd60551.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "e1664bf8e6fe91df3a3085c822c387e19d430bac7ea04edf4bf14a40d6d30e9c",
+      "qa": {
+        "하지 형태": "FAIL — 기본 세로재가 넓고 두꺼운 인상",
+        "부분 보강 표현": "PASS",
+        "구조목 오인 없음": "FAIL",
+        "철물": "PASS — 대형 철물 없음",
+        "접합": "PASS — 명백한 관통/부유 접합 없음",
+        "석고보드 전 상태": "PASS",
+        "의미 전달": "PASS"
+      },
+      "final": "FAIL",
+      "note": "중앙 두 칸의 국부 가로 보강은 분명하나 세로재가 27×27 수준의 가는 기본 다루끼보다 굵고 넓어 구조목 벽체로 오인 가능. 특정 하중 성능을 판단하지 않음.",
+      "prompt": "Generate exactly ONE photorealistic natural site-camera photo, vertical 9:16. Korean residential apartment remodel with raw concrete and natural daylight, practical dusty unfinished worksite. Technical physical plausibility prioritized over beauty. No readable text, markings, brand, logo, watermark, CGI, illustration, cinematic lighting, HDR. Pale practical softwood, natural fine grain, small knots. Ordinary interior subframing battens are slender 27x27mm SQUARE sosong darukki, NOT 2x4 or 38x89 structural lumber. Do not invent hardware or joints. Image 06 localized blocking before gypsum installation. Oblique medium view of exposed slender pale square wooden battens directly in front of bare concrete apartment wall, evenly spaced full-height verticals with simple top/bottom battens. Only in TWO adjacent bays around mid-wall height, add a localized horizontal flat-faced wooden backing block in each bay, approximately 80mm tall, 27mm deep, sized only as a visual example not a rated support. Horizontal block FRONT faces flush with vertical batten front faces, square ends fit exactly between uprights with simple credible butt joints. Remainder wall open with no blocking so localized additional fastening surface is obvious. No actual TV, shelf, furniture, load, weight rating or implied load capacity. No heavy 2x4 house frame, no giant bolts/brackets/joist hangers, no diagonal bracing, no floating blocks or penetrating impossible joints. Clearly unfinished practical carpentry work, no drywall yet."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s03-sosong-ceiling-detail-v1.png",
+      "source": "/Users/janghokim/.codex/generated_images/01a0e58f-8d4e-7392-af5a-6f5b07dd46fa/exec-d82c81ab-a9a7-4ca9-ae18-2271526f3502.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "a2adff4a5501739d5ee28be1274b161f0497f411d3804ecdc4a951a929f0c017",
+      "qa": {
+        "부분 목공": "PASS",
+        "형태 표현": "PASS",
+        "목재 굵기": "PASS — 시각 비율",
+        "2×4 오인 없음": "PASS",
+        "마감면 평탄성": "PASS",
+        "철물 돌출 없음": "PASS",
+        "접합 오류 없음": "PASS — 보이는 범위",
+        "경량철골 천장과 차별": "PASS"
+      },
+      "final": "PASS",
+      "note": "창가 가장자리의 제한된 커튼박스/단차틀, 대부분 콘크리트 천장 노출. 하부 레일과 가로재 마감면 정렬, 돌출 철물 발견 없음.",
+      "prompt": "Generate exactly ONE photorealistic natural site-camera photo, vertical 9:16. Korean residential apartment remodel with raw concrete and natural daylight, practical dusty unfinished worksite. Technical physical plausibility prioritized over beauty. No readable text, markings, brand, logo, watermark, CGI, illustration, cinematic lighting, HDR. Pale practical softwood, natural fine grain, small knots. Ordinary interior subframing battens are slender 27x27mm SQUARE sosong darukki, NOT 2x4 or 38x89 structural lumber. Do not invent hardware or joints. Image 07 custom ceiling carpentry detail in a Korean apartment living-room remodel. Wide upward oblique view of mostly BARE concrete ceiling. ONLY along ONE window-side perimeter edge, a narrow shallow rectangular curtain-box/ceiling step is being framed with slim 27x27mm square softwood battens. One simple straight custom box, no complex cove combinations. Two long parallel lower rails connected by occasional short square crosspieces at the SAME underside level, modest short vertical drops attach to upper perimeter rails, realistic simple supported butt joints. Clear shallow height step and curtain recess adjacent to window; most room ceiling stays bare and empty, not a full timber grid. All gypsum-contact front and bottom faces straight, continuous and coplanar within each intended finishing plane; no wood blocks/screw tips/metal below those planes. No finished gypsum or decorative panels, no lights needed. Keep supporting fixings small and unobtrusive, no fictional giant brackets or diagonal braces. Slender one-inch battens not structural joists, no wooden-house roof, no floating frame. Show localized shape-making custom carpentry distinct from a broad flat metal ceiling system."
+    }
+  ],
+  "prior_assets_unchanged": true
+}

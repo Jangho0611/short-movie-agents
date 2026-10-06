@@ -1,0 +1,112 @@
+{
+  "timing": [
+    {
+      "scene": 1,
+      "file": "scene01-v5.mp3",
+      "ttsSeconds": 3.745958,
+      "frames": 93,
+      "duration": 3.875
+    },
+    {
+      "scene": 2,
+      "file": "scene02-v2.mp3",
+      "ttsSeconds": 5.328,
+      "frames": 131,
+      "duration": 5.458333333333333
+    },
+    {
+      "scene": 3,
+      "file": "scene03-v5.mp3",
+      "ttsSeconds": 5.781542,
+      "frames": 142,
+      "duration": 5.916666666666667
+    },
+    {
+      "scene": 4,
+      "file": "scene04-v5.mp3",
+      "ttsSeconds": 5.102375,
+      "frames": 126,
+      "duration": 5.25
+    },
+    {
+      "scene": 5,
+      "file": "scene05-v2.mp3",
+      "ttsSeconds": 4.704,
+      "frames": 116,
+      "duration": 4.833333333333333
+    },
+    {
+      "scene": 6,
+      "file": "scene06-v2.mp3",
+      "ttsSeconds": 6.096,
+      "frames": 150,
+      "duration": 6.25
+    },
+    {
+      "scene": 7,
+      "file": "scene06-ending.wav",
+      "ttsSeconds": 5.666667,
+      "frames": 136,
+      "duration": 5.666666666666667
+    }
+  ],
+  "pauses": {
+    "1": [
+      {
+        "label": "주문하실 때 뒤",
+        "start": 1.208625,
+        "end": 1.408708,
+        "duration": 0.200083
+      }
+    ],
+    "3": [
+      {
+        "label": "밀 뒤",
+        "start": 2.476458,
+        "end": 2.676583,
+        "duration": 0.200125
+      }
+    ],
+    "4": [
+      {
+        "label": "보시면 돼요 뒤",
+        "start": 2.170708,
+        "end": 2.370792,
+        "duration": 0.200083
+      },
+      {
+        "label": "왼쪽은 좌손 뒤",
+        "start": 3.421708,
+        "end": 3.621792,
+        "duration": 0.200083
+      }
+    ]
+  },
+  "totalVideoSeconds": 37.25,
+  "decode": "PASS",
+  "lockedAssetsAndVisualsUnchanged": true,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1",
+        "duration": "37.250000",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "duration": "37.312000"
+      }
+    ],
+    "format": {
+      "duration": "37.312000"
+    }
+  }
+}

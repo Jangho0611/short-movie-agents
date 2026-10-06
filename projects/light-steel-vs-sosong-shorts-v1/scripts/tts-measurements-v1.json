@@ -1,0 +1,109 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "duration_total": "31.008000",
+  "files": [
+    {
+      "file": "scene01-v1.mp3",
+      "duration": "4.464000",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "sha256": "57ec65bbc6534b4bbac88325e2cb0b48564af783c4c1bbd81949b0599cda85c2",
+      "silence": [
+        "silence_start: 0",
+        "silence_end: 0.308333 | silence_duration: 0.308333",
+        "silence_start: 2.086667",
+        "silence_end: 2.3885 | silence_duration: 0.301833",
+        "silence_start: 4.252708",
+        "silence_end: 4.464 | silence_duration: 0.211292"
+      ]
+    },
+    {
+      "file": "scene02-v1.mp3",
+      "duration": "6.216000",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "sha256": "b028402124c9661567c836f2573f85e718ed48a561b8b074c8afbe753deceb7f",
+      "silence": [
+        "silence_start: 0",
+        "silence_end: 0.238958 | silence_duration: 0.238958",
+        "silence_start: 3.838875",
+        "silence_end: 4.2 | silence_duration: 0.361125",
+        "silence_start: 6.009917",
+        "silence_end: 6.216 | silence_duration: 0.206083"
+      ]
+    },
+    {
+      "file": "scene03-v1.mp3",
+      "duration": "6.624000",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "sha256": "3ea7bd8a66faab2ac7ee6233d0f16480952d814c9866579640ac7273ed22406c",
+      "silence": [
+        "silence_start: 0",
+        "silence_end: 0.194708 | silence_duration: 0.194708",
+        "silence_start: 0.911208",
+        "silence_end: 1.301667 | silence_duration: 0.390458",
+        "silence_start: 4.410125",
+        "silence_end: 4.708625 | silence_duration: 0.2985",
+        "silence_start: 6.351375",
+        "silence_end: 6.624 | silence_duration: 0.272625"
+      ]
+    },
+    {
+      "file": "scene04-v1.mp3",
+      "duration": "6.168000",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "sha256": "7a49e4acaa6e7a29946c4ced1c46f1704fbece6ee46461d9b6bf1996f4e860ba",
+      "silence": [
+        "silence_start: 0",
+        "silence_end: 0.550083 | silence_duration: 0.550083",
+        "silence_start: 5.91325",
+        "silence_end: 6.168 | silence_duration: 0.25475"
+      ]
+    },
+    {
+      "file": "scene05-v1.mp3",
+      "duration": "7.536000",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "sha256": "689f44ab3bae3fd19c05007f70cafdc2f44bd2d70f290f6e7debe636bc588df7",
+      "silence": [
+        "silence_start: 0",
+        "silence_end: 0.645708 | silence_duration: 0.645708",
+        "silence_start: 3.593458",
+        "silence_end: 4.744917 | silence_duration: 1.151458",
+        "silence_start: 7.298333",
+        "silence_end: 7.536 | silence_duration: 0.237667"
+      ]
+    }
+  ],
+  "auditory_qa": "Not performed: no audio listening capability available."
+}

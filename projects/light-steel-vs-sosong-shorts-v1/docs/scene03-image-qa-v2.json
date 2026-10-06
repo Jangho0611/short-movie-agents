@@ -1,0 +1,45 @@
+{
+  "tool": "built-in image_gen",
+  "generation_count": 2,
+  "regenerations": 0,
+  "images": [
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s03-sosong-cutting-v2.png",
+      "sha256": "679ddadad4755a92b7f34d988db563b853a4fc069bf1c33d9e47b507ac5b94d6",
+      "qa": {
+        "현장용 톱다이": "PASS",
+        "국내 인테리어 현장": "PASS",
+        "가는 27×27 비율": "PASS — 시각적 인상",
+        "2×4 아님": "PASS",
+        "작업대 지지": "PASS",
+        "손/팔 오류 없음": "PASS",
+        "위험한 절단 자세 아님": "FAIL — 밀대의 목재 제어가 불명확",
+        "현장 가공 전달": "PASS"
+      },
+      "final": "FAIL",
+      "note": "밀대 하단이 목재 후단에 걸리지 않고 목재 옆 작업면에 닿는 모습. 손 자체는 날에서 멀지만 올바른 이송/제어 자세로 판정하기 어려움.",
+      "prompt": "Create one photorealistic portrait 9:16 ordinary Korean apartment renovation site photograph. IMAGE 05 Korean carpenter's portable site-built TOPDAI saw bench, not a miter/chop saw and not an industrial factory machine. Broad dusty plywood WORKBENCH TOP on sturdy site trestles with compact circular saw mechanism mounted underneath: only a small guarded vertical circular blade emerges through a narrow slot. Realistic simple parallel guide fence, aligned with blade, riving knife and transparent guard. A LONG SLENDER 27x27mm square softwood sosong darukki batten lies fully supported flat on tabletop and feeds parallel to blade along fence for on-site sizing. Wood is one-inch thin square stock not wide boards, plywood workpiece, 2x4 or structural timber. Use a proper long push stick with heel engaging rear of batten, operated by one anatomically correct hand and partial forearm positioned far from blade; no hand in blade path, no face. A stable outfeed support at same height supports long stock. Believable mechanical geometry and feed direction; not a floating blade or handheld saw above table. A paused safe feed moment makes onsite加工 clear. Bare concrete apartment and window daylight, spare thin battens in background, practical Korean field carpentry not finished workshop. No readable text, logos, watermark, CGI, HDR, decorative lighting, deformed hands, extra fingers, gloves snagging blade, dangerous hand proximity."
+    },
+    {
+      "file": "/Users/janghokim/Documents/light-steel-vs-sosong-shorts-v1/public/assets/images/s03-sosong-reinforcement-v2.png",
+      "sha256": "28ba603111f9f644c7ebfa998d13f6feae801dc3e6270b758cd40c75a2b3d22e",
+      "qa": {
+        "승인 세로재 비율 유사": "PASS",
+        "27×27 가는 수직재 인상": "PASS",
+        "가로재도 동일 굵기 계열": "PASS",
+        "중간 규격 없음": "PASS",
+        "2×4 없음": "PASS",
+        "국부 가로 보강 명확": "PASS",
+        "철물/브라켓 없음": "PASS",
+        "명백한 비현실적 접합 없음": "PASS",
+        "석고보드 전 상태": "PASS",
+        "부분 보강 의미 전달": "PASS"
+      },
+      "final": "PASS",
+      "note": "승인 벽체 이미지를 기준으로 중앙 두 칸에만 동일한 가는 계열의 가로재 추가. 치수/하중성능 실측 또는 인증이 아닌 시각 QA.",
+      "prompt": "Edit the supplied approved slim wood wall reference into ONE photorealistic image. Preserve ALL existing thin vertical battens, their slender 27x27mm square section and exact widths/depths, positions, spacing, upper and lower battens, concrete wall, window, perspective, camera, natural light and near-9:16 composition. Only ADD TWO horizontal short pieces of the EXACT SAME 27x27mm square softwood batten between upright pairs in two adjacent middle bays at about mid-wall height. They must be equally THIN as the vertical members: each horizontal's front face height equals the front face width of its adjacent upright after perspective. NEVER turn a horizontal into a broad board or blocking plank, no 2x4 or mixed sizes. Simple slender line-like crosspieces with square ends touching the uprights in believable butt joints, front faces flush with upright front faces; no floating or intersecting/overlapping lumber. Only localized two-bay addition, no whole-wall grid. No brackets, L angles, joist hangers, oversized bolts, diagonal braces, metal stud, plywood, OSB or plasterboard. No installed TV, shelves, furniture or load claim. No text, logo or watermark. This is illustrative localized backing, not proof of structural capacity. All existing approved proportions are invariants."
+    }
+  ],
+  "image07_unchanged": true,
+  "all_previous_public_assets_unchanged": true
+}
