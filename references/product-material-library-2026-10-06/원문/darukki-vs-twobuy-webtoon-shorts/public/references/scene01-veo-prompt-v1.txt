@@ -1,0 +1,30 @@
+Use the supplied image as the exact starting frame and visual reference.
+
+Preserve the original 2D Korean editorial webtoon style exactly.
+Keep the same small Daesani character, same face, same proportions, same colors, same hand-drawn outline, same white background, same narrow darukki timber on the left, and same wider two-by timber on the right.
+
+The camera must remain completely locked.
+
+Animation:
+Daesani stays in the same position.
+First, Daesani briefly looks toward the narrow darukki timber on the left.
+Then Daesani slowly turns its eyes and head toward the wider two-by timber on the right.
+At the end, Daesani makes a very small curious head tilt.
+
+Keep the movement subtle and natural.
+Complete the main eye and head movement within the first 2.5 to 3 seconds, then naturally hold the final pose through the end of the approximately 4-second shot.
+
+Do not make Daesani walk.
+Do not move the timber.
+Do not change the timber size or proportions.
+Do not bend or deform the timber.
+Do not redesign Daesani.
+Do not add clothing, tools, objects, text, speech bubbles or additional characters.
+No realistic rendering.
+No 3D transformation.
+No zoom.
+No pan.
+No camera movement.
+No cuts.
+
+Preserve the original composition throughout the entire shot.

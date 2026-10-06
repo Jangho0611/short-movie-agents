@@ -1,0 +1,12 @@
+Use case: precise-object-edit
+Asset type: Scene 6 wallpaper-finish comparison source
+
+Use the supplied wallpaper-nevari v1 image as the exact edit target. Preserve the same photorealistic Korean apartment balcony/utility-room, camera, crop, wall plane, medium-gray E-board color and texture, lighting, joint position, black-gloved hand, sleeve, hand center, and putty-knife center and angle.
+
+Change only the installation state of the nevari joint-reinforcement strip. Show the nevari already fully installed, flat, and continuously bonded over the vertical joint for a long completed section. Its top endpoint must be at approximately 10% of the image height and its bottom endpoint at approximately 78% of the image height. It must be one straight continuous strip centered on the joint, with no loose leading end, lifted flap, curl, wrinkle, bubble, gap, or unfinished section. The entire strip must read as installation-complete, not as tape currently being attached.
+
+Keep the material a realistic thin off-white fibrous nonwoven/paper-like wallpaper joint reinforcement tape, approximately 45–60 mm wide. Preserve its real width and subtle fibrous texture. Do not turn it into fiberglass mesh, masking tape, plastic tape, ribbon, plaster, or a painted line.
+
+The existing tool and hand are performing only a final light pressing and smoothing check on the middle of the already bonded strip. The blade lies gently against the installed nevari, pressing it fully flush to the wall; it is not feeding, pulling, placing, or newly attaching the tape. No new putty is being applied. Keep the putty-knife center at approximately 47% of the image height.
+
+PIXEL-LOCK everything else: same worker hand anatomy and grip, exact arm position, tool design, camera perspective, window edge, panel joint, background, shadows, and medium-gray matte E-board surface. No new objects, hands, workers, tools, text, labels, logos, graphics, or watermark.

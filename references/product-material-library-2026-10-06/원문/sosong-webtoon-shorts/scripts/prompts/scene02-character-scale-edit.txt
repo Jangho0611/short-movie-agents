@@ -1,0 +1,32 @@
+You are given two reference images. Use them very differently:
+
+IMAGE 1 is the base image to edit. This is the actual illustration you must output, modified as described below.
+IMAGE 2 is a visual reference used ONLY to see the correct character size and body proportions. Do not copy IMAGE 2's background, wall, timber, labels, colors, or composition into the output — take only its character's size and compact body proportions as a reference.
+
+TASK: starting from IMAGE 1, redraw only its single character smaller and more compact, matching the scale and proportions of the character shown in IMAGE 2, while keeping absolutely everything else in IMAGE 1 unchanged.
+
+PRESERVE EXACTLY, UNCHANGED FROM IMAGE 1:
+- The wall cross-section: the front finish panel and the furring battens behind it, in their exact current positions and shapes.
+- The warped furring batten's twisted/bowed geometry and its wood color.
+- The lifted finish-material defect and the opened seam, in their exact current shape and position.
+- The three existing Korean labels, kept in their exact current positions and wording.
+- The small red pressure/transfer curve marks near the batten, in their exact current position.
+- The overall composition, camera framing, background, and hand-drawn ink line style.
+- The character's current face color (a pale warm ivory tone) and current body color — do not change either of these colors. Keep the face shape and the eyes/mouth as they currently are.
+- The character's action and its meaning: one hand pressing/checking the lifted finish-material area. Keep this same contact point against the wall and the same general location beside/in front of it.
+
+CHANGE ONLY THIS, USING IMAGE 2 AS THE SIZE/PROPORTION REFERENCE:
+- Redraw the character noticeably smaller and more compact, matching IMAGE 2's character scale: approximately 18-20 percent of the full canvas height from top of head to bottom of feet, with a hard maximum of about 21 percent. The character in IMAGE 1 is currently around 25-26 percent, which is too large — reduce it clearly below that.
+- Match IMAGE 2's compact body proportions: a relatively large, simple head; a short torso; short arms; short legs. Not a tall or elongated human figure.
+- Keep the hand in contact with the lifted finish-material area at the same relative spot on the wall, just performed by this smaller, more compact character.
+
+DO NOT:
+- Do not bring IMAGE 2's wall, timber, background, labels, or any colors into the output.
+- Do not change the character's face color or body color from what they currently are in IMAGE 1.
+- Do not redesign the wall cross-section, the warped batten, the lifted finish, or the opened seam.
+- Do not move or reword any of the three existing labels.
+- Do not change the red pressure marks.
+- Do not add any new text anywhere, in Korean, English, or any invented script.
+- Do not add a second character.
+- Do not change the overall composition or camera framing.
+- The only change anywhere in the output is the character's size and body proportions — everything else, including its current colors, must remain identical to IMAGE 1.

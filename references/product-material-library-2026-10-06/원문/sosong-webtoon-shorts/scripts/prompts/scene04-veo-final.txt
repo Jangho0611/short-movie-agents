@@ -1,0 +1,42 @@
+Preserve the supplied reference image as strictly as possible.
+
+Animate only extremely subtle inspection motion.
+
+- The character keeps holding the caliper closed around the batten.
+- Only a very small natural hand adjustment or slight body shift is allowed, as if double-checking the reading.
+- The character's expression stays neutral, matching the reference.
+- No walking.
+- No large arm movement.
+- No body repositioning.
+- No new actions.
+- No squeezing or re-opening the caliper jaws.
+
+Preserve exactly:
+- the single character
+- the caliper and how it grips the batten
+- the batten's shape, color, grain, and straightness
+- the note card on the left
+- all three existing Korean text labels
+- character position and pose
+- character color
+- white background
+- hand-drawn editorial webtoon style
+- framing and composition
+
+TEXT AND SYMBOLS:
+Do not fade, remove, rewrite, duplicate, morph, move, or animate:
+- the Korean text labels
+- the numeric measurements shown on the note card and near the batten
+
+No new text.
+No new symbols.
+No English text.
+No logos or watermarks.
+
+CAMERA:
+- fixed camera
+- no pan
+- no zoom
+- no scene transition
+
+The result should feel almost like a still illustration with only a tiny inspection movement.

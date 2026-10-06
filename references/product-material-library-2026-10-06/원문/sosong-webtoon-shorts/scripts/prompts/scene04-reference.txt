@@ -1,0 +1,124 @@
+Create one vertical 9:16 reference illustration for Scene 4 of the same professional construction-material explainer short, in the exact same Korean webtoon / newspaper-editorial illustration style as the existing Scene 1-3 references (same black hand-drawn ink linework with a slightly wobbly pen quality, same pale natural softwood timber color, same worker-character design). This scene explains a simple idea: a product's nominal/order-listed size (e.g. called "30mm" in trade naming) can differ from what a caliper actually measures on the real piece (e.g. 27mm), so you must verify the actual measurement before ordering — this is not a claim that every batten from every maker is undersized, only that nominal size and measured size can differ and should be checked.
+
+CHARACTER CONSISTENCY RULE:
+- This is the same recurring worker character used in Scene 1 v4, not a new character design.
+- Body fill color: approximately #636361.
+- Face fill color: approximately #E4DFD9.
+- Outline: approximately #1E1E1E.
+- Eyes and mouth: approximately #0A0A0A.
+- Do not reinterpret face tone per scene.
+- No pure white face.
+- No saturated beige/tan face.
+- No peach/salmon face.
+- Same face shape, same tiny dot eyes, same simple mouth.
+
+CHARACTER SCALE & PROPORTION RULE:
+- Same recurring compact worker character as Scene 1 v4.
+- Character height must occupy approximately 18-20% of the full 9:16 canvas height.
+- Never 30-40%+ of the frame.
+- Relatively large simple head.
+- Short compact torso.
+- Short thin arms.
+- Short legs.
+- Chibi-like compact proportions.
+- Never tall, elongated, or realistic adult-human proportions.
+- Do not enlarge the character to match the timber or measuring tool.
+- Timber and caliper must instead be scaled around the established compact character.
+
+CHARACTER SIZE ABSOLUTE RULE:
+- The character must occupy approximately 18-20% of the full 9:16 canvas height from top of head to bottom of feet.
+- Hard maximum: 21%.
+- 22% or more of the canvas height is a failure.
+- Do NOT let the character occupy 25% or more.
+- A prior version of this scene rendered the character at approximately 25.8% of the canvas height, which was too large — make the character visibly and noticeably smaller than that, clearly down within the 18-20% target range.
+- Match the compact Scene 1 v4 worker scale exactly.
+- Keep the same large-head / short-body proportions.
+- Do not lengthen the torso or the legs.
+- Do not enlarge the character to reach the timber or caliper, and do not enlarge it merely to make interaction with the caliper look easier.
+- The character is a supporting element, not the main visual subject.
+- Do not stretch the legs or torso vertically.
+
+Scale order (must be followed in this order):
+1. Fix the character at the Scene 1 v4 scale first.
+2. Then scale the timber and caliper down around that fixed, compact character.
+3. Never enlarge the character to fit the tool or the timber.
+
+CHARACTER COUNT (must not be violated):
+- EXACTLY ONE worker character appears anywhere in this image — one physical character, drawn once, in one single scene.
+- No duplicate worker. No second pose of the same character shown elsewhere in the frame. No inset character. No explanatory mini-character. No helper figure. No secondary vignette containing the character. No additional helper character anywhere in the frame, including corners or background.
+- The same character must not appear twice in different locations within the image.
+- Do not split the measuring action and the "check before ordering" idea into two separate characters or two separate mini-scenes. Everything happens in one single scene, performed by the one character who is measuring the timber with the caliper — the order-check reminder label connects to this same single measuring moment through placement only, never through a second character or a second vignette.
+- If more than one character appears anywhere in the image, the composition is a failure.
+
+CENTRAL BATTEN — ONE SINGLE PIECE, NOT TWO:
+- Show exactly ONE sosong furring batten in the center of the frame. There is only one physical piece of timber in this entire image.
+- This single batten is the subject of both the "nominal size" label and the "measured size" label — it represents one real product whose order-listed name says one number while a caliper measurement shows another. Do not draw a second batten for comparison; do not create a "before/after" pair of two separate timber pieces.
+- The batten is a rectangular prism / square-section construction batten, long and slender like a real Korean sosong lumber batten (darukki), approximately in the 27-30mm cross-section range. Pale natural softwood tone (clean pale beige to light tan), same as the Scene 1-3 references. Absolutely forbidden: cylindrical rod, dowel, roller, round timber, pipe, tube, flat ribbon, strip of paper, belt, tape, flat curved board, or a thick/heavy structural beam. It must clearly show a square end-grain face with four sharp corners.
+- Do not exaggerate any size difference on the batten itself — draw it as one normal, single-size batten. The "30mm vs 27mm" idea is communicated entirely through the two labels and the caliper reading area, never by drawing the timber unusually thick or unusually thin, and never by drawing two differently-sized pieces.
+- Draw the batten at a moderate, hand-tool-scale size on screen, like a short section of furring strip someone is holding and measuring by hand — not as a massive beam or column spanning almost the entire vertical canvas. It should read as a slender piece of lumber a worker can pick up and check, not as a large structural member.
+
+NOMINAL-SIZE LABEL (no paper object of any kind):
+- There is no tag, no spec card, no order sheet, no document icon, and no paper/card-shaped object anywhere in this image. Do not draw any such element.
+- The nominal-size label (see item 1 in the LABELS section below) is written directly in space near the top or left side of the timber, as a standalone hand-written annotation with nothing behind it — no card, no tag outline, no paper shape, no checkbox, no document lines. It floats next to the timber exactly like the other two labels do.
+
+CALIPER MEASUREMENT SCENE (must show real contact):
+- The same worker-character design as the Scene 1-3 references (dark charcoal-gray body, black outline, separated pale face patch with small dot eyes, thin limbs, non-human proportions, not a ghost/shadow mass, not a cute mascot) holds a simple vernier caliper and measures the cross-section width of the batten.
+- The character uses the two large outer jaws of the caliper, the wide flat jaws meant for measuring the outside width of an object, rather than the small inner jaws or the thin depth rod. The square cross-section of the timber sits between these two large outer jaws. One jaw touches one flat side face of the timber, and the opposing movable jaw touches the exact opposite, parallel side face, so the two jaws face each other directly across the timber's width. The measured dimension is the straight-line distance between these two opposite parallel faces, with no visible gap between either jaw tip and the wood. The caliper must never float in the air near the batten without contact.
+- Avoid drawing any of the following: only one jaw touching the timber while the other does not; a jaw merely grazing or passing alongside the timber without flat contact; the jaws pinching only a corner or edge of the square cross-section instead of a full flat face; the caliper resting or propped under/beside the timber as a support rather than measuring it; the thin depth rod being used to take the measurement; the small inner jaws being used instead of the large outer jaws; the caliper body itself bearing the timber's weight; the jaws biting the timber at a diagonal or oblique angle instead of straight across the parallel faces; any visible gap between a jaw tip and the wood surface.
+- Show this measurement scene from a clear three-quarter or near-front view of the timber's square end face, so the contact between the cross-section and both large jaws is unambiguous at a glance — the viewer must immediately understand that the caliper is measuring the width of this square timber, with both contact points (jaw-to-face) clearly drawn.
+- Important: this description of the caliper's jaws is guidance for how to draw the tool correctly — it must never be rendered as visible text, a caption, or a label anywhere in the image. No words naming parts of the caliper (such as jaws, depth rod, or scale) may appear as writing in the picture.
+- The measurement must clearly read as measuring the cross-section width (the short side of the square), not the length of the batten.
+- Do not render any readable numeric scale, ruler markings, or digits printed on the caliper body itself — keep the caliper's scale area blank or with only a few simple abstract tick-mark lines, so no invented numbers appear on the tool.
+- The character's posture is a calm, focused worker measuring with one or both hands naturally holding the caliper — no exaggerated facial expression, no shock, no surprise marks.
+- Do not add a ruler, tape measure, or any other measuring tool besides this one caliper.
+- Draw the caliper at a realistic handheld-tool size — roughly proportioned to fit naturally in the character's hand(s), no larger than about the character's torso width. It must not become the largest object in the frame; it should read as an ordinary handheld measuring tool, sized only as large as needed to visibly grip the batten's cross-section. Do not enlarge the caliper beyond this — keep it at this same modest handheld scale.
+
+VISUAL LINK BETWEEN CALIPER AND THE 27mm LABEL:
+- Position the measured-size label (see item 2 in the LABELS section below) close to the caliper's jaw/reading area — to the right of or just below the measuring point — as exactly ONE single text block in exactly ONE location. This is the only place this label appears anywhere in the image.
+- Connect this single label to the measurement visually through proximity and a small simple hand-drawn curve or line only — never by writing the label text a second time near the arrow, near the caliper body, or anywhere else. The connection is made by placement and a small line, not by repeating the words.
+
+SIZE-DIFFERENCE RESTRAINT (do not violate):
+- The real-world difference here is only about 3mm, so the batten's drawn cross-section must look like a normal, single, consistent size throughout the image — never draw part of it thick and another part thin, and never imply two different physical sizes exist.
+- Do not use a dramatically large red highlight, warning burst, or oversized visual effect to sensationalize the gap between the nominal and measured numbers. Any red accent must stay small and restrained (see STYLE below).
+- The scene must not read as "this is a defective/fake product" — it reads as "the named size and the measured size can differ, so check before ordering."
+
+ORDER-CHECK REMINDER:
+- Near the bottom of the composition, or near the measurement area, include a small supporting visual cue (for example, the character's gaze or a small hand gesture toward the measurement result) that naturally connects to the order-check reminder label (see item 3 in the LABELS section below), suggesting "check the actual measurement before placing an order." Keep this understated — it is a small supporting label, not a large banner.
+
+CHARACTER STYLE:
+- Same design as the Scene 1-3 references: dark charcoal-gray body, black outline, separated pale face patch with small dot eyes, thin limbs clearly separated from the torso, non-human proportions, not a ghost/shadow/silhouette mass, not a cute mascot. Calm, focused, professional measuring-worker feeling — no exaggerated reaction.
+- Keep the character compact and small, matching the same visual size and proportions as the character in the Scene 1-3 references — do not draw it tall, elongated, or large relative to the frame. The character must not dominate the vertical canvas; the caliper-measuring-the-batten action is the main subject, and the character is a supporting element beside it, at the same relative scale as in Scene 1-3.
+
+STYLE (matches the Scene 1-3 references exactly):
+- Vertical 9:16 canvas.
+- Pure white background, no environmental scenery, no complex jobsite background elements.
+- Minimal black hand-drawn ink outlines with a slightly wobbly, imperfect pen line quality, applied to every element including the batten and the caliper.
+- Korean webtoon / newspaper editorial illustration style for professional construction-material education.
+- Not photorealistic, no 3D rendering, no glossy commercial vector-infographic look, no CAD-style precision lines.
+- Color palette: black for line art and character outline; pale natural softwood tone for the batten; red used only very sparingly and in small scale, as a restrained accent to emphasize the nominal-vs-measured difference (for example a small tint near the two number labels), never as a large dramatic highlight, and never applied to make the batten itself look abnormal; orange only for small measurement-motion marks near the caliper or the character's hand; keep everything else minimal on white.
+
+IN-SCENE KOREAN HAND-LETTERED LABELS:
+The entire image must contain EXACTLY THREE readable text blocks in total — not four, not five, not two. Every one of these three text blocks is in Korean. No English text may appear anywhere in the image, in any form — none of the English words used in this prompt's instructions to describe the scene, the character, or the caliper may be rendered as visible writing in the picture. No technical terminology may appear as visible text. No explanatory captions. No tool-part labels or annotations naming parts of the caliper. No extra numbers beyond the digits already inside the three phrases below. No logos. Each of the three Korean phrases below appears in exactly ONE single location, as exactly ONE visual text block, anywhere in the whole illustration. Do not duplicate any phrase. Do not repeat the same phrase in two places. Do not mirror the same phrase. Do not create a second explanatory copy of any phrase. Do not add any second phrase with similar or equivalent meaning. Render each as a casual hand-written annotation matching the sketchy ink linework, small enough not to cover or obscure the batten, character, or caliper:
+1. "명칭 규격 30mm" — exactly ONE instance, one single text block, one single location: written as a standalone floating hand-written label near the top or left side of the timber, with no paper, tag, or card behind it. Do not repeat it anywhere else.
+2. "실측 규격 27mm" — exactly ONE instance, one single text block, one single location: placed either to the right of, or just below, the caliper's measuring jaws/reading area — pick only one of these two positions, not both. Do not repeat this label near the caliper a second time, do not repeat it below the caliper if already placed to the right, do not mirror it, and do not create any secondary callout that repeats this measurement result elsewhere in the scene.
+3. "발주 전 실측" — exactly ONE instance, one single text block, one single location: placed as a small supporting label near the bottom of the composition or near the measurement area, kept visually modest in size. Do not repeat it anywhere else.
+Do not generate any other text, numbers, English words, logos, watermarks, or signatures anywhere in the image — including on the caliper body, which must stay abstract tick-mark lines, not readable numbers or text. This includes any invented spec/category name or descriptive phrase beyond the three below — no such extra phrase may appear anywhere. Beyond the three phrases below, do not draw any additional Korean text, pseudo-Korean, fake or invented characters, gibberish writing, decorative writing, illegible handwriting, or any letter-like marks or strokes that resemble writing — if it is not one of the three exact phrases below, it must not look like writing at all. Only these exact three Korean phrases, exactly once each in exactly one location each, with the exact spelling, spacing, and digits given above, may appear — the entire image must contain exactly three readable text blocks, no more.
+
+SCENE ELEMENTS (the image must be limited to exactly this list):
+- Exactly one worker character.
+- Exactly one sosong batten.
+- Exactly one vernier caliper.
+- The three specified Korean hand-written labels, each exactly once.
+- A minimal amount of small orange motion marks near the measuring point, if needed.
+- Nothing else. No product tag, spec card, order sheet, or document icon of any kind. No second explanatory box. No second scene. No inset vignette. No background objects, props, or scenery.
+
+RELATIVE SCALE (applies on top of all rules above):
+- Render the character, the batten, and the caliper all somewhat smaller and more modestly scaled than a version that lets any one of them dominate the frame — the batten must not look like a huge beam, the caliper must not look as wide as the character's torso, and the character must not look tall or oversized.
+- Priority order for visual dominance: the caliper-measuring-the-batten action first, with the character and the caliper as supporting elements at a natural, believable handheld/jobsite scale relative to each other.
+- The character's size must match the same scale used in the Scene 1-3 references, so this scene feels visually consistent with them rather than suddenly using a bigger or more elongated character.
+
+COMPOSITION:
+- The caliper-measuring-the-batten action should be the first thing the eye lands on, centered in the frame.
+- The nominal-size label, the caliper measurement, and the order-check reminder should flow naturally together (nominal label near the top/left of the batten, caliper reading connected to the measured-size label, reminder label near the bottom).
+- Do not leave excessive empty white space at the top; the scene should feel appropriately full on a 9:16 phone screen, matching the density of the Scene 1-3 references.
+- The relationship between the nominal 30mm name and the measured 27mm result on this one single batten must be understandable at a glance, even on a small mobile screen.

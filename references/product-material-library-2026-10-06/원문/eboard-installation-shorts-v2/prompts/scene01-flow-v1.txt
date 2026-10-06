@@ -1,0 +1,11 @@
+Preserve the supplied photorealistic Korean interior-renovation start frame, its exact worker, e-board product, unfinished wall, floor protection, lighting, colors, and vertical composition.
+
+Animate one restrained continuous action over 4 seconds: the single worker takes a small natural step toward the wall while carrying the single rigid e-board, gently raises/adjusts it a few centimeters, lightly aligns it parallel with the intended wall position, then stops while still holding it immediately before installation. The board never attaches to the wall.
+
+Keep the camera almost fixed in a documentary style. Only very subtle natural handheld micro-movement is allowed. Keep motion slow, physically plausible, and easy to read.
+
+PRODUCT PRESERVATION: the e-board remains a flat rigid thin composite panel with dark charcoal facing and a thin pink XPS core visible at its exposed edge. Preserve its exact thickness, proportions, surface, straight edges, and rectangular geometry throughout. Do not bend, flex, melt, thicken, resize, relabel, duplicate, or transform it.
+
+WORKER PRESERVATION: exactly one worker. Preserve face, clothing, body proportions, arms, hands, fingers, and natural two-point grip. No extra people, limbs, hands, tools, or panels.
+
+STRICTLY FORBIDDEN: installation completion, wall attachment, adhesive or glue, cutting, drilling, screws, fasteners, joint work, panel seams, new objects, camera pan, zoom, orbit, rapid turn, dramatic gestures, product deformation, text, logos, watermarks, transitions, audio.

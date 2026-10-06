@@ -1,0 +1,33 @@
+Edit the supplied reference image exactly as follows. This is an image-editing task on the provided reference image, not a new illustration — preserve the entire existing wall-section illustration exactly except for the one target described below: the character.
+
+PRESERVE EXACTLY, UNCHANGED:
+- The wall cross-section structure: the front finish panel and the furring battens behind it, in their exact current positions and shapes.
+- The warped furring batten's twisted/bowed geometry and its pale natural wood color.
+- The lifted finish-material defect and the opened seam, in their exact current shape and position.
+- The three existing Korean labels, kept in their exact current positions and wording, unchanged.
+- The small red pressure/transfer curve marks near the batten, in their exact current position.
+- The overall composition, camera framing, background, and hand-drawn ink line style.
+- The character's action and its meaning: one hand pressing/checking the lifted finish-material area — keep this same pose and meaning, just redrawn smaller as described below.
+- The character's general location beside/in front of the wall section.
+
+CHANGE ONLY THE CHARACTER — COLOR:
+- Face fill color: change to a pale warm ivory tone, approximately #E4DFD9 (matching the Scene 1 reference character) — replacing the current peach/light-skin tone.
+- Body fill color: change to approximately #636361 (matching the Scene 1 reference character).
+- Outline: approximately #1E1E1E.
+- Eyes and mouth: approximately #0A0A0A.
+
+CHANGE ONLY THE CHARACTER — SIZE AND PROPORTIONS:
+- The character in this image is currently taller and more elongated than the Scene 1 reference character. Redraw it smaller and more compact, matching the Scene 1 reference character's proportions and scale.
+- Target height: approximately 18-20% of the full canvas height from top of head to bottom of feet, with a hard maximum of about 21%.
+- Relatively large, simple head; short compact torso; short arms; short legs — the same chibi-like compact proportions as the Scene 1 character, not a tall or elongated human figure.
+- Keep the character's hand in the same relative contact position against the lifted finish-material area, so the checking action and its meaning are unchanged — just performed by a smaller, more compact character.
+- Do not shift the character's overall location relative to the wall section — only its size and proportions change.
+
+DO NOT:
+- Do not redesign the wall cross-section, the warped batten, the lifted finish, or the opened seam.
+- Do not move or reword any of the three existing labels.
+- Do not change the red pressure marks.
+- Do not add any new text anywhere, in Korean, English, or any invented script.
+- Do not add a second character.
+- Do not change the overall composition or camera framing.
+- The only changes anywhere in the image are the character's face/body/outline/eye colors and the character's overall size/proportions — everything else must remain identical to the supplied reference image.

@@ -1,0 +1,11 @@
+PRECISE COLOR-ONLY IMAGE EDIT.
+
+Use the supplied S5 v4 image as a pixel-locked edit target. Preserve the image exactly except for one change: adjust only the visible surfaces of the two installed E-board panels on the left and right sides of the vertical joint.
+
+Change both panel faces from near-black to the same clearly recognizable neutral medium-dark gray, approximately RGB 80, 80, 80, within an RGB 70–90 range. The panels must read immediately as dark gray rather than black under the existing natural light. Keep the existing matte, subtle fiber-like surface texture, local lighting, shadows, and dimensional shading.
+
+Do not make the gray blue, green, brown, purple, pale, bright, washed out, glossy, painted, or digitally flat. Both panels must have the same neutral base color.
+
+ABSOLUTELY PRESERVE WITHOUT CHANGE: camera position, crop, framing, perspective, balcony/utility-room space, window strip, worker position, arm, hand, glove, sleeve, putty knife shape and angle, vertical joint position and width, putty shape, putty thickness, putty color, all edges, shadows, highlights, surface texture, and every object. Do not alter, add, remove, move, reshape, retouch, or regenerate anything other than the base color of the two panel faces.
+
+No text, labels, graphics, logos, or new objects.

@@ -1,0 +1,27 @@
+Edit the supplied reference image exactly as follows. This is an image-editing task on the provided reference image, not a new illustration — preserve the entire existing picture pixel-for-pixel except for the one specific correction described below.
+
+PRESERVE EXACTLY, UNCHANGED:
+- The character: identical position, size, pose, design, and colors.
+- The timber batten: identical position, size, shape, and color.
+- The vernier caliper: identical position and size, and the existing outside-jaws contact with the timber — both jaws remain touching the opposite parallel faces of the timber exactly as shown in the reference image.
+- The three existing correct Korean labels, kept in their exact current positions: "명칭 규격 30mm", "실측 규격 27mm", "발주 전 실측".
+- The overall composition, camera framing, line style, and color palette.
+- The small orange motion marks near the measuring point.
+
+REMOVE ONLY THIS ONE ELEMENT:
+- The two lines of nonsensical, garbled Korean-looking text located on the left side of the image, next to the caliper's left jaw and to the left of the timber, at roughly the vertical middle of the composition. This stray text does not belong to any of the three intended labels and must be deleted.
+
+HOW TO FILL THE REMOVED AREA:
+- Replace that text with plain pure white background, matching the surrounding white background found elsewhere in the image.
+- Do not add any new decoration, connecting line, icon, or shape in that area.
+- Do not write any replacement text there, in Korean, English, or any invented script.
+- The area should look exactly like ordinary blank white background, as if that stray text had never been drawn there.
+
+ABSOLUTE RESTRICTIONS FOR THIS EDIT:
+- Do not add a second character. Do not redesign the character.
+- Do not move, resize, or redesign the timber.
+- Do not move, resize, or redesign the caliper. Do not change its measuring contact with the timber.
+- Do not reposition any of the three existing correct labels.
+- Do not generate any new text anywhere in the image, in Korean, English, or any pseudo-script or gibberish.
+- Do not add any new explanatory box, tag, spec card, or document element.
+- The only change anywhere in the image is the removal of the one stray text block described above — everything else must remain identical to the supplied reference image.

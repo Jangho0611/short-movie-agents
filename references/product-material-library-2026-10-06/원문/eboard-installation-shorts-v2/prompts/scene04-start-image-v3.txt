@@ -1,0 +1,25 @@
+Use case: precise-object-edit
+Asset type: vertical 9:16 Start Image for Scene 4 of a Korean e-board installation tutorial
+
+This is a minimal material-texture edit of the supplied image, not a new composition. Preserve the supplied image almost exactly. Change ONLY the physical surface texture and slight thickness variation of the existing pale polyurethane foam-adhesive beads.
+
+LOCK EVERYTHING ELSE:
+Keep the exact same camera position, lens, crop, framing, narrow Korean apartment balcony / utility-room dimensions, window, concrete wall, blue floor protection, daylight, worker identity, face, hair, black clothing, gloves, kneeling posture, arms, hands, grip, and gaze. Preserve the exact same professional polyurethane foam gun, including its top-mounted inverted can, pistol grip, trigger, metal body, long thin metal lance, and narrow nozzle. Preserve the e-board's exact position, size, long rectangular proportions, flat rigid geometry, black surface, and thin pink XPS edge. Preserve the current placement, route, spacing, overall serpentine layout, and count of all foam-adhesive beads. Do not redesign, add, remove, or reroute any bead.
+
+EDIT ONLY THE FOAM-BEAD MATERIAL:
+Make every existing bead unmistakably look like freshly dispensed polyurethane foam adhesive from a real foam gun, not silicone and not caulk.
+
+- Make each bead slightly thinner than in the supplied image, but preserve its centerline and overall route.
+- Give the bead a gently expanded, low-rise cellular foam body with a matte to softly satin surface.
+- Add fine-scale micro-bubble texture and tiny shallow pores that are visible only on close inspection.
+- Add subtle irregular ridges, soft small ripples, and restrained unevenness from real foam expansion.
+- Make the bead edges slightly imperfect and softly feathered in places, never razor-smooth or perfectly molded.
+- Vary the bead diameter very slightly and naturally along each run, with minor nozzle-start and nozzle-stop irregularities.
+- Keep the foam fresh, cohesive, and workable, with believable soft shadows on the black board.
+
+The result must remain restrained and realistic: no large open bubbles, no giant pores, no lumpy foam piles, no shaving-foam look, no popcorn texture, no over-expansion, no dripping, no splatter, and no collapsed foam.
+
+ABSOLUTELY NOT SILICONE OR CAULK:
+No smooth silicone-like tube, no rubbery glossy sealant, no perfectly constant circular extrusion, no glassy surface, no toothpaste texture, no caulking compound, no adhesive paste, and no decorative machine-perfect lines.
+
+Do not alter the foam gun, worker, panel, room, perspective, lighting, colors, shadows, or composition. Do not add text, brands, labels, packaging, tools, people, panels, logos, or watermarks. No wall attachment and no new action.

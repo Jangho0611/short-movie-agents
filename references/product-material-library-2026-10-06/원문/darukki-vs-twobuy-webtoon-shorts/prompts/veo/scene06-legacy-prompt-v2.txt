@@ -1,0 +1,61 @@
+Scene 6 animation goal:
+- Daesani changes from a curious expression into a small smile and makes one restrained understanding gesture by lightly raising one hand.
+- The question mark and emphasis marks disappear naturally during the transition.
+- The action is calm, subtle, and readable.
+
+CRITICAL PRESERVATION
+- preserve Daesani identity, face, head-to-body ratio, body proportions, colors, and hand-drawn outline
+- preserve the narrow darukki timber exactly
+- preserve the wider two-by timber exactly
+- preserve all timber positions, sizes, angles, width proportions, and perspective
+- preserve the white background
+- preserve the original camera framing and composition
+
+ALLOWED MOTION
+- only Daesani may animate
+- Daesani changes from curious to a small natural smile
+- Daesani lightly raises one hand in a small understanding gesture
+- the question mark and emphasis marks disappear naturally
+
+NEGATIVE MOTION RULES
+- no large arm movement
+- no arm waving
+- no walking
+- no body translation
+- no body rotation
+- no bouncing
+- no floating
+- no zoom
+- no pan
+- no camera movement
+- no camera scale change
+- no timber movement
+- no timber resize
+- no timber deformation
+- no timber bending
+- no ghosting
+- no duplicated character
+- no duplicated timber
+- no new objects
+
+STATIC ELEMENTS
+- both timber pieces remain completely fixed
+- background remains completely fixed
+- camera remains completely fixed
+- framing remains completely fixed
+- Daesani's feet and body position remain fixed
+
+TEXT PRESERVATION
+- no generated text
+- no letters
+- no labels
+- no captions
+- no speech bubbles
+- no new symbols
+- no watermark
+
+VISUAL PRESERVATION
+- preserve the supplied Korean editorial webtoon style
+- preserve the original pale natural wood colors and hand-drawn black linework
+- no photorealistic transformation
+- no 3D transformation

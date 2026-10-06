@@ -1,0 +1,41 @@
+Use the supplied Scene 1 character reference as the strict identity reference for all three existing characters. Create the next Korean editorial webtoon panel in the same clean, restrained 2D illustration style. Do not reinterpret or redesign any character.
+
+FORMAT AND STYLE:
+- vertical 9:16 composition
+- clean white background
+- thin, clean black webtoon linework
+- soft neutral colors matching the reference
+- flat 2D editorial webtoon illustration
+- no photorealism and no 3D
+
+HEADLINE:
+Place this exact two-line Korean headline together at the upper center:
+차이는 바로
+원재료입니다
+
+The two lines must be simultaneously visible, bold, clear, correctly spelled, and centered. Render only the word "원재료" in red. Render "차이는 바로" and "입니다" in black. Preserve accurate Korean glyphs. Do not add any other headline, slogan, or explanatory sentence.
+
+CHARACTER COMPOSITION:
+- Lower center: the same baby Daesan from the reference, wearing the same white diaper. Preserve the same charcoal-gray rounded one-piece body, pale circular face, simple black facial features, proportions, and thoughtful expression style.
+- LEFT: enlarge the exact existing left character from the reference. Preserve the rounded light warm-brown hood/head shape, distinctive small forehead curl, pale face, pink cheeks, black facial features, body color, proportions, and expression style. This character must remain on the LEFT. Place the exact Korean label "천연석고" near or below this character.
+- RIGHT: enlarge the exact existing right character from the reference. Preserve the charcoal-gray hood/body, distinctive uneven jagged top silhouette, pale face, pink cheeks, black facial features, proportions, and expression style. This character must remain on the RIGHT. Place the exact Korean label "배연탈황석고" near or below this character.
+
+Show the left and right material characters somewhat larger than they appeared in Scene 1 so the raw-material difference is easy to understand. Give them equal scale, equal prominence, balanced neutral lighting, and equal visual weight. Neither character may look better, safer, cleaner, greener, darker, dangerous, polluted, superior, or inferior.
+
+If needed for continuity, retain only very simple pale gypsum-board silhouettes behind the left and right characters. Keep them secondary and minimal.
+
+IDENTITY LOCK:
+- Do not turn either material character into a gypsum rock or mineral lump.
+- Do not redesign them as different people or different creatures.
+- Do not alter their face, head silhouette, colors, body proportions, or expression language.
+- LEFT always equals 천연석고.
+- RIGHT always equals 배연탈황석고.
+- Never swap or mirror the two sides.
+- Keep the baby Daesan's white diaper and approved appearance unchanged.
+
+AVOID:
+- extra characters, objects, scenery, factory, mine, machinery, arrows, checkmarks, badges, warning icons, glow, flames, smoke, particles, dramatic lighting, safety or environmental symbolism
+- text distortion, fake Korean text, duplicate labels, extra labels, watermark, logo
+- busy background or unnecessary props
+
+The finished image must feel like the immediate next panel after the supplied Scene 1 reference, with unmistakably continuous character identities.

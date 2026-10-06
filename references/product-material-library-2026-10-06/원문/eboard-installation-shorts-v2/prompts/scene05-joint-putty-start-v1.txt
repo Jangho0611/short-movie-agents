@@ -1,0 +1,31 @@
+Use case: photorealistic-natural
+Asset type: vertical 9:16 Start Image for Scene 5 of a Korean e-board installation tutorial
+
+Create one candid photorealistic construction-site image showing joint finishing after two e-board panels have been attached to a wall.
+
+INPUT REFERENCES:
+- Image 1 is the continuity reference. Preserve the same narrow Korean apartment balcony / utility-room renovation site, open window, exposed concrete context, blue protective floor covering, natural daylight, and the same young Korean male worker in his 20s–30s wearing black work clothes and black gloves.
+- Image 2 is the canonical product reference. Preserve the real e-board identity: large tall rectangular sheet proportions, matte black facing, thin pink XPS core, straight rigid edges, and restrained realistic thickness.
+
+PRIMARY SCENE:
+Exactly two full-height e-board panels are already installed vertically and side by side on the concrete wall, flat and coplanar. Their long edges meet at one narrow vertical center joint. Both black front faces are visible. The two panels have equal realistic large-sheet proportions and thickness, with no bending, swelling, short square proportions, or invented layers.
+
+JOINT — CRITICAL REALISM:
+The vertical gap between the panels is narrow and construction-realistic, only a few millimeters wide, not a wide channel. The gap has already been filled with cured pale cream polyurethane foam and the excess foam has been trimmed nearly flush with the panel faces. Above and below the worker's active hand area, leave small readable sections of the narrow trimmed foam-filled seam visible so the sequence “gap filled with foam, allowed to dry, then leveled with putty” is understandable in one still image.
+
+The worker is now applying and smoothing a restrained thin coat of neutral light gray or off-white joint putty directly over the cured seam. The putty forms one narrow, flat vertical finishing band centered on the joint, approximately 5–8 cm wide. It is feathered thinly onto both black panel faces with subtle real trowel marks. Keep it nearly flush: no thick mound, no bulging ridge, no oversized plaster stripe, no dripping, no lumpy pile, and no excessive material covering the panels.
+
+TOOL AND POSTURE:
+The worker uses one realistic stainless-steel putty knife / filling knife approximately 10–15 cm wide with a short practical handle. The rectangular flexible blade is held at a natural shallow 25–40 degree angle to the wall and centered across the vertical joint. Show the exact instant of one controlled vertical smoothing pass. One gloved hand holds the handle with a mechanically plausible wrist and forearm alignment; the other hand stays clear of the blade and wet putty. The worker stands or uses a stable half-kneeling posture close to the wall without overreaching. Natural five-finger anatomy, realistic elbows and shoulders, actual renovation-worker ergonomics.
+
+COMPOSITION:
+Use a moderately close three-quarter documentary camera angle that clearly shows both adjacent tall black panels, the narrow vertical seam, a visible cured-foam section, the thin putty band, the putty knife contact, and the worker's natural posture. Keep the same cramped balcony width and real residential renovation atmosphere. The joint and tool contact are the visual focus; the worker remains secondary. The wall-mounted boards do not float and remain firmly aligned.
+
+STYLE:
+real camera look, not CGI; ultra realistic documentary photography; realistic material texture; natural daylight through the window; soft real shadows; actual Korean residential construction site; muted honest colors; natural floor protection.
+
+NO TEXT OR BRANDING:
+No product names, brands, labels, readable packaging, printed markings, text, numbers, captions, arrows, diagrams, logos, or watermarks.
+
+AVOID:
+No wide panel gap, open cavity, large foam bulge, wet expanding foam, thick plaster mound, decorative stripe, perfect graphic line, mesh tape, joint tape, screws, fasteners, extra panels, extra seams, extra workers, extra hands, extra tools, buckets dominating the frame, wall demolition, panel removal, panel bending, living-room styling, glossy commercial render, dramatic cinematic lighting, plastic skin, or staged presentation pose.

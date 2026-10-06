@@ -1,0 +1,52 @@
+Use the supplied Scene 1 hook image as the strict first frame and locked visual reference. Preserve the exact Korean editorial webtoon style, vertical 9:16 composition, white background, colors, linework, headline, gypsum-board designs, and baby Daesan identity.
+
+Animate one restrained reveal only.
+
+At the beginning, both identical gypsum boards remain closed in their original LEFT and RIGHT positions, with the baby Daesan standing at the lower center exactly as shown.
+
+Then both boards open only slightly and evenly, without moving from their positions or changing size. From behind the LEFT board, reveal one small natural-gypsum character: a pale neutral mineral-rock character with simple restrained webtoon features. From behind the RIGHT board, reveal one small flue-gas-desulfurization gypsum character: a pale neutral gypsum-material character with a subtle calm industrial-gray visual cue. Both revealed characters must have equal size, equal visual prominence, equal brightness, equally neutral expressions, and balanced motion. Neither side may look better, safer, cleaner, healthier, greener, brighter, darker, dirtier, dangerous, or inferior.
+
+The baby Daesan makes only a tiny curious reaction while staying in the same location and keeping the same face, white diaper, charcoal-gray one-piece body, size, pose, and proportions. A very small head or eye adjustment is enough. No walking and no large gesture.
+
+LOCKED SIDES:
+- LEFT always remains natural gypsum.
+- RIGHT always remains flue-gas-desulfurization gypsum.
+- Never swap, cross, mirror, or exchange the two sides.
+
+PRESERVE EXACTLY:
+- the existing Korean headline and every Korean glyph through the final frame
+- the black and red text colors
+- both original gypsum boards
+- the baby Daesan character identity
+- all object positions and overall framing
+- the clean white background
+- the original hand-drawn webtoon style
+
+TEXT:
+Do not rewrite, fade, remove, duplicate, morph, animate, or distort any Korean text.
+No new text, labels, letters, numbers, logos, or watermarks.
+
+CAMERA:
+- completely fixed camera
+- no zoom
+- no push-in
+- no pan
+- no tilt
+- no orbit
+- no reframing
+- no crop change
+- no transition
+
+AVOID:
+- character redesign or identity drift
+- face mutation
+- new arms, hands, or legs
+- pose replacement
+- exaggerated facial animation or lip-sync
+- large board movement or deformation
+- arrows, checkmarks, badges, warning icons, flames, smoke, particles, glow, colored light, or dramatic effects
+- environmental, health, safety, danger, superiority, inferiority, pollution, or eco-friendly symbolism
+- photorealism or 3D conversion
+- late-frame drift
+
+The result should feel like a nearly static webtoon panel with one clear but gentle reveal, suitable for a six-second opening hook.

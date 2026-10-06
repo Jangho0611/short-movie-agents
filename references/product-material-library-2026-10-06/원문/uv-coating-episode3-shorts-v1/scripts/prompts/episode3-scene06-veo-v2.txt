@@ -1,0 +1,20 @@
+Create a subtle 4-second image-to-video animation from the supplied start frame.
+
+ONE ACTION ONLY: Daesan gives one small, calm finishing nod and makes a restrained guiding gesture beside the body. Both glossy and matte panels remain completely stationary.
+
+HAND AND PANEL SAFETY — CRITICAL:
+- The hand must not touch either panel. Move the guiding hand slightly back toward the body so a clear visible gap remains between hand and panels throughout.
+- The hand must stay clearly in front of the panels, fingers visible and not overlapping or merging into either panel.
+- Never place the hand behind, inside, through, on top of, or against a panel. Never fuse, occlude, or deform the hand, fingers, arm, panel edges, or panel surfaces.
+- Preserve stable hand anatomy and the exact original number and shape of fingers. Do not articulate individual fingers.
+
+CHARACTER SAFETY — CRITICAL:
+- Preserve the exact canonical character design, proportions, colors, clothing, and silhouette.
+- Keep both eyes as exactly two small round black dots throughout. No blinking, angular eyes, lines, or realistic eyes.
+- Keep the original mouth shape fixed. No talking, lip movement, teeth, tongue, or expression morphing.
+
+FRAME SAFETY:
+- Output must fill the complete native 1080x1920 vertical canvas edge to edge in exact 9:16. No letterboxing, pillarboxing, black bars, borders, matte, blank strips, inset frame, or padding.
+- Preserve the top caption-safe area and the original composition.
+- Fixed camera: no pan, zoom, crop, rotation, shake, reframing, or transition.
+- No text, subtitles, logos, watermarks, new objects, or audio.

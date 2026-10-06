@@ -1,0 +1,55 @@
+Create one vertical 9:16 reference illustration for Scene 3 of the same professional construction-material explainer short, in the exact same Korean webtoon / newspaper-editorial illustration style as the existing Scene 1 and Scene 2 references (same black hand-drawn ink linework with a slightly wobbly pen quality, same pale natural softwood timber color, same worker-character design). This scene explains a simple idea: whether sosong lumber has been kiln-dried (KD) or not is hard to tell just by looking at it, so you have to check the product's drying information/spec instead of judging by eye.
+
+CENTRAL COMPARISON — TWO VISUALLY IDENTICAL BATTENS (the most important rule in this scene):
+- Show two sosong furring battens placed side by side in the center of the frame, for direct visual comparison.
+- The two battens MUST look essentially identical to each other: same pale natural softwood tone (clean pale beige to light tan, same as the Scene 1/2 reference), same simple wood-grain pattern density, same size, same straightness, same surface cleanliness. Neither piece may look cleaner, drier, lighter, darker, more weathered, more cracked, or more warped than the other.
+- It is strictly forbidden to make one batten distinguishable from the other by color, tone, grain pattern, surface texture, cracking, warping, or any other visual cue. A viewer must not be able to guess which one is kiln-dried just by looking at the picture — that inability to tell them apart is the entire point of this scene. If the two battens look different in any way, the image has failed its purpose.
+- Do not label either batten "KD" or "비KD" or write any identifying text on or near them. Do not use color-coding (for example, do not tint one blue/green and the other neutral) to hint at a difference.
+
+BATTEN SHAPE:
+- Both battens MUST be rectangular prism / square-section construction battens, approximately 27x27 mm or 30x30 mm in cross-section, like Korean sosong lumber (darukki) — long and slender, never a wide board, plank, or sheet material.
+- Absolutely forbidden: cylindrical rod, dowel, roller, round timber, pipe, tube, flat ribbon, strip of paper, belt, tape, or flat curved board.
+- Each batten must show a clearly square end-grain face with four sharp corners at its visible end.
+
+CHARACTER — VISUAL INSPECTION (uncertain, not alarmed):
+- Same small worker-character design as the Scene 1/2 references: dark charcoal-gray body, black outline, separated pale face patch with small dot eyes, thin limbs, non-human proportions, not a ghost/shadow mass, not a cute mascot.
+- The character holds a small simple magnifying glass (or leans its face in closely) over the two battens, comparing their surfaces closely.
+- The expression and posture should read as careful but genuinely uncertain — a professional-looking worker who is trying hard to tell the two apart and still isn't sure, not a cartoonishly shocked or panicked reaction. No exaggerated surprise marks, no excessive question marks. At most one small, restrained question-mark-like squiggle or a simple furrowed-brow line is enough, if used at all.
+- The overall feeling: "even someone experienced can't reliably tell these apart just by looking."
+
+INFORMATION-CHECK ACTION:
+- Positioned to the right or below the two compared battens, show the same character (or a clear continuation of the same action) checking a small, simple product information tag/card — think a small simple hangtag or spec label, not a busy printed document.
+- Keep this tag extremely simple: a small rectangular card/tag shape with a few short simple horizontal line-marks suggesting text/spec content. Do not render large amounts of invented fine print, random numbers, or English words on it — a handful of short abstract line-marks is enough to suggest "printed information" without becoming readable, cluttered text.
+- The action should read simply as "now checking the product's information/spec tag instead of judging by eye" — a small hand gesture pointing to or holding the tag is enough.
+
+VISUAL FLOW (must read in this order, top-to-bottom or left-to-right):
+1. Left/center: the two visually-identical battens being compared side by side.
+2. Center: the character inspecting their surfaces closely (magnifying glass or close-up look), looking uncertain.
+3. Right/lower: the character checking the simple product information tag.
+The overall story — "look alike -> hard to tell by eye -> check the drying info instead" — must be readable at a glance.
+
+STYLE (matches the Scene 1/2 references exactly):
+- Vertical 9:16 canvas.
+- Pure white background, no environmental scenery, no complex jobsite background elements.
+- Minimal black hand-drawn ink outlines with a slightly wobbly, imperfect pen line quality, applied to every element including the battens, the magnifying glass, and the info tag.
+- Korean webtoon / newspaper editorial illustration style for professional construction-material education.
+- Not photorealistic, no 3D rendering, no glossy commercial vector-infographic look, no CAD-style precision lines.
+- Color palette: black for line art and character outline; the same pale natural softwood tone for both battens (identical to each other); red used only very sparingly, as a small restrained accent for "difficulty of judgment" (for example a tiny warning-toned mark near the magnifying glass), never applied to the battens themselves to suggest a difference between them; orange only for small inspection motion marks (e.g., near the magnifying glass or the hand pointing at the tag); keep everything else minimal on white.
+
+IN-SCENE KOREAN HAND-LETTERED LABELS:
+The entire image must contain EXACTLY three text instances in total, no more and no fewer — each phrase below appears exactly once, one single time each, anywhere in the whole illustration. Do not duplicate any phrase, do not repeat the same phrase in two places, and do not add any second phrase with similar or equivalent meaning. Render each as a casual hand-written annotation matching the sketchy ink linework, small enough not to cover or obscure the battens, character, or info tag:
+1. "겉모습은 동일" — exactly one instance, placed near the two compared battens.
+2. "육안 구별 불가" — exactly one instance, placed near the magnifying-glass/close-inspection area.
+3. "건조 정보 확인" — exactly one instance, placed near the product information tag/card.
+Do not generate any other text, numbers, English words, logos, watermarks, or signatures anywhere in the image — including on the info tag itself, which must stay abstract line-marks, not readable text. Only these exact three Korean phrases, exactly once each, with the exact spelling and spacing given above, may appear.
+
+IMPORTANT NEUTRALITY RULES (do not violate):
+- Do not write "KD" or "비KD" anywhere in the image, in Korean or English.
+- Do not make the two battens distinguishable by color, tint, tone, or shading of any kind.
+- Do not make one batten cracked, warped, or bowed while leaving the other straight, or vice versa — for this scene, both battens should be straight and undamaged; the point is that dryness cannot be judged from appearance, not that one looks structurally different from the other.
+- The single most important test for this image: if someone covered up the labels, they should not be able to guess which batten (if either) is kiln-dried just by looking at them.
+
+COMPOSITION:
+- Do not leave excessive empty white space at the top; the scene should feel appropriately full on a 9:16 phone screen, matching the density of the Scene 1/2 references.
+- The two compared battens should be the first thing the eye lands on, with the magnifying-glass inspection and the information-tag check following naturally below/beside them.
+- Keep the whole scene simple enough to be understood at a glance on a small mobile screen.

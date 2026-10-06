@@ -1,0 +1,10 @@
+Use case: precise-object-edit
+Asset type: Scene 5 start frame color correction
+
+Use the supplied S5 v5 image as the exact edit target. Perform a strict color-only edit. Change only the visible faces of the two installed E-board panels, on both sides of the vertical joint, to the same neutral-to-slightly-warm medium gray, approximately RGB 105, 105, 102 and within an apparent RGB range of 95–115 under the existing natural light. The surfaces must look clearly brighter than the current medium-dark gray, but must not become light gray. Black and near-black are forbidden.
+
+Preserve the existing matte, subtle fiber-like texture, natural-light falloff, highlights, shadows, and dimensional shading on the panel surfaces. Do not make the panels blue, green, brown, purple, pale, washed out, glossy, painted, or digitally flat.
+
+PIXEL-LOCK ALL NON-COLOR CONTENT. Absolutely preserve without any change: camera, crop, framing, perspective, composition, room, window edge, worker posture and position, arm, hand, glove, sleeve, putty knife position, shape and angle, vertical joint position and width, putty shape, width, thickness and color, all object contours, and all lighting geometry. Do not add, remove, move, rotate, reshape, retouch, or regenerate anything. The only permitted difference from the input is the base gray brightness of the two panel faces.
+
+No text, labels, graphics, logos, or new objects.

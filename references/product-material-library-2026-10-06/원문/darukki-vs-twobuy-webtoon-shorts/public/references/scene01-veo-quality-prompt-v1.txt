@@ -1,0 +1,49 @@
+Use the supplied image as the exact starting frame.
+
+Preserve the supplied illustration as strictly as possible.
+
+The small Daesani character must retain exactly the same:
+- head size
+- head-to-body ratio
+- face shape
+- eye shape and position
+- mouth
+- gray body silhouette
+- short arms and legs
+- overall 2D hand-drawn appearance
+
+Do not reinterpret or redraw the character.
+
+Daesani must remain almost completely still.
+
+Animation:
+1. only the eyes and head subtly look toward the narrow timber on the left
+2. then only the eyes and head slowly look toward the wider timber on the right
+3. finish with an extremely small curious head tilt
+
+The arms must remain fixed in their original pose.
+The hands must not move.
+The torso must not move.
+The feet must not move.
+
+No floating.
+No bouncing.
+No gesture.
+No arm animation.
+No body sway.
+
+Keep both timber pieces completely unchanged and stationary.
+
+Camera completely locked.
+No zoom.
+No pan.
+No rotation.
+No cuts.
+
+No new objects.
+No text.
+No additional effects.
+No particles.
+No motion trails.
+
+The shot should look like the original still illustration with only a tiny amount of head and eye animation.

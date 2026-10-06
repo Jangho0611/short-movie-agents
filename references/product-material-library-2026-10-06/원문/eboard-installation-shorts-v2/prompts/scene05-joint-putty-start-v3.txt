@@ -1,0 +1,37 @@
+Use case: photorealistic-natural
+Asset type: vertical 9:16 Start Image for Scene 5 of a Korean e-board installation tutorial
+
+Create one new candid photorealistic image. The main subject is a REAL FINISHED WALL SURFACE clad with installed e-board, not two individual boards as objects.
+
+REFERENCE ROLES:
+- Image 1 supplies only the same narrow Korean apartment balcony / utility-room identity, open window daylight, concrete context, blue floor protection, and the same young Korean male worker in his 20s–30s wearing black work clothes and black gloves.
+- Image 2 supplies only the canonical e-board material identity: matte black facing, thin pink XPS construction, real sheet scale, and restrained thickness.
+
+CAMERA AND CROP — CRITICAL:
+Photograph the actual balcony wall almost straight-on, or at only a very slight oblique angle. Use a tight medium wall-detail composition. The clad wall surface fills nearly the entire frame from left edge to right edge and continues beyond the frame boundaries. Crop out the bottom edges of the e-board panels, the wall-to-floor junction, and every panel contact point with the floor. The image must not show any board bottom resting on the floor.
+
+Show only a modest strip of the existing window reveal or adjacent exposed concrete at one side to preserve balcony continuity. Do not pull back far enough to reveal whole boards as movable rectangular objects. Do not show panel outer side edges, exposed backs, supporting blocks, or an empty area behind a panel.
+
+COMPLETED WALL INSTALLATION — HIGHEST PRIORITY:
+The entire concrete wall plane is already permanently covered by vertically installed e-board. The black e-board faces behave as one continuous architectural wall finish. They are fully bonded across their backs, completely flush to the concrete substrate, and perfectly coplanar. There is no visible space, cast shadow, or perspective gap behind the cladding. The installed surface must read like an immovable finished wall, not merchandise, loose sheets, or boards awaiting installation.
+
+At the center is one narrow straight vertical joint where two installed e-board sheets meet. The panel boundary is readable only from this subtle center joint and small natural texture differences between the two adjacent black faces. Do not outline the complete rectangles. Do not expose pink XPS around the outer perimeter. If any pink core is visible, it is only a nearly imperceptible hairline inside the central joint, never a stripe.
+
+ABSOLUTELY FORBIDDEN:
+freestanding panels; standalone boards; leaning boards; boards standing on the floor; panels propped against a wall; visible panel backs; visible gap behind panels; large shadow behind panels; board bottom resting on floor; visible panel feet or supports; panel outer pink side edges; worker holding or installing a board.
+
+JOINT CONDITION:
+The two installed sheets meet with a realistic narrow gap of only a few millimeters. Polyurethane foam filling is already complete, fully cured, trimmed, and recessed flush inside the joint. No exposed foam mass is visible. No foam rope, bubble, lump, bulge, wet foam, protrusion, open cavity, or wide channel appears anywhere, including the top of the frame.
+
+PUTTY ACTION:
+The worker stands close in front of the wall, or uses a stable shallow half-kneeling stance whose lower legs remain mostly outside the crop. He applies and smooths a very thin neutral light-gray or off-white putty coat directly over the center joint. The putty forms one restrained vertical band only around the seam, approximately 4–7 cm wide, feathered almost flush onto the adjacent black surfaces. Show subtle real blade marks and thin translucent feathered edges. No thick ridge, plaster mound, wide skim-coated area, dripping, or decorative white stripe.
+
+Use one realistic stainless-steel putty knife / filling knife approximately 10–15 cm wide, with a rectangular flexible blade and short handle. The blade is held at a natural shallow 25–40 degree angle against the wall, centered across the joint during one controlled vertical smoothing pass. The worker faces the wall with realistic close-range ergonomics: shoulders relaxed, elbow bent, wrist aligned with the stroke, gloved fingers naturally gripping the handle, other hand clear of wet putty. No overreach and no staged presentation pose.
+
+VISUAL PROOF:
+The black panel faces and adjacent concrete/window reveal follow one fixed architectural wall perspective. Tight edge contact and an uninterrupted wall plane prove permanent attachment. The joint, thin putty band, tool contact, and worker's working hand are the focus. The wall surface, not the worker, dominates the image.
+
+STYLE:
+real camera look, not CGI; ultra realistic documentary photography; realistic construction material texture; natural daylight through the balcony window; soft real shadows; actual Korean residential renovation site; cramped utility-room width; muted honest colors.
+
+No text, numbers, brands, labels, packaging, captions, arrows, diagrams, logos, watermarks, mesh tape, joint tape, screws, fasteners, extra panels, extra seams, extra workers, extra hands, extra tools, buckets dominating the frame, glossy commercial rendering, dramatic cinematic lighting, plastic skin, or living-room styling.

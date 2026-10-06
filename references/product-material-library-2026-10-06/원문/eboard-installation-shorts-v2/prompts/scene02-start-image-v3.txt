@@ -1,0 +1,38 @@
+ROLE / ASSET GOAL:
+Create exactly one photorealistic vertical 9:16 start image for Scene 2 of a Korean construction-material installation tutorial. This is the wall-preparation stage before any e-board is brought into the space.
+
+REFERENCE ROLE / LOCKED CONTINUITY:
+Use the supplied Scene 2 v2 image as the authoritative continuity reference. Preserve its Korean apartment enclosed-balcony / utility-room space, same type of young Korean male worker, matte black work clothes and gloves, open balcony window, small floor fan, exposed concrete wall, blue taped floor protection, natural daylight, documentary camera tone, and realistic uncluttered renovation atmosphere. Change only the wallpaper-removal action.
+
+SCENE PURPOSE:
+One scene, one message: remove the existing wallpaper, tidy and expose the concrete wall, then ventilate and dry it thoroughly before installation. The sequence "remove existing wallpaper -> expose and tidy the wall -> ventilate and dry" must be immediately understandable without captions.
+
+PRIMARY ACTION — LARGE-SHEET WALLPAPER REMOVAL:
+Show exactly one young Korean male renovation worker in his 20s or 30s actively peeling away one large, broadly loosened sheet of existing wallpaper with both gloved hands. Each hand grips a different upper or side portion of the same wide wallpaper sheet. The wallpaper must separate from the wall over a broad area, curl outward in one large continuous flap, and visibly roll or bow toward the worker as it comes off. The peeled flap should be roughly torso-wide or wider, not a tiny strip, corner, scrap, ribbon, or small piece of paper. Capture the natural instant when a large hanging sheet is halfway detached from the wall.
+
+HANDS / BODY MECHANICS:
+Both arms, black or charcoal gloved hands, fingers, wrists, elbows, and shoulders must be anatomically correct. The worker uses a believable two-handed pulling posture with balanced footing and moderate force. Both hands clearly contact the same large wallpaper sheet. No tool is in either hand. No hand passes through the wallpaper or wall. The worker is focused on the peeling edge rather than posing for camera.
+
+EXPOSED WALL / PREPARATION EVIDENCE:
+Most of the wall has already been stripped, so a broad expanse of bare exterior-facing concrete remains clearly visible around and behind the large peeling sheet. The newly exposed concrete should look realistic, organized, and ready for later drying. It may show only a few subtle pale gray moisture tide marks or tiny muted mold specks in one localized area. On the protected floor, a few naturally folded or loosely rolled pieces of previously removed wallpaper may be present without cluttering the space.
+
+VENTILATION / DRYING:
+Preserve the visibly open balcony window and one small practical floor fan pointing toward the exposed wall. They should naturally imply the ventilation and drying stage that follows wallpaper removal. No mist, steam, chemical spray, dramatic airflow, visible dust cloud, or professional drying equipment.
+
+LOCATION / TONE CONTINUITY:
+Keep the same believable Korean apartment enclosed balcony, utility balcony, laundry/utility room, or simple boiler-room-adjacent renovation setting as the reference. Preserve the exterior glazing, exposed concrete exterior-facing wall, restrained residential pipe or faucet clue, natural daylight, blue taped floor protection, and calm real construction-site texture. It must not become a bedroom, living room, kitchen, commercial mechanical room, factory, basement, abandoned building, or horror location.
+
+COMPOSITION:
+Vertical 9:16. Keep the exposed concrete wall dominant in the central 55-65 percent of the frame. The large curling wallpaper sheet and both hands must be immediately readable on a phone screen, while a broad surrounding area of bare concrete remains visible. Show enough of the open window, fan, and protected floor to preserve the full preparation story. Reserve calm upper caption-safe space. No text in the generated image.
+
+CAMERA / LIGHTING:
+Real camera look, not CGI. Documentary interior-renovation photography at human chest or eye height, realistic 35-50 mm-equivalent perspective, natural daylight from the open balcony glazing, soft real shadows, subtle depth of field, neutral construction-site color. No dramatic movie lighting, glossy advertising light, cinematic fog, oversaturated colors, staged showroom cleanliness, or extreme wide-angle distortion.
+
+PRESERVE EXACTLY:
+One young worker; matte black work clothes and black gloves; both hands peeling one large continuous loose wallpaper sheet; broad exposed concrete wall; open window; small floor fan; natural blue floor protection; restrained removed wallpaper on the floor; Korean apartment balcony/utility-room identity; no e-board yet; no tools or measuring devices in the worker's hands.
+
+NEGATIVE PROMPT:
+No scraper, putty knife, spatula, chisel, blade, cutter, knife, crowbar, hand tool; no tiny paper scrap, small wallpaper corner, narrow strip, ribbon-sized wallpaper, confetti, fragmented paper, worker pinching a small piece; no one-handed peeling; no moisture meter, handheld meter, diagnostic device, sensor, probe, digital reader, screen, gauge, thermal camera, infrared camera, laser tool, professional inspection equipment; no e-board, insulation board, black panel, pink XPS, gypsum board, plywood, timber sheet, stacked panels, product packaging; no heavy black mold, large mold colonies, rotten wall, sewage, insects, biohazard, disgusting grime, horror atmosphere, abandoned building, flood, active water leak, dripping wall, standing water; no worker applying chemicals, bleach, adhesive, glue, paint, putty, foam, primer, or sealant; no drilling, fastening, panel installation, joint treatment, or finishing; no extra workers; no duplicated limbs, malformed hands, fused fingers, missing arms, impossible grip; no oversized industrial fan, pipe maze, large boiler, factory machine, commercial equipment room; no text, captions, Korean letters, numbers, logos, labels, signage, brand marks, watermarks; no CGI, 3D render, animation, plastic skin, glossy commercial render.
+
+POST-PRODUCTION / WORKFLOW GATE:
+Do not render captions, labels, arrows, logos, or diagrams. Create only this single still image. Do not generate motion or video. Do not imply later installation steps.

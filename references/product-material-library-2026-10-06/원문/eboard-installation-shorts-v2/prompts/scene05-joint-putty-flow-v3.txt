@@ -1,0 +1,31 @@
+Preserve the supplied S5 start frame exactly: the same fixed camera and framing, same narrow Korean apartment balcony/utility-room, same worker arm and gloved hand with the face fully outside the frame, same putty knife, same neutral medium-gray installed E-board wall, and the same completely stationary vertical joint.
+
+STRICT SINGLE DOWNWARD FINISHING PASS, 4 SECONDS:
+
+Begin the useful work at the TOP of the existing putty area. The working face of the putty-knife blade visibly carries only a small, realistic amount of fresh putty before the blade begins the downward application. The material on the blade must have exactly the same off-white/light-gray tone, matte wet-putty texture, and consistency as the existing putty on the joint. It must never look whiter, brighter, newer, glossier, or like a different material.
+
+1. Set the lightly loaded blade against the top of the existing vertical putty strip at a realistic 30–45 degree working angle.
+2. Make exactly one slow, controlled pass from TOP to BOTTOM along the joint.
+3. Apply steady realistic pressure, spreading only a very thin finishing layer over the existing putty.
+4. The small visible putty load on the blade must physically and progressively transfer onto the wall, decreasing naturally on the blade throughout the downward pass.
+5. Blend it directly into the existing putty so the old/new boundary disappears. Keep the strip narrow, even, thin, flat, and centered on the joint.
+6. Complete the downward pass early and hold the thin, smoothly finished joint still for the final 0.7–1.0 seconds.
+
+MATERIAL AND COLOR CONTINUITY ARE THE HIGHEST PRIORITIES:
+- Existing and newly applied putty must remain the same off-white/light-gray color and the same texture in every frame.
+- No pure-white, opaque, bright, or contrasting new strip.
+- No material may appear midway through the stroke or from nowhere.
+- No material may grow from a clean or empty blade.
+- Show continuous conservation of material: visible putty leaves the blade and becomes the thin wall coating immediately behind it.
+- Do not add a thick layer. This is a restrained skim-coat finishing pass over existing putty.
+
+ABSOLUTELY FORBIDDEN:
+- no application beginning at the middle of the joint
+- no reload, refill, or new material introduced during the pass
+- no second pass, upward return stroke, back-and-forth scraping, repeated stroke, sideways shake, circular motion, tapping, brushing, inspection, or extra gesture
+- no thick overlay, wide band, ridge, mound, blob, solid opaque white block, or sudden material expansion
+- no face, extra hand, extra person, tool, bucket, container, text, logo, or watermark
+- no camera movement, zoom, pan, tilt, orbit, shake, cut, or transition
+- no board movement, joint movement, deformation, or surface-color change
+
+Keep the existing matte fiber-like E-board texture and medium-gray color unchanged. End with a natural still hold on the narrow, thin, flat joint. No audio.

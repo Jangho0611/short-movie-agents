@@ -1,0 +1,48 @@
+Preserve the supplied reference image as strictly as possible.
+
+Animate only extremely subtle inspection motions.
+
+- The magnifying glasses make tiny slow inspection movements over the timber surface.
+- The characters remain in their exact positions.
+- The lower character makes only a very small checking motion toward the information card.
+- Keep all expressions neutral.
+- No walking.
+- No large arm movement.
+- No body repositioning.
+- No new actions.
+
+The two timber pieces must remain visually identical throughout the entire shot.
+Do not introduce any visual clue that identifies one as KD or non-KD.
+
+Preserve exactly:
+- both timber pieces
+- their identical color, grain, size, straightness and appearance
+- all three existing Korean labels
+- the information card
+- both magnifying glasses
+- existing "?" symbol
+- existing "!" symbol
+- character count
+- character positions
+- character colors
+- white background
+- hand-drawn editorial webtoon style
+- framing and composition
+
+TEXT AND SYMBOLS:
+Do not fade, remove, rewrite, duplicate, morph, move, or animate:
+- Korean labels
+- "?"
+- "!"
+
+No new text.
+No new symbols.
+No logos or watermarks.
+
+CAMERA:
+- fixed camera
+- no pan
+- no zoom
+- no scene transition
+
+The result should feel almost like a still illustration with only tiny inspection movement.

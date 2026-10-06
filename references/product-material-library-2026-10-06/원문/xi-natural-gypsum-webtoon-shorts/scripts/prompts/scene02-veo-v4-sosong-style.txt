@@ -1,0 +1,60 @@
+Preserve the supplied reference image as strictly as possible.
+
+Create only subtle, restrained motion, similar to a lightly animated editorial webtoon panel.
+
+The baby Daesan may make one small natural idle movement while staying in the same location and keeping the same overall pose, face, diaper, size, and proportions.
+
+A tiny natural body shift or very small pose adjustment is acceptable.
+Do not exaggerate the movement.
+
+Existing environmental elements may have only very subtle natural motion if already visually present in the source image.
+
+Keep:
+- all Korean text
+- both panel structures
+- all existing objects
+- all original colors
+- all original lighting
+- the original composition
+- the original webtoon style
+
+The camera must remain fixed.
+
+Most importantly, preserve the original color and lighting balance exactly.
+
+Do not introduce any new warm light, orange light, red light, glow, illumination, heat effect, warning effect, or color shift.
+
+The left and right sides must retain the same relative visual balance as the original source image.
+
+TEXT AND GRAPHICS:
+Do not rewrite, fade, remove, duplicate, morph, or animate existing Korean text.
+
+No new text.
+No fake Korean text.
+No arrows.
+No new icons.
+No sweat drops.
+No flames.
+No glow.
+No badges.
+No warning symbols.
+
+CHARACTER:
+No face mutation.
+No large pose change.
+No new arms or hands.
+No exaggerated expression.
+No walking.
+No large gesture.
+No lip-sync.
+
+CAMERA:
+fixed camera
+no zoom
+no push-in
+no pan
+no tilt
+no reframing
+no transition
+
+The result should feel like the original still webtoon image with only a small amount of natural life added.

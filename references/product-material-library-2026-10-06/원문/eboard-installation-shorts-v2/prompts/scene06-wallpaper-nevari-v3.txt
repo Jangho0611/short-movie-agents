@@ -1,0 +1,16 @@
+Use case: precise-object-edit
+Asset type: Scene 6 wallpaper-finish comparison source
+
+Use the supplied wallpaper-nevari v2 image as the exact edit target. Keep the exact same camera, crop, wall, centered vertical joint, medium-gray matte E-board surfaces, natural lighting, worker arm, black glove, hand, and putty knife.
+
+ONE REQUIRED EDIT: replace the partial-length nevari with one continuous, already-installed nevari strip that covers the ENTIRE VISIBLE HEIGHT of the vertical joint inside the frame.
+
+The nevari must enter the image through the TOP FRAME EDGE and continue straight down without interruption behind the centered putty knife, then exit through the BOTTOM FRAME EDGE. Its upper endpoint and lower endpoint are both outside the picture. NO TAPE END MAY BE VISIBLE ANYWHERE IN THE IMAGE. Every visible pixel of the vertical joint from the top border to the bottom border must be covered by the same single continuous nevari strip.
+
+This is not a slightly extended strip and not a strip occupying only the middle. It spans essentially 100% of the image height, from y=0 at the top edge through y=100% at the bottom edge. Keep one constant realistic width of approximately 45–60 mm, centered precisely over the joint for the full height.
+
+The nevari is already completely bonded, flat, dry, and flush against the wall everywhere. It is thin off-white fibrous nonwoven/paper-like wallpaper joint reinforcement. No loose edge, visible end, flap, curl, wrinkle, bubble, gap, break, overlap, roll, or section being fed into place.
+
+Keep the hand and putty knife at the same central height as the input. The knife is only lightly pressing the middle of the already installed full-height strip for a final adhesion check. It is not pulling, feeding, dragging, placing, applying, or extending the nevari. No putty application.
+
+PIXEL-LOCK all non-tape content. Do not change the worker, hand anatomy, grip, sleeve, tool position or design, camera, joint location, wall, window edge, panel color, panel texture, lighting, or background. No additional hand, worker, tool, text, label, logo, graphic, or watermark.

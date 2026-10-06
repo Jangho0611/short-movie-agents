@@ -1,0 +1,93 @@
+Use the provided image as a strict locked visual reference.
+
+Preserve the image exactly as it is.
+
+LOCK THE CAMERA COMPLETELY.
+
+Keep all text, background, panels, objects, colors, lighting, composition, and graphic elements completely static.
+
+Do not reinterpret or explain the image.
+
+Do not add any visual storytelling.
+
+The only allowed motion is extremely subtle natural idle motion on the existing baby Daesan character.
+
+Allow only:
+- an almost imperceptible breathing-like body movement
+- a tiny natural head movement
+- approximately 1–2 pixels of visual displacement at most
+
+The character must stay in the same place, same pose, same size, same face, same diaper, and same proportions.
+
+The motion should be so subtle that the frame still feels almost like a static illustration.
+
+All other parts of the image must remain frozen.
+
+Do not animate any text.
+Do not animate any panel.
+Do not animate any background element.
+Do not animate any industrial or mineral element.
+
+No new objects.
+No new graphics.
+No new symbols.
+No new text.
+
+Maintain the exact original image appearance through the final frame.
+
+Negative prompt:
+
+new text,
+fake Korean text,
+text mutation,
+text fading,
+text disappearance,
+text animation,
+
+arrows,
+new arrows,
+icons,
+fire,
+flames,
+glow,
+orange glow,
+red glow,
+particles,
+smoke animation,
+steam animation,
+lighting change,
+color shift,
+
+new objects,
+new body parts,
+extra arms,
+extra hands,
+extra legs,
+
+character redesign,
+face mutation,
+large eye movement,
+mouth movement,
+lip sync,
+pose change,
+body rotation,
+walking,
+gesturing,
+
+camera movement,
+zoom,
+push-in,
+pan,
+tilt,
+orbit,
+reframing,
+crop change,
+
+background animation,
+panel animation,
+object movement,
+style change,
+3D,
+photorealism,
+
+late-frame drift

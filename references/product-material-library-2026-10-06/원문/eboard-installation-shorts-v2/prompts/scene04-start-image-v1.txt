@@ -1,0 +1,35 @@
+Use case: photorealistic-natural
+Asset type: vertical 9:16 Start Image for Scene 4 of a Korean e-board installation tutorial
+
+Create one candid, photorealistic construction-site image showing the completed adhesive-application stage immediately before the e-board is lifted and attached to the wall.
+
+INPUT REFERENCES:
+- Image 1 is the continuity reference. Preserve the same narrow, long Korean apartment balcony / utility-room renovation site, exposed concrete wall, open window, blue protective floor covering, natural daylight, and the same young Korean male worker in his 20s–30s wearing realistic black work clothes and black gloves.
+- Image 2 is the canonical product reference. Preserve one single large rigid e-board with the same long rectangular sheet proportions, black facing layer, thin pink XPS core, straight edges, restrained thickness, and real construction-material texture.
+
+SCENE AND COMPOSITION:
+Use a moderately close elevated three-quarter top-down documentary camera angle. The adhesive-covered rear face of the single e-board is the main subject and occupies most of the lower and middle frame. Keep the worker secondary, kneeling naturally beside the board. Keep the same cramped balcony width and real Korean residential renovation atmosphere; do not widen the room or turn it into a workshop, showroom, living room, or industrial plant.
+
+The e-board lies completely flat and fully supported in a practical working position over the blue protected floor, with its long axis following the balcony length. The rear installation face is turned upward for adhesive application. The visible layered edge must still clearly identify the product as the canonical e-board: a thin black facing layer bonded to a thin pink XPS core. The sheet remains one continuous large rectangle, rigid and unwarped. No second sheet, seam, offcut, lifted corner, bending, or deformation.
+
+ADHESIVE APPLICATION — CRITICAL REALISM:
+Show two compatible unbranded construction adhesive materials already applied across the rear installation face: a dedicated board adhesive and polyurethane foam adhesive. They must form a practical, evenly distributed site-applied bonding pattern over the broad sheet area, not a few oversized dots and not a decorative graphic.
+
+- Use continuous low-profile neutral beige or light gray adhesive beads arranged around the perimeter and in several evenly spaced long interior lanes.
+- Between those lanes, use narrower pale cream foam-adhesive beads in a restrained continuous serpentine or parallel pattern.
+- Maintain realistic spacing from the panel edges and balanced coverage from top to bottom and side to side.
+- Beads have subtle hand-applied irregularity, nozzle texture, small natural thickness variation, and soft real shadows. They must look wet and workable but not dripping, expanding dramatically, piled into mounds, or covering the entire surface solidly.
+- The two adhesive types remain visually distinguishable by restrained width and texture, not bright colors or graphic outlines.
+
+The worker has just completed the application and is visually checking the even coverage before wall attachment. One gloved hand may hold one plain, unbranded adhesive applicator just above the end of the final bead, with the nozzle no longer dispensing. His hands, wrists, grip, and posture must be anatomically correct and practical. Keep all clothing and knees off the adhesive-covered panel.
+
+The exposed concrete wall remains visible nearby so the next step—lifting the prepared board and attaching it to that wall—is immediately understandable. Do not attach the panel yet and do not lift it toward the wall.
+
+STYLE:
+real camera look, not CGI; ultra realistic documentary photography; realistic material texture; soft natural daylight through a window; soft real shadows; actual Korean residential construction site; ordinary workwear; natural floor protection; honest muted colors.
+
+NO BRANDING OR TEXT:
+No product names, brands, labels, printed packaging, readable markings, text, numbers, captions, arrows, diagrams, logos, or watermarks. Do not show branded adhesive cartridges, cans, buckets, or packaging.
+
+AVOID:
+No sparse isolated glue dots, giant blobs, frosting-like swirls, perfect ornamental symmetry, decorative stripes, infographic patterns, brightly colored glue, excessive foam expansion, dripping adhesive, messy spills, excessive tools, extra workers, extra limbs, extra panels, wall attachment, panel lifting, living-room styling, glossy commercial render, dramatic cinematic lighting, plastic surfaces, or staged presentation pose.
