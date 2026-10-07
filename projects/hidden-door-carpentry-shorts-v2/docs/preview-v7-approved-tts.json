@@ -1,0 +1,52 @@
+[
+  {
+    "scene": 1,
+    "audio": "scene01-tts-v4.mp3",
+    "text": "히든도어 목공. 문틀만 세워놓으면 끝일까요?",
+    "audio_seconds": 3.384,
+    "frames": 112,
+    "scene_seconds": 3.7333333333333334,
+    "tail_seconds": 0.3493333333333335,
+    "rate": 1
+  },
+  {
+    "scene": 2,
+    "audio": "scene02-tts-v8.mp3",
+    "text": "아닙니다. 문틀 위치와 벽체. 그리고 마감될 위치까지 같이 봐야 합니다.",
+    "audio_seconds": 5.808,
+    "frames": 185,
+    "scene_seconds": 6.166666666666667,
+    "tail_seconds": 0.35866666666666713,
+    "rate": 1
+  },
+  {
+    "scene": 3,
+    "audio": "scene03-tts-v10.mp3",
+    "text": "이때 구미리 목공벽체 두께도 계산해야 합니다.",
+    "audio_seconds": 3.816,
+    "frames": 125,
+    "scene_seconds": 4.166666666666667,
+    "tail_seconds": 0.3506666666666671,
+    "rate": 1
+  },
+  {
+    "scene": 4,
+    "audio": "scene04-tts-v4.mp3",
+    "text": "문짝에는 어깨가공이 들어가는데요. 폭과 깊이는 적용 사양에 맞춰 확인합니다.",
+    "audio_seconds": 5.736,
+    "frames": 183,
+    "scene_seconds": 6.1,
+    "tail_seconds": 0.3639999999999999,
+    "rate": 1
+  },
+  {
+    "scene": 5,
+    "audio": "scene05-tts-v6.mp3",
+    "text": "이렇게 하나씩 맞춰주면 히든도어가 들어갈 목공 준비가 제대로 되는 겁니다.",
+    "audio_seconds": 5.664,
+    "frames": 180,
+    "scene_seconds": 6.0,
+    "tail_seconds": 0.3360000000000003,
+    "rate": 1
+  }
+]

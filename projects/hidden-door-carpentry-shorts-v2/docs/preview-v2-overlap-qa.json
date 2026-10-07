@@ -1,0 +1,28 @@
+{
+  "2": {
+    "sampled_motion_frames": 96,
+    "max_non_background_overlap_pixels": 0,
+    "position": [
+      -20,
+      430
+    ],
+    "overlay_size": [
+      406,
+      452
+    ],
+    "visible_character_height_approx": 390
+  },
+  "5": {
+    "sampled_motion_frames": 96,
+    "max_non_background_overlap_pixels": 0,
+    "position": [
+      -20,
+      430
+    ],
+    "overlay_size": [
+      406,
+      452
+    ],
+    "visible_character_height_approx": 390
+  }
+}

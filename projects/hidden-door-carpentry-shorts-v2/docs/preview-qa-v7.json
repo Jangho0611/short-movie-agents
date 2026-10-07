@@ -1,0 +1,276 @@
+{
+  "scenes": [
+    {
+      "file": "public/assets/video/scene01-preview-v7.mp4",
+      "frames": 112,
+      "video_seconds": 3.7333333333333334,
+      "container_seconds": 3.776,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene02-preview-v7.mp4",
+      "frames": 185,
+      "video_seconds": 6.166666666666667,
+      "container_seconds": 6.229333,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene03-preview-v7.mp4",
+      "frames": 125,
+      "video_seconds": 4.166666666666667,
+      "container_seconds": 4.224,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene04-preview-v7.mp4",
+      "frames": 183,
+      "video_seconds": 6.1,
+      "container_seconds": 6.144,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene05-preview-v7.mp4",
+      "frames": 180,
+      "video_seconds": 6.0,
+      "container_seconds": 6.058667,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+      "frames": 170,
+      "video_seconds": 5.666666666666667,
+      "container_seconds": 5.666667,
+      "decode": "PASS"
+    }
+  ],
+  "preview": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/hidden-door-carpentry-preview-v7.mp4",
+  "frames": 955,
+  "seconds": 31.833333333333332,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 488960,
+        "duration": "31.833333",
+        "bit_rate": "2311986",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "955",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1528000,
+        "duration": "31.833333",
+        "bit_rate": "173562",
+        "nb_frames": "1494",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/hidden-door-carpentry-preview-v7.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "31.833333",
+      "size": "9927914",
+      "bit_rate": "2494973",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101",
+        "comment": "Made with Remotion 4.0.523"
+      }
+    }
+  },
+  "decode": "PASS",
+  "all_baseline_hashes_unchanged": true,
+  "tts_files": [
+    "scene01-tts-v4.mp3",
+    "scene02-tts-v8.mp3",
+    "scene03-tts-v10.mp3",
+    "scene04-tts-v4.mp3",
+    "scene05-tts-v6.mp3"
+  ],
+  "tts_playback_rate": 1,
+  "ending": "approved Canonical MP4 reused; source hash unchanged; concat output encoded H264/AAC",
+  "visual_review": "PASS: scene2 final, scene3/4/5 layout frames inspected",
+  "approved_tts": [
+    {
+      "scene": 1,
+      "audio": "scene01-tts-v4.mp3",
+      "text": "히든도어 목공. 문틀만 세워놓으면 끝일까요?",
+      "audio_seconds": 3.384,
+      "frames": 112,
+      "scene_seconds": 3.7333333333333334,
+      "tail_seconds": 0.3493333333333335,
+      "rate": 1
+    },
+    {
+      "scene": 2,
+      "audio": "scene02-tts-v8.mp3",
+      "text": "아닙니다. 문틀 위치와 벽체. 그리고 마감될 위치까지 같이 봐야 합니다.",
+      "audio_seconds": 5.808,
+      "frames": 185,
+      "scene_seconds": 6.166666666666667,
+      "tail_seconds": 0.35866666666666713,
+      "rate": 1
+    },
+    {
+      "scene": 3,
+      "audio": "scene03-tts-v10.mp3",
+      "text": "이때 구미리 목공벽체 두께도 계산해야 합니다.",
+      "audio_seconds": 3.816,
+      "frames": 125,
+      "scene_seconds": 4.166666666666667,
+      "tail_seconds": 0.3506666666666671,
+      "rate": 1
+    },
+    {
+      "scene": 4,
+      "audio": "scene04-tts-v4.mp3",
+      "text": "문짝에는 어깨가공이 들어가는데요. 폭과 깊이는 적용 사양에 맞춰 확인합니다.",
+      "audio_seconds": 5.736,
+      "frames": 183,
+      "scene_seconds": 6.1,
+      "tail_seconds": 0.3639999999999999,
+      "rate": 1
+    },
+    {
+      "scene": 5,
+      "audio": "scene05-tts-v6.mp3",
+      "text": "이렇게 하나씩 맞춰주면 히든도어가 들어갈 목공 준비가 제대로 되는 겁니다.",
+      "audio_seconds": 5.664,
+      "frames": 180,
+      "scene_seconds": 6.0,
+      "tail_seconds": 0.3360000000000003,
+      "rate": 1
+    }
+  ],
+  "body_seconds": 26.166666666666668,
+  "ending_frames": 170,
+  "ending_seconds": 5.666666666666667,
+  "scene5_final_hold_frames": 80,
+  "scene5_final_hold_seconds": 2.6666666666666665,
+  "checklist": [
+    "문틀 위치",
+    "벽체",
+    "9mm 목공벽체",
+    "어깨가공",
+    "마감면과 문짝 접점"
+  ],
+  "terminology_forbidden_count": 0,
+  "finish_layer_count": 1,
+  "scene3_dimension": "9mm dimension line on single layer edge",
+  "scene4": "thin front 9mm layer against door rebate; backing subdued, boundary distinct from rebate; no machining numbers",
+  "orientation": "door left / wall right maintained across scenes 2–4",
+  "daesani": false,
+  "deleted_notice": false
+}

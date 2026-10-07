@@ -1,0 +1,23 @@
+{
+  "stage": "source preparation only; no TTS or rendering",
+  "source": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/src/CarpentryScenesV7Preparation.tsx",
+  "scene2": {
+    "text": "아닙니다. 먼저 문틀과 목공 벽체. 마감 위치까지 같이 잡아야 합니다.",
+    "audio": null,
+    "duration": null,
+    "registration": "excluded until duration set; previous audio is not linked",
+    "screen_labels": "existing 문틀 / 목공 벽체 / 마감 위치 retained"
+  },
+  "scene4": {
+    "finish": "single 28 schematic units thin layer in front of 222-unit muted backing; not real scale",
+    "rebate": "left door front-facing notch retained; finish ends beside notch",
+    "contact": "boundary between finish end and door edge, not a part",
+    "machining_dimensions": "none"
+  },
+  "checks": {
+    "base_geometry_and_scene2_visual_unchanged": true,
+    "scene1_3_5_content_unchanged": true,
+    "render": "not performed",
+    "visual_QA": "pending after new TTS is ready"
+  }
+}

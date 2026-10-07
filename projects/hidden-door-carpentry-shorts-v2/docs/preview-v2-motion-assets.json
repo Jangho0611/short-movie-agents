@@ -1,0 +1,50 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/video/daesani-point-right.mp4",
+    "copy": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/daesani-point-right.mp4",
+    "sha256": "66ee3756a6f216de8d6e7a53c9ce6e8579227c56e1c11c918b5a6cafdfe849fd",
+    "alpha": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/daesani-point-right-alpha-v2.mov",
+    "frames": 96,
+    "fps": 24.0,
+    "crop": [
+      100,
+      400,
+      520,
+      580
+    ],
+    "crop_bbox_union": [
+      123,
+      28,
+      422,
+      529,
+      130,
+      38,
+      519,
+      529
+    ]
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/video/daesani-open-arms-explain.mp4",
+    "copy": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/daesani-open-arms-explain.mp4",
+    "sha256": "af0520a66456f9cab6f0de26db34917a0acbb0a9f2860c466ab086811f7f791d",
+    "alpha": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/daesani-open-arms-explain-alpha-v2.mov",
+    "frames": 96,
+    "fps": 24.0,
+    "crop": [
+      100,
+      400,
+      520,
+      580
+    ],
+    "crop_bbox_union": [
+      54,
+      28,
+      422,
+      529,
+      130,
+      43,
+      506,
+      529
+    ]
+  }
+]

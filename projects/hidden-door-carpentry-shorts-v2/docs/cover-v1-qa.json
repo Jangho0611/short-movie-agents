@@ -1,0 +1,42 @@
+{
+  "cover": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/covers/hidden-door-carpentry-cover-v1.png",
+  "crop": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/covers/qa/hidden-door-carpentry-cover-v1-instagram-square.png",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "crop_dimensions": [
+    1080,
+    1080
+  ],
+  "hero": "exact 9 geometry paths from CarpentryScenesV8, uniform scale 1.8, offset 90/780",
+  "character": {
+    "pose": "daesani-cover-point-right.png",
+    "visible_xy": [
+      710,
+      850
+    ],
+    "visible_height": 360,
+    "visible_width": 259,
+    "flipped": false,
+    "canonical_sha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0"
+  },
+  "logo_sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+  "brand_xy": [
+    675,
+    1390
+  ],
+  "video_audio_source_unchanged": true,
+  "visual_QA": {
+    "status": "PASS",
+    "reviewed": [
+      "full 1080x1920 image",
+      "actual center crop y420–1500"
+    ],
+    "headline": "two lines readable",
+    "hero": "approved geometry retained, left placement",
+    "character": "right placement, no overlap or flip, full body within crop",
+    "brand": "fully within crop",
+    "safe_area": "headline, hero, character and brand within center square; category outside square as standard"
+  }
+}

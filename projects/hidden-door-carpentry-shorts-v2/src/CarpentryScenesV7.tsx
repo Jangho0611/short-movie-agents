@@ -1,0 +1,120 @@
+import React from 'react';
+import {AbsoluteFill,Audio,Composition,interpolate,staticFile,useCurrentFrame} from 'remotion';
+import {PRETENDARD} from './approved/fonts';
+const C={paper:'#F5F3ED',ink:'#20372E',muted:'#6F776F',line:'#D6D9D0',wood:'#CCAD83',wall:'#CDD0C8',finish:'#B28D58',door:'#DFE6DF',accent:'#D56844',green:'#477660'};
+export const TTS_FILES=['scene01-tts-v4.mp3','scene02-tts-v8.mp3','scene03-tts-v10.mp3','scene04-tts-v4.mp3','scene05-tts-v6.mp3'];
+export const SCENES=[
+ {id:1,frames:112,title:['문틀만 세우면 끝?','히든도어 목공의 핵심'],eyebrow:'01 / 먼저 볼 것'},
+ {id:2,frames:185,title:['문틀 위치와 벽체','마감될 위치까지 함께 확인'],eyebrow:'02 / 문틀과 벽체 위치'},
+ {id:3,frames:125,title:['9mm 목공벽체','두께까지 계산'],eyebrow:'03 / 마감층의 두께'},
+ {id:4,frames:183,title:['문짝 모서리의 어깨가공','폭·깊이는 적용 사양 확인'],eyebrow:'04 / 문짝 모서리'},
+ {id:5,frames:180,title:['문틀 · 벽체 · 9mm 목공벽체','설치 전 구조부터 맞춘다'],eyebrow:'05 / 설치 전 준비'},
+];
+// The same paths as episode 1's approved v8. The finish edge and face are ONE layer.
+const geometry=[
+ ['wall','M100 57L195 2H324V119L264 155Z',C.wall],
+ ['jamb','M58 68L88 51L264 155L227 186L181 164L202 151Z',C.wood],
+ ['return','M58 68L202 151L181 164L58 236Z','#E9E9E1'],
+ ['base','M264 155L324 119V130L227 186Z',C.wall],
+ ['finish','M227 186L324 130V142L224 200L214 194Z',C.finish],
+ ['finish','M224 200L324 142V303H224Z','#D6BB95'],
+ ['door','M2 268L181 164L219 186L206 194L214 199L46 303H2Z','#BFCAC1'],
+ ['door','M46 303L214 199L219 202V303Z',C.door],
+ ['rebate','M181 164L186 161L224 183L211 191L219 196V202L214 199L206 194L219 186Z','#91AB99'],
+];
+function Diagram({active='',finish=true,door=true,zoom=false,dimension=false}:{active?:string;finish?:boolean;door?:boolean;zoom?:boolean;dimension?:boolean}){
+ return <svg width="100%" height="100%" viewBox={zoom?'164 148 76 70':'-20 -16 368 346'} style={{overflow:'visible'}}>
+ {geometry.map(([key,d,fill],i)=><path key={i} d={d} fill={fill} stroke={active===key?C.accent:'#657267'} strokeWidth={active===key?2.1:0.9} strokeLinejoin="round" opacity={key==='finish'&&!finish?0:((key==='door'||key==='rebate')&&!door?.10:1)}/>)}
+ {dimension&&<g fill="none" stroke={C.finish} strokeWidth="0.9">
+ <path d="M326 130H350M326 142H350M346 130V142M343 133L346 130L349 133M343 139L346 142L349 139"/>
+ <text x="341" y="119" fill={C.finish} stroke="none" fontSize="13" fontWeight="700" textAnchor="middle">9mm</text>
+ </g>}
+ {active==='contact'&&<path d="M224 200L219 202V275" fill="none" stroke={C.accent} strokeWidth="2.2"/>}
+ </svg>;
+}
+function Label({x,y,text,active=false}:{x:number;y:number;text:string;active?:boolean}){return <div style={{position:'absolute',left:x,top:y,fontSize:30,fontWeight:600,color:active?C.accent:C.ink,background:C.paper,padding:'6px 10px'}}>{text}</div>}
+function Whole({id,f}:{id:number;f:number}){
+ const active=id===1?'jamb':id===2?(f<55?'jamb':f<118?'base':'position'):id===3?'finish':id===5?(f<25?'jamb':f<50?'base':f<75?'finish':f<102?'rebate':f<125?'contact':''):'';
+ const showFinish=id>=3;
+ return <>
+ <div style={{position:'absolute',left:120,top:610,width:790,height:745}}><Diagram active={active} finish={showFinish} door={id!==1} dimension={id===3}/></div>
+ {id===1?<><Label x={580} y={635} text="문틀" active/><div style={{position:'absolute',left:95,top:1390,fontSize:34,color:C.muted,opacity:interpolate(f,[35,49],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})}}>주변 벽체도 함께 준비해야 합니다</div></>:<>
+ <svg width="1080" height="1920" style={{position:'absolute',inset:0}} fill="none" stroke="#89958A" strokeWidth="2">
+ <path d="M470 860L190 930H110"/><path d="M754 977L840 735H950"/>
+ {showFinish&&<path d="M800 1090L895 1260H958"/>}
+ {id===2&&<path d="M640 1075V1380" stroke={active==='position'?C.accent:C.green} strokeWidth="4" strokeDasharray="10 8"/>}
+ </svg>
+ <Label x={82} y={970} text="문틀" active={active==='jamb'}/>
+ <Label x={720} y={675} text="벽체" active={active==='base'}/>
+ {id===2&&<Label x={660} y={1350} text="마감 위치" active={active==='position'}/>}
+ {showFinish&&<Label x={637} y={1290} text="9mm 목공벽체" active={active==='finish'}/>}
+ {id===3&&<><div style={{position:'absolute',left:90,top:1420,fontSize:36,fontWeight:600}}>벽체 <span style={{color:C.muted}}>→</span> <span style={{color:C.finish}}>9mm 목공벽체</span></div><div style={{position:'absolute',left:90,top:1480,fontSize:30,color:C.muted}}>현장 합판·MDF 마감</div></>}
+ {id===5&&<><div style={{position:'absolute',left:90,top:1380,fontSize:34,fontWeight:600,color:C.accent,lineHeight:'48px'}}>{['문틀 위치','벽체','9mm 목공벽체','어깨가공','마감면과 문짝 접점'].map((text,index)=><div key={text} style={{visibility:f>=index*25?'visible':'hidden'}}><span style={{display:'inline-block',width:38,fontSize:30}}>✓</span>{text}</div>)}</div><div style={{position:'absolute',left:90,top:1644,fontSize:26,color:C.muted}}>접점 = 마감면 끝과 문짝 가장자리의 경계</div></>}
+ </>}
+ </>;
+}
+function SceneTwoRelation({f}:{f:number}){
+ const scale=interpolate(f,[0,28,62,124,163,184],[1,1,1.18,1.18,1,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+ const point=(x:number,y:number)=>`${600+(x-600)*scale} ${970+(y-970)*scale}`;
+ const active=f<55?'jamb':f<118?'base':'position';
+ return <>
+ <div style={{position:'absolute',inset:0,transformOrigin:'0 0',transform:`translate(600px,970px) scale(${scale}) translate(-600px,-970px)`}}>
+ <div style={{position:'absolute',left:120,top:610,width:790,height:745}}><Diagram active={active} finish={false}/>
+ <svg width="100%" height="100%" viewBox="-20 -16 368 346" style={{position:'absolute',inset:0,overflow:'visible'}}>
+ <path d="M264 155L227 186" fill="none" stroke={C.accent} strokeWidth="2.1" opacity={interpolate(f,[48,60,112,124],[0,1,1,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})}/>
+ </svg></div>
+ <svg width="1080" height="1920" style={{position:'absolute',inset:0}}><path d="M640 1075V1380" fill="none" stroke={active==='position'?C.accent:C.green} strokeWidth="4" strokeDasharray="10 8"/></svg>
+ </div>
+ <svg width="1080" height="1920" style={{position:'absolute',inset:0}} fill="none" stroke="#89958A" strokeWidth="2">
+ <path d={`M${point(470,860)} L180 730V635`}/>
+ <path d={`M${point(754,977)} L955 850V620H840`}/>
+ <path d={`M${point(430,1180)} L330 1400H160`}/>
+ <path d={`M${point(640,1350)} L730 1430H850`} stroke={active==='position'?C.accent:C.green}/>
+ </svg>
+ <Label x={82} y={580} text="문틀 위치" active={active==='jamb'}/>
+ <Label x={720} y={520} text="벽체" active={active==='base'}/>
+ <Label x={82} y={1420} text="문짝 위치"/>
+ <Label x={720} y={1450} text="마감 위치" active={active==='position'}/>
+ </>;
+}
+function Rebate({f}:{f:number}){return <>
+ <div style={{position:'absolute',left:84,top:510,width:320,height:300}}><Diagram active="rebate"/></div>
+ <div style={{position:'absolute',left:438,top:580,fontSize:32,fontWeight:600}}>같은 단면의<br/>문짝 모서리 확대</div>
+ <div style={{position:'absolute',left:440,top:685,fontSize:27,color:C.muted}}>어깨가공 ≠ 접점</div>
+ <div style={{position:'absolute',left:90,top:850,width:865,height:575,overflow:'hidden',borderTop:`1px solid ${C.line}`,borderBottom:`1px solid ${C.line}`}}>
+ <svg width="865" height="575" viewBox="0 0 865 575">
+ <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M8 4L0 0V8Z" fill={C.accent}/></marker></defs>
+ {/* Relationship schematic, not a scale drawing. One thin finish layer; no type-specific frame parts. */}
+ <path d="M70 230H560V360H440V440H70Z" fill={C.door} stroke={C.green} strokeWidth="3"/>
+ <path d="M560 360H440V440" fill="none" stroke={C.accent} strokeWidth="7" strokeLinejoin="round"/>
+ <text x="155" y="310" fill={C.ink} fontSize="38" fontWeight="600">문짝</text>
+ <path d="M575 190H790V412H575Z" fill={C.wall} fillOpacity="0.45" stroke="#A9AFA6" strokeWidth="1.5"/>
+ <text x="608" y="270" fill={C.muted} fontSize="23">벽체</text>
+ <path d="M455 412H790V440H455Z" fill="#D6BB95" stroke="#85765E" strokeWidth="2"/>
+ <path d="M735 427L810 460H780" fill="none" stroke={C.finish} strokeWidth="2"/>
+ <text x="610" y="490" fill={C.finish} fontSize="32" fontWeight="700">9mm 목공벽체</text>
+ <text x="610" y="518" fill={C.muted} fontSize="22">현장 합판·MDF 마감</text>
+ <path d="M447.5 412V440" fill="none" stroke={C.green} strokeWidth="2" strokeDasharray="6 6"/>
+ <path d="M447.5 440L545 550H550" fill="none" stroke={C.green} strokeWidth="2"/>
+ <text x="560" y="560" fill={C.green} fontSize="25">마감면과 문짝 접점</text>
+ <g opacity={interpolate(f,[40,49],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})}>
+ <path d="M440 480H560" stroke={C.accent} strokeWidth="3" markerStart="url(#arrow)" markerEnd="url(#arrow)"/>
+ <path d="M440 447V467M560 367V467" stroke={C.accent} strokeWidth="1.5"/>
+ <text x="479" y="530" fill={C.accent} fontSize="35" fontWeight="600">폭</text>
+ <path d="M380 360V440" stroke={C.accent} strokeWidth="3" markerStart="url(#arrow)" markerEnd="url(#arrow)"/>
+ <path d="M395 360H425M395 440H425" stroke={C.accent} strokeWidth="1.5"/>
+ <text x="270" y="411" fill={C.accent} fontSize="35" fontWeight="600">깊이</text>
+ </g>
+ <text x="72" y="70" fill={C.ink} fontSize="32" fontWeight="600">9mm 목공벽체 ↔ 어깨가공</text>
+ </svg></div>
+ <div style={{position:'absolute',left:90,top:1470,fontSize:28,color:C.muted}}>가공 크기는 적용할 문틀·마감 사양에 따라 확인</div>
+ </>}
+export function CarpentryScene({id}:{id:number}){const f=useCurrentFrame();const s=SCENES[id-1];return <AbsoluteFill style={{background:C.paper,color:C.ink,fontFamily:PRETENDARD}}>
+ <div style={{position:'absolute',left:86,top:128,fontSize:27,fontWeight:600,letterSpacing:1.5}}>DAESAN <span style={{fontWeight:500,color:C.muted,marginLeft:22,letterSpacing:0}}>히든도어 목공 · 2편</span></div>
+ <div style={{position:'absolute',left:86,top:215,fontSize:27,color:C.muted}}>{s.eyebrow}</div>
+ <div style={{position:'absolute',left:86,top:292,right:112,fontSize:id===5?42:id===2||id===4?51:59,fontWeight:800,lineHeight:1.42,letterSpacing:-1.6}}>{s.title.map((t,i)=><div key={t} style={{whiteSpace:'nowrap',color:i===1?C.green:C.ink}}>{t}</div>)}</div>
+ {id===2?<SceneTwoRelation f={f}/>:id===4?<Rebate f={f}/>:<Whole id={id} f={f}/>}
+ <div style={{position:'absolute',left:86,right:112,top:1720,display:'flex',gap:12}}>{SCENES.map(x=><div key={x.id} style={{height:4,flex:1,background:x.id===id?C.green:C.line}}/>)}</div>
+ <Audio src={staticFile(`audio/${TTS_FILES[id-1]}`)} playbackRate={1}/>
+ </AbsoluteFill>}
+export const CarpentryCompositions=()=> <>{SCENES.map(s=><Composition key={s.id} id={`CarpentryScene${s.id}`} component={CarpentryScene} defaultProps={{id:s.id}} durationInFrames={s.frames} fps={30} width={1080} height={1920}/>)}</>;

@@ -1,0 +1,18 @@
+REFERENCE ONLY — exact SVG excerpt from hidden-door-installation-shorts-v1/src/HiddenDoorPreviewV8.tsx
+Not registered or imported at runtime. Concept diagram, not a manufacturer specification.
+
+<g transform="translate(16 8)" stroke="#666e64" strokeWidth="1.1" strokeLinejoin="round">
+<path id="existing-wall" d="M100 57L195 2H324V119L264 155Z" fill="#bfc1bc"/>
+<path id="plywood-jamb" d="M58 68L88 51L264 155L227 186L181 164L202 151Z" fill="#d0ae83"/>
+<path id="opening-return" d="M58 68L202 151L181 164L58 236Z" fill="#f0f0e9"/>
+<path id="first-carpentry-layer" d="M264 155L324 119V130L227 186Z" fill="#eeeee4"/>
+<path id="second-carpentry-edge" d="M227 186L324 130V142L224 200L214 194Z" fill="#bfa079"/>
+<path id="second-carpentry-face" d="M224 200L324 142V303H224Z" fill="#d0b58e"/>
+<path id="door-top-rebate" d="M2 268L181 164L219 186L206 194L214 199L46 303H2Z" fill="#b7bcb9"/>
+<path id="door-front" d="M46 303L214 199L219 202V303Z" fill="#e0e3df"/>
+<path id="rebate-step" d="M181 164L186 161L224 183L211 191L219 196V202L214 199L206 194L219 186Z" fill="#d6dbd5"/>
+<path d="M192 177L209 187L197 194" fill="none" stroke="#69726a" strokeDasharray="3 2"/>
+</g>
+<g fill="none" stroke="#87907f" strokeWidth="1.4"><path d="M269 53H366"/><path d="M161 112L337 93H366"/><path d="M299 147L347 142H366"/><path d="M299 172L350 195H366"/><path d="M226 202L345 244H366"/><path d="M132 275H366"/></g>
+<g fill={INK}><text x="383" y="58">벽체</text><text x="383" y="99">문틀 <tspan fontSize="21" fontWeight="500">(합판 자재)</tspan></text><text x="383" y="147">1번째 목공 벽체 <tspan fontSize="18" fontWeight="500">(석고보드 자재)</tspan></text><text x="383" y="200">2번째 목공 벽체 <tspan fontSize="18" fontWeight="500">(합판·MDF 자재)</tspan></text><text x="383" y="249">어깨가공</text><text x="383" y="287">히든도어</text></g>
+

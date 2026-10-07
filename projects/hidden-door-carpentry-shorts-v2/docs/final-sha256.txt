@@ -1,0 +1,14 @@
+# hidden-door-carpentry-shorts-v2 final SHA256
+# 2026-10-07
+
+837330865c9587a68874a143e4caea099eaa08c86e973312a1092b8c919e9118  projects/hidden-door-carpentry-shorts-v2/public/assets/video/hidden-door-carpentry-preview-v8.mp4
+c8f6494f14a65729552c2eb44abddcf8759f4c0cdafb9b1a2de2cd9b41f961cb  projects/hidden-door-carpentry-shorts-v2/public/covers/hidden-door-carpentry-cover-v3.png
+f317173f0ba106c1787f294e2ac84266e6e1876309a9135f66af8b9229a596ac  projects/hidden-door-carpentry-shorts-v2/public/covers/qa/hidden-door-carpentry-cover-v3-instagram-square.png
+3bc5eeb7d0662c11284b97d09a46e3920763c5ef22db98aeeada8c880a8f7c5a  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/scene01-tts-v4.mp3
+2f9f47af751a74d5ec9bd9e5a6fb8bc034fb9ad7d30c264fba24fcae3bb2566d  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/scene02-tts-v8.mp3
+e6be9f45f227b1618db18de67793198bfc6542a4238f707d6066fd5977bde734  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/scene03-tts-v11.mp3
+31b9589e2681b0de4d6cd425e2c586f140363416fbee799c6aaf0f6a15acd027  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/scene04-tts-v4.mp3
+b98a29e4cd5cd824157a30bc05f8e2ee2224c5a2670135b9ae71a3629890e54a  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/scene05-tts-v6.mp3
+3f87ab30975af835ae6fd43d228df69b1fd6fa69c73bc3a161ba3989ee96d504  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/full-tts-qa-v11.mp3
+bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181  projects/hidden-door-carpentry-shorts-v2/public/assets/audio/ending-approved-v3.mp3
+9a08126d13f848c715b986e8259c63cecf99beb161ef96efaead177493a620aa  projects/hidden-door-carpentry-shorts-v2/docs/hidden-door-carpentry-sns-copy-final-v1.md

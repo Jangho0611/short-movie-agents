@@ -1,0 +1,41 @@
+{
+  "cover": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/covers/hidden-door-carpentry-cover-v3.png",
+  "crop": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/covers/qa/hidden-door-carpentry-cover-v3-instagram-square.png",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "crop_dimensions": [
+    1080,
+    1080
+  ],
+  "hero": "exact 9 geometry paths from CarpentryScenesV8, uniform scale 1.8, offset 90/780",
+  "character": {
+    "pose": "daesani-cover-point-right.png",
+    "visible_xy": [
+      710,
+      1010
+    ],
+    "visible_height": 360,
+    "visible_width": 259,
+    "flipped": false,
+    "canonical_sha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0"
+  },
+  "logo_sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+  "brand_xy": [
+    90,
+    1390
+  ],
+  "brand_size": [
+    240,
+    70
+  ],
+  "video_audio_source_unchanged": true,
+  "visual_QA": "PASS: actual center crop reviewed; full character visible, no hero/logo overlap",
+  "other_elements_unchanged": true,
+  "character_move": [
+    0,
+    160
+  ],
+  "pixel_QA": "All changed pixels confined to original/moved canonical PNG alpha support, including faint edge pixels"
+}

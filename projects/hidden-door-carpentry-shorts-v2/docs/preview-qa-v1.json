@@ -1,0 +1,237 @@
+{
+  "scenes": [
+    {
+      "file": "public/assets/video/scene01-preview-v1.mp4",
+      "frames": 112,
+      "video_seconds": 3.7333333333333334,
+      "container_seconds": 3.776,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene02-preview-v1.mp4",
+      "frames": 203,
+      "video_seconds": 6.766666666666667,
+      "container_seconds": 6.826667,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene03-preview-v1.mp4",
+      "frames": 148,
+      "video_seconds": 4.933333333333334,
+      "container_seconds": 4.992,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene04-preview-v1.mp4",
+      "frames": 183,
+      "video_seconds": 6.1,
+      "container_seconds": 6.144,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/scene05-preview-v1.mp4",
+      "frames": 142,
+      "video_seconds": 4.733333333333333,
+      "container_seconds": 4.778667,
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+      "frames": 170,
+      "video_seconds": 5.666666666666667,
+      "container_seconds": 5.666667,
+      "decode": "PASS"
+    }
+  ],
+  "preview": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/hidden-door-carpentry-preview-v1.mp4",
+  "frames": 958,
+  "seconds": 31.933333333333334,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 490496,
+        "duration": "31.933333",
+        "bit_rate": "2204948",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "958",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1532800,
+        "duration": "31.933333",
+        "bit_rate": "171095",
+        "nb_frames": "1498",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/hidden-door-carpentry-preview-v1.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "31.933333",
+      "size": "9521978",
+      "bit_rate": "2385464",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101",
+        "comment": "Made with Remotion 4.0.523"
+      }
+    }
+  },
+  "decode": "PASS",
+  "all_baseline_hashes_unchanged": true,
+  "tts_files": [
+    "scene01-tts-v4.mp3",
+    "scene02-tts-v4.mp3",
+    "scene03-tts-v4.mp3",
+    "scene04-tts-v4.mp3",
+    "scene05-tts-v4.mp3"
+  ],
+  "tts_playback_rate": 1,
+  "ending": "approved Canonical MP4 reused; source hash unchanged; concat output encoded H264/AAC",
+  "visual_review": "Representative rendered frames inspected: two-line headlines, safe margins, distinct jamb/base, one finish layer, rebate width/depth and boundary separately shown. User approval pending.",
+  "tts_duration_checks": [
+    {
+      "scene": 1,
+      "tts_seconds": 3.384,
+      "frames": 112,
+      "hold_seconds": 0.3493333333333335
+    },
+    {
+      "scene": 2,
+      "tts_seconds": 6.408,
+      "frames": 203,
+      "hold_seconds": 0.35866666666666625
+    },
+    {
+      "scene": 3,
+      "tts_seconds": 4.608,
+      "frames": 148,
+      "hold_seconds": 0.3253333333333339
+    },
+    {
+      "scene": 4,
+      "tts_seconds": 5.736,
+      "frames": 183,
+      "hold_seconds": 0.3639999999999999
+    },
+    {
+      "scene": 5,
+      "tts_seconds": 4.176,
+      "frames": 142,
+      "hold_seconds": 0.5573333333333332
+    }
+  ]
+}

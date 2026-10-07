@@ -38,3 +38,5 @@ projects/eboard-installation-shorts-v2/public/final/eboard-installation-shorts-f
 projects/eboard-installation-shorts-v2/public/references/eboard-installation-full-preview-v12.mp4 filter=lfs diff=lfs merge=lfs -text
 projects/hidden-door-installation-shorts-v1/public/assets/video/hidden-door-installation-preview-v8.mp4 filter=lfs diff=lfs merge=lfs -text
 projects/hidden-door-installation-shorts-v1/public/assets/video/IMG_3934.MOV filter=lfs diff=lfs merge=lfs -text
+projects/hidden-door-carpentry-shorts-v2/public/assets/video/IMG_3934.MOV filter=lfs diff=lfs merge=lfs -text
+projects/hidden-door-carpentry-shorts-v2/public/assets/video/daesani-point-right-alpha-v2.mov filter=lfs diff=lfs merge=lfs -text
