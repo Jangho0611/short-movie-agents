@@ -1,0 +1,15 @@
+Use case: precise-object-edit
+Asset type: vertical 9:16 start frame for a Korean construction explainer short
+
+This is a minimal edit of the supplied image, not a new composition. Preserve the original image almost exactly. Change only the two items listed below.
+
+EDIT 1 — STRAIGHTEDGE LENGTH ONLY:
+Replace the extremely long metal rail with one realistic aluminum straightedge approximately 1 meter long. Keep it on the same longitudinal cut line, flat on the black panel and parallel to the panel's long edges. It must cover only a middle section of the sheet. Both ends of the 1-meter straightedge must be clearly visible on the panel surface, and neither end may reach a short end of the panel or extend outside the panel. Keep one gloved hand pressing near the center of this shorter straightedge and keep the utility-knife blade immediately beside it, ready to score in the same longitudinal direction.
+
+EDIT 2 — SMALL ERGONOMIC POSTURE ADJUSTMENT ONLY:
+Keep the worker kneeling on the floor at the right side of the panel in the same location. Make his pose slightly more relaxed and physically workable for cutting: reduce excessive forward reach, keep his torso only gently inclined, shoulders relaxed, elbows naturally bent, wrists aligned with the ruler, and body weight stably supported on the protected floor. Keep all knees, feet, legs, and clothing off the panel. Do not move him to a new position and do not redesign the pose or composition.
+
+LOCK EVERYTHING ELSE:
+Keep the exact same narrow balcony, architecture, camera position, camera distance, lens perspective, crop, lighting, worker identity and clothing, floor protection, single-panel location, panel scale, panel orientation, black surface, thin pink XPS edge, flat horizontal placement, longitudinal cutting direction, hand roles, cutter position, and photorealistic site tone. The e-board must remain completely flat on the floor. The worker must remain kneeling to the panel's right. The cut must remain lengthwise.
+
+Absolutely do not stand the panel up, lean it against the wall, lift it, bend it, create a second panel, change to crosswise cutting, stand the worker up, widen the balcony, move the camera, zoom out, use a wide-angle view, add tools, add text, add graphics, or invent a new composition. No tape measure, labels, logos, captions, or watermark.

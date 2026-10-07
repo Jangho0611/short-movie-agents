@@ -1,0 +1,40 @@
+Use case: photorealistic-natural
+Asset type: vertical 9:16 Flow-ready Start Image for Scene 5 of a Korean e-board installation tutorial
+
+Create one new candid photorealistic CLOSE-UP of joint putty work on a real installed e-board wall in the same Korean apartment balcony / utility-room.
+
+REFERENCE ROLES:
+- Image 1 provides only location and worker continuity: the same narrow balcony / utility-room, open-window daylight, concrete context, blue protective masking, and the same young Korean male worker wearing black work clothes and black gloves.
+- Image 2 provides only the canonical product identity: matte black e-board facing, thin pink XPS construction, rigid flat geometry, and restrained thickness.
+
+TIGHT CLOSE-UP COMPOSITION — CRITICAL:
+Frame the installed wall from straight-on or at a very slight oblique angle. The camera is close to the wall, with a normal lens and no wide-angle expansion. The matte black installed e-board wall fills almost the entire frame. Place one narrow vertical joint near the center.
+
+Show ONLY one gloved working hand, part of one forearm in the same black work jacket, the putty knife, and the wall joint. The worker's entire face, head, hair, neck, torso, legs, and feet are outside the frame. No facial feature or partial face may appear. The close-up should feel like the camera operator is documenting the worker's hands at the wall.
+
+Crop out the panel bottoms, floor, wall-to-floor junction, and every outer lower edge. Do not show any panel standing on the floor. Crop out panel outer side edges and backs. The black wall surface continues beyond the left, right, top, and bottom frame boundaries, except for a very narrow secondary glimpse of the existing window reveal or concrete return at one extreme side to preserve the same balcony identity.
+
+COMPLETED WALL INSTALLATION:
+Two e-board sheets are already permanently bonded over the concrete wall and behave as one immovable architectural wall plane. Both black faces are fully flush, coplanar, and parallel to the substrate. There is no visible space, cast shadow, side view, exposed back, support, or air gap behind them. The only readable product boundary is the central vertical joint. No pink XPS perimeter stripe; at most a microscopic hairline at the joint.
+
+ABSOLUTELY FORBIDDEN:
+freestanding panels; standalone boards; leaning boards; boards standing on the floor; panel bottom resting on floor; boards propped in front of a wall; visible backs; visible gap or shadow behind panels; full rectangular board silhouettes; worker holding or installing a board.
+
+JOINT CONDITION:
+One straight vertical joint only, a realistic few millimeters wide. Foam filling is already complete, fully cured, trimmed, cleaned, and recessed flush inside the seam. No exposed or protruding polyurethane foam anywhere. No foam rope, bubbles, lumps, bulge, wet foam, open cavity, or wide channel.
+
+PUTTY — NARROW AND THIN:
+A small amount of neutral light-gray or off-white putty is present only in a narrow band centered on the joint, approximately 3–5 cm total width. It is a very thin skim, nearly flush with the adjacent black surfaces, with restrained feathered edges and a subtle real blade texture. Most of both black panel faces remain clean and visible. No thick material, raised ridge, wide white stripe, broad skim coat, mound, dripping, or decorative line.
+
+FLOW-READY HAND AND TOOL POSE:
+One gloved hand holds one realistic stainless-steel putty knife / filling knife with a rectangular flexible blade approximately 8–12 cm wide and a short practical handle. The blade is already pressed flat against the narrow putty band, centered across the joint, at a natural 30–45 degree angle to the wall. The wrist and partial forearm align naturally with one upcoming vertical stroke, either upward or downward. Capture the exact paused instant immediately before slowly pushing the blade in that one direction to spread the putty flat, then hold.
+
+The grip is anatomically correct and mechanically plausible: five normal fingers around the short handle, wrist straight, elbow implied outside the crop, no crossed arm, no excessive reach. Only one hand and one tool. Do not show active motion, a finished withdrawal, or a second action in this still.
+
+FLOW CONNECTION:
+This exact first frame must support one later 4-second motion only: the fixed hand slowly pushes the fixed putty knife in one vertical direction along the same narrow joint, smoothing the thin putty flat, then stops and holds. Keep adequate visible joint length ahead of the blade. Do not generate video now.
+
+STYLE AND CONTINUITY:
+real camera look, not CGI; ultra realistic documentary construction photography; natural daylight from the same balcony window; soft real shadows; realistic matte black construction material; cramped Korean residential utility-room atmosphere; muted honest colors. No new room design and no camera pullback.
+
+No text, numbers, brands, labels, packaging, captions, arrows, diagrams, logos, watermarks, mesh tape, joint tape, screws, fasteners, extra panels, extra joints, extra hands, extra arms, extra workers, extra tools, buckets, broad plaster work, glossy commercial rendering, dramatic cinematic lighting, plastic surfaces, or staged presentation pose.

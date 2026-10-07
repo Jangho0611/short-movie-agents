@@ -1,0 +1,32 @@
+Use case: precise-object-edit
+Asset type: vertical 9:16 Start Image for Scene 4 of a Korean e-board installation tutorial
+
+Edit Image 1 while preserving its narrow Korean apartment balcony / utility-room, camera angle, natural daylight, blue floor protection, same young Korean male worker in black work clothes and gloves, one large e-board lying flat, black panel surface, thin pink XPS edge, long rectangular proportions, and candid photorealistic construction-site tone. Use Image 2 only as the canonical reference for the e-board's product identity, rigid sheet proportions, black facing, pink XPS core, straight edges, and restrained thickness.
+
+PRIMARY REQUEST:
+Show one action only: realistic polyurethane foam adhesive application onto the e-board immediately before wall attachment. Replace the incorrect cartridge caulking tool and mixed adhesive pattern from Image 1.
+
+FOAM GUN — ABSOLUTE TOOL GEOMETRY:
+The worker must hold one real professional polyurethane expanding-foam applicator gun, not a caulking gun. It has all of these clearly visible physical parts:
+- a compact metal pistol-grip gun body with a trigger under the body;
+- one plain unbranded cylindrical pressurized PU foam can screwed directly into the threaded adapter on TOP of the rear gun body, mounted vertically upside down during use;
+- a long, thin, rigid metal barrel/lance extending forward from the gun body;
+- a very narrow metal dispensing nozzle at the end of that long barrel, touching the panel surface;
+- a small rear flow-adjustment knob.
+
+The full gun silhouette, top-mounted can, pistol grip, trigger, long metal lance, and narrow nozzle must all be readable and mechanically connected. The worker's gloved hand wraps naturally around the pistol grip with the index finger at the trigger. The other hand remains safely off the wet foam.
+
+ABSOLUTELY FORBIDDEN TOOL SHAPES:
+No cartridge caulking gun, no silicone gun, no open metal cradle/frame, no plunger rod, no push plate, no long cylindrical sealant tube held horizontally, no sausage gun, no silicone tube, no glue cartridge, no short plastic cone nozzle, no spray can held separately, and no invented hybrid tool.
+
+FOAM ADHESIVE ONLY:
+Remove every smooth beige perimeter line and every second adhesive material from Image 1. Show only one material: pale cream polyurethane foam adhesive applied with the foam gun. The worker is dispensing the final section of a practical evenly distributed bonding pattern over the black rear installation face.
+
+The foam beads are moderately narrow, slightly expanded, softly rounded, and subtly porous with small natural width variation and hand-applied irregularity. They should look tacky and freshly extruded, with mild foaming texture and soft real shadows. Use several well-spaced continuous longitudinal serpentine lanes or parallel runs across the broad panel area with reasonable edge clearance. Coverage is balanced but not perfectly ornamental.
+
+The bead must not look like silicone sealant: avoid glassy smoothness, glossy rubber, perfectly constant diameter, sharp-edged paste, toothpaste texture, or immaculate machine-drawn lines. Also avoid huge bubbly ropes, shaving-foam piles, giant blobs, excessive expansion, dripping, spills, or isolated dots.
+
+LOCKED PRODUCT AND SCENE:
+Exactly one large rigid e-board remains completely flat and fully supported on the protected floor. Preserve the black surface and visible thin pink XPS edge. No second panel, seam separation, lifted corner, bending, warping, or wall attachment. Keep the same cramped balcony dimensions, exposed concrete wall, window, worker identity, clothing, realistic posture, and documentary camera look. The e-board and foam application remain the visual focus.
+
+No brands, product names, labels, printed packaging, readable markings, text, numbers, captions, arrows, diagrams, logos, or watermarks. No extra workers, extra hands, extra tools, buckets, cartridges, tubes, or adhesive products. No CGI, glossy commercial render, dramatic lighting, living-room styling, or staged presentation pose.

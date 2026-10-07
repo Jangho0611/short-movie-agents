@@ -1,0 +1,24 @@
+Use case: precise-object-edit
+Asset type: Scene 7 photorealistic installation-complete result frame
+
+INPUT IMAGE ROLES:
+- Image 1 is the exact location and camera reference. Preserve its same narrow Korean apartment balcony/utility-room, left-side windows, open end window, right-side wall perspective, ceiling, utility pipe, daylight, blue floor-protection sheeting, and authentic active-renovation photo tone.
+- Image 2 supplies only the approved E-board face color and material character: clearly visible neutral medium-to-light gray, matte, subtly fiber-like. Do not copy its tape, mesh, hand, tool, close-up framing, or joint treatment.
+
+Create one vertical 9:16 candid documentary photograph of the completed E-board installation stage in exactly the same balcony. Use a slightly wider result-oriented view so the installed right wall is the main subject and its overall finished installation can be understood at first glance. Prefer no worker at all.
+
+RIGHT WALL — COMPLETED INSTALLATION:
+Cover the full visible right-side wall area with multiple tall, full-size E-board sheets already permanently bonded to the concrete substrate. Show several vertical sheets arranged neatly side by side from near the floor protection up to the ceiling and along the visible depth of the balcony wall. Every panel is perfectly flat, coplanar, parallel to the wall, fully supported, and visually part of one continuous architectural wall plane.
+
+The panel faces must be a clear neutral medium-to-light gray similar to the approved S5/S6 surface, approximately RGB 95–115 under natural daylight. They must read as gray at first glance, never black or near-black. Preserve a realistic matte, restrained fiber-faced construction-board texture. Keep all sheets the same color, thickness, plane, and tall large-sheet proportion.
+
+JOINTS AND FINISHED STATE:
+Panel joints are narrow, straight, aligned, and already cleaned and leveled. They may remain readable only as subtle hairline vertical boundaries or restrained nearly flush light-gray joint treatment. No wide white stripes, thick putty bands, ridges, lumps, exposed mesh tape, exposed nevari tape, protruding polyurethane foam, open gaps, pink XPS stripes, screws, or raw adhesive. No panel edge casts a detached shadow and no space is visible behind any panel.
+
+This is a clean installation-complete wall immediately before the decorative wallpaper or paint finish. It is not a new work process and no one is attaching, cutting, gluing, taping, or applying putty. The completed wall itself is the hero.
+
+SPACE CONTINUITY:
+Keep the same narrow balcony width and perspective, left window wall, open window, modest utility pipe, natural overcast daylight, and blue floor protection taped at its edges. Remove the worker and the large hanging/rolled wallpaper pieces from Image 1. Retain only restrained realistic renovation traces and at most the small practical floor fan or one unobtrusive ordinary site item. Do not turn the space into a polished interior advertisement, finished living room, wide room, showroom, industrial machine room, or different location.
+
+ABSOLUTELY FORBIDDEN:
+freestanding boards; boards leaning on the floor; panels standing away from the wall; visible panel backs; visible gaps behind panels; warped, bent, swollen, short, square, or floating panels; black panels; inconsistent panel colors; wide joints; thick plaster; protruding foam; exposed tape; decorative finished wallpaper or painted finish; worker, face, hand, tool-focused composition; extra process action; text, letters, icons, labels, arrows, logos, signage, or watermark; CGI, 3D render, glossy commercial lighting, or pristine staged real-estate photography.

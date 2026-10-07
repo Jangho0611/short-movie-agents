@@ -1,0 +1,12 @@
+Use case: precise-object-edit
+Asset type: Scene 6 paint-finish comparison source
+
+Use the supplied paint-mesh-putty v1 image as the exact edit target. Preserve the same photorealistic Korean apartment balcony/utility-room, camera, crop, wall plane, medium-gray E-board color and texture, lighting, joint position, black-gloved hand, sleeve, hand center, and putty-knife center and angle.
+
+Change only the installation state and completed visible length of the fiberglass mesh joint tape. Show one continuous strip of mesh tape already fully installed, flat, and bonded over the vertical joint for the same long completed span as the wallpaper-side tape. Its top endpoint must be at approximately 10% of the image height and its bottom endpoint at approximately 78% of the image height. It must remain centered on the seam with straight vertical edges and full wall contact. No loose leading end, lifted mesh, curl, wrinkle, bubble, sag, floating section, gap, or mid-process termination. It must read as installation-complete, not as mesh currently being attached.
+
+Keep a realistic narrow approximately 50 mm alkali-resistant fiberglass mesh tape with a fine regular square open-grid weave. Preserve the physical mesh character and realistic grid scale. A restrained existing off-white/light-gray putty skim may remain locally visible, but it must stay thin, flat, and secondary; do not show fresh heavy application or a broad opaque white band.
+
+The existing tool and hand are performing only a final light pressing and smoothing check at the middle of the already attached mesh. The blade gently presses the installed mesh flush; it is not feeding, pulling, placing, or newly applying the tape, and it is not adding a large amount of putty. Keep the putty-knife center at approximately 47% of the image height, matching the wallpaper-side image.
+
+PIXEL-LOCK everything else: same worker hand anatomy and grip, exact arm position, tool design, camera perspective, window edge, panel joint, background, shadows, and medium-gray matte E-board surface. No new objects, hands, workers, tools, text, labels, logos, graphics, or watermark.

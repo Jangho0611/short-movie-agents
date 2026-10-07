@@ -1,0 +1,17 @@
+Use case: precise-object-edit
+Asset type: Scene 6 photorealistic finishing-method comparison image, paint side
+Input image: the supplied S5 approved image is the continuity reference for the exact installed medium-gray E-board wall, narrow Korean apartment balcony/utility-room tone, natural light, close camera distance, and documentary realism.
+
+Create one candid photorealistic close-up of the real paint-finish joint preparation step: applying alkali-resistant fiberglass mesh joint tape over the vertical E-board seam and embedding it with a thin skim of putty before later painting.
+
+Show two medium-gray matte fiber-faced E-board sheets already permanently bonded flat and coplanar to the real wall. The wall plane fills the frame; no panel edge, back, floor contact, or gap behind a panel is visible. One narrow vertical joint is centered. Foam filling is already cured, trimmed flush, and clean.
+
+Center a realistic narrow strip of fiberglass mesh joint tape over the seam, approximately 50 mm wide. The tape must have a fine, regular square open-grid weave, straight vertical edges, realistic construction-mesh scale, and full contact with the wall. Keep a short upper section of the mesh visibly exposed and readable. Below it, show the same mesh being embedded under a restrained, thin, off-white/light-gray putty skim so the sequence mesh tape first, then putty leveling is immediately understandable. The mesh may remain faintly visible through the feathered edge but must not float, wrinkle, bulge, or resemble solid paper tape.
+
+Show only one black-gloved hand and part of one black work-jacket sleeve, with the worker's face and body outside the frame. The hand holds one realistic stainless-steel putty knife at a natural 30–45 degree angle, centered across the taped joint, spreading the putty in one controlled vertical direction to embed the mesh and level the surface. Use realistic hand anatomy, grip, tool size, blade contact, wrist direction, and pressure.
+
+Composition/framing: portrait 9:16, tight hands-and-joint documentary close-up, normal lens, no wide-angle expansion. Match the wallpaper image's camera distance, wall angle, natural-light direction, medium-gray E-board color, and visual scale. Keep the mesh, blade, and transition from exposed mesh to thin putty readable after cropping into one half of a later 50:50 comparison.
+
+Preserve the S5 product color: neutral medium gray around RGB 95–115 under natural light, matte subtle fiber texture. Keep the joint narrow and the putty thin, flat, and locally feathered. No thick plaster mound, wide opaque stripe, excess putty, protruding foam, loose mesh, oversized grid, or decorative texture.
+
+No face, extra hand, extra worker, extra joint, extra tools, bucket, branded packaging, paint can, text, letters, icons, arrows, labels, logos, watermark, CGI, render, or camera graphics.

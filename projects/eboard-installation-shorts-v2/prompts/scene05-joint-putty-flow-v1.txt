@@ -1,0 +1,30 @@
+Preserve the supplied start frame exactly: the same fixed camera and crop, narrow Korean apartment balcony/utility-room workspace, worker remaining outside the frame except for the same arm and hand, the same medium-gray installed E-board surfaces, the same vertical joint, and the same putty knife.
+
+STRICT ACTION SEQUENCE ONLY, completed early within a 4-second clip:
+
+1. Start immediately from the exact putty-knife position in the first frame.
+2. The worker briefly lowers the putty knife to the existing small supply of fresh putty just below the bottom edge of the frame and loads a moderate, realistic amount onto the blade. Do not reveal a container, tool, or second hand.
+3. Bring the loaded knife directly back to the same vertical joint.
+4. Press the blade against the joint at a realistic 30–45 degree working angle and deposit the fresh putty onto the joint.
+5. In one controlled vertical direction, slowly push the knife along the joint with realistic, steady pressure, blending the new putty seamlessly into the existing putty.
+6. Finish a locally widened but still narrow, thin, flat, smooth skim coat centered on the joint. Complete the working motion by about 3.0 seconds.
+7. Stop all motion and hold the finished result clearly and steadily for the final 0.7–1.0 seconds.
+
+The added putty must visibly solve the initially insufficient amount. Show a credible material transfer from blade to joint, followed by compression and feathering. The final putty must be thin, flat, naturally feathered, and sufficient for the visible worked section—not a thick ridge, blob, mound, or an exaggerated strip covering the whole wall.
+
+MOTION RULES:
+- Use one clean vertical spreading pass after loading and depositing the putty.
+- Keep the blade angle and pressure realistic for actual joint putty work.
+- No messy left-right shaking, repeated scraping, circular motion, tapping, brushing, inspection, or extra gesture.
+- No unnecessary preparation or follow-up action.
+- Do not finish the important action on the final frame; preserve the final still hold.
+
+ABSOLUTE PRESERVATION:
+- Do not move or deform either installed E-board panel or the vertical joint.
+- Keep the current neutral medium-gray panel color and matte fiber-like texture unchanged.
+- Do not change the camera, framing, perspective, room, lighting, worker posture, sleeve, glove, hand identity, or tool design.
+- Keep the worker's face completely outside the frame.
+- Do not add another worker, hand, tool, bucket, container, text, logo, or watermark.
+- No camera pan, zoom, tilt, orbit, shake, cut, or transition.
+
+No audio.

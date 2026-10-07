@@ -1,0 +1,17 @@
+Use case: precise-object-edit
+Asset type: Scene 6 photorealistic finishing-method comparison image, wallpaper side
+Input image: the supplied S5 approved image is the continuity reference for the exact installed medium-gray E-board wall, narrow Korean apartment balcony/utility-room tone, natural light, close camera distance, and documentary realism.
+
+Create one candid photorealistic close-up of the next real construction step after the E-board vertical joint has been filled and skimmed flat: reinforcing the finished joint with wallpaper joint reinforcement tape before wallpapering.
+
+Show two medium-gray matte fiber-faced E-board sheets already permanently bonded flat and coplanar to the real wall. The wall plane fills the frame; no panel edge, back, floor contact, or gap behind a panel is visible. One narrow vertical joint is centered. Its cured filler and putty have already been trimmed, dried, and smoothed flush.
+
+At the joint, show a narrow vertical strip of real wallpaper joint reinforcement tape used in Korean interior work (nevari tape): thin, flat, off-white, fibrous nonwoven/paper-like joint tape, approximately 45–60 mm wide, centered precisely over the seam. It must read as a physical fibrous reinforcing strip, not masking tape, plastic tape, mesh tape, fabric ribbon, caulk, or a painted white line. Keep a short clearly visible completed section of the nevari adhered flat above the working hand.
+
+Show only one black-gloved hand and part of one black work-jacket sleeve, with the worker's face and body outside the frame. The hand uses one small realistic wallpaper smoothing spatula or seam roller to press the nevari flat onto the prepared joint, removing air and securing full contact. The tool angle and wrist position must look usable and natural. No pasted wallpaper sheet is installed yet; this is visibly the reinforcement step immediately before wallpaper finish.
+
+Composition/framing: portrait 9:16, tight hands-and-joint documentary close-up, normal lens, no wide-angle expansion. Keep enough surrounding medium-gray E-board visible that this can be cropped into one half of a later 50:50 comparison while the tape and tool remain immediately identifiable.
+
+Preserve the S5 product color: neutral medium gray around RGB 95–115 under natural light, matte subtle fiber texture. Keep putty beneath the tape thin and flush. No broad white plaster band, thick putty, bubbles, wrinkles, loose tape, decorative pattern, or exaggerated material.
+
+No face, extra hand, extra worker, extra joint, extra tools, bucket, branded packaging, wallpaper pattern, text, letters, icons, arrows, labels, logos, watermark, CGI, render, or camera graphics.

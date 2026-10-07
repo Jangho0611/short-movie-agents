@@ -79,3 +79,12 @@ Thumbs.db
 
 # Batch 3
 !/projects/door-frame-wall-thickness-v1/
+
+# DIRTY-1 selected preservation
+!/projects/eboard-installation-shorts-v2/
+/projects/eboard-installation-shorts-v2/public/covers/eboard-role-cover-v1.png
+/projects/eboard-installation-shorts-v2/public/covers/qa/eboard-role-cover-v1-instagram-center-crop.png
+/projects/eboard-installation-shorts-v2/public/covers/qa/eboard-role-sketch-cover-v1-instagram-center-crop.png
+/projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-cross-section-detail-v1.png
+/projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-cross-section-main-v1.png
+/projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-wallpaper-angle-v1.png
