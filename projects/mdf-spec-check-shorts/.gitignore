@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+*credentials*.json
+*service-account*.json
+*service_account*.json
+id_rsa*
+id_ed25519*
+.codex/
+.agents/
+tmp/
+*.log

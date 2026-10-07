@@ -88,3 +88,10 @@ Thumbs.db
 /projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-cross-section-detail-v1.png
 /projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-cross-section-main-v1.png
 /projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-wallpaper-angle-v1.png
+
+# DIRTY-2 approved Cover v6
+!/projects/mdf-spec-check-shorts/
+/projects/mdf-spec-check-shorts/public/covers/mdf-spec-check-cover-v4.png
+/projects/mdf-spec-check-shorts/public/covers/mdf-spec-check-cover-v5.png
+/projects/mdf-spec-check-shorts/public/assets/video/mfg-test-press.mp4
+/projects/mdf-spec-check-shorts/src/mfg-test-render.tsx
