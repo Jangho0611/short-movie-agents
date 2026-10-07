@@ -1,207 +1,104 @@
-# Short Movie Agents
-ADK version: 1.31.1, Owner: @rsamborski
+# 대산 Shorts Monorepo
 
-Short Movie Agents demo is an ADK example showcasing a multi-agent architecture to construct end to end videos based on the user's intent. It includes agents which have a different role each:
+건축자재 Shorts의 공통 제작 기준과 영상별 코드·승인 자산·작업기록을 함께 보존하는 저장소다. 2026-10-07 기준 정식 영상 프로젝트 31개가 통합되어 있다.
 
-- [director agent](app/agent.py) - main coordinator
-- [story agent](app/story_agent.py) - creates the story
-- [screenplay agent](app/screenplay_agent.py) - generates screenplay based on the story
-- [storyboard agent](app/storyboard_agent.py) - uses context from previous agents and Imagen4 model to generate storyboards
-- [video agent](app/video_agent.py) - produces final video using Veo3
+## 구조
 
-Diagram:
-
-![Agent Diagram](assets/agent_diagram.png)
-
-## Changelog
-
-See [Changelog.md](Changelog.md).
-
-## Production Guides
-
-- [Shorts 제작 운영가이드](docs/Shorts_제작_운영가이드.md) — 기획부터 렌더·정리·Git까지의 전체 제작 프로세스
-- [건축자재 AI 이미지 품목별 프롬프트 가이드](docs/건축자재_AI이미지_품목별_프롬프트_가이드.md) — 이미지와 Flow Start Frame을 위한 Visual Grammar
-- [DESIGN.md 스타일 라이브러리](docs/design-styles/README.md) — 건축자재 Shorts용 10종 reference
-- [대산 Shorts Cover System](docs/COVER.md) — SNS 대표이미지의 hierarchy, Hero Product, Brand Lockup, Feed Safe와 승인·정리 기준
-- [Canonical Product Reference Library](references/README.md) — 실제 촬영 건축자재의 Source of Truth
-
-## Project Structure
-
-This project is organized as follows:
-
-```
+```text
 short-movie-agents/
-├── app/                 # Core application code
-│   ├── agent.py         # Main agent logic
-│   ├── server.py        # FastAPI Backend server
-│   └── utils/           # Utility functions and helpers
-├── Makefile             # Makefile for common commands
-├── GEMINI.md            # AI-assisted development guide
-└── pyproject.toml       # Project dependencies and configuration
+├── .git/          # 유일한 Git 저장소
+├── docs/          # 공통 운영 가이드
+├── references/    # 공통 조사 아카이브 / 승인 Reference (승인 상태 개별 확인)
+├── assets/        # 승인 공통 엔딩·대산이 등 배포 원본
+├── projects/
+│   ├── <project-name>/  # 영상별 코드·자산·docs
+│   └── TEST/           # Git 제외 실험 영역
+└── app/           # 기존 ADK 도구 소스
 ```
 
-## Requirements
+신규 영상은 `/Users/janghokim/Documents/short-movie-agents/projects/<project-name>`에서 시작한다. Documents 바로 아래의 독립 프로젝트 및 프로젝트 내부 .git/origin/standalone GitHub는 새로 만들지 않는다. Git은 `/Users/janghokim/Documents/short-movie-agents` 루트 하나에서 운영한다.
 
-Before you begin, ensure you have:
+## 시작과 복원
 
-- **Python**: 3.13+
-- **uv**: Python package manager (used for all dependency management in this project) - [Install](https://docs.astral.sh/uv/getting-started/installation/) ([add packages](https://docs.astral.sh/uv/concepts/dependencies/) with `uv add <package>`)
-- **Google Cloud SDK**: For GCP services - [Install](https://cloud.google.com/sdk/docs/install)
-- **make**: Build automation tool - [Install](https://www.gnu.org/software/make/) (pre-installed on most Unix-based systems)
+Git LFS를 먼저 설치해야 대형 미디어가 pointer가 아닌 실제 파일로 복원된다.
 
-## Getting started
-
-### Google Agents CLI (recommended)
-
-Use the [Google Agents CLI](https://github.com/google/agents-cli) to scaffold a production-ready project and choose your deployment target ([Agent Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/runtime) or [Cloud Run](https://cloud.google.com/run)), with CI/CD and other production features.
-
-**Install the CLI** (one-time):
-
-```bash
-uvx google-agents-cli setup
+```sh
+git lfs install
+git clone https://github.com/Jangho0611/short-movie-agents.git
+cd short-movie-agents
+git lfs pull
 ```
 
-**Create the project from this sample** (replace `my-short-movie-agents` with your project name):
+영상 실행환경은 각 프로젝트 package/lockfile 기준으로 설치한다. 공통 루트 환경으로 모든 영상을 실행할 수 있다고 가정하지 않는다. 신규 Slim Copy는 최소 코드·설정·lockfile과 승인 공통 자산 직접 의존 세트만 복사하며 node_modules는 제외한다.
 
-```bash
-agents-cli create my-short-movie-agents -a adk@short-movie-agents
-```
+## 기본 운영
 
-The Google Agents CLI will prompt you to select deployment options and set up your Google Cloud project.
+- 기획/조사·대본·제작 범위 승인 → 제작·QA → 영상 승인 → Cover 승인 → SNS 승인.
+- 최종 승인 후 정리 후보를 정확히 보고하고 사용자 승인 범위만 정리, SHA256/QA 후 루트 Git 종료.
+- 루트 status/diff → 민감정보·LFS QA → 관련 프로젝트/실제 변경 공통 가이드만 stage → staged diff → commit → 일반 push → fetch/HEAD sync/CLEAN 확인.
+- 기존 standalone 저장소와 migration backup은 안전백업으로 유지한다. 별도 승인 없이 삭제하거나 archive하지 않는다.
+- 보존 바이너리 <10MiB는 일반 Git, >=10MiB는 정확한 경로 단위 Git LFS. 100MiB 이상 일반 blob 금지.
+- 상세 기준: [Monorepo 운영 기준](docs/MONOREPO_WORKFLOW.md).
 
-From your newly created project directory (e.g. `my-short-movie-agents`), run:
+## 프로젝트 결과물 경로
 
-```bash
-cd my-short-movie-agents
-uv sync --dev
-uv run adk run app
-```
+| 용도 | 프로젝트 내부 경로 |
+|---|---|
+| 영상 (Scene/Preview/Final) | `public/assets/video/` |
+| Scene 이미지 | `public/assets/images/` |
+| Cover | `public/covers/` |
+| Cover crop QA | `public/covers/qa/` |
+| 승인 재사용 Canonical Reference | `public/references/` |
+| 영상별 날짜형 작업기록 | `docs/YY.MM.DD수정.md` |
 
-For the web UI:
+신규 결과물을 public/previews/ 또는 output/에 저장하지 않는다. 기존 legacy 자산 경로는 일괄 변경하지 않는다.
 
-```bash
-uv run adk web
-```
+## 공통 가이드
 
-Then select **app** from the dropdown menu.
+- [대산 제작 지침](docs/daesan_shorts_instructions.md)
+- [제작 운영가이드](docs/Shorts_제작_운영가이드.md)
+- [SNS](docs/SNS_업로드_문구_가이드.md), [Cover](docs/COVER.md)
+- [공통 엔딩](docs/DAESAN_ENDING.md), [대산이](docs/DAESANI_MOTION_LIBRARY.md)
+- [AI 이미지](docs/건축자재_AI이미지_품목별_프롬프트_가이드.md), [디자인 스타일](docs/design-styles/README.md)
 
-<details>
-<summary>Alternative: Clone this repository and run the sample locally</summary>
+## 정식 프로젝트 인덱스
 
-### Run from this repository
+실제 projects/ 디렉터리와 Git 추적 목록 기준. 아래 상태는 편입 완료이며 각 콘텐츠의 세부 승인 상태는 해당 프로젝트 기록을 따른다.
 
-Use this path to run the **adk-samples** checkout of Short Movie Agents without scaffolding a new project.
+| 프로젝트 | 상태 |
+|---|---|
+| [bathroom-door-moisture-shorts-v1](projects/bathroom-door-moisture-shorts-v1/) | Monorepo 편입 완료 |
+| [darukki-vs-twobuy-webtoon-shorts](projects/darukki-vs-twobuy-webtoon-shorts/) | Monorepo 편입 완료 |
+| [door-frame-integrated-vs-separate-v1](projects/door-frame-integrated-vs-separate-v1/) | Monorepo 편입 완료 |
+| [door-frame-order-tips-v1](projects/door-frame-order-tips-v1/) | Monorepo 편입 완료 |
+| [door-frame-wall-thickness-v1](projects/door-frame-wall-thickness-v1/) | Monorepo 편입 완료 |
+| [door-handing-guide-shorts-v1](projects/door-handing-guide-shorts-v1/) | Monorepo 편입 완료 |
+| [door-order-mistakes-shorts-v1](projects/door-order-mistakes-shorts-v1/) | Monorepo 편입 완료 |
+| [door-order-tips-v1](projects/door-order-tips-v1/) | Monorepo 편입 완료 |
+| [eboard-explainer-shorts-v1](projects/eboard-explainer-shorts-v1/) | Monorepo 편입 완료 |
+| [eboard-installation-shorts-v2](projects/eboard-installation-shorts-v2/) | Monorepo 편입 완료 |
+| [flame-retardant-episode1-shorts-v1](projects/flame-retardant-episode1-shorts-v1/) | Monorepo 편입 완료 |
+| [flame-retardant-episode2-shorts-v1](projects/flame-retardant-episode2-shorts-v1/) | Monorepo 편입 완료 |
+| [gypsum-board-installation-shorts](projects/gypsum-board-installation-shorts/) | Monorepo 편입 완료 |
+| [gypsum-flame-retardant-shorts-v1](projects/gypsum-flame-retardant-shorts-v1/) | Monorepo 편입 완료 |
+| [hidden-door-installation-shorts-v1](projects/hidden-door-installation-shorts-v1/) | Monorepo 편입 완료 |
+| [light-steel-vs-sosong-shorts-v1](projects/light-steel-vs-sosong-shorts-v1/) | Monorepo 편입 완료 |
+| [mdf-grade-shorts-v1](projects/mdf-grade-shorts-v1/) | Monorepo 편입 완료 |
+| [mdf-spec-check-shorts](projects/mdf-spec-check-shorts/) | Monorepo 편입 완료 |
+| [mdf-weakness-shorts-v1](projects/mdf-weakness-shorts-v1/) | Monorepo 편입 완료 |
+| [sosong-lumber-grade-shorts-v1](projects/sosong-lumber-grade-shorts-v1/) | Monorepo 편입 완료 |
+| [sosong-lvl-webtoon-shorts](projects/sosong-lvl-webtoon-shorts/) | Monorepo 편입 완료 |
+| [sosong-webtoon-shorts](projects/sosong-webtoon-shorts/) | Monorepo 편입 완료 |
+| [uv-coating-episode2-shorts-v1](projects/uv-coating-episode2-shorts-v1/) | Monorepo 편입 완료 |
+| [uv-coating-episode3-shorts-v1](projects/uv-coating-episode3-shorts-v1/) | Monorepo 편입 완료 |
+| [uv-coating-shorts-v1](projects/uv-coating-shorts-v1/) | Monorepo 편입 완료 |
+| [water-resistant-gypsum-shorts](projects/water-resistant-gypsum-shorts/) | Monorepo 편입 완료 |
+| [xi-natural-gypsum-food-fact-shorts](projects/xi-natural-gypsum-food-fact-shorts/) | Monorepo 편입 완료 |
+| [xi-natural-gypsum-webtoon-shorts](projects/xi-natural-gypsum-webtoon-shorts/) | Monorepo 편입 완료 |
+| [xps-staggered-joints-shorts](projects/xps-staggered-joints-shorts/) | Monorepo 편입 완료 |
+| [xps-vs-eps-shorts](projects/xps-vs-eps-shorts/) | Monorepo 편입 완료 |
+| [xps-waterproof-vs-water-absorption-shorts](projects/xps-waterproof-vs-water-absorption-shorts/) | Monorepo 편입 완료 |
 
-1. **Clone and enter the sample directory:**
+## 기존 도구 문서
 
-   ```bash
-   git clone https://github.com/google/adk-samples.git
-   cd adk-samples/python/agents/short-movie-agents
-   ```
-
-   Stay in `python/agents/short-movie-agents` for the steps below.
-
-2. **Install dependencies:**
-
-   ```bash
-   uv sync --dev
-   ```
-
-   Or use `make install` (equivalent).
-
-3. **Configure environment:**
-
-   ```bash
-   cp .env-template .env
-   # Uncomment and update the environment variables for your project
-   ```
-
-   You can also export variables in your shell, for example:
-
-   ```bash
-   export GOOGLE_CLOUD_PROJECT=my-project
-   export GOOGLE_CLOUD_LOCATION=my-region
-   # Optional: for Vertex AI
-   export GOOGLE_GENAI_USE_VERTEXAI=1
-   ```
-
-4. **Run the agent**
-
-   - **ADK web UI:** Either run `make playground` or:
-
-     ```bash
-     source .env
-     uv run adk web . --port 8501 --reload_agents
-     ```
-
-     When prompted, select the **app** folder.
-
-   - **ADK CLI:**
-
-     ```bash
-     source .env
-     uv run adk run app
-     ```
-
-### Development (from this repository)
-
-```bash
-uv sync --dev
-uv run pytest
-```
-
-### Storage Bucket
-
-Note that the agent uses a bucket for storing generated storyboards and videos. You can create a bucket by running:
-
-```
-gcloud storage buckets create gs://YOUR_BUCKET_NAME --project=PROJECT_ID --location=LOCATION
-```
-
-Make sure the account running the agent has read/write permissions to that bucket by running:
-
-```
-gcloud storage buckets add-iam-policy-binding gs://YOUR_BUCKET_NAME \
-    --member="serviceAccount:service-PROJECT_NUMBER@gcp-sa-aiplatform.iam.gserviceaccount.com" \
-    --role="roles/storage.objectAdmin"
-```
-
-</details>
-
-## Commands
-
-| Command              | Description                                                                                 |
-| -------------------- | ------------------------------------------------------------------------------------------- |
-| `make install`       | Install all required dependencies using uv                                                  |
-| `make playground`    | Launch the ADK web UI (`adk web` with reload); select the **app** folder when prompted. |
-| `make backend`       | Deploy agent to Cloud Run |
-| `make local-backend` | Launch local development server |
-| `make test`          | Run unit and integration tests                                                              |
-| `make lint`          | Run code quality checks (codespell, ruff, mypy)                                             |
-| `uv run jupyter lab` | Launch Jupyter notebook                                                                     |
-
-For full command options and usage, refer to the [Makefile](Makefile).
-
-
-## Usage
-
-This sample follows a "bring your own agent" style: you implement behavior under `app/`, while a project scaffolded with the [Google Agents CLI](#google-agents-cli-recommended) can supply UI, infrastructure, deployment, and monitoring around that agent.
-
-1. **Integrate:** Update the agent by editing files in the `app` folder.
-2. **Test:** Explore the agent in the ADK web UI (for example `make playground` from this repo). The UI supports chat history, feedback, and reloads when you change code.
-3. **Deploy:** Use the [Google Agents CLI](#google-agents-cli-recommended) flow under [Getting started](#getting-started) to pick a deployment target (Agent Runtime or Cloud Run) and CI/CD. If you use a checkout of this repository, you can deploy with `make backend` (see [Commands](#commands)).
-4. **Monitor:** Track performance with Cloud Logging, Tracing, and the Looker Studio dashboard (see [Monitoring and Observability](#monitoring-and-observability)).
-
-The project includes a `GEMINI.md` file that provides context for AI tools like Gemini CLI when asking questions about the project.
-
-## Monitoring and Observability
-
-You can use [this Looker Studio dashboard](https://lookerstudio.google.com/reporting/46b35167-b38b-4e44-bd37-701ef4307418/page/tEnnC) template to visualize events logged in BigQuery. See the "Setup Instructions" tab to get started.
-
-The application uses OpenTelemetry for observability: events go to Google Cloud Trace and Logging, and to BigQuery for longer-term analysis.
-
-## Disclaimer
-
-This list is not an official Google product. Links on this list also are not necessarily to official Google products.
-
-Initial agent structure was generated with [[`google/agents-cli`](https://github.com/google/agents-cli)](https://github.com/google/agents-cli) version `0.15.4`.
+GEMINI.md와 기존 ADK 실행 가이드는 도구/과거 실행 방식 참고용이다. 신규 Shorts의 프로젝트 생성·저장경로·Git 운영은 위 Monorepo 기준을 우선하며 ADK 샘플 scaffold/별도 repository 생성 절차를 적용하지 않는다.

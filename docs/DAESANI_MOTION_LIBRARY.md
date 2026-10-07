@@ -41,6 +41,8 @@
 
 ## Reference
 
+아래 자산 상대경로는 공용 `assets/daesani-motion-library/` 배포 구조 기준이다. `../cover/` 표기는 그 라이브러리의 docs 기준이며 루트 공통 docs 기준이 아니다. 신규 대상은 `projects/<project-name>/`이며 [Monorepo 운영 기준](./MONOREPO_WORKFLOW.md)에 따라 직접 의존 자산을 프로젝트 내부로 복사한다. 승인 모션·PNG 규격은 그대로 유지한다.
+
 `reference/daesani-motion-safe-reference.png`
 
 Veo IMAGE → VIDEO 테스트에 사용한 motion-safe padded Canonical Reference.

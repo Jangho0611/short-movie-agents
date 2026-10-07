@@ -1,3 +1,5 @@
+> 운영 범위 (2026-10-07): 이 문서의 ADK 샘플·배포·기존 output 경로는 도구/과거 실행 방식 참고용이며 신규 Shorts 제작 절차가 아니다. 프로젝트 생성·경로·Git은 [Monorepo 운영 기준](docs/MONOREPO_WORKFLOW.md)을 따른다. 신규 영상은 루트 projects/<project-name>에 생성하며 프로젝트별 Git/repository 생성 및 전체 변경 일괄 stage 예시를 적용하지 않는다. 기존 도구의 실제 출력 경로를 바꾼 것으로 해석하지 않는다.
+
 Coding Agent guidance:
 # Google Agent Development Kit (ADK) Python Cheatsheet
 
@@ -1760,7 +1762,7 @@ uvx agent-starter-pack setup-cicd \
 
 **After setup, push to trigger pipeline:**
 ```bash
-git add . && git commit -m "Initial commit" && git push -u origin main
+# Shorts: stage only verified paths from the monorepo root; see docs/MONOREPO_WORKFLOW.md.
 ```
 
 * Note: For coding agents - ask user for required project IDs and repo details before running with `--auto-approve`.

@@ -41,6 +41,8 @@ SHA256: `2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5`.
 
 ## 신규 프로젝트 Slim Copy
 
+대상은 Monorepo `projects/<project-name>/`이다. 위 video/audio/src 등의 상대경로는 공용 원본 `assets/daesan-ending/` 기준이다. 승인 배포 세트의 복사 경로는 아래처럼 유지하되, 프로젝트에서 새로 만드는 영상 결과물은 `public/assets/video/`에 저장한다. 공용 등록 QA의 tests 경로는 과거 등록 검증용이며 신규 Shorts 결과물 기본 경로가 아니다. Git과 신규 프로젝트 생성은 [Monorepo 운영 기준](./MONOREPO_WORKFLOW.md)을 따른다. 승인 엔딩 규격은 변경하지 않는다.
+
 위 src 직접 의존 파일과 video 원본/재생본, audio, logos, fonts를 프로젝트 내부로 복사한다. Canonical Preview 및 이 README도 승인 기준으로 보존한다. `docs/asset-sha256.json`으로 바이트 동일성을 확인한다.
 
 - 예: `src/daesan-ending/`에 컴포넌트와 approved 하위 소스를 복사한다. 기존 프로젝트 root 등록에 `DaesanEnding`을 연결하며 `index.tsx`의 registerRoot를 중복 호출하지 않는다.

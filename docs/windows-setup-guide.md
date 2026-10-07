@@ -1,3 +1,5 @@
+> 운영 범위 (2026-10-07): 이 문서의 ADK 샘플·배포·기존 output 경로는 도구/과거 실행 방식 참고용이며 신규 Shorts 제작 절차가 아니다. 프로젝트 생성·경로·Git은 [Monorepo 운영 기준](./MONOREPO_WORKFLOW.md)을 따른다. 신규 영상은 루트 projects/<project-name>에 생성하며 프로젝트별 Git/repository 생성 및 전체 변경 일괄 stage 예시를 적용하지 않는다. 기존 도구의 실제 출력 경로를 바꾼 것으로 해석하지 않는다.
+
 # Short Movie Agents Windows 설치 및 실행 가이드
 
 이 문서는 Windows, VS Code, PowerShell, `uv`, Python 3.13, ADK 1.31.1, FFmpeg 환경을 기준으로 합니다. 모든 명령은 VS Code의 PowerShell 터미널에서 실행합니다.

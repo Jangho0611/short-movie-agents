@@ -1,11 +1,13 @@
 # 건축자재 Shorts 제작 운영가이드
 
-- 문서 버전: `v1.17`
+- 문서 버전: `v1.18`
 - 작성 기준일: `2026-08-20`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `기획 → 조사 → 이미지 → Flow/Veo → Remotion → TTS → QA → 최종 렌더 → 정리 → Git` 전체 제작 프로세스
 
 ## 문서 목적과 적용 범위
+
+신규 프로젝트는 `/Users/janghokim/Documents/short-movie-agents/projects/<project-name>`에 생성하고, 루트 Git 하나만 사용한다. 프로젝트 내부 .git/origin/standalone GitHub 생성 금지. 상세 경로·Slim Copy·LFS·Git 종료는 [Monorepo 운영 기준](./MONOREPO_WORKFLOW.md)을 따른다. 아래 과거 조사 경로는 역사 기록이다.
 
 이 문서는 실제로 최종 렌더까지 진행한 건축자재 Shorts 프로젝트의 소스와 작업 기록을 바탕으로, 다른 작업자와 Codex가 같은 방식으로 작업을 이어 가기 위한 운영 기준이다. 반복 시행착오를 줄이고, 생성 비용을 통제하며, Scene·TTS·Remotion QA의 일관성과 프로젝트 종료 후 재현 가능성을 보존한다.
 
@@ -216,7 +218,7 @@ Scene별 최종 후보를 순서대로 이어 붙인 `full-tts-qa` 음원을 반
 - 발음, 숫자, 제품명
 - 엔딩 진입감
 
-사용자는 Scene 파일을 하나씩 듣기 전에 통합 파일로 전체 흐름을 승인한다. 승인 후 실제 영상에는 Scene별 MP3를 개별 배치한다. `full-tts-qa` 자체를 최종 영상 audio로 사용하지 않으며, 최종 정리 때 QA 결정이 작업 MD에 남아 있으면 삭제할 수 있다.
+사용자는 Scene 파일을 하나씩 듣기 전에 통합 파일로 전체 흐름을 승인한다. 승인 후 실제 영상에는 Scene별 MP3를 개별 배치한다. `full-tts-qa` 자체를 최종 영상 audio로 사용하지 않으며, 최종 정리 때 정확한 삭제 후보로 보고하고 사용자 삭제 승인을 받은 경우에만 제거할 수 있다.
 
 ## 11. TTS와 시각 강조 싱크
 
@@ -322,7 +324,7 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 
 ## 18. 최종 자산 정리
 
-정리 전에 전체 프로젝트 용량을 기록하고 final과 코드 참조를 확인한다.
+영상·Cover·SNS 최종 승인 후 정확한 삭제 후보를 보고하고 사용자 승인을 받은 대상만 정리한다. 다른 프로젝트는 정리하지 않는다. 정리 전후 용량과 최종 SHA256/QA를 확인하며 코드 미참조만으로 삭제하지 않는다.
 
 **삭제 후보**
 
@@ -345,7 +347,7 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 
 삭제 후 용량과 절약 용량을 기록한다. 삭제 전 `최종 렌더가 존재하는가 / 코드가 참조하는가 / 더 나은 승인본이 있는가 / 작업 기록이 남는가`를 확인한다. 이 가이드 작성 작업에서는 기존 프로젝트 자산을 삭제하지 않는다.
 
-새 프로젝트를 시작할 때는 전체 프로젝트를 복제하지 않는다. 실행에 필요한 source, 설정, `package.json`, lockfile, 승인 asset, canonical reference만 슬림 복사한다. `node_modules`는 복사하지 않고 대상 프로젝트에서 lockfile 기준으로 재설치한다. Scene reference는 특별한 분리 사유가 없으면 `public/references/` flat 구조를 우선하고 파일명으로 Scene과 역할을 구분한다.
+새 프로젝트를 시작할 때는 전체 프로젝트를 복제하지 않는다. 실행에 필요한 source, 설정, `package.json`, lockfile, 승인 asset, canonical reference만 슬림 복사한다. `node_modules`는 복사하지 않고 대상 프로젝트에서 lockfile 기준으로 재설치한다. 진행 중 Scene 이미지는 `public/assets/images/`에 저장한다. `public/references/`는 승인되어 여러 편에 재사용할 Canonical만 보존한다.
 
 ## 18.1 완료 프로젝트 Slim Archive
 
@@ -393,11 +395,11 @@ Preview는 `v1`, `v2`, `v3`처럼 증가시키고 각 버전에서 바꾼 항목
 - 최신 승인 작업이면 필요한 파일만 Git에 반영한다.
 - 작업기록의 단순 위치 이동이면 SHA256 동일성을 확인하고 rename으로 반영한다.
 - 승인 여부가 불명확한 Cover·테스트 영상·생성 후보는 판단 전까지 보존한다.
-- 타 프로젝트 파일이 명확하면 영구삭제하지 않고 휴지통 격리 후 검증한다.
+- 타 프로젝트 파일은 함께 정리하지 않는다. 별도 사용자 승인 없이 이동/삭제하지 않는다.
 
 ### 비정상적으로 큰 `.git`
 
-완료 프로젝트의 `.git`이 프로젝트 크기에 비해 비정상적으로 크면 다음 순서로 조사한다.
+이 절은 별도 사용자 승인을 받은 Monorepo 루트 .git 유지보수에만 적용한다. 영상별 종료 시 자동 실행하지 않으며 프로젝트 내부 .git은 만들지 않는다. 루트 .git이 비정상적으로 크면 다음 순서로 조사한다.
 
 1. `.git` 및 `.git/objects` 용량 확인
 2. `git count-objects -vH`
@@ -458,7 +460,7 @@ Slim Archive 완료 시 작업기록에는 최소한 다음을 남긴다.
 
 ## 19. Git 저장
 
-순서는 `최종 승인 → 실패본 정리 → 작업 MD → 보안검사 → commit → push`다.
+Monorepo 루트에서 `영상·Cover·SNS 승인 → 삭제 후보 보고·사용자 승인 → 승인 후보만 정리 → 프로젝트 작업 MD → SHA256/보안/LFS QA → 관련 경로만 stage → git diff --cached → commit → 일반 push → fetch → HEAD == origin/main 및 CLEAN 확인` 순서로 진행한다. 다른 프로젝트 변경은 포함하지 않으며 DIRTY를 임의 삭제/reset으로 해소하지 않는다.
 
 - 현재 branch와 remote를 확인한다.
 - `.env`, credential, service account JSON, API key, token, private key, client secret을 stage하지 않는다.
@@ -705,9 +707,11 @@ Codex 토큰이 소진되거나 호출이 불가능한 상황에서도, 아래 �
 
 ## 25. 이미지/영상 생성 결과물 저장 경로 표준 (2026-09-16 추가)
 
-- 이미지·영상 생성 결과물(테스트·반복 시도 포함)은 예외 없이 `public/assets/images/`, `public/assets/video/`에 저장한다. Cover는 `public/covers/`, 전체 Preview 렌더는 `public/previews/`처럼 별도 목적의 폴더가 있는 경우 그 경로를 따르되, 그 외 캐릭터/제품/배경 등 생성 이미지·영상 테스트본은 반드시 `assets/images`, `assets/video`로 통일한다.
+- Scene 이미지·영상 생성 결과물(테스트·반복 포함)은 `public/assets/images/`, `public/assets/video/`에 저장한다. 전체 Preview/Final도 `public/assets/video/`, Cover는 `public/covers/`, crop QA는 `public/covers/qa/`를 사용한다. 신규 결과물 기본 경로로 `public/previews/`, `output/`을 만들지 않는다. 과거 legacy 경로는 일괄 변경하지 않는다.
 - `public/references/`는 이미 승인되어 여러 편에서 재사용하는 canonical 자료(실제 제품 사진, 확정 캐릭터 컷아웃, 시공 기준 diagram 등)만 저장한다. 진행 중인 테스트/반복 시도 파일을 references/에 넣지 않는다.
 - 경로를 매번 동일하게 유지하는 이유: 새 버전이 이전 버전보다 항상 나은 건 아니므로(§14 승인본 복원 참조), 승인 전까지는 같은 경로 안에 버전을 그대로 쌓아두고 비교·복원할 수 있어야 한다. 경로가 매번 달라지면 정리 시 무엇이 최종인지 판단이 꼬인다.
 - 정리(§18) 시 "영상 최종본"과 "Scene별 최종 이미지"는 별개의 보존 대상이다. 영상 최종본(final MP4)만 남기고 Scene별 최종 이미지까지 함께 삭제하지 않는다. 여러 버전이 쌓인 assets/images, assets/video 안에서도 각 Scene/항목의 최신 승인 버전은 개별적으로 판단해 보존한다.
 
 **재발 방지 근거**: door-order-tips-v1(2026-09-16) 작업에서 캐릭터 테스트본이 `references/characters/`에 저장되고 Scene별 최종 프레임이 정리 중 함께 삭제되는 사고가 있었음. 원인은 테스트본 저장 경로가 references/로 흩어지고, 영상 최종본과 Scene별 최종 이미지를 동일한 것으로 오인했기 때문.
+
+- v1.18 (2026-10-07): Monorepo 경로·루트 Git/LFS 연결, Preview/Cover/Canonical 저장경로 충돌 해소, 영상·Cover·SNS 및 정리 후보 승인 기준 반영. 과거 변경 이력은 현재 규칙으로 적용하지 않음.

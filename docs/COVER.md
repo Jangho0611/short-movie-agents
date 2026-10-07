@@ -1,6 +1,6 @@
 # 대산 Shorts Cover System
 
-- 문서 버전: `v1.4`
+- 문서 버전: `v1.5`
 - 제정일: `2026-08-21`
 - 상태: `운영 기준 / 지속 고도화`
 - 역할: `Shorts / Reels / Clip 대표이미지의 제작·QA·승인·정리 기준`
@@ -157,6 +157,8 @@ Cover 시작 시 `MAIN DESIGN / SECONDARY DESIGN`을 먼저 결정한다. 항상
 
 ## 11. Feed Safe와 출력
 
+- 프로젝트 내부 최종 Cover는 `public/covers/`, 중앙 crop QA는 `public/covers/qa/`에 저장한다. Scene 이미지 경로 `public/assets/images/`와 구분한다. Monorepo 프로젝트 경로·Git은 [공통 운영 기준](./MONOREPO_WORKFLOW.md)을 따른다.
+
 - 기본 원본: `1080×1920 PNG`, 세로 9:16. Instagram Reels / profile grid, YouTube Shorts, Naver Clip에 사용한다.
 - 반드시 실제 렌더된 세로 원본과 중앙 `1080×1080` square crop(`y=420~1500`)을 모두 시각적으로 확인한다. 숫자·좌표 검사만으로 QA를 끝내지 않는다.
 - 중앙 crop에는 **Headline 전체, Hero Product 또는 핵심 비교 대상, DAESAN Brand Lockup, 콘텐츠 이해에 필요한 캐릭터 얼굴·상체 또는 핵심 시각 요소**를 유지한다.
@@ -178,7 +180,7 @@ Cover는 영상 Scene과 별도 자산으로 관리한다. 대표이미지를 �
 - 장기 가치가 있는 승인본은 `references/covers/`에 Canonical Cover Case로 별도 보존한다.
 - 최종 승인 시 `1080×1920 Cover`, 중앙 square QA 또는 최종 square-safe 결과, 최종 Cover 구현 소스, 그 소스가 직접 참조하는 Hero·제품·캐릭터 이미지, 승인 로고 및 재현에 필요한 폰트·자산을 함께 보존한다.
 - 직접 참조 Hero/Source를 파일명의 “후보” 표시만으로 중간본으로 판단해 정리하지 않는다. canonical product reference와 final 영상도 삭제하지 않는다.
-- 실패·중간 Cover는 코드·문서 의존성을 확인한 뒤 macOS 휴지통으로 이동한다. 영구 삭제하지 않는다.
+- 영상·Cover·SNS 승인 후 실패·중간 Cover의 정확한 후보와 의존성을 보고하고 사용자 삭제 승인을 받은 파일만 macOS 휴지통으로 이동한다. 영구 삭제하지 않는다.
 - 정리한 파일 수와 절약 용량을 프로젝트 작업 기록에 남긴다.
 
 ### 외부 제작 / 스케치컷 영상 Cover
@@ -445,3 +447,5 @@ canonical 실사의 베이지색 원지 면을 identity로 너무 강하게 반�
 - 상태: `APPROVED`
 - 최종 Cover: `gypsum-flame-retardant-shorts-v1/public/covers/gypsum-flame-cover-v10.png`
 - 특이사항: 방염 시리즈(Ep1, Ep2)의 시각 포맷이 향후 모든 방염/방화 관련 에피소드의 고정 템플릿임을 이번에 확인. 포인트 컬러만 콘텐츠별로 변경 가능하나 레이아웃 좌표는 고정.
+
+- v1.5 (2026-10-07): Cover/crop 전용 저장경로 및 Monorepo 정리 승인 절차 명시. 디자인·승인 자산 규격 유지.

@@ -33,20 +33,6 @@ node_modules/
 dist/
 build/
 coverage/
-# 로컬 영상 프로젝트 / 테스트 작업영역
-projects/
-!/projects/
-/projects/*
-!/projects/water-resistant-gypsum-shorts/
-!/projects/door-handing-guide-shorts-v1/
-!/projects/door-order-mistakes-shorts-v1/
-!/projects/light-steel-vs-sosong-shorts-v1/
-!/projects/flame-retardant-episode2-shorts-v1/
-!/projects/darukki-vs-twobuy-webtoon-shorts/
-!/projects/door-frame-integrated-vs-separate-v1/
-!/projects/gypsum-flame-retardant-shorts-v1/
-!/projects/mdf-weakness-shorts-v1/
-!/projects/sosong-lvl-webtoon-shorts/
 # 재생성 가능한 일반 캐시
 cache/
 # 로컬 실행 로그
@@ -55,33 +41,10 @@ logs/
 # Batch 1A 환경/OS 제외 유지
 Thumbs.db
 
-# Batch 1B ENV-validated projects
-!/projects/bathroom-door-moisture-shorts-v1/
-!/projects/door-order-tips-v1/
-!/projects/eboard-explainer-shorts-v1/
-!/projects/flame-retardant-episode1-shorts-v1/
-!/projects/gypsum-board-installation-shorts/
-!/projects/mdf-grade-shorts-v1/
-!/projects/sosong-webtoon-shorts/
-!/projects/uv-coating-episode2-shorts-v1/
-!/projects/uv-coating-episode3-shorts-v1/
-!/projects/uv-coating-shorts-v1/
-!/projects/xi-natural-gypsum-food-fact-shorts/
-
-# Batch 2 approved projects
-!/projects/door-frame-order-tips-v1/
-!/projects/sosong-lumber-grade-shorts-v1/
-!/projects/xps-staggered-joints-shorts/
-!/projects/xps-vs-eps-shorts/
-!/projects/xps-waterproof-vs-water-absorption-shorts/
 # Unapproved successor: preserve locally only
 /projects/sosong-lumber-grade-shorts-v1/public/assets/video/sosong-lumber-grade-preview-v7.mp4
 
-# Batch 3
-!/projects/door-frame-wall-thickness-v1/
-
 # DIRTY-1 selected preservation
-!/projects/eboard-installation-shorts-v2/
 /projects/eboard-installation-shorts-v2/public/covers/eboard-role-cover-v1.png
 /projects/eboard-installation-shorts-v2/public/covers/qa/eboard-role-cover-v1-instagram-center-crop.png
 /projects/eboard-installation-shorts-v2/public/covers/qa/eboard-role-sketch-cover-v1-instagram-center-crop.png
@@ -90,14 +53,12 @@ Thumbs.db
 /projects/eboard-installation-shorts-v2/public/references/products/imagegen-input/eboard-wallpaper-angle-v1.png
 
 # DIRTY-2 approved Cover v6
-!/projects/mdf-spec-check-shorts/
 /projects/mdf-spec-check-shorts/public/covers/mdf-spec-check-cover-v4.png
 /projects/mdf-spec-check-shorts/public/covers/mdf-spec-check-cover-v5.png
 /projects/mdf-spec-check-shorts/public/assets/video/mfg-test-press.mp4
 /projects/mdf-spec-check-shorts/src/mfg-test-render.tsx
 
 # DIRTY-3 selected xi preservation
-!/projects/xi-natural-gypsum-webtoon-shorts/
 /projects/xi-natural-gypsum-webtoon-shorts/public/assets/audio/scene01-tts-final-v2.mp3
 /projects/xi-natural-gypsum-webtoon-shorts/public/assets/audio/scene01-tts-final-v3.mp3
 /projects/xi-natural-gypsum-webtoon-shorts/public/assets/audio/scene01-tts-final-v4.mp3
@@ -199,5 +160,8 @@ Thumbs.db
 /projects/xi-natural-gypsum-webtoon-shorts/scripts/prompts/scene02-veo-v3-subtle-idle.txt
 /projects/xi-natural-gypsum-webtoon-shorts/scripts/prompts/scene02-veo-v4-sosong-style.txt
 
-# Final approved hidden-door project
-!/projects/hidden-door-installation-shorts-v1/
+# Formal projects are trackable by default; experiments remain local
+/projects/TEST/
+
+# Preserve research archive local-only files previously covered by projects/
+/references/product-material-library-2026-10-06/원문/remotion_video/projects/
