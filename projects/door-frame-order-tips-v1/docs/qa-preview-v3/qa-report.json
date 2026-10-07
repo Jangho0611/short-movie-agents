@@ -1,0 +1,46 @@
+{
+  "mechanical_qa": "PASS",
+  "preview": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/video/door-frame-order-tips-preview-v3.mp4",
+  "sha256": "77397bda33a62217aff6b0427a4f3aea87451e1215b97b9cf3f5d2c7979c3d77",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "H.264/AAC",
+    "frames": 1210,
+    "video_duration": "40.333333",
+    "container_duration": "40.384000"
+  },
+  "full_decode": "PASS",
+  "only_changed_existing_files": [
+    "src/Scenes.tsx",
+    "src/FrameProfiles.tsx"
+  ],
+  "all_existing_assets_preserved": true,
+  "S1_S5_and_shared_source_unchanged": true,
+  "approved_TTS_hashes": "PASS",
+  "v2_v3_decoded_PCM_identical": true,
+  "timeline_Root_ending_sources_unchanged": true,
+  "scene_frames": [
+    106,
+    277,
+    223,
+    177,
+    257
+  ],
+  "ending_frames": 170,
+  "external_runtime_refs": [],
+  "new_public_files": [
+    "public/assets/video/door-frame-order-tips-preview-v3.mp4",
+    "public/assets/images/preview-v3-scene2-f175.png",
+    "public/assets/images/preview-v3-scene3-f170.png",
+    "public/assets/images/preview-v3-final-scene3-f553.png",
+    "public/assets/images/preview-v3-final-scene4-f756.png",
+    "public/assets/images/preview-v3-final-scene2-f281.png",
+    "public/assets/images/preview-v3-scene4-f150.png"
+  ],
+  "AI_generation": false,
+  "visual_approval": "사용자 확인 대기",
+  "public_previews_new_outputs": false,
+  "visual_QA": "최종 S2/S3/S4 추출 화면 확인: 텍스트/캐릭터 겹침 없음. S3 공통 배율 2px/mm, 하단 datum 56, 일반/와이드 42mm, 슬림 PVC 45mm. 최종 사용자 시각 승인 대기."
+}

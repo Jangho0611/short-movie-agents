@@ -1,0 +1,39 @@
+{
+  "mechanical_qa": "PASS",
+  "preview": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/video/door-frame-order-tips-preview-v5.mp4",
+  "sha256": "f872fd7f7fe5225f4960184055a4213946951e27237376456a39c24629f9f72d",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "H.264/AAC",
+    "frames": 1210,
+    "video_duration": "40.333333",
+    "container_duration": "40.384000"
+  },
+  "full_decode": "PASS",
+  "only_changed_existing_files": [
+    "src/Scenes.tsx"
+  ],
+  "all_existing_assets_preserved": true,
+  "S1_S3_S5_and_shared_source_unchanged": true,
+  "approved_TTS_hashes": "PASS",
+  "v4_v5_decoded_PCM_identical": true,
+  "timeline_Root_ending_sources_unchanged": true,
+  "scene_frames": [
+    106,
+    277,
+    223,
+    177,
+    257
+  ],
+  "ending_frames": 170,
+  "external_runtime_refs": [],
+  "new_public_files": [
+    "public/assets/video/door-frame-order-tips-preview-v5.mp4",
+    "public/assets/images/preview-v5-scene2-f175.png",
+    "public/assets/images/preview-v5-scene4-f150.png"
+  ],
+  "AI_generation": false,
+  "visual_approval": "사용자 확인 대기"
+}

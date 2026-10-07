@@ -1,0 +1,23 @@
+{
+  "name": "xps-waterproof-vs-water-absorption-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "XPS water absorption and waterproofing: approved hybrid Shorts",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx XpsWaterproof public/assets/video/xps-waterproof-vs-water-absorption-v2.mp4 --codec=h264 --concurrency=2",
+    "bundle": "remotion bundle src/index.tsx"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.496",
+    "@remotion/media": "4.0.496",
+    "@remotion/cli": "4.0.496",
+    "remotion": "4.0.496",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

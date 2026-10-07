@@ -1,0 +1,177 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "input_file": "/Users/janghokim/Documents/door-frame-order-tips-v1/scripts/tts-input-v2.json",
+  "scenes": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene01-v2.mp3",
+      "duration_seconds": 3.408,
+      "bytes": 13632,
+      "sha256": "69b0eb0ff0d3f673b8d15db99c3959cd8239c9b7ed6830b746551f3028a51e91",
+      "text": "문틀 발주하실 때, 사이즈만 말씀하고 계신가요?",
+      "input_exact_match": true,
+      "decode": "PASS",
+      "silences": [
+        {
+          "start": 0,
+          "end": 0.641542,
+          "duration": 0.641542
+        },
+        {
+          "start": 3.2085,
+          "end": 3.408,
+          "duration": 0.1995
+        }
+      ],
+      "max_silence": 0.641542,
+      "long_silences_ge_1s": [],
+      "duration_change_from_v1_seconds": 0.0
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene02-v2.mp3",
+      "duration_seconds": 9.096,
+      "bytes": 36384,
+      "sha256": "120a6833fd668d2fbfe400e313e0647677c3efd265346f422c0ffb914f64c128",
+      "text": "문틀은 크게 발포문틀, 목문틀 그리고 혼합형문틀로 나뉘는데요. 먼저 어떤 문틀을 사용할지 확인해야 합니다.",
+      "input_exact_match": true,
+      "decode": "PASS",
+      "silences": [
+        {
+          "start": 0,
+          "end": 0.540125,
+          "duration": 0.540125
+        },
+        {
+          "start": 1.4814580000000002,
+          "end": 2.043458,
+          "duration": 0.562
+        },
+        {
+          "start": 3.288584,
+          "end": 3.468167,
+          "duration": 0.179583
+        },
+        {
+          "start": 3.8335830000000004,
+          "end": 4.228958,
+          "duration": 0.395375
+        },
+        {
+          "start": 5.642625,
+          "end": 6.21925,
+          "duration": 0.576625
+        },
+        {
+          "start": 7.824832999999999,
+          "end": 8.164333,
+          "duration": 0.3395
+        },
+        {
+          "start": 8.873,
+          "end": 9.096,
+          "duration": 0.223
+        }
+      ],
+      "max_silence": 0.576625,
+      "long_silences_ge_1s": [],
+      "duration_change_from_v1_seconds": 1.992
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene03-v2.mp3",
+      "duration_seconds": 7.296,
+      "bytes": 29184,
+      "sha256": "c8fcb228b75f54857c9e3720944fee21cefab3d5429021af56e376dc1012fd3a",
+      "text": "같은 문틀 안에서도 일반형이나 와이드형 그리고 일체형이나 분리형처럼 타입이 다시 나뉩니다.",
+      "input_exact_match": true,
+      "decode": "PASS",
+      "silences": [
+        {
+          "start": 0,
+          "end": 0.410708,
+          "duration": 0.410708
+        },
+        {
+          "start": 5.195333,
+          "end": 5.782958,
+          "duration": 0.587625
+        },
+        {
+          "start": 7.078125,
+          "end": 7.296,
+          "duration": 0.217875
+        }
+      ],
+      "max_silence": 0.587625,
+      "long_silences_ge_1s": [],
+      "duration_change_from_v1_seconds": 0.312
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene04-v2.mp3",
+      "duration_seconds": 5.064,
+      "bytes": 20256,
+      "sha256": "8865814206408df34baa5555a7ac47417632710b483cf64e9c924fb4fb1ef409",
+      "text": "추가로 현장 벽체 두께까지 확인하고, 그에 맞는 문틀 폭을 선택해야 하고요.",
+      "input_exact_match": true,
+      "decode": "PASS",
+      "silences": [
+        {
+          "start": 0,
+          "end": 0.415458,
+          "duration": 0.415458
+        },
+        {
+          "start": 4.8339170000000005,
+          "end": 5.064,
+          "duration": 0.230083
+        }
+      ],
+      "max_silence": 0.415458,
+      "long_silences_ge_1s": [],
+      "duration_change_from_v1_seconds": -1.224
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene05-v2.mp3",
+      "duration_seconds": 8.808,
+      "bytes": 35232,
+      "sha256": "0e2d80aef6cc4b3f8898160c0c90b52eb3eb40e1c1f2fa78221fbd7d0a6a5a4a",
+      "text": "그래서 문틀을 발주할 땐 사이즈만 말씀하시기보다, 문틀 종류와 타입, 마지막으로 필요한 폭까지 같이 확인해 주시는 게 좋습니다.",
+      "input_exact_match": true,
+      "decode": "PASS",
+      "silences": [
+        {
+          "start": 0,
+          "end": 0.687417,
+          "duration": 0.687417
+        },
+        {
+          "start": 5.5628340000000005,
+          "end": 5.903792,
+          "duration": 0.340958
+        },
+        {
+          "start": 8.570416999999999,
+          "end": 8.808,
+          "duration": 0.237583
+        }
+      ],
+      "max_silence": 0.687417,
+      "long_silences_ge_1s": [],
+      "duration_change_from_v1_seconds": 0.984
+    }
+  ],
+  "silence_detection": "-30dB / minimum 0.15s; flag >=1.0s, screening threshold not a perceptual verdict",
+  "full_qa": {
+    "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/full-tts-qa-v2.mp3",
+    "duration_seconds": 34.152,
+    "bytes": 547628,
+    "sha256": "f5c0e03945a8c0b739555819b5d85f11517756ddbc47e29e6ffb87cfd2f5e59f",
+    "added_gap_seconds": 0.12,
+    "decode": "PASS",
+    "purpose": "청취 전용, 최종 영상 오디오로 사용하지 않음"
+  },
+  "mechanical_qa": "PASS",
+  "human_listening": "사용자 청취 필요: Scene 1 질문 억양; Scene 2 세 종류 구분; Scene 3 두 묶음 구분; Scene 4 추가로 연결 및 말투; Scene 5 마지막으로 체크 순서·늘어짐; 전체 발음·음색·자연스러움",
+  "scene_duration": "미확정: TTS 청취 승인 후 결정",
+  "v1_and_ending_source_preservation": "PASS"
+}

@@ -1,0 +1,27 @@
+{
+  "Scene01": {
+    "file": "public/assets/audio/scene01-v2.mp3",
+    "sha256": "69b0eb0ff0d3f673b8d15db99c3959cd8239c9b7ed6830b746551f3028a51e91",
+    "approved": true
+  },
+  "Scene02": {
+    "file": "public/assets/audio/scene02-v2.mp3",
+    "sha256": "120a6833fd668d2fbfe400e313e0647677c3efd265346f422c0ffb914f64c128",
+    "approved": true
+  },
+  "Scene03": {
+    "file": "public/assets/audio/scene03-v2.mp3",
+    "sha256": "c8fcb228b75f54857c9e3720944fee21cefab3d5429021af56e376dc1012fd3a",
+    "approved": true
+  },
+  "Scene04": {
+    "file": "public/assets/audio/scene04-v3.mp3",
+    "sha256": "a53f7a37d6e6d6b251fd5401f6d2591b847213856a70579dcb4e3c70b085713e",
+    "approved": true
+  },
+  "Scene05": {
+    "file": "public/assets/audio/scene05-v3.mp3",
+    "sha256": "e3cbc6ea83c620e801d0ace5dfb841d008c6e9b9d009c6e5cca7bd0196023389",
+    "approved": true
+  }
+}

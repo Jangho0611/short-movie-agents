@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+public/assets/video/xps-vs-eps-test-v6.mp4

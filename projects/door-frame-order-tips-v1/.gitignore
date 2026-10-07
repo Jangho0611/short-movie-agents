@@ -1,0 +1,24 @@
+node_modules/
+.cache/
+build/
+.env*
+.DS_Store
+
+# Local caches, temporary files and credentials
+node_modules/.cache/
+.env
+.env.*
+*.log
+cache/
+tmp/
+temp/
+credentials*.json
+*service-account*.json
+*service_account*.json
+*.pem
+*.key
+*.p12
+
+# Approved QA/reproduction records
+!out/qa/preview-v1/*.log
+!docs/qa-preview-v2/render.log

@@ -1,0 +1,204 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "rate": 1.0,
+  "pitch": "unspecified",
+  "rows": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene04-v3.mp3",
+      "duration": 5.775458,
+      "inserted_silence_samples": 4320,
+      "sample_rate": 24000,
+      "inserted_silence_seconds": 0.18,
+      "join_start_pcm": 3.338208333333333,
+      "measured_join_silences": [
+        {
+          "start": 3.328958,
+          "end": 3.518208,
+          "duration": 0.18925
+        }
+      ],
+      "silences_ge_1s": [],
+      "all_silences": [
+        {
+          "start": 0.0,
+          "end": 0.732708,
+          "duration": 0.732708
+        },
+        {
+          "start": 1.125667,
+          "end": 1.563667,
+          "duration": 0.438
+        },
+        {
+          "start": 1.981,
+          "end": 2.05925,
+          "duration": 0.07825
+        },
+        {
+          "start": 2.3076670000000004,
+          "end": 2.388542,
+          "duration": 0.080875
+        },
+        {
+          "start": 2.4511252999999997,
+          "end": 2.511167,
+          "duration": 0.0600417
+        },
+        {
+          "start": 3.328958,
+          "end": 3.518208,
+          "duration": 0.18925
+        },
+        {
+          "start": 4.456416699999999,
+          "end": 4.52,
+          "duration": 0.0635833
+        },
+        {
+          "start": 5.0187083,
+          "end": 5.078625,
+          "duration": 0.0599167
+        },
+        {
+          "start": 5.367125,
+          "end": 5.4345,
+          "duration": 0.067375
+        },
+        {
+          "start": 5.619416,
+          "end": 5.775458,
+          "duration": 0.156042
+        }
+      ],
+      "part_a_tail_trim_seconds": 0.2857916666666669,
+      "part_b_head_trim_seconds": 0.28675,
+      "decode": "PASS",
+      "input_match": "PASS",
+      "raw_parts": [
+        "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene04-part-a-v3.mp3",
+        "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene04-part-b-v3.mp3"
+      ]
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene05-v3.mp3",
+      "duration": 8.4455,
+      "inserted_silence_samples": 4320,
+      "sample_rate": 24000,
+      "inserted_silence_seconds": 0.18,
+      "join_start_pcm": 4.985458333333334,
+      "measured_join_silences": [
+        {
+          "start": 4.985417,
+          "end": 5.1655,
+          "duration": 0.180083
+        }
+      ],
+      "silences_ge_1s": [],
+      "all_silences": [
+        {
+          "start": 0.0,
+          "end": 0.617375,
+          "duration": 0.617375
+        },
+        {
+          "start": 1.954583,
+          "end": 2.013458,
+          "duration": 0.058875
+        },
+        {
+          "start": 3.1236663,
+          "end": 3.186958,
+          "duration": 0.0632917
+        },
+        {
+          "start": 3.4762500000000003,
+          "end": 3.826125,
+          "duration": 0.349875
+        },
+        {
+          "start": 4.0247912999999995,
+          "end": 4.075583,
+          "duration": 0.0507917
+        },
+        {
+          "start": 4.657083,
+          "end": 4.743458,
+          "duration": 0.086375
+        },
+        {
+          "start": 4.985417,
+          "end": 5.1655,
+          "duration": 0.180083
+        },
+        {
+          "start": 5.809917,
+          "end": 5.874417,
+          "duration": 0.0645
+        },
+        {
+          "start": 6.279375,
+          "end": 6.3605,
+          "duration": 0.081125
+        },
+        {
+          "start": 6.8392083,
+          "end": 6.9,
+          "duration": 0.0607917
+        },
+        {
+          "start": 8.223166999999998,
+          "end": 8.4455,
+          "duration": 0.222333
+        }
+      ],
+      "part_a_tail_trim_seconds": 0.1985416666666664,
+      "part_b_head_trim_seconds": 0.5839583333333334,
+      "decode": "PASS",
+      "input_match": "PASS",
+      "raw_parts": [
+        "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene05-part-a-v3.mp3",
+        "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene05-part-b-v3.mp3"
+      ]
+    }
+  ],
+  "full": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/full-tts-qa-v3.mp3",
+  "full_duration": 34.500958,
+  "scene_gap_added": 0.12,
+  "preserved_existing_tts_sources_ending": "PASS",
+  "locked_scenes": [
+    "scene01-v2.mp3",
+    "scene02-v2.mp3",
+    "scene03-v2.mp3"
+  ],
+  "preserved_sha256": {
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene02-v1.mp3": "b88f1caff5eb61eb017a54536c61b27505c6b700307ef1e08e69bec85e9525c0",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/full-tts-qa-v1.mp3": "8d3cb4f9e8e6be6d955090cd17f46d218ec973ccd89a4acbdfb2dcd39647d9de",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene02-v2.mp3": "120a6833fd668d2fbfe400e313e0647677c3efd265346f422c0ffb914f64c128",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/full-tts-qa-v2.mp3": "f5c0e03945a8c0b739555819b5d85f11517756ddbc47e29e6ffb87cfd2f5e59f",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene04-v2.mp3": "8865814206408df34baa5555a7ac47417632710b483cf64e9c924fb4fb1ef409",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene04-v1.mp3": "a500127f217057cc70869d62abb7027150ead46de37c69671ef45ce6ddc9d561",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene01-v1.mp3": "69b0eb0ff0d3f673b8d15db99c3959cd8239c9b7ed6830b746551f3028a51e91",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene01-v2.mp3": "69b0eb0ff0d3f673b8d15db99c3959cd8239c9b7ed6830b746551f3028a51e91",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene03-v2.mp3": "c8fcb228b75f54857c9e3720944fee21cefab3d5429021af56e376dc1012fd3a",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene03-v1.mp3": "88ad83af1e81d0e423362016dcd6a1ecba0f82c4d88c13228159962269117acb",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene05-v1.mp3": "5731ad817a37cf71164fc0912dd4b626f7365b70c192a6c159963d02d6ae3eb1",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/audio/scene05-v2.mp3": "0e2d80aef6cc4b3f8898160c0c90b52eb3eb40e1c1f2fa78221fbd7d0a6a5a4a",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/Root.tsx": "4165f3dae6e0ce4e46192cdff733015dba666333f2933edc61109994c13e04b5",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/index.ts": "f9bc4e836a064aca9c58a681e1dc779b62a4d82894450e8e15d5cdd05840e36e",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/daesan-ending/DaesanEnding.tsx": "d6584b4f16a5bc9c8e5b1aa01e6ba737e8bd1f1fc47e2753e55c559497f5fc4f",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/daesan-ending/approved/fonts.ts": "ac24074a459e5026960996eb8e835a9b39a6462bed0050ce59ad66dbef8a2a64",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/daesan-ending/approved/HeadquartersOverlay.tsx": "4ebe6a043cc37e5113f976107aeed58b6bac39874b5970b1e508e0171b759777",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/daesan-ending/approved/tokens.ts": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/src/daesan-ending/approved/brief.ts": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/video/IMG_3934.MOV": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/video/headquarters-normal-speed-hold.mp4": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/logos/daesanlogo2.png": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/audio/ending-approved-v3.mp3": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/fonts/Pretendard-SemiBold.woff2": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/fonts/Pretendard-ExtraBold.woff2": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "/Users/janghokim/Documents/door-frame-order-tips-v1/public/daesan-ending/fonts/Pretendard-Medium.woff2": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c"
+  },
+  "silence_threshold": "-30dB, minimum 0.05 seconds",
+  "human_listening": "사용자 청취 필요: 연결부 자연스러움, 과도한 분절 여부, Part B 시작 톤, 특히 마지막으로의 톤; Scene duration 미확정"
+}

@@ -1,0 +1,7 @@
+node_modules/
+.venv/
+.DS_Store
+*.bak
+.env
+.env.*
+public/assets/video/xps-staggered-joints-preview-v8.mp4

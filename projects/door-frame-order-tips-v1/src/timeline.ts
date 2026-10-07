@@ -1,0 +1,48 @@
+export const TIMELINE = [
+  {
+    "id": "Scene01",
+    "audio": "scene01-v2.mp3",
+    "tts": 3.408,
+    "frames": 106,
+    "duration": 3.533333333333333,
+    "tail": 0.1253333333333333,
+    "from": 0
+  },
+  {
+    "id": "Scene02",
+    "audio": "scene02-v2.mp3",
+    "tts": 9.096,
+    "frames": 277,
+    "duration": 9.233333333333333,
+    "tail": 0.13733333333333242,
+    "from": 106
+  },
+  {
+    "id": "Scene03",
+    "audio": "scene03-v2.mp3",
+    "tts": 7.296,
+    "frames": 223,
+    "duration": 7.433333333333334,
+    "tail": 0.1373333333333333,
+    "from": 383
+  },
+  {
+    "id": "Scene04",
+    "audio": "scene04-v3.mp3",
+    "tts": 5.775458,
+    "frames": 177,
+    "duration": 5.9,
+    "tail": 0.12454199999999993,
+    "from": 606
+  },
+  {
+    "id": "Scene05",
+    "audio": "scene05-v3.mp3",
+    "tts": 8.4455,
+    "frames": 257,
+    "duration": 8.566666666666666,
+    "tail": 0.12116666666666731,
+    "from": 783
+  }
+] as const;
+export const BODY_FRAMES = 1040;

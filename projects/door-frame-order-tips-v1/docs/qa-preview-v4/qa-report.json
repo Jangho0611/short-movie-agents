@@ -1,0 +1,47 @@
+{
+  "mechanical_qa": "PASS",
+  "preview": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/video/door-frame-order-tips-preview-v4.mp4",
+  "sha256": "7aa7df2ec131c90ee8322eb957596647ea5341a0529ed098d7172776fc210c68",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "H.264/AAC",
+    "frames": 1210,
+    "video_duration": "40.333333",
+    "container_duration": "40.384000"
+  },
+  "full_decode": "PASS",
+  "only_changed_existing_files": [
+    "src/Scenes.tsx",
+    "src/FrameProfiles.tsx"
+  ],
+  "all_existing_assets_preserved": true,
+  "S1_S3_S4_S5_and_shared_source_unchanged": true,
+  "approved_TTS_hashes": "PASS",
+  "v3_v4_decoded_PCM_identical": true,
+  "timeline_Root_ending_sources_unchanged": true,
+  "scene_frames": [
+    106,
+    277,
+    223,
+    177,
+    257
+  ],
+  "ending_frames": 170,
+  "external_runtime_refs": [],
+  "new_public_files": [
+    "public/assets/video/door-frame-order-tips-preview-v4.mp4",
+    "public/assets/images/preview-v4-scene2-f175.png",
+    "public/assets/images/preview-v4-final-scene2-f281.png"
+  ],
+  "AI_generation": false,
+  "visual_approval": "사용자 확인 대기",
+  "S3_PVC_Wood_components_unchanged": true,
+  "hybrid_v2_contour_without_width_arrows": true,
+  "labels": [
+    "가변형 예시",
+    "PVC + 목재"
+  ],
+  "public_previews_new_outputs": false
+}

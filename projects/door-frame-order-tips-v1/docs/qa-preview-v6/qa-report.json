@@ -1,0 +1,42 @@
+{
+  "preview": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/video/door-frame-order-tips-preview-v6.mp4",
+  "sha256": "767df47453ae6fb56d4435a6e399e9cfbe4f349bf14e5b9210b299da6a163597",
+  "mechanical_qa": "PASS",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "codec": "H.264 lossless / AAC copied",
+  "frames": 1210,
+  "video_duration": "40.333333",
+  "full_decode": "PASS",
+  "all_existing_source_assets_hashes_unchanged": true,
+  "changed_video_frames": [
+    0
+  ],
+  "frames_1_to_1209_decoded_pixels_identical": true,
+  "S2_to_S5_rendered_pixels_identical": true,
+  "ending_170_frames_decoded_pixels_identical": true,
+  "approved_TTS_hashes_identical": true,
+  "decoded_audio_identical": true,
+  "timeline_source_unchanged": true,
+  "entrance_animation_cause": false,
+  "finding": "Headline/layout static from frame 0; old MP4 frame 0 contains tiled repeated screen fragments. Independent PNG frame 0 correct. Exact capture/encoding failure mechanism unconfirmed.",
+  "repair": "Replaced frame 0 with independent Remotion PNG. Lossless H.264 re-encode preserves every subsequent decoded frame; AAC stream copied.",
+  "contact_sheet": "/Users/janghokim/Documents/door-frame-order-tips-v1/public/assets/images/preview-v6-start-f00-f10-contact-sheet.png",
+  "AI_generation": false,
+  "new_public_files": [
+    "public/assets/video/door-frame-order-tips-preview-v6.mp4",
+    "public/assets/images/preview-v6-start-f08.png",
+    "public/assets/images/preview-v6-start-f09.png",
+    "public/assets/images/preview-v6-start-f00-f10-contact-sheet.png",
+    "public/assets/images/preview-v6-start-f01.png",
+    "public/assets/images/preview-v6-start-f00.png",
+    "public/assets/images/preview-v6-start-f02.png",
+    "public/assets/images/preview-v6-start-f03.png",
+    "public/assets/images/preview-v6-start-f07.png",
+    "public/assets/images/preview-v6-start-f06.png",
+    "public/assets/images/preview-v6-start-f10.png",
+    "public/assets/images/preview-v6-start-f04.png",
+    "public/assets/images/preview-v6-start-f05.png"
+  ]
+}

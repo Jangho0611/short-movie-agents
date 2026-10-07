@@ -1,0 +1,64 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "scenes": [
+    {
+      "id": 1,
+      "audio": "scene01-tts-v3.mp3",
+      "text": "소송각재에도 등급이 있습니다. 알고 계셨나요?",
+      "audioSeconds": 3.456,
+      "durationInFrames": 113,
+      "from": 0
+    },
+    {
+      "id": 2,
+      "audio": "scene02-tts-v3.mp3",
+      "text": "각재나 번들을 보면 등급이 표시되어 있습니다.",
+      "audioSeconds": 3.456,
+      "durationInFrames": 113,
+      "from": 113
+    },
+    {
+      "id": 3,
+      "audio": "scene03-tts-v2.mp3",
+      "text": "하지만 실제 구매할 땐, 그냥 다루끼, 투바이 주세요 하게 되죠.",
+      "audioSeconds": 4.128,
+      "durationInFrames": 133,
+      "from": 226
+    },
+    {
+      "id": 4,
+      "audio": "scene04-tts-v3.mp3",
+      "text": "자재는 한 단씩 묶여서 들어옵니다. 풀어보기 전에는 상태를 확인하기 어렵죠.",
+      "audioSeconds": 6.216,
+      "durationInFrames": 196,
+      "from": 359
+    },
+    {
+      "id": 5,
+      "audio": "scene05-tts-v3.mp3",
+      "text": "그래서 같은 소송각재라도 상태는 다를 수 있어요.",
+      "audioSeconds": 3.456,
+      "durationInFrames": 113,
+      "from": 555
+    },
+    {
+      "id": 6,
+      "audio": "scene06-tts-v2.mp3",
+      "text": "결국 다루끼, 투바이도 다 똑같은 자재는 아니라는 거죠.",
+      "audioSeconds": 3.696,
+      "durationInFrames": 120,
+      "from": 668
+    }
+  ],
+  "ending": {
+    "from": 788,
+    "durationInFrames": 170,
+    "audioSeconds": 4.854,
+    "audio": "ending-approved-v3.mp3"
+  },
+  "totalFrames": 958
+}

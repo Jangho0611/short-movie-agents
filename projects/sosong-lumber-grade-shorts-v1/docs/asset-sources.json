@@ -1,0 +1,110 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/src/scene5/Scene5Ending.tsx",
+    "local": "src/scene5/Scene5Ending.tsx",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "f22b30f0e452eb5b92c14594ed42dd82fe53e6c137825b2408a7ac328b263ca6"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/src/scene5/brief.ts",
+    "local": "src/scene5/brief.ts",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/src/scene5/tokens.ts",
+    "local": "src/scene5/tokens.ts",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/src/scene5/fonts.ts",
+    "local": "src/scene5/fonts.ts",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "9413c67f64a284b4dc4bac15592f1a6a2c3ff129b69ff41dd021ddd658cf64df"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/fonts/Pretendard-SemiBold.woff2",
+    "local": "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "local": "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/fonts/Pretendard-Bold.woff2",
+    "local": "public/assets/fonts/Pretendard-Bold.woff2",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/fonts/Pretendard-Medium.woff2",
+    "local": "public/assets/fonts/Pretendard-Medium.woff2",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/logos/daesanlogo2.png",
+    "local": "public/assets/logos/daesanlogo2.png",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea"
+  },
+  {
+    "source": "/Users/janghokim/Documents/darukki-vs-twobuy-webtoon-shorts/public/assets/audio/scene06-tts-v3.mp3",
+    "local": "public/assets/audio/ending-approved-v3.mp3",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181"
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-webtoon-shorts/public/assets/images/scene01-vertex-reference-v4.png",
+    "local": "public/assets/images/scene01-vertex-reference-v4.png",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "8bdd3e100d75f5024db1c9e5b555128b21c1e30c104df9b54caebcaf193f0175"
+  },
+  {
+    "source": "/Users/janghokim/Documents/sosong-lvl-webtoon-shorts/public/assets/images/scene02-reference-v1.png",
+    "local": "public/assets/images/scene02-reference-v1.png",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "baselineSha256": "cf17e1f1aae55c0ad3a429520ae844a3a9478f9388d518ba54318ee8ca3c203d"
+  },
+  {
+    "source": "assets/daesani-motion-library/video/daesani-point-right.mp4",
+    "local": "public/assets/video/daesani-point-right.mp4",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "sourceBase": "/Users/janghokim/Documents/short-movie-agents",
+    "baselineSha256": "66ee3756a6f216de8d6e7a53c9ce6e8579227c56e1c11c918b5a6cafdfe849fd"
+  },
+  {
+    "source": "assets/daesani-motion-library/video/daesani-open-arms-explain.mp4",
+    "local": "public/assets/video/daesani-open-arms-explain.mp4",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "sourceBase": "/Users/janghokim/Documents/short-movie-agents",
+    "baselineSha256": "af0520a66456f9cab6f0de26db34917a0acbb0a9f2860c466ab086811f7f791d"
+  },
+  {
+    "source": "scripts/generate_tts.py",
+    "local": "scripts/generate_tts.py",
+    "provenanceOnly": true,
+    "sourceNote": "Historical source only; not required for independent preview, render or QA.",
+    "sourceBase": "/Users/janghokim/Documents/short-movie-agents",
+    "baselineSha256": "db6da3b455a55a0cfc49d654670ac44dfbbddac830fb2ea90d99c1fd3f5eee6d"
+  }
+]
