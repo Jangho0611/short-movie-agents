@@ -1,0 +1,103 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "input": "scripts/tts-input-v1.json",
+  "scenes": [
+    {
+      "file": "public/assets/audio/scene01-v1.mp3",
+      "duration": 3.288,
+      "decodedDuration": 3.288,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "ab975eb0a9d102645634e53883f9be3c3934e29e26a703d1e509934ec1193f18",
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene02-v1.mp3",
+      "duration": 3.264,
+      "decodedDuration": 3.264,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "e337d84fe56a8a5e70175ba861bfdaae7f4596fc9443f22ac2967214bf0c9a52",
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene03-v1.mp3",
+      "duration": 2.856,
+      "decodedDuration": 2.856,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "a2c25e8fea05a13ddf624884bded0952517567188feaf9df1cd9e364ccb3efed",
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene04-v1.mp3",
+      "duration": 4.728,
+      "decodedDuration": 4.728,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "7042412011a84183b44aa0f3040086a0eab9f28a4e7ef46c79ce31036687fe8b",
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene05-v1.mp3",
+      "duration": 4.896,
+      "decodedDuration": 4.896,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "9f8ad7a47f6c15cc2f4104e06ac31352b516d4c5bffba05d275a97d7e878eed0",
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene06-v1.mp3",
+      "duration": 6.984,
+      "decodedDuration": 6.984,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "2a85165bff8b449fb7733a876d5df9d1b20eb1f95290994826b7fa9f06249e0d",
+      "decode": "PASS"
+    }
+  ],
+  "full": {
+    "file": "public/assets/audio/full-tts-qa-v1.mp3",
+    "duration": 26.016,
+    "decodedDuration": 26.016,
+    "audioStream": {
+      "codec_name": "mp3",
+      "sample_rate": "24000",
+      "channels": 1
+    },
+    "sha256": "cec444a9f4ef564ec4e616f409adf69d82d1b060832933a16ecf747a8daec3af",
+    "decode": "PASS"
+  },
+  "order": [
+    "scene01-v1.mp3",
+    "scene02-v1.mp3",
+    "scene03-v1.mp3",
+    "scene04-v1.mp3",
+    "scene05-v1.mp3",
+    "scene06-v1.mp3"
+  ],
+  "assembly": "Decoded PCM chunks concatenated in Scene 1–6 order; no added silence, speed change, splitting, SSML or ending. Re-encoded MP3. Decoded full sample count equals sum of scene sample counts.",
+  "mechanicalQA": "PASS",
+  "listeningQA": "PENDING USER: S1 question intonation; S4 발포문틀; S5 가변형; S6 breath and ending; overall voice and transitions",
+  "remotionImplementation": "NOT STARTED"
+}

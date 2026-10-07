@@ -1,0 +1,20 @@
+{
+  "outputs": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/door-frame-wall-thickness-preview-v4.mp4",
+      "frames": 1429,
+      "duration": "47.633333",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene01-preview-v4.mp4",
+      "frames": 114,
+      "duration": "3.800000",
+      "decode": "PASS"
+    }
+  ],
+  "exactlyTwoTextReplacements": true,
+  "protectedHashes": "PASS",
+  "fullDecodedAudioIdentical": true,
+  "visual": "PASS: Scene1 new headline and question-card text visible without clipping/overlap"
+}

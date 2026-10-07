@@ -1,0 +1,191 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/door-frame-order-tips-v1/package.json",
+    "target": "package.json",
+    "sourceSha256": "d73830b6d0a3cec339efe6a1e767ae79a0e30ba9e628d1f71c1262f129cc11d5",
+    "targetSha256": "aafd5a1f83446eb4b5bbcc7e39632d052dfcaf35d634581edbccfcac92a00a83",
+    "byteIdentical": false
+  },
+  {
+    "source": "/Users/janghokim/Documents/door-frame-order-tips-v1/package-lock.json",
+    "target": "package-lock.json",
+    "sourceSha256": "fd816b2d713fadcfce49dba66bac8d30ae850c8c54c94a3bdb3cc622ff474c5a",
+    "targetSha256": "360a47a3ef3ab4c0fe8f42232987e96227d653b91c8ca8af0b826638dc8968f5",
+    "byteIdentical": false
+  },
+  {
+    "source": "/Users/janghokim/Documents/door-frame-order-tips-v1/tsconfig.json",
+    "target": "tsconfig.json",
+    "sourceSha256": "1799aef00c0c7d595d7128547772c9d27b8dd9e70f91466470ac5a74ece59fb1",
+    "targetSha256": "1799aef00c0c7d595d7128547772c9d27b8dd9e70f91466470ac5a74ece59fb1",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/door-frame-order-tips-v1/remotion.config.ts",
+    "target": "remotion.config.ts",
+    "sourceSha256": "6bb30751f61f73d98dab93fd0ebbdb2f64d9645089218f512eeb793127604ead",
+    "targetSha256": "6bb30751f61f73d98dab93fd0ebbdb2f64d9645089218f512eeb793127604ead",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/DaesanEnding.tsx",
+    "target": "src/daesan-ending/DaesanEnding.tsx",
+    "sourceSha256": "e0bfb83bbf6e77459b9a050cfafdfbaa6bd354cacf819ab6ea9955f97b9054c6",
+    "targetSha256": "d6584b4f16a5bc9c8e5b1aa01e6ba737e8bd1f1fc47e2753e55c559497f5fc4f",
+    "byteIdentical": false
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/fonts.ts",
+    "target": "src/daesan-ending/approved/fonts.ts",
+    "sourceSha256": "4472a4b4d0388d67a746b69a33ba8cc337a7d540c4d7d1b7f62d0b341977356e",
+    "targetSha256": "ac24074a459e5026960996eb8e835a9b39a6462bed0050ce59ad66dbef8a2a64",
+    "byteIdentical": false
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/HeadquartersOverlay.tsx",
+    "target": "src/daesan-ending/approved/HeadquartersOverlay.tsx",
+    "sourceSha256": "c4478d0ed1f31488c384ef74535c0e2b5b503a815f598c0b011bcc5369ffdf16",
+    "targetSha256": "4ebe6a043cc37e5113f976107aeed58b6bac39874b5970b1e508e0171b759777",
+    "byteIdentical": false
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/tokens.ts",
+    "target": "src/daesan-ending/approved/tokens.ts",
+    "sourceSha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+    "targetSha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/brief.ts",
+    "target": "src/daesan-ending/approved/brief.ts",
+    "sourceSha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62",
+    "targetSha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/video/IMG_3934.MOV",
+    "target": "public/daesan-ending/video/IMG_3934.MOV",
+    "sourceSha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114",
+    "targetSha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4",
+    "target": "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4",
+    "sourceSha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5",
+    "targetSha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/video/headquarters-normal-speed-hold.mp4",
+    "target": "public/daesan-ending/video/headquarters-normal-speed-hold.mp4",
+    "sourceSha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+    "targetSha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/audio/ending-approved-v3.mp3",
+    "target": "public/daesan-ending/audio/ending-approved-v3.mp3",
+    "sourceSha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+    "targetSha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/logos/daesanlogo2.png",
+    "target": "public/daesan-ending/logos/daesanlogo2.png",
+    "sourceSha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+    "targetSha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/fonts/Pretendard-SemiBold.woff2",
+    "target": "public/daesan-ending/fonts/Pretendard-SemiBold.woff2",
+    "sourceSha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+    "targetSha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/fonts/Pretendard-ExtraBold.woff2",
+    "target": "public/daesan-ending/fonts/Pretendard-ExtraBold.woff2",
+    "sourceSha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "targetSha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/fonts/Pretendard-Medium.woff2",
+    "target": "public/daesan-ending/fonts/Pretendard-Medium.woff2",
+    "sourceSha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+    "targetSha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/docs/README.md",
+    "target": "docs/daesan-ending/README.md",
+    "sourceSha256": "3d128e52474b4f877a52ed49b34f735073e2bd5e4f8fd3574af32d78674d894b",
+    "targetSha256": "3d128e52474b4f877a52ed49b34f735073e2bd5e4f8fd3574af32d78674d894b",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/docs/asset-sha256.json",
+    "target": "docs/daesan-ending/asset-sha256.json",
+    "sourceSha256": "9901852b1d377563c8188211b1325bda32d5021278d6631a5eac409dc73d38e7",
+    "targetSha256": "9901852b1d377563c8188211b1325bda32d5021278d6631a5eac409dc73d38e7",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/video/daesani-point-right.mp4",
+    "target": "public/assets/video/daesani-point-right.mp4",
+    "sourceSha256": "66ee3756a6f216de8d6e7a53c9ce6e8579227c56e1c11c918b5a6cafdfe849fd",
+    "targetSha256": "66ee3756a6f216de8d6e7a53c9ce6e8579227c56e1c11c918b5a6cafdfe849fd",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/video/daesani-open-arms-explain.mp4",
+    "target": "public/assets/video/daesani-open-arms-explain.mp4",
+    "sourceSha256": "af0520a66456f9cab6f0de26db34917a0acbb0a9f2860c466ab086811f7f791d",
+    "targetSha256": "af0520a66456f9cab6f0de26db34917a0acbb0a9f2860c466ab086811f7f791d",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/cover/daesani-cover-point-right.png",
+    "target": "public/assets/images/daesani-cover-point-right.png",
+    "sourceSha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0",
+    "targetSha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/cover/daesani-cover-open-arms.png",
+    "target": "public/assets/images/daesani-cover-open-arms.png",
+    "sourceSha256": "d2c5984e08b26c69da299fd50e178bba1ee6b1db4173f5e26d2f4efbb5fea008",
+    "targetSha256": "d2c5984e08b26c69da299fd50e178bba1ee6b1db4173f5e26d2f4efbb5fea008",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/cover/daesani-cover-point-left.png",
+    "target": "public/assets/images/daesani-cover-point-left.png",
+    "sourceSha256": "74e81edc1e5e15f08221488c5ab9936dc20f9b71f4fecc4e76a5bdfbd3fe56dd",
+    "targetSha256": "74e81edc1e5e15f08221488c5ab9936dc20f9b71f4fecc4e76a5bdfbd3fe56dd",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/reference/daesani-motion-safe-reference.png",
+    "target": "public/references/daesani-motion-safe-reference.png",
+    "sourceSha256": "dd71f212b8d12b44d5b9d2838227a5a465e3100accad2d2cb0efc18bbf08dfb7",
+    "targetSha256": "dd71f212b8d12b44d5b9d2838227a5a465e3100accad2d2cb0efc18bbf08dfb7",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/logos/daesanlogo2.png",
+    "target": "public/assets/logos/daesanlogo2.png",
+    "sourceSha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+    "targetSha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+    "byteIdentical": true
+  },
+  {
+    "source": "/Users/janghokim/.codex/attachments/85ca050b-d6f8-4efc-b822-5d17b4a2e44f/붙여넣은 텍스트.txt",
+    "target": "docs/approved-request.txt",
+    "sourceSha256": "d7274b8100b54d4ec0cfe6ea44f2375e15b39fe1080f084d3b238bd58582cd00",
+    "targetSha256": "d7274b8100b54d4ec0cfe6ea44f2375e15b39fe1080f084d3b238bd58582cd00",
+    "byteIdentical": true
+  }
+]

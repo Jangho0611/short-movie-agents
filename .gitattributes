@@ -31,3 +31,6 @@ projects/xps-waterproof-vs-water-absorption-shorts/public/assets/video/scene01-f
 projects/xps-waterproof-vs-water-absorption-shorts/public/assets/video/scene02-final.mp4 filter=lfs diff=lfs merge=lfs -text
 projects/xps-waterproof-vs-water-absorption-shorts/public/assets/video/scene05-final.mp4 filter=lfs diff=lfs merge=lfs -text
 projects/xps-waterproof-vs-water-absorption-shorts/public/daesan-ending/video/IMG_3934.MOV filter=lfs diff=lfs merge=lfs -text
+projects/door-frame-wall-thickness-v1/docs/research/younglim-door-frame-2025-source.pdf filter=lfs diff=lfs merge=lfs -text
+projects/door-frame-wall-thickness-v1/public/assets/video/door-frame-wall-thickness-preview-v4.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/door-frame-wall-thickness-v1/public/daesan-ending/video/IMG_3934.MOV filter=lfs diff=lfs merge=lfs -text

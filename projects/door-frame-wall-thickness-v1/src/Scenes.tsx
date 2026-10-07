@@ -1,0 +1,50 @@
+import React from 'react';
+import {AbsoluteFill,Audio,OffthreadVideo,Freeze,Sequence,staticFile,useCurrentFrame,interpolate,interpolateColors} from 'remotion';
+import {PRETENDARD} from './daesan-ending/approved/fonts';
+export const FRAMES=[114,170,159,342,186,288];
+const green='#146335',ink='#18251f',muted='#647069',line='#ccd5cf';
+const numbers=[[110,130,140,155,175,195,210,230,245],[110,140,155,175,195,210,230,245],[110,140,155,175,195,210,230,245]];
+const titles=[['벽 두께만 알면','문틀 바 수 결정 끝?'],['벽체 두께만 확인 X','마감재 두께까지 확인'],['실제 발주 사례','마감 조건까지 함께'],['발포문틀','정해진 운영 폭에서 선택'],['가변형 문틀','필요한 폭에 맞춰 발주'],['문틀 폭 발주 전','이 3가지는 꼭 확인']];
+const Card:React.FC<React.PropsWithChildren<{style?:React.CSSProperties}>>=({children,style})=><div style={{background:'white',border:`2px solid ${line}`,borderRadius:22,padding:36,...style}}>{children}</div>;
+// Original approved white-background motion: normal speed, once; no keying or recoloring.
+const Mascot=({open=false}:{open?:boolean})=>{const f=useCurrentFrame();return <div style={{position:'absolute',left:660,top:1180,width:355,height:470,overflow:'hidden'}}><Freeze frame={Math.min(f,118)}><OffthreadVideo muted src={staticFile(`assets/video/daesani-${open?'open-arms-explain':'point-right'}.mp4`)} style={{position:'absolute',width:490,height:871.111,left:-85,top:-222}}/></Freeze></div>};
+function Wall({finish=false}:{finish?:boolean}){const f=useCurrentFrame();const opacity=finish?interpolate(f,[15,45],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'}):0;return <svg width="840" height="540" viewBox="0 0 840 540">
+<defs><pattern id="hatch" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 18L18 0" stroke="#bdc8c0" strokeWidth="2"/></pattern></defs>
+<rect x="245" y="145" width="270" height="280" fill="#e5eae5" stroke={ink} strokeWidth="3"/><rect x="245" y="145" width="270" height="280" fill="url(#hatch)"/>
+<text x="380" y="295" textAnchor="middle" fontSize="36" fill={ink}>벽체</text>
+<path d="M245 125V75M515 125V75M245 95H515" stroke={ink} strokeWidth="3"/><path d="M245 95l14 -8v16zM515 95l-14 -8v16z" fill={ink}/><text x="380" y="65" textAnchor="middle" fontSize="44" fontWeight="800" fill={ink}>115mm</text>
+<g opacity={opacity}><rect x="515" y="145" width="52" height="280" fill="#7fab8d" stroke={green} strokeWidth="3"/>{[215,285,355].map(y=><path key={y} d={`M515 ${y}H567`} stroke="white" strokeWidth="3"/>)}<path d="M570 245H620" stroke={green} strokeWidth="2"/><text x="633" y="255" fontSize="30" fill={green}>타일 마감</text><path d="M515 450V485H567V450" stroke={green} fill="none" strokeWidth="3"/><text x="541" y="529" textAnchor="middle" fontSize="32" fill={green}>타일 마감재 두께 확인</text></g>
+</svg>}
+// Audio-based alignment: waveform onset + Whisper DTW token positions. Not script-length estimation.
+export const TYPE_STARTS=[110,126,145];
+function rowBorder(f:number,row:number){const start=TYPE_STARTS[row];const end=row<2?TYPE_STARTS[row+1]:190;const strength=interpolate(f,[start-1,start+2,end-1,end+3],[0,1,1,0],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});return interpolateColors(strength,[0,1],[line,green]);}
+// Official Younglim 2025 printed p90 / PDF p46, variable A. Two separate made-to-width
+// examples dissolve; caps/stopper are never stretched, and no telescopic mechanism is asserted.
+function VariableSection(){const f=useCurrentFrame();const blend=interpolate(f,[65,88],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});return <>
+<div style={{fontSize:26,color:muted,marginTop:38,textAlign:'center'}}>가변형 A 단면 예시 · 개념도</div>
+<svg width="820" height="455" viewBox="0 0 820 455" style={{maxWidth:'100%',marginTop:12}}>
+{[320,500].map((width,index)=>{const x=(820-width)/2;return <g key={width} opacity={index?blend:1-blend}>
+<rect x={x+25} y="165" width={width-50} height="100" fill="#c8b699" stroke={ink} strokeWidth="3"/>
+<path d={`M${x+25} 165H${x+width-25}V181H${x+25}Z`} fill="#dce2dd" stroke={ink} strokeWidth="2"/>
+<path d={`M${x} 160h50v22h-28v93H${x}Z`} fill="#dce2dd" stroke={ink} strokeWidth="3"/>
+<path d={`M${x+width} 160h-50v22h28v93h22Z`} fill="#dce2dd" stroke={ink} strokeWidth="3"/>
+<path d={`M${x+width*.40} 139h87v23h-15v10h-58v-10h-14Z`} fill="#c8b699" stroke={ink} strokeWidth="3"/>
+<path d={`M${x} 304v30h${width}v-30`} fill="none" stroke={green} strokeWidth="3"/>
+<text x="410" y="379" textAnchor="middle" fontSize="32" fill={green}>{index?'넓은 폭 주문 예시':'좁은 폭 주문 예시'}</text>
+</g>})}
+<text x="410" y="63" textAnchor="middle" fontSize="34" fill={ink}>필요한 폭에 맞춰 주문 제작</text>
+</svg></>}
+export const Scene=({id}:{id:number})=>{const f=useCurrentFrame();return <AbsoluteFill style={{background:'#FFFFFF',color:ink,fontFamily:PRETENDARD,padding:'150px 84px 230px'}}>
+<Audio src={staticFile(`assets/audio/scene0${id}-v${id===2?4:3}.mp3`)}/>
+<div style={{fontSize:27,letterSpacing:2,color:green,fontWeight:600}}>대산 · 문틀 발주 가이드 <span style={{float:'right',color:muted}}>0{id} / 06</span></div>
+<div style={{height:2,background:line,margin:'28px 0 45px'}}/>
+<div style={{fontSize:id===2?57:66,fontWeight:800,lineHeight:1.32,letterSpacing:-2}}>{titles[id-1][0]}<br/><span style={{color:green}}>{titles[id-1][1]}</span></div>
+{id===1&&<><div style={{marginTop:75}}><Wall/></div><Card style={{marginTop:25,width:565}}><div style={{fontSize:35,color:muted}}>필요한 문틀 바 수</div><div style={{fontSize:104,fontWeight:800,color:green,lineHeight:1.15}}>?</div></Card><Mascot/></>}
+{id===2&&<><div style={{marginTop:85}}><Wall finish/></div><Card style={{marginTop:90,fontSize:39,lineHeight:1.55}}>타일 등 마감재<br/><b style={{color:green}}>마감재 두께까지 확인</b></Card></>}
+{id===3&&<><div style={{marginTop:90,fontSize:27,color:muted}}>현업 확인 사례 · 조건을 함께 확인</div><Card style={{marginTop:25,fontSize:46,textAlign:'center',fontWeight:600}}>벽체 <b>115mm</b><div style={{fontSize:32,color:green,margin:'16px 0'}}>＋</div><span style={{color:green}}>타일 마감</span></Card><div style={{textAlign:'center',fontSize:60,color:green,margin:22}}>↓</div><Card style={{borderColor:green,textAlign:'center'}}><div style={{fontSize:37}}>발포문틀</div><div style={{fontSize:80,fontWeight:800,color:green,marginTop:15}}>130바 필요</div></Card><div style={{fontSize:29,color:muted,lineHeight:1.5,marginTop:42}}>벽체 115mm = 항상 130mm라는<br/>의미는 아님</div></>}
+{id===4&&<><div style={{textAlign:'right',fontSize:27,color:muted,marginTop:48,marginBottom:18}}>운영 폭 · 단위 mm</div>{numbers.map((ns,row)=><Card key={row} style={{marginBottom:20,padding:'28px 32px',borderColor:rowBorder(f,row),boxShadow:`inset 0 0 0 1px ${rowBorder(f,row)}`}}><div style={{fontWeight:800,fontSize:36,marginBottom:21}}>{['일반형','와이드형','슬림와이드형'][row]}</div><div style={{display:'grid',gridTemplateColumns:'repeat(5, 1fr)',gap:'14px 10px'}}>{ns.map(n=><div key={n} style={{fontSize:37,fontWeight:row===0&&n===130?800:500,color:row===0&&n===130?green:ink,background:row===0&&n===130?'#e3f0e5':'transparent',borderRadius:8,textAlign:'center',padding:'5px 0'}}>{n}</div>)}</div></Card>)}<div style={{borderLeft:`5px solid ${green}`,paddingLeft:24,marginTop:30,fontSize:30,lineHeight:1.5}}>115mm 벽체 + 타일 마감 사례<br/><b style={{color:green}}>→ 일반형 130바</b></div></>}
+{id===5&&<><Card style={{marginTop:80,padding:'38px 34px'}}><div style={{fontSize:72,fontWeight:800,color:green,textAlign:'center'}}>60~250<span style={{fontSize:40}}>mm</span></div><div style={{fontSize:43,textAlign:'center',marginTop:15,color:f>=120?green:ink,fontWeight:f>=120?800:500}}>5mm 단위</div><VariableSection/></Card><div style={{fontSize:37,marginTop:45,textAlign:'center',color:muted}}>필요한 문틀 폭에 맞춰 발주</div></>}
+{id===6&&<><div style={{marginTop:85}}>{['벽체 두께','최종 마감 두께','제품별 공급 규격'].map((t,i)=><Card key={t} style={{marginBottom:24,display:'flex',alignItems:'center',gap:25,padding:'36px 30px'}}><span style={{fontSize:28,color:muted}}>0{i+1}</span><b style={{fontSize:43}}>{t}</b><span style={{marginLeft:'auto',fontSize:42,color:green,opacity:f>=[30,95,185][i]?1:0.2}}>✓</span></Card>)}</div><div style={{fontSize:47,fontWeight:800,lineHeight:1.45,color:green,marginTop:85,width:560}}>현장에 필요한<br/>문틀 폭으로 발주</div><Mascot open/></>}
+<div style={{position:'absolute',left:84,bottom:165,fontSize:24,color:muted}}>DAESAN <span style={{marginLeft:18}}>건축자재 발주 정보</span></div>
+</AbsoluteFill>};
+export const Content=()=> <>{FRAMES.map((duration,i)=><Sequence key={i} from={FRAMES.slice(0,i).reduce((a,b)=>a+b,0)} durationInFrames={duration}><Scene id={i+1}/></Sequence>)}</>;

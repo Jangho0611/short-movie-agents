@@ -1,0 +1,102 @@
+{
+  "outputs": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/door-frame-wall-thickness-preview-v1.mp4",
+      "frames": 1469,
+      "videoDuration": 48.966667,
+      "formatDuration": 49.024,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene01-preview-v1.mp4",
+      "frames": 114,
+      "videoDuration": 3.8,
+      "formatDuration": 3.8,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene02-preview-v1.mp4",
+      "frames": 171,
+      "videoDuration": 5.7,
+      "formatDuration": 5.7,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene03-preview-v1.mp4",
+      "frames": 159,
+      "videoDuration": 5.3,
+      "formatDuration": 5.3,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene04-preview-v1.mp4",
+      "frames": 381,
+      "videoDuration": 12.7,
+      "formatDuration": 12.7,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene05-preview-v1.mp4",
+      "frames": 186,
+      "videoDuration": 6.2,
+      "formatDuration": 6.2,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene06-preview-v1.mp4",
+      "frames": 288,
+      "videoDuration": 9.6,
+      "formatDuration": 9.6,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    }
+  ],
+  "sceneFrames": [
+    114,
+    171,
+    159,
+    381,
+    186,
+    288
+  ],
+  "ttsDurations": [
+    3.456,
+    5.376,
+    4.944,
+    10.848,
+    5.856,
+    9.264
+  ],
+  "scene4HoldSeconds": 1.8519999999999985,
+  "scene4Hold55FramesPixelIdentical": false,
+  "ttsV3Hashes": "PASS",
+  "ttsNoClippingByTimeline": true,
+  "endingFrames": 170,
+  "visualReview": "Reviewed Scene 1–6 sampled actual video frames: no visible clipping or character obstruction; S3 conditions persist; S4 numbers match; S5 mm units correct; S6 checklist readable. Ending frame 100 compared against Canonical. Full motion/listening approval pending user.",
+  "listeningReview": "pending user",
+  "holdLumaMaxMeanDifference255Scale": 7.71604938271605e-06,
+  "holdInterpretation": "Source Scene 4 is frame-independent; negligible lossy encoding pixel differences, no designed motion during hold.",
+  "typecheck": "PASS",
+  "canonicalSourceAndAssetHashes": "PASS",
+  "renderRecovery": "Initial font-loading timeout; successful retry concurrency=1 timeout=120000; no source or font changes."
+}

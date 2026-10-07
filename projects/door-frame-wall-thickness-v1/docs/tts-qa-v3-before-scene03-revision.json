@@ -1,0 +1,143 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "scenes": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene01-v3.mp3",
+      "duration": 3.456,
+      "decodedDuration": 3.456,
+      "samples": 82944,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "a52fd957ee1aa75f6fce776c2b0824356209edbcb0a8a192efa3a1d84c13d33a",
+      "decode": "PASS",
+      "sampleQA": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene02-v3.mp3",
+      "duration": 5.376,
+      "decodedDuration": 5.376,
+      "samples": 129024,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "c90e9c9841131bbb543aeb12c797606809ce4db29ca7eb239a23d8d52ac0df7e",
+      "decode": "PASS",
+      "sampleQA": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene03-v3.mp3",
+      "duration": 6.216,
+      "decodedDuration": 6.216,
+      "samples": 149184,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "a39fb173124be7f44f91c556bba095be1597a5236fe3c92879482a0a08400935",
+      "decode": "PASS",
+      "sampleQA": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene04-v3.mp3",
+      "duration": 10.848,
+      "decodedDuration": 10.848,
+      "samples": 260352,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "ed14daadadc3d227698e5f9da49df8732c9066a3daf7ca589e89522ff4196d13",
+      "decode": "PASS",
+      "sampleQA": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene05-v3.mp3",
+      "duration": 5.856,
+      "decodedDuration": 5.856,
+      "samples": 140544,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "bfe1aad040dfb65765c9d4ae73a2022de8e54d62241cc6fa6d6163be3e38f11c",
+      "decode": "PASS",
+      "sampleQA": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene06-v3.mp3",
+      "duration": 9.264,
+      "decodedDuration": 9.264,
+      "samples": 222336,
+      "audioStream": {
+        "codec_name": "mp3",
+        "sample_rate": "24000",
+        "channels": 1
+      },
+      "sha256": "052baa9ef6dc903fb99aabdf5069f51fd0c5c220f215d62fe171df64a085f66e",
+      "decode": "PASS",
+      "sampleQA": "PASS"
+    }
+  ],
+  "full": {
+    "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/full-tts-qa-v3.mp3",
+    "duration": 41.016,
+    "decodedDuration": 41.016,
+    "samples": 984384,
+    "audioStream": {
+      "codec_name": "mp3",
+      "sample_rate": "24000",
+      "channels": 1
+    },
+    "sha256": "4dbe39bb3cad514eb0b925c98a0f1286971466e1ee586fc96c95851a1225196d",
+    "decode": "PASS",
+    "sampleQA": "PASS"
+  },
+  "order": [
+    "scene01-v3.mp3",
+    "scene02-v3.mp3",
+    "scene03-v3.mp3",
+    "scene04-v3.mp3",
+    "scene05-v3.mp3",
+    "scene06-v3.mp3"
+  ],
+  "assembly": "One plain-text synthesis request per Scene; decoded PCM concatenated Scene 1–6 then MP3 encoded; no SSML, Part A/B, inserted silence or speed changes; full sample count equals sum",
+  "v1v2PreservedSHA256": {
+    "scene02-v1.mp3": "e337d84fe56a8a5e70175ba861bfdaae7f4596fc9443f22ac2967214bf0c9a52",
+    "full-tts-qa-v1.mp3": "cec444a9f4ef564ec4e616f409adf69d82d1b060832933a16ecf747a8daec3af",
+    "scene06-v1.mp3": "2a85165bff8b449fb7733a876d5df9d1b20eb1f95290994826b7fa9f06249e0d",
+    "scene04-v1.mp3": "7042412011a84183b44aa0f3040086a0eab9f28a4e7ef46c79ce31036687fe8b",
+    "scene01-v1.mp3": "ab975eb0a9d102645634e53883f9be3c3934e29e26a703d1e509934ec1193f18",
+    "scene03-v1.mp3": "a2c25e8fea05a13ddf624884bded0952517567188feaf9df1cd9e364ccb3efed",
+    "scene05-v1.mp3": "9f8ad7a47f6c15cc2f4104e06ac31352b516d4c5bffba05d275a97d7e878eed0",
+    "scene02-v2.mp3": "080b73dce7a554ce562d40f1b7d68c773602d1012388d78437bf03347011a28f",
+    "full-tts-qa-v2.mp3": "ebc8b63c6be720c027245bfd7bfb42f28ef457de452948fd77b195396100e28f",
+    "scene06-v2.mp3": "2f433f173f0452316ac971d73c7651df55ea601ecc6f9382f7c189ffca5b0448",
+    "scene04-v2.mp3": "d9b8182a0ec63cbd0fda1e45264144f3c6d389485cddad7e97a0ec4af5694993",
+    "scene01-v2.mp3": "bf345fd7d51ec5e9f57f46d826526e01554f1e30c2fddd7cfae099084339c33a",
+    "scene03-v2.mp3": "fe647d0b2796c4fc4e0ec5c6229194adda74fc4948751888d1e4c2bae803bbe2",
+    "scene05-v2.mp3": "ee6bafaabaa3b30b54871ce3561bbe2e286b503434e5737172f7ef506a2fe552"
+  },
+  "mechanicalQA": "PASS",
+  "listeningQA": "PENDING USER",
+  "listeningPoints": [
+    "S1 때는 / 벽 두께: 호흡·질문 억양",
+    "S2 들어간다면 / 마감 후: 호흡·설명 어투",
+    "S3 115 두께 벽체 / 타일 마감이라면 뒤 호흡 / 130바",
+    "S4 필러음 에~ 여부 / 일반형·와이드형·그리고·슬림와이드형 구분 / 발주 전에 규격을 / 세 문장 호흡",
+    "S5 가변형문틀 / 60에서 250미리까지 / 5미리 단위",
+    "S6 정할 때는 뒤 호흡 / 벽체 두께와 최종 마감 두께 / 첫 문장 종료·그리고 두 번째 문장 시작 / 마무리 억양"
+  ],
+  "scene4Hold": "1.5–2 sec candidate after TTS for later video; not applied or fixed",
+  "scene5ScreenUnit": "60~250mm / 5mm 단위; speech only uses 미리",
+  "remotion": "NOT STARTED"
+}

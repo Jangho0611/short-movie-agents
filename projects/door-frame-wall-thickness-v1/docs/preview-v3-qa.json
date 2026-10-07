@@ -1,0 +1,83 @@
+{
+  "outputs": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/door-frame-wall-thickness-preview-v3.mp4",
+      "frames": 1429,
+      "duration": 47.633333,
+      "containerDuration": 47.68,
+      "decode": "PASS",
+      "format": "1080x1920 30fps H.264/AAC"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene01-preview-v3.mp4",
+      "frames": 114,
+      "duration": 3.8,
+      "containerDuration": 3.8,
+      "decode": "PASS",
+      "format": "1080x1920 30fps H.264/AAC"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene02-preview-v3.mp4",
+      "frames": 170,
+      "duration": 5.666667,
+      "containerDuration": 5.666667,
+      "decode": "PASS",
+      "format": "1080x1920 30fps H.264/AAC"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene04-preview-v3.mp4",
+      "frames": 342,
+      "duration": 11.4,
+      "containerDuration": 11.4,
+      "decode": "PASS",
+      "format": "1080x1920 30fps H.264/AAC"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene06-preview-v3.mp4",
+      "frames": 288,
+      "duration": 9.6,
+      "containerDuration": 9.6,
+      "decode": "PASS",
+      "format": "1080x1920 30fps H.264/AAC"
+    }
+  ],
+  "sceneFrames": [
+    114,
+    170,
+    159,
+    342,
+    186,
+    288
+  ],
+  "ttsVersions": [
+    3,
+    4,
+    3,
+    3,
+    3,
+    3
+  ],
+  "ttsDurations": [
+    3.456,
+    5.328,
+    4.944,
+    10.848,
+    5.856,
+    9.264
+  ],
+  "scene4HoldSeconds": 0.5519999999999996,
+  "scene4HoldFrameEquivalent": 16.559999999999988,
+  "endingFrames": 170,
+  "protectedHashes": "PASS",
+  "ttsClippingByTimeline": "none",
+  "motions": {
+    "S1": "daesani-point-right.mp4",
+    "S6": "daesani-open-arms-explain.mp4",
+    "playbackRate": 1,
+    "loop": false,
+    "freezeAtCompositionFrame": 118,
+    "sourceTimeAtFreeze": 3.933333333333333
+  },
+  "visual": "Reviewed actual video frames: S1 pointing motion and S6 open-arms/normal end pose are unclipped and do not obscure headline, 115mm, question card, checklist or final copy; S2 tile-thickness bracket and copy align.",
+  "listening": "S2 들어간다면 / 마감재 두께까지 사용자 청취 필요"
+}

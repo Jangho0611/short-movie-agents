@@ -1,0 +1,27 @@
+{
+  "outputs": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/covers/door-frame-wall-thickness-cover-v1.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "d8ddc517b879b732473c667f9cd56920ec6467bfe04bad51fad92c9d879d9ea0"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/covers/door-frame-wall-thickness-cover-v1-square-qa.png",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "eaea6e25e7092b6650d7571ae35e0455fc6d65194856e90894bdc47ad3ea6c05"
+    }
+  ],
+  "background": "#F6F7F9",
+  "style": "Linear",
+  "pose": "daesani-cover-point-right.png",
+  "hero": "Existing wall/tile vector adapted from video plus approved episode1 PVCProfile iso copied locally; wall115mm + tile condition always visible with 130바.",
+  "feedSafe": "PASS: actual full PNG and y420–1500 square visually inspected; headline, hero, condition,130바,character,brand retained; no overlaps. Category outside crop per approved standard.",
+  "protectedVideoAndAssets": "all pre-existing src/public hashes unchanged",
+  "aiGenerations": 0
+}

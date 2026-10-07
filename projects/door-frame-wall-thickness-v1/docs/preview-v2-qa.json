@@ -1,0 +1,108 @@
+{
+  "outputs": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/door-frame-wall-thickness-preview-v2.mp4",
+      "frames": 1445,
+      "videoDuration": 48.166667,
+      "formatDuration": 48.213333,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene01-preview-v2.mp4",
+      "frames": 114,
+      "videoDuration": 3.8,
+      "formatDuration": 3.8,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene02-preview-v2.mp4",
+      "frames": 171,
+      "videoDuration": 5.7,
+      "formatDuration": 5.7,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene03-preview-v2.mp4",
+      "frames": 159,
+      "videoDuration": 5.3,
+      "formatDuration": 5.3,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene04-preview-v2.mp4",
+      "frames": 357,
+      "videoDuration": 11.9,
+      "formatDuration": 11.9,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene05-preview-v2.mp4",
+      "frames": 186,
+      "videoDuration": 6.2,
+      "formatDuration": 6.2,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/video/scene06-preview-v2.mp4",
+      "frames": 288,
+      "videoDuration": 9.6,
+      "formatDuration": 9.6,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "codecs": "H.264/AAC",
+      "decode": "PASS"
+    }
+  ],
+  "sceneFrames": [
+    114,
+    171,
+    159,
+    357,
+    186,
+    288
+  ],
+  "ttsDurations": [
+    3.456,
+    5.376,
+    4.944,
+    10.848,
+    5.856,
+    9.264
+  ],
+  "scene4HoldSeconds": 1.0519999999999996,
+  "scene4Hold31FramesPixelIdentical": false,
+  "ttsV3Hashes": "PASS",
+  "ttsNoClippingByTimeline": true,
+  "endingFrames": 170,
+  "background": "#FFFFFF",
+  "typeEmphasisFrames": [
+    110,
+    126,
+    145
+  ],
+  "visualReview": "S1/S6 enlarged approved PNG no headline, dimensions or checklist obstruction; S4 actual encoded frames 114/130/150 show exactly one active row in order and persistent 130 accent; S5 official variable-A-derived diagram and mm labels readable.",
+  "listeningReview": "pending user",
+  "typecheck": "PASS",
+  "protectedTTSCanonicalAndV1Hashes": "PASS",
+  "typeSyncMethod": "Whisper small DTW on actual audio plus waveform onset; approximate acoustic boundaries rounded to 30fps, manual listening approval pending.",
+  "scene5Reference": "Younglim 2025 PDF p46 / printed p90 variable A; separate made-to-width examples, no sliding/stretch mechanism claimed.",
+  "holdNote": "No designed motion during final 1.052 sec; lossy H264 can produce tiny pixel differences."
+}

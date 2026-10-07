@@ -1,0 +1,36 @@
+{
+  "name": "door-frame-wall-thickness-v1",
+  "version": "1.0.0",
+  "description": "대산 도어 문틀 시리즈 2편 — 벽 두께와 문틀 폭 / 구현 준비",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.4.1",
+    "@google/genai": "^2.16.0",
+    "@remotion/cli": "4.0.496",
+    "@remotion/tailwind-v4": "4.0.496",
+    "pngjs": "^7.0.0",
+    "pretendard": "^1.3.9",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.496",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.496",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "build": "remotion bundle src/index.ts",
+    "qa:types": "tsc --noEmit",
+    "qa:compositions": "remotion compositions src/index.ts"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

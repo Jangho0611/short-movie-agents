@@ -1,0 +1,98 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "scenes": [
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene01-v3.mp3",
+      "duration": 3.456,
+      "decodedDuration": 3.456,
+      "sha256": "a52fd957ee1aa75f6fce776c2b0824356209edbcb0a8a192efa3a1d84c13d33a",
+      "decode": "PASS",
+      "audioStream": "MP3 / 24000Hz / mono"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene02-v3.mp3",
+      "duration": 5.376,
+      "decodedDuration": 5.376,
+      "sha256": "c90e9c9841131bbb543aeb12c797606809ce4db29ca7eb239a23d8d52ac0df7e",
+      "decode": "PASS",
+      "audioStream": "MP3 / 24000Hz / mono"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene03-v3.mp3",
+      "duration": 4.944,
+      "decodedDuration": 4.944,
+      "sha256": "4dc3f138c8828e21545e7cfe1573036ebbfd84b5854706c1b7e0b0df828a579e",
+      "decode": "PASS",
+      "audioStream": "MP3 / 24000Hz / mono"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene04-v3.mp3",
+      "duration": 10.848,
+      "decodedDuration": 10.848,
+      "sha256": "ed14daadadc3d227698e5f9da49df8732c9066a3daf7ca589e89522ff4196d13",
+      "decode": "PASS",
+      "audioStream": "MP3 / 24000Hz / mono"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene05-v3.mp3",
+      "duration": 5.856,
+      "decodedDuration": 5.856,
+      "sha256": "bfe1aad040dfb65765c9d4ae73a2022de8e54d62241cc6fa6d6163be3e38f11c",
+      "decode": "PASS",
+      "audioStream": "MP3 / 24000Hz / mono"
+    },
+    {
+      "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene06-v3.mp3",
+      "duration": 9.264,
+      "decodedDuration": 9.264,
+      "sha256": "052baa9ef6dc903fb99aabdf5069f51fd0c5c220f215d62fe171df64a085f66e",
+      "decode": "PASS",
+      "audioStream": "MP3 / 24000Hz / mono"
+    }
+  ],
+  "full": {
+    "file": "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/full-tts-qa-v3.mp3",
+    "duration": 39.744,
+    "decodedDuration": 39.744,
+    "sha256": "abcec81334ce3e955563e176e4736b36c835e56ae2b460bc8df176d4f466b130",
+    "decode": "PASS",
+    "audioStream": "MP3 / 24000Hz / mono"
+  },
+  "order": [
+    "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene01-v3.mp3",
+    "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene02-v3.mp3",
+    "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene03-v3.mp3",
+    "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene04-v3.mp3",
+    "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene05-v3.mp3",
+    "/Users/janghokim/Documents/door-frame-wall-thickness-v1/public/assets/audio/scene06-v3.mp3"
+  ],
+  "mechanicalQA": "PASS",
+  "listeningQA": "PENDING USER",
+  "revision": "Only Scene 3 regenerated; unchanged v3 scene audio preserved. Prior Scene 3/full/input/QA saved as before-scene03-revision copies.",
+  "screenScene3": "벽체 115mm + 타일 마감 → 발포문틀 130바",
+  "protectedHashes": {
+    "scene02-v1.mp3": "e337d84fe56a8a5e70175ba861bfdaae7f4596fc9443f22ac2967214bf0c9a52",
+    "full-tts-qa-v1.mp3": "cec444a9f4ef564ec4e616f409adf69d82d1b060832933a16ecf747a8daec3af",
+    "scene06-v1.mp3": "2a85165bff8b449fb7733a876d5df9d1b20eb1f95290994826b7fa9f06249e0d",
+    "scene04-v1.mp3": "7042412011a84183b44aa0f3040086a0eab9f28a4e7ef46c79ce31036687fe8b",
+    "scene01-v1.mp3": "ab975eb0a9d102645634e53883f9be3c3934e29e26a703d1e509934ec1193f18",
+    "scene03-v1.mp3": "a2c25e8fea05a13ddf624884bded0952517567188feaf9df1cd9e364ccb3efed",
+    "scene05-v1.mp3": "9f8ad7a47f6c15cc2f4104e06ac31352b516d4c5bffba05d275a97d7e878eed0",
+    "scene02-v2.mp3": "080b73dce7a554ce562d40f1b7d68c773602d1012388d78437bf03347011a28f",
+    "full-tts-qa-v2.mp3": "ebc8b63c6be720c027245bfd7bfb42f28ef457de452948fd77b195396100e28f",
+    "scene06-v2.mp3": "2f433f173f0452316ac971d73c7651df55ea601ecc6f9382f7c189ffca5b0448",
+    "scene04-v2.mp3": "d9b8182a0ec63cbd0fda1e45264144f3c6d389485cddad7e97a0ec4af5694993",
+    "scene01-v2.mp3": "bf345fd7d51ec5e9f57f46d826526e01554f1e30c2fddd7cfae099084339c33a",
+    "scene03-v2.mp3": "fe647d0b2796c4fc4e0ec5c6229194adda74fc4948751888d1e4c2bae803bbe2",
+    "scene05-v2.mp3": "ee6bafaabaa3b30b54871ce3561bbe2e286b503434e5737172f7ef506a2fe552",
+    "scene01-v3.mp3": "a52fd957ee1aa75f6fce776c2b0824356209edbcb0a8a192efa3a1d84c13d33a",
+    "scene02-v3.mp3": "c90e9c9841131bbb543aeb12c797606809ce4db29ca7eb239a23d8d52ac0df7e",
+    "scene04-v3.mp3": "ed14daadadc3d227698e5f9da49df8732c9066a3daf7ca589e89522ff4196d13",
+    "scene05-v3.mp3": "bfe1aad040dfb65765c9d4ae73a2022de8e54d62241cc6fa6d6163be3e38f11c",
+    "scene06-v3.mp3": "052baa9ef6dc903fb99aabdf5069f51fd0c5c220f215d62fe171df64a085f66e"
+  },
+  "assembly": "PCM concatenated 1–6; no inserted silence or SSML or parts; sample sum verified",
+  "remotion": "NOT STARTED"
+}

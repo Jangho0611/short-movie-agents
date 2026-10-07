@@ -1,0 +1,38 @@
+{
+  "status": "candidate-not-audio-approved",
+  "voiceCandidate": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRateCandidate": 1.0,
+  "scenes": [
+    {
+      "scene": 1,
+      "text": "문틀 발주할 때, 벽 두께만 확인하고 계신가요?",
+      "durationFrames": null
+    },
+    {
+      "scene": 2,
+      "text": "현장에서는 벽체 두께만 보면 안 됩니다.",
+      "durationFrames": null
+    },
+    {
+      "scene": 3,
+      "text": "실제 발주에서는 이렇게 달라질 수 있습니다.",
+      "durationFrames": null
+    },
+    {
+      "scene": 4,
+      "text": "발포문틀은 타입별 운영 규격도 함께 확인해야 합니다.",
+      "durationFrames": null
+    },
+    {
+      "scene": 5,
+      "text": "가변형은 필요한 폭에 맞춰 더 세분화해서 발주할 수 있습니다.",
+      "durationFrames": null
+    },
+    {
+      "scene": 6,
+      "text": "문틀 폭은 벽체만 보지 말고, 마감 후 필요한 폭과 제품별 공급 규격까지 확인해서 발주하세요.",
+      "durationFrames": null
+    }
+  ],
+  "ending": "canonical ending-approved-v3.mp3; no regeneration"
+}
