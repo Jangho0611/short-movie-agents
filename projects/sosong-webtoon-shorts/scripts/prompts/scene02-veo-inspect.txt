@@ -1,0 +1,69 @@
+Preserve the supplied reference illustration and its exact Korean webtoon / newspaper-editorial construction-material style.
+
+Animate only one restrained inspection action.
+
+The worker character gently presses the already lifted finish-material area with one hand to inspect the defect.
+
+The finish material moves inward only a very small amount under the hand pressure.
+
+When the worker slightly releases the pressure, the same finish area returns subtly toward its original lifted position.
+
+This should look like a worker checking an already-existing finish defect, not creating or breaking the wall.
+
+CHARACTER MOTION:
+- Use only the hand already near the lifted finish area.
+- The hand gently presses and releases once.
+- The worker may make a very small natural upper-body movement while inspecting.
+- Keep the facial expression neutral and professional.
+- No exaggerated reaction.
+- Do not use both hands to pull or tear the finish.
+
+FINISH DEFECT PRESERVATION:
+- Preserve the existing lifted finish-material geometry.
+- Preserve the existing opened joint / seam.
+- Do not enlarge the crack.
+- Do not split the panel further.
+- Do not tear, break, detach, peel off, or collapse the finish.
+- The movement must remain subtle and physically plausible.
+- After release, the finish should remain defective and slightly lifted; it must not become permanently repaired or perfectly flat.
+
+FURRING BATTEN PRESERVATION:
+- Keep the internal warped sosong furring batten stationary.
+- Preserve its pale natural softwood base color.
+- Preserve its bowed square-section rectangular-prism geometry.
+- Do not straighten it.
+- Do not make it move, rotate, pulse, or change color.
+- Keep all other furring battens stationary.
+
+CAUSE / EFFECT MARKS:
+- Existing small red hand-drawn pressure/transfer marks may remain static or move only very subtly.
+- Do not turn them into arrows.
+- Do not add new arrows, symbols, diagrams, or technical graphics.
+
+TEXT PRESERVATION:
+Preserve all three Korean handwritten labels exactly as they appear:
+- 뒤틀린 하지재
+- 들뜬 마감재
+- 벌어진 이음새
+
+Do not rewrite, morph, duplicate, translate, replace, animate, or add any text.
+No new text, numbers, logos, watermarks, or signs.
+
+STYLE / CAMERA PRESERVATION:
+- pure white background
+- same wall cutaway
+- same framing and composition
+- same slightly wobbly hand-drawn black ink lines
+- same pale natural softwood colors
+- same restrained red defect accents
+- fixed camera
+- no pan
+- no zoom
+- no camera rotation
+- no scene transition
+- no new objects
+- no photorealistic transformation
+- no 3D-rendered look
+- no glossy vector-infographic transformation
+
+The final video should feel like the original still illustration gently comes alive for one brief defect inspection.

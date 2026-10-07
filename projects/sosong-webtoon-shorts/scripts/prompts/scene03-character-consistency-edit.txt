@@ -1,0 +1,27 @@
+Edit the supplied reference image exactly as follows. This is an image-editing task on the provided reference image, not a new illustration — preserve the entire existing illustration exactly except for the one target described below: the color of every character.
+
+PRESERVE EXACTLY, UNCHANGED:
+- The number of characters, their positions, and their current sizes — do not resize, move, or redesign any character.
+- The magnifying glass and how it is held.
+- Both timber battens: their position, size, color, and shape.
+- The small product/information card and how it is being checked.
+- The three existing Korean labels, kept in their exact current positions and wording, unchanged.
+- The existing "?" and "!" marks, in their exact current positions.
+- The overall composition, camera framing, background, and hand-drawn ink line style.
+
+CHANGE ONLY THE CHARACTERS' COLORS (applies to every character present in the image):
+- Face fill color: change to a pale warm ivory tone, approximately #E4DFD9 (matching the Scene 1 reference character) — replacing the current darker beige/tan skin tone.
+- Body fill color: change to approximately #636361 (matching the Scene 1 reference character).
+- Outline: approximately #1E1E1E.
+- Eyes and mouth: approximately #0A0A0A.
+- Apply this same color change consistently to all characters present in the scene, so they all match each other and match the Scene 1 reference character's palette.
+
+DO NOT:
+- Do not resize, move, or redesign any character.
+- Do not change the number of characters.
+- Do not change the magnifying glass, the timbers, or the information card.
+- Do not move or reword any of the three existing labels.
+- Do not move or remove the "?" or "!" marks.
+- Do not add any new text anywhere, in Korean, English, or any invented script.
+- Do not change the overall composition or camera framing.
+- The only change anywhere in the image is the face/body/outline/eye color of the existing characters — everything else must remain identical to the supplied reference image.

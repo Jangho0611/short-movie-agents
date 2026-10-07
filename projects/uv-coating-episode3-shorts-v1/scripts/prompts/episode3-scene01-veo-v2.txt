@@ -1,0 +1,19 @@
+Create a subtle 4-second image-to-video animation from the supplied start frame.
+
+ONE ACTION ONLY: Daesan gently tilts his head with curiosity and looks toward the glossy UV-coated panel. Keep the hand naturally beside the body if possible. If it touches the panel at all, it may only lightly touch the outside front edge with minimal movement.
+
+HAND AND PANEL SAFETY — CRITICAL:
+- The hand must stay clearly in front of the panel, touching the panel surface from outside, fingers visible and not overlapping or merging into the panel.
+- Never place the hand behind, inside, through, or on top of the panel. Never fuse, occlude, or deform the hand, fingers, arm, panel edge, or panel surface.
+- Prefer no hand-panel contact. Preserve stable hand anatomy and the exact original number and shape of fingers.
+
+CHARACTER SAFETY — CRITICAL:
+- Preserve the exact canonical character design, proportions, colors, clothing, and silhouette.
+- Keep both eyes as exactly two small round black dots throughout. No blinking, angular eyes, lines, or realistic eyes.
+- Keep the original mouth shape fixed. No talking, lip movement, teeth, tongue, or expression morphing.
+
+FRAME SAFETY:
+- Output must fill the complete native 1080x1920 vertical canvas edge to edge in exact 9:16. No letterboxing, pillarboxing, black bars, borders, matte, blank strips, inset frame, or padding.
+- Preserve the top caption-safe area and the original composition.
+- Fixed camera: no pan, zoom, crop, rotation, shake, reframing, or transition.
+- No text, subtitles, logos, watermarks, new objects, or audio.

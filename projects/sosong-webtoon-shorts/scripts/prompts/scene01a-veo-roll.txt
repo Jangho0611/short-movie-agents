@@ -1,0 +1,64 @@
+Preserve the supplied reference illustration and its exact Korean webtoon / editorial construction-material style.
+
+Animate only one clear inspection action:
+
+The worker uses exactly one hand to roll the center square-section wooden batten sideways along the floor.
+
+The batten must visibly do BOTH of these at the same time:
+1. rotate around its own long axis
+2. translate sideways a short but clearly visible distance across the floor
+
+The sideways travel should be clearly noticeable, approximately one to two times the batten's own thickness in screen space, then gently return partway.
+
+The action must read as:
+"rolling a square wooden batten sideways on the floor to check straightness"
+
+It must NOT read as:
+- lifting
+- dragging
+- pulling
+- sliding without rotation
+- pressing down in place
+- rocking one end up and down
+- tipping
+- propping
+- carrying
+
+HAND AND BODY MOTION:
+- exactly one hand remains in contact near the middle 40-60% of the batten length
+- the hand pushes laterally across the floor, not downward
+- the character shifts the upper body slightly sideways with the rolling motion
+- the second hand stays away from the timber
+- do not bend over the batten with both hands
+- do not support the weight of the timber
+
+TIMBER PRESERVATION:
+- the timber remains fully resting on the floor for the entire animation
+- neither end lifts off the floor
+- preserve the long slender 27x27 / 30x30 mm darukki-like proportion
+- preserve rectangular prism / square-section geometry
+- preserve flat faces and four sharp edges
+- preserve the square end-grain face
+- never morph into a cylinder, dowel, rod, tube, or rounded beam
+- do not bend or deform the usable batten
+
+ROLLING CUE:
+- the visible square end face should change orientation as the batten rotates
+- the long edges should visibly shift position as the square prism rolls from one flat face toward the next
+- small orange curved motion marks may move subtly to reinforce rotation
+- the batten must not merely spin in place; visible sideways translation is required
+
+CAMERA / SCENE:
+- fixed camera
+- no pan
+- no zoom
+- no rotation
+- no scene transition
+- pure white background
+- preserve the thin floor line
+- do not add any objects
+- do not add text
+- no photorealistic transformation
+- no 3D-rendered look
+
+The result should feel like the still illustration has gently come alive with one unmistakable sideways rolling action.

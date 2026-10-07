@@ -1,0 +1,22 @@
+Create a subtle 4-second image-to-video animation from the supplied start frame.
+
+ONE ACTION ONLY: Daesan gently tilts only his head with curiosity and looks toward the glossy UV-coated panel. The panel remains completely stationary. Both arms and both hands stay naturally beside the body, fully separated from the panel, with a clear visible background gap between every part of the character and the panel throughout the motion.
+
+NO CONTACT — ABSOLUTE REQUIREMENT:
+- Daesan must never touch, hold, point at, lean on, reach toward, overlap, cross behind, or cross in front of the panel.
+- Retract the near hand toward the body immediately and keep it beside the torso. Maintain a clearly visible gap between hand and panel at all times.
+- No part of either hand, finger, arm, sleeve, or body may overlap, merge into, pass behind, pass through, rest on, or contact the panel or its outline.
+- Preserve two separate silhouettes: the complete character silhouette and the complete panel silhouette, with clean empty background space between them.
+- Keep both hands stable and anatomically consistent. No extra, missing, fused, stretched, or morphing fingers.
+
+CHARACTER SAFETY — CRITICAL:
+- Preserve the exact canonical character design, proportions, colors, clothing, and overall scale.
+- Keep both eyes as exactly two small round black dots throughout. Eyes remain open and unchanged; no blinking, closing, squinting, angular eyes, lines, or realistic eyes.
+- Keep the original mouth shape fixed and stable. No talking, lip movement, teeth, tongue, or expression morphing.
+- Animate the head tilt only. No hand gesture and no body translation.
+
+FRAME SAFETY:
+- Output must fill the complete native 1080x1920 vertical canvas edge to edge in exact 9:16. No letterboxing, pillarboxing, black bars, borders, matte, blank strips, inset frame, or padding.
+- Preserve the top caption-safe area and original clean white-to-light-gray background.
+- Fixed camera: no pan, zoom, crop, rotation, shake, reframing, or transition.
+- No text, subtitles, logos, watermarks, new objects, or audio.

@@ -1,0 +1,10 @@
+import {AbsoluteFill, Audio, staticFile} from 'remotion';
+import {PRETENDARD} from '../design/fonts';
+import {COLORS} from '../design/tokens';
+export const G=COLORS.daesanGreen;
+export const MID='#548366';
+export const PALE='#EDF4EE';
+export const Sheet: React.FC<React.PropsWithChildren<{audio:string}>>=({audio,children})=><AbsoluteFill style={{background:'#F6F5F4',fontFamily:PRETENDARD,color:'#171717'}}><Audio src={staticFile(`assets/audio/${audio}.mp3`)}/><svg width="1080" height="1920" viewBox="0 0 1080 1920" style={{fontFamily:PRETENDARD}}>{children}</svg></AbsoluteFill>;
+export const ArrowDefs: React.FC<{id:string;color?:string}>=({id,color=G})=><defs><marker id={id} viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke={color} strokeWidth="1.5"/></marker></defs>;
+export const Box: React.FC<{x:number;y:number;width:number;height:number;fill?:string;stroke?:string}>=({x,y,width,height,fill='white',stroke='#D4DED5'})=><rect x={x} y={y} width={width} height={height} rx="20" fill={fill} stroke={stroke} strokeWidth="2"/>;
+export const Badge: React.FC<{x:number;y:number;label:string}>=({x,y,label})=><g><circle cx={x} cy={y} r="20" fill="#171717"/><text x={x} y={y+9} fill="white" fontSize="27" fontWeight="800" textAnchor="middle">{label}</text></g>;

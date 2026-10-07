@@ -54,3 +54,16 @@ logs/
 
 # Batch 1A 환경/OS 제외 유지
 Thumbs.db
+
+# Batch 1B ENV-validated projects
+!/projects/bathroom-door-moisture-shorts-v1/
+!/projects/door-order-tips-v1/
+!/projects/eboard-explainer-shorts-v1/
+!/projects/flame-retardant-episode1-shorts-v1/
+!/projects/gypsum-board-installation-shorts/
+!/projects/mdf-grade-shorts-v1/
+!/projects/sosong-webtoon-shorts/
+!/projects/uv-coating-episode2-shorts-v1/
+!/projects/uv-coating-episode3-shorts-v1/
+!/projects/uv-coating-shorts-v1/
+!/projects/xi-natural-gypsum-food-fact-shorts/

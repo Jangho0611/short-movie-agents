@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Daesan,Apple SD Gothic Neo,42,&H00FFFFFF,&H00FFFFFF,&HCC202020,&H60000000,-1,0,0,0,100,100,-1,0,1,3.2,0.8,2,48,48,108,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:04.20,Daesan,,0,0,0,,{\fad(120,120)}우리가 보는 이 벽\N사실 안쪽부터 만들어집니다
+Dialogue: 0,0:00:04.20,0:00:09.80,Daesan,,0,0,0,,{\fad(120,120)}하지 구조를 세운 뒤\N석고보드를 붙이는 순서죠
+Dialogue: 0,0:00:10.20,0:00:15.80,Daesan,,0,0,0,,{\fad(120,120)}하지 구조에 맞춰\N석고보드 자리를 잡습니다
+Dialogue: 0,0:00:16.20,0:00:21.80,Daesan,,0,0,0,,{\fad(120,120)}위치가 잡히면\N타카로 하지재에 고정
+Dialogue: 0,0:00:22.20,0:00:25.80,Daesan,,0,0,0,,{\fad(120,120)}석고보드를 반복 시공하면\N벽면이 완성됩니다
+Dialogue: 0,0:00:26.00,0:00:31.90,Daesan,,0,0,0,,{\fad(120,120)}겉에서는 보이지 않지만\N안쪽에는 하지 구조가 있습니다

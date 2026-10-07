@@ -1,0 +1,39 @@
+Create one vertical 9:16 reference illustration for a motion-focused Scene 1A shot, in the same Korean webtoon / newspaper-editorial illustration style as the existing Scene 1 explanatory reference (same character design, same pale natural softwood timber color, same black hand-drawn ink linework with a slightly wobbly pen quality). This is a simplified, motion-only shot meant to serve as the first frame of a short rolling-inspection animation — not an explanatory diagram — so keep the scene minimal.
+
+SCENE CONTENT (keep it minimal):
+- Pure white background, no environmental scenery, no clutter.
+- One single square-section wooden batten resting flat on a simple thin floor line in the lower-center of the frame. Its long axis appears diagonal on screen (roughly 20-30 degrees from horizontal) purely as a camera/view-angle effect — physically, the entire batten lies flat on the horizontal floor with both of its long lower edges touching the floor plane along their full length. Neither end is raised, lifted, propped, tilted upward, or leaning; nothing about the pose should suggest one end is higher off the ground than the other.
+- One small worker character (same design as the existing reference: dark charcoal-gray body, black outline, separated pale face patch with small dot eyes, thin limbs) positioned beside this batten.
+- No pile of defective battens, no delivered-bundle stack, no multiple groups. Only this single batten and character are the visual focus.
+
+CRITICAL TIMBER SHAPE RULE:
+- The batten MUST be a rectangular prism / square-section construction batten, approximately 27x27 mm or 30x30 mm in cross-section, like a Korean sosong lumber batten (darukki).
+- It must show a clearly square end-grain face with four sharp corners at its visible end.
+- Absolutely forbidden: cylindrical rod, dowel, roller, round timber, log, pipe, tube, or any rounded cross-section.
+- The batten lies flat on the floor line, its long axis appearing diagonal across the frame at roughly 20-30 degrees from horizontal as a camera/view-angle effect only — physically flat on the ground with both ends at floor level, not lifted or propped at either end — so a viewer can clearly see its square end and one long side face; this diagonal appearance is specifically chosen so that once this image is animated, a small rotation around its long axis will be easy to read.
+- Proportions: the batten must be a long, slender construction batten whose visible length is at least 12 times its thickness, ideally about 15 times its thickness — clearly much longer than it is thick. Never draw it as a short block, a chunky beam, or an oversized/thick timber.
+
+CHARACTER POSE (critical for motion clarity):
+- The character stands or leans slightly forward beside the batten, without climbing or resting body weight on top of it, with exactly ONE hand reaching down to lightly press the top edge or side face of the batten, ready to push it sideways. The contact point must fall within the middle 40-60 percent of the batten's visible length — not near either end — and must be clearly closer to the batten's midpoint than to either tip.
+- The pose must read as "about to roll the batten sideways with one hand," not as gripping, hugging, lifting, propping, dragging, or pressing it flat against the floor.
+- Absolutely forbidden poses: both hands wrapped around the batten, hugging or cradling it, pulling it toward the body, lifting or propping either end off the floor, supporting the batten's weight with the hand, or leaning full body weight down onto it.
+- The character's other arm and both legs stay in a simple, relaxed, slightly crouched stance that does not touch the batten.
+- Keep the contact point between hand and batten unambiguous and clearly drawn, with a small visible gap only where the ink linework naturally separates hand from wood, not overlapping in a way that reads as gripping.
+
+MOTION-READABILITY CUES:
+- Add small orange curved motion marks directly beside the batten's midpoint and its lower visible end, specifically curving in a way that suggests rotation around the batten's long axis (like a spinning/rolling motion), not marks that suggest sliding, bouncing, or lifting.
+- The composition should already imply "this batten is about to roll a short distance left and right on the floor while turning" — this still image is meant to serve as the first frame of a short rolling-inspection animation.
+
+STYLE (unchanged from the existing Scene 1 reference):
+- Vertical 9:16 canvas.
+- Minimal black hand-drawn ink outlines with a slightly wobbly, imperfect pen line quality.
+- Korean webtoon / newspaper editorial illustration style for professional construction-material education.
+- Not photorealistic, no 3D rendering, no glossy commercial vector-infographic look.
+- Same pale natural softwood tone (clean pale beige to light tan, not too yellow, not dark brown) for the batten(s); same dark charcoal-gray body + black outline + pale separated face-patch character color scheme; orange only for the rolling motion marks; keep everything else minimal on white.
+
+COMPOSITION:
+- Center the batten-and-character action in the lower-middle portion of the vertical canvas, with generous plain white space above for later video captions — this shot is close-up and motion-focused, so it does not need the busy multi-group layout of the explanatory Scene 1 image.
+- No camera-implying elements (no vanishing-point perspective lines, no framing devices) — keep it a flat illustrative composition matching the existing style.
+
+TEXT:
+Do not generate any text, letters, numbers, labels, captions, logos, signatures, watermarks, or typographic marks anywhere in this image. This is a motion-only reference shot with no hand-lettered labels, to minimize any risk of Veo distorting text during animation.

@@ -1,0 +1,13 @@
+Create a clean vertical 9:16 cover visual for a Korean construction-material educational short. Use the supplied scene image as the primary composition and material reference, and the supplied canonical character image as the exact character identity reference.
+
+VISUAL ONLY — absolutely no text, letters, numbers, logos, labels, UI, watermark, or signature.
+
+Canvas and style: bright Figma-inspired white-to-very-light-gray studio background, subtle cool-gray depth, restrained and editorial rather than playful. Full 9:16 frame, 1080x1920 intent.
+
+Composition: reserve the entire upper 48% as clean negative space for later typography. Place the hero grouping in the lower-right area: one tall glossy UV-coated light-wood panel and the small Daesan character beside it. The panel is the dominant hero product, upright with realistic thin board proportions and a clear but natural narrow reflected light band that communicates gloss. Keep the product and character fully visible and inside the central feed-safe area. Leave the lower-left area relatively quiet for a later brand lockup.
+
+Character invariants: exactly match the canonical small Daesan design — dark charcoal rounded body, pale circular face, exactly two small round black-dot eyes, tiny simple mouth, short separated arms and legs, thick clean black outline. Neutral curious expression, head gently tilted toward the panel. Both hands stay beside the body with a clearly visible gap from the panel; no touching, pointing, overlap, merging, or contact with the panel.
+
+Product invariants: one UV-coated wood panel only, light natural wood grain, straight rectangular geometry, realistic thin thickness, clean edges, smooth glossy coating. No extra boards, no furniture, no tools.
+
+Lighting: soft modern studio daylight, minimal soft floor shadow, no dramatic spotlight, no excessive commercial sparkle, no warm cream cast.

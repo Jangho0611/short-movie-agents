@@ -1,0 +1,17 @@
+Create a subtle 4-second image-to-video animation from the supplied start frame.
+
+ONE ACTION ONLY: Daesan gives one small, calm finishing nod while maintaining the existing gentle guiding-hand pose. The glossy and matte boards beside him remain completely stationary. Add only subtle natural body settling.
+
+CHARACTER SAFETY — CRITICAL:
+- Preserve the exact canonical character design, proportions, colors, clothing, and silhouette from the source image.
+- Keep both eyes as exactly two small, round black dots throughout. Eyes must not become angular, triangular, blinking shapes, lines, or realistic eyes.
+- Keep the original mouth shape fixed and stable. No lip movement, talking, teeth, tongue, or expression morphing.
+- Keep hands stable and anatomically consistent. Preserve the original number and shape of fingers; no extra, missing, fused, stretched, or morphing fingers.
+- Do not change the guiding-hand pose beyond tiny natural body settling.
+
+COMPOSITION SAFETY:
+- Preserve the exact 9:16 full-frame vertical composition from edge to edge.
+- Keep the entire top caption-safe empty area unchanged and unobstructed.
+- Fixed camera: no pan, zoom, crop, rotation, shake, reframing, or transition.
+- Preserve the clean white-to-light-gray Figma-style background, both board positions, lighting, and all object geometry.
+- No text, subtitles, logos, watermarks, new objects, or audio.

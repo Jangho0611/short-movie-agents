@@ -1,0 +1,35 @@
+Preserve the supplied reference image as strictly as possible.
+
+Animate only a very subtle defect-inspection motion.
+
+- The existing worker keeps one hand in contact with the already lifted finish-material area for the entire shot.
+- The hand makes one very small inward press and then relaxes slightly, but never fully leaves the finish surface.
+- The worker stays in the same location.
+- No stepping backward.
+- No lowering both hands.
+- No large body movement.
+- Keep the same neutral expression and same character design.
+
+Preserve:
+- the warped internal furring batten completely stationary
+- the wall cross-section
+- the lifted finish-material defect
+- the opened seam
+- the red pressure marks
+- all three existing Korean labels
+- the character's current face/body colors
+- the entire framing and composition
+
+TEXT:
+Do not fade, remove, rewrite, duplicate, morph, or animate any Korean label.
+No new text, symbols, logos, or watermarks.
+
+STYLE:
+- fixed camera
+- no pan
+- no zoom
+- no scene transition
+- no new objects
+- no photorealistic or 3D transformation
+
+The result should feel almost like a still illustration with only a tiny inspection movement.

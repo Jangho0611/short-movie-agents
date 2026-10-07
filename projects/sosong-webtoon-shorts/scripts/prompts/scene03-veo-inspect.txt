@@ -1,0 +1,64 @@
+Preserve the supplied reference illustration and its exact Korean webtoon / newspaper-editorial construction-material style.
+
+Animate only subtle inspection motions.
+
+The two sosong lumber battens must remain visually almost identical for the entire video.
+
+VISUAL INSPECTION MOTION:
+- The character using the magnifying glass makes a very small inspection movement, shifting the magnifying glass slightly from one batten toward the other.
+- The character's head/gaze may subtly follow the comparison.
+- The motion should communicate careful visual comparison, not discovery of an obvious difference.
+- Do not create a dramatic reaction.
+
+INFORMATION-CHECK MOTION:
+- The character near the small product/specification card makes a tiny natural gaze or hand movement toward the card.
+- The action should read as "checking the product information because visual inspection alone is insufficient."
+- Keep the card essentially stationary.
+- Do not generate readable new text or numbers on the card.
+
+CRITICAL BATTEN NEUTRALITY:
+- Keep both battens the same pale natural softwood tone.
+- Keep both battens approximately the same size, shape, straightness, cleanliness, grain density, and surface condition.
+- Do not make one lighter, darker, drier, wetter, cleaner, dirtier, cracked, bowed, twisted, or otherwise visually distinguishable.
+- Do not visually identify one as KD and the other as non-KD.
+- Do not add moisture effects, steam, water marks, cracks, warping, color differences, or any other visual clue.
+
+TIMBER PRESERVATION:
+- Both battens remain square-section rectangular prisms.
+- Preserve their four edges and square end-grain faces.
+- No cylindrical transformation.
+- No movement, bending, warping, shrinking, swelling, or deformation of either batten.
+
+CHARACTER PRESERVATION:
+- Preserve the existing character designs.
+- Do not add or remove characters.
+- Do not transform them into cute mascots.
+- Keep expressions restrained.
+- Preserve the existing "?" and "!" marks exactly as they appear; do not add, duplicate, animate dramatically, or remove them.
+
+TEXT PRESERVATION:
+Preserve these three Korean handwritten labels exactly as they appear:
+- 겉모습은 동일
+- 육안 구별 불가
+- 건조 정보 확인
+
+Do not rewrite, morph, duplicate, translate, replace, fade, animate, or remove any label.
+Do not add any other Korean text, English text, numbers, logos, watermarks, or signs.
+
+STYLE / CAMERA:
+- pure white background
+- same framing and composition
+- same hand-drawn slightly wobbly black ink lines
+- same pale natural softwood colors
+- same restrained red/orange accents
+- fixed camera
+- no pan
+- no zoom
+- no camera rotation
+- no scene transition
+- no new background objects
+- no photorealistic transformation
+- no 3D-rendered look
+- no vector-infographic transformation
+
+The final video should feel like the original explanatory illustration has gently come alive while preserving the key idea that the two battens still look the same.

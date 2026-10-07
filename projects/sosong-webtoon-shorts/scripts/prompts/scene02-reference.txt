@@ -1,0 +1,47 @@
+Create one vertical 9:16 reference illustration for Scene 2 of the same professional construction-material explainer short, in the exact same Korean webtoon / newspaper-editorial illustration style as the existing Scene 1 reference (same black hand-drawn ink linework with a slightly wobbly pen quality, same pale natural softwood timber color, same worker-character design). This scene explains a structural cause-and-effect: an unseen warped sosong furring batten behind a finish surface can telegraph its deformation forward, causing the visible finish to lift and its seams to open.
+
+WALL CROSS-SECTION (the main subject of this scene):
+- Show one simple sectional cutaway (cross-section) of a wall, centered in the frame. Keep the wall itself simple and schematic — a plain rectangular slice of wall, not a full architectural drawing, not a busy jobsite. Even though the panel edges are structurally straight, draw them with the same slightly wobbly, imperfect hand-drawn ink line quality as the rest of the illustration — never perfectly ruler-straight, never CAD-like or vector-smooth.
+- The cutaway must clearly separate two layers, front to back: the visible finish material at the front (facing the viewer/room side) and the sosong furring battens (the structural substrate) mounted directly behind it, hidden inside the wall.
+- The layering must read at a glance: finish surface in front, furring batten(s) behind it, touching or very close to the back of the finish panels, so the structural relationship between the hidden batten and the visible finish is obvious.
+- Keep the cutaway simple enough that a viewer instantly understands "front layer = what you see" and "back layer = what's hidden inside."
+
+WARPED FURRING BATTEN (hidden structural cause):
+- Inside the wall cavity, show 1-2 sosong furring battens mounted vertically or horizontally as the substrate behind the finish. One of them — the key batten — is visibly twisted/bowed.
+- Every batten, including the warped one, MUST remain a rectangular prism / square-section construction batten, approximately 27x27 mm or 30x30 mm in cross-section, like a Korean sosong lumber batten (darukki). Absolutely forbidden: cylindrical rod, dowel, roller, round timber, pipe, tube, flat ribbon, strip of paper, belt, tape, or flat curved board.
+- The warped batten's own wooden silhouette must visibly twist and/or bow along its length — the deformation must read from its actual 3D shape (visible side faces and square end-grain face), not from color alone. Keep the twist/bow gentle and structurally plausible; avoid an exaggerated S-curve or cartoonishly broken lumber.
+- Base wood color for all battens, including the warped one, is the exact same pale natural softwood tone used in the Scene 1 reference (clean pale beige to light tan). At least 80-90 percent of the warped batten's visible surface must still read as this same pale natural wood color, just like the straight battens beside it. Absolutely forbidden: coloring the warped batten entirely or mostly red, dark red, reddish-brown, or dark brown — the defect is communicated by its actual twisted/bowed geometry, not by recoloring the wood. Red may only appear as a very thin defect-accent line or a small localized highlight on top of this pale wood base — the red accent must never replace or cover over the natural wood base color.
+
+FINISH-SURFACE DEFECT (the visible effect):
+- Directly in front of the warped batten, the finish material lifts slightly away from the wall — a subtle but clearly drawn gap/peel, not an exaggerated multi-centimeter protrusion. It should read as a small, realistic construction defect, immediately noticeable once pointed out but not cartoonish.
+- Where this lifted finish panel meets its neighboring panel, show part of that seam visibly opened/gapped, directly beside the lifted area.
+- The visual chain "warped batten behind the wall -> finish lifts in front of it -> seam opens beside it" must be readable as one connected cause-and-effect, not as unrelated details scattered around the image.
+
+CAUSE-TO-EFFECT EMPHASIS:
+- A very short, faint, hand-drawn red curved line or two — like a small pressure mark or wobbly transfer squiggle — may sit between the warped batten and the lifted finish area, suggesting the deformation is pushing forward through the wall.
+- Absolutely forbidden: engineering-style arrows, infographic arrows, straight technical directional arrows, or any bold/thick arrowhead shape. This mark must not look like a diagram arrow at all — no distinct arrow tip, no ruler-straight shaft.
+- This is a minor supporting detail, not a focal element — keep it small and low-contrast enough that the wall cross-section, batten, and finish defect remain the main visual focus, not this connecting mark. It should read as a faint hint of force in a webtoon sketch, never as a technical diagram.
+
+CHARACTER (same design as the Scene 1 reference):
+- Small, simple non-human jobsite-worker character. Body mass is a dark charcoal-gray or ink-black tone (not flat pure black), with a clean black outline. The face area is a separate white or very pale patch on the head so small dot eyes read clearly against it. Arms and legs are thin limbs clearly separated from the torso, with hands/feet at least minimally distinguished. Not a ghost/shadow/silhouette mass, not a cute mascot — a plain, diligent jobsite-worker feeling, neutral/blank expression, no exaggerated surprise or shock on the face.
+- Action: the character uses one hand to press down on the lifted finish-material area to check it, while the body orientation or head/gaze turns slightly toward the wall cross-section, toward the hidden warped batten inside — reading as "found the surface defect, and is now checking/tracing it back to the batten behind it."
+
+STYLE (matches the Scene 1 reference exactly):
+- Vertical 9:16 canvas.
+- Pure white background, no environmental scenery, no complex jobsite background elements.
+- Minimal black hand-drawn ink outlines with a slightly wobbly, imperfect pen line quality — this applies to every element in the frame, including the wall panel and cutaway edges, not just the character and timber.
+- Korean webtoon / newspaper editorial illustration style for professional construction-material education.
+- Not photorealistic, no 3D rendering, no glossy commercial vector-infographic look. Absolutely forbidden: ruler-perfect straight edges, CAD-style or vector-smooth linework, or a glossy technical-illustration finish anywhere in the image — the whole piece should look like a hand-sketched professional editorial webtoon, not a technical drawing.
+- Color palette: black for line art and character outline; pale natural softwood tone for all timber; red only for defect emphasis (warped batten accent, lifted-finish edge, opened seam, cause-to-effect marks); orange only if a small motion mark is needed for the character's checking hand; keep everything else minimal on white.
+
+IN-SCENE KOREAN HAND-LETTERED LABELS:
+The entire image must contain EXACTLY three text instances in total, no more and no fewer — each phrase below appears exactly once, one single time each, anywhere in the whole illustration. Do not duplicate any phrase, do not repeat the same phrase in two places, and do not add any second phrase with similar or equivalent meaning. Render each as a casual hand-written annotation matching the sketchy ink linework, small enough not to cover or obscure the wall cross-section, timber, or character:
+1. "뒤틀린 하지재" — exactly one instance, placed near the warped furring batten inside the wall cavity.
+2. "들뜬 마감재" — exactly one instance, placed near the lifted finish-surface area.
+3. "벌어진 이음새" — exactly one instance, placed near the opened seam between finish panels.
+Do not generate any other text, numbers, English words, logos, watermarks, or signatures anywhere in the image. Only these exact three Korean phrases, exactly once each, with the exact spelling and spacing given above, may appear.
+
+COMPOSITION:
+- The wall cross-section (with the warped batten and the lifted finish/seam defect) is the main subject and should fill most of the vertical canvas — do not leave excessive empty white space at the top; the scene should feel appropriately full on a 9:16 phone screen.
+- The character is a secondary, supporting element positioned beside or in front of the wall section, not competing for visual dominance with the cross-section itself.
+- The story must be readable at a glance even at small phone-screen size: hidden warped batten inside the wall -> visible lifted finish and gapped seam directly in front of it -> character discovering and checking the defect.
