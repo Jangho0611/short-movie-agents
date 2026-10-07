@@ -1,0 +1,79 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "durations": {
+    "scene01-tts-v3.mp3": 3.888,
+    "scene02-tts-v3.mp3": 4.608,
+    "scene03-tts-v3.mp3": 6.696,
+    "scene04-tts-v3.mp3": 7.968,
+    "scene05-tts-v3.mp3": 6.216,
+    "full-tts-qa-v3.mp3": 29.376
+  },
+  "total_seconds": 29.375999999999998,
+  "input_exact_match": true,
+  "decode_qa": "PASS",
+  "v1_v2_preserved": "PASS",
+  "order": [
+    "scene01-tts-v3.mp3",
+    "scene02-tts-v3.mp3",
+    "scene03-tts-v3.mp3",
+    "scene04-tts-v3.mp3",
+    "scene05-tts-v3.mp3"
+  ],
+  "silencedetect": {
+    "scene01-tts-v3.mp3": [
+      "[Parsed_silencedetect_0 @ 0x798ac649c0] silence_start: 0",
+      "[Parsed_silencedetect_0 @ 0x798ac649c0] silence_end: 0.371708 | silence_duration: 0.371708",
+      "[Parsed_silencedetect_0 @ 0x798ac649c0] silence_start: 1.690667",
+      "[Parsed_silencedetect_0 @ 0x798ac649c0] silence_end: 2.000042 | silence_duration: 0.309375",
+      "[Parsed_silencedetect_0 @ 0x798ac649c0] silence_start: 3.680542",
+      "[Parsed_silencedetect_0 @ 0x798ac649c0] silence_end: 3.888 | silence_duration: 0.207458"
+    ],
+    "scene02-tts-v3.mp3": [
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_start: 0",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_end: 0.269542 | silence_duration: 0.269542",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_start: 1.007667",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_end: 1.267167 | silence_duration: 0.2595",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_start: 2.039208",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_end: 2.157167 | silence_duration: 0.117958",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_start: 4.364042",
+      "[Parsed_silencedetect_0 @ 0x7548c649c0] silence_end: 4.608 | silence_duration: 0.243958"
+    ],
+    "scene03-tts-v3.mp3": [
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_start: 0",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_end: 0.554208 | silence_duration: 0.554208",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_start: 1.601875",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_end: 1.7145 | silence_duration: 0.112625",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_start: 4.253167",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_end: 4.812708 | silence_duration: 0.559542",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_start: 6.402125",
+      "[Parsed_silencedetect_0 @ 0x7b490549c0] silence_end: 6.696 | silence_duration: 0.293875"
+    ],
+    "scene04-tts-v3.mp3": [
+      "[Parsed_silencedetect_0 @ 0x7828c649c0] silence_start: 0",
+      "[Parsed_silencedetect_0 @ 0x7828c649c0] silence_end: 0.449208 | silence_duration: 0.449208",
+      "[Parsed_silencedetect_0 @ 0x7828c649c0] silence_start: 4.302",
+      "[Parsed_silencedetect_0 @ 0x7828c649c0] silence_end: 4.862125 | silence_duration: 0.560125",
+      "[Parsed_silencedetect_0 @ 0x7828c649c0] silence_start: 7.742083",
+      "[Parsed_silencedetect_0 @ 0x7828c649c0] silence_end: 7.968 | silence_duration: 0.225917"
+    ],
+    "scene05-tts-v3.mp3": [
+      "[Parsed_silencedetect_0 @ 0x7634c00e40] silence_start: 0",
+      "[Parsed_silencedetect_0 @ 0x7634c00e40] silence_end: 0.494958 | silence_duration: 0.494958",
+      "[Parsed_silencedetect_0 @ 0x7634c00e40] silence_start: 2.741542",
+      "[Parsed_silencedetect_0 @ 0x7634c00e40] silence_end: 3.17175 | silence_duration: 0.430208",
+      "[Parsed_silencedetect_0 @ 0x7634c00e40] silence_start: 5.989417",
+      "[Parsed_silencedetect_0 @ 0x7634c00e40] silence_end: 6.216 | silence_duration: 0.226583"
+    ]
+  },
+  "listening_qa": "사용자 청취 승인 대기; 기계적 무음 검사는 단어 위치와 자연스러움을 판정하지 못함",
+  "sha256": {
+    "scene01-tts-v3.mp3": "681bc9e839af413f54bff870efb671ee3b4168d00579c9420a47245f2b9947d4",
+    "scene02-tts-v3.mp3": "9fc0591a1d4bb210732310b028d29e88e29c493aafcc0bf549ffdd875743d6b3",
+    "scene03-tts-v3.mp3": "393d32e1012ebb5286f3ed961294f09c88e1b5d7a80c6127b60a0ba5eead8372",
+    "scene04-tts-v3.mp3": "4750cbaf7dd6c22ceea9312301feb32c0beaa49c37acbc2e6f4d0ae00746d913",
+    "scene05-tts-v3.mp3": "1c65d2b9fdee324de2f884f6855dcb9ed47dc21971595973e8b642bebd958201",
+    "full-tts-qa-v3.mp3": "9b965ed127225f6dfbd2ed9ed937357541362b1915600296169fe430d3c70312"
+  }
+}

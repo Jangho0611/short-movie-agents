@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/Users/janghokim/Downloads/Codex 이미지 2026년 10월 6일 오후 02_33_22.png",
+    "destination": "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/images/hidden-door-site-01.png",
+    "sha256": "78473f4254f4ffb9648c9949dc3d2ed5d491ea6379ff86c9333f93b3dd80fb44",
+    "width": 1536,
+    "height": 2048
+  },
+  {
+    "source": "/Users/janghokim/Downloads/Codex 이미지 2026년 10월 6일 오후 02_33_36.png",
+    "destination": "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/images/hidden-door-site-02.png",
+    "sha256": "28b93362c88d8fa171b0e286e555b0e69e54f2e145aa6e5ceba496d9b7178fc9",
+    "width": 1536,
+    "height": 2048
+  },
+  {
+    "source": "/Users/janghokim/Downloads/Codex 이미지 2026년 10월 6일 오후 02_33_42.png",
+    "destination": "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/images/hidden-door-site-03.png",
+    "sha256": "06c736419ac1d907b7ca3830854cd33e6073b7fd8977ed24499a33087e6fae5d",
+    "width": 1536,
+    "height": 2048
+  },
+  {
+    "source": "/Users/janghokim/Downloads/Codex 이미지 2026년 10월 6일 오후 02_33_48.png",
+    "destination": "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/images/hidden-door-site-04.png",
+    "sha256": "b7237b4e12093228b1ab7db33a9a5531f5c8cc3e3753c4a497fcdb2360213e5f",
+    "width": 1536,
+    "height": 2048
+  },
+  {
+    "source": "/Users/janghokim/Downloads/Codex 이미지 2026년 10월 6일 오후 02_33_52.png",
+    "destination": "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/images/hidden-door-site-05.png",
+    "sha256": "6da6511512cb74de2c0394f9a3f71f5c7655f29412a4f69a6bde7881d41cc93b",
+    "width": 1536,
+    "height": 2048
+  }
+]

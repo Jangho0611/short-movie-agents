@@ -1,0 +1,32 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "input_exact_match": true,
+  "durations_seconds": {
+    "scene01-tts-v1.mp3": 2.376,
+    "scene02-tts-v1.mp3": 6.576,
+    "scene03-tts-v1.mp3": 6.096,
+    "scene04-tts-v1.mp3": 6.264,
+    "scene05-tts-v1.mp3": 6.936
+  },
+  "total_seconds": 28.248,
+  "full_qa_seconds": 28.248,
+  "order": [
+    "scene01-tts-v1.mp3",
+    "scene02-tts-v1.mp3",
+    "scene03-tts-v1.mp3",
+    "scene04-tts-v1.mp3",
+    "scene05-tts-v1.mp3"
+  ],
+  "decode_qa": "PASS",
+  "status": "TTS v1 생성 / 사용자 청취 승인 대기",
+  "sha256": {
+    "scene01-tts-v1.mp3": "97be4ded318cc68035317058ec96a00fa2631c8fdd057bfb006322dabc3fa4da",
+    "scene02-tts-v1.mp3": "bd3b0ba3cec56a50f2169b0fd3925e4c86e09960451151e990c108ebcb4cae83",
+    "scene03-tts-v1.mp3": "c82f861e234208d16a53053ec5caad3c3b03a5984d6d28615b5e24e45607567a",
+    "scene04-tts-v1.mp3": "38c48695aacd80478fe87402dc9b01e16e596a8a498882a9f805b507d1c2bdd6",
+    "scene05-tts-v1.mp3": "97bd61c471621a9d63891155d54e0d8fa47407910131b2f4c3766ca57d435cf0",
+    "full-tts-qa-v1.mp3": "87dac7df89becbca28cb1ab1c232011bded13e8a4fb6b7d8c9376dfbf78e2192"
+  }
+}

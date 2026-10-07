@@ -1,0 +1,49 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "durations": {
+    "scene01-tts-v5.mp3": 3.936,
+    "scene02-tts-v4.mp3": 5.688,
+    "scene03-tts-v4.mp3": 6.744,
+    "scene04-tts-v5.mp3": 7.176,
+    "scene05-tts-v5.mp3": 4.056,
+    "full-tts-qa-v5.mp3": 27.6
+  },
+  "total_seconds": 27.6,
+  "input_exact_match": true,
+  "decode_qa": "PASS",
+  "v1_v2_v3_v4_preserved": "PASS",
+  "locked_approved_sha256_before": {
+    "scene02-tts-v4.mp3": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8",
+    "scene03-tts-v4.mp3": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f"
+  },
+  "locked_approved_sha256_after": {
+    "scene02-tts-v4.mp3": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8",
+    "scene03-tts-v4.mp3": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f"
+  },
+  "order": [
+    "scene01-tts-v5.mp3",
+    "scene02-tts-v4.mp3",
+    "scene03-tts-v4.mp3",
+    "scene04-tts-v5.mp3",
+    "scene05-tts-v5.mp3"
+  ],
+  "sha256": {
+    "scene01-tts-v5.mp3": "9574258d0c6bb453dc6fb3d095809313ab95e9863058747451122c6d4c96c2e0",
+    "scene02-tts-v4.mp3": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8",
+    "scene03-tts-v4.mp3": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f",
+    "scene04-tts-v5.mp3": "4ae7bccb6e1df3bdbabf511d97ec3657862816befdb32fc1f0e7a923109ad732",
+    "scene05-tts-v5.mp3": "12af508d244d8ad02aa7a35f920a0265d4d0c0fb4d23b8b75add0226f0cf1e1c",
+    "full-tts-qa-v5.mp3": "7c67a1ab3aff4f17c031ad25e548ef58955636b09b13007b92923864fbaa5640"
+  },
+  "prior_v5_backups_sha256": {
+    "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/audio/scene01-tts-v5-prior-01.mp3": "5c2054c723dd9a38b47e6522f19e9fcb6657be76fb86057507d9f2341213681c",
+    "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/audio/scene04-tts-v5-prior-01.mp3": "5c3e9700f50d6c92567d8c5686c0a899c82ad752fcbfc2132e8257f9f4880500",
+    "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/audio/scene05-tts-v5-prior-01.mp3": "83a7fcf535e07576e55048f8a97f8c97b01c6a2f654c4c229bd239f2ce493de3",
+    "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/public/assets/audio/full-tts-qa-v5-prior-01.mp3": "4cc11522f7ee6d48b32f128bc6d8705830e2bc0863df749d7b7144a1a22892cc",
+    "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/docs/tts-input-v5-prior-01.json": "a2fc080d2f87aa3fa1a081e9b5c2ada165dee7f3750fdca3c141de46578e53b3",
+    "/Users/janghokim/Documents/hidden-door-installation-shorts-v1/docs/tts-qa-v5-prior-01.json": "cb7825f5a49e319e74d9ae32ef7cae28854833cd146f5debf0f558f4c3ed6edb"
+  },
+  "status": "TTS v5 생성 / Scene 2·3 v4 APPROVED / 나머지 사용자 청취 승인 대기"
+}

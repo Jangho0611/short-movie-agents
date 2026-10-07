@@ -1,0 +1,17 @@
+{
+  "generation_count": 1,
+  "tool": "built-in image_gen",
+  "image_sha256": "b1833769f5d51afbc0902f0be862cc01d79fa0e3f949f80c516bc6a7dd617194",
+  "visual_qa": "PASS",
+  "flush_plane": "PASS",
+  "no_recess": "PASS",
+  "no_architrave": "PASS",
+  "no_thick_frame": "PASS",
+  "no_large_screws": "PASS",
+  "fastening_marks": "almost invisible",
+  "sheet_joints": "plausible",
+  "diagram_relationship": "visible interface consistent; hidden layers not verifiable",
+  "photorealism": "PASS",
+  "prior_assets_unchanged": true,
+  "preview_applied": false
+}

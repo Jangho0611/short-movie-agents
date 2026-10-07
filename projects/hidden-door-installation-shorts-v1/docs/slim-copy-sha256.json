@@ -1,0 +1,137 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/package.json",
+    "destination": "package.json",
+    "sha256": "d39d6bf5c5311644c90bac000d33b952e25770c98aac2652e7e0c336d47cb41a"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/tsconfig.json",
+    "destination": "tsconfig.json",
+    "sha256": "dcfd46b39e5fe316ca85f140c9c94661135bdcb0dc370667385930c136293355"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/video/IMG_3934.MOV",
+    "destination": "public/assets/video/IMG_3934.MOV",
+    "sha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4",
+    "destination": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+    "sha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/video/headquarters-normal-speed-hold.mp4",
+    "destination": "public/assets/video/headquarters-normal-speed-hold.mp4",
+    "sha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/logos/daesanlogo2.png",
+    "destination": "public/assets/logos/daesanlogo2.png",
+    "sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/audio/ending-approved-v3.mp3",
+    "destination": "public/assets/audio/ending-approved-v3.mp3",
+    "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/fonts/Pretendard-SemiBold.woff2",
+    "destination": "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/fonts/Pretendard-ExtraBold.woff2",
+    "destination": "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/fonts/Pretendard-Medium.woff2",
+    "destination": "public/assets/fonts/Pretendard-Medium.woff2",
+    "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/index.tsx",
+    "destination": "src/index.tsx",
+    "sha256": "1dae4a52f3260f92a1982895db91cd1251d9ef99217eb8a931dba06cc31fdfc8"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/DaesanEnding.tsx",
+    "destination": "src/DaesanEnding.tsx",
+    "sha256": "e0bfb83bbf6e77459b9a050cfafdfbaa6bd354cacf819ab6ea9955f97b9054c6"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/fonts.ts",
+    "destination": "src/approved/fonts.ts",
+    "sha256": "4472a4b4d0388d67a746b69a33ba8cc337a7d540c4d7d1b7f62d0b341977356e"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/HeadquartersOverlay.tsx",
+    "destination": "src/approved/HeadquartersOverlay.tsx",
+    "sha256": "c4478d0ed1f31488c384ef74535c0e2b5b503a815f598c0b011bcc5369ffdf16"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/tokens.ts",
+    "destination": "src/approved/tokens.ts",
+    "sha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/src/approved/brief.ts",
+    "destination": "src/approved/brief.ts",
+    "sha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/docs/README.md",
+    "destination": "docs/daesan-ending/README.md",
+    "sha256": "3d128e52474b4f877a52ed49b34f735073e2bd5e4f8fd3574af32d78674d894b"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesan-ending/docs/asset-sha256.json",
+    "destination": "docs/daesan-ending/asset-sha256.json",
+    "sha256": "9901852b1d377563c8188211b1325bda32d5021278d6631a5eac409dc73d38e7"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/cover/daesani-cover-point-right.png",
+    "destination": "public/assets/images/daesani-cover-point-right.png",
+    "sha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/cover/daesani-cover-point-left.png",
+    "destination": "public/assets/images/daesani-cover-point-left.png",
+    "sha256": "74e81edc1e5e15f08221488c5ab9936dc20f9b71f4fecc4e76a5bdfbd3fe56dd"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/cover/daesani-cover-open-arms.png",
+    "destination": "public/assets/images/daesani-cover-open-arms.png",
+    "sha256": "d2c5984e08b26c69da299fd50e178bba1ee6b1db4173f5e26d2f4efbb5fea008"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/Shorts_제작_운영가이드.md",
+    "destination": "docs/Shorts_제작_운영가이드.md",
+    "sha256": "a1f92dffed037a198c275985958f91a24f339efeada431aa0a8eed3ed639d24c"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/COVER.md",
+    "destination": "docs/COVER.md",
+    "sha256": "2d95254a3225b0ca01af087dd217e122d6754085c1485dff6df6046e5ce21dfb"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/건축자재_AI이미지_품목별_프롬프트_가이드.md",
+    "destination": "docs/건축자재_AI이미지_품목별_프롬프트_가이드.md",
+    "sha256": "c7ef021747cc0bc495363a2b94f30662cd7986d0a71884ce85b9a885640c17e4"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/daesan_shorts_instructions.md",
+    "destination": "docs/daesan_shorts_instructions.md",
+    "sha256": "6332b75baa5d42476ac101490872713e86f922aa06ad51d0f66270fd73ccf0c7"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/DAESAN_ENDING.md",
+    "destination": "docs/DAESAN_ENDING.md",
+    "sha256": "3d128e52474b4f877a52ed49b34f735073e2bd5e4f8fd3574af32d78674d894b"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/design-styles/README.md",
+    "destination": "docs/design-styles/README.md",
+    "sha256": "1435b03598b77c21a90d6eda40b3c779a2d26de579bcb9198a293294656607f7"
+  }
+]

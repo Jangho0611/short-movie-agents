@@ -1,0 +1,22 @@
+{
+  "scene01-tts-v5.mp3": {
+    "duration": 3.936,
+    "sha256": "9574258d0c6bb453dc6fb3d095809313ab95e9863058747451122c6d4c96c2e0"
+  },
+  "scene02-tts-v4.mp3": {
+    "duration": 5.688,
+    "sha256": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8"
+  },
+  "scene03-tts-v4.mp3": {
+    "duration": 6.744,
+    "sha256": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f"
+  },
+  "scene04-tts-v8.mp3": {
+    "duration": 7.078,
+    "sha256": "df8dcb8369ea1fce3ae461f43eb2102b76fe40e13b3deca5e8e4d4c45de3aaaf"
+  },
+  "scene05-tts-v6.mp3": {
+    "duration": 5.016,
+    "sha256": "0d56540b1015d07648b3e00af6044a3118f0d5f11ba9bc892fa1b67219433b95"
+  }
+}

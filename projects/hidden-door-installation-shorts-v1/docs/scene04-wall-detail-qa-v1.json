@@ -1,0 +1,12 @@
+{
+  "status": "FAIL / candidate only / no preview update",
+  "generation_count": 1,
+  "diagram_sha256": "0ba594dc78a5ccf661e303a9db6780d8cee3ef48834bb34498ab6d620b290ce5",
+  "image_sha256": "bf7ebf4409487dd22194cf542815432677615f92c734f4b926bb86a9b3084606",
+  "prior_image_sha256": "3059f77dd0c16130e56c8547562f4329f72ec461aa18345b921225cf03df804e",
+  "texture": "PASS",
+  "no_text": "PASS",
+  "flush_junction": "FAIL: door reads recessed",
+  "unsupported_structure": "WARN: thick-looking top/side projection",
+  "preview_rendered": false
+}

@@ -1,0 +1,43 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "durations": {
+    "scene01-tts-v5.mp3": 3.936,
+    "scene02-tts-v4.mp3": 5.688,
+    "scene03-tts-v4.mp3": 6.744,
+    "scene04-tts-v6.mp3": 5.904,
+    "scene05-tts-v6.mp3": 5.016,
+    "full-tts-qa-v6.mp3": 27.288
+  },
+  "total_seconds": 27.288,
+  "order": [
+    "scene01-tts-v5.mp3",
+    "scene02-tts-v4.mp3",
+    "scene03-tts-v4.mp3",
+    "scene04-tts-v6.mp3",
+    "scene05-tts-v6.mp3"
+  ],
+  "input_exact_match": true,
+  "decode_qa": "PASS",
+  "all_existing_mp3_preserved": "PASS",
+  "locked_sha256_before": {
+    "scene01-tts-v5.mp3": "9574258d0c6bb453dc6fb3d095809313ab95e9863058747451122c6d4c96c2e0",
+    "scene02-tts-v4.mp3": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8",
+    "scene03-tts-v4.mp3": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f"
+  },
+  "locked_sha256_after": {
+    "scene01-tts-v5.mp3": "9574258d0c6bb453dc6fb3d095809313ab95e9863058747451122c6d4c96c2e0",
+    "scene02-tts-v4.mp3": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8",
+    "scene03-tts-v4.mp3": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f"
+  },
+  "sha256": {
+    "scene01-tts-v5.mp3": "9574258d0c6bb453dc6fb3d095809313ab95e9863058747451122c6d4c96c2e0",
+    "scene02-tts-v4.mp3": "e6ff4bdf86d4d7142e3ba7cfb3e69ea28280c63600ff69a99ccb1cf834636bd8",
+    "scene03-tts-v4.mp3": "b9cdabf103fa1268567d34e4ba1a09747ddd41a2407b8e79290a3fedde9a1a2f",
+    "scene04-tts-v6.mp3": "000116a6d93e4ed81bcee2b364852bca1b27aa2adb841a7f5aacd529fc040b56",
+    "scene05-tts-v6.mp3": "0d56540b1015d07648b3e00af6044a3118f0d5f11ba9bc892fa1b67219433b95",
+    "full-tts-qa-v6.mp3": "4cfab8bbee5e4a7ec8f699ae83576bbc1f226dfbc43c6963b78733c174e5f7e7"
+  },
+  "status": "Scene 1~3 사용자 승인본 유지 / Scene 4~5 TTS v6 생성 / 사용자 청취 승인 대기"
+}

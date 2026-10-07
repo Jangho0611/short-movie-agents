@@ -1,0 +1,44 @@
+{
+  "scene01-preview-v4.mp4": {
+    "duration": "4.224000",
+    "frames": 125,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "decode": "PASS"
+  },
+  "scene02-preview-v4.mp4": {
+    "duration": "5.994667",
+    "frames": 178,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "decode": "PASS"
+  },
+  "scene03-preview-v4.mp4": {
+    "duration": "7.061333",
+    "frames": 210,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "decode": "PASS"
+  },
+  "scene04-preview-v6.mp4": {
+    "duration": "7.338667",
+    "frames": 220,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "decode": "PASS"
+  },
+  "scene05-preview-v4.mp4": {
+    "duration": "5.312000",
+    "frames": 158,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "decode": "PASS"
+  },
+  "hidden-door-installation-preview-v6.mp4": {
+    "duration": "35.366667",
+    "frames": 1061,
+    "dimensions": "1080x1920",
+    "fps": 30,
+    "decode": "PASS"
+  }
+}
