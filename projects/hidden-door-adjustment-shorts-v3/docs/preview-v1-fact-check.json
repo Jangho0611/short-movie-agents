@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "hidden-door-younglim-official.pdf": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/d7842ca5-625f-4a8c-b5e5-bd127c5314f7.pdf",
+    "hidden-door-younglim-catch.pdf": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/3ed880ea-d8a2-4d42-925b-7b78e0b12738.pdf",
+    "hidden-door-younglim-catch-spec.pdf": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/44e35098-445f-452f-a4ae-409781ca0fd8.pdf"
+  },
+  "verified": [
+    "PDF d784 page 13 (printed 24–25): wood frame normal type general/hidden/slim hidden hinge; aluminum frame slim hidden hinge",
+    "PDF d784 page 54 (printed 106): slim hidden hinge 3D adjustment; axis/ranges intentionally not used",
+    "PDF 44e page 43 (printed 129): adjustable catch ±3mm, normal-type option",
+    "PDF 3ed page 70 (printed 137): adjustable catch image Im2"
+  ],
+  "scope": "No screw functions or hinge adjustment millimeters. Surface schematic shows faces only, not construction/scale. No blanket claim that reconstruction is unnecessary."
+}

@@ -1,0 +1,233 @@
+{
+  "preview": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/hidden-door-adjustment-preview-v2.mp4",
+  "frames": 1266,
+  "seconds": 42.2,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 648192,
+        "duration": "42.200000",
+        "bit_rate": "1735560",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1266",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2025600,
+        "duration": "42.200000",
+        "bit_rate": "181459",
+        "nb_frames": "1980",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/hidden-door-adjustment-preview-v2.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "42.200000",
+      "size": "10161206",
+      "bit_rate": "1926294",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101",
+        "comment": "Made with Remotion 4.0.523"
+      }
+    }
+  },
+  "full_decode": "PASS",
+  "baseline_unchanged": 164,
+  "motions": [
+    {
+      "scene": 1,
+      "asset": "daesani-point-left-alpha-v2.mov",
+      "canvas": [
+        645,
+        1255,
+        416,
+        464
+      ],
+      "visible_union": [
+        699,
+        1277,
+        1002,
+        1678
+      ],
+      "protected_overlap_pixels": 0,
+      "source_frames": 96,
+      "start_hold_seconds": 0.4,
+      "native_speed": 1,
+      "flip": false
+    },
+    {
+      "scene": 2,
+      "asset": "daesani-open-arms-explain-alpha-v2.mov",
+      "canvas": [
+        645,
+        1295,
+        380,
+        424
+      ],
+      "visible_union": [
+        684,
+        1315,
+        1015,
+        1682
+      ],
+      "protected_overlap_pixels": 0,
+      "source_frames": 96,
+      "start_hold_seconds": 0.4,
+      "native_speed": 1,
+      "flip": false
+    }
+  ],
+  "segments": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/scene01-preview-v2.mp4",
+      "sha256": "33f75178582077f84890720f785833520058c95d48e5e251b6ef2841c4d457d7"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/scene02-preview-v2.mp4",
+      "sha256": "d1c4e33b0f334da0c935478893f0a6d789d6589ee2f8e5be141dd7ec8176c88d"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/scene03-preview-v1.mp4",
+      "sha256": "ce3522e3ef9d353f1d388a04b78043eba79ffbc9ef48e6070951cdd819e39a29"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/scene04-preview-v1.mp4",
+      "sha256": "c0de01343d1e48f55dcb2e3b8415616f4331722fc8ea773e59ad0956df1bc0c8"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/scene05-preview-v1.mp4",
+      "sha256": "61fac8533d4779d85163bd42b3f1aa61a095865ef5d8c3df0fb5dce42f962be0"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/references/daesan-headquarters-ending-approved-v1.mp4",
+      "sha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5"
+    }
+  ],
+  "locked_scenes": "Scene 3–5 v1 MP4 reused without source/layout/timing/subtitle edits",
+  "tts": "same approved MP3s; speed/pitch unchanged; motion audio excluded",
+  "ending": "original Canonical MP4 reused",
+  "visual_review": "PASS: start, pointing/explain, gesture and final neutral pose samples; no headline/product/diagram/caption occlusion; Scene 2 final caption checked",
+  "geometry_qa": {
+    "source": "projects/hidden-door-carpentry-shorts-v2/src/CarpentryScenesV8.tsx Rebate()",
+    "four_profile_paths_exact_match": true,
+    "door_outward_offset_svg_units": 5,
+    "remaining_shoulder_clearance_svg_units": 2,
+    "no_material_overlap": true,
+    "dimension_in_mm_asserted": false
+  }
+}

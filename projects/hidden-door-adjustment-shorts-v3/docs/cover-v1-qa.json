@@ -1,0 +1,49 @@
+{
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "square_crop": [
+    0,
+    420,
+    1080,
+    1500
+  ],
+  "hero_source": "src/AdjustmentScenesV2.tsx: Surface()",
+  "hero_scale": 1.08,
+  "hero_offset": [
+    14,
+    620
+  ],
+  "door_offset_svg_units": 5,
+  "character": {
+    "file": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/images/daesani-cover-point-right.png",
+    "visible_xy": [
+      730,
+      1190
+    ],
+    "height": 270,
+    "flipped": false,
+    "canonical_sha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0"
+  },
+  "brand": {
+    "xy": [
+      90,
+      1390
+    ],
+    "size": [
+      240,
+      70
+    ],
+    "color": "#123628",
+    "logo_sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea"
+  },
+  "preserved_existing_files": 124,
+  "preservation_sha256": "PASS",
+  "visual_qa": {
+    "vertical": "PASS: 1080×1920; approved shoulder geometry, two-line headline, no overlap",
+    "square": "PASS: actual y420–1500 crop; complete headline, Hero, brand and character retained",
+    "character": "canonical PNG SHA256 PASS; uniform scale/translation only; no flip",
+    "approval": "Cover v1 user approval pending"
+  }
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "destination": "public/assets/images/younglim-normal-hinge.jpg",
+    "source_pdf": "hidden-door-younglim-official.pdf",
+    "page": 54,
+    "image_object": "X1724.jpg",
+    "size": [
+      247,
+      321
+    ],
+    "sha256": "2dabf903ce62cf71514cf6bef66e6deb34c6504644f02c9ea6c9d43dee37b452",
+    "operation": "embedded image extraction; no retouch or generation",
+    "source_url": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/d7842ca5-625f-4a8c-b5e5-bd127c5314f7.pdf"
+  },
+  {
+    "destination": "public/assets/images/younglim-hidden-hinge.jpg",
+    "source_pdf": "hidden-door-younglim-official.pdf",
+    "page": 54,
+    "image_object": "X1742.jpg",
+    "size": [
+      220,
+      313
+    ],
+    "sha256": "d433e1105e2cf6134c15ee514d4d38c2f214a2d871a27468721bbe5c3ca1a164",
+    "operation": "embedded image extraction; no retouch or generation",
+    "source_url": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/d7842ca5-625f-4a8c-b5e5-bd127c5314f7.pdf"
+  },
+  {
+    "destination": "public/assets/images/younglim-slim-hidden-hinge.jpg",
+    "source_pdf": "hidden-door-younglim-official.pdf",
+    "page": 54,
+    "image_object": "X1746.jpg",
+    "size": [
+      221,
+      313
+    ],
+    "sha256": "833677bcb8fbad616db1c1299c6782cf6e3f9c5538e6261ded35b1a540ceb805",
+    "operation": "embedded image extraction; no retouch or generation",
+    "source_url": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/d7842ca5-625f-4a8c-b5e5-bd127c5314f7.pdf"
+  },
+  {
+    "destination": "public/assets/images/younglim-adjustable-catch.jpg",
+    "source_pdf": "hidden-door-younglim-catch.pdf",
+    "page": 70,
+    "image_object": "Im2.jpg",
+    "size": [
+      159,
+      236
+    ],
+    "sha256": "f3bb57f74fef5068415d42033e6b18e02b89a7e4c22bceebb731a628d1509e32",
+    "operation": "embedded image extraction; no retouch or generation",
+    "source_url": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/3ed880ea-d8a2-4d42-925b-7b78e0b12738.pdf"
+  },
+  {
+    "source": "projects/hidden-door-installation-shorts-v1/public/assets/images/hidden-door-finished-hero-v1.png",
+    "destination": "public/assets/images/hidden-door-finished-hero-v1.png",
+    "sha256": "4d7833c8887caec0d589bc8cda5347ca39500630b10c3673371355df3797bcbe",
+    "operation": "byte-identical approved asset copy"
+  }
+]

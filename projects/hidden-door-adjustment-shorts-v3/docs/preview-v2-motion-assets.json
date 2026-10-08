@@ -1,0 +1,17 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/video/daesani-point-left.mp4",
+    "copy": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/daesani-point-left.mp4",
+    "sha256": "47d18c3db8e1a98a7d93d706e2333591172adbec8b83d4adde0fd7e4cd494d69"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/assets/daesani-motion-library/video/daesani-open-arms-explain.mp4",
+    "copy": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/daesani-open-arms-explain.mp4",
+    "sha256": "af0520a66456f9cab6f0de26db34917a0acbb0a9f2860c466ab086811f7f791d"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-carpentry-shorts-v2/public/assets/video/daesani-open-arms-explain-alpha-v2.mov",
+    "copy": "/Users/janghokim/Documents/short-movie-agents/projects/hidden-door-adjustment-shorts-v3/public/assets/video/daesani-open-arms-explain-alpha-v2.mov",
+    "sha256": "ae7cbc4d385ea624d6067e65de899d95a2fde014ee73a24d4f828210c07e61c0"
+  }
+]
