@@ -1,0 +1,5 @@
+file '/Users/janghokim/Documents/short-movie-agents/projects/plywood-quality-change-shorts-v1/public/assets/audio/scene01-tts-v2.mp3'
+file '/Users/janghokim/Documents/short-movie-agents/projects/plywood-quality-change-shorts-v1/public/assets/audio/scene02-tts-v2.mp3'
+file '/Users/janghokim/Documents/short-movie-agents/projects/plywood-quality-change-shorts-v1/public/assets/audio/scene03-tts-v4.mp3'
+file '/Users/janghokim/Documents/short-movie-agents/projects/plywood-quality-change-shorts-v1/public/assets/audio/scene04-tts-v4.mp3'
+file '/Users/janghokim/Documents/short-movie-agents/projects/plywood-quality-change-shorts-v1/public/assets/audio/scene05-tts-v5.mp3'

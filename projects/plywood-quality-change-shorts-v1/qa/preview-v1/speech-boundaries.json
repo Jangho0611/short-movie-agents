@@ -1,0 +1,42 @@
+{
+  "scene01-tts-v2.mp3": [
+    "silence_start: 0",
+    "silence_end: 0.677229",
+    "silence_start: 2.241792",
+    "silence_end: 3.003104",
+    "silence_start: 5.350333",
+    "silence_end: 5.552"
+  ],
+  "scene02-tts-v2.mp3": [
+    "silence_start: 0",
+    "silence_end: 0.497042",
+    "silence_start: 1.58425",
+    "silence_end: 1.933458",
+    "silence_start: 3.518833",
+    "silence_end: 3.768"
+  ],
+  "scene03-tts-v4.mp3": [
+    "silence_start: 0",
+    "silence_end: 0.604417",
+    "silence_start: 5.0835",
+    "silence_end: 5.328"
+  ],
+  "scene04-tts-v4.mp3": [
+    "silence_start: 0",
+    "silence_end: 0.363125",
+    "silence_start: 2.36625",
+    "silence_end: 2.56",
+    "silence_start: 5.556833",
+    "silence_end: 5.784"
+  ],
+  "scene05-tts-v5.mp3": [
+    "silence_start: 0",
+    "silence_end: 0.238042",
+    "silence_start: 3.2195",
+    "silence_end: 4.192708",
+    "silence_start: 5.387333",
+    "silence_end: 6.123542",
+    "silence_start: 7.947875",
+    "silence_end: 8.184"
+  ]
+}

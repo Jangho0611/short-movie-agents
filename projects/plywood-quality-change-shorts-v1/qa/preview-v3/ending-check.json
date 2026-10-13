@@ -1,0 +1,16 @@
+{
+  "public/daesan-ending/video/IMG_3934.MOV": true,
+  "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4": true,
+  "public/daesan-ending/video/headquarters-normal-speed-hold.mp4": true,
+  "public/daesan-ending/logos/daesanlogo2.png": true,
+  "public/daesan-ending/audio/ending-approved-v3.mp3": true,
+  "public/daesan-ending/fonts/Pretendard-SemiBold.woff2": true,
+  "public/daesan-ending/fonts/Pretendard-ExtraBold.woff2": true,
+  "public/daesan-ending/fonts/Pretendard-Medium.woff2": true,
+  "src/daesan-ending/index.tsx": true,
+  "src/daesan-ending/DaesanEnding.tsx": true,
+  "src/daesan-ending/approved/fonts.ts": true,
+  "src/daesan-ending/approved/HeadquartersOverlay.tsx": true,
+  "src/daesan-ending/approved/tokens.ts": true,
+  "src/daesan-ending/approved/brief.ts": true
+}

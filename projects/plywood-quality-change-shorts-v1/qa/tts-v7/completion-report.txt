@@ -1,0 +1,13 @@
+TTS v7 생성 완료
+scene01-tts-v7.mp3: 5.664s / 디코딩 PASS
+scene02-tts-v7.mp3: 3.744s / 디코딩 PASS
+scene03-tts-v7.mp3: 6.648s / 디코딩 PASS
+scene04-tts-v7.mp3: 6.936s / 디코딩 PASS
+scene05-tts-v7.mp3: 7.128s / 디코딩 PASS
+scene06-tts-v7.mp3: 7.944s / 디코딩 PASS
+full-tts-qa-v7.mp3: 38.064s / 디코딩 PASS
+엔딩 포함 참고 길이: 43.731s
+기존 파일 79개 SHA256 일치
+영상·이미지 변경 없음
+Git commit/push 없음
+통합 청취본: /Users/janghokim/Documents/short-movie-agents/projects/plywood-quality-change-shorts-v1/public/assets/audio/full-tts-qa-v7.mp3

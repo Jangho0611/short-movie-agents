@@ -1,0 +1,172 @@
+{
+  "pass": true,
+  "headline_ink_bounds": [
+    [
+      93,
+      430,
+      326,
+      477
+    ],
+    [
+      93,
+      497,
+      371,
+      543
+    ],
+    [
+      92,
+      563,
+      400,
+      609
+    ]
+  ],
+  "box_vertical_ink_margins": [
+    89,
+    84
+  ],
+  "preserved_file_count": 94,
+  "all_hashes_unchanged": true,
+  "blur_px_before_after": [
+    0,
+    0
+  ],
+  "white_overlay_before_after": [
+    0.94,
+    0.78
+  ],
+  "font_size_before_after": [
+    60,
+    52
+  ],
+  "line_step_before_after": [
+    92,
+    66
+  ],
+  "headline_css_x": 92,
+  "hero_size_before_after": [
+    [
+      610,
+      457.5
+    ],
+    [
+      960,
+      460
+    ]
+  ],
+  "hero_scaled_image_size": [
+    960,
+    720
+  ],
+  "hero_vertical_crop_px_each": 130,
+  "source_image_size": [
+    1400,
+    1050
+  ],
+  "cover_size": [
+    1080,
+    1920
+  ],
+  "square_crop": [
+    0,
+    420,
+    1080,
+    1500
+  ],
+  "visual_qa": "PASS: headline complete, single hero, main plywood corner and layered edge visible; character unchanged, overlaps only background area of hero photo; warehouse more visible",
+  "preservation": {
+    "public/assets/audio/full-tts-qa-v6.mp3": true,
+    "public/assets/audio/scene06-tts-v6.mp3": true,
+    "public/assets/audio/scene06-tts-v7.mp3": true,
+    "public/assets/audio/full-tts-qa-v7.mp3": true,
+    "public/assets/audio/scene03-tts-v2.mp3": true,
+    "public/assets/audio/full-tts-qa-v5.mp3": true,
+    "public/assets/audio/full-tts-qa-v4.mp3": true,
+    "public/assets/audio/scene03-tts-v1.mp3": true,
+    "public/assets/audio/full-tts-qa-v1.mp3": true,
+    "public/assets/audio/scene03-tts-v4.mp3": true,
+    "public/assets/audio/scene03-tts-v6.mp3": true,
+    "public/assets/audio/full-tts-qa-v3.mp3": true,
+    "public/assets/audio/full-tts-qa-v2.mp3": true,
+    "public/assets/audio/scene03-tts-v7.mp3": true,
+    "public/assets/audio/scene04-tts-v7.mp3": true,
+    "public/assets/audio/scene01-tts-v2.mp3": true,
+    "public/assets/audio/scene01-partA-v2.mp3": true,
+    "public/assets/audio/scene04-tts-v6.mp3": true,
+    "public/assets/audio/scene04-tts-v4.mp3": true,
+    "public/assets/audio/scene01-tts-v1.mp3": true,
+    "public/assets/audio/scene04-tts-v1.mp3": true,
+    "public/assets/audio/scene04-tts-v2.mp3": true,
+    "public/assets/audio/scene01-tts-v7.mp3": true,
+    "public/assets/audio/scene01-tts-v6.mp3": true,
+    "public/assets/audio/scene02-tts-v6.mp3": true,
+    "public/assets/audio/scene02-tts-v7.mp3": true,
+    "public/assets/audio/scene02-tts-v2.mp3": true,
+    "public/assets/audio/scene02-tts-v1.mp3": true,
+    "public/assets/audio/scene05-tts-v1.mp3": true,
+    "public/assets/audio/scene05-tts-v2.mp3": true,
+    "public/assets/audio/scene05-tts-v3.mp3": true,
+    "public/assets/audio/scene01-partB-v2.mp3": true,
+    "public/assets/audio/scene05-tts-v7.mp3": true,
+    "public/assets/audio/scene05-tts-v6.mp3": true,
+    "public/assets/audio/full-tts-qa-v8.mp3": true,
+    "public/assets/audio/scene05-tts-v4.mp3": true,
+    "public/assets/audio/scene05-tts-v5.mp3": true,
+    "public/assets/video/scene04-visual-preview-v3.mp4": true,
+    "public/assets/video/scene04-visual-preview-v1.mp4": true,
+    "public/assets/video/plywood-quality-change-visual-preview-v1.mp4": true,
+    "public/assets/video/scene06-visual-preview-v3.mp4": true,
+    "public/assets/video/plywood-quality-change-visual-preview-v2.mp4": true,
+    "public/assets/video/plywood-quality-change-visual-preview-v3.mp4": true,
+    "public/assets/video/scene02-visual-preview-v1.mp4": true,
+    "public/assets/video/plywood-quality-change-preview-v1.mp4": true,
+    "public/assets/video/plywood-quality-change-preview-v2.mp4": true,
+    "public/assets/video/plywood-quality-change-preview-v3.mp4": true,
+    "public/assets/video/scene02-visual-preview-v3.mp4": true,
+    "public/assets/video/scene03-preview-v1.mp4": true,
+    "public/assets/video/scene04-preview-v3.mp4": true,
+    "public/assets/video/scene05-visual-preview-v1.mp4": true,
+    "public/assets/video/scene03-preview-v2.mp4": true,
+    "public/assets/video/scene05-visual-preview-v3.mp4": true,
+    "public/assets/video/scene04-preview-v1.mp4": true,
+    "public/assets/video/scene03-preview-v3.mp4": true,
+    "public/assets/video/scene02-preview-v3.mp4": true,
+    "public/assets/video/scene05-preview-v1.mp4": true,
+    "public/assets/video/scene05-preview-v3.mp4": true,
+    "public/assets/video/scene02-preview-v1.mp4": true,
+    "public/assets/video/scene01-visual-preview-v3.mp4": true,
+    "public/assets/video/scene01-visual-preview-v1.mp4": true,
+    "public/assets/video/scene03-visual-preview-v2.mp4": true,
+    "public/assets/video/scene01-preview-v3.mp4": true,
+    "public/assets/video/scene03-visual-preview-v3.mp4": true,
+    "public/assets/video/scene03-visual-preview-v1.mp4": true,
+    "public/assets/video/scene01-preview-v1.mp4": true,
+    "public/assets/video/scene06-preview-v3.mp4": true,
+    "public/assets/images/plywood-edge-real-01.png": true,
+    "public/assets/images/scene03-plantation-logs-realistic-v1.png": true,
+    "public/assets/images/scene03-small-logs-realistic-v1.png": true,
+    "public/assets/images/daesan-plywood-warehouse-clean-v2.jpg": true,
+    "public/assets/images/daesan-plywood-warehouse-clean-v1.jpg": true,
+    "public/assets/images/plywood-stack-real-01.png": true,
+    "public/assets/images/daesan-plywood-warehouse-real-01.jpg": true,
+    "public/assets/images/lumber-delivery-real-01.png": true,
+    "public/assets/images/lumber-stack-real-01.png": true,
+    "public/daesan-ending/video/IMG_3934.MOV": true,
+    "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4": true,
+    "public/daesan-ending/video/headquarters-normal-speed-hold.mp4": true,
+    "public/daesan-ending/logos/daesanlogo2.png": true,
+    "public/daesan-ending/docs/asset-sha256.json": true,
+    "public/daesan-ending/docs/README.md": true,
+    "public/daesan-ending/audio/ending-approved-v3.mp3": true,
+    "public/daesan-ending/fonts/Pretendard-SemiBold.woff2": true,
+    "public/daesan-ending/fonts/Pretendard-ExtraBold.woff2": true,
+    "public/daesan-ending/fonts/Pretendard-Medium.woff2": true,
+    "public/covers/daesani-cover-point-right.png": true,
+    "public/covers/daesani-cover-open-arms.png": true,
+    "public/covers/daesani-cover-point-left.png": true,
+    "public/covers/plywood-quality-change-cover-v1.png": true,
+    "public/covers/qa/plywood-quality-change-cover-square-v1.png": true,
+    "cover/qa-v1.json": true,
+    "cover/index-v1.tsx": true,
+    "cover/preservation-before-v1.json": true
+  }
+}

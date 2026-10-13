@@ -1,0 +1,36 @@
+{
+  "hashes_before": {
+    "daesan-plywood-warehouse-real-01.jpg": "f44e656b87c0a167c9753549140945f29eabc982d5f5311eeb1d2ed9eddbe312",
+    "daesan-plywood-warehouse-clean-v1.jpg": "23d933c055c07e34b08a15ce0f419999c5043e159ad17934b4be184333c695a0"
+  },
+  "hashes_after": {
+    "daesan-plywood-warehouse-real-01.jpg": "f44e656b87c0a167c9753549140945f29eabc982d5f5311eeb1d2ed9eddbe312",
+    "daesan-plywood-warehouse-clean-v1.jpg": "23d933c055c07e34b08a15ce0f419999c5043e159ad17934b4be184333c695a0"
+  },
+  "size": [
+    768,
+    1024
+  ],
+  "retouch_pixels": 4960,
+  "working_pixels_changed_outside_retouch": 0,
+  "jpeg_changed_outside_retouch": 5429,
+  "jpeg_changed_outside_local_blocks": 0,
+  "ceiling_changed_pixels": 0,
+  "jpeg_local_regions": [
+    [
+      112,
+      720,
+      272,
+      784
+    ],
+    [
+      176,
+      416,
+      256,
+      464
+    ]
+  ],
+  "visual_qa": "Names removed. Ceiling and image outside local JPEG regions unchanged. Slight local texture/tone seams visible at enlarged inspection; pending user review.",
+  "method": "Non-generative nearby pixel cloning, OpenCV Poisson blending applied only within text mask; JPEG coefficient block replacement.",
+  "output_sha256": "a93d118bcf9d9ddef5641fe2d8e459cb120b8132e4c924038a785a913ebf2bf4"
+}

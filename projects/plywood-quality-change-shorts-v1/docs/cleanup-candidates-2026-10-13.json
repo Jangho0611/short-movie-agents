@@ -1,0 +1,152 @@
+[
+  {
+    "path": "node_modules/.cache/webpack/remotion-production-4.0.523/c42075f5b0f57af363db9885cb245e81/index.pack",
+    "bytes": 240437,
+    "sha256": "885aa7da6472ad9328d35ab5f06f07adbff68f3087882fb0ad5478da4adb6948",
+    "group": "A — 재생성 가능한 렌더 캐시"
+  },
+  {
+    "path": "node_modules/.cache/webpack/remotion-production-4.0.523/c42075f5b0f57af363db9885cb245e81/0.pack",
+    "bytes": 163074064,
+    "sha256": "ee227c89f1cdd0b5df735ea83e3ddb92c964ec9891f7109d487badcd88306ebc",
+    "group": "A — 재생성 가능한 렌더 캐시"
+  },
+  {
+    "path": "qa/preview-v1/scene03-layout.png",
+    "bytes": 148917,
+    "sha256": "4ee0f8ffe103df76073da7c151c2a9536498dec6fb8b9c0870fd1a7c9f21ef89",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v1/scene04-layout.png",
+    "bytes": 113634,
+    "sha256": "40a422612fe237e65174b8c849813c0828c1625160b71caa9169a0c9293c2308",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v1/scene01-layout.png",
+    "bytes": 1928817,
+    "sha256": "f0db81296af159605e74585615e35357ebfa63b9b9c2c2fe12774540378dfd99",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v1/scene02-layout.png",
+    "bytes": 1330138,
+    "sha256": "9f7ae52523240f6291332b11a0a03720ed7857ffec3fa9963e747a600b19aa57",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v1/scene05-layout.png",
+    "bytes": 1063640,
+    "sha256": "f1b3dbd32c046d2a56bbe843227e049e5096de55bd0c7ad0bf6abc618357ecd7",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene06-layout.png",
+    "bytes": 1246756,
+    "sha256": "66c4f590df92f81226bf6ac3ff08ba4eb5bec90f7bd02cacb19d79f047cd82e6",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene03-frame124.png",
+    "bytes": 1326757,
+    "sha256": "709fedb31528d317503c1d8527d4bccb59dac1343bc3affedf39823ec1ab884c",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene03-frame125.png",
+    "bytes": 1631695,
+    "sha256": "f745f8bf84958131dace50bdbaaca393345b64aea1a22d0ea639274103ad7a91",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene01-frame30.png",
+    "bytes": 1314177,
+    "sha256": "52e91b425bcc6197cc2f90577356f224803fa1079e9b74a5a2a356a413896788",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene03b-layout.png",
+    "bytes": 2009269,
+    "sha256": "707b8bb1257771872e4e6ebbb8284455fb9c94f5b309b0e9401f108a01c87768",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene04-frame190.png",
+    "bytes": 224707,
+    "sha256": "861a7301744d812eeb69db9b6c0813b781b65136e7015b0aa271eebf3091b8a7",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene04-layout.png",
+    "bytes": 105977,
+    "sha256": "9a37debcff8b5a1153867646b2b7b52c8019208316342a87236598e546028cae",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene01-layout.png",
+    "bytes": 1942019,
+    "sha256": "d483ead90c6485cd70531afd921d273ff67f68cef5647e8a544460301e48ab74",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene05-frame190.png",
+    "bytes": 682172,
+    "sha256": "2203791ff27615d0cef8bf246b581c8e768cfe82e77ff9019e12e034397206f6",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene02-layout.png",
+    "bytes": 1330025,
+    "sha256": "e9a09eb82f7426ba395180c784171a4eb4f34f8aeff38bb55326d0b33aab9333",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene06-frame190.png",
+    "bytes": 957239,
+    "sha256": "3c792b5887282bfb48e8acaaa52b6234ef0006ac2b9ae69a50dbb9097467e1ca",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene03a-layout.png",
+    "bytes": 1850236,
+    "sha256": "a8c8d15ba4c1f03c0a593f6bf3d2f08bf8b0c9759b84e0c5f6eba90d5d3e2500",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/rendered-scene02-frame75.png",
+    "bytes": 977410,
+    "sha256": "de8a4ebe6d8cb2f7012675c3562be2bbe212a6a446f4616170097d9e71dab9d4",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v3/scene05-layout.png",
+    "bytes": 941262,
+    "sha256": "22aeb3c4cd34a46b2c63709ab913c5a05b21bfd79f3466beebf9063067878416",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v2/rendered-cut-02.png",
+    "bytes": 1782230,
+    "sha256": "dff8145d235fdb7eeb157cf1a0b2eb478bd38adbe65c9f462756b206e5536c85",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v2/rendered-cut-01.png",
+    "bytes": 1369146,
+    "sha256": "8db6cd89506779bac84524d58558b38fd3081c4d4c40a7727ea5f24a62e84b7c",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v2/scene03-before-cut.png",
+    "bytes": 2034014,
+    "sha256": "6d0e4703659b42859e3b24a6abcd4f516ec71e946050a207592ae9b3a85bd3ea",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  },
+  {
+    "path": "qa/preview-v2/scene03-after-cut.png",
+    "bytes": 2262277,
+    "sha256": "a31954e36b7622d4f23476b03d4629881574270d57843b6587864cbf1118aea9",
+    "group": "B — 중복 레이아웃·개별 프레임 QA PNG"
+  }
+]

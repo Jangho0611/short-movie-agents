@@ -1,0 +1,12 @@
+{
+  "cutFrame": 90,
+  "fps": 30,
+  "sceneSeconds": 3.0,
+  "fullPreviewSeconds": 12.766666666666667,
+  "sourceAudio": "scene03-tts-v4.mp3",
+  "method": "Local whisper.cpp base DTW alignment plus 10 ms RMS waveform boundary and cropped-phrase ASR verification",
+  "boundaryObservation": "Previous word decays through 2.93 s; low-energy closure 2.94–2.98 s; initial consonant energy returns around 2.99–3.03 s, vowel starts 3.04 s. Hard cut at 3.000 s (frame 90).",
+  "dtwTokenCenterSeconds": 3.1,
+  "cropVerification": "2.88–4.18 s crop transcribed as 조림지에서 자란 나무도",
+  "uncertainty": "Approximately one video frame; audio-derived alignment, not estimated from text length."
+}

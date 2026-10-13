@@ -1,0 +1,22 @@
+{
+  "scene01-tts-v2.mp3": {
+    "correlation": 0.9999709725379944,
+    "offset_seconds_from_video_nominal": 0.021333333333333333
+  },
+  "scene02-tts-v2.mp3": {
+    "correlation": 0.127507746219635,
+    "offset_seconds_from_video_nominal": 0.034291666666666665
+  },
+  "scene03-tts-v4.mp3": {
+    "correlation": 0.065228670835495,
+    "offset_seconds_from_video_nominal": 0.0065
+  },
+  "scene04-tts-v4.mp3": {
+    "correlation": 0.060961540788412094,
+    "offset_seconds_from_video_nominal": 0.0022916666666666667
+  },
+  "scene05-tts-v5.mp3": {
+    "correlation": 0.026523752138018608,
+    "offset_seconds_from_video_nominal": 0.013625
+  }
+}

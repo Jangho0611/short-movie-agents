@@ -1,0 +1,43 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "rate": 1.0,
+  "audio": {
+    "scene01-tts-v7.mp3": {
+      "duration": 5.664,
+      "decode": "PASS",
+      "sha256": "2dbd64e0da60da960627bd04f8695b747ce6a9998d3eae1fe987030d757d83c3"
+    },
+    "scene02-tts-v7.mp3": {
+      "duration": 3.744,
+      "decode": "PASS",
+      "sha256": "344f74a279a079318addfbc4ec4c760a86e309d4e88605f5e998eec7bf07eda3"
+    },
+    "scene03-tts-v7.mp3": {
+      "duration": 6.648,
+      "decode": "PASS",
+      "sha256": "837ca7587ad08b1e728e1872605ac6e7693d0418e8ef5795978bee978987fbb5"
+    },
+    "scene04-tts-v7.mp3": {
+      "duration": 6.936,
+      "decode": "PASS",
+      "sha256": "35666ac5086ee7e87be1730093f34c5ec75da530bdcffef32055be1edc320083"
+    },
+    "scene05-tts-v7.mp3": {
+      "duration": 7.128,
+      "decode": "PASS",
+      "sha256": "bd3aea4d3e7beae68d339cf73216d6e2d2dafc53aaa693eaed19099c65d41939"
+    },
+    "scene06-tts-v7.mp3": {
+      "duration": 7.944,
+      "decode": "PASS",
+      "sha256": "15feb6c4b4e8363f753bbb2383b02a03214bfa1947370d628db087481bd08541"
+    },
+    "full-tts-qa-v7.mp3": {
+      "duration": 38.064,
+      "decode": "PASS",
+      "sha256": "04ba51683f73105bc70f9dd20e4e2b3069eb8c43878de66a938b1c61c4535f8e"
+    }
+  },
+  "existing_files_preserved": 79,
+  "ending_included_reference_seconds": 43.730666666666664
+}

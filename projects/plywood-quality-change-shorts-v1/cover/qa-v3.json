@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "asset": "daesani-cover-point-right.png",
+  "outside_character_alpha_union_changed_pixels": 0,
+  "preserved_files": 90,
+  "original_hashes_unchanged": true,
+  "source_only_image_reference_changed": true,
+  "render_note": "Raw render had unrelated rasterization differences. Approved v2 pixels preserved outside union of character alpha masks; raw render retained in QA.",
+  "character_box": [
+    590,
+    866,
+    480,
+    853.3333333
+  ]
+}

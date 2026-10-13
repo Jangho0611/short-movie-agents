@@ -1,0 +1,311 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/tmp/plywood-ggml-base.bin",
+		"language": "ko",
+		"translate": false
+	},
+	"result": {
+		"language": "ko"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:05,480"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 5480
+			},
+			"text": " 기술은 발전하는데 왜 합판은 예전 같지 않을까요?",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50364,
+					"p": 0.939944,
+					"t_dtw": -1
+				},
+				{
+					"text": " 기",
+					"timestamps": {
+						"from": "00:00:00,050",
+						"to": "00:00:00,230"
+					},
+					"offsets": {
+						"from": 50,
+						"to": 230
+					},
+					"id": 7047,
+					"p": 0.958824,
+					"t_dtw": 40
+				},
+				{
+					"text": "술",
+					"timestamps": {
+						"from": "00:00:00,350",
+						"to": "00:00:00,430"
+					},
+					"offsets": {
+						"from": 350,
+						"to": 430
+					},
+					"id": 21619,
+					"p": 0.995427,
+					"t_dtw": 52
+				},
+				{
+					"text": "은",
+					"timestamps": {
+						"from": "00:00:00,470",
+						"to": "00:00:00,690"
+					},
+					"offsets": {
+						"from": 470,
+						"to": 690
+					},
+					"id": 2124,
+					"p": 0.994171,
+					"t_dtw": 68
+				},
+				{
+					"text": " 발",
+					"timestamps": {
+						"from": "00:00:00,690",
+						"to": "00:00:00,920"
+					},
+					"offsets": {
+						"from": 690,
+						"to": 920
+					},
+					"id": 13825,
+					"p": 0.988404,
+					"t_dtw": 76
+				},
+				{
+					"text": "전",
+					"timestamps": {
+						"from": "00:00:00,920",
+						"to": "00:00:01,150"
+					},
+					"offsets": {
+						"from": 920,
+						"to": 1150
+					},
+					"id": 8210,
+					"p": 0.987552,
+					"t_dtw": 112
+				},
+				{
+					"text": "하는데",
+					"timestamps": {
+						"from": "00:00:01,150",
+						"to": "00:00:01,430"
+					},
+					"offsets": {
+						"from": 1150,
+						"to": 1430
+					},
+					"id": 48763,
+					"p": 0.971551,
+					"t_dtw": 130
+				},
+				{
+					"text": " 왜",
+					"timestamps": {
+						"from": "00:00:01,920",
+						"to": "00:00:02,090"
+					},
+					"offsets": {
+						"from": 1920,
+						"to": 2090
+					},
+					"id": 9883,
+					"p": 0.989,
+					"t_dtw": 204
+				},
+				{
+					"text": " 합",
+					"timestamps": {
+						"from": "00:00:02,140",
+						"to": "00:00:02,320"
+					},
+					"offsets": {
+						"from": 2140,
+						"to": 2320
+					},
+					"id": 32413,
+					"p": 0.990675,
+					"t_dtw": 230
+				},
+				{
+					"text": "판",
+					"timestamps": {
+						"from": "00:00:02,320",
+						"to": "00:00:02,550"
+					},
+					"offsets": {
+						"from": 2320,
+						"to": 2550
+					},
+					"id": 28306,
+					"p": 0.961123,
+					"t_dtw": 246
+				},
+				{
+					"text": "은",
+					"timestamps": {
+						"from": "00:00:02,550",
+						"to": "00:00:02,780"
+					},
+					"offsets": {
+						"from": 2550,
+						"to": 2780
+					},
+					"id": 2124,
+					"p": 0.996525,
+					"t_dtw": 250
+				},
+				{
+					"text": " 예",
+					"timestamps": {
+						"from": "00:00:02,780",
+						"to": "00:00:03,010"
+					},
+					"offsets": {
+						"from": 2780,
+						"to": 3010
+					},
+					"id": 10134,
+					"p": 0.999685,
+					"t_dtw": 260
+				},
+				{
+					"text": "전",
+					"timestamps": {
+						"from": "00:00:03,010",
+						"to": "00:00:03,240"
+					},
+					"offsets": {
+						"from": 3010,
+						"to": 3240
+					},
+					"id": 8210,
+					"p": 0.991945,
+					"t_dtw": 282
+				},
+				{
+					"text": " 같",
+					"timestamps": {
+						"from": "00:00:03,240",
+						"to": "00:00:03,470"
+					},
+					"offsets": {
+						"from": 3240,
+						"to": 3470
+					},
+					"id": 4385,
+					"p": 0.997221,
+					"t_dtw": 282
+				},
+				{
+					"text": "지",
+					"timestamps": {
+						"from": "00:00:03,470",
+						"to": "00:00:03,510"
+					},
+					"offsets": {
+						"from": 3470,
+						"to": 3510
+					},
+					"id": 1831,
+					"p": 0.999498,
+					"t_dtw": 334
+				},
+				{
+					"text": " 않을",
+					"timestamps": {
+						"from": "00:00:03,690",
+						"to": "00:00:03,720"
+					},
+					"offsets": {
+						"from": 3690,
+						"to": 3720
+					},
+					"id": 32112,
+					"p": 0.9989,
+					"t_dtw": 346
+				},
+				{
+					"text": "까요",
+					"timestamps": {
+						"from": "00:00:03,740",
+						"to": "00:00:03,740"
+					},
+					"offsets": {
+						"from": 3740,
+						"to": 3740
+					},
+					"id": 16474,
+					"p": 0.999506,
+					"t_dtw": 346
+				},
+				{
+					"text": "?",
+					"timestamps": {
+						"from": "00:00:03,740",
+						"to": "00:00:03,740"
+					},
+					"offsets": {
+						"from": 3740,
+						"to": 3740
+					},
+					"id": 30,
+					"p": 0.965018,
+					"t_dtw": 372
+				},
+				{
+					"text": "[_TT_274]",
+					"timestamps": {
+						"from": "00:00:05,480",
+						"to": "00:00:05,480"
+					},
+					"offsets": {
+						"from": 5480,
+						"to": 5480
+					},
+					"id": 50638,
+					"p": 0.0072432,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

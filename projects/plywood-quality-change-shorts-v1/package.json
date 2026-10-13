@@ -1,0 +1,22 @@
+{
+  "name": "plywood-quality-change-shorts-v1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daesan plywood quality change Shorts \u2014 approved photo and TTS preview",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "zsh scripts/render-preview-v1.sh"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.496",
+    "@remotion/media": "4.0.496",
+    "@remotion/cli": "4.0.496",
+    "remotion": "4.0.496",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

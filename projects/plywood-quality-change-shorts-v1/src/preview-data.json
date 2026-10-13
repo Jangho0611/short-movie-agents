@@ -1,0 +1,7 @@
+[
+  {"scene":1,"frames":173,"audio":"scene01-tts-v2.mp3","speechStart":20},
+  {"scene":2,"frames":120,"audio":"scene02-tts-v2.mp3","speechStart":15},
+  {"scene":3,"frames":166,"audio":"scene03-tts-v4.mp3","speechStart":18},
+  {"scene":4,"frames":180,"audio":"scene04-tts-v4.mp3","speechStart":11},
+  {"scene":5,"frames":252,"audio":"scene05-tts-v5.mp3","speechStart":7}
+]
