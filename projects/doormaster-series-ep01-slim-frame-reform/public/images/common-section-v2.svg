@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-labelledby="title desc">
+<title id="title">대산 공통 단면 화면 v2</title>
+<desc id="desc">씬3 정지 디자인 시안. v1 구조 유지. 받침은 보강 영역이며 MDF 형상 미정. 실제 제품 검증 도면 아님.</desc>
+<metadata>Reference: KakaoTalk_Video_2026-10-13-13-29-25.mp4, scene3 at 8.8s; casing from 2s. Coordinates are approximate source pixels, not millimetres. No motion.</metadata>
+<defs>
+ <linearGradient id="frame-tone" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#cdd8dc" /><stop offset="1" stop-color="#becbd1" /></linearGradient>
+ <linearGradient id="wall-tone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8ebee" /><stop offset="1" stop-color="#dfe4e8" /></linearGradient>
+ <filter id="soft-shadow" x="-15%" y="-15%" width="140%" height="140%"><feDropShadow dx="0.6" dy="1" stdDeviation="0.65" flood-color="#233945" flood-opacity="0.12" /></filter>
+</defs>
+<rect id="background" width="1080" height="1920" fill="#111111" /><g id="section-model" transform="translate(32.5 100) scale(2.5)" data-coordinate-system="original 406x720; uniform screen placement only"><g id="wall" data-status="source-outline" aria-label="벽체">
+ <rect x="206" y="271" width="179" height="162" fill="url(#wall-tone)" stroke="#8c969b" stroke-width="1" filter="url(#soft-shadow)" />
+ <path d="M208 272H384" fill="none" stroke="white" stroke-opacity=".7" />
+</g>
+<g id="existing-frame" data-status="source-outline-no-internal-details" aria-label="기존 문틀">
+ <path id="frame-outline" d="M162 271H206V433H166C158 433 153 431 150 420C147 408 144 391 144 385V329H162Z" fill="url(#frame-tone)" stroke="#859399" stroke-width="1" filter="url(#soft-shadow)" />
+ <path d="M164 272H204V431" fill="none" stroke="#edf2f4" stroke-opacity=".6" stroke-width="1" />
+</g>
+<g id="door" data-status="source-outline" aria-label="문짝">
+ <rect x="21" y="271" width="141" height="58" fill="#e4e9ee" stroke="#89969e" stroke-width="1" filter="url(#soft-shadow)" />
+ <path d="M22 272H161M22 272V328" fill="none" stroke="white" stroke-opacity=".7" />
+</g>
+<g id="existing-casing" display="none" data-status="source-scene1-symbol-not-verified-installation" aria-label="제거 대상 기존 문선">
+ <rect x="179" y="433" width="88" height="18" fill="#d4dbe0" stroke="#929ba0" stroke-width="1" filter="url(#soft-shadow)" />
+</g>
+<g id="support-zone" data-status="schematic-region-not-physical-shape" aria-label="받침 보강 영역">
+ <rect x="141" y="382" width="26" height="54" rx="3" fill="#FFE600" fill-opacity=".2" stroke="#FFE600" stroke-width="1" stroke-dasharray="3 3" />
+ <path d="M140 433L99 476" fill="none" stroke="#FFE600" stroke-width="1" />
+ <text x="49" y="499" fill="#FFE600" font-size="16" font-weight="900" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">받침 보강</text></g>
+<g id="mdf" data-status="reserved-no-geometry" data-thickness-setting="9T" aria-label="MDF 예약 레이어 — 형상 없음" />
+<g id="annotations" fill="#51646e" font-family="Apple SD Gothic Neo, sans-serif" font-size="12" text-anchor="middle">
+ <text x="91" y="304">문짝</text><text x="177" y="357">문틀</text><text x="295" y="357">벽체</text>
+</g>
+</g><g id="caption" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-weight="900" text-anchor="middle" stroke="#080808" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill" letter-spacing="0"><text x="540" y="395" font-size="96" fill="#FFFFFF">곡면의 빈 공간,</text><text x="540" y="530" font-size="112" fill="#FFE600">받침으로 보강</text></g></svg>

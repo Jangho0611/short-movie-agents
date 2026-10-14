@@ -1,0 +1,40 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "total_frames": 886,
+  "inputs": [
+    {
+      "path": "public/assets/video/scene01-final-approved-v3.mp4",
+      "frames": 121
+    },
+    {
+      "path": "public/assets/video/scene02-final-approved-v3.mp4",
+      "frames": 100
+    },
+    {
+      "path": "public/assets/video/scene03-final-approved-v3.mp4",
+      "frames": 101
+    },
+    {
+      "path": "public/assets/video/scene04-final-approved-v4.mp4",
+      "frames": 112
+    },
+    {
+      "path": "public/assets/video/scene05-final-approved-v5.mp4",
+      "frames": 134
+    },
+    {
+      "path": "public/assets/video/scene06-final-approved-v3.mp4",
+      "frames": 148
+    },
+    {
+      "path": "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4",
+      "frames": 170
+    }
+  ],
+  "frame_evidence": "docs/final-timeline-v3.json; source MP4 ffprobe verified 2026-10-14",
+  "audio": "Use embedded scene audio and approved ending audio; no TTS generation/replacement",
+  "encoding_profile": "documented-v3 only; src/preview-v3/assemble.py:12-17",
+  "unknown": "Original v5 assembly command, exact encoder version and original v5 encoding options not confirmed. Byte-identical reproduction not claimed."
+}

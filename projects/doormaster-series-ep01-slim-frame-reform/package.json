@@ -1,0 +1,9 @@
+{
+  "name": "doormaster-series-ep01-slim-frame-reform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Preserved final-source runtime; not a historical environment lock",
+  "dependencies": {
+    "sharp": "0.35.4"
+  }
+}

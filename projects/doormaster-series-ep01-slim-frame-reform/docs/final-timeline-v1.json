@@ -1,0 +1,38 @@
+[
+  {
+    "scene": 1,
+    "start": 0,
+    "duration": 6,
+    "end": 6
+  },
+  {
+    "scene": 2,
+    "start": 6,
+    "duration": 4.5,
+    "end": 10.5
+  },
+  {
+    "scene": 3,
+    "start": 10.5,
+    "duration": 5,
+    "end": 15.5
+  },
+  {
+    "scene": 4,
+    "start": 15.5,
+    "duration": 5,
+    "end": 20.5
+  },
+  {
+    "scene": 5,
+    "start": 20.5,
+    "duration": 6.5,
+    "end": 27.0
+  },
+  {
+    "scene": 6,
+    "start": 27.0,
+    "duration": 8.5,
+    "end": 35.5
+  }
+]

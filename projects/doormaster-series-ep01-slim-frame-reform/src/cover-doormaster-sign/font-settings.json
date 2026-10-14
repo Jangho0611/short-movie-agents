@@ -1,0 +1,29 @@
+[
+  {
+    "text": "문도사의",
+    "font": "Pretendard-Black",
+    "size": 54,
+    "letter_spacing": -2,
+    "skewX": -5,
+    "skewY": -5,
+    "target_width": 190
+  },
+  {
+    "text": "그것이 알고싶",
+    "font": "Pretendard-Black",
+    "size": 72,
+    "letter_spacing": -2.5,
+    "skewX": -5,
+    "skewY": -5,
+    "target_width": 380
+  },
+  {
+    "text": "도어",
+    "font": "Pretendard-Black",
+    "size": 80,
+    "letter_spacing": -2.5,
+    "skewX": -5,
+    "skewY": -5,
+    "target_width": 130
+  }
+]

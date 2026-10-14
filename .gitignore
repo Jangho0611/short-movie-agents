@@ -165,3 +165,26 @@ Thumbs.db
 
 # Preserve research archive local-only files previously covered by projects/
 /references/product-material-library-2026-10-06/원문/remotion_video/projects/
+
+# DoorMaster Ep01: approved A / direct dependency B only
+!/projects/doormaster-series-ep01-slim-frame-reform/output/
+/projects/doormaster-series-ep01-slim-frame-reform/output/*
+!/projects/doormaster-series-ep01-slim-frame-reform/output/slim-frame-reform-preview-v5.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v2/
+/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v2/*
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v2/scene01-v2.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v2/scene02-v2.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v2/scene05-v2.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v2/scene06-v2.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v3/
+/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v3/*
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v3/scene01-v3.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v3/scene02-v3.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v3/scene03-v3.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v3/scene06-v3.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v4/
+/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v4/*
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v4/scene04-v4.mp4
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v5/
+/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v5/*
+!/projects/doormaster-series-ep01-slim-frame-reform/output/preview-v5/scene05-v5.mp4

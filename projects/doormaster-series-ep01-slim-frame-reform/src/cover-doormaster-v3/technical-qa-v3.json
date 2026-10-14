@@ -1,0 +1,23 @@
+{
+  "assets_sha256": {
+    "background": "045a154d488c2fa1f7276f526a7202aa32507065d53503cad32111280ec69dec",
+    "sign": "304024aa3f0b76d226afcab5b83201e59201e13f5a6e3246abf550699dea89e3",
+    "logo": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea"
+  },
+  "asset_hashes_unchanged": true,
+  "uncovered_pixel_differences": 0,
+  "layers": [
+    "B-approved-sign",
+    "D-yellow-brush",
+    "C-main-title",
+    "E-subtitle",
+    "G-connectors",
+    "F-comparison-labels",
+    "H-approved-brand"
+  ],
+  "output_size": [
+    1080,
+    1920
+  ],
+  "font": "Pretendard Black / Medium; not identified as original reference font"
+}

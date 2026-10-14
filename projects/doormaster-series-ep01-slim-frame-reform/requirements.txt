@@ -1,0 +1,4 @@
+# Required by final cover source; historical versions not confirmed
+Pillow
+numpy
+opencv-python

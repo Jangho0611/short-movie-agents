@@ -1,0 +1,29 @@
+{
+  "source_size": [
+    941,
+    1672
+  ],
+  "extraction_rgba_size": [
+    941,
+    1672
+  ],
+  "mask_bbox": [
+    182,
+    34,
+    773,
+    294
+  ],
+  "alpha_partial_pixels": 9996,
+  "background_outside_mask_changed_pixels": 0,
+  "source_core_recompose_changed_pixels": 0,
+  "v2_outside_conservative_roi_changed_pixels": 0,
+  "v2_changed_pixels_total": 16439,
+  "v2_max_channel_difference": 154,
+  "comparison_exclusion_roi": [
+    203,
+    34,
+    893,
+    343
+  ],
+  "brand_region_identical": true
+}

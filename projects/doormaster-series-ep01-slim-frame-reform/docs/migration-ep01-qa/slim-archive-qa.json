@@ -1,0 +1,276 @@
+{
+  "preserved_baseline_files": 152,
+  "changed_approved_assets": [],
+  "scene_copies_sha256": "PASS 6/6",
+  "common_copies_sha256": "PASS 8/8",
+  "syntax": "PASS",
+  "assembly": "dry-run only; no render",
+  "remaining_ignored": {
+    "D": [
+      {
+        "path": ".DS_Store",
+        "bytes": 14340
+      },
+      {
+        "path": "public/.DS_Store",
+        "bytes": 12292
+      },
+      {
+        "path": "public/covers/.DS_Store",
+        "bytes": 8196
+      }
+    ],
+    "C": [
+      {
+        "path": "output/preview-v1/scene01-timed-v1.mp4",
+        "bytes": 160762
+      },
+      {
+        "path": "output/preview-v1/scene01-v1.mp4",
+        "bytes": 162210
+      },
+      {
+        "path": "output/preview-v1/scene02-timed-v1.mp4",
+        "bytes": 121535
+      },
+      {
+        "path": "output/preview-v1/scene02-v1.mp4",
+        "bytes": 121389
+      },
+      {
+        "path": "output/preview-v1/scene03-timed-v1.mp4",
+        "bytes": 138746
+      },
+      {
+        "path": "output/preview-v1/scene03-v1.mp4",
+        "bytes": 137706
+      },
+      {
+        "path": "output/preview-v1/scene04-timed-v1.mp4",
+        "bytes": 146486
+      },
+      {
+        "path": "output/preview-v1/scene04-v1.mp4",
+        "bytes": 147125
+      },
+      {
+        "path": "output/preview-v1/scene05-timed-v1.mp4",
+        "bytes": 188014
+      },
+      {
+        "path": "output/preview-v1/scene05-v1.mp4",
+        "bytes": 186894
+      },
+      {
+        "path": "output/preview-v1/scene06-timed-v1.mp4",
+        "bytes": 204047
+      },
+      {
+        "path": "output/preview-v1/scene06-v1.mp4",
+        "bytes": 171717
+      },
+      {
+        "path": "output/preview-v1/scene1-qa.png",
+        "bytes": 88071
+      },
+      {
+        "path": "output/preview-v1/scene1-qa.svg",
+        "bytes": 5938
+      },
+      {
+        "path": "output/preview-v1/scene2-qa.png",
+        "bytes": 82332
+      },
+      {
+        "path": "output/preview-v1/scene2-qa.svg",
+        "bytes": 3592
+      },
+      {
+        "path": "output/preview-v1/scene3-qa.png",
+        "bytes": 92713
+      },
+      {
+        "path": "output/preview-v1/scene3-qa.svg",
+        "bytes": 3764
+      },
+      {
+        "path": "output/preview-v1/scene4-qa.png",
+        "bytes": 98935
+      },
+      {
+        "path": "output/preview-v1/scene4-qa.svg",
+        "bytes": 4161
+      },
+      {
+        "path": "output/preview-v1/scene5-qa.png",
+        "bytes": 99314
+      },
+      {
+        "path": "output/preview-v1/scene5-qa.svg",
+        "bytes": 4130
+      },
+      {
+        "path": "output/preview-v1/scene6-qa.png",
+        "bytes": 91484
+      },
+      {
+        "path": "output/preview-v1/scene6-qa.svg",
+        "bytes": 3201
+      },
+      {
+        "path": "output/preview-v2/scene03-v2.mp4",
+        "bytes": 119005
+      },
+      {
+        "path": "output/preview-v2/scene04-v2.mp4",
+        "bytes": 138930
+      },
+      {
+        "path": "output/preview-v2/scene1-qa.png",
+        "bytes": 88071
+      },
+      {
+        "path": "output/preview-v2/scene1-qa.svg",
+        "bytes": 6262
+      },
+      {
+        "path": "output/preview-v2/scene2-qa.png",
+        "bytes": 82904
+      },
+      {
+        "path": "output/preview-v2/scene2-qa.svg",
+        "bytes": 3949
+      },
+      {
+        "path": "output/preview-v2/scene3-qa.png",
+        "bytes": 92713
+      },
+      {
+        "path": "output/preview-v2/scene3-qa.svg",
+        "bytes": 4088
+      },
+      {
+        "path": "output/preview-v2/scene4-qa.png",
+        "bytes": 99369
+      },
+      {
+        "path": "output/preview-v2/scene4-qa.svg",
+        "bytes": 4649
+      },
+      {
+        "path": "output/preview-v2/scene5-qa.png",
+        "bytes": 101304
+      },
+      {
+        "path": "output/preview-v2/scene5-qa.svg",
+        "bytes": 4617
+      },
+      {
+        "path": "output/preview-v2/scene6-qa.png",
+        "bytes": 91484
+      },
+      {
+        "path": "output/preview-v2/scene6-qa.svg",
+        "bytes": 3525
+      },
+      {
+        "path": "output/preview-v3/scene04-v3.mp4",
+        "bytes": 131182
+      },
+      {
+        "path": "output/preview-v3/scene05-v3.mp4",
+        "bytes": 170260
+      },
+      {
+        "path": "output/preview-v3/scene3-qa.png",
+        "bytes": 92805
+      },
+      {
+        "path": "output/preview-v3/scene3-qa.svg",
+        "bytes": 4360
+      },
+      {
+        "path": "output/preview-v3/scene4-qa.png",
+        "bytes": 99397
+      },
+      {
+        "path": "output/preview-v3/scene4-qa.svg",
+        "bytes": 4921
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-0.png",
+        "bytes": 98197
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-0.svg",
+        "bytes": 5104
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-51.png",
+        "bytes": 99397
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-51.svg",
+        "bytes": 5102
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-68.png",
+        "bytes": 99510
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-68.svg",
+        "bytes": 5149
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-90.png",
+        "bytes": 98396
+      },
+      {
+        "path": "output/preview-v4/scene04-frame-90.svg",
+        "bytes": 5104
+      },
+      {
+        "path": "output/preview-v4/scene04-motion-review.png",
+        "bytes": 28607
+      },
+      {
+        "path": "output/preview-v5/scene04-last.png",
+        "bytes": 98396
+      },
+      {
+        "path": "output/preview-v5/scene04-last.svg",
+        "bytes": 5104
+      },
+      {
+        "path": "output/preview-v5/scene04-scene05-comparison-v5.png",
+        "bytes": 68946
+      },
+      {
+        "path": "output/preview-v5/scene05-first.png",
+        "bytes": 76772
+      },
+      {
+        "path": "output/preview-v5/scene05-first.svg",
+        "bytes": 4663
+      },
+      {
+        "path": "output/slim-frame-reform-preview-v1.mp4",
+        "bytes": 6142460
+      },
+      {
+        "path": "output/slim-frame-reform-preview-v2.mp4",
+        "bytes": 6011942
+      },
+      {
+        "path": "output/slim-frame-reform-preview-v3.mp4",
+        "bytes": 5979517
+      },
+      {
+        "path": "output/slim-frame-reform-preview-v4.mp4",
+        "bytes": 6950806
+      }
+    ]
+  },
+  "sensitive_pattern_paths": [],
+  "limitation": "Pattern scan does not guarantee absence of all secrets; no byte-identical rerender claim"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "scene": 1,
+    "time": 0,
+    "pixels_identical": true
+  },
+  {
+    "scene": 1,
+    "time": 1,
+    "pixels_identical": true
+  },
+  {
+    "scene": 1,
+    "time": 2.5,
+    "pixels_identical": true
+  },
+  {
+    "scene": 2,
+    "time": 0,
+    "pixels_identical": true
+  },
+  {
+    "scene": 2,
+    "time": 1,
+    "pixels_identical": true
+  },
+  {
+    "scene": 2,
+    "time": 2.5,
+    "pixels_identical": true
+  },
+  {
+    "scene": 5,
+    "time": 0,
+    "pixels_identical": true
+  },
+  {
+    "scene": 5,
+    "time": 1,
+    "pixels_identical": true
+  },
+  {
+    "scene": 5,
+    "time": 2.5,
+    "pixels_identical": true
+  },
+  {
+    "scene": 6,
+    "time": 0,
+    "pixels_identical": true
+  },
+  {
+    "scene": 6,
+    "time": 1,
+    "pixels_identical": true
+  },
+  {
+    "scene": 6,
+    "time": 2.5,
+    "pixels_identical": true
+  }
+]

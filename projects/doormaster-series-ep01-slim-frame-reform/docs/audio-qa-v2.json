@@ -1,0 +1,231 @@
+[
+  {
+    "scene": 1,
+    "raw_duration": 4.824,
+    "duration": 4.167229,
+    "detected_silences": [
+      [
+        0.0,
+        0.616333
+      ],
+      [
+        4.583542,
+        4.824
+      ]
+    ],
+    "removed_intervals": [
+      [
+        0,
+        0.5363330000000001,
+        "leading"
+      ],
+      [
+        4.703542,
+        4.824,
+        "trailing"
+      ]
+    ],
+    "post_silence_and_volume": [
+      "[Parsed_volumedetect_1 @ 0x779cc04f00] mean_volume: -19.6 dB",
+      "[Parsed_volumedetect_1 @ 0x779cc04f00] max_volume: -2.7 dB"
+    ],
+    "pronunciation": "UNVERIFIED: not listened",
+    "within_word_silence": "UNVERIFIED: no word-aligned transcription"
+  },
+  {
+    "scene": 2,
+    "raw_duration": 3.624,
+    "duration": 3.236583,
+    "detected_silences": [
+      [
+        0.0,
+        0.383917
+      ],
+      [
+        3.4205,
+        3.624
+      ]
+    ],
+    "removed_intervals": [
+      [
+        0,
+        0.303917,
+        "leading"
+      ],
+      [
+        3.5405,
+        3.624,
+        "trailing"
+      ]
+    ],
+    "post_silence_and_volume": [
+      "[Parsed_volumedetect_1 @ 0x760f058a80] mean_volume: -17.5 dB",
+      "[Parsed_volumedetect_1 @ 0x760f058a80] max_volume: -1.8 dB"
+    ],
+    "pronunciation": "UNVERIFIED: not listened",
+    "within_word_silence": "UNVERIFIED: no word-aligned transcription"
+  },
+  {
+    "scene": 3,
+    "raw_duration": 3.576,
+    "duration": 3.243438,
+    "detected_silences": [
+      [
+        1.888208,
+        2.367667
+      ],
+      [
+        3.422917,
+        3.576
+      ]
+    ],
+    "removed_intervals": [
+      [
+        1.9782080000000002,
+        2.277667,
+        "internal"
+      ],
+      [
+        3.542917,
+        3.576,
+        "trailing"
+      ]
+    ],
+    "post_silence_and_volume": [
+      "[Parsed_silencedetect_0 @ 0x76a6c649c0] silence_start: 1.888187",
+      "[Parsed_silencedetect_0 @ 0x76a6c649c0] silence_end: 2.068188 | silence_duration: 0.18",
+      "[Parsed_volumedetect_1 @ 0x76a6c64a80] mean_volume: -18.9 dB",
+      "[Parsed_volumedetect_1 @ 0x76a6c64a80] max_volume: -3.8 dB"
+    ],
+    "pronunciation": "UNVERIFIED: not listened",
+    "within_word_silence": "UNVERIFIED: no word-aligned transcription"
+  },
+  {
+    "scene": 4,
+    "raw_duration": 4.224,
+    "duration": 3.825688,
+    "detected_silences": [
+      [
+        0.0,
+        0.367375
+      ],
+      [
+        1.686833,
+        1.856833
+      ],
+      [
+        2.104833,
+        2.294792
+      ],
+      [
+        3.993083,
+        4.224
+      ]
+    ],
+    "removed_intervals": [
+      [
+        0,
+        0.287375,
+        "leading"
+      ],
+      [
+        4.113083,
+        4.224,
+        "trailing"
+      ]
+    ],
+    "post_silence_and_volume": [
+      "[Parsed_silencedetect_0 @ 0x76e6c04e40] silence_start: 1.399458",
+      "[Parsed_silencedetect_0 @ 0x76e6c04e40] silence_end: 1.569729 | silence_duration: 0.170271",
+      "[Parsed_silencedetect_0 @ 0x76e6c04e40] silence_start: 1.813604",
+      "[Parsed_silencedetect_0 @ 0x76e6c04e40] silence_end: 2.007271 | silence_duration: 0.193667",
+      "[Parsed_volumedetect_1 @ 0x76e6c04f00] mean_volume: -19.7 dB",
+      "[Parsed_volumedetect_1 @ 0x76e6c04f00] max_volume: -4.2 dB"
+    ],
+    "pronunciation": "UNVERIFIED: not listened",
+    "within_word_silence": "UNVERIFIED: no word-aligned transcription"
+  },
+  {
+    "scene": 5,
+    "raw_duration": 4.704,
+    "duration": 4.347604,
+    "detected_silences": [
+      [
+        0.0,
+        0.227458
+      ],
+      [
+        1.998833,
+        2.308333
+      ],
+      [
+        4.504542,
+        4.704
+      ]
+    ],
+    "removed_intervals": [
+      [
+        0,
+        0.14745799999999998,
+        "leading"
+      ],
+      [
+        2.088833,
+        2.2183330000000003,
+        "internal"
+      ],
+      [
+        4.624542,
+        4.704,
+        "trailing"
+      ]
+    ],
+    "post_silence_and_volume": [
+      "[Parsed_silencedetect_0 @ 0x7a8b0589c0] silence_start: 1.851354",
+      "[Parsed_silencedetect_0 @ 0x7a8b0589c0] silence_end: 2.031292 | silence_duration: 0.179938",
+      "[Parsed_volumedetect_1 @ 0x7a8b058a80] mean_volume: -18.1 dB",
+      "[Parsed_volumedetect_1 @ 0x7a8b058a80] max_volume: -2.5 dB"
+    ],
+    "pronunciation": "UNVERIFIED: not listened",
+    "within_word_silence": "UNVERIFIED: no word-aligned transcription"
+  },
+  {
+    "scene": 6,
+    "raw_duration": 5.616,
+    "duration": 4.832292,
+    "detected_silences": [
+      [
+        0.0,
+        0.768625
+      ],
+      [
+        2.804625,
+        3.022125
+      ],
+      [
+        5.400917,
+        5.616
+      ]
+    ],
+    "removed_intervals": [
+      [
+        0,
+        0.688625,
+        "leading"
+      ],
+      [
+        5.520917,
+        5.616,
+        "trailing"
+      ]
+    ],
+    "post_silence_and_volume": [
+      "[Parsed_silencedetect_0 @ 0x76110589c0] silence_start: 2.115854",
+      "[Parsed_silencedetect_0 @ 0x76110589c0] silence_end: 2.337604 | silence_duration: 0.22175",
+      "[Parsed_volumedetect_1 @ 0x7611058a80] mean_volume: -19.2 dB",
+      "[Parsed_volumedetect_1 @ 0x7611058a80] max_volume: -1.9 dB"
+    ],
+    "pronunciation": "UNVERIFIED: not listened",
+    "within_word_silence": "UNVERIFIED: no word-aligned transcription"
+  }
+]

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="406" height="720" viewBox="0 0 406 720" role="img" aria-labelledby="title desc">
+<title id="title">공통 단면 SVG v1 — 씬3 상태</title>
+<desc id="desc">원본 도해의 정면 좌표를 수동 추적한 검토용 벡터. 실제 제품 단면 아님. 받침은 보강 영역이며 MDF 형상은 미정. 기존 문선은 독립 그룹으로 숨김.</desc>
+<metadata>Reference: KakaoTalk_Video_2026-10-13-13-29-25.mp4, scene3 at 8.8s; casing from 2s. Coordinates are approximate source pixels, not millimetres. No motion.</metadata>
+<defs>
+ <linearGradient id="frame-tone" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#cdd8dc"/><stop offset="1" stop-color="#becbd1"/></linearGradient>
+ <linearGradient id="wall-tone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8ebee"/><stop offset="1" stop-color="#dfe4e8"/></linearGradient>
+ <filter id="soft-shadow" x="-15%" y="-15%" width="140%" height="140%"><feDropShadow dx="0.6" dy="1" stdDeviation="0.65" flood-color="#233945" flood-opacity="0.12"/></filter>
+</defs>
+<g id="presentation" font-family="Apple SD Gothic Neo, sans-serif">
+ <rect width="406" height="720" fill="#f3f6fa"/>
+ <text x="26" y="43" fill="#168f87" font-size="11">DAESAN / 공통 단면 검토</text>
+ <text x="26" y="81" fill="#19313e" font-size="23" font-weight="700">원본 배치 그대로</text>
+ <text x="26" y="110" fill="#19313e" font-size="23" font-weight="700">독립 레이어 단면 v1</text>
+ <rect x="22" y="138" width="362" height="51" rx="11" fill="#19313e"/>
+ <text x="41" y="170" fill="white" font-size="17">씬3 기준 · MDF 형상 미정</text>
+ <rect x="14" y="205" width="378" height="342" rx="16" fill="white"/>
+ <text x="26" y="597" fill="#19313e" font-size="12">정면 좌표 고정 · 원근 변형 없음</text>
+ <text x="26" y="625" fill="#64747b" font-size="11">받침은 실제 형상이 아닌 보강 영역입니다.</text>
+ <text x="26" y="647" fill="#64747b" font-size="11">실제 제품 단면·고정 공법을 확정하지 않습니다.</text>
+ <text x="26" y="669" fill="#64747b" font-size="11">406 × 720 화면 좌표 / 실측 치수 아님</text>
+</g>
+<g id="wall" data-status="source-outline" aria-label="벽체">
+ <rect x="206" y="271" width="179" height="162" fill="url(#wall-tone)" stroke="#8c969b" stroke-width="1" filter="url(#soft-shadow)"/>
+ <path d="M208 272H384" fill="none" stroke="white" stroke-opacity=".7"/>
+</g>
+<g id="existing-frame" data-status="source-outline-no-internal-details" aria-label="기존 문틀">
+ <path id="frame-outline" d="M162 271H206V433H166C158 433 153 431 150 420C147 408 144 391 144 385V329H162Z" fill="url(#frame-tone)" stroke="#859399" stroke-width="1" filter="url(#soft-shadow)"/>
+ <path d="M164 272H204V431" fill="none" stroke="#edf2f4" stroke-opacity=".6" stroke-width="1"/>
+</g>
+<g id="door" data-status="source-outline" aria-label="문짝">
+ <rect x="21" y="271" width="141" height="58" fill="#e4e9ee" stroke="#89969e" stroke-width="1" filter="url(#soft-shadow)"/>
+ <path d="M22 272H161M22 272V328" fill="none" stroke="white" stroke-opacity=".7"/>
+</g>
+<g id="existing-casing" display="none" data-status="source-scene1-symbol-not-verified-installation" aria-label="제거 대상 기존 문선">
+ <rect x="179" y="433" width="88" height="18" fill="#d4dbe0" stroke="#929ba0" stroke-width="1" filter="url(#soft-shadow)"/>
+</g>
+<g id="support-zone" data-status="schematic-region-not-physical-shape" aria-label="받침 보강 영역">
+ <rect x="141" y="382" width="26" height="54" rx="3" fill="#e7ac4d" fill-opacity=".22" stroke="#ca943d" stroke-width="1" stroke-dasharray="3 3"/>
+ <path d="M140 433L99 476" fill="none" stroke="#c99032" stroke-width="1"/>
+ <text x="49" y="499" fill="#9e722b" font-size="12" font-family="Apple SD Gothic Neo, sans-serif">받침 보강 영역</text>
+ <text x="49" y="515" fill="#8a7d65" font-size="10" font-family="Apple SD Gothic Neo, sans-serif">점선은 자재 외곽선이 아님</text>
+</g>
+<g id="mdf" data-status="reserved-no-geometry" data-thickness-setting="9T" aria-label="MDF 예약 레이어 — 형상 없음"/>
+<g id="annotations" fill="#51646e" font-family="Apple SD Gothic Neo, sans-serif" font-size="12" text-anchor="middle">
+ <text x="91" y="304">문짝</text><text x="177" y="357">문틀</text><text x="295" y="357">벽체</text>
+</g>
+</svg>
