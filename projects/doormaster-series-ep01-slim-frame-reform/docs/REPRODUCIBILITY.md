@@ -25,3 +25,18 @@ Scene 순서 v3,v3,v3,v4,v5,v3 + 승인 본사 엔딩. 프레임 121/100/101/112
 `python3 src/preview-v5/assemble-preserved.py --output /absolute/path/to/NEW-review.mp4 --encoding-profile documented-v3`
 기본값은 읽기/명령 출력만 하는 dry-run이다. 실제 실행은 별도 승인 후 --execute 필요. ffmpeg -n으로 덮어쓰기 금지.
 오디오 aresample=48000/apad/atrim/concat, libx264 veryfast CRF19 및 AAC192k/stereo는 기존 v3 assemble.py에 확인된 조립 방식이다. 원래 v5 명령 및 인코더 버전은 미확인이다. 이 명세는 승인 Scene을 재조립하는 검토 방법이지 역사적 v5 인코딩의 완전한 복원이 아니다.
+
+
+## 2026-10-15 표준 경로 통합 (이전 경로 설명보다 우선)
+- 승인 영상7개는 output 원본과 SHA256 동일 확인, 재복사/수정 없음.
+- 과거 보존 영상15개를 public/assets/video/에 원래 파일명으로 복사. final/approved 명칭 추가 없음. 대표 QA PNG3개만 public/assets/images/에 복사. 목록/크기/해시: docs/standard-path-integration-v1.json.
+- preview-v1/finalize.py, preview-v2/assemble.py, preview-v3/assemble.py 입력을 표준 경로로 변경. 동일 승인본은 입력 별칭으로 재사용. 쓰기 대상은 원래 버전명 별도 경로이며 승인 별칭을 쓰기 대상으로 사용하지 않는다.
+- preview-v1~v3/render.cjs의 MP4 출력은 public/assets/video/, PNG/SVG QA 출력은 public/assets/images/로 변경(버전명 포함). 기존 src SVG는 그대로 보존. preview-v4/v5는 output 직접 경로가 없어 변경 없음.
+- v2/v3 조립의 엔딩 경로를 프로젝트 내부로 연결. 오디오 QA 목적지도 기존 public/audio/로 정합화.
+- 과거 조립 소스는 생성 단계를 포함하므로 보존본이 이미 있는 경우 기존 -n/xb/존재검사에 의해 중단될 수 있다. 경로 통합은 전체 과거 파이프라인 실행 검증이 아니다. 기존 Sharp 캐시 의존·폰트 환경 등은 이번 범위에서 변경하지 않음. 원래 v5 인코딩 설정 미확인 제한 유지.
+- 대표 이미지: Scene3 보강 QA, Scene4 이동 검토, Scene4→5 연결 비교. 최종 렌더 입력 또는 별도 승인 최종 Scene 이미지로 지정하지 않는다. 다른 output QA39개는 자동 복사하지 않음.
+- output 원본73개 37,944,720 bytes 모두 보존. 이전 후보88개에 표준 복사/참조 해제된23개를 추가해111개 96,442,101 bytes. 정확한 경로/크기/해시중복/참조/Git여부: docs/slim-cleanup-candidates-v2.json. 휴지통 이동은 별도 승인 필요.
+- 커버 v4는 v5 비교 QA 직접 입력으로 유지. v2/v3 커버와 간판 v1 SVG 기본 입력 등은 여전히 참조 보류. src 소스/폰트/로고 및 승인 자산 보존.
+- QA: 승인 영상/Scene/커버/간판/배경/TTS/엔딩/SNS 해시 불변, 복사18개 SHA256 동일, 입력 별칭 파일 존재 및 Python AST/Node 구문 검사 PASS. 재렌더/재인코딩 없음.
+- OS 메타데이터 public/assets/.DS_Store의 조사 전후 변경만 감지됨(본 작업에서 쓰기/정리하지 않음). 콘텐츠 해시 변화 없음.
+- 기존 원본/공통 가이드/다른 프로젝트 변경 없음. Git add/commit/push 없음; 통합 변경은 로컬 승인 대기.

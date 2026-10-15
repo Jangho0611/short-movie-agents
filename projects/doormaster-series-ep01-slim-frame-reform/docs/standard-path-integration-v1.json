@@ -1,0 +1,138 @@
+{
+  "copies": [
+    {
+      "source": "output/preview-v1/scene01-timed-v1.mp4",
+      "target": "public/assets/video/scene01-timed-v1.mp4",
+      "bytes": 160762,
+      "sha256": "abefdd6efa41691afcfc3974153b308cfae1588c4b628fad2ebe80ac162bf6db"
+    },
+    {
+      "source": "output/preview-v1/scene02-timed-v1.mp4",
+      "target": "public/assets/video/scene02-timed-v1.mp4",
+      "bytes": 121535,
+      "sha256": "0d6ece7554e008488ba553e185c6426d6e7f8924e63ab678a57f8b4a7a3ff286"
+    },
+    {
+      "source": "output/preview-v1/scene03-timed-v1.mp4",
+      "target": "public/assets/video/scene03-timed-v1.mp4",
+      "bytes": 138746,
+      "sha256": "d2a4210a35866df339436d830255c4df15dfa681c6b6d48bc4df0da9133cb30a"
+    },
+    {
+      "source": "output/preview-v1/scene04-timed-v1.mp4",
+      "target": "public/assets/video/scene04-timed-v1.mp4",
+      "bytes": 146486,
+      "sha256": "003b904629a9842f7470575557f9196924885592f4af979e763363c7f4642660"
+    },
+    {
+      "source": "output/preview-v1/scene05-timed-v1.mp4",
+      "target": "public/assets/video/scene05-timed-v1.mp4",
+      "bytes": 188014,
+      "sha256": "96022691aa7864fe976bfc6b9f184ef70fd039f6daaaa6113cd119ff20ab6ab2"
+    },
+    {
+      "source": "output/preview-v1/scene06-timed-v1.mp4",
+      "target": "public/assets/video/scene06-timed-v1.mp4",
+      "bytes": 204047,
+      "sha256": "3cba77161685d692779229838697ec8cdb11b44a9a334b773c1f62204b4e8529"
+    },
+    {
+      "source": "output/preview-v2/scene01-v2.mp4",
+      "target": "public/assets/video/scene01-v2.mp4",
+      "bytes": 141782,
+      "sha256": "84960b4942063b987a99004753f2d1bc6997fd922ef36cf91153fb3f7dac08d8"
+    },
+    {
+      "source": "output/preview-v2/scene02-v2.mp4",
+      "target": "public/assets/video/scene02-v2.mp4",
+      "bytes": 112208,
+      "sha256": "8f252eeca38139208421d8b74ee442fa24fb45de9b514ef4323e911691963c31"
+    },
+    {
+      "source": "output/preview-v2/scene03-v2.mp4",
+      "target": "public/assets/video/scene03-v2.mp4",
+      "bytes": 119005,
+      "sha256": "78415e8cc01b2be1ea8a8a34a346dd20adcf33c863c083c016f25d8e264ed82e"
+    },
+    {
+      "source": "output/preview-v2/scene04-v2.mp4",
+      "target": "public/assets/video/scene04-v2.mp4",
+      "bytes": 138930,
+      "sha256": "764a16b2c0155c811c3ee75c02a71e4f466b2b4625e6499debeaa8509ee604c2"
+    },
+    {
+      "source": "output/preview-v2/scene05-v2.mp4",
+      "target": "public/assets/video/scene05-v2.mp4",
+      "bytes": 170260,
+      "sha256": "bf0cc9ee0bdfd8a096d3cd47e91e0e9ec30326a55f65625bf37e684da4a8f7d2"
+    },
+    {
+      "source": "output/preview-v3/scene04-v3.mp4",
+      "target": "public/assets/video/scene04-v3.mp4",
+      "bytes": 131182,
+      "sha256": "fa94ec30e0e4a01cf9bd87ae3f9155d75c8da5ff138a89687bb580e0bcfa5898"
+    },
+    {
+      "source": "output/preview-v3/scene05-v3.mp4",
+      "target": "public/assets/video/scene05-v3.mp4",
+      "bytes": 170260,
+      "sha256": "bf0cc9ee0bdfd8a096d3cd47e91e0e9ec30326a55f65625bf37e684da4a8f7d2"
+    },
+    {
+      "source": "output/slim-frame-reform-preview-v2.mp4",
+      "target": "public/assets/video/slim-frame-reform-preview-v2.mp4",
+      "bytes": 6011942,
+      "sha256": "9c4347ae0b302e2e784ff482a27cf7667f2afb82e92f562199c61d36192edafb"
+    },
+    {
+      "source": "output/slim-frame-reform-preview-v3.mp4",
+      "target": "public/assets/video/slim-frame-reform-preview-v3.mp4",
+      "bytes": 5979517,
+      "sha256": "a4d4608f7b2eb56392ad849e7fdc95b1c82e6b80e87ac7ace40415f20cacb396"
+    },
+    {
+      "source": "output/preview-v3/scene3-qa.png",
+      "target": "public/assets/images/scene03-preview-v3-qa.png",
+      "bytes": 92805,
+      "sha256": "d97149137d5ed0c855160ac6e282d75c514a99d2bce21993af83e1b4ca81099c"
+    },
+    {
+      "source": "output/preview-v4/scene04-motion-review.png",
+      "target": "public/assets/images/scene04-preview-v4-motion-review.png",
+      "bytes": 28607,
+      "sha256": "0b5fa3a5537bc780ad2e963d016bf3286d07dba5bf9a5771d70082295e134456"
+    },
+    {
+      "source": "output/preview-v5/scene04-scene05-comparison-v5.png",
+      "target": "public/assets/images/scene04-scene05-preview-v5-comparison.png",
+      "bytes": 68946,
+      "sha256": "bea9862653b436e38d8da63ff00a3f5f41036026b2d3d24315be2cff99e6b0ec"
+    }
+  ],
+  "input_aliases": {
+    "slim-frame-reform-preview-v5.mp4": "slim-frame-reform-final-approved-v5.mp4",
+    "scene01-v3.mp4": "scene01-final-approved-v3.mp4",
+    "scene02-v3.mp4": "scene02-final-approved-v3.mp4",
+    "scene03-v3.mp4": "scene03-final-approved-v3.mp4",
+    "scene04-v4.mp4": "scene04-final-approved-v4.mp4",
+    "scene05-v5.mp4": "scene05-final-approved-v5.mp4",
+    "scene06-v3.mp4": "scene06-final-approved-v3.mp4",
+    "scene06-v2.mp4": "scene06-final-approved-v3.mp4",
+    "scene01-timed-v1.mp4": "scene01-timed-v1.mp4",
+    "scene02-timed-v1.mp4": "scene02-timed-v1.mp4",
+    "scene03-timed-v1.mp4": "scene03-timed-v1.mp4",
+    "scene04-timed-v1.mp4": "scene04-timed-v1.mp4",
+    "scene05-timed-v1.mp4": "scene05-timed-v1.mp4",
+    "scene06-timed-v1.mp4": "scene06-timed-v1.mp4",
+    "scene01-v2.mp4": "scene01-v2.mp4",
+    "scene02-v2.mp4": "scene02-v2.mp4",
+    "scene03-v2.mp4": "scene03-v2.mp4",
+    "scene04-v2.mp4": "scene04-v2.mp4",
+    "scene05-v2.mp4": "scene05-v2.mp4",
+    "scene04-v3.mp4": "scene04-v3.mp4",
+    "scene05-v3.mp4": "scene05-v3.mp4",
+    "slim-frame-reform-preview-v2.mp4": "slim-frame-reform-preview-v2.mp4",
+    "slim-frame-reform-preview-v3.mp4": "slim-frame-reform-preview-v3.mp4"
+  },
+  "approved_recopy": false
+}
