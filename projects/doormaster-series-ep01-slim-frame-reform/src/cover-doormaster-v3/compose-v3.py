@@ -1,7 +1,7 @@
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 import json,hashlib,sys
-ROOT=Path('/Users/janghokim/Documents/daesan-field-shorts/004-slim-frame-reform')
+ROOT=Path(__file__).resolve().parents[2]
 SRC=Path(__file__).parent
 OUT=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'public/covers'
 QA=OUT/'qa';OUT.mkdir(parents=True,exist_ok=True);QA.mkdir(parents=True,exist_ok=True)

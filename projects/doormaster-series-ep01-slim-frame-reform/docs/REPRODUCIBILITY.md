@@ -40,3 +40,11 @@ Scene 순서 v3,v3,v3,v4,v5,v3 + 승인 본사 엔딩. 프레임 121/100/101/112
 - QA: 승인 영상/Scene/커버/간판/배경/TTS/엔딩/SNS 해시 불변, 복사18개 SHA256 동일, 입력 별칭 파일 존재 및 Python AST/Node 구문 검사 PASS. 재렌더/재인코딩 없음.
 - OS 메타데이터 public/assets/.DS_Store의 조사 전후 변경만 감지됨(본 작업에서 쓰기/정리하지 않음). 콘텐츠 해시 변화 없음.
 - 기존 원본/공통 가이드/다른 프로젝트 변경 없음. Git add/commit/push 없음; 통합 변경은 로컬 승인 대기.
+
+
+## 2026-10-15 기존 원본 종료 준비 경로 검증
+- 과거 커버v3/v4 ROOT를 Monorepo 프로젝트 상대경로로 변경. 원본 실행경로 의존0; 입력 버전 유지. AST/입력 존재 PASS, 실제 렌더 없음.
+- Scene4 마지막/Scene5 첫 PNG만 public/assets/images/scene04-last-preview-v5-qa.png 및 scene05-first-preview-v5-qa.png로 바이트 동일 복사. output15개/709,572 bytes 유지, 이동은 별도 승인.
+- 원본292개/159,692,041 bytes 비교: 동일171, 의도적 수정12, 승인 휴지통 보존105, OS메타데이터4. 원본 고유 콘텐츠 누락0. 수정12개 원본 SHA는 기존 migration manifest와 일치. 기존 휴지통105개 SHA PASS.
+- 승인 미디어/SNS/QA 해시 불변. 원본 폴더 무변경. 상세: docs/archive-paths-final-qa-v1.md 및 .json.
+- 원본 폴더 정리는 Git push/fetch 최종 검증과 사용자 최종 승인 후에만 가능. 이번 작업은 이동하지 않음. 기타 외부 런타임/시스템 폰트 의존은 원본경로와 별개로 유지.
