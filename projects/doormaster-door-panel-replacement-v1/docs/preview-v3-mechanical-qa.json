@@ -1,0 +1,15 @@
+{
+  "video_frames": 866,
+  "seconds": 28.866666666666667,
+  "scene03_decoded_frames_identical": true,
+  "ending_decoded_frames_identical": true,
+  "protected_files_checked": 220,
+  "protected_changes": [],
+  "audio_correlation_to_approved_assembly": 0.9999913105978193,
+  "audio_peak_dbfs": -1.8532854318618774,
+  "full_decode": "passed",
+  "tts_source": "v11 approved scene mapping; no generation/rate/pitch change",
+  "scene03_subtitles": "approved in-video labels retained without overlay; not verbatim transcript",
+  "scene45": "preview-only v2 geometry retained, not final visual approval",
+  "status": "user visual/listening approval pending"
+}

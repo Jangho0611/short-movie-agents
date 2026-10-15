@@ -1,0 +1,14 @@
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/scene01-doormaster-caption-test-v2.mp4'
+duration 3.3333333333333335
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/scene02-doormaster-caption-test-v2.mp4'
+duration 4.166666666666667
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/scene03-doormaster-caption-v4.mp4'
+duration 4.2
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/scene04-doormaster-caption-v4.mp4'
+duration 3.8
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/scene05-doormaster-caption-v4.mp4'
+duration 3.7666666666666666
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/scene06-doormaster-caption-v4.mp4'
+duration 3.933333333333333
+file '/Users/janghokim/Documents/short-movie-agents/projects/doormaster-door-panel-replacement-v1/public/assets/video/daesan-headquarters-ending-approved-v1.mp4'
+duration 5.666666666666667

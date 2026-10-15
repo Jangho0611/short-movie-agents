@@ -1,0 +1,79 @@
+{
+  "scenes": [
+    {
+      "frames": 100,
+      "ttsSeconds": 3.3085416666666667,
+      "cues": {
+        "design": 1.9
+      },
+      "audioFile": "scene01-tts-v8.mp3",
+      "videoSeconds": 3.3333333333333335
+    },
+    {
+      "frames": 125,
+      "ttsSeconds": 4.15075,
+      "cues": {
+        "check": 2.14
+      },
+      "audioFile": "scene02-tts-v10-response.mp3",
+      "videoSeconds": 4.166666666666667
+    },
+    {
+      "frames": 126,
+      "ttsSeconds": 4.180125,
+      "cues": {
+        "inner": 1.62,
+        "size": 2.58,
+        "thickness": 2.86
+      },
+      "audioFile": "scene03-tts-v8.mp3",
+      "videoSeconds": 4.2
+    },
+    {
+      "frames": 114,
+      "ttsSeconds": 3.7910833333333334,
+      "cues": {
+        "type": 1.45,
+        "position": 2.25
+      },
+      "audioFile": "scene04-tts-v8.mp3",
+      "videoSeconds": 3.8
+    },
+    {
+      "frames": 113,
+      "ttsSeconds": 3.7460416666666667,
+      "cues": {
+        "lock": 1.45
+      },
+      "audioFile": "scene05-tts-v11.mp3",
+      "videoSeconds": 3.7666666666666666
+    },
+    {
+      "frames": 118,
+      "ttsSeconds": 3.9110833333333335,
+      "cues": {
+        "difficult": 3.9
+      },
+      "audioFile": "scene06-tts-v8.mp3",
+      "videoSeconds": 3.933333333333333
+    }
+  ],
+  "cueMethod": "Local Whisper with terminology hint; scene 3 split timing approximate; listening confirmation pending",
+  "texts": [
+    "문틀은 그대로 쓰고 문짝 디자인만 바꿀 수 있을까요?",
+    "네! 바꿀 수는 있는데, 생각보다 확인할게 많아요",
+    "먼저 문틀 내경이랑 문짝 치수와 두께를 확인해야 하고",
+    "그리고 기존 경첩의 종류와 위치도 맞아야해요",
+    "손잡이 가공 위치와 문틀의 키홈 위치도 서로 맞아야 해요.",
+    "하나라도 맞지 않으면 문틀에 맞지않는 경우가 발생합니다"
+  ],
+  "subtitleLines": [
+    "문틀은 그대로 쓰고\n문짝 디자인만 바꿀 수 있을까요?",
+    "네! 바꿀 수는 있는데,\n생각보다 확인할게 많아요",
+    "먼저 문틀 내경이랑 문짝 치수와\n두께를 확인해야 하고",
+    "그리고 기존 경첩의 종류와\n위치도 맞아야해요",
+    "손잡이 가공 위치와 문틀의 키홈 위치도\n서로 맞아야 해요.",
+    "하나라도 맞지 않으면\n문틀에 맞지않는 경우가 발생합니다"
+  ],
+  "note": "Scene3 approved clip and its labels preserved; other scene dialogue headers match v11. Cues are provisional timing estimates; no resynthesis."
+}

@@ -1,0 +1,55 @@
+{
+  "fps": 30,
+  "frames": 126,
+  "seconds": 4.2,
+  "audio_unchanged": true,
+  "baseline_preserved": true,
+  "inner_v2": {
+    "fade_frames": [
+      35,
+      41
+    ],
+    "full_frames_exclusive": [
+      41,
+      59
+    ],
+    "full_seconds": 0.6
+  },
+  "inner_v3": {
+    "fade_frames": [
+      18,
+      21
+    ],
+    "full_frames_exclusive": [
+      21,
+      59
+    ],
+    "full_seconds": 1.2666666666666666
+  },
+  "cut": 1.9666666666666666,
+  "W_fade": [
+    60,
+    65
+  ],
+  "H_fade": [
+    69,
+    75
+  ],
+  "T_fade": [
+    85,
+    90
+  ],
+  "panel": [
+    0,
+    1520,
+    1080,
+    400
+  ],
+  "thickness_image": [
+    748,
+    1560,
+    250,
+    300
+  ],
+  "qa": "Final B frame reviewed; H bottom endpoint visible; image entirely inside panel; no text/image overlap. Full decode passed. Inner label anticipates noun by about .47s; user timing review pending."
+}

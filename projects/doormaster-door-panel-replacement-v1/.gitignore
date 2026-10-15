@@ -1,0 +1,5 @@
+# Project-local execution environments; preserve locally
+node_modules/
+.audio-qa-models/
+.venv-audio-qa/
+.three-test-runtime/

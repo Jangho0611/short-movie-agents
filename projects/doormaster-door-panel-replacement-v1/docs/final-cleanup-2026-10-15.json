@@ -1,0 +1,116 @@
+{
+  "approved_deleted": [
+    {
+      "path": "public/assets/video/scene02-threejs-test-v1.mp4",
+      "bytes": 808756,
+      "sha256": "b6637d1f3584c5ce43a083a111e82495a77bf8777600366e58997e4c7e72111d",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene05-product-comparison-test-v1.mp4",
+      "bytes": 256099,
+      "sha256": "71184d7eea85b5ce58beea2bcff0ca19c1860f91c04998776867d8972205b0dc",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene05-keyhole-photoreal-v1.png",
+      "bytes": 1827455,
+      "sha256": "b0366db6841afb67e6cc2590ffee554683c8d773c0ab55978f9b7bf9ca8247d2",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene05-flow-start-candidate-v1.png",
+      "bytes": 2289649,
+      "sha256": "681bf6d4a8aa798fee6be46f1018e3472435a987c2a054a4d1c911af23fec720",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene05-flow-start-candidate-v2.png",
+      "bytes": 1731605,
+      "sha256": "87ecee77a0c069fd7ad4eda9f3b6ebe23c60fe659c0f8b996b5f2d86ef41834b",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene05-flow-start-candidate-v3.png",
+      "bytes": 1839318,
+      "sha256": "c1c92c4dda0754f1f432e7b7aa8f52feadc5a9f8355452b02b2f708c9dada9d4",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene05-flow-start-candidate-v4.png",
+      "bytes": 2132490,
+      "sha256": "03fcbf223275eaaada543b7f35c3977e9589f4791b3e8deb215b29bceacd9e16",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene05-flow-start-candidate-v5.png",
+      "bytes": 1918011,
+      "sha256": "65a223faffd4c07cd15801b4069928df91fdb6bad045c3df9091204546cc2f43",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene01-before-livingroom-candidate-v1.png",
+      "bytes": 1706526,
+      "sha256": "6053e2b8e24ab5f20556aa986b984b5751bd7415ca353bd2bf32c8521efb8264",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": ".DS_Store",
+      "bytes": 10244,
+      "sha256": "5ff73cc09a6fc1b347d125d9514a42bb76b38df3dc44f0442c53b64a949112e8",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/.DS_Store",
+      "bytes": 10244,
+      "sha256": "a94b78849a4830078a0955e608499b41284ae5147122cf923470b25d0cfe38f0",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/.DS_Store",
+      "bytes": 8196,
+      "sha256": "4c885a44f38d6626af75cfb376c931974e4ddd0418a2fd7b1b8bd29e128f424e",
+      "direct_code_references": [],
+      "tracked": false,
+      "symlink": false
+    }
+  ],
+  "count": 12,
+  "bytes": 14538593,
+  "approved_assets_sha256": {
+    "public/assets/video/door-panel-replacement-preview-v4.mp4": "ee43ba71fb1bd176332e74ef0aa78f8e1f2c515b573c612d98e4adf350345055",
+    "public/assets/images/doormaster-door-panel-cover-v2.png": "88618288e3944ee7c2a03eac1eac13c8c372ed4b1601f7114d6607b9b7f233fe",
+    "docs/SNS_업로드_문구_최종.md": "30a72c89c04f4113397b2bed515e90365c241b691c9bfd30691684fcfe086ab9",
+    "public/assets/audio/full-tts-qa-v11.mp3": "f815bcb1b9930982a807a7e2ceff324081fac06564b685b5f15c9ac11f839525",
+    "public/assets/audio/scene01-tts-v8.mp3": "c557312c5df344d379a1a920b694db5d1595876c83e66e3b43c012881e736a0a",
+    "public/assets/audio/scene02-tts-v10-response.mp3": "42419443712b729f3e3adf98ec2b996cb44f2b1a3bf54f4e8f37f5009b26eea9",
+    "public/assets/audio/scene03-tts-v8.mp3": "7ab3562f13074b4a5a8b2b149dd8e275588cf23824a2c72f4124541aba33f3d3",
+    "public/assets/audio/scene04-tts-v8.mp3": "07b784ded0f1b01031f80a93231971cca0516d7bf836b6b95b62be398b80e306",
+    "public/assets/audio/scene05-tts-v11.mp3": "7e9fed7a921a77f984d9b4fa53565975e19671c5a67fad9f247f0361b97c6aed",
+    "public/assets/audio/scene06-tts-v8.mp3": "70b0b8d0322765fda783822e52dbe71264c5829fa7789d3971419436a01aeead",
+    "public/assets/video/daesan-headquarters-ending-approved-v1.mp4": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5"
+  },
+  "approved_assets_unchanged": true
+}
