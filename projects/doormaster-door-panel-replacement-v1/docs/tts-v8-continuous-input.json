@@ -1,0 +1,25 @@
+{
+  "status": "listening candidate",
+  "sceneTexts": [
+    "문틀은 그대로 쓰고 문짝 디자인만 바꿀 수 있을까요?",
+    "네! 바꿀 수는 있는데, 생각보다 확인할게 많아요",
+    "먼저 문틀 내경이랑 문짝 치수와 두께를 확인해야 하고",
+    "그리고 기존 경첩의 종류와 위치도 맞아야해요",
+    "손잡이 가공위치도 기존 문틀의 키홈 위치도 체크해야해요",
+    "하나라도 맞지 않으면 문틀에 맞지않는 경우가 발생합니다"
+  ],
+  "request": {
+    "input": {
+      "text": "문틀은 그대로 쓰고 문짝 디자인만 바꿀 수 있을까요? 네! 바꿀 수는 있는데, 생각보다 확인할게 많아요 먼저 문틀 내경이랑 문짝 치수와 두께를 확인해야 하고 그리고 기존 경첩의 종류와 위치도 맞아야해요 손잡이 가공위치도 기존 문틀의 키홈 위치도 체크해야해요 하나라도 맞지 않으면 문틀에 맞지않는 경우가 발생합니다"
+    },
+    "voice": {
+      "languageCode": "ko-KR",
+      "name": "ko-KR-Chirp3-HD-Alnilam"
+    },
+    "audioConfig": {
+      "audioEncoding": "LINEAR16",
+      "speakingRate": 1.0
+    }
+  },
+  "note": "One continuous synthesis; spaces join scenes, no added SSML breaks or rate postprocessing"
+}

@@ -23,5 +23,12 @@
       1080,
       1500
     ]
-  }
+  },
+  "output_paths": [
+    "public/covers/qa/doormaster-door-panel-cover-v2-crop-1x1.png",
+    "public/covers/qa/doormaster-door-panel-cover-v2-crop-3x4.png",
+    "public/covers/qa/doormaster-door-panel-cover-v2-crop-4x5.png",
+    "public/covers/qa/doormaster-door-panel-cover-v2-qa.png",
+    "public/covers/doormaster-door-panel-cover-v2.png"
+  ]
 }

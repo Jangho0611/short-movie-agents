@@ -1,0 +1,36 @@
+{
+  "extractions": [
+    {
+      "file": "scene02-tts-v10-response",
+      "context_source": "context-scene01-02-v10",
+      "cut_sample": 89502,
+      "cut_seconds": 3.72925,
+      "duration_seconds": 4.15075
+    },
+    {
+      "file": "scene05-tts-v10-context",
+      "context_source": "context-scene04-05-v10",
+      "cut_sample": 84237,
+      "cut_seconds": 3.509875,
+      "duration_seconds": 4.090125
+    }
+  ],
+  "scene_seconds": [
+    3.3085416666666667,
+    4.15075,
+    4.180125,
+    3.7910833333333334,
+    4.090125,
+    3.9110833333333335
+  ],
+  "total_seconds": 23.431708333333333,
+  "existing_audio_preserved": true,
+  "method": "Two contextual plain-text requests, same Alnilam/rate1.0; no SSML, pitch/gain/stretch. Extract only Scene2/5 at quiet sentence boundaries; keep existing Scene1/3/4/6.",
+  "diagnosis": "Previous Scene2 WAV and MP3 equal duration and aligned waveform correlation >0.99998; source ASR also lacks 네. Not a trimming fault. SSML impact possible but not proven. Scene5 vowel extension originates in synthesis, not silence insertion.",
+  "listening_pending": [
+    "네 presence/confidence and 0.562s following pause",
+    "손잡이 vowel length and 0.121s following pause",
+    "키홈 ASR mismatch 키옷; actual pronunciation uncertain"
+  ],
+  "scene5_term_scope": "문틀의 키홈 means frame-side machining corresponding to door latch per user; latch/strike visual relationship unchanged."
+}

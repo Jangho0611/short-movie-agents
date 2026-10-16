@@ -3,7 +3,7 @@
 최종 사용자 승인: Preview v4 / Cover v2 / TTS v11 / SNS 최종 MD.
 
 - 영상: public/assets/video/door-panel-replacement-preview-v4.mp4 (1080×1920,30fps,28.866667초)
-- Cover: public/assets/images/doormaster-door-panel-cover-v2.png
+- Cover: public/covers/doormaster-door-panel-cover-v2.png
 - SNS: docs/SNS_업로드_문구_최종.md (Naver246자)
 - 기록: docs/26.10.15수정.md
 - 최종 QA: docs/preview-v4-qa.json

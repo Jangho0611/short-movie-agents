@@ -33,7 +33,8 @@ for x,key,title,w in [(10,base,'9:16 원본',360),(390,base+'-crop-3x4','중앙 
  qd.text((x,12),title,font=f(24),fill='#111211');pic=outputs[key];qa.paste(pic.resize((w,round(pic.height*w/pic.width)),Image.Resampling.LANCZOS),(x,60))
 outputs[base+'-qa']=qa
 for name,pic in outputs.items():
- path=O/(name+'.png')
+ path=P/'public/covers'/('' if name==base else 'qa')/(name+'.png')
+ path.parent.mkdir(parents=True,exist_ok=True)
 
  if path.exists():raise FileExistsError(path)
  pic.save(path)

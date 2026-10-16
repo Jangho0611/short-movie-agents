@@ -1,0 +1,13 @@
+{
+  "input": {
+    "text": "문틀은 그대로 쓰고 문짝 디자인만 바꿀 수 있을까요? 네! 바꿀 수는 있는데, 생각보다 확인할게 많아요"
+  },
+  "voice": {
+    "languageCode": "ko-KR",
+    "name": "ko-KR-Chirp3-HD-Alnilam"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "speakingRate": 1.0
+  }
+}

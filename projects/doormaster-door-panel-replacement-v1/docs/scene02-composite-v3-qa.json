@@ -1,0 +1,73 @@
+{
+  "method": "Non-generative uniform pixel transform + small leaf-only tone adjustment and local shadow composite",
+  "scale_xy": [
+    1.065,
+    1.065
+  ],
+  "anchor_original_pixels": [
+    810,
+    1258.8
+  ],
+  "source_polygon": [
+    [
+      627,
+      310
+    ],
+    [
+      638,
+      304
+    ],
+    [
+      901,
+      336
+    ],
+    [
+      955,
+      1228
+    ],
+    [
+      675,
+      1290
+    ],
+    [
+      664,
+      1286
+    ]
+  ],
+  "transformed_polygon": [
+    [
+      615.105,
+      248.3280000000001
+    ],
+    [
+      626.82,
+      241.9380000000001
+    ],
+    [
+      906.915,
+      276.01800000000003
+    ],
+    [
+      964.425,
+      1225.998
+    ],
+    [
+      666.225,
+      1292.028
+    ],
+    [
+      654.51,
+      1287.768
+    ]
+  ],
+  "changed_pixels": 348757,
+  "outside_mask_changes": 0,
+  "left_frame_region_changes": 0,
+  "original_hash": "23975c2099ac13555cbdcbe80deedc1eb2996d0809219a1513e3457cd33327ef",
+  "limits": [
+    "No physical dimensions or fit asserted.",
+    "Original generated pattern retained; not verified exact YA990 reproduction.",
+    "Local wall/floor pixels in new silhouette and immediate shadow zone necessarily replaced; rest preserved.",
+    "No separate perspective warp: original lean and perspective retained to avoid pattern distortion."
+  ]
+}
