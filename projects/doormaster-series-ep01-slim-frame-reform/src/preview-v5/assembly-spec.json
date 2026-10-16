@@ -33,8 +33,8 @@
       "frames": 170
     }
   ],
-  "frame_evidence": "docs/final-timeline-v3.json; source MP4 ffprobe verified 2026-10-14",
+  "frame_evidence": "docs/26.10.13수정.md — 2026-10-16 최종 Slim 정리; preserved MP4 ffprobe",
   "audio": "Use embedded scene audio and approved ending audio; no TTS generation/replacement",
-  "encoding_profile": "documented-v3 only; src/preview-v3/assemble.py:12-17",
+  "encoding_profile": "documented-v3 only; encoding settings transcribed in docs/REPRODUCIBILITY.md (historical script preserved in pre-cleanup Git HEAD)",
   "unknown": "Original v5 assembly command, exact encoder version and original v5 encoding options not confirmed. Byte-identical reproduction not claimed."
 }

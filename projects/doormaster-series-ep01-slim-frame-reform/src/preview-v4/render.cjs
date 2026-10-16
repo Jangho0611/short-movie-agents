@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path'),cp=require('child_process');
-const sharp=require('/Users/janghokim/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require('sharp');
 const root=path.resolve(__dirname,'../..');const svg=fs.readFileSync(path.join(__dirname,'common-section-v4.svg'),'utf8');
 const defs=svg.match(/<defs>([\s\S]*?)<\/defs>/)[1];
 const group=id=>svg.match(new RegExp('<g id="'+id+'"[\\s\\S]*?<\\/g>'))[0];

@@ -5,15 +5,22 @@ ROOT=Path(__file__).resolve().parents[2]
 SRC=Path(__file__).parent
 parser=argparse.ArgumentParser(description='Review output only; never overwrite approved assets')
 parser.add_argument('output',type=Path,help='NEW output directory (must not exist)')
-parser.add_argument('--reference',type=Path,default=ROOT.parents[1]/'docs/design-styles/door-master/references/door-master-cover-reference-v1.png')
+parser.add_argument('--reference',type=Path,help='Optional reference comparison only')
+parser.add_argument('--dry-run',action='store_true',help='Validate required assets without producing output')
 args=parser.parse_args()
 OUT=args.output.resolve()
-if not args.reference.is_file():raise FileNotFoundError(args.reference)
-OUT.mkdir(parents=True,exist_ok=False)
-QA=OUT/'qa';QA.mkdir()
+if args.reference is not None and not args.reference.is_file():raise FileNotFoundError(args.reference)
 c=json.loads((SRC/'layout-v5.json').read_text())
 assets={'background':ROOT/'public/assets/images/doormaster-clean-background-v1.png','sign':ROOT/'public/assets/images/doormaster-series-sign-v2.png','logo':ROOT/'src/cover-doormaster-v2/assets/logo.png'}
 hashes={k:hashlib.sha256(p.read_bytes()).hexdigest() for k,p in assets.items()}
+for name in ['Pretendard-Black.ttf','Pretendard-Medium.woff2']:
+ p=ROOT/'src/cover-doormaster-v2/assets'/name
+ if not p.is_file():raise FileNotFoundError(p)
+if args.dry_run:
+ print('PASS: Cover v5 required inputs; no output generated')
+ sys.exit(0)
+OUT.mkdir(parents=True,exist_ok=False)
+QA=OUT/'qa';QA.mkdir()
 im=Image.open(assets['background']).convert('RGBA');layers={}
 import numpy as np,cv2
 original=np.array(im);cfg=c['background_map'];delta=cfg['shift'];start=cfg['transition_start'];end=cfg['transition_end']
@@ -64,8 +71,7 @@ save(im,OUT/'doormaster-slim-frame-cover-v5.png')
 for name,top,bottom in [('3x4',240,1680),('4x5',285,1635),('1x1',420,1500)]:save(im.crop((0,top,1080,bottom)),QA/f'cover-v5-{name}.png')
 def comparison(left,label,name):
  a=Image.new('RGB',(1080,1000),'#F7F5EF');d=ImageDraw.Draw(a);d.text((15,12),label,fill='black');d.text((555,12),'V5 CANDIDATE',fill='black');a.paste(left.resize((540,960)),(0,40));a.paste(im.resize((540,960)),(540,40));save(a,QA/name)
-comparison(Image.open(ROOT/'public/covers/doormaster-slim-frame-cover-v4.png'),'V4','cover-v4-vs-v5.png')
-comparison(Image.open(args.reference),'REFERENCE','cover-v5-reference-comparison.png')
+if args.reference is not None:comparison(Image.open(args.reference),'REFERENCE','cover-v5-reference-comparison.png')
 save(im.resize((360,640),Image.Resampling.LANCZOS),QA/'cover-v5-mobile.png')
 report={'source_hashes_unchanged':all(hashlib.sha256(p.read_bytes()).hexdigest()==hashes[k] for k,p in assets.items()),'source_hashes':hashes,'product_translation_px':delta,'product_pixel_differences_after_translation':product_difference,'top_400_rows_identical':bool(np.array_equal(remapped[:400],original[:400])),'output_size':im.size,'font':'Pretendard Black, native proportions; rotations only, no nonuniform scaling'}
 (QA/'technical-qa-v5.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(report)

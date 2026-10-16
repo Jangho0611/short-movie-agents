@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path'),cp=require('child_process');
-const sharp=require('/Users/janghokim/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require('sharp');
 const root=path.resolve(__dirname,'../..');const svg=fs.readFileSync(path.join(__dirname,'common-section-v4.svg'),'utf8');
 const defs=svg.match(/<defs>([\s\S]*?)<\/defs>/)[1];
 const group=id=>svg.match(new RegExp('<g id="'+id+'"[\\s\\S]*?<\\/g>'))[0];
@@ -25,9 +25,5 @@ if(scene===5){out+=`<g opacity="${ease(t/.18)}">${text('하지만, 생각보다'
 if(scene===6){out+=title('리폼할까?','새로 시공할까?');out+=`<path d="M540 690V1390" stroke="#CCC8BE" stroke-width="2"/>`;out+=text('기존 문틀 리폼',275,790,46)+text('신규 문틀 시공',805,790,46);for(const [x,lines]of [[275,['기존 문틀 활용','보강 및','마감 작업 필요']],[805,['기존 문틀 철거','새 문틀 설치','주변 마감 복구 고려']]])lines.forEach((l,i)=>out+=text(l,x,950+i*115,37,'#454A43',700));out+=text('작업 범위와 비용을 비교하세요',540,1530,47);}
 if(scene>=1&&scene<=5)out+=text('시공 원리 개념도',540,1790,28,dark?'#C6C8C0':'#777B72',500);
 return `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"><defs>${defs}${extraDefs}</defs><rect width="1080" height="1920" fill="${bg}"/>${out}</svg>`;}
-async function main(){let timelines=[];for(let i=1;i<=6;i++){let f=path.join(root,'public','audio',`scene${String(i).padStart(2,'0')}-tts-v${[1,2,4].includes(i)?3:2}.mp3`);let dur=Number(cp.execFileSync('ffprobe',['-v','error','-show_entries','format=duration','-of','csv=p=0',f]).toString());timelines.push({scene:i,audioDuration:dur,frames:Math.ceil((dur+.10)*30),audio:f});}
-fs.writeFileSync(path.join(root,'docs','timeline-v3.json'),JSON.stringify(timelines,null,2));
-for(const s of timelines){if(![3,4].includes(s.scene))continue;let output=path.join(root,'public','assets','video',`scene${String(s.scene).padStart(2,'0')}-v3.mp4`);if(fs.existsSync(output))throw Error('Exists '+output);let enc=cp.spawn('ffmpeg',['-v','error','-n','-f','image2pipe','-vcodec','png','-r','30','-i','pipe:0','-i',s.audio,'-map','0:v','-map','1:a','-af','apad','-t',String(s.frames/30),'-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-ar','48000','-ac','2',output],{stdio:['pipe','inherit','inherit']});let done=new Promise((r,j)=>enc.on('close',c=>c===0?r():j(Error('encode '+c))));
-for(let f=0;f<s.frames;f++){let xml=frame(s.scene,f/30,s.frames/30);let png=await sharp(Buffer.from(xml)).png().toBuffer();if(f===Math.floor(s.frames*.65)){fs.writeFileSync(path.join(root,'public','assets','images',`scene${s.scene}-preview-v3-qa.png`),png);fs.writeFileSync(path.join(root,'public','assets','images',`scene${s.scene}-preview-v3-qa.svg`),xml);}if(!enc.stdin.write(png))await new Promise(r=>enc.stdin.once('drain',r));}
-enc.stdin.end();await done;console.log('Rendered scene',s.scene,'seconds',s.frames/30);}}
-module.exports={frame,fixed,mdfV2,supportPiece}; if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1});
+module.exports={frame,fixed,mdfV2,supportPiece};
+if(require.main===module)throw Error('Preserved frame module only. Use src/preview-v5/assemble-preserved.py for approved assembly.');

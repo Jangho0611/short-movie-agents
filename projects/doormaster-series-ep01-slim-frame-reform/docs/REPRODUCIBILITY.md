@@ -48,3 +48,15 @@ Scene 순서 v3,v3,v3,v4,v5,v3 + 승인 본사 엔딩. 프레임 121/100/101/112
 - 원본292개/159,692,041 bytes 비교: 동일171, 의도적 수정12, 승인 휴지통 보존105, OS메타데이터4. 원본 고유 콘텐츠 누락0. 수정12개 원본 SHA는 기존 migration manifest와 일치. 기존 휴지통105개 SHA PASS.
 - 승인 미디어/SNS/QA 해시 불변. 원본 폴더 무변경. 상세: docs/archive-paths-final-qa-v1.md 및 .json.
 - 원본 폴더 정리는 Git push/fetch 최종 검증과 사용자 최종 승인 후에만 가능. 이번 작업은 이동하지 않음. 기타 외부 런타임/시스템 폰트 의존은 원본경로와 별개로 유지.
+
+
+## 2026-10-16 최종 Slim 실행 기준 (위 과거 경로 기록보다 우선)
+- 최종 승인 출력: public/assets/video/slim-frame-reform-final-approved-v5.mp4. 승인 파일은 덮어쓰지 않는다.
+- 실행: src/preview-v5/assemble-preserved.py + assembly-spec.json. 승인 Scene 6개(v3/v3/v3/v4/v5/v3) → Ending approved v1. 121/100/101/112/134/148+170=886 frames, 1080×1920 30fps. 총29.533333초. Scene 내 오디오 사용.
+- 별도 보존 TTS: public/audio/scene01-tts-v3.mp3, scene02-tts-v3.mp3, scene03-tts-v2.mp3, scene04-tts-v3.mp3, scene05-tts-v2.mp3, scene06-tts-v2.mp3.
+- preview-v2/v3/v4/v5 render.cjs는 frame 그래픽 모듈이다. v2/v3의 과거 입력/출력 생성 main을 사용하지 않는다. 삭제한 과거 Preview/JSON/TTS는 최종 조립 입력이 아니다.
+- 모든 보존 렌더러는 프로젝트 sharp dependency 사용. package/lock Sharp0.35.4. 프로젝트 내부 node_modules는 보존하지 않는다.
+- Cover: python3 src/cover-doormaster-v5/compose-v5.py /absolute/NEW-directory --dry-run. dry-run은 입력만 검사하고 파일을 만들지 않는다. 실제 렌더는 별도 승인 후 --dry-run 제거. 배경/간판/로고/Black·Medium폰트/layout만 필수. --reference는 선택 비교 QA; Cover v4는 필요하지 않다.
+- 간판 편집 원본/도구는 Monorepo docs/design-styles/door-master/assets/series-sign-v2/에 동일 SHA256 tracked 원본이 있다. 프로젝트에서는 이미 승인된 간판 PNG를 직접 사용한다.
+- 과거 JSON/QA/script의 핵심정보는 26.10.13수정.md 최종 Slim 섹션 및 이 문서로 통합. 위 과거 경로는 역사 기록이며 현재 실행조건이 아니다.
+- Python Pillow12.3.0/NumPy2.5.3은 기존 환경 기록; OpenCV 과거 정확 버전 미확인. 시스템 ffmpeg/ffprobe와 한글 폰트 필요. 원래 v5 인코딩 설정 미확인 및 byte-identical 재렌더 비보장 유지.
