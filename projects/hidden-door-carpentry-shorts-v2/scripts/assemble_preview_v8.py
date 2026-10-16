@@ -1,8 +1,21 @@
 from pathlib import Path
-import subprocess,json,hashlib
+import subprocess,json,hashlib,sys
 root=Path(__file__).resolve().parents[1]; video=root/'public/assets/video'; docs=root/'docs'
 files=[video/(f'scene{i:02}-preview-v8.mp4' if i!=5 else 'scene05-preview-v8-label-fix.mp4') for i in range(1,6)]+[video/'daesan-headquarters-ending-approved-v1.mp4']
 frames=[112,185,134,183,180,170]
+
+# Locked final reproduction inputs; no historical QA dependency.
+INPUT_SHA256 = {'public/assets/video/scene01-preview-v8.mp4': 'a07b36a57d38844b1076597381a7f152d37bc5e587108b90c2a6e6e01a1bbd2a', 'public/assets/video/scene02-preview-v8.mp4': '22a6d4e9a586a9d1afeb2272fd5478c05349ea372e9b25fbbd07a36590b7706d', 'public/assets/video/scene03-preview-v8.mp4': '2615e805877e7fc90c66fd8ccfbfde70f59a2986dc8068153a6b1ebcc53e8ec6', 'public/assets/video/scene04-preview-v8.mp4': '57e9e71b46faa3a397b53a6c768326a5345cbf7391b15a6811747d9dca7c3693', 'public/assets/video/scene05-preview-v8-label-fix.mp4': '1a57efabe63b1652673176e9a582195b6b078a7fdd1689c6d8c15d22256719a7', 'public/assets/video/daesan-headquarters-ending-approved-v1.mp4': '2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5'}
+def verify_inputs():
+ for name, expected in INPUT_SHA256.items():
+  path = root/name
+  if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+   raise RuntimeError(f"Final input missing or changed: {name}")
+verify_inputs()
+if '--check-inputs' in sys.argv:
+ print('Final input SHA256 QA: PASS')
+ raise SystemExit(0)
+
 def run(cmd):return subprocess.run(cmd,check=True,capture_output=True,text=True).stdout
 results=[]
 for f,n in zip(files,frames):
@@ -24,8 +37,7 @@ run(cmd)
 run(['ffmpeg','-v','error','-xerror','-i',str(out),'-f','null','-'])
 data=json.loads(run(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(out)]))
 v=next(s for s in data['streams'] if s['codec_type']=='video');assert int(v['nb_frames'])==sum(frames)
-baseline=json.loads((docs/'preview-v8-preservation-before.json').read_text())
-assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in baseline.items())
+verify_inputs()
 for i,t in [(1,2),(2,3),(3,3),(4,4),(5,4)]:
  run(['ffmpeg','-n','-v','error','-ss',str(t),'-i',str(files[i-1]),'-frames:v','1',str(root/f'public/assets/images/scene{i:02}-rendered-qa-v8.png')])
 report={'scenes':results,'preview':str(out),'frames':sum(frames),'seconds':sum(frames)/30,'probe':data,'decode':'PASS','all_baseline_hashes_unchanged':True,'tts_files':['scene01-tts-v4.mp3','scene02-tts-v8.mp3','scene03-tts-v11.mp3','scene04-tts-v4.mp3','scene05-tts-v6.mp3'],'tts_playback_rate':1,'ending':'approved Canonical MP4 reused; source hash unchanged; concat output encoded H264/AAC','visual_review':'pending'}

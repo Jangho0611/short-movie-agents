@@ -1,7 +1,21 @@
-from PIL import Image,ImageDraw,ImageFont
 from pathlib import Path
-import re,json,hashlib
-R=Path(__file__).resolve().parents[1];A=R/'public/assets';O=R/'public/covers';O.mkdir(exist_ok=True)
+import re,json,hashlib,sys
+R=Path(__file__).resolve().parents[1];A=R/'public/assets';O=R/'public/covers'
+
+# Locked final reproduction inputs; no historical QA dependency.
+INPUT_SHA256 = {'src/CarpentryScenesV8.tsx': 'acaa30de8a666ba3e39537f54f9eb4a0da361dd78030df985a9c40c3a49cd9d3', 'public/assets/images/daesani-cover-point-right.png': 'f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0', 'public/assets/logos/daesanlogo2.png': 'da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea', 'public/assets/fonts/Pretendard-Black.woff2': 'c5fd0c3568fc1368a3edc0d0fbb36df029935954276e3573451b3bae09e27296', 'public/assets/fonts/Pretendard-SemiBold.woff2': 'c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0', 'public/assets/fonts/Pretendard-Medium.woff2': 'd03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c'}
+def verify_inputs():
+ for name, expected in INPUT_SHA256.items():
+  path = R/name
+  if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+   raise RuntimeError(f"Final input missing or changed: {name}")
+verify_inputs()
+if '--check-inputs' in sys.argv:
+ print('Final input SHA256 QA: PASS')
+ raise SystemExit(0)
+
+from PIL import Image,ImageDraw,ImageFont
+O.mkdir(exist_ok=True)
 cover=O/'hidden-door-carpentry-cover-v3.png';crop=O/'qa/hidden-door-carpentry-cover-v3-instagram-square.png';crop.parent.mkdir(exist_ok=True)
 assert not cover.exists() and not crop.exists()
 im=Image.new('RGBA',(1080,1920),'#eee9e0')
@@ -36,10 +50,7 @@ d=ImageDraw.Draw(brand);d.text((90,7),'DAESAN',font=font(46),fill='#123628',anch
 brand=brand.resize((240,70),Image.Resampling.LANCZOS);im.alpha_composite(brand,(90,1390))
 im.convert('RGB').save(cover);im.crop((0,420,1080,1500)).convert('RGB').save(crop)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-mono=R.parents[1]
-assert sha(charpath)==sha(mono/'assets/daesani-motion-library/cover/daesani-cover-point-right.png')
-assert sha(A/'logos/daesanlogo2.png')==sha(mono/'assets/daesan-ending/logos/daesanlogo2.png')
-base=json.loads((R/'docs/cover-v1-preservation-before.json').read_text());assert all(sha(Path(p))==h for p,h in base.items())
+verify_inputs()
 report={'cover':str(cover),'crop':str(crop),'dimensions':[1080,1920],'crop_dimensions':[1080,1080],'hero':'exact 9 geometry paths from CarpentryScenesV8, uniform scale 1.8, offset 90/780','character':{'pose':charpath.name,'visible_xy':[710,1010],'visible_height':360,'visible_width':round((bbox[2]-bbox[0])*scale),'flipped':False,'canonical_sha256':sha(charpath)},'logo_sha256':sha(A/'logos/daesanlogo2.png'),'brand_xy':[90,1390],'brand_size':[240,70],'video_audio_source_unchanged':True,'visual_QA':'pending'}
 (R/'docs/cover-v3-qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(cover);print(crop)
