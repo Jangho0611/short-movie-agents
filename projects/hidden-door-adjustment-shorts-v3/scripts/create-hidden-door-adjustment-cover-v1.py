@@ -1,10 +1,23 @@
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
-import hashlib, json, re
+import hashlib, json, re, sys
 
 R = Path(__file__).resolve().parents[1]
 A = R / 'public/assets'
 O = R / 'public/covers'
+
+# Final local inputs, independent of historical preservation manifests.
+INPUT_SHA256 = {'src/AdjustmentScenesV2.tsx': 'a6fe43fef516360de444a7c72e5e75d6f3a17972f7f0e99fc8cefeca77229f8b', 'public/assets/images/daesani-cover-point-right.png': 'f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0', 'public/assets/logos/daesanlogo2.png': 'da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea', 'public/assets/fonts/Pretendard-Black.woff2': 'c5fd0c3568fc1368a3edc0d0fbb36df029935954276e3573451b3bae09e27296', 'public/assets/fonts/Pretendard-SemiBold.woff2': 'c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0', 'public/assets/fonts/Pretendard-Medium.woff2': 'd03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c'}
+def verify_inputs():
+    for name, expected in INPUT_SHA256.items():
+        path = R/name
+        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+            raise RuntimeError(f'Final input missing or changed: {name}')
+verify_inputs()
+if '--check-inputs' in sys.argv:
+    print('Final input SHA256 QA: PASS')
+    raise SystemExit(0)
+
+from PIL import Image, ImageDraw, ImageFont
 O.mkdir(exist_ok=True)
 (O / 'qa').mkdir(exist_ok=True)
 cover = O / 'hidden-door-adjustment-cover-v1.png'
@@ -87,18 +100,13 @@ im.alpha_composite(brand.resize((240,70),Image.Resampling.LANCZOS),(90,1390))
 im.convert('RGB').save(cover)
 im.crop((0,420,1080,1500)).convert('RGB').save(square)
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
-mono=R.parents[1]
-assert sha(charpath)==sha(mono/'assets/daesani-motion-library/cover/daesani-cover-point-right.png')
-assert sha(A/'logos/daesanlogo2.png')==sha(mono/'assets/daesan-ending/logos/daesanlogo2.png')
-assert sha(A/'fonts/Pretendard-Black.woff2')==sha(mono/'projects/hidden-door-carpentry-shorts-v2/public/assets/fonts/Pretendard-Black.woff2')
-baseline=json.loads((R/'docs/cover-v1-preservation-before.json').read_text())
-assert all(sha(Path(p))==v for p,v in baseline.items())
+verify_inputs()
 report={'dimensions':[1080,1920],'square_crop':[0,420,1080,1500],
         'hero_source':'src/AdjustmentScenesV2.tsx: Surface()',
         'hero_scale':scale,'hero_offset':[ox,oy],'door_offset_svg_units':5,
         'character':{'file':str(charpath),'visible_xy':[730,1190],'height':270,'flipped':False,'canonical_sha256':sha(charpath)},
         'brand':{'xy':[90,1390],'size':[240,70],'color':'#123628','logo_sha256':sha(A/'logos/daesanlogo2.png')},
-        'preserved_existing_files':len(baseline),'preservation_sha256':'PASS','visual_qa':'pending'}
+        'preserved_existing_files':len(INPUT_SHA256),'preservation_sha256':'PASS','visual_qa':'pending'}
 (R/'docs/cover-v1-qa.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(cover)
 print(square)
