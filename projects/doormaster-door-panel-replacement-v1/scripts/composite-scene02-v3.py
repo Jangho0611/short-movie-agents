@@ -2,6 +2,15 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFilter,ImageEnhance,ImageChops
 import numpy as np,json,hashlib
 P=Path(__file__).resolve().parents[1];A=P/'public/assets/images'
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--qa-output',type=Path)
+parser.add_argument('--dry-run',action='store_true')
+args=parser.parse_args()
+if args.dry_run:
+ assert (A/'scene02-photoreal-candidate-v1.png').is_file()
+ print('PASS: S2 input; no output')
+ raise SystemExit(0)
 src=A/'scene02-photoreal-candidate-v1.png';im=Image.open(src).convert('RGB');beforehash=hashlib.sha256(src.read_bytes()).hexdigest();w,h=im.size
 # One uniform similarity transform. Anchor lies on original bottom contact edge.
 s=(1.0+1.13)/2;ax,ay=810,1258.8
@@ -24,5 +33,6 @@ with path.open('xb') as f:out.save(f,format='PNG')
 diff=np.any(np.asarray(out)!=np.asarray(im),axis=2); allowed=(np.asarray(newmask)>0)|(shadow>0)
 assert not np.any(diff&~allowed);assert not np.any(diff[:,:575]);assert hashlib.sha256(src.read_bytes()).hexdigest()==beforehash
 report={'method':'Non-generative uniform pixel transform + small leaf-only tone adjustment and local shadow composite','scale_xy':[s,s],'anchor_original_pixels':[ax,ay],'source_polygon':poly,'transformed_polygon':[[ax+s*(x-ax),ay+s*(y-ay)] for x,y in poly],'changed_pixels':int(diff.sum()),'outside_mask_changes':int((diff&~allowed).sum()),'left_frame_region_changes':int(diff[:,:575].sum()),'original_hash':beforehash,'limits':['No physical dimensions or fit asserted.','Original generated pattern retained; not verified exact YA990 reproduction.','Local wall/floor pixels in new silhouette and immediate shadow zone necessarily replaced; rest preserved.','No separate perspective warp: original lean and perspective retained to avoid pattern distortion.']}
-with (P/'docs/scene02-composite-v3-qa.json').open('x') as f:json.dump(report,f,ensure_ascii=False,indent=2)
+if args.qa_output is not None:
+ with args.qa_output.open('x') as f:json.dump(report,f,ensure_ascii=False,indent=2)
 print(report)

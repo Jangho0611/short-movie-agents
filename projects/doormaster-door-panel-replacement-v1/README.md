@@ -6,8 +6,6 @@
 - Cover: public/covers/doormaster-door-panel-cover-v2.png
 - SNS: docs/SNS_업로드_문구_최종.md (Naver246자)
 - 기록: docs/26.10.15수정.md
-- 최종 QA: docs/preview-v4-qa.json
-- 삭제 승인 이력·최종해시: docs/final-cleanup-2026-10-15.json
 
 ## 재현
 
@@ -17,6 +15,10 @@ Scene1·2는 src/caption-test-v2.tsx의 Caption1/Caption2 (100/125프레임), Sc
 
 TTS v11 구성: scene01-tts-v8, scene02-tts-v10-response, scene03-tts-v8, scene04-tts-v8, scene05-tts-v11, scene06-tts-v8. 통합 청취본 full-tts-qa-v11.mp3. 새 음성 생성 불필요.
 
-Cover 소스: src/cover-v2/compose.py. 승인 공통 간판과 폰트는 Monorepo docs/design-styles/door-master/assets/series-sign-v2/를 참조한다. Cover 소스의 v1 해시 확인 의존 때문에 Cover v1도 보존한다.
+Cover 소스: src/cover-v2/compose.py. 승인 공통 간판과 폰트는 Monorepo docs/design-styles/door-master/assets/series-sign-v2/를 참조한다. Cover v1은 필요하지 않다. --dry-run으로 입력만 확인하고 --qa-output 지정 시에만 별도 JSON을 저장한다.
 
 과거 QA의 삭제 자산 경로는 역사적 기록이다. 실패/실험/중간 산출물 전체를 Git 재현 대상으로 삼지 않는다. 별도 저장소 생성 금지. 공통 엔딩 원본 IMG_3934.MOV는 Monorepo assets/daesan-ending에 이미 보존되어 중복 반영하지 않는다.
+
+최종 이미지 생성 조건 원문: docs/prompts/의 Prompt 3개.
+S2 합성: scripts/composite-scene02-v3.py (--dry-run / 선택 --qa-output).
+조립 concat list는 시스템 임시 디렉터리를 사용하고 실행 후 자동 정리한다. 과거 QA 기록 요약은 docs/26.10.15수정.md에 보존한다.

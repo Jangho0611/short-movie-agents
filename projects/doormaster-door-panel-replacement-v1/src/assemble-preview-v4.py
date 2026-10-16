@@ -1,5 +1,5 @@
 from pathlib import Path
-import subprocess,json,hashlib
+import subprocess,json,hashlib,tempfile
 P=Path(__file__).resolve().parents[1];V=P/'public/assets/video';I=P/'public/assets/images';D=P/'docs'
 
 # Final archive input lock; --dry-run verifies without producing media.
@@ -21,6 +21,7 @@ for n in range(3,7):
  run(['ffmpeg','-v','error','-n','-i',str(V/f'scene0{n}-caption-visual-v4.mp4'),'-i',str(P/'public/assets/audio'/t[n-1]['audioFile']),'-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k',str(dest)])
  inputs.append(dest)
 inputs.append(V/'daesan-headquarters-ending-approved-v1.mp4')
-c=D/'preview-v4-concat.txt';c.write_text(''.join("file '"+str(p)+"'\nduration "+str(f/30)+'\n' for p,f in zip(inputs,[100,125,126,114,113,118,170])))
-out=V/'door-panel-replacement-preview-v4.mp4'
-run(['ffmpeg','-v','error','-n','-f','concat','-safe','0','-i',str(c),'-i',str(V/'door-panel-replacement-preview-v3.mp4'),'-map','0:v','-map','1:a','-c','copy','-movflags','+faststart',str(out)])
+with tempfile.TemporaryDirectory(prefix='doormaster-panel-concat-') as temp_dir:
+ c=Path(temp_dir)/'concat.txt';c.write_text(''.join("file '"+str(p)+"'\nduration "+str(f/30)+'\n' for p,f in zip(inputs,[100,125,126,114,113,118,170])))
+ out=V/'door-panel-replacement-preview-v4.mp4'
+ run(['ffmpeg','-v','error','-n','-f','concat','-safe','0','-i',str(c),'-i',str(V/'door-panel-replacement-preview-v3.mp4'),'-map','0:v','-map','1:a','-c','copy','-movflags','+faststart',str(out)])

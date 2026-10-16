@@ -3,9 +3,18 @@ from PIL import Image,ImageDraw,ImageFont
 import random,hashlib,json
 P=Path(__file__).resolve().parents[2]; R=P.parents[1]; O=P/'public/assets/images'; S=Path(__file__).parent
 paths=[O/'scene01-before-domus511-v2.png',O/'scene01-after-ya990-domus511-v3.png',R/'docs/design-styles/door-master/assets/series-sign-v2/doormaster-series-sign-v2.png']
-paths.append(O/'doormaster-door-panel-cover-v1.png')
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--qa-output',type=Path)
+parser.add_argument('--dry-run',action='store_true')
+args=parser.parse_args()
 hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
 fontpath=R/'docs/design-styles/door-master/assets/series-sign-v2/fonts/Pretendard-Black.ttf'
+if not fontpath.is_file():raise FileNotFoundError(fontpath)
+if not (P/'public/assets/logos/daesanlogo2.png').is_file():raise FileNotFoundError('logo')
+if args.dry_run:
+ print('PASS: Cover inputs; no output')
+ raise SystemExit(0)
 def f(n):return ImageFont.truetype(str(fontpath),n)
 im=Image.new('RGB',(1080,1920),'#F3F0E9');d=ImageDraw.Draw(im)
 # Approved photo pixels: uniform scaling and crop only; no geometric retouching.
@@ -39,4 +48,5 @@ for name,pic in outputs.items():
  if path.exists():raise FileExistsError(path)
  pic.save(path)
 assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in hashes.items())
-(S/'qa.json').write_text(json.dumps({'source_sha256':hashes,'source_unchanged':True,'photo_transform':'uniform scale (571/340), rounded height and crop only','font':'Pretendard Black','ai_generation_count':0,'crops':{'3x4':[0,240,1080,1680],'1x1':[0,420,1080,1500]}},ensure_ascii=False,indent=2))
+if args.qa_output is not None:
+ with args.qa_output.open('x') as qa_file:qa_file.write(json.dumps({'source_sha256':hashes,'source_unchanged':True,'photo_transform':'uniform scale (571/340), rounded height and crop only','font':'Pretendard Black','ai_generation_count':0,'crops':{'3x4':[0,240,1080,1680],'1x1':[0,420,1080,1500]}},ensure_ascii=False,indent=2))
