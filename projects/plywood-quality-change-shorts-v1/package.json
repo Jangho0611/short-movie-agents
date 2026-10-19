@@ -4,8 +4,8 @@
   "private": true,
   "description": "Daesan plywood quality change Shorts \u2014 approved photo and TTS preview",
   "scripts": {
-    "studio": "remotion studio src/index.tsx",
-    "render": "zsh scripts/render-preview-v1.sh"
+    "studio": "remotion studio src/index-v3.tsx",
+    "render": "zsh scripts/render-preview-v3.sh"
   },
   "dependencies": {
     "@remotion/captions": "4.0.496",
