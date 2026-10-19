@@ -1,0 +1,46 @@
+# Door Closer Shorts — local-only assets
+# 최종 승인 자산은 Git에 등록된 상태로 유지
+
+# 개발 환경
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+
+# 외부 공식 자료 (로컬 보존)
+docs/*.pdf
+public/assets/images/younglim-*
+public/assets/images/ts83-*
+
+# 재렌더용 이미지 시퀀스 (로컬 보존)
+public/assets/images/DoorCloserOverlay*/
+
+# 조사 및 QA 이미지 (로컬 보존)
+public/assets/images/cut-qa-*
+public/assets/images/v2-analysis-*
+public/assets/images/preview-*-qa-*
+public/assets/images/preview-*-contact-sheet.png
+public/assets/images/preview-v3-cut-analysis.png
+public/assets/images/door-closer-cover-source-A-4s.png
+public/assets/images/daesani-cover-*
+public/assets/images/caption-reference-approved-v4.png
+
+# 중간 영상 및 오디오
+public/assets/video/*-picture.mp4
+public/assets/audio/*-source.mp3
+public/assets/audio/full-tts-qa-*.mp3
+public/assets/audio/preview-*-approved-sequence.wav
+
+# Cover 작업 중간 자산
+public/covers/qa/
+public/covers/*-layout.json
+
+# 공통 엔딩 중간 원본
+public/daesan-ending/video/IMG_3934.MOV
+public/daesan-ending/video/headquarters-normal-speed-hold.mp4
+public/daesan-ending/fonts/
+
+# 기타 로컬 참조 자산
+public/assets/logos/
+public/references/
+public/assets/images/younglim-*
