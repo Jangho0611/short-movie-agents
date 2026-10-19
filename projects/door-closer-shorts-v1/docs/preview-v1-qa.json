@@ -1,0 +1,33 @@
+{
+  "approvedAudio": "S1-S4 v2; S5 v5; latest explicit user listening approval",
+  "sceneFrames": [
+    84,
+    117,
+    129,
+    207,
+    298,
+    170
+  ],
+  "sceneSeconds": [
+    2.8,
+    3.9,
+    4.3,
+    6.9,
+    9.933333333333334,
+    5.666666666666667
+  ],
+  "totalFrames": 1005,
+  "duration": 33.5,
+  "video": "1080x1920,30fps,H264",
+  "audio": "48kHz stereo AAC 192k",
+  "fullDecode": "PASS",
+  "endingDecodedFramesIdentical": true,
+  "baselineFilesUnchanged": 93,
+  "baselineMismatches": [],
+  "audioPcmAacCorrelation": 0.999978132431373,
+  "audioPeak": 0.5618887543678284,
+  "sourceAudioUsed": false,
+  "newTtsGenerated": false,
+  "visualQA": "Representative frames inspected: orientation, captions, crop, conceptual disclaimers and product labels. Full real-time listening not performed; final naturalness and caption rhythm await user review.",
+  "previewSHA256": "199e5a913eff5fe49576be9509ea4e996e94c7247abf31741cef3cdf4d48464f"
+}

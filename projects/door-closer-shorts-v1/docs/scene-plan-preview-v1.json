@@ -1,0 +1,104 @@
+{
+  "status": "Preview v1 awaiting user video approval; TTS approved",
+  "fps": 30,
+  "scenes": [
+    {
+      "scene": 1,
+      "startFrame": 0,
+      "frames": 84,
+      "seconds": 2.8,
+      "approvedTtsSeconds": 2.623458,
+      "endPaddingSeconds": 0.17654199999999998,
+      "audio": "public/assets/audio/scene01-tts-v2.mp3"
+    },
+    {
+      "scene": 2,
+      "startFrame": 84,
+      "frames": 117,
+      "seconds": 3.9,
+      "approvedTtsSeconds": 3.72875,
+      "endPaddingSeconds": 0.17125000000000012,
+      "audio": "public/assets/audio/scene02-tts-v2.mp3"
+    },
+    {
+      "scene": 3,
+      "startFrame": 201,
+      "frames": 129,
+      "seconds": 4.3,
+      "approvedTtsSeconds": 4.12,
+      "endPaddingSeconds": 0.17999999999999972,
+      "audio": "public/assets/audio/scene03-tts-v2.mp3"
+    },
+    {
+      "scene": 4,
+      "startFrame": 330,
+      "frames": 207,
+      "seconds": 6.9,
+      "approvedTtsSeconds": 6.704125,
+      "endPaddingSeconds": 0.19587500000000002,
+      "audio": "public/assets/audio/scene04-tts-v2.mp3"
+    },
+    {
+      "scene": 5,
+      "startFrame": 537,
+      "frames": 298,
+      "seconds": 9.933333333333334,
+      "approvedTtsSeconds": 9.744,
+      "endPaddingSeconds": 0.1893333333333338,
+      "audio": "public/assets/audio/scene05-tts-v5.mp3"
+    },
+    {
+      "scene": 6,
+      "startFrame": 835,
+      "frames": 170,
+      "seconds": 5.666666666666667,
+      "approvedTtsSeconds": 4.854,
+      "endPaddingSeconds": 0.8126666666666669,
+      "audio": "public/daesan-ending/audio/ending-approved-v3.mp3"
+    }
+  ],
+  "sourceCuts": {
+    "S1": {
+      "source": "A",
+      "start": 1.5,
+      "end": 3.5,
+      "stableHold": 0.8
+    },
+    "S2": {
+      "source": "B",
+      "start": 0.5,
+      "end": 3.5,
+      "stableHold": 0.9
+    },
+    "S3": {
+      "source": "A",
+      "start": 0,
+      "end": 4.3,
+      "conceptOverlayStarts": 1.3333333333333333,
+      "captionChange": 2.1666666666666665
+    },
+    "S4": {
+      "productPhoto": [
+        0,
+        2.2
+      ],
+      "officialInstallationDrawing": [
+        2.2,
+        6.9
+      ]
+    },
+    "S5": {
+      "source": "A",
+      "start": 4.625,
+      "end": 14.558333333333334,
+      "stableHold": 0
+    }
+  },
+  "sourceFrameRate": 24,
+  "playbackRate": 1,
+  "rotationHandled": "ffmpeg autorotation -90 metadata; display 720x1280",
+  "scaleAndPlacement": "912x1622 content, x84 y298; complete source field retained, no crop",
+  "overlayEntry": "src/preview-v1.tsx",
+  "renderer": "Root toolchain Remotion 4.0.523; source/assets entirely project-local",
+  "preview": "public/assets/video/door-closer-preview-v1.mp4"
+}

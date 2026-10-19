@@ -1,0 +1,261 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "default/not specified",
+  "records": [
+    {
+      "file": "public/assets/audio/scene01-tts-v2.mp3",
+      "duration": 2.623458,
+      "sha256": "56caef86fa76b2b1e8cb12eab1a37bedc3eb6f88e3aa1ff321ab23ed4cab45f6",
+      "silences": [
+        [
+          0.0,
+          0.401833
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene02-tts-v2.mp3",
+      "duration": 3.72875,
+      "sha256": "6e2102cdac17ae353b250870cbf13700698aa60b7fb5140ececa84ee01cace9a",
+      "silences": [
+        [
+          0.0,
+          0.162208
+        ],
+        [
+          1.955083,
+          2.239667
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene03-tts-v2.mp3",
+      "duration": 4.12,
+      "sha256": "ff859bff04ce6d2d1fd70fda87434fef0bd23de0a71f7f308eab71cbdda5cdc1",
+      "silences": [
+        [
+          0.0,
+          0.190375
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene04-tts-v2.mp3",
+      "duration": 6.704125,
+      "sha256": "203bedb17bcf33e63201ab1a93b24e227dbb91fe0780fdeb0a8f0a55cef35adb",
+      "silences": [
+        [
+          0.0,
+          0.269708
+        ],
+        [
+          1.719958,
+          2.12275
+        ],
+        [
+          4.400333,
+          4.644875
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/scene05-tts-v3.mp3",
+      "duration": 8.568,
+      "sha256": "4e59c471b56a441bb251056fd00335462b396214830d2b03ff2793ae813dee6d",
+      "silences": [
+        [
+          0.0,
+          0.549333
+        ],
+        [
+          4.436292,
+          5.06525
+        ],
+        [
+          6.694125,
+          6.921125
+        ],
+        [
+          8.338583,
+          8.568
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/full-tts-qa-v3.mp3",
+      "duration": 25.744333,
+      "sha256": "dbdc5922ec99d1350a285615e994bf8667b742ef3f525bc478cf8a12162443fa",
+      "silences": [
+        [
+          0.0,
+          0.401958
+        ],
+        [
+          2.499375,
+          2.789458
+        ],
+        [
+          4.5785,
+          4.863167
+        ],
+        [
+          6.225083,
+          6.542625
+        ],
+        [
+          10.349042,
+          10.741917
+        ],
+        [
+          12.192125,
+          12.595042
+        ],
+        [
+          14.8725,
+          15.206292
+        ],
+        [
+          17.049167,
+          17.72575
+        ],
+        [
+          21.612583,
+          22.241625
+        ],
+        [
+          23.87025,
+          24.097458
+        ],
+        [
+          25.514833,
+          25.744333
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "file": "public/assets/audio/full-tts-qa-v3-with-ending.mp3",
+      "duration": 30.598333,
+      "sha256": "af6e3987786ee9885662a8128e8139a42013d6ca908f8beadacfd5f069a16a6a",
+      "silences": [
+        [
+          0.0,
+          0.401958
+        ],
+        [
+          2.499375,
+          2.789458
+        ],
+        [
+          4.5785,
+          4.863167
+        ],
+        [
+          6.225083,
+          6.542625
+        ],
+        [
+          10.349042,
+          10.741917
+        ],
+        [
+          12.192125,
+          12.595042
+        ],
+        [
+          14.8725,
+          15.206292
+        ],
+        [
+          17.049167,
+          17.72575
+        ],
+        [
+          21.612583,
+          22.241625
+        ],
+        [
+          23.87025,
+          24.097458
+        ],
+        [
+          25.514833,
+          26.454708
+        ],
+        [
+          28.304958,
+          29.358833
+        ],
+        [
+          30.4085,
+          30.598333
+        ]
+      ],
+      "decode": "PASS"
+    }
+  ],
+  "commands": [
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-n",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene01-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene02-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene03-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene04-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene05-tts-v3.mp3",
+      "-filter_complex",
+      "[0:a][1:a][2:a][3:a][4:a]concat=n=5:v=0:a=1[out]",
+      "-map",
+      "[out]",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "projects/door-closer-shorts-v1/public/assets/audio/full-tts-qa-v3.mp3"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-n",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene01-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene02-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene03-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene04-tts-v2.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/assets/audio/scene05-tts-v3.mp3",
+      "-i",
+      "projects/door-closer-shorts-v1/public/daesan-ending/audio/ending-approved-v3.mp3",
+      "-filter_complex",
+      "[0:a][1:a][2:a][3:a][4:a][5:a]concat=n=6:v=0:a=1[out]",
+      "-map",
+      "[out]",
+      "-c:a",
+      "libmp3lame",
+      "-b:a",
+      "192k",
+      "projects/door-closer-shorts-v1/public/assets/audio/full-tts-qa-v3-with-ending.mp3"
+    ]
+  ],
+  "existingAudioPreserved": true,
+  "listening": "NOT PERFORMED",
+  "insertedSilence": false,
+  "trim": false
+}

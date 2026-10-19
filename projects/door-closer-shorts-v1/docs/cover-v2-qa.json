@@ -1,0 +1,42 @@
+{
+  "status": "approval pending",
+  "original": "PASS: full original frame, no photo crop, no added blank area or opaque cards; title overlays actual footage",
+  "3:4": "PASS: series/title/subtitle, door panel including lower edge, right-side gap and brand visible",
+  "4:5": "WARN: door icon upper decoration slightly clipped; full series lettering/title and main door/gap/brand visible",
+  "source": "A2.500s, actual closing movement; not evidence of a stationary malfunction",
+  "photo_extent_comparison": {
+    "v1_visible_source_height_px": 573.333,
+    "v2_visible_source_height_px": 1280,
+    "v1_photo_backing_canvas_percent": 44.79,
+    "v2_photo_backing_canvas_percent": 100,
+    "note": "backing coverage, excludes text/sign occlusion; not unobstructed product area"
+  },
+  "limits": "Actual source perspective and resolution constrain gap detail; no gap enhancement or fabricated geometry",
+  "outputs": [
+    {
+      "path": "public/covers/door-closer-cover-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "1204978e9e7292bf68fe2734478c7eedf7b06ae9d7786e1a0e5156439abbd0b1"
+    },
+    {
+      "path": "public/covers/qa/door-closer-cover-v2-3x4.png",
+      "size": [
+        1080,
+        1440
+      ],
+      "sha256": "4c8f483f14339d23680f6abed247795576ec0a396992ace845cf9a940743262d"
+    },
+    {
+      "path": "public/covers/qa/door-closer-cover-v2-4x5.png",
+      "size": [
+        1080,
+        1350
+      ],
+      "sha256": "cb05a1173a44a93341061f0102fc925feeef0891c7d7f24b5a987fa9922924b8"
+    }
+  ],
+  "preserved_files": 50
+}

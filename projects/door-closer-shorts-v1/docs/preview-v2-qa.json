@@ -1,0 +1,32 @@
+{
+  "frames": 1071,
+  "duration": 35.7,
+  "dimensions": "1080x1920",
+  "fps": 30,
+  "full_decode": "PASS",
+  "preserved_baseline_files": 62,
+  "changed_baseline_files": [],
+  "scene2_identical": true,
+  "scene3_identical": true,
+  "scene5_identical": true,
+  "ending_identical": true,
+  "approved_sequence_aac_correlation": 0.999976596262735,
+  "peak": 0.5611572265625,
+  "sha256": "a523b02466b5d48967e5b0c53b37aabd038522071e84f805a748fc02484c1afd",
+  "scene_frames": [
+    150,
+    117,
+    129,
+    207,
+    298,
+    170
+  ],
+  "scene1_source": "A 1.500-6.500, 1x, no tpad/freeze",
+  "scene4_highlights_seconds": [
+    2.2,
+    3.7666666666666666,
+    5.333333333333333
+  ],
+  "tts_unchanged": true,
+  "realtime_listening": "not performed; user approval pending"
+}

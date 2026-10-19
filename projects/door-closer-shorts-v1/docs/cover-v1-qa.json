@@ -1,0 +1,43 @@
+{
+  "status": "user approval pending",
+  "9:16": "PASS: full sign/title/subtitle, full-bleed lower photo, approved logo; upper margin retained for central crops",
+  "3:4": "PASS: series name/title/subtitle/upper-door feature and brand visible",
+  "4:5": "PASS: series name/title/subtitle/upper-door feature and brand visible",
+  "1:1": "FAIL optional: upper series lettering/icon cropped, brand excluded; do not use as final square cover",
+  "mobile": "PASS: title and series legible in 350px QA; source footage limits fine gap detail",
+  "source": "original A at 4.000s; original geometry preserved, uniform 1.5x scaling, no invented gap",
+  "font": "Pretendard Black; chosen for this cover, not asserted original reference font",
+  "auxiliary": "omitted due low resolution and visual focus",
+  "preserved_av_files": 44,
+  "files": {
+    "public/covers/door-closer-cover-v1.png": {
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "4d1660d5f46665f05781c044873820e37903de264f7d4e83c13d690e95cf0d32"
+    },
+    "public/covers/qa/door-closer-cover-v1-3x4.png": {
+      "size": [
+        1080,
+        1440
+      ],
+      "sha256": "81f6632c5e49b2e144b6d1adce3b5f537c580835eac375d95e3463a80d37da6b"
+    },
+    "public/covers/qa/door-closer-cover-v1-4x5.png": {
+      "size": [
+        1080,
+        1350
+      ],
+      "sha256": "a7d9af27b7224620faeead74dcedaace84107b4fe588ad9d0991996c50bfbd6b"
+    },
+    "public/covers/qa/door-closer-cover-v1-1x1.png": {
+      "size": [
+        1080,
+        1080
+      ],
+      "sha256": "d80d4b5fb33a14b4e93ded3cadc3a22cd4da2a5d8aa1c950736893360898d4dc"
+    }
+  },
+  "platform_upload_preview": "not tested"
+}

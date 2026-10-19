@@ -1,0 +1,74 @@
+{
+  "status": "TTS 사용자 청취 승인 대기",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "scene": 1,
+      "tts": "문이 안 닫혀서 A/S를 요청했다고요?",
+      "audio": "public/assets/audio/scene01-tts-v1.mp3",
+      "durationMeasured": 3.264,
+      "provisionalFrames": 104,
+      "caption": [
+        "문이 안 닫힌다고요?",
+        "실제 A/S 접수 사례"
+      ],
+      "visualPlan": "A 1.500~3.500초 정상속도 2초 → 나머지는 질문 그래픽. 정지 고장 연출/없는 움직임 금지.",
+      "playbackRate": 1.0
+    },
+    {
+      "scene": 2,
+      "tts": "실제로 도어클로저가 없는 문에서 이런 문제가 발생했습니다.",
+      "audio": "public/assets/audio/scene02-tts-v1.mp3",
+      "durationMeasured": 4.296,
+      "provisionalFrames": 135,
+      "caption": [
+        "도어클로저 미설치",
+        "문 닫힘 불량으로 A/S 접수"
+      ],
+      "visualPlan": "B 0.500~3.500초 정상속도 3초 → 나머지 실제 접수 사실 정보. 반복/속도변경 없음.",
+      "playbackRate": 1.0
+    },
+    {
+      "scene": 3,
+      "tts": "외풍이나 공간의 압력 차이도 문이 닫히는 걸 방해할 수 있는데요.",
+      "audio": "public/assets/audio/scene03-tts-v1.mp3",
+      "durationMeasured": 4.416,
+      "provisionalFrames": 139,
+      "caption": [
+        "외풍 · 공간 압력 차이",
+        "문 닫힘에 영향을 줄 수 있습니다"
+      ],
+      "visualPlan": "A 0.000~1.500초 도입 후 별도 Remotion 공기 흐름 개념 그래픽. 해당 현장 원인 미확인 표시.",
+      "playbackRate": 1.0
+    },
+    {
+      "scene": 4,
+      "tts": "특히 크고 무거운 문은 사용 환경에 맞는 도어클로저를 설치해 닫힘을 제어하는 것이 중요합니다.",
+      "audio": "public/assets/audio/scene04-tts-v1.mp3",
+      "durationMeasured": 6.936,
+      "provisionalFrames": 215,
+      "caption": [
+        "크고 무거운 문",
+        "도어클로저 선택과 설치가 중요"
+      ],
+      "visualPlan": "제품 사진 우선. 제품 형태/모델 미확인: TTS 승인 후 실제 Reference 및 설치 예시 구도 보고, 사용자 승인 전 AI 생성 금지.",
+      "playbackRate": 1.0
+    },
+    {
+      "scene": 5,
+      "tts": "문이 잘 안 닫힌다면, 도어클로저 설치 여부부터 확인해 보세요.",
+      "audio": "public/assets/audio/scene05-tts-v1.mp3",
+      "durationMeasured": 4.248,
+      "provisionalFrames": 134,
+      "caption": [
+        "문이 끝까지 안 닫힌다면?",
+        "도어클로저 설치 여부 확인!"
+      ],
+      "visualPlan": "A 10.000~14.000초 + 짧은 결론 전환. 설치 후 해결된 영상으로 표시하지 않음.",
+      "playbackRate": 1.0
+    }
+  ],
+  "endingFrames": 170
+}

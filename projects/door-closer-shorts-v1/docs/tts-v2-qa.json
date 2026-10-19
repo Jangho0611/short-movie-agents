@@ -1,0 +1,219 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "rate": 1.0,
+  "pitch": "not set",
+  "records": [
+    {
+      "scene": 1,
+      "source": "scene01-tts-v2-source.mp3",
+      "sourceSha256": "8a9864365cf61750bdf4af42ed16fb6691eb12e66d53a8e7a4517274e0e3a7a5",
+      "sourceDuration": 3.048,
+      "detectedSilence45dB": [
+        [
+          0.0,
+          0.693583
+        ],
+        [
+          2.85025,
+          3.048
+        ]
+      ],
+      "trimStart": 0.3467915,
+      "trimEnd": 0.0777500000000001,
+      "file": "scene01-tts-v2.mp3",
+      "sha256": "56caef86fa76b2b1e8cb12eab1a37bedc3eb6f88e3aa1ff321ab23ed4cab45f6",
+      "duration": 2.623458,
+      "silence40dB": [
+        [
+          0.0,
+          0.401833
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "scene": 2,
+      "source": "scene02-tts-v2-source.mp3",
+      "sourceSha256": "f74fb87231632c160990c378b309dab19e91063b7775c17d1bae592927821c07",
+      "sourceDuration": 3.936,
+      "detectedSilence45dB": [
+        [
+          0.0,
+          0.286958
+        ],
+        [
+          2.096167,
+          2.373875
+        ],
+        [
+          3.745708,
+          3.936
+        ]
+      ],
+      "trimStart": 0.136958,
+      "trimEnd": 0.07029199999999991,
+      "file": "scene02-tts-v2.mp3",
+      "sha256": "6e2102cdac17ae353b250870cbf13700698aa60b7fb5140ececa84ee01cace9a",
+      "duration": 3.72875,
+      "silence40dB": [
+        [
+          0.0,
+          0.162208
+        ],
+        [
+          1.955083,
+          2.239667
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "scene": 3,
+      "source": "scene03-tts-v2-source.mp3",
+      "sourceSha256": "1bb9641f32ddb1d54384fd544a030cb8d05b84a7475b982bd2b7f8c727829995",
+      "sourceDuration": 4.416,
+      "detectedSilence45dB": [
+        [
+          0.0,
+          0.378667
+        ],
+        [
+          4.189333,
+          4.416
+        ]
+      ],
+      "trimStart": 0.1893335,
+      "trimEnd": 0.10666699999999996,
+      "file": "scene03-tts-v2.mp3",
+      "sha256": "ff859bff04ce6d2d1fd70fda87434fef0bd23de0a71f7f308eab71cbdda5cdc1",
+      "duration": 4.12,
+      "silence40dB": [
+        [
+          0.0,
+          0.190375
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "scene": 4,
+      "source": "scene04-tts-v2-source.mp3",
+      "sourceSha256": "9ce96b69a0b2776e7bcce437e7f4c5625a13028f7ef0b35da0a39143f0c8c65c",
+      "sourceDuration": 7.056,
+      "detectedSilence45dB": [
+        [
+          0.0,
+          0.536833
+        ],
+        [
+          1.99325,
+          2.383458
+        ],
+        [
+          4.707292,
+          4.910958
+        ],
+        [
+          4.916292,
+          5.001417
+        ],
+        [
+          6.852542,
+          7.056
+        ]
+      ],
+      "trimStart": 0.2684165,
+      "trimEnd": 0.08345800000000037,
+      "file": "scene04-tts-v2.mp3",
+      "sha256": "203bedb17bcf33e63201ab1a93b24e227dbb91fe0780fdeb0a8f0a55cef35adb",
+      "duration": 6.704125,
+      "silence40dB": [
+        [
+          0.0,
+          0.269708
+        ],
+        [
+          1.719958,
+          2.12275
+        ],
+        [
+          4.400333,
+          4.644875
+        ]
+      ],
+      "decode": "PASS"
+    },
+    {
+      "scene": 5,
+      "source": "scene05-tts-v2-source.mp3",
+      "sourceSha256": "ba02ae307f0528e52068a4a77b277eca6321f6fe6435c131243d6fd06975a781",
+      "sourceDuration": 4.176,
+      "detectedSilence45dB": [
+        [
+          0.0,
+          0.458083
+        ],
+        [
+          3.108792,
+          3.20175
+        ],
+        [
+          3.92,
+          4.176
+        ]
+      ],
+      "trimStart": 0.2290415,
+      "trimEnd": 0.1280000000000001,
+      "file": "scene05-tts-v2.mp3",
+      "sha256": "0f1bfb56709050c8623f23e78fda304e5bf20e12626df8b34d1ea6139ad68b76",
+      "duration": 3.818958,
+      "silence40dB": [
+        [
+          0.0,
+          0.310708
+        ]
+      ],
+      "decode": "PASS"
+    }
+  ],
+  "fullDuration": 20.995292,
+  "fullSilence40dB": [
+    [
+      0.0,
+      0.401958
+    ],
+    [
+      2.499375,
+      2.789458
+    ],
+    [
+      4.5785,
+      4.863167
+    ],
+    [
+      6.225083,
+      6.542625
+    ],
+    [
+      10.349042,
+      10.741917
+    ],
+    [
+      12.192125,
+      12.595042
+    ],
+    [
+      14.8725,
+      15.206292
+    ],
+    [
+      17.049167,
+      17.487083
+    ]
+  ],
+  "fullSha256": "43570da053ffaac6840a05d64fd7473528fbf7362e82364be43625ab27b9cbef",
+  "internalEdits": false,
+  "insertedSilence": false,
+  "listeningQA": "NOT PERFORMED: user approval pending",
+  "v1Preserved": true
+}

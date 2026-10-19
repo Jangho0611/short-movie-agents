@@ -1,0 +1,65 @@
+{
+  "status": "user approval pending",
+  "blur": {
+    "radius_px": 12,
+    "max_blend": 0.85,
+    "fade_y": [
+      300,
+      1100
+    ],
+    "curve": "1-smoothstep"
+  },
+  "gradient": {
+    "color": "#F6F3EC",
+    "max_alpha": 0.34,
+    "fade_y": [
+      300,
+      1100
+    ],
+    "curve": "1-smoothstep"
+  },
+  "pixel_checks": {
+    "y1100_to1919_identical_v2": true,
+    "opaque_foreground_pixels_identical_v2": true
+  },
+  "visual_qa": {
+    "original": "PASS: softened photo only; no straight boundary; foreground sharp; lower door preserved",
+    "3:4": "PASS: title, series, door and brand retained",
+    "4:5": "WARN inherited fromv2: upper icon decoration slightly clipped; lettering/title/door/brand retained"
+  },
+  "outputs": [
+    {
+      "file": "public/covers/door-closer-cover-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "87f2d9604a7fc4cda280624bdbf3130f28453b1eb75e73a913743637f8702e43"
+    },
+    {
+      "file": "public/covers/qa/door-closer-cover-v3-3x4.png",
+      "size": [
+        1080,
+        1440
+      ],
+      "sha256": "c6f87fb065a47d4b58a099ecd8d3568fa7c6b04e7c458b05fb011c51f924ca6a"
+    },
+    {
+      "file": "public/covers/qa/door-closer-cover-v3-4x5.png",
+      "size": [
+        1080,
+        1350
+      ],
+      "sha256": "ee9dd4a820cdbe1eeabfa1ce5935f344cb93655e108cd77ea9304cfac7753ede"
+    },
+    {
+      "file": "public/covers/qa/door-closer-cover-v2-v3-comparison.png",
+      "size": [
+        1080,
+        1000
+      ],
+      "sha256": "4a2dae4dbadb0770465bab7e54ac1fde909f6a86c507302f7b7df2c47601be82"
+    }
+  ],
+  "preserved_files": 55
+}

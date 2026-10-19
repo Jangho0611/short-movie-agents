@@ -1,0 +1,6 @@
+file '/Users/janghokim/Documents/short-movie-agents/projects/door-closer-shorts-v1/public/assets/video/scene01-preview-v2.mp4'
+file '/Users/janghokim/Documents/short-movie-agents/projects/door-closer-shorts-v1/public/assets/video/scene02-preview-v1.mp4'
+file '/Users/janghokim/Documents/short-movie-agents/projects/door-closer-shorts-v1/public/assets/video/scene03-preview-v1.mp4'
+file '/Users/janghokim/Documents/short-movie-agents/projects/door-closer-shorts-v1/public/assets/video/scene04-preview-v2.mp4'
+file '/Users/janghokim/Documents/short-movie-agents/projects/door-closer-shorts-v1/public/assets/video/scene05-preview-v1.mp4'
+file '/Users/janghokim/Documents/short-movie-agents/projects/door-closer-shorts-v1/public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4'

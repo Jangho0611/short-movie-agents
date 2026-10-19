@@ -1,0 +1,24 @@
+{
+  "manufacturer": "dormakaba / DORMA",
+  "exampleModel": "TS 83",
+  "sourceURL": "https://my.dormakaba.com/medias/053236-51532-0513-TS83-GB.pdf?context=bWFzdGVyfGltYWdlc3wxMjQyNTY3fGFwcGxpY2F0aW9uL3BkZnxpbWFnZXMvaDcxL2gzNy84ODA2MTYwMzAyMTEwLnBkZnw5OWVjMTY0MjBjOWFkYjFhNWY4YWJjZTEwZDU1NDNiNWMyMDlkNThhOTViNGIzNDdkMzhhZWVmN2UxNmMyYThl",
+  "retrieved": "2026-10-19",
+  "use": "General installation example only; not a verified field product or compatibility recommendation",
+  "assets": [
+    {
+      "file": "docs/dorma-ts83-official-catalogue.pdf",
+      "method": "Manufacturer original PDF",
+      "sha256": "5f6ae6853466228856d67aba4a2ea2bbf2e1951013e3b1794643a3312f23dddc"
+    },
+    {
+      "file": "public/assets/images/ts83-official-extracted-0-Im0.png",
+      "method": "Page 1 embedded product image extracted losslessly with pypdf",
+      "sha256": "905738a285a3cfff5b0995b262e7ffbebd585af4bab72456a9ddcec293435ef1"
+    },
+    {
+      "file": "public/assets/images/ts83-official-page4.png",
+      "method": "Page 4 rendered using pdftoppm -scale-to 1600; upper-right normal pull-side installation drawing displayed via CSS crop",
+      "sha256": "472a3eb4a68e04a18e7fc96c335f2fb454f4c1aa01c88f431b1fc2eb5316f4f6"
+    }
+  ]
+}
