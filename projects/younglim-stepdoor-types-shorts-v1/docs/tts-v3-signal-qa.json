@@ -1,0 +1,149 @@
+[
+  {
+    "scene": 1,
+    "file": "scene01-tts-v3.mp3",
+    "duration": 5.328,
+    "LUFS": -20.61,
+    "sample_peak_dBFS": -3.551909603902736,
+    "true_peak_dBTP": -3.54,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-20.61",
+      "input_tp": "-3.54",
+      "input_lra": "1.80",
+      "input_thresh": "-31.01",
+      "output_i": "-17.99",
+      "output_tp": "-1.50",
+      "output_lra": "1.70",
+      "output_thresh": "-28.44",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.01"
+    }
+  },
+  {
+    "scene": 2,
+    "file": "scene02-tts-v3.mp3",
+    "duration": 6.816,
+    "LUFS": -18.23,
+    "sample_peak_dBFS": -0.10967933471054904,
+    "true_peak_dBTP": -0.09,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-18.23",
+      "input_tp": "-0.09",
+      "input_lra": "0.80",
+      "input_thresh": "-28.52",
+      "output_i": "-18.05",
+      "output_tp": "-1.50",
+      "output_lra": "0.80",
+      "output_thresh": "-28.41",
+      "normalization_type": "dynamic",
+      "target_offset": "0.05"
+    }
+  },
+  {
+    "scene": 3,
+    "file": "scene03-tts-v3.mp3",
+    "duration": 6.144,
+    "LUFS": -18.95,
+    "sample_peak_dBFS": -1.914285972486878,
+    "true_peak_dBTP": -1.91,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-18.95",
+      "input_tp": "-1.91",
+      "input_lra": "0.60",
+      "input_thresh": "-29.16",
+      "output_i": "-17.68",
+      "output_tp": "-1.50",
+      "output_lra": "0.70",
+      "output_thresh": "-28.00",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.32"
+    }
+  },
+  {
+    "scene": 4,
+    "file": "scene04-tts-v3.mp3",
+    "duration": 7.896,
+    "LUFS": -20.13,
+    "sample_peak_dBFS": -1.755373501181815,
+    "true_peak_dBTP": -1.71,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-20.13",
+      "input_tp": "-1.71",
+      "input_lra": "2.20",
+      "input_thresh": "-30.30",
+      "output_i": "-18.53",
+      "output_tp": "-1.50",
+      "output_lra": "1.60",
+      "output_thresh": "-28.89",
+      "normalization_type": "dynamic",
+      "target_offset": "0.53"
+    }
+  },
+  {
+    "scene": 5,
+    "file": "scene05-tts-v3.mp3",
+    "duration": 4.944,
+    "LUFS": -20.35,
+    "sample_peak_dBFS": -2.448165939934523,
+    "true_peak_dBTP": -2.39,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-20.35",
+      "input_tp": "-2.39",
+      "input_lra": "2.60",
+      "input_thresh": "-30.77",
+      "output_i": "-18.39",
+      "output_tp": "-1.50",
+      "output_lra": "0.10",
+      "output_thresh": "-28.99",
+      "normalization_type": "dynamic",
+      "target_offset": "0.39"
+    }
+  },
+  {
+    "scene": 6,
+    "file": "scene06-tts-v3.mp3",
+    "duration": 7.248,
+    "LUFS": -21.04,
+    "sample_peak_dBFS": -4.09069457765849,
+    "true_peak_dBTP": -4.08,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-21.04",
+      "input_tp": "-4.08",
+      "input_lra": "3.40",
+      "input_thresh": "-31.23",
+      "output_i": "-18.37",
+      "output_tp": "-1.50",
+      "output_lra": "3.00",
+      "output_thresh": "-28.71",
+      "normalization_type": "dynamic",
+      "target_offset": "0.37"
+    }
+  },
+  {
+    "scene": 7,
+    "file": "scene07-tts-v3.mp3",
+    "duration": 4.704,
+    "LUFS": -20.04,
+    "sample_peak_dBFS": -2.899276871908021,
+    "true_peak_dBTP": -2.9,
+    "samples_over_0dBFS": 0,
+    "loudnorm": {
+      "input_i": "-20.04",
+      "input_tp": "-2.90",
+      "input_lra": "1.60",
+      "input_thresh": "-30.04",
+      "output_i": "-18.55",
+      "output_tp": "-1.73",
+      "output_lra": "0.60",
+      "output_thresh": "-28.55",
+      "normalization_type": "dynamic",
+      "target_offset": "0.55"
+    }
+  }
+]

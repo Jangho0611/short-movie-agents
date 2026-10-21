@@ -1,0 +1,35 @@
+{
+  "preview_v3": {
+    "video_duration": 54.3,
+    "audio_duration": 54.3,
+    "codec": "aac",
+    "loudness": {
+      "input_i": "-18.31",
+      "input_tp": "-4.50",
+      "input_lra": "5.00",
+      "input_thresh": "-28.92",
+      "output_i": "-18.30",
+      "output_tp": "-4.43",
+      "output_lra": "3.90",
+      "output_thresh": "-28.89",
+      "normalization_type": "dynamic",
+      "target_offset": "0.30"
+    },
+    "approved_tts": "verified PCM/hash in preview-v3-integrity-qa.json"
+  },
+  "picture_v3": {
+    "video_duration": 54.3,
+    "audio_stream": false,
+    "audio_duration": null,
+    "codec": null,
+    "loudness": null,
+    "purpose": "intentional silent intermediate, not listening preview"
+  },
+  "scene3_gray_diagram": {
+    "local_start": 4.9,
+    "local_end": 6.4,
+    "frames": 45,
+    "global_start": 17.4,
+    "global_end": 18.9
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "scene": 1,
+    "audio": "scene01-tts-v3-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.421417 | silence_duration: 0.421417",
+      "silence_start: 0.979646",
+      "silence_end: 1.109333 | silence_duration: 0.129687",
+      "silence_start: 2.898646",
+      "silence_end: 3.442229 | silence_duration: 0.543583",
+      "silence_start: 5.1075",
+      "silence_end: 5.328 | silence_duration: 0.2205"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  },
+  {
+    "scene": 2,
+    "audio": "scene02-tts-v3-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.720979 | silence_duration: 0.720979",
+      "silence_start: 3.206687",
+      "silence_end: 3.732854 | silence_duration: 0.526167",
+      "silence_start: 6.564812",
+      "silence_end: 6.816 | silence_duration: 0.251188"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  },
+  {
+    "scene": 3,
+    "audio": "scene03-tts-v3-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.432958 | silence_duration: 0.432958",
+      "silence_start: 2.794021",
+      "silence_end: 3.605604 | silence_duration: 0.811583",
+      "silence_start: 5.916688",
+      "silence_end: 6.144 | silence_duration: 0.227313"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  },
+  {
+    "scene": 4,
+    "audio": "scene04-tts-v4-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.523542 | silence_duration: 0.523542",
+      "silence_start: 1.132729",
+      "silence_end: 1.439208 | silence_duration: 0.306479",
+      "silence_start: 2.936396",
+      "silence_end: 3.818563 | silence_duration: 0.882167",
+      "silence_start: 4.704479",
+      "silence_end: 5.022479 | silence_duration: 0.318",
+      "silence_start: 6.298042",
+      "silence_end: 7.192708 | silence_duration: 0.894667",
+      "silence_start: 7.780042",
+      "silence_end: 8.078417 | silence_duration: 0.298375",
+      "silence_start: 9.008167",
+      "silence_end: 9.24 | silence_duration: 0.231833"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  },
+  {
+    "scene": 5,
+    "audio": "scene05-tts-v4-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.484667 | silence_duration: 0.484667",
+      "silence_start: 1.884208",
+      "silence_end: 2.67425 | silence_duration: 0.790042",
+      "silence_start: 4.273125",
+      "silence_end: 4.414333 | silence_duration: 0.141208",
+      "silence_start: 5.461167",
+      "silence_end: 5.712 | silence_duration: 0.250833"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  },
+  {
+    "scene": 6,
+    "audio": "scene06-tts-v4-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.279354 | silence_duration: 0.279354",
+      "silence_start: 1.720646",
+      "silence_end: 2.233 | silence_duration: 0.512354",
+      "silence_start: 3.890104",
+      "silence_end: 4.585875 | silence_duration: 0.695771",
+      "silence_start: 7.809271",
+      "silence_end: 8.016 | silence_duration: 0.206729"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  },
+  {
+    "scene": 7,
+    "audio": "scene07-tts-v4-mix.wav",
+    "observed_silence_events": [
+      "silence_start: 0",
+      "silence_end: 0.539104 | silence_duration: 0.539104",
+      "silence_start: 2.339458",
+      "silence_end: 3.186833 | silence_duration: 0.847375",
+      "silence_start: 5.535125",
+      "silence_end: 5.76 | silence_duration: 0.224875"
+    ],
+    "sync_status": "waveform/approved-script alignment only; listening verification not claimed"
+  }
+]

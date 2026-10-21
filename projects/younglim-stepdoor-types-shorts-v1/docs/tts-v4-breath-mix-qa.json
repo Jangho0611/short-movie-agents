@@ -1,0 +1,62 @@
+{
+  "4": {
+    "silence_intervals": [
+      "silence_start: 0",
+      "silence_end: 0.522375 | silence_duration: 0.522375",
+      "silence_start: 1.13525",
+      "silence_end: 1.437917 | silence_duration: 0.302667",
+      "silence_start: 2.948042",
+      "silence_end: 3.815333 | silence_duration: 0.867292",
+      "silence_start: 4.707583",
+      "silence_end: 5.0125 | silence_duration: 0.304917",
+      "silence_start: 6.307083",
+      "silence_end: 7.191208 | silence_duration: 0.884125",
+      "silence_start: 7.793708",
+      "silence_end: 8.075042 | silence_duration: 0.281333",
+      "silence_start: 9.014042",
+      "silence_end: 9.24 | silence_duration: 0.225958"
+    ],
+    "mix_LUFS": "-18.16",
+    "mix_TP": "-4.51"
+  },
+  "5": {
+    "silence_intervals": [
+      "silence_start: 0",
+      "silence_end: 0.478083 | silence_duration: 0.478083",
+      "silence_start: 1.891833",
+      "silence_end: 2.666208 | silence_duration: 0.774375",
+      "silence_start: 5.477833",
+      "silence_end: 5.712 | silence_duration: 0.234167"
+    ],
+    "mix_LUFS": "-18.22",
+    "mix_TP": "-4.51"
+  },
+  "6": {
+    "silence_intervals": [
+      "silence_start: 0",
+      "silence_end: 0.276875 | silence_duration: 0.276875",
+      "silence_start: 1.72275",
+      "silence_end: 2.223333 | silence_duration: 0.500583",
+      "silence_start: 3.90125",
+      "silence_end: 4.582583 | silence_duration: 0.681333",
+      "silence_start: 7.824958",
+      "silence_end: 8.016 | silence_duration: 0.191042"
+    ],
+    "mix_LUFS": "-18.78",
+    "mix_TP": "-4.51"
+  },
+  "7": {
+    "silence_intervals": [
+      "silence_start: 0",
+      "silence_end: 0.53675 | silence_duration: 0.53675",
+      "silence_start: 2.351",
+      "silence_end: 3.186 | silence_duration: 0.835",
+      "silence_start: 5.55225",
+      "silence_end: 5.76 | silence_duration: 0.20775"
+    ],
+    "mix_LUFS": "-18.59",
+    "mix_TP": "-4.68"
+  },
+  "full_duration": "48.556000",
+  "all_previous_audio_hashes_unchanged": true
+}

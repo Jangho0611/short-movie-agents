@@ -1,0 +1,37 @@
+[
+  {
+    "file": "scene01-tts-v3-mix.wav",
+    "LUFS": "-18.48",
+    "true_peak_dBTP": "-4.51"
+  },
+  {
+    "file": "scene02-tts-v3-mix.wav",
+    "LUFS": "-18.24",
+    "true_peak_dBTP": "-4.51"
+  },
+  {
+    "file": "scene03-tts-v3-mix.wav",
+    "LUFS": "-18.12",
+    "true_peak_dBTP": "-4.51"
+  },
+  {
+    "file": "scene04-tts-v3-mix.wav",
+    "LUFS": "-18.53",
+    "true_peak_dBTP": "-4.51"
+  },
+  {
+    "file": "scene05-tts-v3-mix.wav",
+    "LUFS": "-18.76",
+    "true_peak_dBTP": "-4.51"
+  },
+  {
+    "file": "scene06-tts-v3-mix.wav",
+    "LUFS": "-18.60",
+    "true_peak_dBTP": "-4.51"
+  },
+  {
+    "file": "scene07-tts-v3-mix.wav",
+    "LUFS": "-18.36",
+    "true_peak_dBTP": "-4.51"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "audio": "scene01-tts-v2.mp3",
+    "seconds": 5.136,
+    "frames": 163
+  },
+  {
+    "audio": "scene02-tts-v2.mp3",
+    "seconds": 6.384,
+    "frames": 200
+  },
+  {
+    "audio": "scene03-tts-v2.mp3",
+    "seconds": 5.616,
+    "frames": 177
+  },
+  {
+    "audio": "scene04-tts-v2.mp3",
+    "seconds": 8.256,
+    "frames": 257
+  },
+  {
+    "audio": "scene05-tts-v2.mp3",
+    "seconds": 5.664,
+    "frames": 179
+  },
+  {
+    "audio": "scene06-tts-v2.mp3",
+    "seconds": 7.488,
+    "frames": 234
+  },
+  {
+    "audio": "scene07-tts-v2.mp3",
+    "seconds": 5.208,
+    "frames": 165
+  }
+]

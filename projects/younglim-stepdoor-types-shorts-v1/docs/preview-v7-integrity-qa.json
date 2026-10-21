@@ -1,0 +1,166 @@
+{
+  "approved_tts": [
+    {
+      "file": "scene01-tts-v3-mix.wav",
+      "sha256_match": true,
+      "frames": 163,
+      "audio_seconds": 5.328,
+      "tail_seconds": 0.10533333333333328
+    },
+    {
+      "file": "scene02-tts-v3-mix.wav",
+      "sha256_match": true,
+      "frames": 212,
+      "audio_seconds": 6.816,
+      "tail_seconds": 0.2506666666666666
+    },
+    {
+      "file": "scene03-tts-v3-mix.wav",
+      "sha256_match": true,
+      "frames": 192,
+      "audio_seconds": 6.144,
+      "tail_seconds": 0.2560000000000002
+    },
+    {
+      "file": "scene04-tts-v4-mix.wav",
+      "sha256_match": true,
+      "frames": 285,
+      "audio_seconds": 9.24,
+      "tail_seconds": 0.2599999999999998
+    },
+    {
+      "file": "scene05-tts-v4-mix.wav",
+      "sha256_match": true,
+      "frames": 179,
+      "audio_seconds": 5.712,
+      "tail_seconds": 0.25466666666666704
+    },
+    {
+      "file": "scene06-tts-v4-mix.wav",
+      "sha256_match": true,
+      "frames": 248,
+      "audio_seconds": 8.016,
+      "tail_seconds": 0.2506666666666675
+    },
+    {
+      "file": "scene07-tts-v4-mix.wav",
+      "sha256_match": true,
+      "frames": 180,
+      "audio_seconds": 5.76,
+      "tail_seconds": 0.2400000000000002
+    }
+  ],
+  "approved_scene_pcm_matches": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "ending_dependency_hashes": [
+    {
+      "file": "public/daesan-ending/video/IMG_3934.MOV",
+      "sha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4",
+      "sha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/video/headquarters-normal-speed-hold.mp4",
+      "sha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/logos/daesanlogo2.png",
+      "sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/audio/ending-approved-v3.mp3",
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/fonts/Pretendard-SemiBold.woff2",
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/fonts/Pretendard-ExtraBold.woff2",
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "public/daesan-ending/fonts/Pretendard-Medium.woff2",
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "src/daesan-ending/index.tsx",
+      "sha256": "1dae4a52f3260f92a1982895db91cd1251d9ef99217eb8a931dba06cc31fdfc8",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "src/daesan-ending/DaesanEnding.tsx",
+      "sha256": "d6584b4f16a5bc9c8e5b1aa01e6ba737e8bd1f1fc47e2753e55c559497f5fc4f",
+      "raw_match": false,
+      "match": true,
+      "note": "existing project-relative path prefix only"
+    },
+    {
+      "file": "src/daesan-ending/approved/fonts.ts",
+      "sha256": "ac24074a459e5026960996eb8e835a9b39a6462bed0050ce59ad66dbef8a2a64",
+      "raw_match": false,
+      "match": true,
+      "note": "existing project-relative path prefix only"
+    },
+    {
+      "file": "src/daesan-ending/approved/HeadquartersOverlay.tsx",
+      "sha256": "4ebe6a043cc37e5113f976107aeed58b6bac39874b5970b1e508e0171b759777",
+      "raw_match": false,
+      "match": true,
+      "note": "existing project-relative path prefix only"
+    },
+    {
+      "file": "src/daesan-ending/approved/tokens.ts",
+      "sha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    },
+    {
+      "file": "src/daesan-ending/approved/brief.ts",
+      "sha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62",
+      "raw_match": true,
+      "match": true,
+      "note": ""
+    }
+  ],
+  "final_LUFS": "-18.31",
+  "final_true_peak_dBTP": "-4.50",
+  "actual_full_listening": "not performed; user review required",
+  "ai_image_changes": false
+}

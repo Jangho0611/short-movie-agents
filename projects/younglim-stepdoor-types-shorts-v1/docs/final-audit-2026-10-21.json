@@ -1,0 +1,83 @@
+{
+  "candidate_count": 90,
+  "candidate_bytes": 298902658,
+  "large_files": [
+    {
+      "path": "docs/younglim-2627-catalog-official.pdf",
+      "bytes": 80015636
+    }
+  ],
+  "credential_findings": [],
+  "scan_limit": "대상 프로젝트 텍스트 패턴 검사; 바이너리/삭제된 이력/실제 비밀 여부 완전검증 아님",
+  "tts": [
+    {
+      "audio": "scene01-tts-v3-mix.wav",
+      "seconds": 5.328,
+      "frames": 163,
+      "sha256": "2b47d47e8d21177fd087cd273af2db5605c93cae97f804136eaebee9ba462e78"
+    },
+    {
+      "audio": "scene02-tts-v3-mix.wav",
+      "seconds": 6.816,
+      "frames": 212,
+      "sha256": "62dd6adfd00715f8106d69258221c46d36dd1b0835aa083812655258b8aaba0a"
+    },
+    {
+      "audio": "scene03-tts-v3-mix.wav",
+      "seconds": 6.144,
+      "frames": 192,
+      "sha256": "0d1cf75ca6eaca86ebdc74282fcda37b854e2b7f9f3f5e9b597977e10f08bbf4"
+    },
+    {
+      "audio": "scene04-tts-v4-mix.wav",
+      "seconds": 9.24,
+      "frames": 285,
+      "sha256": "2e91d5a55bb71b63acb654268853987f36cbaee77bdf0f8da228cc53e4eb72a1"
+    },
+    {
+      "audio": "scene05-tts-v4-mix.wav",
+      "seconds": 5.712,
+      "frames": 179,
+      "sha256": "15be052532cbbe34ff137799fc9eb4fa6d4de2a0ede5634b959e92cf8bddd2f8"
+    },
+    {
+      "audio": "scene06-tts-v4-mix.wav",
+      "seconds": 8.016,
+      "frames": 248,
+      "sha256": "65f34bc839c42f1bb405c80bbe1b6d5b8235db7e8265ff5a1eddf2b61b8b2b64"
+    },
+    {
+      "audio": "scene07-tts-v4-mix.wav",
+      "seconds": 5.76,
+      "frames": 180,
+      "sha256": "97acc67b599e2627244b1acaa88231f131515c9f964c13bb7c86164a2ca94a16"
+    }
+  ],
+  "audio_candidates_reserved": 24,
+  "groups": {
+    "미채택 Cover 및 이전 QA": [
+      10,
+      8396970
+    ],
+    "최종 조립 미사용 Scene 버전": [
+      33,
+      32214118
+    ],
+    "무음 조립 중간 영상; 승인 Preview 별도 보존": [
+      9,
+      122020399
+    ],
+    "이전 Preview; 승인 v8 대체": [
+      7,
+      111379345
+    ],
+    "이전 QA; 시각 이력 보존 선택 필요": [
+      20,
+      10114459
+    ],
+    "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리": [
+      11,
+      14777367
+    ]
+  }
+}

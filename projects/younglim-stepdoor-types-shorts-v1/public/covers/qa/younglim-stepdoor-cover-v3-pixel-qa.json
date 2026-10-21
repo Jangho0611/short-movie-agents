@@ -1,0 +1,15 @@
+{
+  "size": [
+    1080,
+    1920
+  ],
+  "changed_pixels": 1787,
+  "change_bbox": [
+    0,
+    956,
+    617,
+    981
+  ],
+  "outside_two_label_regions_identical": true,
+  "label_regions_blank": true
+}
