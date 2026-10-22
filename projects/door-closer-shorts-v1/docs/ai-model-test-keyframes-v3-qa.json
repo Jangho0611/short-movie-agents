@@ -1,0 +1,53 @@
+{
+  "tool": "built-in image_gen",
+  "calls": 2,
+  "sole_reference": "public/assets/images/ai-model-test-start-v2.png",
+  "reference_sha256": "8dd44da3d40c5503eeee8c46f5bc5bf3aa8c5b622cbae45e95c52283597e23b1",
+  "images": {
+    "middle": {
+      "original_size": [
+        941,
+        1672
+      ],
+      "resized_size": [
+        1080,
+        1919
+      ],
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "6eebff6bdb4667f61ced8f3687656801cec9cd851ff5afb3fe6a340d2df35c8f"
+    },
+    "end": {
+      "original_size": [
+        941,
+        1672
+      ],
+      "resized_size": [
+        1080,
+        1919
+      ],
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "10c57058c1e5f5f200fda6db8f22ccf669d8ba6c7e05fdee18b36a296d8d6dac"
+    }
+  },
+  "existing_files_checked": 1336,
+  "changed": [],
+  "qa": {
+    "gap_progression": "PASS visually: start > middle > end; end visible narrow slit",
+    "hinge": "Right side retained, no reversal or visible frame penetration; exact 3D axis not measurable",
+    "leaf": "Flat rigid appearance retained, no obvious bending; exact physical dimensions cannot be proved from generated 2D images",
+    "frame_camera": "Broad alignment preserved; not exact pixel match",
+    "background": "WARN: texture/lighting details drift; visible interior mostly occluded rather than reproduced identically",
+    "angles": "15/5 are requested targets, not measured results",
+    "floor": "Very tight bottom clearance remains uncertain",
+    "watermark": "None visibly observed",
+    "flow_readiness": "Conditional start/end-frame test candidate after user approval; not verified exact mechanical ground truth"
+  },
+  "cost": "Model internals/credits not exposed",
+  "normalization": "941x1672 ->1080x1919 aspect preserving, bottom1px edge padding; no geometric correction"
+}

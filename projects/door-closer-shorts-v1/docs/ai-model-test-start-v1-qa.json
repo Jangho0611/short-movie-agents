@@ -1,0 +1,36 @@
+{
+  "service": "Google Flow browser UI only",
+  "model_ui": "Nano Banana 2.1",
+  "project_url": "https://flow.google.com/project/3bf02df2-4722-4a3b-98eb-90002b4f8a1e",
+  "asset_id": "58c6b46e-cca4-43e6-a4cb-ec3db56c6f81",
+  "generation_count": 1,
+  "reference_images": 0,
+  "video_generations": 0,
+  "cost_preflight": "Flow assistant explicitly stated 0 credits before generation; independent billing ledger not checked",
+  "raw_size": [
+    768,
+    1376
+  ],
+  "output_size": [
+    1080,
+    1920
+  ],
+  "resize": "Lanczos to1072x1920; 4px edge extension left/right; no crop or geometry edit",
+  "qa": {
+    "full_leaf": "PASS",
+    "opening_30deg": "WARN: open at plausible angle, exact angle cannot be established from one view",
+    "hinge_axis": "WARN: right jamb vertical axis plausible, concealed hardware not visible",
+    "frame_wall": "PASS visual continuity; not installation certification",
+    "thickness_plane": "PASS straight planar leaf, consistent visible free edge",
+    "tall_wide_near_ceiling": "WARN substantial wall above opening; wide-door emphasis weak",
+    "floor_clearance": "WARN free lower corner appears very close to floor; clearance not proven",
+    "no_closer": "PASS no visible closer body/arm/rail",
+    "no_text_logo": "WARN star-shaped watermark lower right and tiny appliance markings",
+    "video_start_suitability": "Conditional: usable for exploratory comparison after user approval, not approved structural ground truth"
+  },
+  "status": "waiting for user image approval; no regeneration",
+  "files": {
+    "public/assets/images/ai-model-test-start-v1.png": "c380568004dcde8413b3eac14cd2daeb69016fac457385d3f7f384ccb09df61f",
+    "public/assets/images/ai-model-test-start-v1-flow-original.jpg": "6110eb2dabcebfe8769d4aa50a5c046cfe243127f6c501f291a01be4edffc162"
+  }
+}

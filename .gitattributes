@@ -51,3 +51,6 @@ projects/doormaster-handle-replacement-v1/public/assets/video/IMG_3934.MOV filte
 projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-replacement-preview-v1.mp4 filter=lfs diff=lfs merge=lfs -text
 projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-replacement-preview-v3.mp4 filter=lfs diff=lfs merge=lfs -text
 projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-replacement-preview-v4.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Approved stepdoor final assembly input
+projects/younglim-stepdoor-types-shorts-v1/public/assets/video/younglim-stepdoor-picture-silent-v8.mp4 filter=lfs diff=lfs merge=lfs -text

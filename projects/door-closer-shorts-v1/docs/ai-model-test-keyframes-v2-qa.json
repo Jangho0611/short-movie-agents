@@ -1,0 +1,65 @@
+{
+  "tool": "built-in image_gen",
+  "generation_count": 3,
+  "reference": "Middle and end each reference original start image directly",
+  "actual_model_and_credits": "Not exposed by tool",
+  "images": {
+    "start": {
+      "original_size": [
+        941,
+        1672
+      ],
+      "resized_size": [
+        1080,
+        1919
+      ],
+      "output_size": [
+        1080,
+        1920
+      ],
+      "sha256": "8dd44da3d40c5503eeee8c46f5bc5bf3aa8c5b622cbae45e95c52283597e23b1"
+    },
+    "middle": {
+      "original_size": [
+        941,
+        1672
+      ],
+      "resized_size": [
+        1080,
+        1919
+      ],
+      "output_size": [
+        1080,
+        1920
+      ],
+      "sha256": "f269d88ba5175b74efd3aa2f9df5f57997825eb3f5b9a94ee45813a39bcc5608"
+    },
+    "end": {
+      "original_size": [
+        941,
+        1672
+      ],
+      "resized_size": [
+        1080,
+        1919
+      ],
+      "output_size": [
+        1080,
+        1920
+      ],
+      "sha256": "a6191d8f86c303ac081211426a67139bd12bd4706cc46368be9ee5287e05f673"
+    }
+  },
+  "normalization": "Aspect-preserving Lanczos resize, only rounding remainder edge padding; no crop or geometric retouch",
+  "qa": {
+    "same_door": "PASS visually similar flat leaf; no major bending",
+    "hinge_axis": "Same right side, no reversed axis; detailed physical correctness uncertain",
+    "background_camera": "Broadly consistent, not pixel-identical; visible adjoining room lamp changes position in end",
+    "angle_progression": "FAIL: middle almost same angle as start; end visibly closer but exact 5 degrees not verifiable",
+    "floor_clearance": "WARN: lower free corner appears very close to floor; clearance cannot be validated",
+    "visible_watermarks": "None observed in all three",
+    "video_readiness": "Not approved as controlled 30-15-5 keyframe sequence"
+  },
+  "existing_assets_checked": 1329,
+  "existing_assets_changed": []
+}
