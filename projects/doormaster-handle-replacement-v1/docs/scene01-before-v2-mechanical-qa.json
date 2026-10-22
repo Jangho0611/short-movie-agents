@@ -1,0 +1,16 @@
+{
+  "existing_files_unchanged": 29,
+  "candidate_size": [
+    1080,
+    1920
+  ],
+  "qa_size": [
+    2160,
+    2700
+  ],
+  "generation_calls": 1,
+  "sha256": {
+    "scene01-before-candidate-v2.png": "222d60a3dd195eb547955a77e5009d95c2553f08b639e507c800f3541c785762",
+    "scene01-before-v1-v2-qa.png": "37e6dfb268b8c65952923e147a48a86e81d95ba3366c8ca4ba2f50e0689bbbf3"
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "project": "hidden-door-carpentry-shorts-v2",
+  "current_total_bytes": 73533778,
+  "node_modules_bytes_excluded_from_cleanup": 0,
+  "projected_total_bytes": 73533778,
+  "stats": {
+    "A": {
+      "files": 12,
+      "bytes": 11892546,
+      "tracked": 12
+    },
+    "B": {
+      "files": 6,
+      "bytes": 37715788,
+      "tracked": 6
+    },
+    "C": {
+      "files": 0,
+      "bytes": 0,
+      "tracked": 0
+    },
+    "D": {
+      "files": 6,
+      "bytes": 20470726,
+      "tracked": 6
+    }
+  },
+  "candidate_types": {
+    "/video/": {
+      "files": 0,
+      "bytes": 0
+    },
+    "/audio/": {
+      "files": 0,
+      "bytes": 0
+    },
+    "/images/": {
+      "files": 0,
+      "bytes": 0
+    },
+    "/covers/": {
+      "files": 0,
+      "bytes": 0
+    }
+  },
+  "finals": [
+    {
+      "path": "public/assets/video/hidden-door-carpentry-preview-v8.mp4",
+      "sha256": "837330865c9587a68874a143e4caea099eaa08c86e973312a1092b8c919e9118",
+      "bytes": 10013086
+    },
+    {
+      "path": "public/covers/hidden-door-carpentry-cover-v3.png",
+      "sha256": "c8f6494f14a65729552c2eb44abddcf8759f4c0cdafb9b1a2de2cd9b41f961cb",
+      "bytes": 157415
+    },
+    {
+      "path": "docs/hidden-door-carpentry-sns-copy-final-v1.md",
+      "sha256": "9a08126d13f848c715b986e8259c63cecf99beb161ef96efaead177493a620aa",
+      "bytes": 3878
+    }
+  ],
+  "rows": [
+    {
+      "path": "public/assets/audio/ending-approved-v3.mp3",
+      "filename": "ending-approved-v3.mp3",
+      "bytes": 19916,
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/DaesanEnding.tsx"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene01-tts-v4.mp3",
+      "filename": "scene01-tts-v4.mp3",
+      "bytes": 13536,
+      "sha256": "3bc5eeb7d0662c11284b97d09a46e3920763c5ef22db98aeeada8c880a8f7c5a",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx",
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v8.mp3",
+      "filename": "scene02-tts-v8.mp3",
+      "bytes": 23232,
+      "sha256": "2f9f47af751a74d5ec9bd9e5a6fb8bc034fb9ad7d30c264fba24fcae3bb2566d",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx",
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v11.mp3",
+      "filename": "scene03-tts-v11.mp3",
+      "bytes": 16512,
+      "sha256": "e6be9f45f227b1618db18de67793198bfc6542a4238f707d6066fd5977bde734",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx",
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v4.mp3",
+      "filename": "scene04-tts-v4.mp3",
+      "bytes": 22944,
+      "sha256": "31b9589e2681b0de4d6cd425e2c586f140363416fbee799c6aaf0f6a15acd027",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx",
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v6.mp3",
+      "filename": "scene05-tts-v6.mp3",
+      "bytes": 22656,
+      "sha256": "b98a29e4cd5cd824157a30bc05f8e2ee2224c5a2670135b9ae71a3629890e54a",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx",
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [
+        "src/CarpentryScenesV8.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/daesani-cover-open-arms.png",
+      "filename": "daesani-cover-open-arms.png",
+      "bytes": 102546,
+      "sha256": "d2c5984e08b26c69da299fd50e178bba1ee6b1db4173f5e26d2f4efbb5fea008",
+      "category": "D",
+      "purpose_and_reason": "기존작업기록에 별도 USER_KEEP/재사용 보존 명시. 최종미사용만으로 이동 불가",
+      "approval_usage": "재사용 보존 재확인",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/daesani-cover-point-left.png",
+      "filename": "daesani-cover-point-left.png",
+      "bytes": 106030,
+      "sha256": "74e81edc1e5e15f08221488c5ab9936dc20f9b71f4fecc4e76a5bdfbd3fe56dd",
+      "category": "D",
+      "purpose_and_reason": "기존작업기록에 별도 USER_KEEP/재사용 보존 명시. 최종미사용만으로 이동 불가",
+      "approval_usage": "재사용 보존 재확인",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/daesani-cover-point-right.png",
+      "filename": "daesani-cover-point-right.png",
+      "bytes": 114274,
+      "sha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0",
+      "category": "B",
+      "purpose_and_reason": "최종Cover/QA 또는 직접 원본",
+      "approval_usage": "최종 재현",
+      "current_source_literal_refs": [
+        "scripts/create-hidden-door-carpentry-cover-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/create-hidden-door-carpentry-cover-v3.py"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/IMG_3934.MOV",
+      "filename": "IMG_3934.MOV",
+      "bytes": 19049859,
+      "sha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+      "filename": "daesan-headquarters-ending-approved-v1.mp4",
+      "bytes": 9346882,
+      "sha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/daesani-open-arms-explain-alpha-v2.mov",
+      "filename": "daesani-open-arms-explain-alpha-v2.mov",
+      "bytes": 8567978,
+      "sha256": "ae7cbc4d385ea624d6067e65de899d95a2fde014ee73a24d4f828210c07e61c0",
+      "category": "D",
+      "purpose_and_reason": "기존작업기록에 별도 USER_KEEP/재사용 보존 명시. 최종미사용만으로 이동 불가",
+      "approval_usage": "재사용 보존 재확인",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/daesani-open-arms-explain.mp4",
+      "filename": "daesani-open-arms-explain.mp4",
+      "bytes": 183028,
+      "sha256": "af0520a66456f9cab6f0de26db34917a0acbb0a9f2860c466ab086811f7f791d",
+      "category": "D",
+      "purpose_and_reason": "기존작업기록에 별도 USER_KEEP/재사용 보존 명시. 최종미사용만으로 이동 불가",
+      "approval_usage": "재사용 보존 재확인",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/daesani-point-right-alpha-v2.mov",
+      "filename": "daesani-point-right-alpha-v2.mov",
+      "bytes": 11312004,
+      "sha256": "4240c1d7911510c7415f8dd22e9c635b8d8abb550415abed74be7bb547e0408e",
+      "category": "D",
+      "purpose_and_reason": "기존작업기록에 별도 USER_KEEP/재사용 보존 명시. 최종미사용만으로 이동 불가",
+      "approval_usage": "재사용 보존 재확인",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/daesani-point-right.mp4",
+      "filename": "daesani-point-right.mp4",
+      "bytes": 199140,
+      "sha256": "66ee3756a6f216de8d6e7a53c9ce6e8579227c56e1c11c918b5a6cafdfe849fd",
+      "category": "D",
+      "purpose_and_reason": "기존작업기록에 별도 USER_KEEP/재사용 보존 명시. 최종미사용만으로 이동 불가",
+      "approval_usage": "재사용 보존 재확인",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/headquarters-normal-speed-hold.mp4",
+      "filename": "headquarters-normal-speed-hold.mp4",
+      "bytes": 9039790,
+      "sha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/DaesanEnding.tsx"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/hidden-door-carpentry-preview-v8.mp4",
+      "filename": "hidden-door-carpentry-preview-v8.mp4",
+      "bytes": 10013086,
+      "sha256": "837330865c9587a68874a143e4caea099eaa08c86e973312a1092b8c919e9118",
+      "category": "A",
+      "purpose_and_reason": "최종 사용자 승인 결과물",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene01-preview-v8.mp4",
+      "filename": "scene01-preview-v8.mp4",
+      "bytes": 157519,
+      "sha256": "a07b36a57d38844b1076597381a7f152d37bc5e587108b90c2a6e6e01a1bbd2a",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene02-preview-v8.mp4",
+      "filename": "scene02-preview-v8.mp4",
+      "bytes": 703806,
+      "sha256": "22a6d4e9a586a9d1afeb2272fd5478c05349ea372e9b25fbbd07a36590b7706d",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene03-preview-v8.mp4",
+      "filename": "scene03-preview-v8.mp4",
+      "bytes": 241513,
+      "sha256": "2615e805877e7fc90c66fd8ccfbfde70f59a2986dc8068153a6b1ebcc53e8ec6",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene04-preview-v8.mp4",
+      "filename": "scene04-preview-v8.mp4",
+      "bytes": 243114,
+      "sha256": "57e9e71b46faa3a397b53a6c768326a5345cbf7391b15a6811747d9dca7c3693",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene05-preview-v8-label-fix.mp4",
+      "filename": "scene05-preview-v8-label-fix.mp4",
+      "bytes": 277213,
+      "sha256": "1a57efabe63b1652673176e9a582195b6b078a7fdd1689c6d8c15d22256719a7",
+      "category": "A",
+      "purpose_and_reason": "최종v8 Scene별 영상/승인TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble_preview_v8.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/hidden-door-carpentry-cover-v3.png",
+      "filename": "hidden-door-carpentry-cover-v3.png",
+      "bytes": 157415,
+      "sha256": "c8f6494f14a65729552c2eb44abddcf8759f4c0cdafb9b1a2de2cd9b41f961cb",
+      "category": "A",
+      "purpose_and_reason": "최종 사용자 승인 결과물",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/create-hidden-door-carpentry-cover-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/create-hidden-door-carpentry-cover-v3.py"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/qa/hidden-door-carpentry-cover-v3-instagram-square.png",
+      "filename": "hidden-door-carpentry-cover-v3-instagram-square.png",
+      "bytes": 145067,
+      "sha256": "f317173f0ba106c1787f294e2ac84266e6e1876309a9135f66af8b9229a596ac",
+      "category": "B",
+      "purpose_and_reason": "최종Cover/QA 또는 직접 원본",
+      "approval_usage": "최종 재현",
+      "current_source_literal_refs": [
+        "scripts/create-hidden-door-carpentry-cover-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/create-hidden-door-carpentry-cover-v3.py"
+      ],
+      "git_tracked": true
+    }
+  ],
+  "issues": [
+    "정리완료기록 이후 조사범위에서 명백한 테스트 잔존 C는 없음. 미사용 대산이 모션/PNG는 이전 USER_KEEP 재사용보존 기록이 있어 D로 제시."
+  ],
+  "git_status": "?? projects/hidden-door-carpentry-shorts-v2/docs/26.10.22수정.md\n?? projects/hidden-door-carpentry-shorts-v2/docs/cleanup-reassessment-v2.json\n?? projects/hidden-door-carpentry-shorts-v2/docs/cleanup-reassessment-v2.md\n"
+}

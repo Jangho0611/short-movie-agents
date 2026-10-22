@@ -1,0 +1,31 @@
+{
+  "before_unchanged": true,
+  "all_existing_public_assets_unchanged": 17,
+  "after_size": [
+    1080,
+    1920
+  ],
+  "comparison_size": [
+    2160,
+    2670
+  ],
+  "background_sample_differences": {
+    "wall": {
+      "mean_absolute_rgb_difference_0_255": 4.496
+    },
+    "door_upper": {
+      "mean_absolute_rgb_difference_0_255": 1.968
+    },
+    "door_lower": {
+      "mean_absolute_rgb_difference_0_255": 2.252
+    },
+    "floor": {
+      "mean_absolute_rgb_difference_0_255": 2.901
+    }
+  },
+  "note": "Pixel differences are descriptive only; not physical compatibility verification.",
+  "sha256": {
+    "scene02-after-candidate-v1.png": "17fef2602293ed95a4dc1607a684fe62982a24e3f77668701c281887b0adf868",
+    "scene02-before-after-qa-v1.png": "9f03562ed06c63217e065d27ca839b37a8c22a0683ad489faf8682ba3d7d9c9c"
+  }
+}

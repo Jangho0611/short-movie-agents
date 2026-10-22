@@ -1,0 +1,1713 @@
+{
+  "branch": "main",
+  "project_status_lines": 230,
+  "project_status": [
+    "?? README.md",
+    "?? docs/26.10.22수정.md",
+    "?? docs/approved-plan-v3.json",
+    "?? docs/cover-v1-input-lock.json",
+    "?? docs/cover-v1-qa.md",
+    "?? docs/cover-v2-input-lock.json",
+    "?? docs/cover-v2-qa.md",
+    "?? docs/cover-v3-input-lock.json",
+    "?? docs/cover-v3-qa.md",
+    "?? docs/ending-README.md",
+    "?? docs/ending-canonical-sha256.json",
+    "?? docs/initialization-qa.json",
+    "?? docs/latch-correction-preservation-v2.json",
+    "?? docs/latch-correction-qa-v2.md",
+    "?? docs/preview-caption-input-lock-v1.json",
+    "?? docs/preview-caption-mechanical-qa-v1.json",
+    "?? docs/preview-caption-qa-v1.md",
+    "?? docs/preview-v1-input-lock.json",
+    "?? docs/preview-v1-mechanical-qa.json",
+    "?? docs/preview-v1-qa.md",
+    "?? docs/preview-v1-timing.json",
+    "?? docs/preview-v2-input-lock.json",
+    "?? docs/preview-v2-mechanical-qa.json",
+    "?? docs/preview-v2-qa.md",
+    "?? docs/preview-v3-input-lock.json",
+    "?? docs/preview-v3-mechanical-qa.json",
+    "?? docs/product-reference-report.md",
+    "?? docs/product-reference-sha256.json",
+    "?? docs/prompts/after-v1.txt",
+    "?? docs/prompts/before-v1.txt",
+    "?? docs/prompts/before-v2.txt",
+    "?? docs/prompts/scene03-position-v2.txt",
+    "?? docs/prompts/scene03-v1.txt",
+    "?? docs/scene01-before-v2-baseline.json",
+    "?? docs/scene01-before-v2-mechanical-qa.json",
+    "?? docs/scene02-after-qa-v1.md",
+    "?? docs/scene02-input-baseline-v1.json",
+    "?? docs/scene02-mechanical-qa-v1.json",
+    "?? docs/scene03-full-frame-qa.md",
+    "?? docs/scene03-input-baseline-v1.json",
+    "?? docs/scene03-mechanical-qa-v1.json",
+    "?? docs/scene03-position-baseline-v2.json",
+    "?? docs/scene03-position-measurements-v2.json",
+    "?? docs/scene03-position-qa-v2.md",
+    "?? docs/scene03-qa-v1.md",
+    "?? docs/scene04-baseline-v1.json",
+    "?? docs/scene04-design-v1.md",
+    "?? docs/scene04-grid-qa-v1.md",
+    "?? docs/scene04-info-qa-v1.md",
+    "?? docs/scene04-mechanical-qa-v1.json",
+    "?? docs/scene04-style-baseline-v2.json",
+    "?? docs/scene04-style-mechanical-qa-v2.json",
+    "?? docs/scene04-subtitle-style-qa-v2.md",
+    "?? docs/scene04-tts-v7-input.json",
+    "?? docs/scene04-tts-v8-input.json",
+    "?? docs/scene04-tts-v9-input.json",
+    "?? docs/scene05-tts-v4-input.json",
+    "?? docs/slim-copy-manifest.json",
+    "?? docs/sns-upload-copy-v3.md",
+    "?? docs/tts-breath-mechanical-v3.json",
+    "?? docs/tts-final-baseline-v2.json",
+    "?? docs/tts-final-input-v2.json",
+    "?? docs/tts-final-mechanical-qa-v2.json",
+    "?? docs/tts-natural-v7-baseline.json",
+    "?? docs/tts-natural-v7-mechanical.json",
+    "?? docs/tts-natural-v8-baseline.json",
+    "?? docs/tts-natural-v8-mechanical.json",
+    "?? docs/tts-natural-v9-baseline.json",
+    "?? docs/tts-natural-v9-mechanical.json",
+    "?? docs/tts-scene04-05-natural-v6-qa.md",
+    "?? docs/tts-scene04-final-baseline-v6.json",
+    "?? docs/tts-scene04-final-input-v6.json",
+    "?? docs/tts-scene04-final-mechanical-v6.json",
+    "?? docs/tts-scene04-revised-baseline-v5.json",
+    "?? docs/tts-scene04-revised-input-v5.json",
+    "?? docs/tts-scene04-revised-mechanical-v5.json",
+    "?? docs/tts-scene04-v4-qa.md",
+    "?? docs/tts-scene04-v5-qa.md",
+    "?? docs/tts-scene04-v7-qa.md",
+    "?? docs/tts-scene04-v8-qa.md",
+    "?? docs/tts-v3-baseline.json",
+    "?? docs/tts-v3-breath-correction-qa.md",
+    "?? docs/tts-v3-generation-qa.md",
+    "?? docs/tts-v3-input-v1.json",
+    "?? docs/tts-v3-mechanical-qa.json",
+    "?? docs/tts-v3-natural-speech-qa.md",
+    "?? docs/tts-v4-baseline.json",
+    "?? docs/tts-v4-mechanical-qa.json",
+    "?? docs/tts-v4-natural-speech-qa.md",
+    "?? docs/tts-v4-part-analysis.json",
+    "?? docs/tts-v4-part-input.json",
+    "?? package-lock.json",
+    "?? package.json",
+    "?? public/assets/audio/ending-approved-v3.mp3",
+    "?? public/assets/audio/full-tts-qa-v1.mp3",
+    "?? public/assets/audio/full-tts-qa-v2.mp3",
+    "?? public/assets/audio/full-tts-qa-v3.mp3",
+    "?? public/assets/audio/full-tts-qa-v4.mp3",
+    "?? public/assets/audio/full-tts-qa-v5.mp3",
+    "?? public/assets/audio/full-tts-qa-v6.mp3",
+    "?? public/assets/audio/full-tts-qa-v7.mp3",
+    "?? public/assets/audio/full-tts-qa-v8.mp3",
+    "?? public/assets/audio/full-tts-qa-v9.mp3",
+    "?? public/assets/audio/scene01-tts-v1.mp3",
+    "?? public/assets/audio/scene02-tts-v1.mp3",
+    "?? public/assets/audio/scene03-tts-v1.mp3",
+    "?? public/assets/audio/scene04-part-a-tts-v4.mp3",
+    "?? public/assets/audio/scene04-part-b-tts-v4.mp3",
+    "?? public/assets/audio/scene04-part-c-tts-v4.mp3",
+    "?? public/assets/audio/scene04-tts-v1.mp3",
+    "?? public/assets/audio/scene04-tts-v2.mp3",
+    "?? public/assets/audio/scene04-tts-v3.mp3",
+    "?? public/assets/audio/scene04-tts-v4.mp3",
+    "?? public/assets/audio/scene04-tts-v5.mp3",
+    "?? public/assets/audio/scene04-tts-v6.mp3",
+    "?? public/assets/audio/scene04-tts-v7.mp3",
+    "?? public/assets/audio/scene04-tts-v8.mp3",
+    "?? public/assets/audio/scene04-tts-v9.mp3",
+    "?? public/assets/audio/scene05-part-a-tts-v3.mp3",
+    "?? public/assets/audio/scene05-part-b-tts-v3.mp3",
+    "?? public/assets/audio/scene05-tts-v1.mp3",
+    "?? public/assets/audio/scene05-tts-v2.mp3",
+    "?? public/assets/audio/scene05-tts-v3.mp3",
+    "?? public/assets/audio/scene05-tts-v4.mp3",
+    "?? public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "?? public/assets/fonts/Pretendard-Medium.woff2",
+    "?? public/assets/fonts/Pretendard-SemiBold.woff2",
+    "?? public/assets/images/caption-after-patch-v1.png",
+    "?? public/assets/images/caption-removed-patch-v1.png",
+    "?? public/assets/images/domus511ni-official-components.jpg",
+    "?? public/assets/images/domus511ni-official-drawing.jpg",
+    "?? public/assets/images/domus511ni-official-manual.jpg",
+    "?? public/assets/images/domus511ni-official-product.jpg",
+    "?? public/assets/images/preview-caption-qa-v1.png",
+    "?? public/assets/images/preview-v1-body-mobile-qa.png",
+    "?? public/assets/images/preview-v1-final-mobile-qa.png",
+    "?? public/assets/images/preview-v2-scene04-mobile-qa.png",
+    "?? public/assets/images/scene01-before-candidate-v1.png",
+    "?? public/assets/images/scene01-before-candidate-v2.png",
+    "?? public/assets/images/scene01-before-v1-v2-qa.png",
+    "?? public/assets/images/scene02-after-candidate-v1.png",
+    "?? public/assets/images/scene02-before-after-qa-v1.png",
+    "?? public/assets/images/scene03-full-frame-qa.png",
+    "?? public/assets/images/scene03-handle-removed-candidate-v1.png",
+    "?? public/assets/images/scene03-handle-removed-candidate-v2.png",
+    "?? public/assets/images/scene03-position-edit-input-v2.png",
+    "?? public/assets/images/scene03-position-qa-v2.png",
+    "?? public/assets/images/scene03-qa-v1.png",
+    "?? public/assets/images/scene04-grid-qa-v1.png",
+    "?? public/assets/images/scene04-info-check-01.png",
+    "?? public/assets/images/scene04-info-check-02.png",
+    "?? public/assets/images/scene04-info-check-03.png",
+    "?? public/assets/images/scene04-info-check-04.png",
+    "?? public/assets/images/scene04-info-final-backset-qa-v1.png",
+    "?? public/assets/images/scene04-info-mobile-qa-v1.png",
+    "?? public/assets/images/scene04-info-qa-v1.png",
+    "?? public/assets/images/scene04-subtitle-reference-comparison-v2.png",
+    "?? public/assets/images/scene04-subtitle-style-qa-v2.png",
+    "?? public/assets/images/tts-breath-source-waveform-v3.png",
+    "?? public/assets/logos/daesanlogo2.png",
+    "?? public/assets/video/IMG_3934.MOV",
+    "?? public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+    "?? public/assets/video/doormaster-handle-replacement-preview-v1.mp4",
+    "?? public/assets/video/doormaster-handle-replacement-preview-v2.mp4",
+    "?? public/assets/video/doormaster-handle-replacement-preview-v3.mp4",
+    "?? public/assets/video/doormaster-handle-replacement-preview-v4.mp4",
+    "?? public/assets/video/handle-body-visual-preview-v1.mp4",
+    "?? public/assets/video/headquarters-normal-speed-hold.mp4",
+    "?? public/assets/video/scene01-preview-v1.mp4",
+    "?? public/assets/video/scene02-caption-preview-v1.mp4",
+    "?? public/assets/video/scene02-preview-v1.mp4",
+    "?? public/assets/video/scene03-caption-preview-v1.mp4",
+    "?? public/assets/video/scene03-preview-v1.mp4",
+    "?? public/assets/video/scene04-grid-visual-layout2-v1.mp4",
+    "?? public/assets/video/scene04-grid-visual-v1.mp4",
+    "?? public/assets/video/scene04-info-preview-v1.mp4",
+    "?? public/assets/video/scene04-info-preview-v2.mp4",
+    "?? public/assets/video/scene04-info-preview-v3.mp4",
+    "?? public/assets/video/scene04-info-preview-v4.mp4",
+    "?? public/assets/video/scene04-preview-v1.mp4",
+    "?? public/assets/video/scene04-simple-visual-v3.mp4",
+    "?? public/assets/video/scene05-caption-preview-v1.mp4",
+    "?? public/assets/video/scene05-preview-v1.mp4",
+    "?? public/covers/doormaster-handle-replacement-cover-v1.png",
+    "?? public/covers/doormaster-handle-replacement-cover-v2.png",
+    "?? public/covers/doormaster-handle-replacement-cover-v3.png",
+    "?? public/covers/qa/cover-v1-3x4.png",
+    "?? public/covers/qa/cover-v1-4x5.png",
+    "?? public/covers/qa/cover-v1-mobile-comparison.png",
+    "?? public/covers/qa/cover-v1-reference-comparison.png",
+    "?? public/covers/qa/cover-v1-reference-same-scale.png",
+    "?? public/covers/qa/cover-v1-v2-comparison.png",
+    "?? public/covers/qa/cover-v2-3x4.png",
+    "?? public/covers/qa/cover-v2-4x5.png",
+    "?? public/covers/qa/cover-v2-v3-comparison.png",
+    "?? public/covers/qa/cover-v3-3x4.png",
+    "?? public/covers/qa/cover-v3-4x5.png",
+    "?? public/covers/qa/cover-v3-mobile.png",
+    "?? public/references/series-sign-v2/doormaster-series-sign-v2-outlined.svg",
+    "?? public/references/series-sign-v2/doormaster-series-sign-v2.png",
+    "?? public/references/series-sign-v2/doormaster-series-sign-v2.svg",
+    "?? public/references/series-sign-v2/font-settings-v2.json",
+    "?? public/references/series-sign-v2/fonts/Pretendard-Black.ttf",
+    "?? remotion.config.ts",
+    "?? scripts/assemble-caption-preview-v1.py",
+    "?? scripts/assemble-preview-v1.py",
+    "?? scripts/assemble-preview-v2.py",
+    "?? scripts/assemble-preview-v3.py",
+    "?? scripts/correct-tts-breath-v3.py",
+    "?? src/DoorMasterBodyCaptionV4.tsx",
+    "?? src/Scene04InfoV1.tsx",
+    "?? src/Scene04InfoV2.tsx",
+    "?? src/Scene04PreviewV1.tsx",
+    "?? src/caption-patch-v1.tsx",
+    "?? src/cover-v1.tsx",
+    "?? src/cover-v2.tsx",
+    "?? src/cover-v3.tsx",
+    "?? src/daesan-ending/DaesanEnding.tsx",
+    "?? src/daesan-ending/approved/HeadquartersOverlay.tsx",
+    "?? src/daesan-ending/approved/brief.ts",
+    "?? src/daesan-ending/approved/fonts.ts",
+    "?? src/daesan-ending/approved/tokens.ts",
+    "?? src/index.tsx",
+    "?? src/preview-index-v1.tsx",
+    "?? src/scene04-grid-v1-layout2.tsx",
+    "?? src/scene04-grid-v1.tsx",
+    "?? src/scene04-index-v1.tsx",
+    "?? src/scene04-index-v2.tsx",
+    "?? src/scene04-simple-v3.tsx",
+    "?? tsconfig.json"
+  ],
+  "repo_status_lines": 425,
+  "summary": {
+    "A": {
+      "count": 18,
+      "bytes": 31219897
+    },
+    "B": {
+      "count": 143,
+      "bytes": 65484830
+    },
+    "C": {
+      "count": 32,
+      "bytes": 10887489
+    },
+    "D": {
+      "count": 41,
+      "bytes": 431691702
+    }
+  },
+  "inventory": [
+    {
+      "category": "C",
+      "path": ".DS_Store",
+      "bytes": 8196,
+      "reason": "OS 메타데이터; 정리 후보, 승인 전 삭제 금지"
+    },
+    {
+      "category": "B",
+      "path": "README.md",
+      "bytes": 788,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/26.10.22수정.md",
+      "bytes": 19133,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/approved-plan-v3.json",
+      "bytes": 1092,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/cover-v1-input-lock.json",
+      "bytes": 13414,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/cover-v1-qa.md",
+      "bytes": 5196,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/cover-v2-input-lock.json",
+      "bytes": 14217,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/cover-v2-qa.md",
+      "bytes": 2480,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/cover-v3-input-lock.json",
+      "bytes": 14768,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/cover-v3-qa.md",
+      "bytes": 2793,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/ending-README.md",
+      "bytes": 5074,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/ending-canonical-sha256.json",
+      "bytes": 1684,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/initialization-qa.json",
+      "bytes": 6872,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/latch-correction-preservation-v2.json",
+      "bytes": 388,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/latch-correction-qa-v2.md",
+      "bytes": 6588,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-caption-input-lock-v1.json",
+      "bytes": 12442,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-caption-mechanical-qa-v1.json",
+      "bytes": 4199,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-caption-qa-v1.md",
+      "bytes": 4034,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v1-input-lock.json",
+      "bytes": 17205,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v1-mechanical-qa.json",
+      "bytes": 4457,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v1-qa.md",
+      "bytes": 8397,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v1-timing.json",
+      "bytes": 25269,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v2-input-lock.json",
+      "bytes": 11009,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v2-mechanical-qa.json",
+      "bytes": 4235,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v2-qa.md",
+      "bytes": 4692,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v3-input-lock.json",
+      "bytes": 11616,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/preview-v3-mechanical-qa.json",
+      "bytes": 4222,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/product-reference-report.md",
+      "bytes": 2962,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/product-reference-sha256.json",
+      "bytes": 538,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/prompts/after-v1.txt",
+      "bytes": 1853,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/prompts/before-v1.txt",
+      "bytes": 1652,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/prompts/before-v2.txt",
+      "bytes": 2130,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/prompts/scene03-position-v2.txt",
+      "bytes": 1415,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/prompts/scene03-v1.txt",
+      "bytes": 1937,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene01-before-v2-baseline.json",
+      "bytes": 3506,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene01-before-v2-mechanical-qa.json",
+      "bytes": 374,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene02-after-qa-v1.md",
+      "bytes": 4313,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene02-input-baseline-v1.json",
+      "bytes": 2135,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene02-mechanical-qa-v1.json",
+      "bytes": 828,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-full-frame-qa.md",
+      "bytes": 3608,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-input-baseline-v1.json",
+      "bytes": 3131,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-mechanical-qa-v1.json",
+      "bytes": 540,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-position-baseline-v2.json",
+      "bytes": 3236,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-position-measurements-v2.json",
+      "bytes": 5926,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-position-qa-v2.md",
+      "bytes": 6257,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene03-qa-v1.md",
+      "bytes": 3775,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-baseline-v1.json",
+      "bytes": 4258,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-design-v1.md",
+      "bytes": 6774,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-grid-qa-v1.md",
+      "bytes": 5899,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-info-qa-v1.md",
+      "bytes": 6345,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-mechanical-qa-v1.json",
+      "bytes": 495,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-style-baseline-v2.json",
+      "bytes": 5424,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-style-mechanical-qa-v2.json",
+      "bytes": 2756,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-subtitle-style-qa-v2.md",
+      "bytes": 5706,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-tts-v7-input.json",
+      "bytes": 188,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-tts-v8-input.json",
+      "bytes": 182,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene04-tts-v9-input.json",
+      "bytes": 171,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/scene05-tts-v4-input.json",
+      "bytes": 127,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/slim-copy-manifest.json",
+      "bytes": 5682,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "A",
+      "path": "docs/sns-upload-copy-v3.md",
+      "bytes": 4403,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-breath-mechanical-v3.json",
+      "bytes": 18104,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-final-baseline-v2.json",
+      "bytes": 6868,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-final-input-v2.json",
+      "bytes": 164,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-final-mechanical-qa-v2.json",
+      "bytes": 3767,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-natural-v7-baseline.json",
+      "bytes": 8935,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-natural-v7-mechanical.json",
+      "bytes": 6534,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-natural-v8-baseline.json",
+      "bytes": 9271,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-natural-v8-mechanical.json",
+      "bytes": 6056,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-natural-v9-baseline.json",
+      "bytes": 9495,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-natural-v9-mechanical.json",
+      "bytes": 6228,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-05-natural-v6-qa.md",
+      "bytes": 6487,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-final-baseline-v6.json",
+      "bytes": 8711,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-final-input-v6.json",
+      "bytes": 188,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-final-mechanical-v6.json",
+      "bytes": 6640,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-revised-baseline-v5.json",
+      "bytes": 8487,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-revised-input-v5.json",
+      "bytes": 164,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-revised-mechanical-v5.json",
+      "bytes": 6578,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-v4-qa.md",
+      "bytes": 5042,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-v5-qa.md",
+      "bytes": 4970,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-v7-qa.md",
+      "bytes": 5054,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-scene04-v8-qa.md",
+      "bytes": 4891,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v3-baseline.json",
+      "bytes": 6196,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v3-breath-correction-qa.md",
+      "bytes": 6612,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v3-generation-qa.md",
+      "bytes": 14623,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v3-input-v1.json",
+      "bytes": 598,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v3-mechanical-qa.json",
+      "bytes": 3924,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v3-natural-speech-qa.md",
+      "bytes": 8704,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v4-baseline.json",
+      "bytes": 7556,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v4-mechanical-qa.json",
+      "bytes": 8984,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v4-natural-speech-qa.md",
+      "bytes": 7170,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v4-part-analysis.json",
+      "bytes": 1827,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "docs/tts-v4-part-input.json",
+      "bytes": 409,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "package-lock.json",
+      "bytes": 139419,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "package.json",
+      "bytes": 289,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "C",
+      "path": "public/.DS_Store",
+      "bytes": 8196,
+      "reason": "OS 메타데이터; 정리 후보, 승인 전 삭제 금지"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/.DS_Store",
+      "bytes": 6148,
+      "reason": "OS 메타데이터; 정리 후보, 승인 전 삭제 금지"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/audio/ending-approved-v3.mp3",
+      "bytes": 19916,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v1.mp3",
+      "bytes": 489644,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v2.mp3",
+      "bytes": 508844,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v3.mp3",
+      "bytes": 517004,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v4.mp3",
+      "bytes": 530444,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v5.mp3",
+      "bytes": 512684,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v6.mp3",
+      "bytes": 534284,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v7.mp3",
+      "bytes": 553964,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/full-tts-qa-v8.mp3",
+      "bytes": 516524,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/audio/full-tts-qa-v9.mp3",
+      "bytes": 511724,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/audio/scene01-tts-v1.mp3",
+      "bytes": 14784,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/audio/scene02-tts-v1.mp3",
+      "bytes": 19296,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/audio/scene03-tts-v1.mp3",
+      "bytes": 18624,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-part-a-tts-v4.mp3",
+      "bytes": 8736,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-part-b-tts-v4.mp3",
+      "bytes": 8064,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-part-c-tts-v4.mp3",
+      "bytes": 12672,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v1.mp3",
+      "bytes": 24576,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v2.mp3",
+      "bytes": 28416,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v3.mp3",
+      "bytes": 147404,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v4.mp3",
+      "bytes": 148844,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v5.mp3",
+      "bytes": 28224,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v6.mp3",
+      "bytes": 32544,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v7.mp3",
+      "bytes": 38400,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene04-tts-v8.mp3",
+      "bytes": 30912,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/audio/scene04-tts-v9.mp3",
+      "bytes": 29952,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene05-part-a-tts-v3.mp3",
+      "bytes": 9024,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene05-part-b-tts-v3.mp3",
+      "bytes": 14592,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene05-tts-v1.mp3",
+      "bytes": 20352,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene05-tts-v2.mp3",
+      "bytes": 108044,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/audio/scene05-tts-v3.mp3",
+      "bytes": 119564,
+      "reason": "최종 선택에서 제외된 과거 음원/청취 후보; 과거 스크립트 재현 포기 여부 확인 후 승인 필요"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/audio/scene05-tts-v4.mp3",
+      "bytes": 19392,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/fonts/Pretendard-ExtraBold.woff2",
+      "bytes": 793540,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/fonts/Pretendard-Medium.woff2",
+      "bytes": 778432,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/fonts/Pretendard-SemiBold.woff2",
+      "bytes": 785856,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/images/caption-after-patch-v1.png",
+      "bytes": 120621,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/images/caption-removed-patch-v1.png",
+      "bytes": 116195,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/images/domus511ni-official-components.jpg",
+      "bytes": 142329,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/images/domus511ni-official-drawing.jpg",
+      "bytes": 44376,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/images/domus511ni-official-manual.jpg",
+      "bytes": 768275,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/images/domus511ni-official-product.jpg",
+      "bytes": 166649,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/preview-caption-qa-v1.png",
+      "bytes": 497494,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/preview-v1-body-mobile-qa.png",
+      "bytes": 1097817,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/preview-v1-final-mobile-qa.png",
+      "bytes": 2125335,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/preview-v2-scene04-mobile-qa.png",
+      "bytes": 325840,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/images/scene01-before-candidate-v1.png",
+      "bytes": 2609721,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/images/scene01-before-candidate-v2.png",
+      "bytes": 2392948,
+      "reason": "실패/교체된 중간 후보(작업기록 확인); 비교 이력은 문서 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene01-before-v1-v2-qa.png",
+      "bytes": 5506482,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/images/scene02-after-candidate-v1.png",
+      "bytes": 2450791,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene02-before-after-qa-v1.png",
+      "bytes": 5486188,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene03-full-frame-qa.png",
+      "bytes": 4669253,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene03-handle-removed-candidate-v1.png",
+      "bytes": 2528770,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/images/scene03-handle-removed-candidate-v2.png",
+      "bytes": 2301147,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene03-position-edit-input-v2.png",
+      "bytes": 59228,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene03-position-qa-v2.png",
+      "bytes": 1847461,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene03-qa-v1.png",
+      "bytes": 5733369,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-grid-qa-v1.png",
+      "bytes": 130864,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-check-01.png",
+      "bytes": 1465350,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-check-02.png",
+      "bytes": 119701,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-check-03.png",
+      "bytes": 200107,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-check-04.png",
+      "bytes": 1462902,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-final-backset-qa-v1.png",
+      "bytes": 395211,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-mobile-qa-v1.png",
+      "bytes": 390352,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-info-qa-v1.png",
+      "bytes": 786597,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-subtitle-reference-comparison-v2.png",
+      "bytes": 181683,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/scene04-subtitle-style-qa-v2.png",
+      "bytes": 847927,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/images/tts-breath-source-waveform-v3.png",
+      "bytes": 18230,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/logos/daesanlogo2.png",
+      "bytes": 10343,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/IMG_3934.MOV",
+      "bytes": 19049859,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+      "bytes": 9346882,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v1.mp4",
+      "bytes": 11982428,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v2.mp4",
+      "bytes": 11628515,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v3.mp4",
+      "bytes": 11135432,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v4.mp4",
+      "bytes": 11215027,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/handle-body-visual-preview-v1.mp4",
+      "bytes": 2088097,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/headquarters-normal-speed-hold.mp4",
+      "bytes": 9039790,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/scene01-preview-v1.mp4",
+      "bytes": 353565,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/scene02-caption-preview-v1.mp4",
+      "bytes": 391940,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/scene02-preview-v1.mp4",
+      "bytes": 367570,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/scene03-caption-preview-v1.mp4",
+      "bytes": 392871,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/scene03-preview-v1.mp4",
+      "bytes": 365750,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/scene04-grid-visual-layout2-v1.mp4",
+      "bytes": 180970,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/assets/video/scene04-grid-visual-v1.mp4",
+      "bytes": 178739,
+      "reason": "실패/교체된 중간 후보(작업기록 확인); 비교 이력은 문서 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/video/scene04-info-preview-v1.mp4",
+      "bytes": 1242972,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/video/scene04-info-preview-v2.mp4",
+      "bytes": 1309088,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/video/scene04-info-preview-v3.mp4",
+      "bytes": 846651,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/scene04-info-preview-v4.mp4",
+      "bytes": 353656,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/video/scene04-preview-v1.mp4",
+      "bytes": 1200766,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/assets/video/scene04-simple-visual-v3.mp4",
+      "bytes": 694853,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "A",
+      "path": "public/assets/video/scene05-caption-preview-v1.mp4",
+      "bytes": 397663,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/assets/video/scene05-preview-v1.mp4",
+      "bytes": 369559,
+      "reason": "현재 조립 스크립트 입력 또는 승인 엔딩 원본; 중간 파일이어도 재현에 필요"
+    },
+    {
+      "category": "C",
+      "path": "public/covers/doormaster-handle-replacement-cover-v1.png",
+      "bytes": 1281225,
+      "reason": "최종 v3으로 대체된 Cover 후보; 승인 후 선택 정리"
+    },
+    {
+      "category": "C",
+      "path": "public/covers/doormaster-handle-replacement-cover-v2.png",
+      "bytes": 1279981,
+      "reason": "최종 v3으로 대체된 Cover 후보; 승인 후 선택 정리"
+    },
+    {
+      "category": "A",
+      "path": "public/covers/doormaster-handle-replacement-cover-v3.png",
+      "bytes": 1280267,
+      "reason": "최신 사용자 승인 결과물/최종 Scene별 음원·영상·이미지 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v1-3x4.png",
+      "bytes": 717610,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v1-4x5.png",
+      "bytes": 682657,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v1-mobile-comparison.png",
+      "bytes": 198355,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "C",
+      "path": "public/covers/qa/cover-v1-reference-comparison.png",
+      "bytes": 788296,
+      "reason": "실패/교체된 중간 후보(작업기록 확인); 비교 이력은 문서 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v1-reference-same-scale.png",
+      "bytes": 942037,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v1-v2-comparison.png",
+      "bytes": 378803,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v2-3x4.png",
+      "bytes": 716602,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v2-4x5.png",
+      "bytes": 681627,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v2-v3-comparison.png",
+      "bytes": 379324,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v3-3x4.png",
+      "bytes": 716519,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v3-4x5.png",
+      "bytes": 681514,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "D",
+      "path": "public/covers/qa/cover-v3-mobile.png",
+      "bytes": 197468,
+      "reason": "과거 Scene/Preview/QA 자료: 승인·증빙·재현 필요 여부 판단 전 보존"
+    },
+    {
+      "category": "B",
+      "path": "public/references/series-sign-v2/doormaster-series-sign-v2-outlined.svg",
+      "bytes": 9087,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/references/series-sign-v2/doormaster-series-sign-v2.png",
+      "bytes": 249737,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/references/series-sign-v2/doormaster-series-sign-v2.svg",
+      "bytes": 3556101,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/references/series-sign-v2/font-settings-v2.json",
+      "bytes": 481,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "public/references/series-sign-v2/fonts/Pretendard-Black.ttf",
+      "bytes": 2665004,
+      "reason": "승인 공통자산 또는 실제 제품자료/최종 캡션 직접 의존 자산"
+    },
+    {
+      "category": "B",
+      "path": "remotion.config.ts",
+      "bytes": 110,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "scripts/assemble-caption-preview-v1.py",
+      "bytes": 1460,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "scripts/assemble-preview-v1.py",
+      "bytes": 2630,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "scripts/assemble-preview-v2.py",
+      "bytes": 1249,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "scripts/assemble-preview-v3.py",
+      "bytes": 1255,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "scripts/correct-tts-breath-v3.py",
+      "bytes": 2964,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/DoorMasterBodyCaptionV4.tsx",
+      "bytes": 1110,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/Scene04InfoV1.tsx",
+      "bytes": 5720,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/Scene04InfoV2.tsx",
+      "bytes": 5493,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/Scene04PreviewV1.tsx",
+      "bytes": 5497,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/caption-patch-v1.tsx",
+      "bytes": 1152,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/cover-v1.tsx",
+      "bytes": 2512,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/cover-v2.tsx",
+      "bytes": 2409,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/cover-v3.tsx",
+      "bytes": 2408,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/daesan-ending/DaesanEnding.tsx",
+      "bytes": 1424,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/daesan-ending/approved/HeadquartersOverlay.tsx",
+      "bytes": 7093,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/daesan-ending/approved/brief.ts",
+      "bytes": 662,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/daesan-ending/approved/fonts.ts",
+      "bytes": 839,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/daesan-ending/approved/tokens.ts",
+      "bytes": 496,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/index.tsx",
+      "bytes": 345,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/preview-index-v1.tsx",
+      "bytes": 2302,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/scene04-grid-v1-layout2.tsx",
+      "bytes": 3081,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/scene04-grid-v1.tsx",
+      "bytes": 3081,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/scene04-index-v1.tsx",
+      "bytes": 315,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/scene04-index-v2.tsx",
+      "bytes": 315,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "src/scene04-simple-v3.tsx",
+      "bytes": 2739,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "B",
+      "path": "tsconfig.json",
+      "bytes": 356,
+      "reason": "편집·재현 소스/설정/lockfile 또는 작업·검증 이력 보존"
+    },
+    {
+      "category": "D",
+      "path": "node_modules/",
+      "bytes": 372088456,
+      "reason": "재설치 가능 의존성. 현재 렌더 실행환경이므로 별도 정리 승인 필요; 파일별 목록 대신 디렉터리 합산"
+    }
+  ],
+  "sensitive_pattern_paths": [],
+  "exact_duplicates": [],
+  "approved_tts": [
+    {
+      "path": "public/assets/audio/scene01-tts-v1.mp3",
+      "sha256": "fbffa0eb0073ff460ed332ed8e604a3996801382cbd83e4b05ec6fec2ee479d0",
+      "duration": 3.696
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v1.mp3",
+      "sha256": "63da313b51c1c548605edae77171b7ccd77193d32ab0d1d546fd56525e5c6e28",
+      "duration": 4.824
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v1.mp3",
+      "sha256": "43abb9311f0d8ba4814f6999db8b705f5813eab32f014732767870254a00a533",
+      "duration": 4.656
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v9.mp3",
+      "sha256": "95d189ff9421155183e942aaaa24bd4c45beaaab44334f06ca361ccff5c23f09",
+      "duration": 7.488
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v4.mp3",
+      "sha256": "798753243314a7c12a9d27ad329d5c35111011fc420faa92c93da2a562374e5b",
+      "duration": 4.848
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v9.mp3",
+      "sha256": "21a5daab6366bc83fd26ac17f14fcf31fddd627033898989ec35833d54f2a4af",
+      "duration": 25.512
+    }
+  ],
+  "ending_verified": [
+    "src/daesan-ending/DaesanEnding.tsx",
+    "src/daesan-ending/approved/fonts.ts",
+    "src/daesan-ending/approved/HeadquartersOverlay.tsx",
+    "src/daesan-ending/approved/tokens.ts",
+    "src/daesan-ending/approved/brief.ts",
+    "public/assets/video/IMG_3934.MOV",
+    "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+    "public/assets/video/headquarters-normal-speed-hold.mp4",
+    "public/assets/audio/ending-approved-v3.mp3",
+    "public/assets/logos/daesanlogo2.png",
+    "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "public/assets/fonts/Pretendard-Medium.woff2",
+    "public/references/series-sign-v2/fonts/Pretendard-Black.ttf"
+  ],
+  "approved_video_sha256": "d111f35cdbc100579cecbb01b8c10ef0ae91177c7a248fac2cd7740ee77bfe5e",
+  "approved_cover_sha256": "9a2e01af027e958021ba02f650ecc8910ddad86876e0d3262d24881bb9161c64"
+}

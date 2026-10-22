@@ -1,0 +1,5 @@
+import React from 'react';
+import {Composition,registerRoot,Img,staticFile} from 'remotion';
+import {PRETENDARD} from './daesan-ending/approved/fonts';
+const Patch=({removed=false}:{removed?:boolean})=><div style={{position:'absolute',inset:0,overflow:'hidden',fontFamily:PRETENDARD}}><Img src={staticFile('assets/images/'+(removed?'scene03-handle-removed-candidate-v2.png':'scene02-after-candidate-v1.png'))} style={{position:'absolute',left:0,top:-1600,width:1080,height:1920}}/><div style={{position:'absolute',left:64,right:64,top:16,height:114,boxSizing:'border-box',padding:'20px 26px',display:'flex',alignItems:'center',justifyContent:'center',background:'rgba(244,241,233,.96)',color:'#303431',fontSize:40,fontWeight:600,lineHeight:1.4,whiteSpace:'nowrap'}}>{removed?'기존 손잡이 탈거 후 타공 부분 예시':'도무스 511 NI 교체 연출 이미지'}</div></div>;
+registerRoot(()=><><Composition id="CaptionAfter" component={Patch} width={1080} height={140} fps={30} durationInFrames={1}/><Composition id="CaptionRemoved" component={Patch} defaultProps={{removed:true}} width={1080} height={140} fps={30} durationInFrames={1}/></>);

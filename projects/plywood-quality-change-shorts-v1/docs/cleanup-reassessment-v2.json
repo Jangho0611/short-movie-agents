@@ -1,0 +1,811 @@
+{
+  "project": "plywood-quality-change-shorts-v1",
+  "current_total_bytes": 153685683,
+  "node_modules_bytes_excluded_from_cleanup": 0,
+  "projected_total_bytes": 150496908,
+  "stats": {
+    "A": {
+      "files": 14,
+      "bytes": 16203791,
+      "tracked": 14
+    },
+    "B": {
+      "files": 21,
+      "bytes": 35279304,
+      "tracked": 21
+    },
+    "C": {
+      "files": 3,
+      "bytes": 3188775,
+      "tracked": 3
+    },
+    "D": {
+      "files": 3,
+      "bytes": 528009,
+      "tracked": 3
+    }
+  },
+  "candidate_types": {
+    "/video/": {
+      "files": 0,
+      "bytes": 0
+    },
+    "/audio/": {
+      "files": 0,
+      "bytes": 0
+    },
+    "/images/": {
+      "files": 0,
+      "bytes": 0
+    },
+    "/covers/": {
+      "files": 3,
+      "bytes": 3188775
+    }
+  },
+  "finals": [
+    {
+      "path": "public/assets/video/plywood-quality-change-preview-v3.mp4",
+      "sha256": "6c927e42152ae48f78c5fc54f5170fab8f279a80789cda45fd47d556de879e03",
+      "bytes": 11888715
+    },
+    {
+      "path": "public/covers/plywood-quality-change-cover-v3.png",
+      "sha256": "c9e2a227bdfd4e67a26a45ebf4a923de40cfd726c31948390c73bf8972e58ed7",
+      "bytes": 1483520
+    },
+    {
+      "path": "docs/sns-copy-v1.md",
+      "sha256": "730a606571276f32a45b62b6f083ff8595058924674c60510e5f8ae51afbb3d3",
+      "bytes": 3575
+    }
+  ],
+  "rows": [
+    {
+      "path": "public/assets/audio/scene01-partA-v2.mp3",
+      "filename": "scene01-partA-v2.mp3",
+      "bytes": 9984,
+      "sha256": "54600a9b0d20321faf520048158d73df8113ffe02ab769fee1e693aebbc1b710",
+      "category": "B",
+      "purpose_and_reason": "최종 Scene1 v2 합성의 Part 원본",
+      "approval_usage": "승인 원본",
+      "current_source_literal_refs": [
+        "scripts/tts-input-v2.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene01-partB-v2.mp3",
+      "filename": "scene01-partB-v2.mp3",
+      "bytes": 11424,
+      "sha256": "5d8dfa279467c19e7ac1f45651164e71072bc43307041eb5c5da121c4d65480a",
+      "category": "B",
+      "purpose_and_reason": "최종 Scene1 v2 합성의 Part 원본",
+      "approval_usage": "승인 원본",
+      "current_source_literal_refs": [
+        "scripts/tts-input-v2.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene01-tts-v2.mp3",
+      "filename": "scene01-tts-v2.mp3",
+      "bytes": 134828,
+      "sha256": "37e6cd37cd738d58be5fda0d534e9a6ed762de831f49d403391953bdef9c75c2",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 TTS S1v2/S2~6v7",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-data-v3.json",
+        "src/preview-data.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v7.mp3",
+      "filename": "scene02-tts-v7.mp3",
+      "bytes": 14976,
+      "sha256": "344f74a279a079318addfbc4ec4c760a86e309d4e88605f5e998eec7bf07eda3",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 TTS S1v2/S2~6v7",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-data-v3.json",
+        "scripts/tts-input-v7.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v7.mp3",
+      "filename": "scene03-tts-v7.mp3",
+      "bytes": 26592,
+      "sha256": "837ca7587ad08b1e728e1872605ac6e7693d0418e8ef5795978bee978987fbb5",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 TTS S1v2/S2~6v7",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-data-v3.json",
+        "scripts/tts-input-v7.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v7.mp3",
+      "filename": "scene04-tts-v7.mp3",
+      "bytes": 27744,
+      "sha256": "35666ac5086ee7e87be1730093f34c5ec75da530bdcffef32055be1edc320083",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 TTS S1v2/S2~6v7",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-data-v3.json",
+        "scripts/tts-input-v7.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v7.mp3",
+      "filename": "scene05-tts-v7.mp3",
+      "bytes": 28512,
+      "sha256": "bd3aea4d3e7beae68d339cf73216d6e2d2dafc53aaa693eaed19099c65d41939",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 TTS S1v2/S2~6v7",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-data-v3.json",
+        "scripts/tts-input-v7.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/audio/scene06-tts-v7.mp3",
+      "filename": "scene06-tts-v7.mp3",
+      "bytes": 31776,
+      "sha256": "15feb6c4b4e8363f753bbb2383b02a03214bfa1947370d628db087481bd08541",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 TTS S1v2/S2~6v7",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-data-v3.json",
+        "scripts/tts-input-v7.json",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/daesan-plywood-warehouse-clean-v1.jpg",
+      "filename": "daesan-plywood-warehouse-clean-v1.jpg",
+      "bytes": 319433,
+      "sha256": "23d933c055c07e34b08a15ce0f419999c5043e159ad17934b4be184333c695a0",
+      "category": "D",
+      "purpose_and_reason": "최종은clean-v2. 편집계보의 유일원본 여부 확인 필요",
+      "approval_usage": "원본 관계 확인",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/daesan-plywood-warehouse-clean-v2.jpg",
+      "filename": "daesan-plywood-warehouse-clean-v2.jpg",
+      "bytes": 278840,
+      "sha256": "a93d118bcf9d9ddef5641fe2d8e459cb120b8132e4c924038a785a913ebf2bf4",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "src/index.tsx",
+        "src/index-v3.tsx",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/index-v3.tsx",
+        "cover/index-v2.tsx",
+        "cover/index-v1.tsx",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "src/index-v3.tsx",
+        "cover/index-v3.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/daesan-plywood-warehouse-real-01.jpg",
+      "filename": "daesan-plywood-warehouse-real-01.jpg",
+      "bytes": 343554,
+      "sha256": "f44e656b87c0a167c9753549140945f29eabc982d5f5311eeb1d2ed9eddbe312",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/lumber-delivery-real-01.png",
+      "filename": "lumber-delivery-real-01.png",
+      "bytes": 3062140,
+      "sha256": "676a2d811e0892e74d1d59ae24e44a2d2ae3e21e3a388eae9ae34a086cdb0ed3",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/lumber-stack-real-01.png",
+      "filename": "lumber-stack-real-01.png",
+      "bytes": 3322960,
+      "sha256": "9622b9542dd19f648a3ef0f884da4e1e7c287630a471930ec48815d892b731c6",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/plywood-edge-real-01.png",
+      "filename": "plywood-edge-real-01.png",
+      "bytes": 2155861,
+      "sha256": "9cd6ac55df59ec881ecb5388bc8ded1930e43a4afa818c6cd3ba74df13e93fea",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "src/index.tsx",
+        "src/index-v3.tsx",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/index-v3.tsx",
+        "cover/index-v2.tsx",
+        "cover/index-v1.tsx",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "src/index-v3.tsx",
+        "cover/index-v3.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/plywood-stack-real-01.png",
+      "filename": "plywood-stack-real-01.png",
+      "bytes": 2641359,
+      "sha256": "aab9a45cc87047fb4909ea5935472d25001300651c46144b40e5bc00d7a8bce4",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "src/index.tsx",
+        "src/index-v3.tsx",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/index-v1.tsx",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "src/index-v3.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/scene03-plantation-logs-realistic-v1.png",
+      "filename": "scene03-plantation-logs-realistic-v1.png",
+      "bytes": 3468872,
+      "sha256": "6c00c29c7445bdfb5c418b602419e673309874fcfcebcea55480c81fc0ada5a4",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "src/Scene3Visual.tsx",
+        "src/index-v3.tsx",
+        "cover/preservation-before-v2.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "src/Scene3Visual.tsx",
+        "src/index-v3.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/images/scene03-small-logs-realistic-v1.png",
+      "filename": "scene03-small-logs-realistic-v1.png",
+      "bytes": 2975962,
+      "sha256": "1f4ea03a1bf643372fee15c4ac45165e9ea38a0c46bab57d93e0b67c6bb9eb38",
+      "category": "B",
+      "purpose_and_reason": "최종Scene/제품 실사진/편집 원본 또는 공식 재현자산",
+      "approval_usage": "직접 입력/원본",
+      "current_source_literal_refs": [
+        "src/Scene3Visual.tsx",
+        "src/index-v3.tsx",
+        "cover/preservation-before-v2.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "src/Scene3Visual.tsx",
+        "src/index-v3.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/plywood-quality-change-preview-v3.mp4",
+      "filename": "plywood-quality-change-preview-v3.mp4",
+      "bytes": 11888715,
+      "sha256": "6c927e42152ae48f78c5fc54f5170fab8f279a80789cda45fd47d556de879e03",
+      "category": "A",
+      "purpose_and_reason": "최종 사용자 승인 결과물",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/qa-preview-v3.py",
+        "scripts/assemble-preview-v3.py",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v3.py"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/plywood-quality-change-visual-preview-v3.mp4",
+      "filename": "plywood-quality-change-visual-preview-v3.mp4",
+      "bytes": 10822902,
+      "sha256": "00f955ba60aa62a519d08098f880dcc3fa6f5a786b669ff97746c5f5d39684be",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v3.py",
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v3.py"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene01-preview-v3.mp4",
+      "filename": "scene01-preview-v3.mp4",
+      "bytes": 405193,
+      "sha256": "27f594bea1e66d95fdfa6ed3acb3c2223faec475420b7d398f739da95253ac8d",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 Scene별 영상",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene01-visual-preview-v3.mp4",
+      "filename": "scene01-visual-preview-v3.mp4",
+      "bytes": 270110,
+      "sha256": "c5a6e2a88c49d7e29b75ead9859cdacac3a226dac99255411569374cb43eea98",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene02-preview-v3.mp4",
+      "filename": "scene02-preview-v3.mp4",
+      "bytes": 290418,
+      "sha256": "3127e855f26584aa474d260bd2046260b119c6f8ac8f08cf431af40dbaa1c4b3",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 Scene별 영상",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene02-visual-preview-v3.mp4",
+      "filename": "scene02-visual-preview-v3.mp4",
+      "bytes": 196602,
+      "sha256": "9e3ec4b253debe3c9acfa9a8508c820bcf0851b614915af2b91e1a1497c31544",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene03-preview-v3.mp4",
+      "filename": "scene03-preview-v3.mp4",
+      "bytes": 855632,
+      "sha256": "01eb84e34dfc2dc6fa7d507cef8501120c879de252baa414e1ddbdf1baf19fd5",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 Scene별 영상",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene03-visual-preview-v3.mp4",
+      "filename": "scene03-visual-preview-v3.mp4",
+      "bytes": 689148,
+      "sha256": "bb3901722c6955ebfade3c509a1e80c93ba9cf2a69dfd714e3e8c4f02c59e6e9",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene04-preview-v3.mp4",
+      "filename": "scene04-preview-v3.mp4",
+      "bytes": 248723,
+      "sha256": "05eab940467e7ba8f611851d651be9cc758a2d119a3a7b68cfc61bbe739f47f5",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 Scene별 영상",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene04-visual-preview-v3.mp4",
+      "filename": "scene04-visual-preview-v3.mp4",
+      "bytes": 75513,
+      "sha256": "fbb67ff9c53e696b037769a1f3a849ac3270681383a9b9c16091358073c7cdd0",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene05-preview-v3.mp4",
+      "filename": "scene05-preview-v3.mp4",
+      "bytes": 337931,
+      "sha256": "1e87c99091a6e76a8811b81edff89ca9f2353deeb8ed693d035ef61275d91610",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 Scene별 영상",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene05-visual-preview-v3.mp4",
+      "filename": "scene05-visual-preview-v3.mp4",
+      "bytes": 160607,
+      "sha256": "738941d7718e2ca3b4b667d34b1f587135aa04969770eb8cee86ed6b38335c5d",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene06-preview-v3.mp4",
+      "filename": "scene06-preview-v3.mp4",
+      "bytes": 429231,
+      "sha256": "cdc0864a4f76589a5d459c6d4cb773bcc6c34f338da3dce01e76885bb07b3954",
+      "category": "A",
+      "purpose_and_reason": "최종 승인 Scene별 영상",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/assets/video/scene06-visual-preview-v3.mp4",
+      "filename": "scene06-visual-preview-v3.mp4",
+      "bytes": 230512,
+      "sha256": "bad0518bc716c6cf63265f52447e82175ba229506b4dad9e1e21232a336469d5",
+      "category": "B",
+      "purpose_and_reason": "최종 조립이 읽는 무음 Scene/전체 영상",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/daesani-cover-open-arms.png",
+      "filename": "daesani-cover-open-arms.png",
+      "bytes": 102546,
+      "sha256": "d2c5984e08b26c69da299fd50e178bba1ee6b1db4173f5e26d2f4efbb5fea008",
+      "category": "D",
+      "purpose_and_reason": "공통 캐릭터 원본. Cover최종 참조범위 확정 필요",
+      "approval_usage": "보존범위 확인",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/daesani-cover-point-left.png",
+      "filename": "daesani-cover-point-left.png",
+      "bytes": 106030,
+      "sha256": "74e81edc1e5e15f08221488c5ab9936dc20f9b71f4fecc4e76a5bdfbd3fe56dd",
+      "category": "D",
+      "purpose_and_reason": "공통 캐릭터 원본. Cover최종 참조범위 확정 필요",
+      "approval_usage": "보존범위 확인",
+      "current_source_literal_refs": [
+        "cover/qa-v1.json",
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/index-v2.tsx",
+        "cover/index-v1.tsx",
+        "cover/preservation-before-v1.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/daesani-cover-point-right.png",
+      "filename": "daesani-cover-point-right.png",
+      "bytes": 114274,
+      "sha256": "f0608947b0b19aed94bd5adfebfcfc7cd3a1a8a193eaf46a78cf6333a1e57ae0",
+      "category": "B",
+      "purpose_and_reason": "최종 cover/index-v3.tsx의 직접 이미지 입력",
+      "approval_usage": "최종 직접 입력",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/index-v3.tsx",
+        "cover/qa-v2.json",
+        "cover/qa-v3.json"
+      ],
+      "final_source_literal_refs": [
+        "cover/index-v3.tsx"
+      ],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/plywood-quality-change-cover-v1.png",
+      "filename": "plywood-quality-change-cover-v1.png",
+      "bytes": 1549833,
+      "sha256": "45a1048e3b585a878cf9e4e27f633d6b77910b106d2baed43a063875e3918af8",
+      "category": "C",
+      "purpose_and_reason": "이전Cover/크롭 QA. 최종v3 직접입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/plywood-quality-change-cover-v2.png",
+      "filename": "plywood-quality-change-cover-v2.png",
+      "bytes": 2086664,
+      "sha256": "021a169df54626a7cd2011095c64df8dc72561fdfff99fa7741ed910ca215725",
+      "category": "B",
+      "purpose_and_reason": "최종v3 합성/검증에 필요한 v2와 raw원본(작업기록 명시)",
+      "approval_usage": "재현 입력",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v3.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/plywood-quality-change-cover-v3.png",
+      "filename": "plywood-quality-change-cover-v3.png",
+      "bytes": 1483520,
+      "sha256": "c9e2a227bdfd4e67a26a45ebf4a923de40cfd726c31948390c73bf8972e58ed7",
+      "category": "A",
+      "purpose_and_reason": "최종 사용자 승인 결과물",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/qa/plywood-quality-change-cover-square-v1.png",
+      "filename": "plywood-quality-change-cover-square-v1.png",
+      "bytes": 759569,
+      "sha256": "da94509efb7db8a8301dba905ca9dbf1ab8250751779bb79444ed10eda169167",
+      "category": "C",
+      "purpose_and_reason": "이전Cover/크롭 QA. 최종v3 직접입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v2.json",
+        "cover/preservation-before-v3.json",
+        "cover/qa-v2.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/qa/plywood-quality-change-cover-square-v2.png",
+      "filename": "plywood-quality-change-cover-square-v2.png",
+      "bytes": 879373,
+      "sha256": "b9f75df27dc6963724d617c82d98789b6b6f9989dfb2dcb41c6fe79d52dcbc72",
+      "category": "C",
+      "purpose_and_reason": "이전Cover/크롭 QA. 최종v3 직접입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "cover/preservation-before-v3.json"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/qa/plywood-quality-change-cover-square-v3.png",
+      "filename": "plywood-quality-change-cover-square-v3.png",
+      "bytes": 884733,
+      "sha256": "ea705bdc2ee3df7a41bd17a57cc3a81fb82067ab960a3c71fd699f1a80f4f100",
+      "category": "B",
+      "purpose_and_reason": "최종Cover 크롭 QA",
+      "approval_usage": "최종 QA",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    },
+    {
+      "path": "public/covers/qa/plywood-quality-change-cover-v3-render-raw.png",
+      "filename": "plywood-quality-change-cover-v3-render-raw.png",
+      "bytes": 1477283,
+      "sha256": "96001f2e83502f76a0638e9251289d0677e590b72e25c51c0a6b36662051fc8e",
+      "category": "B",
+      "purpose_and_reason": "최종v3 합성/검증에 필요한 v2와 raw원본(작업기록 명시)",
+      "approval_usage": "재현 입력",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": true
+    }
+  ],
+  "issues": [
+    "이전영상/TTS48개 정리는 기록과 현재파일상태가 대체로 일치. 남은Cover v1/구크롭3개는 C. Coverv2/raw는 최종v3 의존으로 B.",
+    "루트 qa/에는 과거자료가 있을 수 있으나 이번명시5경로밖이므로 후보량에 포함하지 않음. 전체용량에는 포함."
+  ],
+  "git_status": "?? projects/plywood-quality-change-shorts-v1/docs/26.10.22수정.md\n?? projects/plywood-quality-change-shorts-v1/docs/cleanup-reassessment-v2.json\n?? projects/plywood-quality-change-shorts-v1/docs/cleanup-reassessment-v2.md\n"
+}

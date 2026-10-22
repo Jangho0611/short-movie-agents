@@ -1,0 +1,1654 @@
+{
+  "project": "/Users/janghokim/Documents/short-movie-agents/projects/younglim-stepdoor-types-shorts-v1",
+  "total_bytes": 886623382,
+  "node_modules_bytes": 362124838,
+  "stats": {
+    "A": {
+      "files": 20,
+      "bytes": 45951671
+    },
+    "B": {
+      "files": 29,
+      "bytes": 43879046
+    },
+    "C": {
+      "files": 108,
+      "bytes": 307643916
+    },
+    "D": {
+      "files": 0,
+      "bytes": 0
+    }
+  },
+  "rows": [
+    {
+      "path": "public/assets/video/scene01-v1.mp4",
+      "bytes": 262435,
+      "sha256": "58bbed07926cd62bff458d5952666effeaee5d7fdc8a16db4cd37ff8ff839099",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene01-v2.mp4",
+      "bytes": 256093,
+      "sha256": "6dd7e90f2294d848430416a1400a0c9cf3d613d34967a38b1702ea2e84d7cb75",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene01-v3.mp4",
+      "bytes": 283404,
+      "sha256": "a72ba1147daeb11850b80b59576588da2f81fd40f4db174b0da92725d7dbe6d9",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene01-v4.mp4",
+      "bytes": 288411,
+      "sha256": "9fb342a269017a2622db39d9566e753c6de8c4d75315666a238ae7db610b7883",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene01-v5.mp4",
+      "bytes": 378604,
+      "sha256": "7717da6f936cad764e6321751ed402eb794817c4cf2fa7cbac5f3b20c623410f",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene01-v6.mp4",
+      "bytes": 384380,
+      "sha256": "6f850f50df0297453a91e8e254f379b8b0469b21adc377b0eb389192989a7fbf",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene01-v7.mp4",
+      "bytes": 373842,
+      "sha256": "9b2460a33fa249e8942908025a9e0747f8d2e29b6cf385a649a333208d924909",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-label-qa-v3.mp4",
+      "bytes": 2947214,
+      "sha256": "95e8ea1cb5c357b30ceb9239e69ddac31defa00f12fe36967e9cd2994b5e6838",
+      "category": "C",
+      "reason": "라벨 추적 테스트/비교 QA 또는 완료본으로 대체된 불완전 조립본; 최종 직접 입력 없음",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v1.mp4",
+      "bytes": 2777192,
+      "sha256": "344a76fd07ef1305ba2b2eb1708eacf8201d13e911d28259cfa65180cbaab518",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v2.mp4",
+      "bytes": 2894698,
+      "sha256": "b0a734a3e3af4a03c8334dba45d6441f45fd1879590f9c202befdc916c929cb7",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v3.mp4",
+      "bytes": 2945956,
+      "sha256": "a1331759ac1f2bb2948d12a7ee8ae192562a4d8d9254c69d424cd817a9acf05a",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v4.mp4",
+      "bytes": 2952839,
+      "sha256": "ded9c4997beb2ce92ed60357e23034996f06c5438b8453947e8202a67237b950",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v5.mp4",
+      "bytes": 3047871,
+      "sha256": "0c6165c59fb74b2eae4d99c94a7e21f8d9ea38bfacedc02c45e74925635b1ba0",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v6.mp4",
+      "bytes": 2477967,
+      "sha256": "7c6161ddd193a7ce56067f8fdc7a854a8cfdf461876e90de531aa0cf95da71ab",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene02-v7.mp4",
+      "bytes": 2409925,
+      "sha256": "fae9f460c68c977f8daba6073f2123a035087ef0e9500eace8e25369be8fd56b",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene03-v1.mp4",
+      "bytes": 234535,
+      "sha256": "7ac2dcfa2013252f1f637875a0256ea2c76b77ad0242d6f72d0e3aac8ef603fc",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene03-v2.mp4",
+      "bytes": 248354,
+      "sha256": "10743de0a14d54effae48e4dd974a6ba25837bdedcc982cd755c7c03c244b36b",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene03-v3.mp4",
+      "bytes": 1696938,
+      "sha256": "4a5bdeaf83b6d29b34d87a5ae8132788404220e43f44b5316146c5216d32c997",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene03-v4.mp4",
+      "bytes": 2014178,
+      "sha256": "2f3826dcab0d79cd8b8b38192be852907faeee5f4c42f6a93a68a881db00b783",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene03-v5.mp4",
+      "bytes": 2150207,
+      "sha256": "cc260b8e27502847ca0b575299e44437e01ffaec3a9039d88f04f73c1d68bc79",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene04-v1.mp4",
+      "bytes": 452782,
+      "sha256": "98bed4d0b39c212976535cbe55618d8a4739a8181e1fa17ded426515bbb7fe52",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene04-v2.mp4",
+      "bytes": 491841,
+      "sha256": "4c9bd75a14b783d2dc698498920100e6a01e3249f4df35a368265db62925168c",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene04-v3.mp4",
+      "bytes": 686815,
+      "sha256": "b5a7ea4a58d0a3d5b11be74201e78988c032977906d49a33aa3b24f84af009e6",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene04-v4.mp4",
+      "bytes": 693155,
+      "sha256": "90df8466387671b63369f11a57d1d30efed364a99532e54ec5dc9ed14ab48bf8",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene04-v5.mp4",
+      "bytes": 811626,
+      "sha256": "b47135d53a794606c44749a38baf39c9092a47aa7ef4e0649c413aa148d73433",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene04-v7.mp4",
+      "bytes": 811124,
+      "sha256": "829a9a22a14b4a85946fbb92cdcda8c0ff92aa02cf67fd4cb2fd7c172ea0eabb",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene05-v1.mp4",
+      "bytes": 1093399,
+      "sha256": "c4df880bd3c69babc470326e4dc5a2e6559bb5b0bafcc1402aa1a66dd9d1c7b2",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene05-v2.mp4",
+      "bytes": 1405402,
+      "sha256": "efd3ed141b31256647da194699c0e27941369508f8e817a2b9efe42fee0d0682",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene05-v3.mp4",
+      "bytes": 333407,
+      "sha256": "5321f5d7c8103c4089d6c828b7cd9e1acd40e2a122b6870d45ccb0ab8d5a1337",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene05-v4.mp4",
+      "bytes": 339201,
+      "sha256": "89aaff6df9c15d3721196ed0648b673dc868fb65558b70b2562a109d3f16cbbb",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene05-v5.mp4",
+      "bytes": 401733,
+      "sha256": "9ad8a678ccf89eb0ee6d39c69c5bc0ea8d3b2ba801101fa7b0ef5ed5b732f1d8",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene06-v1.mp4",
+      "bytes": 301980,
+      "sha256": "62e9488d2d72cf430988741a893f826a50026c5ad2ac37682ab4e3913b6c6213",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene06-v2.mp4",
+      "bytes": 315062,
+      "sha256": "391ec488f89d0ad4f90a73c2f87a034853ae60d2bf20a8b533816a3a0ac5cdb9",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene06-v3.mp4",
+      "bytes": 431807,
+      "sha256": "21b721836aa34e3de2556f0461c6e30b401c1df5e1d759bdcc57383ffd9a039b",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene06-v4.mp4",
+      "bytes": 432603,
+      "sha256": "22b0253162ce265a83b0017de2a1c1f27a78d8441c6268521ba16abfc82ab737",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene06-v5.mp4",
+      "bytes": 552407,
+      "sha256": "8cd54d4c816afd8ff0a94a7fca5de6ba7d682ee2a23afd29e6857efa2a54ea3b",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene06-v8.mp4",
+      "bytes": 554605,
+      "sha256": "fe7b4467373eb377c21bcb7f96780e1b8838bf5704ba9c3159b2e66a6fecee82",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene07-v1.mp4",
+      "bytes": 232106,
+      "sha256": "12e894a11151d97f04774cdb9af95be60973a1900d16b3974f87972fdf3fb24f",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene07-v2.mp4",
+      "bytes": 247973,
+      "sha256": "1cd6954b260a0592edd2e0654c9980aac3c9d1c274207d2d3d7ae410eee13d5d",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene07-v3.mp4",
+      "bytes": 248697,
+      "sha256": "d10140c87a12e1a810f4e1482360818f7095cdc7def4dc0a90357cc4b9c95cfe",
+      "category": "C",
+      "reason": "최종 조립 미사용 Scene 버전; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/scene07-v5.mp4",
+      "bytes": 243484,
+      "sha256": "2aca5ffea60be9c8f12514a4378388d31338ac32bd5ebc1770bed0ed999c8d0b",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-silent-v4.mp4",
+      "bytes": 14968427,
+      "sha256": "eaecf75c4c298d3c732960193a680c3bf0f91d467dbdaaf97e85bd24eefbbbe1",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-silent-v5.mp4",
+      "bytes": 15585283,
+      "sha256": "bbf5284da90974d439c0b91624cc2002f09ab8a41ce347e77a02b43d16c53c81",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-silent-v6.mp4",
+      "bytes": 15021139,
+      "sha256": "7ffa7e34e07823f0749cff9dd8517e4559bd571f0f4f754aed91a1b05be30c7b",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-silent-v7.mp4",
+      "bytes": 14942045,
+      "sha256": "7c493887d1323db90cd089b06d39563d939b2ab6b1f8fe46edb7db97b357bb28",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-silent-v8.mp4",
+      "bytes": 14944243,
+      "sha256": "08bc7ae2a0558bd93d5670a0ef621ea0aabbc7e33a912c357fde83d6856d9725",
+      "category": "B",
+      "reason": "최종 assemble-qa-v8.py가 읽는 직접 입력",
+      "final_source_refs": [
+        "scripts/assemble-qa-v8.py"
+      ],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-v1.mp4",
+      "bytes": 13422476,
+      "sha256": "e27ba648a246685993df03128c0e4166e17bacd590175eb9ac1b236eccd30ad5",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-v2-assembly-incomplete.mp4",
+      "bytes": 4651673,
+      "sha256": "3d425c340bdba7b20cbb6f44e1be93c2d03bf1e6c8b3b84580f9497df41e7aaf",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-v2.mp4",
+      "bytes": 13858746,
+      "sha256": "b3016cab31713aef9583b7a1f2c10a53b27f11cfcc537ebd4620e8e3f1e60726",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-picture-v3.mp4",
+      "bytes": 14626367,
+      "sha256": "874765e942ef5b93c4af38b27e6ac2e06f964260d885e2570fac11d02b68cedf",
+      "category": "C",
+      "reason": "무음 조립 중간 영상; 승인 Preview 별도 보존; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v1.mp4",
+      "bytes": 14620772,
+      "sha256": "899eafa80b2c3124e216ad94c5783cb40b901c4db2c20395f3ab697ae6f02c54",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v2-assembly-incomplete.mp4",
+      "bytes": 5941406,
+      "sha256": "7e033ee14b11b9c2516a3a3b17e889b19b8e1f0536b9ab1d31b31160821bd225",
+      "category": "C",
+      "reason": "라벨 추적 테스트/비교 QA 또는 완료본으로 대체된 불완전 조립본; 최종 직접 입력 없음",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v2.mp4",
+      "bytes": 15151531,
+      "sha256": "146d8b7e2d6547cd2554ec605f56dec3ef94e4798a89e6292f764bf8bbffdd05",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v3.mp4",
+      "bytes": 15919124,
+      "sha256": "495362397bd257450cbeec43667472dd832a250c5a52aeb3565ff9bc646321e2",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v4.mp4",
+      "bytes": 16261184,
+      "sha256": "44bc6f2e8fd7e9ee346e1e140ad9536bd10a44cf815a2ca5739c21f0c867831c",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v5.mp4",
+      "bytes": 16878024,
+      "sha256": "f0eb5c379cf0344f537b150d4d6fabe8f0f0bbc1c2dafc3b5f2204e2e4d7e341",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v6.mp4",
+      "bytes": 16313896,
+      "sha256": "bc4c0617f84f490d04774a567ed4c069ae6b4410e891927916e01440e7a31f02",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v7.mp4",
+      "bytes": 16234814,
+      "sha256": "b3c571319595779bb7167bde5b82be4cff4133293ead55a5ccd52b3fe618c476",
+      "category": "C",
+      "reason": "이전 Preview; 승인 v8 대체; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/video/younglim-stepdoor-preview-v8.mp4",
+      "bytes": 16237012,
+      "sha256": "f341dd82bea1dc376e574481c5e8d4ffa0d5ea46712110b1ccf7b7bba56ce746",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "scripts/assemble-qa-v8.py"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v1.mp3",
+      "bytes": 918284,
+      "sha256": "bf18e39d97740052ce995b64e86a864784c0ffd1e550ce61512a76cae1870ac2",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v3.mp3",
+      "bytes": 1072556,
+      "sha256": "67c10a1643c47f177fb3756009b34890028bdd7e619949f4e1034f0612cef682",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v4.mp3",
+      "bytes": 1167020,
+      "sha256": "a7734b807711c0959271c5fa8ec7dc66c6cae5ab891406f70e35195787ae1fb7",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/preview-v1-approved-sequence.wav",
+      "bytes": 9888078,
+      "sha256": "d08a1b696ff96f8347468a77703f09028e88901b563b894bce595f5f6a94b5d7",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/preview-v2-approved-sequence.wav",
+      "bytes": 15638502,
+      "sha256": "fa8d7369a80408da7180cc2cccd875b95712489d95ba65ce9c6b8ab67b4247e8",
+      "category": "B",
+      "reason": "최종 assemble-qa-v8.py가 읽는 직접 입력",
+      "final_source_refs": [
+        "scripts/assemble-qa-v8.py"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene01-tts-v2.mp3",
+      "bytes": 20544,
+      "sha256": "cadd711e78f48a275d3cdeea4e87e8ee30131afc3f3155ae29db11797b2f4323",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene01-tts-v3-mix.wav",
+      "bytes": 1534566,
+      "sha256": "2b47d47e8d21177fd087cd273af2db5605c93cae97f804136eaebee9ba462e78",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene01-tts-v3.mp3",
+      "bytes": 21312,
+      "sha256": "3ea015ed700b3ce60feaf49b589824613ad473be570d04453293360f283ff81b",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v2.mp3",
+      "bytes": 25536,
+      "sha256": "9a483af9a7503b61c6a1f5d2237e201cb8a0ded9d8f1ab883572bc62a5ed32ca",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v3-mix.wav",
+      "bytes": 1963110,
+      "sha256": "62dd6adfd00715f8106d69258221c46d36dd1b0835aa083812655258b8aaba0a",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v3.mp3",
+      "bytes": 27264,
+      "sha256": "90ebbb775a36d32e716c483d2cca4ce19705290142709839ac76b8cfa08fd08f",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v2.mp3",
+      "bytes": 22464,
+      "sha256": "27de8e8fdee16b979ae6d74d7f20f3b533ddaae8692bd4fde0e7f1fa064118d8",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v3-mix.wav",
+      "bytes": 1769574,
+      "sha256": "0d1cf75ca6eaca86ebdc74282fcda37b854e2b7f9f3f5e9b597977e10f08bbf4",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v3.mp3",
+      "bytes": 24576,
+      "sha256": "0cd5712bdfadbd737473a352642216a014401f9f2b76e6608c3dd0d0b0fff397",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v2.mp3",
+      "bytes": 33024,
+      "sha256": "21f25aacf93f063a07c5158492eea3ae6c032bb20096bc3273a3d56c9b7777f2",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v3-mix.wav",
+      "bytes": 2274150,
+      "sha256": "65c39e156b1d72088cb70c8967c1bb097494437f11d5937089425e7963e319a8",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v3.mp3",
+      "bytes": 31584,
+      "sha256": "0be52c95dfc247e0c82e591f61a095d8274ee26425af04aa1d9f8185f8a434ed",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v4-mix.wav",
+      "bytes": 2661222,
+      "sha256": "2e91d5a55bb71b63acb654268853987f36cbaee77bdf0f8da228cc53e4eb72a1",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v4.mp3",
+      "bytes": 36960,
+      "sha256": "001f0a874dfbadf9febdeb05fe0c6efd164d4b1fb2b19400b284c1a7d660c136",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v2.mp3",
+      "bytes": 22656,
+      "sha256": "53b0e6728febe6bc5ce3c7e5c4604898a67d8e628c458330f6d4e34d5188665d",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v3-mix.wav",
+      "bytes": 1423974,
+      "sha256": "71113c23531cf01c5803bf994f1ccf911c52d9a2ed0922b26a863ea23317c58f",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v3.mp3",
+      "bytes": 19776,
+      "sha256": "18773c2b5e976448b665b9039fa9b5d8a9777aa3b0ff181b75a6b2644d5dfc13",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v4-mix.wav",
+      "bytes": 1645158,
+      "sha256": "15be052532cbbe34ff137799fc9eb4fa6d4de2a0ede5634b959e92cf8bddd2f8",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v4.mp3",
+      "bytes": 22848,
+      "sha256": "5c29fc632ed1ce2e3a60dbdaa59258a671d93d655f4b582a4a6cbbb221de2fda",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene06-tts-v2.mp3",
+      "bytes": 29952,
+      "sha256": "fbf561245e9029531b946188ac425d2b92c03da6f6e69a69bf11ce3c5e6b9220",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene06-tts-v3-mix.wav",
+      "bytes": 2087526,
+      "sha256": "351277db4435e36a62088c12e48494737589a845d23117c1c957604de53e0379",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene06-tts-v3.mp3",
+      "bytes": 28992,
+      "sha256": "da09a6ff46a6bfd59139bafc1a54ac159c3a4fc846876e1108e2f9fbf83f8e7f",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene06-tts-v4-mix.wav",
+      "bytes": 2308710,
+      "sha256": "65f34bc839c42f1bb405c80bbe1b6d5b8235db7e8265ff5a1eddf2b61b8b2b64",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene06-tts-v4.mp3",
+      "bytes": 32064,
+      "sha256": "c79590bebb1823bd467eac1151cf9325a6b62c6cd6bec7c3047ec5b81c7098c4",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene07-tts-v2.mp3",
+      "bytes": 20832,
+      "sha256": "cf194ceb7fd5a01d09253f400c6627f683044ee63e929e46daac259f9b50188f",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene07-tts-v3-mix.wav",
+      "bytes": 1354854,
+      "sha256": "3a23b4c791ce83f1e23807f26d515765d33fd548c54878fc41527da56c071608",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene07-tts-v3.mp3",
+      "bytes": 18816,
+      "sha256": "4ece1310b9deaa06ab1a92ede98b3ef908e670260d06a721cc87007d7ea21e56",
+      "category": "C",
+      "reason": "최종 선택 외 이전 TTS/통합 청취 QA/구 조립 음원",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene07-tts-v4-mix.wav",
+      "bytes": 1658982,
+      "sha256": "97acc67b599e2627244b1acaa88231f131515c9f964c13bb7c86164a2ca94a16",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/timing-v2.json"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/audio/scene07-tts-v4.mp3",
+      "bytes": 23040,
+      "sha256": "cbb23e50be94c090ec7f46ed37be00d6931b65c910d3f6bff2e253ae16ee3b31",
+      "category": "B",
+      "reason": "승인 믹스의 생성 원본 MP3",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/double-section-detail.png",
+      "bytes": 36411,
+      "sha256": "ff3d9423768aaabe839301840d022440e34ddb5144a9962be71296e978e73fdd",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/official-basic-space.jpg",
+      "bytes": 731472,
+      "sha256": "09c3d07312ea8e4cf8d5d4ccb8bfe53a46ae5db7572314840ed366177ea29a3f",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/official-double-section.png",
+      "bytes": 48459,
+      "sha256": "a1404693be5e7077298a3b1bdc8ad8d8371a7f743cf6e1d71f7324f4ff568f53",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/official-four-types.png",
+      "bytes": 880652,
+      "sha256": "af7fe91e44cbe4521258e15d30ea568927fff939b42e41201c4c2efa71a75857",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/official-pocket-motion.jpg",
+      "bytes": 50699,
+      "sha256": "a4e114442cdc82d68e02a44c9c086e9a80a0b20238d67757093d6ba0e2cf5643",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/official-pocket-space.jpg",
+      "bytes": 304596,
+      "sha256": "6dd63995e2c0202962365acf6b879560d770ac98b96cadd0bc966ad7adb64958",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v1-contact-sheet.jpg",
+      "bytes": 163084,
+      "sha256": "3d151c04953fb5db450dc6f3bd4ce9b70c53a17444ff8b9f7400778b74df1a7a",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v2-contact-sheet.jpg",
+      "bytes": 163843,
+      "sha256": "f55a6f7e5accf4855d6b7b3aedd332b083e8f40750f7d143e5c2496ff3e0203c",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v3-contact-sheet.jpg",
+      "bytes": 209452,
+      "sha256": "c930ef5560bb0e942a411715198b6f5c79603fbea63b1986774b784bea1da9b8",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v3-s1-hook-qa.png",
+      "bytes": 491812,
+      "sha256": "f2a26c5c28b04aa3eab26d890b86af52ee66fca7e7d4a4013f7e7deaf412b6d4",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v3-s4-section-qa.png",
+      "bytes": 180896,
+      "sha256": "66074f659cf460784181965a00fe2b500ad1afa4d4ab8c85f9c265a15efd3dc4",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v4-contact-sheet.jpg",
+      "bytes": 216529,
+      "sha256": "aaa90e054b9c0b7c7c636195e6880b085dfd683bca6c15540770e9a4db8bb020",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v4-s3-end-qa.png",
+      "bytes": 656937,
+      "sha256": "a7897486bda30550d915d094e62c3edaf6ad77d49edfcd5c67b4711fb537acfc",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v5-caption-style-qa.png",
+      "bytes": 1634672,
+      "sha256": "13b63574a4bae7b71702ca6ab39ff0f5065f63f10d651971d5101cb3dbc403ab",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v5-contact-sheet.jpg",
+      "bytes": 225471,
+      "sha256": "f3e931a7d9c5df7ee4188e09b1161d0b5a1a1ed964b23d723a7dfc5eb4a68a34",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v6-scene02-end-qa.png",
+      "bytes": 577114,
+      "sha256": "2a84815b99da4cdebe0fbe1de163115e522297668d399bb5163d9b8e1d4a7b33",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v6-scene12-qa.png",
+      "bytes": 214213,
+      "sha256": "94e08296c8eb95f5e92a4fb3cfdbf629545e06ee7c68256ebc5c5da1ab721736",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v7-image-swap-qa.png",
+      "bytes": 393625,
+      "sha256": "104887569bd178616851b9976bd967851c9f2840dd4c19b479c42417ede3cf2a",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v7-scene02-label-qa.png",
+      "bytes": 578037,
+      "sha256": "1e9babf69dbed7317f6cb226dd21b8b0a5b18242a9b2c1010b99723d17fb4a8a",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/preview-v8-scene06-qa.png",
+      "bytes": 474877,
+      "sha256": "9d95b05afcdeafa63f71a5158a96af8b2d98eaa0922a44411195090b48d7e267",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/qa-scene2.png",
+      "bytes": 1624992,
+      "sha256": "5f4042ee0d30480a899283b9207e4e222ae57ae22ffd15d8c8d3bb62796543db",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/qa-v2-scene1.png",
+      "bytes": 321028,
+      "sha256": "9612a2441bb345c80a8c18e0a74df7d09907063e651d7158322667eb1c50b134",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/qa-v2-scene7.png",
+      "bytes": 114504,
+      "sha256": "3f4d806b8cf7fc162847fe187e8f450c5c179e6dbd939025d7bb1f34c5a9e69a",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene02-label-qa-v3.png",
+      "bytes": 575189,
+      "sha256": "4d170d0640b20578f256e65fd871a4fa349f9abb340da410837dea8ee097fa87",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/scene02-label-v3-tracking-comparison.png",
+      "bytes": 231556,
+      "sha256": "b942d30f9c3fdd3a523e74a352ae1dd3a2f125b95184b01b7841f8de5563e954",
+      "category": "C",
+      "reason": "라벨 추적 테스트/비교 QA 또는 완료본으로 대체된 불완전 조립본; 최종 직접 입력 없음",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/type-1.png",
+      "bytes": 212073,
+      "sha256": "86dbe1c0591b06b595c3db7c7b06477b3460480d98ed98357fa8e7a78ebd5b84",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/type-2.png",
+      "bytes": 208788,
+      "sha256": "c544d9f8aa7b623d035f4fbaf453ca9d1b09d94917363c44b5bd1cf0091d7564",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/type-3.png",
+      "bytes": 204176,
+      "sha256": "444fe8d4721b6590e7759e045db7c13c2bf5cfde5ee600413dc769555c0361aa",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/type-4.png",
+      "bytes": 199832,
+      "sha256": "bb2414c6e2ac71d18d989f39eb4e121814be60380deba6a38040a81f7c59c8cf",
+      "category": "B",
+      "reason": "공식 Reference/최종 동적 type 이미지 및 단면 자료",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-basic-handle-right-qa-v1.json",
+      "bytes": 790,
+      "sha256": "da3646ca9e9d50fef1f9500a87f9fcf00dced8f785ca913f401165cc6498962d",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-basic-handle-right-qa-v1.png",
+      "bytes": 557443,
+      "sha256": "762a95bdefeb15c8b5a07c5aa9bc1ed3e9343c57aece6b0244dd5bf16314bdb8",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-basic-handle-right-v1.png",
+      "bytes": 1640446,
+      "sha256": "79385daab9fa5faadc3a87fa2889a925558f6181eb15b6219d0b1ded0f339f45",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-basic-unified-qa-v1.png",
+      "bytes": 779393,
+      "sha256": "90041203e4995338ba76c89d594c450a583e3307afa2388887fb9734e8ed8ea2",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-basic-unified-v1.png",
+      "bytes": 1860116,
+      "sha256": "d114ce502b45051d44c953f16852b6f51b76ffe4a968c86afa2d564ad2d95507",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "scripts/render-cover-v3.py"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-double-basic-fix-qa-v2.png",
+      "bytes": 559940,
+      "sha256": "42ab737077cb068bae177fbee91f67cb0b6d8cda91cd0bc34823e20e2d95afc3",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-double-basic-local-edit-qa-v2.json",
+      "bytes": 656,
+      "sha256": "6c7d23b22341fe34ec5c650de8193bb2ea01a12bd3afd7a00762b4ab91116421",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-double-basic-space-v1.png",
+      "bytes": 1935425,
+      "sha256": "87b036e9529abc5991acf3a176967368acd21737fde9c6026acdc2363c4c3952",
+      "category": "B",
+      "reason": "승인 AI 이미지의 실제 참조/국소편집 원본 계보 (10월20일 기록)",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-double-basic-space-v2.png",
+      "bytes": 1775189,
+      "sha256": "980825d46c30c1faee9b94dac79d0bcd4dc59bf8688db974bd1082dcef3f63e7",
+      "category": "B",
+      "reason": "승인 AI 이미지의 실제 참조/국소편집 원본 계보 (10월20일 기록)",
+      "final_source_refs": [
+        "src/index-v5.tsx"
+      ],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-double-expanded-space-v1.png",
+      "bytes": 2048904,
+      "sha256": "d7d7dccf36b89a268d85abb68ed64091e13a04fa00a9b81ce632d3bb6757a4e8",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-expanded-ai-v1.png",
+      "bytes": 1948292,
+      "sha256": "53ed8eeae41a72f0a2089a5957d9322c8b324acf4864895f4d4339950c23967f",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-expanded-diagram-v1-comparison.png",
+      "bytes": 583838,
+      "sha256": "bbbf2db3a9d505645122f23ade85d57cb43b00065e77cbe27edf0efccf7d470d",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-expanded-diagram-v1.png",
+      "bytes": 2144498,
+      "sha256": "a0811f3e9fe8107ef50c097c4ee3696a7ce14d59ca2c7ed3e5457e10d95af719",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-expanded-space-v2.png",
+      "bytes": 2184679,
+      "sha256": "f98229ececadfb1a90ee53e0f9fa5ad8fa9ae9531b605d7e9109454d42ef1bd2",
+      "category": "B",
+      "reason": "승인 AI 이미지의 실제 참조/국소편집 원본 계보 (10월20일 기록)",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-expanded-space-v3-comparison.png",
+      "bytes": 794339,
+      "sha256": "3362d700abefed0131ff7c79a3ca0f5c2bbb35633b8e381dcf9694384fa1ff48",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-expanded-space-v3.png",
+      "bytes": 2095583,
+      "sha256": "550fae6eb27370539367a7a84dcdd383c66f78a7229323e219520dc699e2f2be",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx",
+        "scripts/render-cover-v3.py"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-five-space-comparison-v1.png",
+      "bytes": 1212428,
+      "sha256": "3dc3c5ebca9c3558dad63ce98823577834fc265c5be5c6eb91be90007492ef3e",
+      "category": "C",
+      "reason": "최종 소스 미참조 AI/편집 후보; 이력 참고 여부 확인 후 정리; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-five-types-qa-v3.png",
+      "bytes": 1212465,
+      "sha256": "c2fc51e9109d8cc70612a299e48665fbe8a70af8f373032b3a741ffa0facb036",
+      "category": "C",
+      "reason": "이전 QA; 시각 이력 보존 선택 필요; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/assets/images/younglim-step-pocket-space-ai-v1.png",
+      "bytes": 1941238,
+      "sha256": "44fe165b41b2cbfd2f9db7747b7aa4c936b0f467fb5f14ceec2a27543713c77f",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "src/index-v8.tsx",
+        "src/index-v7.tsx",
+        "src/index-v5.tsx"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v1-1x1.png",
+      "bytes": 614427,
+      "sha256": "e461912a0a2e8b1f5bf044b3915d8b03cca7e88dca05b004e3d9c25a7642e8f3",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v1-3x4.png",
+      "bytes": 882357,
+      "sha256": "1fff9a4c1877da5994b07de0aa9bf702dd7502187442ca9306ccb8805b27c4c5",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v1-4x5.png",
+      "bytes": 821687,
+      "sha256": "40ccd7672167c8ccfd93398e4c62bafb3ec4663d62c422326bd65e3b5ca85b39",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v1-mobile-qa.png",
+      "bytes": 502192,
+      "sha256": "8570658bc1c89fc3bfb761070a71350625c07e61da4584a324a85352995742e1",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v2-1x1.png",
+      "bytes": 700570,
+      "sha256": "fea570d92f3bedd7f4fa0a00e00dc1d782738d5ef5d06377822b6525d682213e",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v2-3x4.png",
+      "bytes": 970960,
+      "sha256": "d6dcd2eeb86abac3aa12a8073e71a04850eefc0d33cd9e06e8df0c472914b9e3",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v2-4x5.png",
+      "bytes": 912048,
+      "sha256": "5a9964f23ececb00d06480b88bedee241c6955d43f7156b86af448b350645a3e",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v2-mobile-qa.png",
+      "bytes": 512685,
+      "sha256": "5c2068624a693c474fc9089b0b0586b3241d6c2edd7bbe346cc2226fc24dbde5",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v3-1x1.png",
+      "bytes": 696639,
+      "sha256": "fd1d8827d1071e45f050bfc9c19b4c7f9eb19e31ec1c5064ee56b6e92f646ba6",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v3-3x4.png",
+      "bytes": 967823,
+      "sha256": "fe3081ab1afdc556a196d46c5a407b03143e8907cf818835a07f6fdc14091cff",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v3-4x5.png",
+      "bytes": 909992,
+      "sha256": "8add84a9c259068a8f5c4b60cf13aefd22ee5b5f70e72dcc1cf06faf7ce90fdf",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v3-mobile-qa.png",
+      "bytes": 506863,
+      "sha256": "675f079c35fce4a72bda26c60c81070dc5fe2047e957460374f9be0a3b4dbe54",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [
+        "scripts/render-cover-v3.py"
+      ],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/qa/younglim-stepdoor-cover-v3-pixel-qa.json",
+      "bytes": 199,
+      "sha256": "9a02b59a8e79e392a1ec4f224d5039a19c4f5902e586b829c6e10cb1b82df45e",
+      "category": "B",
+      "reason": "최종 승인본의 최소 QA 증빙",
+      "final_source_refs": [],
+      "tracked": true,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/younglim-stepdoor-cover-v1.png",
+      "bytes": 1193812,
+      "sha256": "067178fd802693d78db47e3e93f8d4d4ad393289d14f98c70cf5ae5803a5be3b",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/younglim-stepdoor-cover-v2.png",
+      "bytes": 1286232,
+      "sha256": "d4c14897bc9f502dee83d11a319cb12be21286dff6e3d74caa2e70825f0044fa",
+      "category": "C",
+      "reason": "미채택 Cover 및 이전 QA; 최종 재현 입력 아님",
+      "final_source_refs": [],
+      "tracked": false,
+      "symlink": false
+    },
+    {
+      "path": "public/covers/younglim-stepdoor-cover-v3.png",
+      "bytes": 1282576,
+      "sha256": "57fa187048b0d24e9b27bd32295b33f41b3eeb4ac889c7306e4e6d027f61e588",
+      "category": "A",
+      "reason": "最終 승인 결과물/Scene/TTS (10월21일 기록 및 v8 조립)",
+      "final_source_refs": [
+        "scripts/render-cover-v3.py"
+      ],
+      "tracked": true,
+      "symlink": false
+    }
+  ]
+}

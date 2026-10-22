@@ -1,0 +1,27 @@
+{
+  "decoded_frames": 480,
+  "fps": 30,
+  "duration_seconds": 16,
+  "audio": "none; TTS not generated",
+  "baseline_unchanged": 35,
+  "entry_frame_source_MAE_RGB": 1.2426642875514404,
+  "boundaries_checked": [
+    0,
+    60,
+    119,
+    120,
+    128,
+    180,
+    239,
+    240,
+    248,
+    300,
+    359,
+    360,
+    368,
+    420,
+    479
+  ],
+  "timing": "temporary four 120-frame intervals; no TTS sync",
+  "video_sha256": "5fc45903b3ac6984e537b0b13b539082b8b9e495c8d0a1ce7d9c7afa4c7ab947"
+}

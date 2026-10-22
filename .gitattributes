@@ -45,3 +45,9 @@ projects/hidden-door-adjustment-shorts-v3/docs/research/hidden-door-younglim-cat
 projects/hidden-door-adjustment-shorts-v3/public/assets/video/IMG_3934.MOV filter=lfs diff=lfs merge=lfs -text
 projects/hidden-door-adjustment-shorts-v3/docs/research/hidden-door-younglim-official.pdf filter=lfs diff=lfs merge=lfs -text
 projects/hidden-door-adjustment-shorts-v3/public/assets/video/hidden-door-adjustment-preview-v3.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Approved handle replacement reproduction assets
+projects/doormaster-handle-replacement-v1/public/assets/video/IMG_3934.MOV filter=lfs diff=lfs merge=lfs -text
+projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-replacement-preview-v1.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-replacement-preview-v3.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-replacement-preview-v4.mp4 filter=lfs diff=lfs merge=lfs -text

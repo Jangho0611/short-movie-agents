@@ -1,0 +1,1404 @@
+{
+  "project": "doormaster-handle-replacement-v1",
+  "current_total_bytes": 538930299,
+  "node_modules_bytes_excluded_from_cleanup": 372088456,
+  "projected_total_bytes": 474062257,
+  "stats": {
+    "A": {
+      "files": 15,
+      "bytes": 21848696,
+      "tracked": 0
+    },
+    "B": {
+      "files": 18,
+      "bytes": 43807719,
+      "tracked": 0
+    },
+    "C": {
+      "files": 61,
+      "bytes": 64868042,
+      "tracked": 0
+    },
+    "D": {
+      "files": 6,
+      "bytes": 26308836,
+      "tracked": 0
+    }
+  },
+  "candidate_types": {
+    "/video/": {
+      "files": 7,
+      "bytes": 17101584
+    },
+    "/audio/": {
+      "files": 25,
+      "bytes": 5455484
+    },
+    "/images/": {
+      "files": 19,
+      "bytes": 35052753
+    },
+    "/covers/": {
+      "files": 10,
+      "bytes": 7258221
+    }
+  },
+  "finals": [
+    {
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v4.mp4",
+      "sha256": "d111f35cdbc100579cecbb01b8c10ef0ae91177c7a248fac2cd7740ee77bfe5e",
+      "bytes": 11215027
+    },
+    {
+      "path": "public/covers/doormaster-handle-replacement-cover-v3.png",
+      "sha256": "9a2e01af027e958021ba02f650ecc8910ddad86876e0d3262d24881bb9161c64",
+      "bytes": 1280267
+    },
+    {
+      "path": "docs/sns-upload-copy-v3.md",
+      "sha256": "3be69d5d0496a155dcd83d0964853f5fe21e999b625546b111f197f90682404c",
+      "bytes": 4403
+    }
+  ],
+  "rows": [
+    {
+      "path": "public/assets/audio/ending-approved-v3.mp3",
+      "filename": "ending-approved-v3.mp3",
+      "bytes": 19916,
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/daesan-ending/DaesanEnding.tsx"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v1.mp3",
+      "filename": "full-tts-qa-v1.mp3",
+      "bytes": 489644,
+      "sha256": "e9314cc1e18f5d4ad0fd09e4d0e8d831e3f394e63e8fe9082cacfc027c524c52",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v2.mp3",
+      "filename": "full-tts-qa-v2.mp3",
+      "bytes": 508844,
+      "sha256": "6cb5d8949f58d5591844b917226f6d959e15f7e13322182cb9cf899f5c9852eb",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v3.mp3",
+      "filename": "full-tts-qa-v3.mp3",
+      "bytes": 517004,
+      "sha256": "aae7df048672fd1114b0af3a6fb4cd7b59da227762a77f83e1e6e4a7407a493d",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v4.mp3",
+      "filename": "full-tts-qa-v4.mp3",
+      "bytes": 530444,
+      "sha256": "f7ed7dc12bdc2e1cfda1dec9664fb05258095e4738e32d9942d8fb2ea5128708",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v5.mp3",
+      "filename": "full-tts-qa-v5.mp3",
+      "bytes": 512684,
+      "sha256": "63c363dad2aec93a67baa7f3e1d6ecfb72617af35f998f41683409ed843375d9",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v6.mp3",
+      "filename": "full-tts-qa-v6.mp3",
+      "bytes": 534284,
+      "sha256": "a109388c2f502f1f8364eb2ae7c97d71cee78ec1406960007680eeb85c74c700",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v7.mp3",
+      "filename": "full-tts-qa-v7.mp3",
+      "bytes": 553964,
+      "sha256": "6d2b265116427b12d2b95eba84d2310bec0e063a65c3ad1e4de902e72d11c9b1",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v8.mp3",
+      "filename": "full-tts-qa-v8.mp3",
+      "bytes": 516524,
+      "sha256": "d8b6e9711e20d293623051a53492f815a0d2036a68beb219d70e6b491510b32d",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/full-tts-qa-v9.mp3",
+      "filename": "full-tts-qa-v9.mp3",
+      "bytes": 511724,
+      "sha256": "21a5daab6366bc83fd26ac17f14fcf31fddd627033898989ec35833d54f2a4af",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene01-tts-v1.mp3",
+      "filename": "scene01-tts-v1.mp3",
+      "bytes": 14784,
+      "sha256": "fbffa0eb0073ff460ed332ed8e604a3996801382cbd83e4b05ec6fec2ee479d0",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene02-tts-v1.mp3",
+      "filename": "scene02-tts-v1.mp3",
+      "bytes": 19296,
+      "sha256": "63da313b51c1c548605edae77171b7ccd77193d32ab0d1d546fd56525e5c6e28",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene03-tts-v1.mp3",
+      "filename": "scene03-tts-v1.mp3",
+      "bytes": 18624,
+      "sha256": "43abb9311f0d8ba4814f6999db8b705f5813eab32f014732767870254a00a533",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-part-a-tts-v4.mp3",
+      "filename": "scene04-part-a-tts-v4.mp3",
+      "bytes": 8736,
+      "sha256": "75db52c5871e06142a1fcf5b31e3d896f1e7b89e1adfc4453b7ea27f72ea4738",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-part-b-tts-v4.mp3",
+      "filename": "scene04-part-b-tts-v4.mp3",
+      "bytes": 8064,
+      "sha256": "32c9ba64bc05df48074c72b941244d11df2d9d84fcc233cedc110d78aa5ab177",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-part-c-tts-v4.mp3",
+      "filename": "scene04-part-c-tts-v4.mp3",
+      "bytes": 12672,
+      "sha256": "6ebe4ebdd628d9be91aabfc10f526803b42df6cd8038cc9e5d56e6de77f13e7b",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v1.mp3",
+      "filename": "scene04-tts-v1.mp3",
+      "bytes": 24576,
+      "sha256": "83d2855113f15d273fa1528b9f5cb98f1c52920eb940bf727f97ab9a65025481",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v2.mp3",
+      "filename": "scene04-tts-v2.mp3",
+      "bytes": 28416,
+      "sha256": "2fbf399ec39703e6c24d695239c1c75c5ba6f334fd3967f46252ed393443b6a0",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v3.mp3",
+      "filename": "scene04-tts-v3.mp3",
+      "bytes": 147404,
+      "sha256": "c73516eb1b4ec6a1b12371592b9088c4c97e7debcd0be63cc21988cc331a1919",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v4.mp3",
+      "filename": "scene04-tts-v4.mp3",
+      "bytes": 148844,
+      "sha256": "19737078f12fd78cdc82a2c163f17b14e3251e28c2fa157885d615a2ec3fce4e",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v5.mp3",
+      "filename": "scene04-tts-v5.mp3",
+      "bytes": 28224,
+      "sha256": "a2f3cce64543557dcc8294a7c88eac9138a0890ac3f0ff0d0e6b79bb7bb1fd0d",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v6.mp3",
+      "filename": "scene04-tts-v6.mp3",
+      "bytes": 32544,
+      "sha256": "8cd8381bf1af125d8fde634f5c6b7376dff865db591a28e36ac8745f0925b236",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v7.mp3",
+      "filename": "scene04-tts-v7.mp3",
+      "bytes": 38400,
+      "sha256": "dc3843f0c049a1789a21ba9abc82049299b75f5ff9ae650797988189d7d87f73",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v8.mp3",
+      "filename": "scene04-tts-v8.mp3",
+      "bytes": 30912,
+      "sha256": "5a245c6b49ba2f0ff9966bc7e3a9eb9df916f2e2bfe59abc635809b8e4f166fc",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene04-tts-v9.mp3",
+      "filename": "scene04-tts-v9.mp3",
+      "bytes": 29952,
+      "sha256": "95d189ff9421155183e942aaaa24bd4c45beaaab44334f06ca361ccff5c23f09",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene05-part-a-tts-v3.mp3",
+      "filename": "scene05-part-a-tts-v3.mp3",
+      "bytes": 9024,
+      "sha256": "f2d9b8422687acc0bccfd43cbbb70848900b859688d44d29720a72b9cc58ee75",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene05-part-b-tts-v3.mp3",
+      "filename": "scene05-part-b-tts-v3.mp3",
+      "bytes": 14592,
+      "sha256": "c0c1a7fd9cf383fae889c2c51ce36f1797168523215c4ed1900e019da5b588b1",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v1.mp3",
+      "filename": "scene05-tts-v1.mp3",
+      "bytes": 20352,
+      "sha256": "2c6dcfb6be2d7cbdd777431a185ca9096d44e1989172ac79734f524c086e9638",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v2.mp3",
+      "filename": "scene05-tts-v2.mp3",
+      "bytes": 108044,
+      "sha256": "6ec6082eb684477039e8c038647e1cd15475f29711b6a21659b9b7f5b184df54",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/correct-tts-breath-v3.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v3.mp3",
+      "filename": "scene05-tts-v3.mp3",
+      "bytes": 119564,
+      "sha256": "80352980fc7971b97c1f73f6974e9d34bd4db541f236413017bd0370c9c9c35a",
+      "category": "C",
+      "purpose_and_reason": "최종 선택 외 TTS/Part/통합 청취QA. 과거 문서 언급은 영구보존 사유 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/audio/scene05-tts-v4.mp3",
+      "filename": "scene05-tts-v4.mp3",
+      "bytes": 19392,
+      "sha256": "798753243314a7c12a9d27ad329d5c35111011fc420faa92c93da2a562374e5b",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/caption-after-patch-v1.png",
+      "filename": "caption-after-patch-v1.png",
+      "bytes": 120621,
+      "sha256": "cdd5d9fa4232199c048c9a00f0fe0ede03ef90e598cf41b2bc7c42175539217d",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/caption-removed-patch-v1.png",
+      "filename": "caption-removed-patch-v1.png",
+      "bytes": 116195,
+      "sha256": "3d0bcb5ac0a299b63b31a1ca8c338361b9f4dca8a3aed0a08deb91c217c49a82",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/domus511ni-official-components.jpg",
+      "filename": "domus511ni-official-components.jpg",
+      "bytes": 142329,
+      "sha256": "cf7fe2b1eb79144e9b47c39882d29ff44a71ff30668096a9f3d383acc5fa2a30",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/domus511ni-official-drawing.jpg",
+      "filename": "domus511ni-official-drawing.jpg",
+      "bytes": 44376,
+      "sha256": "c8a551234ad630b1d4f22a27759badd91fd4b96232c4994545614afb2aad11ae",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/domus511ni-official-manual.jpg",
+      "filename": "domus511ni-official-manual.jpg",
+      "bytes": 768275,
+      "sha256": "5f8f475baa2f9f53475964de5614c928536e6d5fd4ac9de7658983cfddabd6a3",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "src/Scene04InfoV2.tsx",
+        "src/Scene04InfoV1.tsx",
+        "src/scene04-simple-v3.tsx",
+        "src/Scene04PreviewV1.tsx",
+        "src/scene04-grid-v1.tsx",
+        "src/scene04-grid-v1-layout2.tsx"
+      ],
+      "final_source_literal_refs": [
+        "src/scene04-grid-v1-layout2.tsx"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/domus511ni-official-product.jpg",
+      "filename": "domus511ni-official-product.jpg",
+      "bytes": 166649,
+      "sha256": "b1814113ddca31121db3a65c83790a12553e1a60c5a542bf8553e0a27d2f2cf3",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/preview-caption-qa-v1.png",
+      "filename": "preview-caption-qa-v1.png",
+      "bytes": 497494,
+      "sha256": "8047a650c4c80722183498e2d206df1e92364c9acfa259fddfc0e7f7a67f937f",
+      "category": "B",
+      "purpose_and_reason": "최종 승인 화면의 최소 QA 증빙",
+      "approval_usage": "최종 QA",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/preview-v1-body-mobile-qa.png",
+      "filename": "preview-v1-body-mobile-qa.png",
+      "bytes": 1097817,
+      "sha256": "c1671ebdc85a53480cf925a82a8d86f5ba656ce7a77b62b681df4f3c4b9a9c9a",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/preview-v1-final-mobile-qa.png",
+      "filename": "preview-v1-final-mobile-qa.png",
+      "bytes": 2125335,
+      "sha256": "2f00bd6608341d89a8ccc40e31563705196eeb4c7235f8af048b46e32e50fb53",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/preview-v2-scene04-mobile-qa.png",
+      "filename": "preview-v2-scene04-mobile-qa.png",
+      "bytes": 325840,
+      "sha256": "b2239c9f4f804eea1edc9080e0a2190b677ddbd9bf7884f3730640663a739e83",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene01-before-candidate-v1.png",
+      "filename": "scene01-before-candidate-v1.png",
+      "bytes": 2609721,
+      "sha256": "b80d5b3912e83b9a4014e0bfaa9facb15bea20c80cc7c4ab51ef18078502a281",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-index-v1.tsx"
+      ],
+      "final_source_literal_refs": [
+        "src/preview-index-v1.tsx"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene01-before-candidate-v2.png",
+      "filename": "scene01-before-candidate-v2.png",
+      "bytes": 2392948,
+      "sha256": "222d60a3dd195eb547955a77e5009d95c2553f08b639e507c800f3541c785762",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene01-before-v1-v2-qa.png",
+      "filename": "scene01-before-v1-v2-qa.png",
+      "bytes": 5506482,
+      "sha256": "37e6dfb268b8c65952923e147a48a86e81d95ba3366c8ca4ba2f50e0689bbbf3",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene02-after-candidate-v1.png",
+      "filename": "scene02-after-candidate-v1.png",
+      "bytes": 2450791,
+      "sha256": "17fef2602293ed95a4dc1607a684fe62982a24e3f77668701c281887b0adf868",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-index-v1.tsx",
+        "src/caption-patch-v1.tsx",
+        "src/cover-v1.tsx",
+        "src/cover-v2.tsx",
+        "src/cover-v3.tsx"
+      ],
+      "final_source_literal_refs": [
+        "src/preview-index-v1.tsx",
+        "src/caption-patch-v1.tsx",
+        "src/cover-v3.tsx"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene02-before-after-qa-v1.png",
+      "filename": "scene02-before-after-qa-v1.png",
+      "bytes": 5486188,
+      "sha256": "9f03562ed06c63217e065d27ca839b37a8c22a0683ad489faf8682ba3d7d9c9c",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene03-full-frame-qa.png",
+      "filename": "scene03-full-frame-qa.png",
+      "bytes": 4669253,
+      "sha256": "c79eb0cec328120f5df3e75311ad60784a4fe3ea4f5fc7ac7124e02d34ec2995",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene03-handle-removed-candidate-v1.png",
+      "filename": "scene03-handle-removed-candidate-v1.png",
+      "bytes": 2528770,
+      "sha256": "dbcda4af0f05f3bbe2002986aec71e67a447695e6873eb468f2c73d9d145428f",
+      "category": "B",
+      "purpose_and_reason": "승인 Scene3 국소수정의 유일한 베이스/입력",
+      "approval_usage": "복원 원본",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene03-handle-removed-candidate-v2.png",
+      "filename": "scene03-handle-removed-candidate-v2.png",
+      "bytes": 2301147,
+      "sha256": "7f233978563beb43dbded7cf5358036366a28c16885ecafc9b1f90f484b8f36d",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/preview-index-v1.tsx",
+        "src/caption-patch-v1.tsx",
+        "src/Scene04InfoV2.tsx",
+        "src/Scene04InfoV1.tsx",
+        "src/scene04-simple-v3.tsx",
+        "src/Scene04PreviewV1.tsx",
+        "src/scene04-grid-v1.tsx",
+        "src/scene04-grid-v1-layout2.tsx"
+      ],
+      "final_source_literal_refs": [
+        "src/preview-index-v1.tsx",
+        "src/caption-patch-v1.tsx",
+        "src/scene04-grid-v1-layout2.tsx"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene03-position-edit-input-v2.png",
+      "filename": "scene03-position-edit-input-v2.png",
+      "bytes": 59228,
+      "sha256": "028ffaaecc00b1e7c5bc848aeceb8a65ad162c56b5ccce83ee22da73f8d10ab9",
+      "category": "B",
+      "purpose_and_reason": "승인 Scene3 국소수정의 유일한 베이스/입력",
+      "approval_usage": "복원 원본",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene03-position-qa-v2.png",
+      "filename": "scene03-position-qa-v2.png",
+      "bytes": 1847461,
+      "sha256": "57f7868014116616ce6e5a57282f626217bd4e20ca4a6d217413a91d1ab75754",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene03-qa-v1.png",
+      "filename": "scene03-qa-v1.png",
+      "bytes": 5733369,
+      "sha256": "a99cb637a631ac6ef62f4bfe8549c0ca299d83d76c9f2582891a165c3d61c58d",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-grid-qa-v1.png",
+      "filename": "scene04-grid-qa-v1.png",
+      "bytes": 130864,
+      "sha256": "11208087df25a2c7e0dbd87bf8b160b07d330619b3fc30e075239680b2f9722c",
+      "category": "B",
+      "purpose_and_reason": "최종 승인 화면의 최소 QA 증빙",
+      "approval_usage": "최종 QA",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-check-01.png",
+      "filename": "scene04-info-check-01.png",
+      "bytes": 1465350,
+      "sha256": "99adead757266aab700f18f86c1822409431a752eb74db46de6d0293ce55f699",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-check-02.png",
+      "filename": "scene04-info-check-02.png",
+      "bytes": 119701,
+      "sha256": "00c5a46d228a539a3989b5ee6171eb576b2f7fa0cdc1290378b7737ca9b1224c",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-check-03.png",
+      "filename": "scene04-info-check-03.png",
+      "bytes": 200107,
+      "sha256": "9193bf0898e9b0c796bfe9eb257f543f632d7c30ffe8ec4ec638412ed3b96b03",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-check-04.png",
+      "filename": "scene04-info-check-04.png",
+      "bytes": 1462902,
+      "sha256": "7b7577cfb066c9204401bba84b8acc67d35653ffd475157a4347116d44c874f3",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-final-backset-qa-v1.png",
+      "filename": "scene04-info-final-backset-qa-v1.png",
+      "bytes": 395211,
+      "sha256": "c36fce3f20ddd87ce4a6c8c50a8282121b5263627c2ac40c28d3383ef05e9356",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-mobile-qa-v1.png",
+      "filename": "scene04-info-mobile-qa-v1.png",
+      "bytes": 390352,
+      "sha256": "033acc2422774ce014ae67eb8e736a80bd67e4607062f7a73fe667ea133138df",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-info-qa-v1.png",
+      "filename": "scene04-info-qa-v1.png",
+      "bytes": 786597,
+      "sha256": "a2e66034b067c984c6cf1b2a88b40a6199fb2453ced6b5ca74a1e406b5b5d9cd",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-subtitle-reference-comparison-v2.png",
+      "filename": "scene04-subtitle-reference-comparison-v2.png",
+      "bytes": 181683,
+      "sha256": "834835ba70a1c2266eb15ef53079fb072ae58a0dd89f383d2a6c866d8c66f94c",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/scene04-subtitle-style-qa-v2.png",
+      "filename": "scene04-subtitle-style-qa-v2.png",
+      "bytes": 847927,
+      "sha256": "880e871885ddec4f8a65fed9fe83541c5f80cdc41de9673edd155880997fb4bd",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/images/tts-breath-source-waveform-v3.png",
+      "filename": "tts-breath-source-waveform-v3.png",
+      "bytes": 18230,
+      "sha256": "d142157b29d8e10a681d9cf58c542b639bd50ce5ffcc4cc61d72dbaeb02c660a",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/IMG_3934.MOV",
+      "filename": "IMG_3934.MOV",
+      "bytes": 19049859,
+      "sha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+      "filename": "daesan-headquarters-ending-approved-v1.mp4",
+      "bytes": 9346882,
+      "sha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/assemble-caption-preview-v1.py",
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v1.mp4",
+      "filename": "doormaster-handle-replacement-preview-v1.mp4",
+      "bytes": 11982428,
+      "sha256": "6f6d8bdf5adb8e1b87ea517369546a9be1d7994686cfd67431d5dec1eca636d6",
+      "category": "D",
+      "purpose_and_reason": "현재 최종 조립 연쇄의 입력. 승인 원음/Scene으로 독립 재현하도록 스크립트 정리 후에만 제거 검토",
+      "approval_usage": "코드 의존 해소 필요",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py",
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v2.mp4",
+      "filename": "doormaster-handle-replacement-preview-v2.mp4",
+      "bytes": 11628515,
+      "sha256": "9d532a12f333ee7b7a8a7365a2d56634711000a179059a67eaf8bcf2d46b150c",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v3.mp4",
+      "filename": "doormaster-handle-replacement-preview-v3.mp4",
+      "bytes": 11135432,
+      "sha256": "2c4ce6499f61200d7b765e25839f58b9a592a9642950edf39c6d26f6e74e26c5",
+      "category": "D",
+      "purpose_and_reason": "현재 최종 조립 연쇄의 입력. 승인 원음/Scene으로 독립 재현하도록 스크립트 정리 후에만 제거 검토",
+      "approval_usage": "코드 의존 해소 필요",
+      "current_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py",
+        "scripts/assemble-preview-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/doormaster-handle-replacement-preview-v4.mp4",
+      "filename": "doormaster-handle-replacement-preview-v4.mp4",
+      "bytes": 11215027,
+      "sha256": "d111f35cdbc100579cecbb01b8c10ef0ae91177c7a248fac2cd7740ee77bfe5e",
+      "category": "A",
+      "purpose_and_reason": "최종 사용자 승인 결과물",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/handle-body-visual-preview-v1.mp4",
+      "filename": "handle-body-visual-preview-v1.mp4",
+      "bytes": 2088097,
+      "sha256": "c26ae2c0fe4345febae4c2d32b79fd8b980bd679566fa101c7e71511b50a8913",
+      "category": "D",
+      "purpose_and_reason": "현재 최종 조립 연쇄의 입력. 승인 원음/Scene으로 독립 재현하도록 스크립트 정리 후에만 제거 검토",
+      "approval_usage": "코드 의존 해소 필요",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/headquarters-normal-speed-hold.mp4",
+      "filename": "headquarters-normal-speed-hold.mp4",
+      "bytes": 9039790,
+      "sha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+      "category": "B",
+      "purpose_and_reason": "승인 엔딩 원본/직접 의존 자산",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "src/daesan-ending/DaesanEnding.tsx"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene01-preview-v1.mp4",
+      "filename": "scene01-preview-v1.mp4",
+      "bytes": 353565,
+      "sha256": "b1d3014a75339b3ddff68eb8400cfe3a862257e4c6fc06c46bfc3ae8872dfa92",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py",
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene02-caption-preview-v1.mp4",
+      "filename": "scene02-caption-preview-v1.mp4",
+      "bytes": 391940,
+      "sha256": "8ae501d991c794d841ccdcd170cdabe26d69de48f3aa3ba324c86f4d27a90436",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene02-preview-v1.mp4",
+      "filename": "scene02-preview-v1.mp4",
+      "bytes": 367570,
+      "sha256": "dee460c7d4e15ed02ad3c0dc3465f97d712e2f0eb595dfffb2a4aa4f6a76f547",
+      "category": "D",
+      "purpose_and_reason": "현재 최종 조립 연쇄의 입력. 승인 원음/Scene으로 독립 재현하도록 스크립트 정리 후에만 제거 검토",
+      "approval_usage": "코드 의존 해소 필요",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene03-caption-preview-v1.mp4",
+      "filename": "scene03-caption-preview-v1.mp4",
+      "bytes": 392871,
+      "sha256": "ee151ff965f27dd7935aa8df7f1459e54b738864155ce953d6f949de67935535",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene03-preview-v1.mp4",
+      "filename": "scene03-preview-v1.mp4",
+      "bytes": 365750,
+      "sha256": "08e20831c095639b2d01cd661c22fbb2e96ee77451677afea4dcfd506762944a",
+      "category": "D",
+      "purpose_and_reason": "현재 최종 조립 연쇄의 입력. 승인 원음/Scene으로 독립 재현하도록 스크립트 정리 후에만 제거 검토",
+      "approval_usage": "코드 의존 해소 필요",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-grid-visual-layout2-v1.mp4",
+      "filename": "scene04-grid-visual-layout2-v1.mp4",
+      "bytes": 180970,
+      "sha256": "0823531cf47d5d79c4e15a2692b8665cca5af3973cdc708acac45d8d060126ab",
+      "category": "B",
+      "purpose_and_reason": "최종 공식 근거/캡션 또는 Scene4 재현 입력",
+      "approval_usage": "직접 입력",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v3.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-grid-visual-v1.mp4",
+      "filename": "scene04-grid-visual-v1.mp4",
+      "bytes": 178739,
+      "sha256": "4c6a8e320eca3980e71d9230366b07935e5415687da5df51113cd30b219c3c93",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-info-preview-v1.mp4",
+      "filename": "scene04-info-preview-v1.mp4",
+      "bytes": 1242972,
+      "sha256": "5fc45903b3ac6984e537b0b13b539082b8b9e495c8d0a1ce7d9c7afa4c7ab947",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-info-preview-v2.mp4",
+      "filename": "scene04-info-preview-v2.mp4",
+      "bytes": 1309088,
+      "sha256": "4a21c94a01093e0363a83d4d831fc6ed4a8532bbbcdd841dd72bbc58490e7c2d",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-info-preview-v3.mp4",
+      "filename": "scene04-info-preview-v3.mp4",
+      "bytes": 846651,
+      "sha256": "015cd62f70d7dee53e7533a7550d82c249754098a6372006e1549de9bfe3a50b",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-info-preview-v4.mp4",
+      "filename": "scene04-info-preview-v4.mp4",
+      "bytes": 353656,
+      "sha256": "f32af8754ea986363ca15099917cb76e4627805c7698cb515d1f2a6276d473eb",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py",
+        "scripts/assemble-preview-v3.py"
+      ],
+      "final_source_literal_refs": [
+        "scripts/assemble-caption-preview-v1.py"
+      ],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-preview-v1.mp4",
+      "filename": "scene04-preview-v1.mp4",
+      "bytes": 1200766,
+      "sha256": "ace263cada28f08576edbfabf032baf2178ec954e1e143fc4bb947e8e9338da8",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene04-simple-visual-v3.mp4",
+      "filename": "scene04-simple-visual-v3.mp4",
+      "bytes": 694853,
+      "sha256": "538c8ccdcc5ba1210c53644ecb9db4d0a790c0e7be1bc5243d00c6d3f80e5093",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene05-caption-preview-v1.mp4",
+      "filename": "scene05-caption-preview-v1.mp4",
+      "bytes": 397663,
+      "sha256": "cf7b2c87c0aba9bd68ab2fa2eaacfb7ad98832c732de4aae04e9c0c68e7caf67",
+      "category": "A",
+      "purpose_and_reason": "최종 Scene별 영상/이미지/선택 TTS",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/assets/video/scene05-preview-v1.mp4",
+      "filename": "scene05-preview-v1.mp4",
+      "bytes": 369559,
+      "sha256": "89f1d09a2da0011e681882ef02b4b888590f2429373e10387b7b85c5e15269a2",
+      "category": "D",
+      "purpose_and_reason": "현재 최종 조립 연쇄의 입력. 승인 원음/Scene으로 독립 재현하도록 스크립트 정리 후에만 제거 검토",
+      "approval_usage": "코드 의존 해소 필요",
+      "current_source_literal_refs": [
+        "scripts/assemble-preview-v3.py",
+        "scripts/assemble-preview-v2.py"
+      ],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/doormaster-handle-replacement-cover-v1.png",
+      "filename": "doormaster-handle-replacement-cover-v1.png",
+      "bytes": 1281225,
+      "sha256": "2ff5c60ee06d49226eda9c35e527467046c76641875adcf586c44d45b158098f",
+      "category": "C",
+      "purpose_and_reason": "미승인/대체된 Cover 후보; 최종v3와 소스 보존으로 충분",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/doormaster-handle-replacement-cover-v2.png",
+      "filename": "doormaster-handle-replacement-cover-v2.png",
+      "bytes": 1279981,
+      "sha256": "b897796dbe792abf5020e39db19376105344991741d59169c907e4ff0e998498",
+      "category": "C",
+      "purpose_and_reason": "미승인/대체된 Cover 후보; 최종v3와 소스 보존으로 충분",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/doormaster-handle-replacement-cover-v3.png",
+      "filename": "doormaster-handle-replacement-cover-v3.png",
+      "bytes": 1280267,
+      "sha256": "9a2e01af027e958021ba02f650ecc8910ddad86876e0d3262d24881bb9161c64",
+      "category": "A",
+      "purpose_and_reason": "최종 사용자 승인 결과물",
+      "approval_usage": "최종 사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v1-3x4.png",
+      "filename": "cover-v1-3x4.png",
+      "bytes": 717610,
+      "sha256": "c7e3fac678334105fa546885e2bac523b070629d58fad0674110495f7981e017",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v1-4x5.png",
+      "filename": "cover-v1-4x5.png",
+      "bytes": 682657,
+      "sha256": "ae576e3935fa33e21c5a571c7571611701eed6c1d3bb172bc8365e6b06e73dca",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v1-mobile-comparison.png",
+      "filename": "cover-v1-mobile-comparison.png",
+      "bytes": 198355,
+      "sha256": "c219a5ba8e0e966436c7d1349e0ee4b9a5802452f711793309f5a1d70fce08b6",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v1-reference-same-scale.png",
+      "filename": "cover-v1-reference-same-scale.png",
+      "bytes": 942037,
+      "sha256": "9388b68007058027b62c6ae1cd5f080e93190b1058e62f86addc1cb8bfb372a6",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v1-v2-comparison.png",
+      "filename": "cover-v1-v2-comparison.png",
+      "bytes": 378803,
+      "sha256": "512492c1fb9e102c5b9c4eb979f99756f75154670c6b366b936ff6cd7e80706e",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v2-3x4.png",
+      "filename": "cover-v2-3x4.png",
+      "bytes": 716602,
+      "sha256": "021bc4f6d987f6069d42990be7376bdcd2dd37916df91e8383f68257d2f30830",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v2-4x5.png",
+      "filename": "cover-v2-4x5.png",
+      "bytes": 681627,
+      "sha256": "5f0d44cf63ccd2c0ee967da969636c4e633f27407a944684d6dd7ba784d76a2f",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v2-v3-comparison.png",
+      "filename": "cover-v2-v3-comparison.png",
+      "bytes": 379324,
+      "sha256": "9ecfe92765f07ac799df0d4a92b9cd82e990e791fba7f1d4c4006bb821ab7a34",
+      "category": "C",
+      "purpose_and_reason": "과거 실패/시험/대체된 이미지·영상·비교QA; 최종 입력 아님",
+      "approval_usage": "최종 미사용",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v3-3x4.png",
+      "filename": "cover-v3-3x4.png",
+      "bytes": 716519,
+      "sha256": "0e6dc844f2eaa8db3a47ea983d2ca896a8249f40e320c7f382b85f0b01e025f8",
+      "category": "B",
+      "purpose_and_reason": "최종 Cover의 최소 크롭/모바일 QA",
+      "approval_usage": "최종 QA",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v3-4x5.png",
+      "filename": "cover-v3-4x5.png",
+      "bytes": 681514,
+      "sha256": "472a016a386e867411522fdcc613bd0b25d6b262aae0945a08bb6a4a294974d6",
+      "category": "B",
+      "purpose_and_reason": "최종 Cover의 최소 크롭/모바일 QA",
+      "approval_usage": "최종 QA",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    },
+    {
+      "path": "public/covers/qa/cover-v3-mobile.png",
+      "filename": "cover-v3-mobile.png",
+      "bytes": 197468,
+      "sha256": "090d35bd8175a8e2474fd35131df61a3dc41e9bbe60e7085f6743b4b14763c4d",
+      "category": "B",
+      "purpose_and_reason": "최종 Cover의 최소 크롭/모바일 QA",
+      "approval_usage": "최종 QA",
+      "current_source_literal_refs": [],
+      "final_source_literal_refs": [],
+      "git_tracked": false
+    }
+  ],
+  "issues": [
+    "최종 assemble-caption-preview-v1.py는 Preview v3 오디오와 구 Scene 입력 사용. Preview v3→v1 의존 연쇄를 승인원음/최종Scene으로 단순화하기 전 D 6개는 이동 금지. 이번엔 소스 수정 안 함.",
+    "기존 cleanup-final-review-v1의 과거 QA 언급/실패 이력만으로 보존한 판단은 철회. 비결정적 생성도 최종 사용/유일 원본이 아니면 후보 가능."
+  ],
+  "git_status": "?? projects/doormaster-handle-replacement-v1/\n"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "public/assets/images/domus511ni-official-product.jpg",
+    "sha256": "b1814113ddca31121db3a65c83790a12553e1a60c5a542bf8553e0a27d2f2cf3",
+    "bytes": 166649
+  },
+  {
+    "file": "public/assets/images/domus511ni-official-drawing.jpg",
+    "sha256": "c8a551234ad630b1d4f22a27759badd91fd4b96232c4994545614afb2aad11ae",
+    "bytes": 44376
+  },
+  {
+    "file": "public/assets/images/domus511ni-official-manual.jpg",
+    "sha256": "5f8f475baa2f9f53475964de5614c928536e6d5fd4ac9de7658983cfddabd6a3",
+    "bytes": 768275
+  }
+]

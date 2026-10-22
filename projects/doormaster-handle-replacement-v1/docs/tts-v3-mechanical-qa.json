@@ -1,0 +1,154 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "rate": 1,
+  "pitch": "omitted",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "scene01-tts-v1.mp3",
+      "ffprobe_seconds": 3.696,
+      "pcm_seconds": 3.696,
+      "leading_silence": 0.405958,
+      "trailing_silence": 0.2386250000000003,
+      "silences": [
+        [
+          0.0,
+          0.405958
+        ],
+        [
+          3.457375,
+          3.696
+        ]
+      ],
+      "peak_dbfs": -3.0668923133188986,
+      "rms_dbfs": -19.37775962107742,
+      "clipped_samples": 0,
+      "sha256": "fbffa0eb0073ff460ed332ed8e604a3996801382cbd83e4b05ec6fec2ee479d0"
+    },
+    {
+      "scene": 2,
+      "file": "scene02-tts-v1.mp3",
+      "ffprobe_seconds": 4.824,
+      "pcm_seconds": 4.824,
+      "leading_silence": 0.364125,
+      "trailing_silence": 0.24774999999999991,
+      "silences": [
+        [
+          0.0,
+          0.364125
+        ],
+        [
+          1.230167,
+          1.758333
+        ],
+        [
+          2.751,
+          3.013458
+        ],
+        [
+          4.57625,
+          4.824
+        ]
+      ],
+      "peak_dbfs": -0.43454131997042544,
+      "rms_dbfs": -20.030175056625236,
+      "clipped_samples": 0,
+      "sha256": "63da313b51c1c548605edae77171b7ccd77193d32ab0d1d546fd56525e5c6e28"
+    },
+    {
+      "scene": 3,
+      "file": "scene03-tts-v1.mp3",
+      "ffprobe_seconds": 4.656,
+      "pcm_seconds": 4.656,
+      "leading_silence": 0.544292,
+      "trailing_silence": 0.19608299999999979,
+      "silences": [
+        [
+          0.0,
+          0.544292
+        ],
+        [
+          0.964625,
+          1.278375
+        ],
+        [
+          2.259,
+          2.364958
+        ],
+        [
+          3.697917,
+          4.011125
+        ],
+        [
+          4.459917,
+          4.656
+        ]
+      ],
+      "peak_dbfs": -0.9228697905709987,
+      "rms_dbfs": -18.909221609894825,
+      "clipped_samples": 0,
+      "sha256": "43abb9311f0d8ba4814f6999db8b705f5813eab32f014732767870254a00a533"
+    },
+    {
+      "scene": 4,
+      "file": "scene04-tts-v1.mp3",
+      "ffprobe_seconds": 6.144,
+      "pcm_seconds": 6.144,
+      "leading_silence": 0.241,
+      "trailing_silence": 0.22633300000000034,
+      "silences": [
+        [
+          0.0,
+          0.241
+        ],
+        [
+          2.801,
+          3.158292
+        ],
+        [
+          5.917667,
+          6.144
+        ]
+      ],
+      "peak_dbfs": -3.2897029403323925,
+      "rms_dbfs": -20.001672373505002,
+      "clipped_samples": 0,
+      "sha256": "83d2855113f15d273fa1528b9f5cb98f1c52920eb940bf727f97ab9a65025481"
+    },
+    {
+      "scene": 5,
+      "file": "scene05-tts-v1.mp3",
+      "ffprobe_seconds": 5.088,
+      "pcm_seconds": 5.088,
+      "leading_silence": 0.608792,
+      "trailing_silence": 0.21274999999999977,
+      "silences": [
+        [
+          0.0,
+          0.608792
+        ],
+        [
+          2.509708,
+          2.837833
+        ],
+        [
+          3.482667,
+          3.597542
+        ],
+        [
+          4.87525,
+          5.088
+        ]
+      ],
+      "peak_dbfs": -2.604740557505261,
+      "rms_dbfs": -20.42300561471414,
+      "clipped_samples": 0,
+      "sha256": "2c6dcfb6be2d7cbdd777431a185ca9096d44e1989172ac79734f524c086e9638"
+    }
+  ],
+  "joined_pcm_seconds": 24.408,
+  "full_ffprobe_seconds": 24.408,
+  "full_loudness_ebur128": "Summary:\n\n  Integrated loudness:\n    I:         -20.5 LUFS\n    Threshold: -30.8 LUFS\n\n  Loudness range:\n    LRA:         3.0 LU\n    Threshold: -40.9 LUFS\n    LRA low:   -22.4 LUFS\n    LRA high:  -19.3 LUFS\n\n  True peak:\n    Peak:       -0.9 dBFS\n[out#0/null @ 0x75ef02c240] video:0KiB audio:1144KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:24.40 bitrate=N/A speed= 514x elapsed=0:00:00.04    \n",
+  "baseline_unchanged": 52,
+  "full_sha256": "e9314cc1e18f5d4ad0fd09e4d0e8d831e3f394e63e8fe9082cacfc027c524c52"
+}

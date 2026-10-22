@@ -1,0 +1,158 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "rate": 1,
+  "pitch": "omitted",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "scene01-tts-v1.mp3",
+      "duration": 3.696,
+      "leading": 0.405958,
+      "trailing": 0.2386250000000003,
+      "silences": [
+        [
+          0.0,
+          0.405958
+        ],
+        [
+          3.457375,
+          3.696
+        ]
+      ],
+      "peak_dbfs": -3.0668923133188986,
+      "clipped_samples": 0,
+      "lufs": -19.6,
+      "true_peak": -3.0,
+      "sha256": "fbffa0eb0073ff460ed332ed8e604a3996801382cbd83e4b05ec6fec2ee479d0",
+      "frames": 111
+    },
+    {
+      "scene": 2,
+      "file": "scene02-tts-v1.mp3",
+      "duration": 4.824,
+      "leading": 0.364125,
+      "trailing": 0.24774999999999991,
+      "silences": [
+        [
+          0.0,
+          0.364125
+        ],
+        [
+          1.230167,
+          1.758333
+        ],
+        [
+          2.751,
+          3.013458
+        ],
+        [
+          4.57625,
+          4.824
+        ]
+      ],
+      "peak_dbfs": -0.43454131997042544,
+      "clipped_samples": 0,
+      "lufs": -20.1,
+      "true_peak": -0.4,
+      "sha256": "63da313b51c1c548605edae77171b7ccd77193d32ab0d1d546fd56525e5c6e28",
+      "frames": 145
+    },
+    {
+      "scene": 3,
+      "file": "scene03-tts-v1.mp3",
+      "duration": 4.656,
+      "leading": 0.544292,
+      "trailing": 0.19608299999999979,
+      "silences": [
+        [
+          0.0,
+          0.544292
+        ],
+        [
+          0.964625,
+          1.278375
+        ],
+        [
+          2.259,
+          2.364958
+        ],
+        [
+          3.697917,
+          4.011125
+        ],
+        [
+          4.459917,
+          4.656
+        ]
+      ],
+      "peak_dbfs": -0.9228697905709987,
+      "clipped_samples": 0,
+      "lufs": -18.8,
+      "true_peak": -0.9,
+      "sha256": "43abb9311f0d8ba4814f6999db8b705f5813eab32f014732767870254a00a533",
+      "frames": 140
+    },
+    {
+      "scene": 4,
+      "file": "scene04-tts-v2.mp3",
+      "duration": 7.104,
+      "leading": 0.625167,
+      "trailing": 0.3053330000000001,
+      "silences": [
+        [
+          0.0,
+          0.625167
+        ],
+        [
+          3.1935,
+          3.770958
+        ],
+        [
+          6.798667,
+          7.104
+        ]
+      ],
+      "peak_dbfs": -1.8588433818328463,
+      "clipped_samples": 0,
+      "lufs": -19.7,
+      "true_peak": -1.9,
+      "sha256": "2fbf399ec39703e6c24d695239c1c75c5ba6f334fd3967f46252ed393443b6a0",
+      "frames": 214
+    },
+    {
+      "scene": 5,
+      "file": "scene05-tts-v1.mp3",
+      "duration": 5.088,
+      "leading": 0.608792,
+      "trailing": 0.21274999999999977,
+      "silences": [
+        [
+          0.0,
+          0.608792
+        ],
+        [
+          2.509708,
+          2.837833
+        ],
+        [
+          3.482667,
+          3.597542
+        ],
+        [
+          4.87525,
+          5.088
+        ]
+      ],
+      "peak_dbfs": -2.604740557505261,
+      "clipped_samples": 0,
+      "lufs": -20.6,
+      "true_peak": -2.6,
+      "sha256": "2c6dcfb6be2d7cbdd777431a185ca9096d44e1989172ac79734f524c086e9638",
+      "frames": 153
+    }
+  ],
+  "full_duration": 25.368,
+  "full_loudness": "Summary:\n\n  Integrated loudness:\n    I:         -20.3 LUFS\n    Threshold: -30.7 LUFS\n\n  Loudness range:\n    LRA:         3.1 LU\n    Threshold: -40.8 LUFS\n    LRA low:   -22.4 LUFS\n    LRA high:  -19.3 LUFS\n\n  True peak:\n    Peak:       -0.9 dBFS\n[out#0/null @ 0x7c38c046c0] video:0KiB audio:1189KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:25.36 bitrate=N/A speed= 551x elapsed=0:00:00.04    \n",
+  "full_sha256": "6cb5d8949f58d5591844b917226f6d959e15f7e13322182cb9cf899f5c9852eb",
+  "preserved_files": 58
+}

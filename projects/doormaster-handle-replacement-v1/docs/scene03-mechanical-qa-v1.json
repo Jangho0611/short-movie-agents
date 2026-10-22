@@ -1,0 +1,23 @@
+{
+  "baseline_unchanged_files": 26,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "qa_dimensions": [
+    2160,
+    2700
+  ],
+  "background_sample_MAE_RGB_0_255": {
+    "wall": 6.237,
+    "upper_door": 1.861,
+    "lower_door": 1.604,
+    "floor": 3.097
+  },
+  "sha256": {
+    "scene03-qa-v1.png": "a99cb637a631ac6ef62f4bfe8549c0ca299d83d76c9f2582891a165c3d61c58d",
+    "scene03-handle-removed-candidate-v1.png": "dbcda4af0f05f3bbe2002986aec71e67a447695e6873eb468f2c73d9d145428f"
+  },
+  "generation_count": 1,
+  "compatibility": "unverified"
+}
