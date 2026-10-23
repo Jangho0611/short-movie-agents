@@ -1,0 +1,109 @@
+{
+  "duration": 22.814791666666668,
+  "format": "24kHz mono PCM16 WAV",
+  "timeline": [
+    {
+      "file": "scene01-tts-v5.wav",
+      "start": 0.0,
+      "end": 3.0509583333333334
+    },
+    {
+      "file": "scene02-tts-v1.wav",
+      "start": 3.0509583333333334,
+      "end": 8.421916666666666
+    },
+    {
+      "file": "scene03-tts-v1.wav",
+      "start": 8.421916666666666,
+      "end": 12.632875
+    },
+    {
+      "file": "scene04-tts-v1.wav",
+      "start": 12.632875,
+      "end": 17.603833333333334
+    },
+    {
+      "file": "scene05-tts-v1.wav",
+      "start": 17.603833333333334,
+      "end": 22.814791666666668
+    }
+  ],
+  "boundary_silence": [
+    {
+      "at": 3.0509583333333334,
+      "detected_silence": [
+        {
+          "start": 2.89175,
+          "end": 3.349792,
+          "duration": 0.458042
+        }
+      ]
+    },
+    {
+      "at": 8.421916666666666,
+      "detected_silence": [
+        {
+          "start": 8.174625,
+          "end": 8.684625,
+          "duration": 0.51
+        }
+      ]
+    },
+    {
+      "at": 12.632875,
+      "detected_silence": [
+        {
+          "start": 12.537667,
+          "end": 12.911708,
+          "duration": 0.374042
+        }
+      ]
+    },
+    {
+      "at": 17.603833333333334,
+      "detected_silence": [
+        {
+          "start": 17.523375,
+          "end": 17.882667,
+          "duration": 0.359292
+        }
+      ]
+    }
+  ],
+  "added_silence": 0,
+  "pcm_bit_identical_to_concatenated_sources": true,
+  "decode_exit_code": 0,
+  "decode_errors": "",
+  "full_scale_samples": {
+    "scene01-tts-v5.wav": {
+      "full_scale_samples": 0
+    },
+    "scene02-tts-v1.wav": {
+      "full_scale_samples": 14
+    },
+    "scene03-tts-v1.wav": {
+      "full_scale_samples": 0
+    },
+    "scene04-tts-v1.wav": {
+      "full_scale_samples": 0
+    },
+    "scene05-tts-v1.wav": {
+      "full_scale_samples": 0
+    }
+  },
+  "preexisting_audio_preserved": true,
+  "api_synthesis_calls": 4,
+  "model": "gemini-2.5-flash-tts",
+  "voice": "Alnilam",
+  "language": "ko-KR",
+  "cost_estimates_output_usd": {
+    "scene02-tts-v1.wav": 0.0013427395833333334,
+    "scene03-tts-v1.wav": 0.0010527395833333333,
+    "scene04-tts-v1.wav": 0.0012427395833333333,
+    "scene05-tts-v1.wav": 0.0013027395833333333
+  },
+  "total_estimated_output_usd": 0.004940958333333333,
+  "input_cost": "additional $0.50/1M text tokens; response metadata empty, actual token usage and billed cost unavailable",
+  "subjective_approval": "pending user integrated listening; scene01 v5 approved",
+  "warning": "Scene02 full-scale samples and +0.1dBTP; no gain changes or regeneration applied"
+}

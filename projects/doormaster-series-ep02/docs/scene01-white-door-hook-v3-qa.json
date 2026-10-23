@@ -1,0 +1,24 @@
+{
+  "status": "pending_user_image_approval",
+  "classification": "AI situation reenactment, not actual product photography",
+  "tool": "image_gen.imagegen",
+  "model": "not exposed by tool",
+  "generation_calls": 1,
+  "source_size": [941, 1672],
+  "final_size": [1080, 1920],
+  "output": "public/assets/images/scene01-white-door-hook-v3.png",
+  "original_generation": "public/assets/images/scene01-white-door-hook-v3-source.png",
+  "comparison": "public/assets/images/scene01-white-door-hook-v3-comparison-qa.png",
+  "comparison_order": ["v2", "v3", "user real installation reference"],
+  "reference": "/var/folders/vl/ns6fbyvj0t98rvmnwghk2ck00000gn/T/codex-clipboard-59f2f8bf-f404-4294-80b3-c49f2cb204fa.png",
+  "conversion": "Proportional Lanczos enlargement and minimal center crop to exact 9:16; generated original preserved",
+  "visual_review": {
+    "casing": "Substantially narrower sides and top; raised broad rectangular casing removed. Appearance closer to real reference. Top and sides remain visually coherent.",
+    "junction": "Generally plausible thin perimeter; small lower casing/baseboard junctions remain visible and require user judgment.",
+    "bore": "Single bore remains at visually matching position and size; no installed handle or additional holes. Pixel identity not established.",
+    "room": "Door proportions, room, camera viewpoint and daylight broadly retained. Fine wall/floor texture and edge differences remain due to generative editing.",
+    "artifacts": "No conspicuous extra objects, lettering or broken geometry at review scale. Pixel-perfect local edit is not claimed.",
+    "dimensions": "Exact 9mm dimension and internal structure are NOT verified or marked PASS."
+  },
+  "source_preservation": "Existing v1/v2 and previous generated originals untouched; no automatic regeneration"
+}

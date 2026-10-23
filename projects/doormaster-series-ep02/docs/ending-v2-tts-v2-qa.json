@@ -1,0 +1,107 @@
+{
+  "scene05-tts-v1.wav": {
+    "duration": 5.210958333333333,
+    "sample_rate": 24000,
+    "bits": 16,
+    "channels": 1,
+    "silences": [
+      [
+        0.0,
+        0.199542
+      ],
+      [
+        2.658833,
+        2.909542
+      ],
+      [
+        5.033375,
+        5.210958
+      ]
+    ],
+    "silence_ge_1s": [],
+    "lufs": -16.7,
+    "true_peak_dbfs": -2.2,
+    "sample_peak_dbfs": -2.242469462842708,
+    "rms_dbfs": -16.827612780633274,
+    "active_rms_dbfs": -16.27008725307396,
+    "full_scale_samples": 0,
+    "decode_exit": 0,
+    "decode_error": "",
+    "sha256": "34dd01f4f613993d026370a524e122657ebe798b6303a6df6dd4b9d8b65e223d"
+  },
+  "ending-gemini-alnilam-v2-tts-v2.wav": {
+    "duration": 3.5709583333333335,
+    "sample_rate": 24000,
+    "bits": 16,
+    "channels": 1,
+    "silences": [
+      [
+        0.0,
+        0.193958
+      ],
+      [
+        1.881917,
+        2.045292
+      ],
+      [
+        3.38575,
+        3.570958
+      ]
+    ],
+    "silence_ge_1s": [],
+    "lufs": -15.1,
+    "true_peak_dbfs": -1.1,
+    "sample_peak_dbfs": -1.2377398172242187,
+    "rms_dbfs": -15.001810641847344,
+    "active_rms_dbfs": -14.286276901415548,
+    "full_scale_samples": 0,
+    "decode_exit": 0,
+    "decode_error": "",
+    "sha256": "bce42b8fa5b90a04019164379ef4451ac23d539cd7defd538bc844ef513360aa"
+  },
+  "scene05-ending-v2-tts-qa-v2.wav": {
+    "duration": 8.804291666666666,
+    "sample_rate": 24000,
+    "bits": 16,
+    "channels": 1,
+    "silences": [
+      [
+        0.0,
+        0.199542
+      ],
+      [
+        2.658833,
+        2.909542
+      ],
+      [
+        5.033375,
+        5.427292
+      ],
+      [
+        7.11525,
+        7.278625
+      ],
+      [
+        8.619083,
+        8.804292
+      ]
+    ],
+    "silence_ge_1s": [],
+    "lufs": -16.0,
+    "true_peak_dbfs": -1.1,
+    "sample_peak_dbfs": -1.2377398172242187,
+    "rms_dbfs": -16.001864644132993,
+    "active_rms_dbfs": -15.369635296980196,
+    "full_scale_samples": 0,
+    "decode_exit": 0,
+    "decode_error": "",
+    "sha256": "c0f1f2f28f13cc6bda706ef1d1a973a951c0cf00d61e1b4533554941681c42e9"
+  },
+  "transition": {
+    "ending_start": 5.233333333333333,
+    "added_padding_samples": 537,
+    "added_padding_seconds": 0.022375
+  },
+  "synthesis_calls": 1,
+  "status": "Local ASR finds one target sentence, no style prompt or repetition. ASR spells \uc790\uc7ac as \uc790\uc81c; exact pronunciation and subjective quality require user listening. No retry, gain change, trimming or acceleration."
+}

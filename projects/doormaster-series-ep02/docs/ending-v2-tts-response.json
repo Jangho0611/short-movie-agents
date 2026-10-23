@@ -1,0 +1,11 @@
+{
+  "format": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "frames": 734663,
+    "duration": 30.610958333333333
+  },
+  "sha256": "2605ab9425c41f2a8c1d1701ea52b41bd0a1be8695f8d191fd15eb807754ab52",
+  "metadata": {}
+}

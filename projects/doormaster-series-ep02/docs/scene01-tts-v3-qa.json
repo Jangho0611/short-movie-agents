@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "version": 1,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "2.904000",
+          "size": "11616"
+        }
+      },
+      "decode_exit_code": 0,
+      "decode_errors": "",
+      "silence_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.414917,
+          "duration": 0.414917
+        },
+        {
+          "start": 2.63475,
+          "end": 2.904,
+          "duration": 0.26925
+        }
+      ],
+      "sha256": "77dd1567ff869980df8a5efc07423641eedc8db46442ef1d2a784e8b783abf09"
+    },
+    {
+      "version": 2,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "4.008000",
+          "size": "16032"
+        }
+      },
+      "decode_exit_code": 0,
+      "decode_errors": "",
+      "silence_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.726292,
+          "duration": 0.726292
+        },
+        {
+          "start": 1.814625,
+          "end": 2.999458,
+          "duration": 1.184833
+        },
+        {
+          "start": 3.799292,
+          "end": 4.008,
+          "duration": 0.208708
+        }
+      ],
+      "sha256": "633fdd2a84392c9848172bfee463ea6bc0b2832fcf2c8fbf6fcd0f61774ab539"
+    },
+    {
+      "version": 3,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "3.840000",
+          "size": "15360"
+        }
+      },
+      "decode_exit_code": 0,
+      "decode_errors": "",
+      "silence_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.323208,
+          "duration": 0.323208
+        },
+        {
+          "start": 1.677458,
+          "end": 2.037875,
+          "duration": 0.360417
+        },
+        {
+          "start": 3.552708,
+          "end": 3.84,
+          "duration": 0.287292
+        }
+      ],
+      "sha256": "3d1ead2e19433361e102c4c9cc1dc65c21a876d0badbc1fbe0c46796506ea8c0"
+    }
+  ],
+  "silence_threshold": "-30dB, minimum 0.1s",
+  "long_silence_review_threshold_seconds": 1.0,
+  "subjective_qa": "Awaiting user listening approval; emotion, pronunciation, intonation, naturalness not automatically passed",
+  "cost": {
+    "billable_generation": true,
+    "successful_synthesis_calls": 1,
+    "actual_billed_amount": "unavailable; response contained no usage metadata",
+    "estimated_output_usd": 0.00096,
+    "input_cost": "additional, $0.50/1M text tokens; actual count unavailable"
+  },
+  "v1_v2_preserved": true,
+  "slim_copy_26_hashes_preserved": true
+}

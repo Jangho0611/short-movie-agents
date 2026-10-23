@@ -1,0 +1,157 @@
+[
+  {
+    "file": "scene01-tts-v5.wav",
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "duration": 3.0509583333333334,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.23225,
+        "duration": 0.23225
+      },
+      {
+        "start": 1.418958,
+        "end": 1.581208,
+        "duration": 0.16225
+      },
+      {
+        "start": 2.89175,
+        "end": 3.050958,
+        "duration": 0.159208
+      }
+    ],
+    "silence_ge_1s": false,
+    "sample_peak_dbfs": -1.025171286374367,
+    "true_peak_dbfs": -0.6,
+    "decode": "no errors",
+    "sha256": "29d616a6c0e614493ff4b971f359c3ec93a8a2e9ca09e86c61759ec2e77ae9ec"
+  },
+  {
+    "file": "scene02-tts-v1.wav",
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "duration": 5.370958333333333,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.298833,
+        "duration": 0.298833
+      },
+      {
+        "start": 1.20625,
+        "end": 1.492292,
+        "duration": 0.286042
+      },
+      {
+        "start": 2.673875,
+        "end": 2.776917,
+        "duration": 0.103042
+      },
+      {
+        "start": 2.939333,
+        "end": 3.379542,
+        "duration": 0.440208
+      },
+      {
+        "start": 5.123667,
+        "end": 5.370958,
+        "duration": 0.247292
+      }
+    ],
+    "silence_ge_1s": false,
+    "sample_peak_dbfs": 0.0,
+    "true_peak_dbfs": 0.1,
+    "decode": "no errors",
+    "sha256": "8e780cb45fb4ebb91c9d128f7ab4449a7db2ca89808d5193355c8aa42d5e1526"
+  },
+  {
+    "file": "scene03-tts-v1.wav",
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "duration": 4.210958333333333,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.262708,
+        "duration": 0.262708
+      },
+      {
+        "start": 0.802167,
+        "end": 1.101125,
+        "duration": 0.298958
+      },
+      {
+        "start": 2.324208,
+        "end": 2.504042,
+        "duration": 0.179833
+      }
+    ],
+    "silence_ge_1s": false,
+    "sample_peak_dbfs": -0.6881764047603838,
+    "true_peak_dbfs": -0.6,
+    "decode": "no errors",
+    "sha256": "98aca092e40e002ba73984dc3bcced8769e55dd299f858ced41c8a2aa94ffc6d"
+  },
+  {
+    "file": "scene04-tts-v1.wav",
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "duration": 4.970958333333333,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.278833,
+        "duration": 0.278833
+      },
+      {
+        "start": 2.533,
+        "end": 2.928583,
+        "duration": 0.395583
+      }
+    ],
+    "silence_ge_1s": false,
+    "sample_peak_dbfs": -1.336108814674188,
+    "true_peak_dbfs": -1.2,
+    "decode": "no errors",
+    "sha256": "bc64fe1f8fa69005b9f12d88cdacd33e315e087002bc17b814c5cb5f794d75df"
+  },
+  {
+    "file": "scene05-tts-v1.wav",
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "duration": 5.210958333333333,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.278833,
+        "duration": 0.278833
+      },
+      {
+        "start": 1.854125,
+        "end": 1.956042,
+        "duration": 0.101917
+      },
+      {
+        "start": 2.646083,
+        "end": 3.118208,
+        "duration": 0.472125
+      },
+      {
+        "start": 5.013375,
+        "end": 5.210958,
+        "duration": 0.197583
+      }
+    ],
+    "silence_ge_1s": false,
+    "sample_peak_dbfs": -2.242469462842708,
+    "true_peak_dbfs": -2.2,
+    "decode": "no errors",
+    "sha256": "34dd01f4f613993d026370a524e122657ebe798b6303a6df6dd4b9d8b65e223d"
+  }
+]

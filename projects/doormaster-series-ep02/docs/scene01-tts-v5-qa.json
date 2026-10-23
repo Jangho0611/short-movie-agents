@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "file": "scene01-tts-v5.wav",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "sample_rate": "24000",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "bit_rate": "384000"
+          }
+        ],
+        "format": {
+          "duration": "3.050958",
+          "size": "146490",
+          "bit_rate": "384115"
+        }
+      },
+      "decoded_duration": 3.0509583333333334,
+      "decode_exit_code": 0,
+      "sample_peak_dbfs": -1.025171286374367,
+      "true_peak_dbfs": -0.6,
+      "samples_abs_ge_1": 0,
+      "silence_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.23225,
+          "duration": 0.23225,
+          "core_rms_dbfs": -48.23406018907807
+        },
+        {
+          "start": 1.418958,
+          "end": 1.581208,
+          "duration": 0.16225,
+          "core_rms_dbfs": -51.84216247898234
+        },
+        {
+          "start": 2.89175,
+          "end": 3.050958,
+          "duration": 0.159208,
+          "core_rms_dbfs": -55.60354101299321
+        }
+      ],
+      "silence_at_least_1_second": false,
+      "sha256": "29d616a6c0e614493ff4b971f359c3ec93a8a2e9ca09e86c61759ec2e77ae9ec"
+    },
+    {
+      "file": "scene01-tts-v5-192k.mp3",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1,
+            "bits_per_sample": 0,
+            "bit_rate": "160000"
+          }
+        ],
+        "format": {
+          "duration": "3.050958",
+          "size": "62924",
+          "bit_rate": "164994"
+        }
+      },
+      "decoded_duration": 3.0509583333333334,
+      "decode_exit_code": 0,
+      "sample_peak_dbfs": -1.6407926249049276,
+      "true_peak_dbfs": -1.2,
+      "samples_abs_ge_1": 0,
+      "silence_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.23225,
+          "duration": 0.23225,
+          "core_rms_dbfs": -48.684195650407105
+        },
+        {
+          "start": 1.41375,
+          "end": 1.58375,
+          "duration": 0.17,
+          "core_rms_dbfs": -52.27811631368319
+        },
+        {
+          "start": 2.886,
+          "end": 3.050958,
+          "duration": 0.164958,
+          "core_rms_dbfs": -53.19082923043772
+        }
+      ],
+      "silence_at_least_1_second": false,
+      "sha256": "d6fcc18bb9a193d4a77a0d767f06909b3644965423c2730bf05b3a1dce16938b"
+    }
+  ],
+  "original_api_wav_bytes_preserved": true,
+  "v1_to_v4_preserved": true,
+  "synthesis_attempts": 1,
+  "response_metadata": {},
+  "estimated_output_cost_usd": 0.0007627395833333334,
+  "actual_tokens_and_billed_cost": "not returned by API; input cost additional $0.50 per 1M text tokens",
+  "silence_criteria": "-30dB at least 0.1s; residual RMS excludes 20ms at each edge",
+  "subjective_qa": "user listening pending",
+  "comparison_caveat": "v4/v5 differ by synthesis performance; only v5 WAV vs derived MP3 isolates encoding differences"
+}

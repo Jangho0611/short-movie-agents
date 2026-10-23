@@ -1,0 +1,30 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "mp3",
+        "sample_rate": "48000",
+        "channels": 1,
+        "bit_rate": "192000"
+      }
+    ],
+    "format": {
+      "duration": "3.050958"
+    }
+  },
+  "decode_exit_code": 0,
+  "metrics": [
+    "[Parsed_silencedetect_0 @ 0x7528c18a80] silence_start: 0",
+    "[Parsed_silencedetect_0 @ 0x7528c18a80] silence_end: 0.23225 | silence_duration: 0.23225",
+    "[Parsed_silencedetect_0 @ 0x7528c18a80] silence_start: 1.413792",
+    "[Parsed_silencedetect_0 @ 0x7528c18a80] silence_end: 1.581438 | silence_duration: 0.167646",
+    "[Parsed_silencedetect_0 @ 0x7528c18a80] silence_start: 2.891729",
+    "[Parsed_silencedetect_0 @ 0x7528c18a80] silence_end: 3.050958 | silence_duration: 0.159229",
+    "    Peak:       -0.9 dBFS",
+    "[Parsed_astats_1 @ 0x7528c18b40] Peak level dB: -1.260959",
+    "[Parsed_astats_1 @ 0x7528c18b40] Peak level dB: -1.260959"
+  ],
+  "note": "Original 24kHz WAV unchanged. Derived copy resampled to 48kHz to encode actual 192kbps. Earlier filename ending 192k.mp3 is actually 160kbps, preserved due to no overwrite rule."
+}

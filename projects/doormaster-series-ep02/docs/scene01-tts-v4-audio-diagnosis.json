@@ -1,0 +1,41 @@
+{
+  "sample_count": 82368,
+  "decoded_duration": 3.432,
+  "samples_abs_ge_1": 0,
+  "peak_dbfs": -0.7429243392410185,
+  "silence_core_stats": [
+    {
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "rms_dbfs": -60.38141473501025,
+      "peak_dbfs": -49.324258987654886
+    },
+    {
+      "interval": [
+        1.66,
+        1.77
+      ],
+      "rms_dbfs": -48.8566683014613,
+      "peak_dbfs": -37.866984619136645
+    },
+    {
+      "interval": [
+        3.28,
+        3.42
+      ],
+      "rms_dbfs": -63.16945126825958,
+      "peak_dbfs": -53.05064450536825
+    }
+  ],
+  "speech_spectral_bands": {
+    "0-4000Hz_energy_percent": 98.04505654533124,
+    "4000-8000Hz_energy_percent": 1.8179329681299154,
+    "8000-10000Hz_energy_percent": 0.13701048377987354,
+    "10000-12001Hz_energy_percent": 2.758968369501874e-09
+  },
+  "spectral_caveat": "No clean reference: energy distribution cannot prove compression damage or synthesis noise. Decoded samples analyzed in memory only; no WAV created.",
+  "original_pcm_wav": "not saved by generation script; only API MP3 response saved",
+  "source_sha256": "d385efe494acc7b2512d02a0393a35dec0ea07deb1826b886910b6e9ea251dcb"
+}

@@ -1,0 +1,14 @@
+{
+  "sign_matches": {
+    "doormaster-series-sign-v2.png": true,
+    "doormaster-series-sign-v2.svg": true,
+    "doormaster-series-sign-v2-outlined.svg": true,
+    "font-settings-v2.json": true,
+    "fonts/Pretendard-Black.ttf": true
+  },
+  "output_size": [
+    1080,
+    1920
+  ],
+  "ai_calls": 0
+}

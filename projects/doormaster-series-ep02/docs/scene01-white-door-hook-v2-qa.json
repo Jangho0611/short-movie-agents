@@ -1,0 +1,25 @@
+{
+  "status": "candidate_pending_user_review",
+  "asset_type": "AI situation reenactment; not an actual product photograph or dimensional drawing",
+  "generation_tool": "image_gen.imagegen",
+  "model": "Underlying model identifier not exposed by tool",
+  "generation_calls": 1,
+  "reference": "public/assets/images/scene01-white-door-hook-v1.png",
+  "reference_sha256_unchanged": "3423fd705b690b7443c321a4ac57ae19d1859ab6875708110e04dbc779739360",
+  "generated_original": "public/assets/images/scene01-white-door-hook-v2-source.png",
+  "generated_size": [941, 1672],
+  "output": "public/assets/images/scene01-white-door-hook-v2.png",
+  "output_size": [1080, 1920],
+  "conversion": "FFmpeg Lanczos proportional scale to cover, minimal center crop for exact 9:16; no aspect distortion",
+  "comparison": "public/assets/images/scene01-white-door-hook-v1-v2-qa.png; v1 left, v2 right",
+  "observations": {
+    "casing": "Broad casing changed to substantially slimmer white casing, consistent on sides and top. Exact 9/12mm construction not claimed.",
+    "clearance": "Continuous narrow dark door/frame gap appears visually plausible; no physical clearance measurement possible.",
+    "bore": "One circular front bore at conventional handle position; no handle, extra front holes or removal scars visible.",
+    "bore_geometry": "Prompt specified 54mm face bore and 60mm backset. Result is visually plausible but center-to-edge distance appears close to one bore diameter rather than the specified 1.11 ratio; exact physical compliance is unverified.",
+    "preservation": "Room layout, white flush leaf, wall/floor palette and daylight broadly retained. Minor frame position, surface texture and floor-detail differences remain; not pixel-identical localized editing.",
+    "hook": "Dark bore is identifiable against white leaf; actual first-two-second comprehension requires later video/user review.",
+    "text_and_hardware": "No visible text, logos, labels, watermarks or installed handle."
+  },
+  "approval": "Not automatically approved; user visual review required. No regeneration performed."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "awaiting_user_approval_new_paid_model_no_synthesis_called",
+  "model": "gemini-2.5-flash-tts",
+  "endpoint": "https://texttospeech.googleapis.com/v1/text:synthesize",
+  "request": {
+    "input": {
+      "text": "도어는 왔는데! 손잡이가 없잖아요!",
+      "prompt": "한국어로 대본만 정확히 말한다. 현장 담당자가 도어 배송을 확인하다 손잡이가 없다는 사실을 막 발견한 순간이다. 놀람이 중심이고 당황함이 섞인 실제 대화처럼 말한다. 놀람 60%, 당황 40%는 연출 방향이며 수치 제어가 아니다. 빠르고 또렷하게, 첫 문장 뒤에는 짧은 호흡만 두고 손잡이가 없잖아요에 자연스럽게 놀라는 억양을 준다. 차분한 설명이나 낭독 톤, 광고 성우 톤, 고함, 과장된 연기, 긴 침묵은 피한다. 대본에 없는 말이나 감탄사를 추가하지 않는다."
+    },
+    "voice": {
+      "languageCode": "ko-KR",
+      "name": "Alnilam",
+      "modelName": "gemini-2.5-flash-tts"
+    },
+    "audioConfig": {
+      "audioEncoding": "MP3"
+    }
+  },
+  "output": "public/assets/audio/scene01-tts-v3.mp3",
+  "generation_limit": 1,
+  "automatic_retry": false,
+  "pitch": "omitted",
+  "pace_control": "natural-language prompt only; no unverified numeric parameter",
+  "authentication": "existing ADC loads locally; quota project present; model IAM permission not verified",
+  "required_permission": "aiplatform.endpoints.predict",
+  "pricing_usd": {
+    "input_per_million_text_tokens": 0.5,
+    "output_per_million_audio_tokens": 10,
+    "audio_tokens_per_second": 25,
+    "free_quota": false,
+    "estimated_output_3_to_5_seconds": [
+      0.00075,
+      0.00125
+    ],
+    "input_cost_additional": true
+  },
+  "sources": [
+    "https://docs.cloud.google.com/text-to-speech/docs/gemini-tts",
+    "https://cloud.google.com/text-to-speech/pricing",
+    "https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd"
+  ],
+  "preserved_files": {
+    "scene01-tts-v2.mp3": "633fdd2a84392c9848172bfee463ea6bc0b2832fcf2c8fbf6fcd0f61774ab539",
+    "scene01-tts-v1.mp3": "77dd1567ff869980df8a5efc07423641eedc8db46442ef1d2a784e8b783abf09"
+  },
+  "slim_copy_hash_verified_count": 26
+}

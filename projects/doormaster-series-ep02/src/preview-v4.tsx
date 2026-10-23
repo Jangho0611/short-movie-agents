@@ -1,0 +1,35 @@
+import React from 'react';
+import {AbsoluteFill,Audio,Composition,Img,OffthreadVideo,Sequence,interpolate,registerRoot,staticFile,useCurrentFrame} from 'remotion';
+const Y='#FFE600',B='#303431',W='#f4f1e9',lengths=[92,162,127,150,157];
+const audios=['scene01-tts-v5.wav','scene02-tts-v1.wav','scene03-tts-v1.wav','scene04-tts-v1.wav','scene05-tts-v1.wav'];
+const starts=[7,9,8,9,9],turns=[48,45,75,88,94];
+const captions=[[['도어는 도착했는데…'],['손잡이가 없다?!']],[['도어와 손잡이를','따로 주문하면'],['배송 날짜도','서로 달라질 수 있죠!']],[['대산은 도무스 손잡이까지'],['직접 재고로 운영합니다!']],[['도어 주문할 때','손잡이도 함께!'],['같은 일정에 현장으로','배송받으세요.']],[['번거로운 발주와','배송 일정 관리까지 줄이고'],['현장 작업에','더 집중하세요!']]];
+const ease=(f:number,a:number,n=9)=>interpolate(f,[a,a+n],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+const Shot=({name,contain=false,scale=1}:{name:string,contain?:boolean,scale?:number})=><Img src={staticFile('assets/images/'+name)} style={{width:'100%',height:'100%',objectFit:contain?'contain':'cover',transform:`scale(${scale})`}}/>;
+// V4: shared lower safe area. Palette/font inherited from approved V3.
+const Caption=({i}:{i:number})=>{
+ const f=useCurrentFrame(),part=f>=turns[i]?1:0,local=f-(part?turns[i]:starts[i]);
+ const p=ease(f,part?turns[i]:starts[i],5),dy=24*Math.pow(1-p,3);
+ const lines=i===2?(part?['직접 재고로','운영합니다!']:['대산은','도무스 손잡이까지']):captions[i][part];
+ const keys=['손잡이가 없다?!','배송 날짜','도무스 손잡이','직접 재고','손잡이도 함께','같은 일정','현장 작업'];
+ const max=Math.max(...lines.map(x=>x.length)),size=Math.min(96,Math.floor(880/max));
+ const scale=interpolate(local,[0,3,7],[0.96,1.045,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
+ const brush=ease(f,part?turns[i]:starts[i],7);
+ return <div style={{position:'absolute',left:40,top:1490,width:900,height:240,display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',fontFamily:'Apple SD Gothic Neo,Noto Sans KR,sans-serif',fontWeight:900,fontSize:size,lineHeight:1.25,letterSpacing:0,color:B,opacity:p,transform:`translateY(${dy}px)`,textAlign:'center'}}>{lines.map((line,j)=>{
+ const key=keys.find(k=>line.includes(k)),chunks=key?line.split(key):[line];
+ return <div key={j} style={{whiteSpace:'nowrap',height:120,display:'flex',alignItems:'center',justifyContent:'center'}}>{key?<><span>{chunks[0]}</span><span style={{position:'relative',display:'inline-block',transform:`scale(${scale})`,color:Y,WebkitTextStroke:'2.8px #343735',paintOrder:'stroke fill'}}><svg viewBox="0 0 400 20" preserveAspectRatio="none" style={{position:'absolute',left:0,bottom:-7,width:'100%',height:15,transformOrigin:'left',transform:`scaleX(${brush})`}}><path d="M3 9 L390 3 L398 13 L8 18 Z" fill={Y}/></svg><span style={{position:'relative'}}>{key}</span></span><span>{chunks[1]}</span></>:line}</div>
+ })}</div>;
+};
+const Door=()=> <svg width="130" height="160" viewBox="0 0 110 160"><path d="M15 150V10H95V150 M27 150V24H83V150" fill="none" stroke="currentColor" strokeWidth="6"/><circle cx="72" cy="87" r="4"/></svg>;
+const Box=()=> <svg width="130" height="140" viewBox="0 0 140 140"><path d="M15 35L70 12L125 35V107L70 130L15 107Z M15 35L70 59L125 35 M70 59V130 M43 24L98 47" fill="none" stroke="currentColor" strokeWidth="6"/></svg>;
+export const Scene=({i}:{i:number})=>{const f=useCurrentFrame(),p=f/lengths[i];return <AbsoluteFill style={{background:W,color:B,fontFamily:'PreviewPretendard',overflow:'hidden'}}>
+<style>{`@font-face{font-family:PreviewPretendard;src:url('${staticFile('assets/fonts/Pretendard-ExtraBold.woff2')}');font-weight:800}@font-face{font-family:PreviewPretendard;src:url('${staticFile('assets/fonts/Pretendard-Medium.woff2')}');font-weight:500}`}</style>
+<Audio src={staticFile('assets/audio/'+audios[i])} volume={i===1?Math.pow(10,-1.5/20):1}/>
+{i===0&&<><AbsoluteFill style={{transformOrigin:'76% 50%',transform:`scale(${1+0.04*ease(f,38,14)})`}}><Shot name="scene01-white-door-hook-v4.png"/></AbsoluteFill>{f>=40&&<div style={{position:'absolute',left:760,top:910,width:118,height:118,border:`6px solid ${Y}`,borderRadius:'50%',opacity:ease(f,40)}}/>}</>}
+{i===1&&<><div style={{position:'absolute',top:110,left:76,fontSize:75,fontWeight:800,lineHeight:1.2}}>따로 주문하면<br/><span style={{color:'#303431'}}>일정도 따로</span></div><div style={{position:'absolute',top:430,left:76,right:76}}>{['도어 주문','손잡이 주문'].map((t,j)=><div key={t} style={{display:'flex',alignItems:'center',gap:38,borderTop:'3px solid #191a1825',padding:'45px 0',opacity:ease(f,j?43:9),transform:`translateX(${(1-ease(f,j?43:9))*35}px)`}}>{j?<Box/>:<Door/>}<div style={{fontSize:48,fontWeight:800,flex:1}}>{t}<div style={{marginTop:30,fontSize:46,color:j?'#9b6c16':'#326848'}}>→ {j?'배송 중':'배송 완료'}</div></div></div>)}</div><div style={{position:'absolute',left:78,top:1170,fontSize:28,color:'#6b685f'}}>배송 일정이 달라지는 일반적인 상황 예시</div></>}
+{i===2&&<><div style={{position:'absolute',top:0,left:0,width:1080,height:1440,overflow:'hidden'}}>{['stock-wide','stock-closeup','package','712ni-product'].map((n,j)=><div key={n} style={{position:'absolute',inset:0,opacity:f>=[0,26,44,64][j]&&f<[26,44,64,127][j]?1:0}}><Shot name={'scene03-domus-'+n+'-render-v2.jpg'} contain/></div>)}</div><div style={{position:'absolute',top:1445,left:64,fontSize:27,fontWeight:800,letterSpacing:2}}>{f<64?'대산 매장 · 실제 재고':'대표 실물 제품 · 도무스 712 NI'}</div></>}
+{i===3&&<><div style={{position:'absolute',top:0,left:0,width:1080,height:1440,overflow:'hidden'}}><Shot name="scene04-delivery-clean-approved-preview-v1.png" contain/></div><div style={{position:'absolute',top:1445,left:64,fontSize:27,fontWeight:800}}>도어 + 별도 포장된 손잡이 · 함께 적재</div></>}
+{i===4&&<><div style={{position:'absolute',left:72,top:110,fontSize:80,fontWeight:800,lineHeight:1.22}}>주문은 함께,<br/><span style={{background:Y}}>현장은 간편하게.</span></div><div style={{position:'absolute',top:500,left:82,right:82}}>{['발주','배송','현장 작업'].map((t,j)=><div key={t} style={{opacity:ease(f,[9,59,94][j]),display:'flex',alignItems:'center',gap:36,marginBottom:54,transform:`translateY(${(1-ease(f,[9,59,94][j]))*18}px)`}}><div style={{background:j===2?Y:B,color:j===2?B:'white',borderRadius:'50%',width:94,height:94,display:'flex',justifyContent:'center',alignItems:'center',fontSize:40,fontWeight:800}}>{j+1}</div><div style={{fontWeight:800,fontSize:59}}>{t}<div style={{fontSize:30,fontWeight:500,marginTop:8}}>{['도어와 손잡이를 한 번에','같은 일정으로 현장에','작업에 더 집중'][j]}</div></div></div>)}</div></>}
+<Caption i={i}/></AbsoluteFill>};
+const Full=()=>{let from=0;return <AbsoluteFill>{lengths.map((n,i)=>{const s=from;from+=n;return <Sequence from={s} durationInFrames={n} key={i}><Scene i={i}/></Sequence>})}<Sequence from={688} durationInFrames={170}><OffthreadVideo src={staticFile('assets/video/daesan-ending-gemini-alnilam-preview-v1.mp4')} style={{width:1080,height:1920}}/></Sequence></AbsoluteFill>};
+registerRoot(()=> <>{lengths.map((n,i)=><Composition key={i} id={`Scene0${i+1}`} component={Scene} defaultProps={{i}} durationInFrames={n} fps={30} width={1080} height={1920}/>)}<Composition id="PreviewV4" component={Full} durationInFrames={858} fps={30} width={1080} height={1920}/></>);

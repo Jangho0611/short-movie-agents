@@ -1,0 +1,26 @@
+{
+  "generation_count": 1,
+  "tool": "built-in image_gen.imagegen",
+  "underlying_model": "not exposed by tool response",
+  "type": "AI generic situation reenactment, not manufacturer product photo",
+  "source_resolution": [
+    940,
+    1672
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "processing": "original preserved; proportional Lanczos scaling with negligible center edge crop to exact 9:16, no distortion",
+  "visual_qa": {
+    "door_and_frame": "visually plausible proportions",
+    "missing_handle": "no visible handle or hardware; solid unbored surface",
+    "scars_damage_holes": "not observed",
+    "text_logo": "none observed",
+    "photographic_look": "soft daylight and realistic texture",
+    "caption_space": "plain door surface usable; limited wall above frame",
+    "hook_limitation": "without caption or pointer, a plain closed door may not instantly communicate delivery problem; absent handle position needs planned editorial emphasis"
+  },
+  "approval": "pending user",
+  "no_automatic_regeneration": true
+}

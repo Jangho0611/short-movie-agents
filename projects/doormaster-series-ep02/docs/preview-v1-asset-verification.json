@@ -1,0 +1,82 @@
+[
+  {
+    "file": "src/daesan-ending/DaesanEnding.tsx",
+    "match": true
+  },
+  {
+    "file": "src/daesan-ending/approved/fonts.ts",
+    "match": true
+  },
+  {
+    "file": "src/daesan-ending/approved/HeadquartersOverlay.tsx",
+    "match": true
+  },
+  {
+    "file": "src/daesan-ending/approved/tokens.ts",
+    "match": true
+  },
+  {
+    "file": "src/daesan-ending/approved/brief.ts",
+    "match": true
+  },
+  {
+    "file": "public/assets/video/IMG_3934.MOV",
+    "match": true
+  },
+  {
+    "file": "public/assets/video/daesan-headquarters-ending-approved-v1.mp4",
+    "match": true
+  },
+  {
+    "file": "public/assets/video/headquarters-normal-speed-hold.mp4",
+    "match": true
+  },
+  {
+    "file": "public/assets/audio/ending-approved-v3.mp3",
+    "match": true
+  },
+  {
+    "file": "public/assets/logos/daesanlogo2.png",
+    "match": true
+  },
+  {
+    "file": "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "match": true
+  },
+  {
+    "file": "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "match": true
+  },
+  {
+    "file": "public/assets/fonts/Pretendard-Medium.woff2",
+    "match": true
+  },
+  {
+    "file": "docs/ending-README.md",
+    "match": true
+  },
+  {
+    "file": "docs/ending-canonical-sha256.json",
+    "match": true
+  },
+  {
+    "file": "public/references/series-sign-v2/doormaster-series-sign-v2.png",
+    "match": true
+  },
+  {
+    "file": "public/references/series-sign-v2/doormaster-series-sign-v2.svg",
+    "match": true
+  },
+  {
+    "file": "public/references/series-sign-v2/doormaster-series-sign-v2-outlined.svg",
+    "match": true
+  },
+  {
+    "file": "public/references/series-sign-v2/font-settings-v2.json",
+    "match": true
+  },
+  {
+    "file": "public/references/series-sign-v2/fonts/Pretendard-Black.ttf",
+    "match": true
+  }
+]

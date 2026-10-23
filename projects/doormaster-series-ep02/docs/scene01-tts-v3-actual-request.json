@@ -1,0 +1,14 @@
+{
+  "input": {
+    "text": "도어는 왔는데! 손잡이가 없잖아요!",
+    "prompt": "한국어로 대본만 정확히 말한다. 현장에서 손잡이가 없다는 사실을 막 발견한 담당자다. 놀라면서 약간 당황한 느낌으로 빠르고 또렷하게 발화한다. 문장 사이에는 짧고 자연스러운 호흡만 둔다. 차분한 설명, 광고 성우, 고함, 과장된 연기는 피한다. 대본 외 발화는 추가하지 않는다."
+  },
+  "voice": {
+    "languageCode": "ko-KR",
+    "name": "Alnilam",
+    "modelName": "gemini-2.5-flash-tts"
+  },
+  "audioConfig": {
+    "audioEncoding": "MP3"
+  }
+}

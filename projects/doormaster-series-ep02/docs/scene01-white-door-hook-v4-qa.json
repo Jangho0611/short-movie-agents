@@ -1,0 +1,19 @@
+{
+  "size": [
+    1080,
+    1920
+  ],
+  "generation_calls": 1,
+  "tool": "image_gen.imagegen",
+  "model": "not exposed",
+  "outside_mask_identical": true,
+  "outside_mask_max_channel_difference": 0,
+  "changed_pixels": 39337,
+  "mask_nonzero_pixels": 45546,
+  "door_and_casing_protected_x_range": [
+    221,
+    875
+  ],
+  "method": "One AI edit; proportional resize then composite only lower-wall mask onto original v3. Outside mask copied exactly.",
+  "status": "pending visual/user approval"
+}

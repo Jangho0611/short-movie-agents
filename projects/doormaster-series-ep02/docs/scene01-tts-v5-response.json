@@ -1,0 +1,12 @@
+{
+  "wav_header": true,
+  "format": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "bits": 16,
+    "frames": 73223,
+    "compression": "NONE"
+  },
+  "audio_sha256": "29d616a6c0e614493ff4b971f359c3ec93a8a2e9ca09e86c61759ec2e77ae9ec",
+  "api_metadata": {}
+}

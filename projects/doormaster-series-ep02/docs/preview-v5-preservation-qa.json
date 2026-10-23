@@ -1,0 +1,23 @@
+{
+  "1": {
+    "upper_region_mean_pixel_diff": 0.04750142579173376,
+    "max_frame_mean_pixel_diff": 0.1714351851851852
+  },
+  "2": {
+    "upper_region_mean_pixel_diff": 0.014287408550525835,
+    "max_frame_mean_pixel_diff": 0.03066358024691358
+  },
+  "3": {
+    "upper_region_mean_pixel_diff": 0.05800488480606591,
+    "max_frame_mean_pixel_diff": 0.2441435185185185
+  },
+  "4": {
+    "upper_region_mean_pixel_diff": 0.08401352880658436,
+    "max_frame_mean_pixel_diff": 0.08993827160493827
+  },
+  "5": {
+    "upper_region_mean_pixel_diff": 0.0,
+    "max_frame_mean_pixel_diff": 0.0
+  },
+  "existing_assets_preserved": true
+}

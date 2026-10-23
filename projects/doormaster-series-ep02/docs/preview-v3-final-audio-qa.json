@@ -1,0 +1,5 @@
+{
+  "scene5": "Summary:\n\n  Integrated loudness:\n    I:         -16.8 LUFS\n    Threshold: -27.0 LUFS\n\n  Loudness range:\n    LRA:         0.9 LU\n    Threshold: -37.1 LUFS\n    LRA low:   -17.8 LUFS\n    LRA high:  -16.8 LUFS\n\n  True peak:\n    Peak:       -5.3 dBFS\n[out#0/null @ 0x7a4f054300] video:0KiB audio:981KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:05.23 bitrate=N/A speed= 195x elapsed=0:00:00.02    \n",
+  "ending": "Summary:\n\n  Integrated loudness:\n    I:         -16.8 LUFS\n    Threshold: -27.1 LUFS\n\n  Loudness range:\n    LRA:         3.7 LU\n    Threshold: -38.1 LUFS\n    LRA low:   -20.3 LUFS\n    LRA high:  -16.6 LUFS\n\n  True peak:\n    Peak:       -5.7 dBFS\n[out#0/null @ 0x76f2c58300] video:0KiB audio:1062KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:05.66 bitrate=N/A speed= 185x elapsed=0:00:00.03    \n",
+  "ending_dependencies_preserved": true
+}

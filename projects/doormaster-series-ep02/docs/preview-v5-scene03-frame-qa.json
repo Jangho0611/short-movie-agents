@@ -1,0 +1,43 @@
+{
+  "individual": {
+    "scene3_frame_count": 127,
+    "image_jump_frames": [
+      26,
+      44,
+      64
+    ],
+    "expected_cuts": [
+      26,
+      44,
+      64
+    ],
+    "unexpected_jumps": [],
+    "timestamp_steps": [
+      0.033333,
+      0.033334
+    ],
+    "max_within_shot_MAD": 0.02096545118245475,
+    "max_deviation_from_shot_reference": 0.03968489892984542
+  },
+  "full": {
+    "scene3_frame_count": 127,
+    "image_jump_frames": [
+      26,
+      44,
+      64
+    ],
+    "expected_cuts": [
+      26,
+      44,
+      64
+    ],
+    "unexpected_jumps": [],
+    "timestamp_steps": [
+      0.033333,
+      0.033334
+    ],
+    "max_within_shot_MAD": 0.02096545118245475,
+    "max_deviation_from_shot_reference": 0.03968489892984542
+  },
+  "individual_vs_full_mean_MAD": 0.0
+}
