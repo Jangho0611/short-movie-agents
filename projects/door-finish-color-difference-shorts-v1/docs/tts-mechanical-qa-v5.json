@@ -1,0 +1,495 @@
+{
+  "date": "2026-10-27 Asia/Seoul",
+  "status": "listening candidate; not final",
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "omitted",
+  "ssml": false,
+  "synthesis_successful_requests": 2,
+  "scene_selection": [
+    "public/assets/audio/scene01-tts-v4.mp3",
+    "public/assets/audio/scene02-tts-v5.mp3",
+    "public/assets/audio/scene03-tts-v3.mp3",
+    "public/assets/audio/scene04-tts-v5.mp3",
+    "public/assets/audio/scene05-tts-v3.mp3"
+  ],
+  "selection_basis": "v4 explicit manifest retained1/3/5; new2/4 only",
+  "wording": "exact user text; layout linebreaks replaced by spaces",
+  "silence_detection": "-30dB minimum0.15s",
+  "concat": "48kHz mono concat/192kbps MP3; no silence insertion, trim, gain or stretching; original ending untouched, derivative reencoded",
+  "preserved_existing_audio_count": 27,
+  "existing_audio_hashes_unchanged": true,
+  "listening": "not performed",
+  "pause_after_dan_seconds": null,
+  "pause_after_dan_status": "word boundary not verified; silence intervals cannot establish word location",
+  "measurements": [
+    {
+      "file": "scene01-tts-v4.mp3",
+      "sha256": "bb186452df2eb49332d932215b215176d1c33925d0e26a0ee502c19969e71685",
+      "duration_seconds": 3.936,
+      "decoded_seconds": 3.936,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.312708,
+          "duration": 0.3127
+        },
+        {
+          "start": 2.110708,
+          "end": 2.78725,
+          "duration": 0.6765
+        },
+        {
+          "start": 3.714583,
+          "end": 3.936,
+          "duration": 0.2214
+        }
+      ],
+      "mean_volume_dBFS": -20.5,
+      "sample_peak_dBFS": -2.185,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.53,
+      "true_peak_dBTP": -2.19,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene02-tts-v5.mp3",
+      "sha256": "8b8b8c4efc2ced5dfe9c3b43fa6f2cbac747de418d51693f2174584ab8ef13e9",
+      "duration_seconds": 9.336,
+      "decoded_seconds": 9.336,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.540125,
+          "duration": 0.5401
+        },
+        {
+          "start": 1.356708,
+          "end": 1.508667,
+          "duration": 0.152
+        },
+        {
+          "start": 2.986833,
+          "end": 3.702,
+          "duration": 0.7152
+        },
+        {
+          "start": 5.3475,
+          "end": 5.681875,
+          "duration": 0.3344
+        },
+        {
+          "start": 6.838083,
+          "end": 7.191958,
+          "duration": 0.3539
+        },
+        {
+          "start": 9.110417,
+          "end": 9.336,
+          "duration": 0.2256
+        }
+      ],
+      "mean_volume_dBFS": -20.0,
+      "sample_peak_dBFS": -1.64,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.38,
+      "true_peak_dBTP": -1.62,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene03-tts-v3.mp3",
+      "sha256": "159ec47de426e82033b6d9e41d0bab6afefb67a682960a7ee757bfde5d05645b",
+      "duration_seconds": 8.256,
+      "decoded_seconds": 8.256,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.398958,
+          "duration": 0.399
+        },
+        {
+          "start": 1.886583,
+          "end": 2.051125,
+          "duration": 0.1645
+        },
+        {
+          "start": 3.59725,
+          "end": 4.384583,
+          "duration": 0.7873
+        },
+        {
+          "start": 6.430208,
+          "end": 6.782375,
+          "duration": 0.3522
+        },
+        {
+          "start": 8.000667,
+          "end": 8.256,
+          "duration": 0.2553
+        }
+      ],
+      "mean_volume_dBFS": -20.3,
+      "sample_peak_dBFS": -3.103,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.9,
+      "true_peak_dBTP": -3.1,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene04-tts-v5.mp3",
+      "sha256": "8f08d6a85aaf5328c93f9d1340411dc87176473d43c48e3067abc671bd172c55",
+      "duration_seconds": 7.704,
+      "decoded_seconds": 7.704,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.785458,
+          "duration": 0.7855
+        },
+        {
+          "start": 2.562708,
+          "end": 2.812,
+          "duration": 0.2493
+        },
+        {
+          "start": 4.884125,
+          "end": 5.291083,
+          "duration": 0.407
+        },
+        {
+          "start": 7.474,
+          "end": 7.704,
+          "duration": 0.23
+        }
+      ],
+      "mean_volume_dBFS": -20.0,
+      "sample_peak_dBFS": -1.834,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.71,
+      "true_peak_dBTP": -1.83,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene05-tts-v3.mp3",
+      "sha256": "0a71d4356dd2509394becf86d4a41e016ed161f3010c3a255ebd9cd9b02b83e0",
+      "duration_seconds": 5.976,
+      "decoded_seconds": 5.976,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.457958,
+          "duration": 0.458
+        },
+        {
+          "start": 2.714917,
+          "end": 3.2605,
+          "duration": 0.5456
+        },
+        {
+          "start": 5.74025,
+          "end": 5.976,
+          "duration": 0.2358
+        }
+      ],
+      "mean_volume_dBFS": -19.8,
+      "sample_peak_dBFS": -1.198,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -19.86,
+      "true_peak_dBTP": -1.2,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "ending-approved-v3.mp3",
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "duration_seconds": 4.854,
+      "decoded_seconds": 4.854,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "24000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.711042,
+          "duration": 0.711
+        },
+        {
+          "start": 2.532375,
+          "end": 3.614542,
+          "duration": 1.0822
+        },
+        {
+          "start": 4.638,
+          "end": 4.854,
+          "duration": 0.216
+        }
+      ],
+      "mean_volume_dBFS": -22.0,
+      "sample_peak_dBFS": -4.396,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -21.74,
+      "true_peak_dBTP": -4.39,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "full-tts-qa-v5.mp3",
+      "sha256": "3532b08431e9ee719803ca0bc1271e0a69696a474551b0ab81a996f65a0e7f62",
+      "duration_seconds": 35.208,
+      "decoded_seconds": 35.208,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.363479,
+          "duration": 0.3635
+        },
+        {
+          "start": 2.110667,
+          "end": 2.791125,
+          "duration": 0.6805
+        },
+        {
+          "start": 3.714542,
+          "end": 4.476167,
+          "duration": 0.7616
+        },
+        {
+          "start": 5.292687,
+          "end": 5.444667,
+          "duration": 0.152
+        },
+        {
+          "start": 6.922792,
+          "end": 7.640437,
+          "duration": 0.7176
+        },
+        {
+          "start": 9.283479,
+          "end": 9.618292,
+          "duration": 0.3348
+        },
+        {
+          "start": 10.774021,
+          "end": 11.128042,
+          "duration": 0.354
+        },
+        {
+          "start": 13.046396,
+          "end": 13.670937,
+          "duration": 0.6245
+        },
+        {
+          "start": 15.158542,
+          "end": 15.323104,
+          "duration": 0.1646
+        },
+        {
+          "start": 16.869187,
+          "end": 17.656688,
+          "duration": 0.7875
+        },
+        {
+          "start": 19.702188,
+          "end": 20.054375,
+          "duration": 0.3522
+        },
+        {
+          "start": 21.272625,
+          "end": 22.313458,
+          "duration": 1.0408
+        },
+        {
+          "start": 24.090667,
+          "end": 24.340021,
+          "duration": 0.2494
+        },
+        {
+          "start": 26.412104,
+          "end": 26.819083,
+          "duration": 0.407
+        },
+        {
+          "start": 29.002,
+          "end": 29.689979,
+          "duration": 0.688
+        },
+        {
+          "start": 31.946896,
+          "end": 32.492542,
+          "duration": 0.5456
+        },
+        {
+          "start": 34.972208,
+          "end": 35.208,
+          "duration": 0.2358
+        }
+      ],
+      "mean_volume_dBFS": -20.4,
+      "sample_peak_dBFS": -1.463,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.46,
+      "true_peak_dBTP": -1.46,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "full-tts-qa-with-ending-v5.mp3",
+      "sha256": "52954a6147013c17ec2ec26af5467c7287403293e1059e92613f268aba8b3941",
+      "duration_seconds": 40.062,
+      "decoded_seconds": 40.062,
+      "format": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "48000",
+          "channels": 1
+        }
+      ],
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.363479,
+          "duration": 0.3635
+        },
+        {
+          "start": 2.110667,
+          "end": 2.791125,
+          "duration": 0.6805
+        },
+        {
+          "start": 3.714542,
+          "end": 4.476167,
+          "duration": 0.7616
+        },
+        {
+          "start": 5.292687,
+          "end": 5.444667,
+          "duration": 0.152
+        },
+        {
+          "start": 6.922792,
+          "end": 7.640437,
+          "duration": 0.7176
+        },
+        {
+          "start": 9.283479,
+          "end": 9.618292,
+          "duration": 0.3348
+        },
+        {
+          "start": 10.774021,
+          "end": 11.128042,
+          "duration": 0.354
+        },
+        {
+          "start": 13.046396,
+          "end": 13.670937,
+          "duration": 0.6245
+        },
+        {
+          "start": 15.158542,
+          "end": 15.323104,
+          "duration": 0.1646
+        },
+        {
+          "start": 16.869187,
+          "end": 17.656688,
+          "duration": 0.7875
+        },
+        {
+          "start": 19.702188,
+          "end": 20.054375,
+          "duration": 0.3522
+        },
+        {
+          "start": 21.272625,
+          "end": 22.313458,
+          "duration": 1.0408
+        },
+        {
+          "start": 24.090667,
+          "end": 24.340021,
+          "duration": 0.2494
+        },
+        {
+          "start": 26.412104,
+          "end": 26.819083,
+          "duration": 0.407
+        },
+        {
+          "start": 29.002,
+          "end": 29.689979,
+          "duration": 0.688
+        },
+        {
+          "start": 31.946896,
+          "end": 32.492542,
+          "duration": 0.5456
+        },
+        {
+          "start": 34.972208,
+          "end": 35.919042,
+          "duration": 0.9468
+        },
+        {
+          "start": 37.738271,
+          "end": 38.822542,
+          "duration": 1.0843
+        },
+        {
+          "start": 39.845958,
+          "end": 40.062,
+          "duration": 0.216
+        }
+      ],
+      "mean_volume_dBFS": -20.5,
+      "sample_peak_dBFS": -1.463,
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.67,
+      "true_peak_dBTP": -1.46,
+      "decode_xerror_pass": true
+    }
+  ]
+}

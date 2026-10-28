@@ -1,0 +1,183 @@
+{
+  "scene01-preview-v3.mp4": {
+    "outside_label_ssim": [
+      "[Parsed_ssim_2 @ 0x752b28c000] SSIM Y:0.994868 (22.897384) U:0.999445 (32.560038) V:0.999269 (31.360482) All:0.996365 (24.394459)"
+    ]
+  },
+  "scene02-preview-v8.mp4": {
+    "outside_label_ssim": [
+      "[Parsed_ssim_2 @ 0x7b64e7c000] SSIM Y:0.999321 (31.684376) U:0.999730 (35.685525) V:0.999725 (35.599081) All:0.999457 (32.649854)"
+    ]
+  },
+  "scene03-preview-v7.mp4": {
+    "outside_label_ssim": [
+      "[Parsed_ssim_2 @ 0x759ce6c300] SSIM Y:0.998468 (28.146432) U:0.999474 (32.790690) V:0.999633 (34.351644) All:0.998830 (29.316619)"
+    ]
+  },
+  "scene04-preview-v3.mp4": {
+    "outside_label_ssim": [
+      "[Parsed_ssim_2 @ 0x76aeeb0000] SSIM Y:0.999832 (37.746233) U:0.999951 (43.056489) V:0.999963 (44.303911) All:0.999874 (38.980838)"
+    ]
+  },
+  "scene05-preview-v3.mp4": {
+    "outside_label_ssim": [
+      "[Parsed_ssim_2 @ 0x74cf2f0000] SSIM Y:0.999674 (34.871198) U:0.999954 (43.353857) V:0.999956 (43.569782) All:0.999768 (36.341563)"
+    ]
+  },
+  "decode_exit": 0,
+  "decode_errors": "",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 3933000,
+        "duration": "43.700000",
+        "bit_rate": "2937210",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1311",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc61.19.100 libx264"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2097600,
+        "duration": "43.700000",
+        "bit_rate": "138743",
+        "nb_frames": "2050",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "public/assets/video/door-finish-color-difference-preview-v6.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "43.700000",
+      "size": "16851891",
+      "bit_rate": "3085014",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "audio_equal_v5": true,
+  "ending_170_frames_equal": true,
+  "frame_count": 1311,
+  "loudness": "Summary:\n\n  Integrated loudness:\n    I:         -19.9 LUFS\n    Threshold: -30.4 LUFS\n\n  Loudness range:\n    LRA:         4.0 LU\n    Threshold: -40.9 LUFS\n    LRA low:   -23.1 LUFS\n    LRA high:  -19.1 LUFS\n\n  True peak:\n    Peak:       -0.5 dBFS\n[out#0/null @ 0x7572c60300] video:0KiB audio:4097KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:43.70 bitrate=N/A speed= 521x elapsed=0:00:00.08    \n",
+  "existing_changes": [],
+  "source_checks": {
+    "PreviewV6Scenes": true,
+    "Scene2V8Frame": true,
+    "Scene2V8": true,
+    "Scene3V7": true
+  }
+}

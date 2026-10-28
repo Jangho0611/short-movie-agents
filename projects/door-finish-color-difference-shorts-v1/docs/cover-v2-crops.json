@@ -1,0 +1,50 @@
+[
+  {
+    "file": "public/assets/images/cover-v2-frame-crop.png",
+    "source": "customer-frame-panel.jpeg",
+    "oriented_source_size": [
+      4284,
+      5712
+    ],
+    "crop": [
+      1550,
+      300,
+      2350,
+      1100
+    ],
+    "sha256": "34751ceda714033528a632cfd7e5d24a68a76efeabc28eb9105ffdbdaa4028d4",
+    "processing": "EXIF orientation and crop only; no color adjustments"
+  },
+  {
+    "file": "public/assets/images/cover-v2-door-crop.png",
+    "source": "customer-door-sample.jpeg",
+    "oriented_source_size": [
+      1071,
+      1428
+    ],
+    "crop": [
+      300,
+      20,
+      840,
+      560
+    ],
+    "sha256": "39afc7b43b624940c789a863eaa7e75644e620f526b680b68d1c87a191d21ce5",
+    "processing": "EXIF orientation and crop only; no color adjustments"
+  },
+  {
+    "file": "public/assets/images/cover-v2-film-crop.png",
+    "source": "customer-190-sample.jpeg",
+    "oriented_source_size": [
+      1071,
+      1428
+    ],
+    "crop": [
+      280,
+      500,
+      610,
+      830
+    ],
+    "sha256": "092c46f8ff777151faee15027a88daee39fb9eb6c47b17ecf85a93fa34c22797",
+    "processing": "EXIF orientation and crop only; no color adjustments"
+  }
+]

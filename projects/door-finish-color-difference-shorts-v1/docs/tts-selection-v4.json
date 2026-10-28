@@ -1,0 +1,48 @@
+{
+  "status": "user listening approval pending; not final",
+  "basis": "explicit user selection; not filename version rank",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "public/assets/audio/scene01-tts-v4.mp3",
+      "sha256": "bb186452df2eb49332d932215b215176d1c33925d0e26a0ee502c19969e71685",
+      "duration_seconds": 3.936,
+      "recommended_scene_seconds": 4.3,
+      "generated_this_round": true
+    },
+    {
+      "scene": 2,
+      "file": "public/assets/audio/scene02-tts-v4.mp3",
+      "sha256": "54ba7e8d349349c1d14d8fadea5942c43024d8ad004d4f47dd7c15214c00fff0",
+      "duration_seconds": 7.704,
+      "recommended_scene_seconds": 8.2,
+      "generated_this_round": true
+    },
+    {
+      "scene": 3,
+      "file": "public/assets/audio/scene03-tts-v3.mp3",
+      "sha256": "159ec47de426e82033b6d9e41d0bab6afefb67a682960a7ee757bfde5d05645b",
+      "duration_seconds": 8.256,
+      "recommended_scene_seconds": 9.5,
+      "generated_this_round": false
+    },
+    {
+      "scene": 4,
+      "file": "public/assets/audio/scene04-tts-v4.mp3",
+      "sha256": "73b4846a3ed5890b53f5f6208f836cd8f79ae61a10d456c1ed74caaf47e0666b",
+      "duration_seconds": 8.376,
+      "recommended_scene_seconds": 9,
+      "generated_this_round": true
+    },
+    {
+      "scene": 5,
+      "file": "public/assets/audio/scene05-tts-v3.mp3",
+      "sha256": "0a71d4356dd2509394becf86d4a41e016ed161f3010c3a255ebd9cd9b02b83e0",
+      "duration_seconds": 5.976,
+      "recommended_scene_seconds": 6.5,
+      "generated_this_round": false
+    }
+  ],
+  "ending_sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+  "total_recommended_seconds": 43.166666666666664
+}

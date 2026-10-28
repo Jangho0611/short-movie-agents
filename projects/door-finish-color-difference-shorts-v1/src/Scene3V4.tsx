@@ -1,0 +1,11 @@
+import React from 'react';
+import {AbsoluteFill,Audio,Img,staticFile,useCurrentFrame,interpolate} from 'remotion';
+import {PRETENDARD} from './daesan-ending/approved/fonts';
+import {Brush} from './PreviewV2Brush';
+export const Scene3V4=()=>{const t=useCurrentFrame()/30;const p=t<1.533?0:t<3.9?1:t<6.7?2:3;const whole=t<.4||p===3;const right=t>=3;const file=whole?'yl40-film-vs-abs-isolated-v1.png':right?'yl40-abs-surface-crop-v1.png':'yl40-film-surface-crop-v1.png';return <AbsoluteFill style={{background:'#F5F2EB',color:'#191916',fontFamily:PRETENDARD}}>
+<Img src={staticFile('references/series-sign-v2/doormaster-series-sign-v2.png')} style={{position:'absolute',left:72,top:126,width:360}}/><div style={{position:'absolute',right:132,top:172,fontSize:22,color:'#777166'}}>내부 검토용</div>
+<div style={{position:'absolute',left:72,top:420,width:876,fontSize:38,fontWeight:600}}>{whole?<div style={{display:'flex',justifyContent:'space-between'}}><span>필름 표면</span><span>ABS 표면</span></div>:right?'ABS 사양 표면':'필름 사양 참고 표면'}</div>
+<div style={{position:'absolute',left:72,top:490,width:876,height:810,overflow:'hidden',display:'flex',alignItems:'center'}}><Img src={staticFile('assets/images/'+file)} style={{width:'100%',height:whole?'auto':'100%',objectFit:'cover',transform:whole?'none':`scale(${interpolate(t,right?[3,6.7]:[.4,3],[1,1.035],{extrapolateLeft:'clamp',extrapolateRight:'clamp'})})`}}/></div>
+<div style={{position:'absolute',left:72,top:1350,width:876,fontSize:65,fontWeight:800,letterSpacing:-2,lineHeight:1.2}}>{p===0?<><Brush>데코시트</Brush><br/><span style={{marginLeft:28}}>열압착 마감</span></>:p===1?<>열·압력 가공 과정에서<br/><span style={{fontSize:59}}>표면 <Brush>결감</Brush>이 약해질 수 있음</span></>:p===2?<><span style={{fontSize:57}}>상대적으로 <Brush>매끈한 ABS 표면</Brush></span><br/><span style={{fontSize:49}}>표면 질감에 따른 빛 반사 차이</span></>:<>같은 계열의 색상도<br/><span style={{fontSize:49}}>표면 질감에 따라 <Brush>다르게 보일 수 있음</Brush></span></>}</div>
+<div style={{position:'absolute',left:72,top:1555,width:876,fontSize:29,color:'#655e52',lineHeight:1.4}}>실제 표면 비교 자료 · 동일 제품의 가공 전후 실험 아님{p===0&&<><br/>필름 사양 참고 표면 · 데코 완제품 이미지 아님</>}</div>
+<Audio src={staticFile('assets/audio/scene03-tts-v3.mp3')}/></AbsoluteFill>};

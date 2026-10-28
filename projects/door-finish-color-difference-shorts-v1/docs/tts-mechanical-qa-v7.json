@@ -1,0 +1,74 @@
+[
+  {
+    "file": "scene01-tts-v4.mp3",
+    "duration": 3.936,
+    "decoded_duration": 3.936,
+    "sha256": "bb186452df2eb49332d932215b215176d1c33925d0e26a0ee502c19969e71685",
+    "LUFS": -20.53,
+    "true_peak_dBTP": -2.19,
+    "full_scale_samples": 0,
+    "decode_ok": true
+  },
+  {
+    "file": "scene02-tts-v5.mp3",
+    "duration": 9.336,
+    "decoded_duration": 9.336,
+    "sha256": "8b8b8c4efc2ced5dfe9c3b43fa6f2cbac747de418d51693f2174584ab8ef13e9",
+    "LUFS": -20.38,
+    "true_peak_dBTP": -1.62,
+    "full_scale_samples": 0,
+    "decode_ok": true
+  },
+  {
+    "file": "scene03-tts-v3.mp3",
+    "duration": 8.256,
+    "decoded_duration": 8.256,
+    "sha256": "159ec47de426e82033b6d9e41d0bab6afefb67a682960a7ee757bfde5d05645b",
+    "LUFS": -20.9,
+    "true_peak_dBTP": -3.1,
+    "full_scale_samples": 0,
+    "decode_ok": true
+  },
+  {
+    "file": "scene04-tts-v7.mp3",
+    "duration": 8.73325,
+    "decoded_duration": 8.73325,
+    "sha256": "c016918a61e9b3b0e1431d722cb72377c50125173c26d31cbd2142473dc684dd",
+    "LUFS": -19.2,
+    "true_peak_dBTP": -0.43,
+    "full_scale_samples": 0,
+    "decode_ok": true,
+    "join_plus_minus_5ms_peak_dBFS": -45.98624465543555,
+    "join_max_adjacent_step": 0.0010060136119136587
+  },
+  {
+    "file": "scene05-tts-v3.mp3",
+    "duration": 5.976,
+    "decoded_duration": 5.976,
+    "sha256": "0a71d4356dd2509394becf86d4a41e016ed161f3010c3a255ebd9cd9b02b83e0",
+    "LUFS": -19.86,
+    "true_peak_dBTP": -1.2,
+    "full_scale_samples": 0,
+    "decode_ok": true
+  },
+  {
+    "file": "full-tts-qa-v7.mp3",
+    "duration": 36.23725,
+    "decoded_duration": 36.23725,
+    "sha256": "40e4ea76fcfa820ea6f4cb4551431a335812942926c69ad3404ae1c345440b07",
+    "LUFS": -20.17,
+    "true_peak_dBTP": -0.69,
+    "full_scale_samples": 0,
+    "decode_ok": true
+  },
+  {
+    "file": "full-tts-qa-with-ending-v7.mp3",
+    "duration": 41.09125,
+    "decoded_duration": 41.09125,
+    "sha256": "7de1dd13a34078612acb205f4681e6e25fb17ba7497599f6b4d0e1442249326b",
+    "LUFS": -20.35,
+    "true_peak_dBTP": -0.69,
+    "full_scale_samples": 0,
+    "decode_ok": true
+  }
+]

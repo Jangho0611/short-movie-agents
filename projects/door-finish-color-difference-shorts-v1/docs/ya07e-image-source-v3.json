@@ -1,0 +1,19 @@
+{
+  "url": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/4f49f537-04e9-416b-8d38-62572244a1d0.pdf",
+  "printed_pages": "140–141",
+  "pdf_page": 73,
+  "model": "YA-07E",
+  "color": "PX454 선셋스톤",
+  "image": "public/assets/images/younglim-ya07e-px454-catalog-native.jpg",
+  "width": 1304,
+  "height": 1464,
+  "color_space": "DeviceCMYK",
+  "extraction": "raw DCTDecode image stream, byte-preserved; no screenshot, no retouch, no CMYK preconversion",
+  "sha256": "491a96b9aed80bd1a563a000851db016a5bec878854b58ae70fb6d5dd710c15e",
+  "rights": "external promotional reuse unconfirmed; internal review only",
+  "limitation": "close-up only; whole door not available on verified pages; adjacent whole door is YA-07S, excluded",
+  "date": "2026-10-27",
+  "display_file": "public/assets/images/younglim-ya07e-px454-display.png",
+  "display_sha256": "1dfd05e3a718e0a29ee12ba46f2fca6cb95b6e296f13651f19cdff0fe5bac85f",
+  "display_conversion": "pypdf PDF CMYK sample normalization then Pillow RGB conversion for browser; raw JPEG retained. Raw DCT stream alone rendered inverted in Chromium; no creative color correction."
+}

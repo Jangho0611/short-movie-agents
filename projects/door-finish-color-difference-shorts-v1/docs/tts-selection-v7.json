@@ -1,0 +1,31 @@
+{
+  "status": "listening candidate",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "public/assets/audio/scene01-tts-v4.mp3",
+      "sha256": "bb186452df2eb49332d932215b215176d1c33925d0e26a0ee502c19969e71685"
+    },
+    {
+      "scene": 2,
+      "file": "public/assets/audio/scene02-tts-v5.mp3",
+      "sha256": "8b8b8c4efc2ced5dfe9c3b43fa6f2cbac747de418d51693f2174584ab8ef13e9"
+    },
+    {
+      "scene": 3,
+      "file": "public/assets/audio/scene03-tts-v3.mp3",
+      "sha256": "159ec47de426e82033b6d9e41d0bab6afefb67a682960a7ee757bfde5d05645b"
+    },
+    {
+      "scene": 4,
+      "file": "public/assets/audio/scene04-tts-v7.mp3",
+      "sha256": "c016918a61e9b3b0e1431d722cb72377c50125173c26d31cbd2142473dc684dd"
+    },
+    {
+      "scene": 5,
+      "file": "public/assets/audio/scene05-tts-v3.mp3",
+      "sha256": "0a71d4356dd2509394becf86d4a41e016ed161f3010c3a255ebd9cd9b02b83e0"
+    }
+  ],
+  "ending_sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181"
+}

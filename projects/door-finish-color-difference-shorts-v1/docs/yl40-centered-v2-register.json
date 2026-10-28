@@ -1,0 +1,18 @@
+{
+  "crop_box": [
+    800,
+    1300,
+    4910,
+    2840
+  ],
+  "size": [
+    4110,
+    1540
+  ],
+  "seam_x_original_median": 2855,
+  "seam_x_minmax": [
+    2851,
+    2857
+  ],
+  "pixel_equal": true
+}

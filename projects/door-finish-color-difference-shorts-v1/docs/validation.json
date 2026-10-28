@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-27 Asia/Seoul",
+  "all_24_copy_records_current_hash_verified": true,
+  "copied_sources_unchanged": true,
+  "package_lock_graph_unchanged": true,
+  "npm_ci": "250 packages; offline; ignore-scripts; exit0",
+  "bundle_check": "esbuild in memory; 1 output529737bytes; 0 warnings; no output files",
+  "static_assets_resolved": [
+    "assets/video/headquarters-normal-speed-hold.mp4",
+    "assets/audio/ending-approved-v3.mp3",
+    "assets/logos/daesanlogo2.png"
+  ],
+  "font_assets_resolved": true,
+  "media_probe": {
+    "public/assets/video/headquarters-normal-speed-hold.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "170"
+        }
+      ],
+      "format": {
+        "duration": "5.666667"
+      }
+    },
+    "public/assets/video/daesan-headquarters-ending-approved-v1.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "170",
+          "side_data_list": [
+            {}
+          ]
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "265"
+        }
+      ],
+      "format": {
+        "duration": "5.666667"
+      }
+    },
+    "public/assets/audio/ending-approved-v3.mp3": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "4.854000"
+      }
+    }
+  },
+  "nested_git_absent": true,
+  "new_scene_images": 0,
+  "main_scene_implementation": false,
+  "render_performed": false,
+  "tts_generated": false,
+  "visual_audio_render_QA": "not performed",
+  "video_duration_plan_only": "main30–35s + ending170/30s"
+}

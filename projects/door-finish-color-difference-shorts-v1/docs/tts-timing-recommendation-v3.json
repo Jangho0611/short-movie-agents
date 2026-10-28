@@ -1,0 +1,25 @@
+{
+  "status": "proposed; listening and screen readability unverified",
+  "scene_seconds": [
+    5.2,
+    8.3,
+    9.5,
+    7.5,
+    6.5
+  ],
+  "scene_frames": [
+    156,
+    249,
+    285,
+    225,
+    195
+  ],
+  "fps": 30,
+  "body_seconds": 37,
+  "ending_frames": 170,
+  "total_frames": 1280,
+  "total_seconds": 42.666666666666664,
+  "tts_body_seconds": 33.84,
+  "tts_with_ending_seconds": 38.694,
+  "v2_tts_reduction_seconds": 7.992
+}

@@ -1,0 +1,43 @@
+{
+  "size": [
+    1080,
+    1920
+  ],
+  "difference_bbox": [
+    20,
+    978,
+    682,
+    1054
+  ],
+  "difference_outside_label_regions": null,
+  "new_label": {
+    "font_px": 44,
+    "weight": 800,
+    "line_height": 52,
+    "padding_x": 22,
+    "padding_y": 12,
+    "height": 76,
+    "top": 978,
+    "left": [
+      20,
+      562
+    ],
+    "measured_background_widths": [
+      120,
+      120
+    ]
+  },
+  "old_label": {
+    "font_px": 31,
+    "weight": 600,
+    "padding_x": 15,
+    "padding_y": 9,
+    "top": 978,
+    "left": [
+      20,
+      562
+    ]
+  },
+  "changed_old_files": [],
+  "preserved_count": 275
+}

@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-27 Asia/Seoul",
+  "status": "listening candidate; not final",
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "omitted",
+  "ssml_break": {
+    "after": "다만,",
+    "requested_ms": 200,
+    "count": 1,
+    "actual_word_aligned_duration": null
+  },
+  "support_source": "https://docs.cloud.google.com/text-to-speech/docs/chirp3-hd",
+  "synthesis_requests": 1,
+  "silence_detection": "-30dB minimum0.1s",
+  "postprocessing_silence_inserted": false,
+  "concat": "48kHz mono concat/192kbps MP3; no trim/gain/stretch; original ending unchanged",
+  "preserved_existing_audio_count": 31,
+  "existing_audio_hashes_unchanged": true,
+  "listening": "not performed",
+  "measurements": [
+    {
+      "file": "scene01-tts-v4.mp3",
+      "sha256": "bb186452df2eb49332d932215b215176d1c33925d0e26a0ee502c19969e71685",
+      "duration_seconds": 3.936,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.312708,
+          "duration": 0.3127
+        },
+        {
+          "start": 2.110708,
+          "end": 2.78725,
+          "duration": 0.6765
+        },
+        {
+          "start": 3.714583,
+          "end": 3.936,
+          "duration": 0.2214
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.53,
+      "true_peak_dBTP": -2.19,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene02-tts-v5.mp3",
+      "sha256": "8b8b8c4efc2ced5dfe9c3b43fa6f2cbac747de418d51693f2174584ab8ef13e9",
+      "duration_seconds": 9.336,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.540125,
+          "duration": 0.5401
+        },
+        {
+          "start": 1.356708,
+          "end": 1.508667,
+          "duration": 0.152
+        },
+        {
+          "start": 2.986833,
+          "end": 3.702,
+          "duration": 0.7152
+        },
+        {
+          "start": 4.547167,
+          "end": 4.67125,
+          "duration": 0.1241
+        },
+        {
+          "start": 5.004292,
+          "end": 5.107833,
+          "duration": 0.1035
+        },
+        {
+          "start": 5.3475,
+          "end": 5.681875,
+          "duration": 0.3344
+        },
+        {
+          "start": 6.838083,
+          "end": 7.191958,
+          "duration": 0.3539
+        },
+        {
+          "start": 7.8885,
+          "end": 8.00525,
+          "duration": 0.1168
+        },
+        {
+          "start": 9.110417,
+          "end": 9.336,
+          "duration": 0.2256
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.38,
+      "true_peak_dBTP": -1.62,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene03-tts-v3.mp3",
+      "sha256": "159ec47de426e82033b6d9e41d0bab6afefb67a682960a7ee757bfde5d05645b",
+      "duration_seconds": 8.256,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.398958,
+          "duration": 0.399
+        },
+        {
+          "start": 1.886583,
+          "end": 2.051125,
+          "duration": 0.1645
+        },
+        {
+          "start": 3.59725,
+          "end": 4.384583,
+          "duration": 0.7873
+        },
+        {
+          "start": 6.430208,
+          "end": 6.782375,
+          "duration": 0.3522
+        },
+        {
+          "start": 8.000667,
+          "end": 8.256,
+          "duration": 0.2553
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.9,
+      "true_peak_dBTP": -3.1,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene04-tts-v6.mp3",
+      "sha256": "2790f9d7d530abb557d423554fe6771d38dbf31fc005e7b6be424525cbca04d6",
+      "duration_seconds": 9.384,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.615333,
+          "duration": 0.6153
+        },
+        {
+          "start": 2.211958,
+          "end": 2.426792,
+          "duration": 0.2148
+        },
+        {
+          "start": 4.541292,
+          "end": 5.223542,
+          "duration": 0.6822
+        },
+        {
+          "start": 5.612458,
+          "end": 6.47025,
+          "duration": 0.8578
+        },
+        {
+          "start": 7.3325,
+          "end": 7.513042,
+          "duration": 0.1805
+        },
+        {
+          "start": 9.098833,
+          "end": 9.384,
+          "duration": 0.2852
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -18.95,
+      "true_peak_dBTP": -0.16,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "scene05-tts-v3.mp3",
+      "sha256": "0a71d4356dd2509394becf86d4a41e016ed161f3010c3a255ebd9cd9b02b83e0",
+      "duration_seconds": 5.976,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.457958,
+          "duration": 0.458
+        },
+        {
+          "start": 1.485208,
+          "end": 1.592417,
+          "duration": 0.1072
+        },
+        {
+          "start": 2.714917,
+          "end": 3.2605,
+          "duration": 0.5456
+        },
+        {
+          "start": 3.877875,
+          "end": 3.99075,
+          "duration": 0.1129
+        },
+        {
+          "start": 5.74025,
+          "end": 5.976,
+          "duration": 0.2358
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -19.86,
+      "true_peak_dBTP": -1.2,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "ending-approved-v3.mp3",
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "duration_seconds": 4.854,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.711042,
+          "duration": 0.711
+        },
+        {
+          "start": 2.532375,
+          "end": 3.614542,
+          "duration": 1.0822
+        },
+        {
+          "start": 4.638,
+          "end": 4.854,
+          "duration": 0.216
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -21.74,
+      "true_peak_dBTP": -4.39,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "full-tts-qa-v6.mp3",
+      "sha256": "52be80193a6c67cf56cd3d744745610155e4b103793d0fa46f984541cae38869",
+      "duration_seconds": 36.888,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.363479,
+          "duration": 0.3635
+        },
+        {
+          "start": 2.110667,
+          "end": 2.791125,
+          "duration": 0.6805
+        },
+        {
+          "start": 3.714542,
+          "end": 4.476167,
+          "duration": 0.7616
+        },
+        {
+          "start": 5.292687,
+          "end": 5.444667,
+          "duration": 0.152
+        },
+        {
+          "start": 6.922792,
+          "end": 7.640437,
+          "duration": 0.7176
+        },
+        {
+          "start": 8.483125,
+          "end": 8.60725,
+          "duration": 0.1241
+        },
+        {
+          "start": 8.940271,
+          "end": 9.045875,
+          "duration": 0.1056
+        },
+        {
+          "start": 9.283479,
+          "end": 9.618292,
+          "duration": 0.3348
+        },
+        {
+          "start": 10.774021,
+          "end": 11.128042,
+          "duration": 0.354
+        },
+        {
+          "start": 11.824396,
+          "end": 11.94125,
+          "duration": 0.1169
+        },
+        {
+          "start": 13.046396,
+          "end": 13.670937,
+          "duration": 0.6245
+        },
+        {
+          "start": 15.158542,
+          "end": 15.323104,
+          "duration": 0.1646
+        },
+        {
+          "start": 16.869187,
+          "end": 17.656688,
+          "duration": 0.7875
+        },
+        {
+          "start": 19.702188,
+          "end": 20.054375,
+          "duration": 0.3522
+        },
+        {
+          "start": 21.272625,
+          "end": 22.143354,
+          "duration": 0.8707
+        },
+        {
+          "start": 23.739917,
+          "end": 23.954792,
+          "duration": 0.2149
+        },
+        {
+          "start": 26.069229,
+          "end": 26.751542,
+          "duration": 0.6823
+        },
+        {
+          "start": 27.140396,
+          "end": 27.998229,
+          "duration": 0.8578
+        },
+        {
+          "start": 28.860458,
+          "end": 29.041042,
+          "duration": 0.1806
+        },
+        {
+          "start": 30.626812,
+          "end": 31.369979,
+          "duration": 0.7432
+        },
+        {
+          "start": 32.397146,
+          "end": 32.503104,
+          "duration": 0.106
+        },
+        {
+          "start": 33.626896,
+          "end": 34.172542,
+          "duration": 0.5456
+        },
+        {
+          "start": 34.789854,
+          "end": 34.90275,
+          "duration": 0.1129
+        },
+        {
+          "start": 36.652208,
+          "end": 36.888,
+          "duration": 0.2358
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.07,
+      "true_peak_dBTP": -0.43,
+      "decode_xerror_pass": true
+    },
+    {
+      "file": "full-tts-qa-with-ending-v6.mp3",
+      "sha256": "170e1dde3cb90678df996d08c08795a4ce3813ccc1fd1ca9d9e57946a2cd21d8",
+      "duration_seconds": 41.742,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.363479,
+          "duration": 0.3635
+        },
+        {
+          "start": 2.110667,
+          "end": 2.791125,
+          "duration": 0.6805
+        },
+        {
+          "start": 3.714542,
+          "end": 4.476167,
+          "duration": 0.7616
+        },
+        {
+          "start": 5.292687,
+          "end": 5.444667,
+          "duration": 0.152
+        },
+        {
+          "start": 6.922792,
+          "end": 7.640437,
+          "duration": 0.7176
+        },
+        {
+          "start": 8.483125,
+          "end": 8.60725,
+          "duration": 0.1241
+        },
+        {
+          "start": 8.940271,
+          "end": 9.045875,
+          "duration": 0.1056
+        },
+        {
+          "start": 9.283479,
+          "end": 9.618292,
+          "duration": 0.3348
+        },
+        {
+          "start": 10.774021,
+          "end": 11.128042,
+          "duration": 0.354
+        },
+        {
+          "start": 11.824396,
+          "end": 11.94125,
+          "duration": 0.1169
+        },
+        {
+          "start": 13.046396,
+          "end": 13.670937,
+          "duration": 0.6245
+        },
+        {
+          "start": 15.158542,
+          "end": 15.323104,
+          "duration": 0.1646
+        },
+        {
+          "start": 16.869187,
+          "end": 17.656688,
+          "duration": 0.7875
+        },
+        {
+          "start": 19.702188,
+          "end": 20.054375,
+          "duration": 0.3522
+        },
+        {
+          "start": 21.272625,
+          "end": 22.143354,
+          "duration": 0.8707
+        },
+        {
+          "start": 23.739917,
+          "end": 23.954792,
+          "duration": 0.2149
+        },
+        {
+          "start": 26.069229,
+          "end": 26.751542,
+          "duration": 0.6823
+        },
+        {
+          "start": 27.140396,
+          "end": 27.998229,
+          "duration": 0.8578
+        },
+        {
+          "start": 28.860458,
+          "end": 29.041042,
+          "duration": 0.1806
+        },
+        {
+          "start": 30.626812,
+          "end": 31.369979,
+          "duration": 0.7432
+        },
+        {
+          "start": 32.397146,
+          "end": 32.503104,
+          "duration": 0.106
+        },
+        {
+          "start": 33.626896,
+          "end": 34.172542,
+          "duration": 0.5456
+        },
+        {
+          "start": 34.789854,
+          "end": 34.90275,
+          "duration": 0.1129
+        },
+        {
+          "start": 36.652208,
+          "end": 37.599042,
+          "duration": 0.9468
+        },
+        {
+          "start": 39.418271,
+          "end": 40.502542,
+          "duration": 1.0843
+        },
+        {
+          "start": 41.525958,
+          "end": 41.742,
+          "duration": 0.216
+        }
+      ],
+      "samples_at_or_above_full_scale": 0,
+      "integrated_LUFS": -20.31,
+      "true_peak_dBTP": -0.43,
+      "decode_xerror_pass": true
+    }
+  ]
+}

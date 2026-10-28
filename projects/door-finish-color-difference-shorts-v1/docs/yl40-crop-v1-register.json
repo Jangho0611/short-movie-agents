@@ -1,0 +1,44 @@
+{
+  "yl40-film-vs-abs-isolated-v1.png": {
+    "box_original_pixels": [
+      800,
+      1300,
+      5350,
+      2840
+    ],
+    "size": [
+      4550,
+      1540
+    ],
+    "pixel_equal": true,
+    "sha256": "62c40b4635a00ef303502ea3d36f9e27dfdbe4c89e4349ce3f5f0a4ecba04193"
+  },
+  "yl40-film-surface-crop-v1.png": {
+    "box_original_pixels": [
+      900,
+      1300,
+      2700,
+      2840
+    ],
+    "size": [
+      1800,
+      1540
+    ],
+    "pixel_equal": true,
+    "sha256": "e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae"
+  },
+  "yl40-abs-surface-crop-v1.png": {
+    "box_original_pixels": [
+      3050,
+      1300,
+      5050,
+      2840
+    ],
+    "size": [
+      2000,
+      1540
+    ],
+    "pixel_equal": true,
+    "sha256": "adcb88bf5d191906a79b10092e36481051d2f197cac675ed07999353dedea696"
+  }
+}

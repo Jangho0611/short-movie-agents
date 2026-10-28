@@ -1,0 +1,149 @@
+🧹 Webpack config change detected. Clearing cache... 
+Bundling 6%
+Bundling 21%
+Bundling 32%
+Bundling 43%
+Bundling 54%
+Bundling 65%
+Bundling 70%
+Bundling 75%
+Bundling 80%
+Bundling 85%
+Bundling 91%
+Bundling 98%
+Bundling 100%
+Getting composition
+⚡️ Cached bundle. Subsequent renders will be faster.
+Composition          Scene1Clean
+Codec                h264
+Output               public/assets/video/scene01-preview-v3.mp4
+Concurrency          2x
+Rendered 0/126
+Rendered 1/126, time remaining: 22s
+Rendered 2/126, time remaining: 10s
+Rendered 3/126, time remaining: 8s
+Rendered 4/126, time remaining: 6s
+Rendered 5/126, time remaining: 5s
+Rendered 6/126, time remaining: 4s
+Rendered 7/126, time remaining: 4s
+Rendered 8/126, time remaining: 4s
+Rendered 9/126, time remaining: 3s
+Rendered 10/126, time remaining: 3s
+Rendered 11/126, time remaining: 3s
+Rendered 12/126, time remaining: 3s
+Rendered 13/126, time remaining: 3s
+Rendered 14/126, time remaining: 2s
+Rendered 15/126, time remaining: 2s
+Rendered 16/126, time remaining: 2s
+Rendered 17/126, time remaining: 2s
+Rendered 18/126, time remaining: 2s
+Rendered 19/126, time remaining: 2s
+Rendered 20/126, time remaining: 2s
+Rendered 21/126, time remaining: 2s
+Rendered 22/126, time remaining: 2s
+Rendered 23/126, time remaining: 2s
+Rendered 24/126, time remaining: 2s
+Rendered 25/126, time remaining: 2s
+Rendered 26/126, time remaining: 2s
+Rendered 27/126, time remaining: 2s
+Rendered 28/126, time remaining: 2s
+Rendered 29/126, time remaining: 2s
+Rendered 30/126, time remaining: 2s
+Rendered 31/126, time remaining: 2s
+Rendered 32/126, time remaining: 1s
+Rendered 33/126, time remaining: 1s
+Rendered 34/126, time remaining: 1s
+Rendered 35/126, time remaining: 1s
+Rendered 36/126, time remaining: 1s
+Rendered 37/126, time remaining: 1s
+Rendered 38/126, time remaining: 1s
+Rendered 39/126, time remaining: 1s
+Rendered 40/126, time remaining: 1s
+Rendered 41/126, time remaining: 1s
+Rendered 42/126, time remaining: 1s
+Rendered 43/126, time remaining: 1s
+Rendered 44/126, time remaining: 1s
+Rendered 45/126, time remaining: 1s
+Rendered 46/126, time remaining: 1s
+Rendered 47/126, time remaining: 1s
+Rendered 48/126, time remaining: 1s
+Rendered 49/126, time remaining: 1s
+Rendered 50/126, time remaining: 1s
+Rendered 51/126, time remaining: 1s
+Rendered 52/126, time remaining: 1s
+Rendered 53/126, time remaining: 1s
+Rendered 54/126, time remaining: 1s
+Rendered 55/126, time remaining: 1s
+Rendered 56/126, time remaining: 1s
+Rendered 57/126, time remaining: 1s
+Rendered 58/126, time remaining: 1s
+Rendered 59/126, time remaining: 1s
+Rendered 60/126, time remaining: 1s
+Rendered 61/126, time remaining: 1s
+Rendered 62/126, time remaining: 1s
+Rendered 63/126, time remaining: 1s
+Rendered 64/126, time remaining: 1s
+Rendered 65/126, time remaining: 1s
+Rendered 66/126, time remaining: 1s
+Rendered 67/126, time remaining: 1s
+Rendered 68/126, time remaining: 1s
+Rendered 69/126, time remaining: 1s
+Rendered 70/126, time remaining: 1s
+Rendered 71/126, time remaining: 1s
+Rendered 72/126, time remaining: 1s
+Rendered 73/126, time remaining: 0s
+Rendered 74/126, time remaining: 0s
+Rendered 75/126, time remaining: 0s
+Rendered 76/126, time remaining: 0s
+Rendered 77/126, time remaining: 0s
+Rendered 78/126, time remaining: 0s
+Rendered 79/126, time remaining: 0s
+Rendered 80/126, time remaining: 0s
+Rendered 81/126, time remaining: 0s
+Rendered 82/126, time remaining: 0s
+Rendered 83/126, time remaining: 0s
+Rendered 84/126, time remaining: 0s
+Rendered 85/126, time remaining: 0s
+Rendered 86/126, time remaining: 0s
+Rendered 87/126, time remaining: 0s
+Rendered 88/126, time remaining: 0s
+Rendered 89/126, time remaining: 0s
+Rendered 90/126, time remaining: 0s
+Rendered 91/126, time remaining: 0s
+Rendered 92/126, time remaining: 0s
+Rendered 93/126, time remaining: 0s
+Rendered 94/126, time remaining: 0s
+Rendered 95/126, time remaining: 0s
+Rendered 96/126, time remaining: 0s
+Rendered 97/126, time remaining: 0s
+Rendered 98/126, time remaining: 0s
+Rendered 99/126, time remaining: 0s
+Rendered 100/126, time remaining: 0s
+Rendered 101/126, time remaining: 0s
+Rendered 102/126, time remaining: 0s
+Rendered 103/126, time remaining: 0s
+Rendered 104/126, time remaining: 0s
+Rendered 105/126, time remaining: 0s
+Rendered 106/126, time remaining: 0s
+Rendered 107/126, time remaining: 0s
+Rendered 108/126, time remaining: 0s
+Rendered 109/126, time remaining: 0s
+Rendered 110/126, time remaining: 0s
+Rendered 111/126, time remaining: 0s
+Rendered 112/126, time remaining: 0s
+Rendered 113/126, time remaining: 0s
+Rendered 114/126, time remaining: 0s
+Rendered 115/126, time remaining: 0s
+Rendered 116/126, time remaining: 0s
+Rendered 117/126, time remaining: 0s
+Rendered 118/126, time remaining: 0s
+Rendered 119/126, time remaining: 0s
+Rendered 120/126, time remaining: 0s
+Rendered 121/126, time remaining: 0s
+Rendered 122/126, time remaining: 0s
+Rendered 123/126, time remaining: 0s
+Rendered 124/126, time remaining: 0s
+Rendered 125/126, time remaining: 0s
+Rendered 126/126
+Encoded 126/126
++                    public/assets/video/scene01-preview-v3.mp4 2.4 MB

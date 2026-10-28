@@ -1,0 +1,12 @@
+import React from 'react';
+import {AbsoluteFill,Audio,Img,staticFile,useCurrentFrame,interpolate} from 'remotion';
+import {PRETENDARD} from './daesan-ending/approved/fonts';
+import {Brush} from './PreviewV2Brush';
+export const Scene3V6=()=>{const t=useCurrentFrame()/30;const p=t<1.533?0:t<3.9?1:t<6.7?2:3;const smooth=(v:number)=>{const x=Math.max(0,Math.min(1,v));return x*x*(3-2*x)};const pan=smooth((t-2.3)/.6),out=smooth((t-6)/.5);const scale=.52+(876/4110-.52)*out;const center=(1027.5+2055*pan)*(1-out)+2055*out;const right=t>=2.6;const labelTop=895-770*scale-52-(22.6-4.6*out);const labelStyle:React.CSSProperties={position:'absolute',top:labelTop,width:220,height:52,boxSizing:'border-box',display:'flex',alignItems:'center',justifyContent:'center',fontSize:38,fontWeight:600,lineHeight:1,background:'#FBF7ED',border:'1px solid #D4CEC0',borderRadius:8,boxShadow:'0 2px 4px rgba(25,25,22,.06)',zIndex:2};return <AbsoluteFill style={{background:'#F5F2EB',color:'#191916',fontFamily:PRETENDARD}}>
+<Img src={staticFile('references/series-sign-v2/doormaster-series-sign-v2.png')} style={{position:'absolute',left:72,top:126,width:360}}/>
+<div style={{...labelStyle,left:540+219*out-110,opacity:t<.1?interpolate(t,[0,.1],[.7,1]):1}}>{right?'ABS 사양':'필름 사양'}</div>
+{t>=6&&<div style={{...labelStyle,left:321-110,opacity:out}}>필름 사양</div>}
+<div style={{position:'absolute',left:102,top:490,width:876,height:810,overflow:'hidden'}}><Img src={staticFile('assets/images/yl40-film-vs-abs-centered-v2.png')} style={{position:'absolute',width:4110*scale,height:1540*scale,left:438-center*scale,top:405-770*scale}}/></div>
+<div style={{position:'absolute',left:72,top:1350,width:876,fontSize:65,fontWeight:800,letterSpacing:-2,lineHeight:1.2}}>{p===0?<><Brush>데코시트</Brush><br/><span style={{marginLeft:28}}>열압착 마감</span></>:p===1?<>열·압력 가공 과정에서<br/><span style={{fontSize:59}}>표면 <Brush>결감</Brush>이 약해질 수 있음</span></>:p===2?<><span style={{fontSize:57}}>상대적으로 <Brush>매끈한 ABS 표면</Brush></span><br/><span style={{fontSize:49}}>표면 질감에 따른 빛 반사 차이</span></>:<>같은 계열의 색상도<br/><span style={{fontSize:49}}>표면 질감에 따라 <Brush>다르게 보일 수 있음</Brush></span></>}</div>
+<div style={{position:'absolute',left:72,top:1555,width:876,fontSize:29,color:'#655e52',lineHeight:1.4}}>실제 표면 비교 자료 · 동일 제품의 가공 전후 실험 아님{p===0&&<><br/>필름 사양 참고 표면 · 데코 완제품 이미지 아님</>}</div>
+<Audio src={staticFile('assets/audio/scene03-tts-v3.mp3')}/></AbsoluteFill>};

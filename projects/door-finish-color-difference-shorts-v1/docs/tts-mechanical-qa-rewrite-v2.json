@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-28",
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "not specified",
+  "ssml": false,
+  "added_silence": 0,
+  "audio_processing": "PCM concat only; integrated MP3 encoded 192kbps, no trim/gain/rate change",
+  "preserved_old_audio_count": 45,
+  "changed_old_files": [],
+  "listening_status": "NOT PERFORMED; pronunciation, phrasing, scene transitions and ending entry require user listening",
+  "results": [
+    {
+      "file": "public/assets/audio/scene01-tts-rewrite-v1.mp3",
+      "sha256": "bcdf96ad87f337b42c17e6b01ee4e56768ecfb15cd47742d9af5c138594b32ce",
+      "ffprobe_duration": 4.944,
+      "decoded_duration": 4.944,
+      "sample_rate": 24000,
+      "LUFS": -21.6,
+      "true_peak_dBTP": -4.9,
+      "sample_peak_dBFS": -4.886811125636671,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 2.181875,
+          "end": 2.631875,
+          "duration": 0.45
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/scene02-tts-rewrite-v1.mp3",
+      "sha256": "58704b7476eb8da9f7de7dfd56545616ff53119a166e90fa6f89546e797c8835",
+      "ffprobe_duration": 5.688,
+      "decoded_duration": 5.688,
+      "sample_rate": 24000,
+      "LUFS": -18.9,
+      "true_peak_dBTP": -0.9,
+      "sample_peak_dBFS": -1.01470345336931,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 0.0,
+          "end": 0.4045,
+          "duration": 0.4045
+        },
+        {
+          "start": 3.657792,
+          "end": 4.01875,
+          "duration": 0.360958
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/scene03-tts-rewrite-v1.mp3",
+      "sha256": "4a81912a36f905ac75aab449c50bbad3896b8620ebd33ed335f84a9a6b4e40f8",
+      "ffprobe_duration": 6.696,
+      "decoded_duration": 6.696,
+      "sample_rate": 24000,
+      "LUFS": -19.3,
+      "true_peak_dBTP": -0.3,
+      "sample_peak_dBFS": -0.35708845368203357,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 0.0,
+          "end": 0.486292,
+          "duration": 0.486292
+        },
+        {
+          "start": 2.412417,
+          "end": 2.72475,
+          "duration": 0.312333
+        },
+        {
+          "start": 4.505417,
+          "end": 4.828917,
+          "duration": 0.3235
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/scene04-tts-rewrite-v1.mp3",
+      "sha256": "eab3438909b956d6659a42445cc1ff3baf385c6d8a1dd53970698d668eae73b1",
+      "ffprobe_duration": 6.264,
+      "decoded_duration": 6.264,
+      "sample_rate": 24000,
+      "LUFS": -19.4,
+      "true_peak_dBTP": -2.2,
+      "sample_peak_dBFS": -2.2752783356932578,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 0.0,
+          "end": 0.445958,
+          "duration": 0.445958
+        },
+        {
+          "start": 2.842875,
+          "end": 3.635292,
+          "duration": 0.792417
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/scene05-tts-rewrite-v2.mp3",
+      "sha256": "cb42e68dc537e402d6ba33b66d042503ea0690f845296f3c4c97f05b8f932bf3",
+      "ffprobe_duration": 7.824,
+      "decoded_duration": 7.824,
+      "sample_rate": 24000,
+      "LUFS": -19.9,
+      "true_peak_dBTP": -3.4,
+      "sample_peak_dBFS": -3.3627216798764015,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 3.092042,
+          "end": 3.87525,
+          "duration": 0.783208
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/ending-approved-v3.mp3",
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "ffprobe_duration": 4.854,
+      "decoded_duration": 4.854,
+      "sample_rate": 24000,
+      "LUFS": -21.2,
+      "true_peak_dBTP": -4.4,
+      "sample_peak_dBFS": -4.396467110014349,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 0.0,
+          "end": 0.710375,
+          "duration": 0.710375
+        },
+        {
+          "start": 2.560792,
+          "end": 3.6145,
+          "duration": 1.053708
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/full-tts-rewrite-qa-v2.mp3",
+      "sha256": "0a6ee33fed067437f3d682ff45006d0a620feced1f60318a55dfe9c3dae184c2",
+      "ffprobe_duration": 31.416,
+      "decoded_duration": 31.416,
+      "sample_rate": 24000,
+      "LUFS": -20.2,
+      "true_peak_dBTP": -0.8,
+      "sample_peak_dBFS": -0.8049434367560331,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 2.181083,
+          "end": 2.631917,
+          "duration": 0.450833
+        },
+        {
+          "start": 4.702167,
+          "end": 5.3485,
+          "duration": 0.646333
+        },
+        {
+          "start": 8.601708,
+          "end": 8.962958,
+          "duration": 0.36125
+        },
+        {
+          "start": 10.371167,
+          "end": 11.118292,
+          "duration": 0.747125
+        },
+        {
+          "start": 13.044333,
+          "end": 13.357458,
+          "duration": 0.313125
+        },
+        {
+          "start": 15.137375,
+          "end": 15.462583,
+          "duration": 0.325208
+        },
+        {
+          "start": 17.078917,
+          "end": 17.774,
+          "duration": 0.695083
+        },
+        {
+          "start": 20.170792,
+          "end": 20.963292,
+          "duration": 0.7925
+        },
+        {
+          "start": 23.382583,
+          "end": 23.789833,
+          "duration": 0.40725
+        },
+        {
+          "start": 26.684,
+          "end": 27.467917,
+          "duration": 0.783917
+        }
+      ]
+    },
+    {
+      "file": "public/assets/audio/full-tts-rewrite-with-ending-v2.mp3",
+      "sha256": "b3aa23e0a3958f2e2718af6c19f237015e10c435f0779d398c048210e7503004",
+      "ffprobe_duration": 36.27,
+      "decoded_duration": 36.27,
+      "sample_rate": 24000,
+      "LUFS": -20.3,
+      "true_peak_dBTP": -0.8,
+      "sample_peak_dBFS": -0.8049434367560331,
+      "full_scale_samples": 0,
+      "decode": "PASS",
+      "silence_candidates": [
+        {
+          "start": 2.181083,
+          "end": 2.631917,
+          "duration": 0.450833
+        },
+        {
+          "start": 4.702167,
+          "end": 5.3485,
+          "duration": 0.646333
+        },
+        {
+          "start": 8.601708,
+          "end": 8.962958,
+          "duration": 0.36125
+        },
+        {
+          "start": 10.371167,
+          "end": 11.118292,
+          "duration": 0.747125
+        },
+        {
+          "start": 13.044333,
+          "end": 13.357458,
+          "duration": 0.313125
+        },
+        {
+          "start": 15.137375,
+          "end": 15.462583,
+          "duration": 0.325208
+        },
+        {
+          "start": 17.078917,
+          "end": 17.774,
+          "duration": 0.695083
+        },
+        {
+          "start": 20.170792,
+          "end": 20.963292,
+          "duration": 0.7925
+        },
+        {
+          "start": 23.382583,
+          "end": 23.789833,
+          "duration": 0.40725
+        },
+        {
+          "start": 26.684,
+          "end": 27.467917,
+          "duration": 0.783917
+        },
+        {
+          "start": 31.168375,
+          "end": 32.126375,
+          "duration": 0.958
+        },
+        {
+          "start": 33.976625,
+          "end": 35.0305,
+          "duration": 1.053875
+        }
+      ]
+    }
+  ]
+}

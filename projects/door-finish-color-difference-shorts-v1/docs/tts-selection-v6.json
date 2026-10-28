@@ -1,0 +1,36 @@
+{
+  "status": "candidate; 200ms actual pause unverified; listening pending",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "public/assets/audio/scene01-tts-v4.mp3",
+      "sha256": "bb186452df2eb49332d932215b215176d1c33925d0e26a0ee502c19969e71685",
+      "duration_seconds": 3.936
+    },
+    {
+      "scene": 2,
+      "file": "public/assets/audio/scene02-tts-v5.mp3",
+      "sha256": "8b8b8c4efc2ced5dfe9c3b43fa6f2cbac747de418d51693f2174584ab8ef13e9",
+      "duration_seconds": 9.336
+    },
+    {
+      "scene": 3,
+      "file": "public/assets/audio/scene03-tts-v3.mp3",
+      "sha256": "159ec47de426e82033b6d9e41d0bab6afefb67a682960a7ee757bfde5d05645b",
+      "duration_seconds": 8.256
+    },
+    {
+      "scene": 4,
+      "file": "public/assets/audio/scene04-tts-v6.mp3",
+      "sha256": "2790f9d7d530abb557d423554fe6771d38dbf31fc005e7b6be424525cbca04d6",
+      "duration_seconds": 9.384
+    },
+    {
+      "scene": 5,
+      "file": "public/assets/audio/scene05-tts-v3.mp3",
+      "sha256": "0a71d4356dd2509394becf86d4a41e016ed161f3010c3a255ebd9cd9b02b83e0",
+      "duration_seconds": 5.976
+    }
+  ],
+  "ending_sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181"
+}

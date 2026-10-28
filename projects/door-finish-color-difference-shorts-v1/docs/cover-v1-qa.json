@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "preserved_file_count": 251,
+  "changed_files": [],
+  "sign_sha256": "304024aa3f0b76d226afcab5b83201e59201e13f5a6e3246abf550699dea89e3",
+  "sign_matches_common": true,
+  "logo_sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+  "logo_matches_canonical": true,
+  "photo": "public/assets/images/customer-door-sample.jpeg",
+  "photo_sha256": "75287900dfa4f4880e19f40372df9f509270e996c58fa9b0f20f2c51a29cf0a1",
+  "original_dimensions": [
+    1080,
+    1920
+  ],
+  "visual_qa": {
+    "original": "PASS",
+    "3:4": "PASS",
+    "4:5": "PASS",
+    "square": "WARN: sign partially clipped, supporting text and brand excluded; not approved for square use"
+  },
+  "mobile": "360px wide inspected; headline readable; source photo tiny product code not readable",
+  "platform_live_qa": "not performed"
+}

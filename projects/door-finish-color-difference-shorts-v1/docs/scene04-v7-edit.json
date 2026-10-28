@@ -1,0 +1,22 @@
+{
+  "source": "scene04-tts-v6.mp3",
+  "source_sha256": "2790f9d7d530abb557d423554fe6771d38dbf31fc005e7b6be424525cbca04d6",
+  "basis": "user-designated interval plus measured low-level acoustic boundaries; semantic listening not performed",
+  "quiet_start_seconds": 5.615291666666667,
+  "quiet_end_seconds": 6.4660416666666665,
+  "cut_start_seconds": 5.715291666666666,
+  "cut_end_seconds": 6.366041666666667,
+  "removed_seconds": 0.65075,
+  "retained_quiet_seconds": 0.2,
+  "join_seconds": 5.715291666666666,
+  "fade_each_side_ms": 2,
+  "fade_only_quiet_samples": true,
+  "pcm_outside_join_and_cut_identical": true,
+  "post_export_mp3_lossy_reencode": true,
+  "source_pcm_seconds": 9.384,
+  "edited_pcm_seconds": 8.73325,
+  "all_prior_audio_unchanged": true,
+  "prior_audio_count": 35,
+  "tts_api_calls": 0,
+  "listening": "not performed"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "deco applied finished door",
+    "file": "younglim-ya07s-psm195-deco-product-catalog.png",
+    "model": "YA-07S / PSM195 소프트매트 캐시미어",
+    "source": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/4f49f537-04e9-416b-8d38-62572244a1d0.pdf",
+    "pages": "printed142–143 / PDF74",
+    "evidence": "caption YA-07S PSM195; same-page structure labels 코팅층 / 데코시트 / ABS판넬",
+    "limits": "coated soft-matte example; not bare deco sheet or generic standard deco finish",
+    "sha256": "60fe6c576b30bcf580ff231807a4cb3657b3b6fc3d2b31da389d07b08a49821c",
+    "rights": "external promotional reuse unconfirmed; internal review only",
+    "checked": "2026-10-27"
+  },
+  {
+    "kind": "interior film scan sample",
+    "file": "younglim-pw968-film-scan-official.jpg",
+    "model": "PW968 / 영림190 체스트넛",
+    "source": "https://ylfilm.co.kr/detail/FH22120551/",
+    "image_url": "https://ylfilm.co.kr/admin-media/Upload/FilmImage/Category_2/%EC%9A%B0%EB%93%9C/PW968.jpg",
+    "evidence": "official interior-film category, exact PW968 image alt and code",
+    "limits": "not finished infill door; source scan dimensions900×2000mm are not sale dimensions",
+    "sha256": "c6f502f538ccb4087f20464dd686b38e5e57eb03e452fcb8a1174574dc2bf933",
+    "rights": "external promotional reuse unconfirmed; internal review only",
+    "checked": "2026-10-27"
+  },
+  {
+    "kind": "emboss finished product close-up",
+    "file": "younglim-ya07e-px454-display.png",
+    "model": "YA-07E / PX454 선셋스톤",
+    "source": "https://s3.ap-northeast-2.amazonaws.com/younglim-bucket/4f49f537-04e9-416b-8d38-62572244a1d0.pdf",
+    "pages": "printed140–141 / PDF73",
+    "evidence": "caption YA-07E PX454",
+    "limits": "not Younglim190 comparison image",
+    "sha256": "1dfd05e3a718e0a29ee12ba46f2fca6cb95b6e296f13651f19cdff0fe5bac85f",
+    "rights": "external promotional reuse unconfirmed; internal review only",
+    "checked": "2026-10-27"
+  }
+]

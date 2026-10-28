@@ -1,0 +1,54 @@
+{
+  "public/assets/video/IMG_3934.MOV": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/video/daesan-headquarters-ending-approved-v1.mp4": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/video/headquarters-normal-speed-hold.mp4": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/logos/daesanlogo2.png": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/audio/ending-approved-v3.mp3": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/fonts/Pretendard-SemiBold.woff2": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/fonts/Pretendard-ExtraBold.woff2": {
+    "exists": true,
+    "hash_match": true
+  },
+  "public/assets/fonts/Pretendard-Medium.woff2": {
+    "exists": true,
+    "hash_match": true
+  },
+  "src/daesan-ending/DaesanEnding.tsx": {
+    "exists": true,
+    "hash_match": false
+  },
+  "src/daesan-ending/approved/fonts.ts": {
+    "exists": true,
+    "hash_match": false
+  },
+  "src/daesan-ending/approved/HeadquartersOverlay.tsx": {
+    "exists": true,
+    "hash_match": false
+  },
+  "src/daesan-ending/approved/tokens.ts": {
+    "exists": true,
+    "hash_match": true
+  },
+  "src/daesan-ending/approved/brief.ts": {
+    "exists": true,
+    "hash_match": true
+  }
+}
