@@ -1,0 +1,24 @@
+Scene 4·6 수정 후보 생성 완료 / 사용자 청취 승인 대기
+Scene 4: v1 6.864초 / v2 6.744초 → v3 6.168초
+Scene 6: v1 6.264초 → v2 7.296초
+Alnilam / speakingRate 1.0 / pitch 미지정 / Scene 4·6 각각 1회. 추가 무음/SSML/속도/음량 조정 없음.
+기존 모든 MP3 SHA256 보존 PASS. 통합 순서: scene01-tts-v1.mp3, scene02-tts-v1.mp3, scene03-tts-v1.mp3, scene04-tts-v3.mp3, scene05-tts-v1.mp3, scene06-tts-v2.mp3
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v3.mp3
+6.168초 / 디코딩 PASS / -19.7 LUFS / Sample Peak -2.30 dBFS / True Peak -2.3 dBTP / full-scale 샘플 0 / 오버레벨 False
+SHA256: e620349cc75ec7dc468db944316d46b25507d2622874cb3a67e5a1aa07615550
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene06-tts-v2.mp3
+7.296초 / 디코딩 PASS / -21.7 LUFS / Sample Peak -3.15 dBFS / True Peak -3.2 dBTP / full-scale 샘플 0 / 오버레벨 False
+SHA256: a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v3.mp3
+36.072초 / 디코딩 PASS / -20.5 LUFS / Sample Peak -0.90 dBFS / True Peak -0.9 dBTP / full-scale 샘플 0 / 오버레벨 False
+SHA256: 92dff7b9e1f59bf5e194ca132d7d6d6725965f4d2eefcaffe8037e3a0de6c878
+
+Scene 6 저레벨 무음 참고 측정(최소 0.05초):
+{"-30": [{"start": 0.0, "end": 0.544542, "duration": 0.544542}, {"start": 0.629667, "end": 0.711042, "duration": 0.081375}, {"start": 1.7527080000000002, "end": 2.147625, "duration": 0.394917}, {"start": 2.5282917, "end": 2.599625, "duration": 0.0713333}, {"start": 2.9807083000000003, "end": 3.063, "duration": 0.0822917}, {"start": 3.4387497000000002, "end": 3.500208, "duration": 0.0614583}, {"start": 3.6134167, "end": 3.706375, "duration": 0.0929583}, {"start": 3.943208, "end": 4.22675, "duration": 0.283542}, {"start": 4.305375, "end": 4.379625, "duration": 0.07425}, {"start": 5.334499999999999, "end": 6.093417, "duration": 0.758917}, {"start": 6.4433753000000005, "end": 6.513167, "duration": 0.0697917}, {"start": 6.6025417, "end": 6.681125, "duration": 0.0785833}, {"start": 7.024208000000001, "end": 7.296, "duration": 0.271792}], "-40": [{"start": 0.0, "end": 0.543542, "duration": 0.543542}, {"start": 0.6477919999999999, "end": 0.710792, "duration": 0.063}, {"start": 1.756375, "end": 2.080292, "duration": 0.323917}, {"start": 2.9978336999999997, "end": 3.062292, "duration": 0.0644583}, {"start": 3.4469167, "end": 3.500125, "duration": 0.0532083}, {"start": 3.6208337, "end": 3.705292, "duration": 0.0844583}, {"start": 3.954083, "end": 4.197875, "duration": 0.243792}, {"start": 4.3210413, "end": 4.373083, "duration": 0.0520417}, {"start": 5.3485000000000005, "end": 6.090167, "duration": 0.741667}, {"start": 6.611500299999999, "end": 6.672667, "duration": 0.0611667}, {"start": 7.0475, "end": 7.296, "duration": 0.2485}]}
+문장 경계 귀속은 청취/정렬 확인 전 미확정. 무음 검출은 자연스러움 PASS 근거가 아님.
+발음·억양·자연스러움 사용자 청취 승인 대기.
+
+문장 경계 추정 후보: 5.3485~6.090167초, -40dB 기준 0.741667초 (-30dB 기준 0.758917초). 후반 내부 쉼 위치로 추정했으며 실제 문장 경계인지 청취 확인 필요.

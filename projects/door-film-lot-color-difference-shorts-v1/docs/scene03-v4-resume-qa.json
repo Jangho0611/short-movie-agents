@@ -1,0 +1,35 @@
+{
+  "tts": {
+    "scene": 3,
+    "file": "scene03-tts-v2.mp3",
+    "text": "대량 발주에서도 생산 로트가 다른 필름이 사용될 수 있어, 이색이 발생할 가능성이 있습니다.",
+    "sha256": "e4e4a3cab2501b0ed8d19a9bfa03b1b683b973415e0593eb5610661afb9ac6fc",
+    "approvalBasis": "user approved text; new audio listening pending",
+    "durationSeconds": 5.784,
+    "frames": 180
+  },
+  "settings": {
+    "voice": "ko-KR-Chirp3-HD-Alnilam",
+    "speakingRate": 1.0,
+    "pitch": "omitted",
+    "inputType": "text"
+  },
+  "generationCallsThisResume": 1,
+  "status": "success",
+  "speechApproval": "PENDING",
+  "startsFrames": [
+    0,
+    130,
+    314,
+    494,
+    698,
+    921,
+    1146
+  ],
+  "endingFrames": 170,
+  "totalFrames": 1316,
+  "duration": 43.86666666666667,
+  "previousFaultNewFrame": 531,
+  "scene4FaultAbsent": "PASS",
+  "preservation": "PASS"
+}

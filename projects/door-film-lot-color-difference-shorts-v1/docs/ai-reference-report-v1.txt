@@ -1,0 +1,22 @@
+도어 LOT 이색 — AI 실사형 기준 이미지 후보 v1
+생성 방식: 내장 image_gen, Scene 1/3/5 각 1회·1장, 총3장. 신규 실제 사례나 영림 제품 사진이 아닌 설명용 AI 연출.
+기존 사진 검토 결과: Scene1/3/4/5용 정확한 상황 사진 부족. Scene2/6 실사 테스트는 그대로 유지.
+Scene4: 사용자 지시의 Scene1 승인 기준 이미지 재사용 조건에 따라 승인 대기, 미생성.
+
+해상도 주의: 요청1080×1920, 실제 출력941×1672. 정확한 납품 해상도 미충족. 원본을 임의 변형하거나 반복 생성하지 않고 시각 후보로 보존.
+
+Scene 1: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-ai-reference-candidate-v1.png
+SHA256: 6bcd0fe018bba9762e238c65fe99461163c965c643711381a705b230580acbd3
+Scene 3: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-ai-reference-candidate-v1.png
+SHA256: 11c1ad498b19bc3d731dcf5177e437c95926ceb837c4349186674f3c084ad13c
+Scene 5: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-ai-reference-candidate-v1.png
+SHA256: bbddd1e40e3cd99252db37bd66e61608639da40ad566943e70d2ca1f9cd69c9a
+
+시각 QA:
+Scene1: 두 문짝 전체·손잡이·경첩 배치는 대체로 일관. 문자/로고 없음. 좌측 자연광 밝기 차이가 색차와 혼재하므로 동일 조명 비교 요건은 조건부. 나뭇결 완전 일치는 미검증.
+Scene3: 문짝6개, 보호랙, 미설치 손잡이 타공 표현. 색차 불량 표시 없음. 실제 규격·랙 적재 안전성은 보증하지 않음.
+Scene5: 롤2개 원통·코어·말림층과 비닐 표면 표현. 문자/LOT/제조사라벨 없음. 두 롤의 높이 차이가 보여 동일 제품 폭 일관성은 보완 필요.
+Scene1↔4 일관성: Scene4 미생성이므로 미검증.
+승인 요청: Scene1 디자인/미세 색감 차이를 기준으로 채택할지, Scene3 납품 장면, Scene5 롤 후보의 구조/높이 보완 여부.
+프롬프트 전문: docs/ai-reference-prompts-v1.json. 출처/QA/해시: docs/ai-reference-qa-v1.json.
+후보는 public/assets/images/에만 저장, Canonical 승격 없음. 승인 전 영상 제작 없음.

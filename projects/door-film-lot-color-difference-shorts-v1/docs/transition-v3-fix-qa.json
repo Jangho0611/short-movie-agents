@@ -1,0 +1,13 @@
+{
+  "boundaryFrame": 482,
+  "faultFrame": 519,
+  "scene4FaultLocalFrame": 37,
+  "faultSeconds": 17.3,
+  "diagnosis": "single malformed raster frame with tiled repeated scene header; present in scene04 v2 itself; not cut/opacity/texture-only loading failure; underlying Chrome capture failure suspected, not proven",
+  "fix": "same source, Scene04 only re-rendered concurrency=1; no design/source/timeline changes",
+  "newScene4FrameCount": 204,
+  "newScene4MaxDifferenceBeforeAccent": 0.0014068930041152264,
+  "sourceAndV1V2Hashes": "PASS",
+  "endingHashes": "PASS",
+  "approval": "PENDING"
+}

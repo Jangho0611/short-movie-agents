@@ -1,0 +1,65 @@
+{
+  "images": [
+    {
+      "scene": 1,
+      "source": "/Users/janghokim/.codex/generated_images/01a17fd4-cfbd-7f21-ad52-ac13c0cd35f6/exec-81ee6359-f520-47c3-bfe3-16973a99cbd1.png",
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-ai-reference-candidate-v2.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "bc88c2bdfc8baa49b3220689974d09d0890301e3acd77bc879b5e4ec44e0fe88",
+      "approval": "PENDING",
+      "generator": "built-in image_gen",
+      "count": 1
+    },
+    {
+      "scene": 3,
+      "source": "/Users/janghokim/.codex/generated_images/01a17fd4-cfbd-7f21-ad52-ac13c0cd35f6/exec-caf4d0a0-3a66-48d8-800d-0f53d6e79e55.png",
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-ai-reference-candidate-v2.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "b097d9e5252556467006c926467157b8de1d1af11760b1884431ce115a749083",
+      "approval": "PENDING",
+      "generator": "built-in image_gen",
+      "count": 1
+    },
+    {
+      "scene": 5,
+      "source": "/Users/janghokim/.codex/generated_images/01a17fd4-cfbd-7f21-ad52-ac13c0cd35f6/exec-a926a31a-a8a3-4eed-b155-a9f066cdc8a8.png",
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-ai-reference-candidate-v2.png",
+      "size": [
+        941,
+        1672
+      ],
+      "sha256": "a4c2b8d924d362fc87f4d8f023ca57adbfe485da4b2b9516acf7696a21063169",
+      "approval": "PENDING",
+      "generator": "built-in image_gen",
+      "count": 1
+    }
+  ],
+  "qa": {
+    "scene1": {
+      "observed": "L-shaped corner, door per wall, sensible corner separation, opposed latch/hinge sides; similar wood tone, no text/logo",
+      "issues": "thin line at ceiling junction resembles molding; strict no-molding criterion not met. Casing appears wider than a guaranteed 9mm; exact width unverified. Perspective/grain/illumination not numerically identical; tint vs lighting not fully separable."
+    },
+    "scene3": {
+      "observed": "five door leaves in apartment under renovation, floor protection, corner protectors, no industrial rack or attached hardware",
+      "issues": "small multiple dark openings inside handle bores look suspicious; exact hardware machining needs review. Static view cannot verify leaning stability or true thickness."
+    },
+    "scene5": {
+      "observed": "two horizontal wide rolls with similar axial width, different remaining diameters, broad flexible sheet with backing visible; no narrow tape appearance or labels",
+      "issues": "core hollows and fine concentric winding not clearly visible from this angle; full width consistency and film layer thickness cannot be certified. Sheet-to-roll continuity should be reviewed."
+    }
+  },
+  "v1Hashes": "PASS unchanged",
+  "scene2and6": "not modified",
+  "scene4": "not generated; awaiting Scene1 v2 user approval",
+  "canonical": "not registered",
+  "resolution": "actual supported output preserved; later scale in edit, no resize now",
+  "source": "fictional AI explanatory scenes, not real manufacturer or delivery cases",
+  "retry": "one candidate per scene, no retry",
+  "prompts": "docs/ai-reference-prompts-v2.json"
+}

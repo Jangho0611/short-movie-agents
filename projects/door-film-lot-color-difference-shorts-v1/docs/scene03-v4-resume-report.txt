@@ -1,0 +1,24 @@
+대산 EP.02 Scene3 수정 재개 / Preview v4 완료
+Google TTS 호출 성공. 기존 scripts/generate_tts.py / ADC 사용, 이번 재개1회 호출. 인증·결제정보 기록 없음.
+Alnilam / speakingRate1.0 / pitch미지정 / text 입력.
+문구: 대량 발주에서도 생산 로트가 다른 필름이 사용될 수 있어, 이색이 발생할 가능성이 있습니다.
+TTS: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene03-tts-v2.mp3
+길이5.784초, 이전5.376초 대비+0.408초.
+SHA256: e4e4a3cab2501b0ed8d19a9bfa03b1b683b973415e0593eb5610661afb9ac6fc
+Scene3:180프레임/6.000초(실제음성+0.216초), 이전168프레임 대비+12프레임.
+Scene3 영상: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-2d-preview-v4.mp4
+전체: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v4.mp4
+전체1316프레임/43.866667초/1080×1920/30fps.
+Scene 시작프레임: 0,130,314,494,698,921; 엔딩1146부터170프레임.
+Scene2→3 경계314f(10.466667초), Scene3→4 경계494f(16.466667초).
+QA PASS: 경계 전후 각11프레임 추출 및 비예정 프레임 점프 검사. 기존 강조 변화와 Scene 컷만 검출.
+QA PASS: 과거 Scene4 내부37f 오류는 새 전체531f(17.700초)에서 재발 없음.
+QA PASS: 2줄 자막과 #123628 ExtraBold ‘발주 전 반드시 확인!’ 대표화면 확인. 점멸/전환 추가 없음.
+QA PASS: 신규 TTS 문구/입력 기록 및 SHA256 일치, 다른 승인 TTS와 엔딩 직접 의존 자산 해시 일치.
+QA PASS: 기존Preview v3, Scene 렌더, Cover v1 해시 보존.
+QA PASS: 전체 오디오/비디오 디코딩 및 각 영상 프레임 수/규격 일치.
+음성 배치: 전체Scene/엔딩 원본 대비 AAC지연42.67ms, 정렬 상관계수0.99995이상. 기존과 동일, 임의 속도/pitch/음량 변경 없음.
+미승인: 신규 Scene3 발음·호흡·억양, 실제 연속 시청·청취의 자연스러움 및 모바일 가독성.
+텍스처 기존 공개권한 미확인/내부검토 범위 유지.
+QA 이미지: public/assets/images/scene03-2d-preview-v4.png, v4-s2-s3-contact.png, v4-s3-s4-contact.png, v4-s4-error-check-contact.png
+사용자 최종 청취·시각 승인 대기. AI/Cover/SNS/기존파일삭제/공통가이드/Git 작업 없음.

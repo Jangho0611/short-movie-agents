@@ -1,0 +1,69 @@
+# 도어세트 필름 생산 로트(LOT) 차이에 따른 이색
+
+시리즈: 문도사의 그것이 알고싶도어
+상태: Slim Copy 및 실행환경 준비 완료. 본편 제작 전.
+
+## 원본과 구성
+
+원본은 `doormaster-handle-replacement-v1`. 같은 시리즈의 정보형 도어 영상이며 `docs/26.10.22수정.md`의 Preview v4 승인 기록을 확인했다. 최소 package/lockfile·설정·엔딩 직접 의존 소스만 복사했다. 기존 주제별 Scene·TTS·제품 이미지·결과물은 복사하지 않았다.
+
+- `src/project.json`: 사용자 승인 TTS v5 원문 6개, 문구 변경 금지. Scene 1~6의 음성·화면·프레임 수는 아직 미확정이다.
+- 구조: Scene 1 → 2 → 3 → 4 → 5 → 6 → 승인 공통 엔딩. 엔딩만 170프레임/30fps(5.666667초), 전체 길이는 미확정.
+- `src/index.tsx`: 승인 엔딩 Composition만 등록. 본편 Composition은 제작 단계에서 구현한다. 임시 길이를 최종 길이처럼 등록하지 않았다.
+- `src/daesan-ending/`: 원본 프로젝트에서 바이트 동일 복사한 5개 소스. Canonical 소스와 비교 시 staticFile의 assets/ 경로 접두어만 다르다.
+- `public/assets/`: 엔딩 실재생 배경·승인 TTS·로고·Pretendard 500/600/800과 승인 대산이 PNG 3종. PNG 복사는 Cover 제작이 아니다.
+- `public/references/`: 승인 엔딩 Canonical 영상 및 본사 배경 원본.
+- `docs/slim-copy-sha256.json`: 원본/복사본 SHA256 및 프로젝트명 변경 예외 기록.
+
+## 실행환경
+
+`npm ci --offline --ignore-scripts --no-audit --no-fund` 성공(250 packages). node_modules를 복사하지 않았다. package/lockfile은 프로젝트명만 변경했으며 의존성 그래프와 integrity는 동일하다.
+
+Node v26.7.0, npm 11.19.0, Remotion/CLI 4.0.523, React/React DOM 19.3.0. Remotion 번들 빌드 PASS(`/tmp/door-film-lot-setup-bundle`). Chrome 실행파일 및 ffmpeg/ffprobe 존재 확인. 브라우저 실행·미디어 재생·실제 렌더 QA는 수행하지 않았다.
+
+Studio 실행: 프로젝트 디렉터리에서 `npm run studio`. 현재 확인 가능한 Composition은 `DaesanEndingApprovedV1` 하나다.
+
+## 경로와 다음 단계
+
+Scene/Preview/Final 영상은 `public/assets/video/`, 이미지와 생성 후보는 `public/assets/images/`, Cover는 `public/covers/`, Cover QA는 `public/covers/qa/`, 승인 재사용 Reference는 `public/references/`에 저장한다. 신규 Scene 음성은 `public/assets/audio/`에 저장한다.
+
+다음 제작 단계에는 승인 v5의 Scene별 신규 음성 6개와 청취 QA, LOT 번호가 확인되는 필름 라벨·동일 색상 비교·추가 발주/혼용 상황용 사진 또는 승인 기준 이미지가 필요하다. 실제 제품 자료의 사용권과 표현 정확성을 확인한 뒤 화면 구성 및 별도 요약 자막을 확정한다. 음성 길이에 맞춰 Scene 시간을 정하고 본편을 구현한 다음 승인 엔딩을 연결한다. 현재는 추가 제작 실행 승인 전이며 어떤 음성/이미지/영상도 생성하지 않았다.
+
+기존 파일·공통 원본·공통 가이드 수정/삭제/이동 없음. 별도 .git/origin 없음. Git commit/push 없음.
+
+## TTS v5 최초 생성 완료
+
+Scene별 scene01~06-tts-v1.mp3 및 full-tts-qa-v1.mp3 생성. 사용자 청취 승인 대기. 위 준비 단계의 미생성 설명은 초기 기록이며, 최신 결과는 [TTS QA](docs/tts-qa-v1.md)를 참조한다. 본편 구현/렌더 없음.
+
+## Scene 4 TTS v2 수정 후보
+
+사용자 늘어지는 말투 피드백에 따라 지정 수정 문구 1회 생성. 다른 Scene/v1 보존 SHA256 PASS. full-tts-qa-v2.mp3 생성, 사용자 청취 승인 대기. 상세 측정/경로/SHA256: docs/tts-qa-v2.json 및 docs/tts-qa-v2.txt (프로젝트 기준).
+
+## Scene 4 v3 · Scene 6 v2 청취 후보
+
+사용자 수정 문구로 각 1회 생성. Scene 1/2/3/5 v1 유지. full-tts-qa-v3.mp3 생성, 사용자 청취 승인 대기. 기존 모든 MP3 해시 보존. 상세: 프로젝트 docs/tts-qa-v3.json 및 tts-qa-v3.txt.
+
+## Scene 4 Part A/B v4 후보
+
+지정 Part별 각 1회 생성. 원본 보존, 0.150초 무음 삽입 scene04-tts-v4.mp3 및 full-tts-qa-v4.mp3 생성. 다른 Scene 유지. 기존 MP3 해시 불변. 사용자 청취 승인 대기. 상세: 프로젝트 docs/tts-qa-v4.json 및 tts-qa-v4.txt.
+
+## Scene 4 v5 단일 발화 후보
+
+사용자 확정 문구를 단일 발화로 1회 생성. scene04-tts-v5.mp3 및 full-tts-qa-v5.mp3 저장. Scene 1/2/3/5 v1, Scene 6 v2 유지. 모든 기존 MP3 해시 불변. 추가 무음/Part/SSML 없음. 사용자 청취 승인 대기. 상세: 프로젝트 docs/tts-qa-v5.json 및 tts-qa-v5.txt.
+
+## 본편 승인 및 엔딩 포함 청취 QA
+
+최신 사용자 지시로 본편 승인 파일 확인: Scene 1/2/3/5 v1, Scene 4 v5, Scene 6 v2. 문구·생성 기록·해시 대조 후 승인 엔딩 TTS 해시 확인. full-tts-qa-with-ending-v1.mp3 생성. 추가 무음/음량/속도 조정 없음. 최종 통합 청취 승인 대기. 상세: docs/tts-final-with-ending-qa-v1.json 및 .txt. 실제 영상에는 개별 승인 음성과 엔딩 컴포넌트 사용.
+
+## EP.02 Preview v1 제작
+
+본편/엔딩 통합 TTS 사용자 승인 반영. Scene 6개 SVG/CSS 도형 구현, 승인 엔딩 컴포넌트 170프레임 유지. 1304프레임/43.467초/1080×1920/30fps Preview 생성. 승인 음성 및 엔딩 직접 자산 해시 유지. 전체 디코딩 PASS. 대표 프레임 시각 확인, 사용자 시각 승인 대기. 상세: docs/preview-v1-report.txt 및 preview-v1-qa.json.
+
+## 실사 중심 부분 테스트 v1
+
+직접 관련 자산 제한 확인. Scene 2/6 내부 검토용 실사+그래픽 제작. Scene 1/3/4/5 실사 미확보로 전체 렌더 보류. 공개 재사용 미확인. 상세: docs/photo-preview-v1-report.txt 및 photo-preview-v1-qa.json. 기존 그래픽 Preview/음성/엔딩 보존. 사용자 시각 검토 대기.
+
+
+## 2D 정보형 Preview v1
+
+Scene 1~6 SVG/텍스트 구현 및 승인 엔딩 연결 완료. 1080×1920, 30fps, 1304프레임(43.466667초). 진입점 `src/Info2DV1.tsx`. 전체 영상 `public/assets/video/door-film-lot-2d-preview-v1.mp4`. 상세 결과 `docs/2d-preview-v1-report.txt`, 기계 QA `docs/2d-preview-v1-qa.json`. 기존 AI 이미지 미사용, 승인 TTS·엔딩 원본 보존. 사용자 시각·청취 승인 대기.

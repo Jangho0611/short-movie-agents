@@ -1,0 +1,20 @@
+문도사의 그것이 알고싶도어 EP.02 — 실사형 Scene 이미지 v2
+내장 image_gen으로 Scene1/3/5 각1회·1장, 총3장 생성. v1 이미지/프롬프트/보고서 보존. 실제 제조사 제품·납품 사례가 아닌 AI 설명용 연출.
+실제 사진 및 기존 후보 검토 결과, 요청한 코너/현장납품/광폭롤 구도에 맞는 기존 사진이 부족해 신규 생성. Scene2/6 기존 결과 유지.
+
+Scene 1: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-ai-reference-candidate-v2.png
+실제 해상도: 941×1672 / SHA256: bc88c2bdfc8baa49b3220689974d09d0890301e3acd77bc879b5e4ec44e0fe88
+Scene 3: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-ai-reference-candidate-v2.png
+실제 해상도: 941×1672 / SHA256: b097d9e5252556467006c926467157b8de1d1af11760b1884431ce115a749083
+Scene 5: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-ai-reference-candidate-v2.png
+실제 해상도: 941×1672 / SHA256: a4c2b8d924d362fc87f4d8f023ca57adbfe485da4b2b9516acf7696a21063169
+
+Scene1 QA: ㄱ자 직각 벽·문 간격·손잡이/경첩 방향은 대체로 일관. 천장 접합부에 얇은 몰딩처럼 보이는 선이 남아 무몰딩 요구 완전 충족 아님. 문선은 슬림하나 9mm 실치수 확인 불가·더 넓게 보일 수 있음. 색차와 조명 영향 완전 분리 미검증.
+Scene3 QA: 아파트 공사현장·보양 바닥·동일 문짝5개·보호재 표현, 산업 랙 제거. 타공 내부 작은 구멍 중첩이 의심되어 가공 형태 사용자 검토 필요. 두께·적재 안정성 보증 아님.
+Scene5 QA: 같은 폭으로 보이는 광폭 롤2개, 다른 잔량, 넓게 펼친 얇은 시트·이면지 표현. 좁은 엣지테이프 느낌 개선. 코어 내부/세부 말림층은 각도상 불명확, 시트와 롤 연결 확인 필요.
+전체: 눈에 띄는 한글/LOT/로고/자막 없음. 자연광 사진풍 후보이며 기계적 제품 규격 검증은 아님.
+원본941×1672 보존, 지금 확대/재가공 안 함. 승인 후 후편집에서1080×1920 배치 예정.
+Scene4 미생성: Scene1 v2 사용자 승인 후 동일 공간/제품 재사용. Canonical 등록 없음.
+영상 렌더·TTS·Cover/SNS·삭제/덮어쓰기·Git·공통 지침 변경 없음.
+프롬프트 전문: docs/ai-reference-prompts-v2.json. 상세 QA: docs/ai-reference-qa-v2.json.
+사용자 승인 필요: 세 이미지 각각 채택/수정 여부. Scene1은 무몰딩/문선, Scene3은 타공, Scene5는 말림 구조 중점 검토.

@@ -1,0 +1,37 @@
+도어 필름 LOT 이색 — 실사 중심 부분 테스트 v1
+전체 실사 Preview: 보류. Scene 1/3/4/5의 맞는 실사 자산 미확보. 기존 그래픽 Preview v1 보존.
+
+Scene별 확보/제작 현황
+S1 보류: 고객 사진은 도어·샘플 또는 문틀·판재 비교이며, 같은 색상 문짝 2개/LOT 비교 근거가 아님. 임의 대체/착색 안 함.
+S2 제작: 실제 YL40 필름 표면 크롭 + 독립 LOT 예시 그래픽. 실제 사진의 품번/LOT로 오인하지 않도록 표시.
+S3 보류: 동일 문짝 여러 개가 놓인 실제 대량 발주 사진 없음. 단일 문짝 복제로 현장 사진을 만들지 않음.
+S4 보류: 기존 설치와 추가 발주라는 시점/사양이 확인되는 실제 제품쌍 없음.
+S5 보류: 잔여/신규 필름 롤과 각각의 라벨 사진 없음. 실제 랩핑 작업 사진도 확인 범위에서 미확보.
+S6 제작: 도어·샘플 현장 사진 + 별도 YL40 필름 표면 참고 사진. 서로 다른 자료이며 동일 품번/LOT 사례 아님 명시.
+
+사진 출처/사용 범위:
+/Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/yl40-film-surface-crop-v1.png
+프로젝트 복사: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-yl40-film-surface-crop-v1.png
+SHA256: e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae
+/Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/customer-door-sample.jpeg
+프로젝트 복사: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-customer-door-sample.jpeg
+SHA256: 75287900dfa4f4880e19f40372df9f509270e996c58fa9b0f20f2c51a29cf0a1
+원 도어 사진은 기존 사용자 제공 고객 현장 자료(등록 파일 customer-photo-register-v1.json). 필름은 younglim190-film-texture-reference.JPG의 실제 라벨 YL40 필름 측 크롭(yl40-crop-v1-register.json). 영림190으로 단정하지 않음.
+기존 기록상 내부 참고/검토 범위. 이번 결과도 내부 검토용. 공개/홍보 재사용 권한 미확인. 승인 Canonical로 승격하지 않았음.
+
+렌더 결과:
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-photo-preview-v1.mp4
+184프레임 / 6.133초 / 1080×1920 / 30fps / 전체 A/V 디코딩 PASS
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-photo-preview-v1.mp4
+225프레임 / 7.500초 / 1080×1920 / 30fps / 전체 A/V 디코딩 PASS
+
+추가 실사 요청 구도/수량(권장 총 8장, 공동 촬영 구도면 일부 통합 가능):
+S1 2장: 동일 색상 번호 문짝 2개를 각각 정면에서 같은 거리·노출·자연광으로 촬영. 전체 형태와 표면 확인. 실제 LOT 차이 주장 시 품번/로트 증빙 별도.
+S3 1장: 동일한 문짝 4~8개가 실제로 적재/정렬된 창고 또는 현장 전경. 과장된 불량 표시 없음.
+S4 2장: 기존 설치 제품과 나중 추가 주문 제품 정면. 가능하면 한 화면 비교. 같은 색상 번호와 발주 시점 확인.
+S5 3장: 남은 필름과 새 필름 롤이 함께 보이는 1장 + 각 품번/LOT 라벨 근접 2장. 실제 랩핑 장면 1장은 선택.
+두 사진의 광원·각도·거리·화이트밸런스 통일, 색 보정 없는 원본 권장. 촬영자/사용 가능 범위 함께 확인.
+
+QA: 원본사진/복사본 해시 일치, TTS 및 엔딩 소스 변경 없음. 자막 2줄, 예시/참고 사진 표시. 사진 hue·contrast·재질 수정 없음. 비율 유지 crop 배치.
+미확인: 연속 청취/시청과 플랫폼 UI, 공개 재사용 권한, 전체 실사70/그래픽30 목표(전체 미제작). 신규 AI/Flow/Veo/TTS 생성·엔딩 변경·Cover/SNS·삭제/이동·Git·공통 가이드 수정 없음.
+다음 단계: 부분 영상 시각 검토와 부족 실사 확보 후 나머지 Scene 제작. 전체 렌더는 6개 모두 가능할 때만 진행.

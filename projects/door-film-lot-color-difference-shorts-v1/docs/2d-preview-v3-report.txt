@@ -1,0 +1,20 @@
+대산 EP.02 Preview v3 — Scene4 단일 프레임 오류 수정
+모든 프레임 번호는 0-based.
+Scene3: 314~481, Scene4: 482~685. 전환 482f /16.066667초.
+실제 오류: 519f /17.300초, Scene4 내부37f(시작1.233초 후).
+확인 원인: Scene4 v2에 화면 상단이 타일처럼 반복된 비정상 래스터 프레임 1개가 포함됨.
+Chrome 캡처/렌더 과정 문제로 추정하나 내부 발생 기제는 확정하지 않음.
+전환 전후477~487 및 오류 전후514~524 각11프레임 추출.
+검은/흰/빈 프레임, opacity 초기값, 프레임 누락 없음. 첫 Scene4 프레임 정상.
+텍스처만 누락되는 로딩 오류가 아니라 화면 전체 캡처 손상. 소스에 해당 순간 모션 없음.
+수정: 동일 Info2DV2.tsx로 Scene4만 concurrency=1 재렌더. 소스·레이아웃·자막·텍스처·모션 변경 없음.
+수정 영상: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-2d-preview-v3.mp4
+전체 Preview: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v3.mp4
+경계 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-v3-comparison.png
+오류 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-v3-comparison.png
+PASS: Scene4 전체204프레임 검사, 오류 제거. 105f 기존 강조 색상 변화만 검출.
+PASS: 승인 Scene TTS 및 공통 엔딩 직접 의존 자산 SHA256 일치. 기존v1/v2 보존.
+PASS: 전체1304프레임 /43.466667초 /1080×1920 /30fps, 전체 오디오·비디오 디코딩.
+Scene1/2/3/5/6과 엔딩은 기존 렌더 재사용. 추가 fade/crossfade/zoom 없음.
+WARN: 연속 시청에서의 체감 연결은 사용자 최종 승인 대기. 기존 텍스처 공개 사용 권한 미확인, 내부검토용.
+진단/기술 QA: docs/transition-v3-diagnosis.json, transition-v3-fix-qa.json, 2d-preview-v3-qa.json.

@@ -1,0 +1,49 @@
+{
+  "input": {
+    "scene04-tts-v2.mp3": "시간이 지나 문짝이나 문틀을 추가로 주문하면, 기존 제품과 필름 로트가 달라질 수 있습니다."
+  },
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "script": "scripts/generate_tts.py",
+  "authentication": "existing Google ADC",
+  "synthesisCalls": 1,
+  "initialFailure": "OAuth DNS before synthesis",
+  "sequence": [
+    "scene01-tts-v1.mp3",
+    "scene02-tts-v1.mp3",
+    "scene03-tts-v1.mp3",
+    "scene04-tts-v2.mp3",
+    "scene05-tts-v1.mp3",
+    "scene06-tts-v1.mp3"
+  ],
+  "addedSilenceSeconds": 0,
+  "processing": "PCM concat; no trim, speed, pitch or volume adjustment; QA MP3 192kbps",
+  "preservation": "PASS all prior MP3 SHA256 unchanged",
+  "scene04v1Duration": 6.864,
+  "files": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v2.mp3",
+      "durationSeconds": 6.744,
+      "LUFS": -19.8,
+      "samplePeakDBFS": -2.2019247325392923,
+      "truePeakDBTP": -2.2,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "05a26769a1687aca30249ee19eed0518e68ca7deace8ecd5785dab4eba96b9bd"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v2.mp3",
+      "durationSeconds": 35.616,
+      "LUFS": -20.4,
+      "samplePeakDBFS": -0.9033373935075268,
+      "truePeakDBTP": -0.9,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "7dee3630b2abb093ce5806c3169648428aee7e704b468acb7a2b818e0cf879c0"
+    }
+  ],
+  "listening": "PENDING; no pronunciation/intonation/naturalness PASS"
+}

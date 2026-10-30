@@ -1,0 +1,18 @@
+{
+  "canonicalRegisteredFiles": 17,
+  "copiedFiles": 22,
+  "sourcePreservation": "PASS",
+  "targetHashes": "PASS",
+  "lockDependencyGraphUnchanged": true,
+  "bodySceneCount": 6,
+  "bodyTiming": "pending audio",
+  "endingFrames": 170,
+  "fps": 30,
+  "npmCi": "PASS offline ignore-scripts",
+  "bundle": "PASS",
+  "renderPerformed": false,
+  "ttsGenerated": false,
+  "imageVideoGenerated": false,
+  "coverCreated": false,
+  "nestedGit": false
+}

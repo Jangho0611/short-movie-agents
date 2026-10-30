@@ -1,0 +1,14 @@
+Scene 3 TTS/자막 수정 — 외부 서비스 차단으로 렌더 보류
+Google 기존 생성 스크립트 scripts/generate_tts.py, 기존 프로젝트 .venv 및 ADC 사용.
+Alnilam / speakingRate1.0 / pitch미지정 / 일반 text, 생성 요청1회.
+결과: HTTP403 billing disabled (gen-lang-client-0646355490). MP3 생성 없음, 재시도 없음.
+신규 TTS 길이/기존 대비 차이: 측정 불가. 기존 Scene3 v1은5.376초.
+승인 입력 원문과 실패기록: docs/scene03-tts-v2-attempt-v1.json
+준비 소스: src/Info2DV4-pending-tts.tsx (렌더 등록 없음, 실사용 미반영).
+신규 자막: 대량 발주 시 이색 가능성 / 발주 전 반드시 확인!
+둘째 줄은 기존52px ExtraBold 및 #123628 강조 유지. Scene3 상단 빈도 문구도 새 의미에 맞춰 변경 준비.
+도어 도식/레이아웃 유지. 자재 로스/내부 생산 방식 언급 없음.
+신규 Scene3 영상/전체 Preview: 미생성. 새 duration·타임라인·연결·디코딩 QA 보류.
+보존 PASS: 기존 승인6개 TTS 및 Preview v3 구성 영상·엔딩 렌더 SHA256 일치.
+신규 발음/호흡/억양/영상 QA: 미검증. 기존 Cover·소스·영상·오디오 수정 없음.
+다음 필요사항: 기존 Google 프로젝트 결제 활성화 후 생성 재개. 임의 다른 프로젝트·인증으로 전환하지 않음.

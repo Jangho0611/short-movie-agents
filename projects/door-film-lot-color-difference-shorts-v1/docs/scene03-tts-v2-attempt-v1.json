@@ -1,0 +1,16 @@
+{
+  "text": "대량 발주에서도 생산 로트가 다른 필름이 사용될 수 있어, 이색이 발생할 가능성이 있습니다.",
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "omitted",
+  "script": "scripts/generate_tts.py",
+  "authentication": "Google ADC",
+  "attempts": 1,
+  "status": "HTTP403 billing disabled",
+  "billingProject": "gen-lang-client-0646355490",
+  "outputCreated": false,
+  "plannedFile": "scene03-tts-v2.mp3",
+  "duration": null,
+  "render": "NOT RUN",
+  "draft": "src/Info2DV4-pending-tts.tsx"
+}

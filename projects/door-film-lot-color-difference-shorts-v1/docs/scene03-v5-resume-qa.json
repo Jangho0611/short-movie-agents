@@ -1,0 +1,35 @@
+{
+  "tts": {
+    "scene": 3,
+    "file": "scene03-tts-v3.mp3",
+    "text": "대량 발주할 때도 필름 생산 로트가 달라질 수 있습니다. 이 경우 색차가 발생할 수 있으니 꼭 확인하세요.",
+    "sha256": "8c9d5a2c0820fda6c0ef251f6739e33f7768f27c89c6ef6a18209f6e57ac432d",
+    "approvalBasis": "user approved text; new audio listening pending",
+    "durationSeconds": 7.296,
+    "frames": 225
+  },
+  "settings": {
+    "voice": "ko-KR-Chirp3-HD-Alnilam",
+    "speakingRate": 1.0,
+    "pitch": "omitted",
+    "inputType": "text"
+  },
+  "generationCallsThisResume": 1,
+  "status": "success",
+  "speechApproval": "PENDING",
+  "startsFrames": [
+    0,
+    130,
+    314,
+    539,
+    743,
+    966,
+    1191
+  ],
+  "endingFrames": 170,
+  "totalFrames": 1361,
+  "duration": 45.36666666666667,
+  "previousFaultNewFrame": 576,
+  "scene4FaultAbsent": "PASS",
+  "preservation": "PASS"
+}

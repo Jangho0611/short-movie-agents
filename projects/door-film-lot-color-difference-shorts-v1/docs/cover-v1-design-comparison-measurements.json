@@ -1,0 +1,24 @@
+[
+  {
+    "file": "/Users/janghokim/Documents/short-movie-agents/projects/doormaster-series-ep02/public/covers/doormaster-ep02-cover-v1.png",
+    "sha256": "7c005d2844f8d941614343952aa291779bf945cee9594136e3aad89a5a09fbb9",
+    "visibleSignBoundsThreshold40": [
+      132,
+      307,
+      918,
+      647
+    ],
+    "topRatioPercent": 15.989583333333332
+  },
+  {
+    "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/door-film-lot-cover-v1.png",
+    "sha256": "e73cbbea8a42dc1ea9978063477c1aebf641ac1f47430bf2c86a52926da5495c",
+    "visibleSignBoundsThreshold40": [
+      130,
+      301,
+      919,
+      643
+    ],
+    "topRatioPercent": 15.677083333333334
+  }
+]

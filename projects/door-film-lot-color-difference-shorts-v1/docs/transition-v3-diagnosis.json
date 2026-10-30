@@ -1,0 +1,849 @@
+{
+  "boundaryZeroBasedFrame": 482,
+  "seconds": 16.066666666666666,
+  "frameCount": 1304,
+  "frameDifferences": [
+    {
+      "frame": 477,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 478,
+      "meanAbsDifference": 0.00033950617283950616
+    },
+    {
+      "frame": 479,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 480,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 481,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 482,
+      "meanAbsDifference": 14.719557613168725
+    },
+    {
+      "frame": 483,
+      "meanAbsDifference": 0.0013040123456790123
+    },
+    {
+      "frame": 484,
+      "meanAbsDifference": 0.00021347736625514403
+    },
+    {
+      "frame": 485,
+      "meanAbsDifference": 0.00011574074074074075
+    },
+    {
+      "frame": 486,
+      "meanAbsDifference": 0.0013940329218106995
+    },
+    {
+      "frame": 487,
+      "meanAbsDifference": 0.0002880658436213992
+    },
+    {
+      "frame": 488,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 489,
+      "meanAbsDifference": 7.71604938271605e-06
+    },
+    {
+      "frame": 490,
+      "meanAbsDifference": 0.0008719135802469135
+    },
+    {
+      "frame": 491,
+      "meanAbsDifference": 0.0007381687242798354
+    },
+    {
+      "frame": 492,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 493,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 494,
+      "meanAbsDifference": 0.00040123456790123454
+    },
+    {
+      "frame": 495,
+      "meanAbsDifference": 0.0002469135802469136
+    },
+    {
+      "frame": 496,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 497,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 498,
+      "meanAbsDifference": 0.0006121399176954733
+    },
+    {
+      "frame": 499,
+      "meanAbsDifference": 0.0006815843621399177
+    },
+    {
+      "frame": 500,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 501,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 502,
+      "meanAbsDifference": 0.0001954732510288066
+    },
+    {
+      "frame": 503,
+      "meanAbsDifference": 0.0001954732510288066
+    },
+    {
+      "frame": 504,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 505,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 506,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 507,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 508,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 509,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 510,
+      "meanAbsDifference": 0.0002546296296296296
+    },
+    {
+      "frame": 511,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 512,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 513,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 514,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 515,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 516,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 517,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 518,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 519,
+      "meanAbsDifference": 9.566095679012346
+    },
+    {
+      "frame": 520,
+      "meanAbsDifference": 9.566054526748971
+    },
+    {
+      "frame": 521,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 522,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 523,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 524,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 525,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 526,
+      "meanAbsDifference": 0.0002546296296296296
+    },
+    {
+      "frame": 527,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 528,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 529,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 530,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 531,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 532,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 533,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 534,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 535,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 536,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 537,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 538,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 539,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 540,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 541,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 542,
+      "meanAbsDifference": 0.0002546296296296296
+    },
+    {
+      "frame": 543,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 544,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 545,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 546,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 547,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 548,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 549,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 550,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 551,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 552,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 553,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 554,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 555,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 556,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 557,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 558,
+      "meanAbsDifference": 0.0002546296296296296
+    },
+    {
+      "frame": 559,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 560,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 561,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 562,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 563,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 564,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 565,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 566,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 567,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 568,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 569,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 570,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 571,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 572,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 573,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 574,
+      "meanAbsDifference": 0.0002546296296296296
+    },
+    {
+      "frame": 575,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 576,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 577,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 578,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 579,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 580,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 581,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 582,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 583,
+      "meanAbsDifference": 0.00018518518518518518
+    },
+    {
+      "frame": 584,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 585,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 586,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 587,
+      "meanAbsDifference": 0.17628343621399176
+    },
+    {
+      "frame": 588,
+      "meanAbsDifference": 0.0001388888888888889
+    },
+    {
+      "frame": 589,
+      "meanAbsDifference": 7.973251028806585e-05
+    },
+    {
+      "frame": 590,
+      "meanAbsDifference": 0.0003523662551440329
+    },
+    {
+      "frame": 591,
+      "meanAbsDifference": 0.0004963991769547325
+    },
+    {
+      "frame": 592,
+      "meanAbsDifference": 3.3436213991769545e-05
+    },
+    {
+      "frame": 593,
+      "meanAbsDifference": 7.716049382716049e-05
+    },
+    {
+      "frame": 594,
+      "meanAbsDifference": 0.000787037037037037
+    },
+    {
+      "frame": 595,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 596,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 597,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 598,
+      "meanAbsDifference": 0.0006455761316872428
+    },
+    {
+      "frame": 599,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 600,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 601,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 602,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 603,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 604,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 605,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 606,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 607,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 608,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 609,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 610,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 611,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 612,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 613,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 614,
+      "meanAbsDifference": 0.000573559670781893
+    },
+    {
+      "frame": 615,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 616,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 617,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 618,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 619,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 620,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 621,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 622,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 623,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 624,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 625,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 626,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 627,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 628,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 629,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 630,
+      "meanAbsDifference": 0.000573559670781893
+    },
+    {
+      "frame": 631,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 632,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 633,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 634,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 635,
+      "meanAbsDifference": 0.0006970164609053498
+    },
+    {
+      "frame": 636,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 637,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 638,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 639,
+      "meanAbsDifference": 0.0005041152263374485
+    },
+    {
+      "frame": 640,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 641,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 642,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 643,
+      "meanAbsDifference": 0.0006275720164609053
+    },
+    {
+      "frame": 644,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 645,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 646,
+      "meanAbsDifference": 0.000573559670781893
+    },
+    {
+      "frame": 647,
+      "meanAbsDifference": 0.0005658436213991769
+    },
+    {
+      "frame": 648,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 649,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 650,
+      "meanAbsDifference": 0.0011728395061728395
+    },
+    {
+      "frame": 651,
+      "meanAbsDifference": 0.0020190329218106994
+    },
+    {
+      "frame": 652,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 653,
+      "meanAbsDifference": 8.23045267489712e-05
+    },
+    {
+      "frame": 654,
+      "meanAbsDifference": 0.0004140946502057613
+    },
+    {
+      "frame": 655,
+      "meanAbsDifference": 0.0003497942386831276
+    },
+    {
+      "frame": 656,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 657,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 658,
+      "meanAbsDifference": 0.0021116255144032923
+    },
+    {
+      "frame": 659,
+      "meanAbsDifference": 0.0011265432098765433
+    },
+    {
+      "frame": 660,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 661,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 662,
+      "meanAbsDifference": 0.0022170781893004116
+    },
+    {
+      "frame": 663,
+      "meanAbsDifference": 0.0024511316872427983
+    },
+    {
+      "frame": 664,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 665,
+      "meanAbsDifference": 1.02880658436214e-05
+    },
+    {
+      "frame": 666,
+      "meanAbsDifference": 0.0008667695473251029
+    },
+    {
+      "frame": 667,
+      "meanAbsDifference": 3.08641975308642e-05
+    },
+    {
+      "frame": 668,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 669,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 670,
+      "meanAbsDifference": 0.00023919753086419754
+    },
+    {
+      "frame": 671,
+      "meanAbsDifference": 0.00010288065843621399
+    },
+    {
+      "frame": 672,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 673,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 674,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 675,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 676,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 677,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 678,
+      "meanAbsDifference": 0.0003497942386831276
+    },
+    {
+      "frame": 679,
+      "meanAbsDifference": 0.00010288065843621399
+    },
+    {
+      "frame": 680,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 681,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 682,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 683,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 684,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 685,
+      "meanAbsDifference": 0.0
+    },
+    {
+      "frame": 686,
+      "meanAbsDifference": 9.466342592592593
+    }
+  ],
+  "timestampStepMin": 0.03333299999999895,
+  "timestampStepMax": 0.03333400000000353
+}

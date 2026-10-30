@@ -1,0 +1,61 @@
+{
+  "project": "door-film-lot-color-difference-shorts-v1",
+  "series": "문도사의 그것이 알고싶도어",
+  "topic": "도어세트 필름 생산 로트(LOT) 차이에 따른 이색",
+  "ttsVersion": "v5",
+  "ttsTextApproved": true,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "status": "setup-only",
+  "scenes": [
+    {
+      "id": 1,
+      "tts": "같은 색상으로 주문한 문짝인데, 왜 색이 다를까요?",
+      "durationInFrames": null,
+      "audio": null,
+      "visual": null
+    },
+    {
+      "id": 2,
+      "tts": "같은 색상 번호의 필름이라도 생산 로트가 다르면 미세한 색차가 발생할 수 있습니다.",
+      "durationInFrames": null,
+      "audio": null,
+      "visual": null
+    },
+    {
+      "id": 3,
+      "tts": "대량 발주에서도 간혹 발생하지만, 일반적인 발주에서는 흔한 경우는 아닙니다.",
+      "durationInFrames": null,
+      "audio": null,
+      "visual": null
+    },
+    {
+      "id": 4,
+      "tts": "오히려 시간이 지난 뒤 문짝이나 문틀을 추가 발주할 때, 기존 제품과 필름 로트가 달라질 수 있죠.",
+      "durationInFrames": null,
+      "audio": null,
+      "visual": null
+    },
+    {
+      "id": 5,
+      "tts": "현장에서 남은 필름과 새 필름을 함께 쓸 때도 주의하세요. 로트 번호가 다르면 섞어 쓰지 않는 게 좋습니다.",
+      "durationInFrames": null,
+      "audio": null,
+      "visual": null
+    },
+    {
+      "id": 6,
+      "tts": "같은 색상 번호라도 생산 시점과 필름 로트에 따라 색차가 생길 수 있다는 점, 기억하세요.",
+      "durationInFrames": null,
+      "audio": null,
+      "visual": null
+    }
+  ],
+  "ending": {
+    "id": "DaesanEndingApprovedV1",
+    "durationInFrames": 170,
+    "fps": 30,
+    "canonical": "references/daesan-headquarters-ending-approved-v1.mp4"
+  }
+}

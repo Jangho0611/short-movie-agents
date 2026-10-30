@@ -1,0 +1,51 @@
+대산 EP.02 — 2D 텍스처 Preview v2
+상태: 내부 검토용 / 사용자 시각·청취 승인 대기
+텍스처 원본: /Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/yl40-film-surface-crop-v1.png
+프로젝트 복사: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/yl40-film-texture-2d-v2.png
+실제 크기: 1800×1540, 복사본 바이트 동일
+SHA256: e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae
+출처: younglim190-film-texture-reference.JPG 중 YL40 필름 측 크롭. yl40-crop-v1-register.json 대조.
+공개·홍보 사용 권한 미확인: 내부 Preview에만 사용. Canonical 승격 없음.
+구현: Info2DV2.tsx, SVG pattern fill. 제품 영역에만 원본 사진 적용. 세로 결·동일 SVG 스케일.
+Scene1/4: 동일 도어 패턴, B에만 미세한 색조 오프셋(명도 변화 최소화). 실제 LOT 측정값 아님.
+Scene2/6: 기존 비교 샘플 면만 텍스처 적용.
+Scene3: 모든 도어 동일 패턴·색조.
+Scene5: 광폭 시트와 롤 외부 표면에 동일 텍스처. 기존 폭·말림 윤곽 유지.
+디자인: v1 Notion/Linear, 자막·레이아웃·강조 모션·Scene 길이 그대로.
+
+Scene 1: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene01-2d-preview-v2.mp4
+영상 130f / 4.333333초, 컨테이너 4.394667초
+승인 음성 scene01-tts-v1.mp3 / 4.104초 / SHA256 f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92
+동일 120프레임 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-2d-v1-v2-compare.png
+Scene 2: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-2d-preview-v2.mp4
+영상 184f / 6.133333초, 컨테이너 6.186667초
+승인 음성 scene02-tts-v1.mp3 / 5.904초 / SHA256 7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f
+동일 120프레임 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-2d-v1-v2-compare.png
+Scene 3: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-2d-preview-v2.mp4
+영상 168f / 5.600000초, 컨테이너 5.653333초
+승인 음성 scene03-tts-v1.mp3 / 5.376초 / SHA256 0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c
+동일 120프레임 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-v1-v2-compare.png
+Scene 4: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-2d-preview-v2.mp4
+영상 204f / 6.800000초, 컨테이너 6.848000초
+승인 음성 scene04-tts-v5.mp3 / 6.576초 / SHA256 ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78
+동일 120프레임 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene04-2d-v1-v2-compare.png
+Scene 5: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene05-2d-preview-v2.mp4
+영상 223f / 7.433333초, 컨테이너 7.488000초
+승인 음성 scene05-tts-v1.mp3 / 7.224초 / SHA256 43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080
+동일 120프레임 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-2d-v1-v2-compare.png
+Scene 6: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-2d-preview-v2.mp4
+영상 225f / 7.500000초, 컨테이너 7.552000초
+승인 음성 scene06-tts-v2.mp3 / 7.296초 / SHA256 a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e
+동일 120프레임 비교: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-2d-v1-v2-compare.png
+
+전체: /Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v2.mp4
+전체 길이 1304f / 43.466667초, 1080×1920 / 30fps. 본편37.8초+엔딩170f(5.667초).
+PASS: 기존 파일 전수 해시 보존, 승인 음성 해시, 엔딩 직접 의존 파일 해시 확인.
+PASS: v1/v2 소스의 Tag 이후 자막·레이아웃·모션·음성·타임라인 일치.
+PASS: 120프레임 비교 픽셀 차이는 제품 그래픽 영역 내. 전체 디코딩 및 프레임 수/규격 일치.
+PASS: 6개 대표 비교 화면에서 LOT/자막 가독성, 동일 세로 결, Scene1/4 색조 체계, Scene5 광폭 윤곽 확인.
+WARN: 실제 표면 근접 사진이므로 결이 굵게 보임. 실제 제품의 결 크기나 LOT 색차를 재현한 자료 아님.
+WARN: 실제 공개 사용 권한 미확인. 연속 시청·청취, 실제 모바일 환경 검토는 사용자 승인 필요.
+WARN: 출력 AAC 약42.67ms 지연은 v1과 동일. 원본 음성 속도·pitch·음량·무음 수정 없음.
+FAIL: 기계적 검사에서 없음. 시각적 최종 승인 아님.
+기존 v1/원본 모두 보존. AI 생성·TTS 변경·엔딩 변경·Cover/SNS·Git 작업 없음.

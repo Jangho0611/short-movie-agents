@@ -1,0 +1,137 @@
+{
+  "selectedApprovedScenes": [
+    {
+      "scene": 1,
+      "file": "scene01-tts-v1.mp3",
+      "text": "같은 색상으로 주문한 문짝인데, 왜 색이 다를까요?",
+      "sha256": "f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash"
+    },
+    {
+      "scene": 2,
+      "file": "scene02-tts-v1.mp3",
+      "text": "같은 색상 번호의 필름이라도 생산 로트가 다르면 미세한 색차가 발생할 수 있습니다.",
+      "sha256": "7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash"
+    },
+    {
+      "scene": 3,
+      "file": "scene03-tts-v1.mp3",
+      "text": "대량 발주에서도 간혹 발생하지만, 일반적인 발주에서는 흔한 경우는 아닙니다.",
+      "sha256": "0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash"
+    },
+    {
+      "scene": 4,
+      "file": "scene04-tts-v5.mp3",
+      "text": "나중에 추가로 발주할 때도 주의해야 합니다. 기존 제품과 필름 로트가 달라질 수 있기 때문이죠.",
+      "sha256": "ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash"
+    },
+    {
+      "scene": 5,
+      "file": "scene05-tts-v1.mp3",
+      "text": "현장에서 남은 필름과 새 필름을 함께 쓸 때도 주의하세요. 로트 번호가 다르면 섞어 쓰지 않는 게 좋습니다.",
+      "sha256": "43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash"
+    },
+    {
+      "scene": 6,
+      "file": "scene06-tts-v2.mp3",
+      "text": "같은 색상 번호라도 생산 시점과 필름 로트에 따라 색차가 생길 수 있습니다. 이 점을 기억하세요.",
+      "sha256": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash"
+    }
+  ],
+  "approvalSource": "current user message; body approved, new ending-inclusive listening pending",
+  "endingSHA256": "PASS",
+  "bodySeconds": 36.480000000000004,
+  "endingSeconds": 4.854,
+  "totalSeconds": 41.334,
+  "processing": "same decoded PCM sequential concat as approved full-tts-qa-v5; 192kbps MP3; no silence/trim/speed/pitch/gain filters; originals unchanged",
+  "preservation": "PASS all existing MP3 SHA256 unchanged",
+  "files": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene01-tts-v1.mp3",
+      "durationSeconds": 4.104,
+      "LUFS": -20.7,
+      "samplePeakDBFS": -4.662648852762007,
+      "truePeakDBTP": -4.7,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene02-tts-v1.mp3",
+      "durationSeconds": 5.904,
+      "LUFS": -20.6,
+      "samplePeakDBFS": -2.3301863714114566,
+      "truePeakDBTP": -2.3,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene03-tts-v1.mp3",
+      "durationSeconds": 5.376,
+      "LUFS": -18.9,
+      "samplePeakDBFS": -0.45829125644966545,
+      "truePeakDBTP": -0.5,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v5.mp3",
+      "durationSeconds": 6.576,
+      "LUFS": -18.4,
+      "samplePeakDBFS": -1.7966740206078193,
+      "truePeakDBTP": -1.8,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene05-tts-v1.mp3",
+      "durationSeconds": 7.224,
+      "LUFS": -19.4,
+      "samplePeakDBFS": -1.2785108221464634,
+      "truePeakDBTP": -1.3,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene06-tts-v2.mp3",
+      "durationSeconds": 7.296,
+      "LUFS": -21.7,
+      "samplePeakDBFS": -3.154476953917758,
+      "truePeakDBTP": -3.2,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/ending-approved-v3.mp3",
+      "durationSeconds": 4.854,
+      "LUFS": -21.2,
+      "samplePeakDBFS": -4.396467110014349,
+      "truePeakDBTP": -4.4,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-with-ending-v1.mp3",
+      "durationSeconds": 41.334,
+      "LUFS": -20.3,
+      "samplePeakDBFS": -0.9033373935075268,
+      "truePeakDBTP": -0.9,
+      "fullScaleSamples": 0,
+      "decode": "PASS",
+      "sha256": "eef068835a574135ab98e0713014047e4445f965b97c2fbf836253fef3156683"
+    }
+  ],
+  "finalVideo": "use individual approved scene MP3 and approved ending component, never integrated QA audio",
+  "listeningApproval": "PENDING for ending-inclusive QA"
+}

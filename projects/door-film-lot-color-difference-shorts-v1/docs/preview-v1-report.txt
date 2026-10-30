@@ -1,0 +1,33 @@
+문도사의 그것이 알고싶도어 EP.02 — 도어 필름 LOT 이색 Preview v1
+상태: 사용자 시각적 승인 대기
+
+디자인: Notion 웜화이트/절제된 타이포, 비교는 Linear의 정렬·경계선·동일 크기 구조 적용. 사용자 웜화이트 지시에 따라 Linear 다크 배경은 적용하지 않음. Pretendard 500/600/800.
+실사용 제품 이미지: 없음. 본편은 직접 작성한 SVG/CSS 설명용 그래픽. 고객 사진은 공개 재사용 미확정이며 LOT 검증 사례가 아니어서 사용하지 않음. Canonical 라이브러리는 gypsum-board/eboard만 확인되어 해당 도어 비교 이미지 없음.
+엔딩 이미지/영상 출처: 승인 assets/daesan-ending 배포 세트의 프로젝트 내부 복사본. 승인 소스/직접 자산 SHA256 사전·사후 일치.
+
+Scene 구성 및 영상 길이:
+Scene 1: Hook: 동일 규격·각도의 문짝 2개, 미세한 색조 차이 / 130프레임 / 4.333초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene01-preview-v1.mp4
+Scene 2: 필름 생산 LOT: 동일 품번, LOT A/B 예시 라벨 / 184프레임 / 6.133초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-preview-v1.mp4
+Scene 3: 대량 발주: 동일 색 문짝 10개, 예외 가능성과 낮은 빈도 명시 / 168프레임 / 5.600초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-preview-v1.mp4
+Scene 4: 추가 발주: 기존/추가 제품 비교 및 생산 시점 표시 / 204프레임 / 6.800초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-preview-v1.mp4
+Scene 5: 현장 랩핑: 남은/새 필름과 LOT A/B 비교, 같은 면 혼용 주의 / 223프레임 / 7.433초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene05-preview-v1.mp4
+Scene 6: 결론: 색상 번호 + 생산 LOT 확인 / 225프레임 / 7.500초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-preview-v1.mp4
+
+엔딩: 170프레임 / 5.667초, 승인 DaesanEnding 그대로 렌더.
+전체: 1304프레임 / 43.466667초 / 1080×1920 / 30fps / H.264 + AAC
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-preview-v1.mp4
+
+QA: 승인 TTS SHA256 및 모든 기존 MP3 보존 PASS. 6개 Scene + 엔딩 + 전체 Preview 모두 전체 A/V 디코딩 PASS.
+Scene 길이: ceil(TTS초 × 30)+6프레임. 음원 변경 없이 약0.2초 화면 여유. 각 Scene MP3 개별 배치. 통합 QA 음원 미사용.
+음성 파형: 출력에서 공통 0.042667초 지연 측정, 지연 정렬 상관계수 0.99995 이상. 요약자막은 시작부터 끝까지 2줄 표시; 단어별 타이밍 강조 없음.
+Scene별 컨테이너 길이는 AAC 패딩으로 영상 길이보다 약0.05~0.06초 길지만 전체 조립에서 각 Scene 영상 길이에 맞춰 여유 끝만 제한. 승인 발화 절단 없음.
+시각 QA: Scene 1~6 대표 프레임에서 잘림/겹침 없음. 동일 도어/필름 크기·각도, 제한된 색조 차이. LOT A/B 예시 및 실제 측정 사례 아님 표시. 도어·필름은 단순 도식이며 특정 제품 구조 재현 아님.
+미확인: 실제 모바일 앱 UI 가림, 연속 재생 시 호흡/색차 인지 정도/엔딩 진입감, 사용자 시각 승인. 기계 검증으로 자연스러움 PASS 처리하지 않음.
+AI 이미지/영상·TTS 생성 없음. Cover/SNS·삭제/이동·Git·공통 가이드 수정 없음.
+상세 QA/해시: docs/preview-v1-qa.json 및 docs/preview-v1-input-lock.json

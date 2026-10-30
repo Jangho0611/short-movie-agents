@@ -1,0 +1,84 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "scene01-tts-v1.mp3",
+      "text": "같은 색상으로 주문한 문짝인데, 왜 색이 다를까요?",
+      "sha256": "f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash",
+      "durationSeconds": 4.104,
+      "frames": 130
+    },
+    {
+      "scene": 2,
+      "file": "scene02-tts-v1.mp3",
+      "text": "같은 색상 번호의 필름이라도 생산 로트가 다르면 미세한 색차가 발생할 수 있습니다.",
+      "sha256": "7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash",
+      "durationSeconds": 5.904,
+      "frames": 184
+    },
+    {
+      "scene": 3,
+      "file": "scene03-tts-v1.mp3",
+      "text": "대량 발주에서도 간혹 발생하지만, 일반적인 발주에서는 흔한 경우는 아닙니다.",
+      "sha256": "0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash",
+      "durationSeconds": 5.376,
+      "frames": 168
+    },
+    {
+      "scene": 4,
+      "file": "scene04-tts-v5.mp3",
+      "text": "나중에 추가로 발주할 때도 주의해야 합니다. 기존 제품과 필름 로트가 달라질 수 있기 때문이죠.",
+      "sha256": "ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash",
+      "durationSeconds": 6.576,
+      "frames": 204
+    },
+    {
+      "scene": 5,
+      "file": "scene05-tts-v1.mp3",
+      "text": "현장에서 남은 필름과 새 필름을 함께 쓸 때도 주의하세요. 로트 번호가 다르면 섞어 쓰지 않는 게 좋습니다.",
+      "sha256": "43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash",
+      "durationSeconds": 7.224,
+      "frames": 223
+    },
+    {
+      "scene": 6,
+      "file": "scene06-tts-v2.mp3",
+      "text": "같은 색상 번호라도 생산 시점과 필름 로트에 따라 색차가 생길 수 있습니다. 이 점을 기억하세요.",
+      "sha256": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e",
+      "approvalBasis": "current user instruction confirms approved selection; matched text, generation record and hash",
+      "durationSeconds": 7.296,
+      "frames": 225
+    }
+  ],
+  "endingFrames": 170,
+  "endingHashes": "PASS",
+  "ttsHashes": "PASS",
+  "extraHold": "ceil(audio seconds * 30) + 6 frames, no audio changes",
+  "allOriginalAudio": {
+    "public/assets/audio/full-tts-qa-v5.mp3": "c08415ad423285ee99393466ba1f8eacd77a9a1f4ab9a66ff9378aaeaf3eafc7",
+    "public/assets/audio/full-tts-qa-v4.mp3": "d528cb5ea9a2b6cf0d9175c964d8b251e00111e9c1c4c07cba1128286e8b1d17",
+    "public/assets/audio/scene03-tts-v1.mp3": "0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c",
+    "public/assets/audio/full-tts-qa-v1.mp3": "b3b916d3b9c68de2dd707f32370f11f3989aac55d6681739913cf3aabc0a52c7",
+    "public/assets/audio/scene06-tts-v1.mp3": "3a66bfc5bdf2fd458f98e7920a8eedd050dde8f527f1e57ac2a951012605a596",
+    "public/assets/audio/full-tts-qa-v3.mp3": "92dff7b9e1f59bf5e194ca132d7d6d6725965f4d2eefcaffe8037e3a0de6c878",
+    "public/assets/audio/full-tts-qa-v2.mp3": "7dee3630b2abb093ce5806c3169648428aee7e704b468acb7a2b818e0cf879c0",
+    "public/assets/audio/scene06-tts-v2.mp3": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e",
+    "public/assets/audio/full-tts-qa-with-ending-v1.mp3": "eef068835a574135ab98e0713014047e4445f965b97c2fbf836253fef3156683",
+    "public/assets/audio/scene04-tts-v4.mp3": "b03012e5c69dccf7ceb5a55bb51fe44500868a00abe5e07432b68146687e26c1",
+    "public/assets/audio/scene01-tts-v1.mp3": "f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92",
+    "public/assets/audio/scene04-tts-v5.mp3": "ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78",
+    "public/assets/audio/scene04-tts-v1.mp3": "28a2d5f501bbab01f54728a962c9cb0e509c63cb3fbf55b7b797b8701d995680",
+    "public/assets/audio/scene04-tts-v2.mp3": "05a26769a1687aca30249ee19eed0518e68ca7deace8ecd5785dab4eba96b9bd",
+    "public/assets/audio/scene04-part-b-tts-v4.mp3": "eb1c5b1b1b3c7aa7fa3c78494adf6929110ae6a9add93db31e22cbb6c61e974c",
+    "public/assets/audio/scene04-tts-v3.mp3": "e620349cc75ec7dc468db944316d46b25507d2622874cb3a67e5a1aa07615550",
+    "public/assets/audio/scene04-part-a-tts-v4.mp3": "b4fb2341b1e7c6f4f66b66303c4a6b984b2f4aee08b1dd2e459798b3651034d7",
+    "public/assets/audio/scene02-tts-v1.mp3": "7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f",
+    "public/assets/audio/ending-approved-v3.mp3": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+    "public/assets/audio/scene05-tts-v1.mp3": "43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080"
+  }
+}

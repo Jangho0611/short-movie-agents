@@ -1,0 +1,46 @@
+{
+  "assets": [
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/yl40-film-surface-crop-v1.png",
+      "copy": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-yl40-film-surface-crop-v1.png",
+      "sha256": "e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae",
+      "use": "internal visual test only; public reuse unconfirmed",
+      "interpretation": "surface/door reference only, not proven LOT defect or additional-order evidence"
+    },
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/customer-door-sample.jpeg",
+      "copy": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-customer-door-sample.jpeg",
+      "sha256": "75287900dfa4f4880e19f40372df9f509270e996c58fa9b0f20f2c51a29cf0a1",
+      "use": "internal visual test only; public reuse unconfirmed",
+      "interpretation": "surface/door reference only, not proven LOT defect or additional-order evidence"
+    }
+  ],
+  "audio": "approved scene02 v1 / scene06 v2 hashes verified",
+  "preservation": {
+    "public/assets/audio/full-tts-qa-v5.mp3": "c08415ad423285ee99393466ba1f8eacd77a9a1f4ab9a66ff9378aaeaf3eafc7",
+    "public/assets/audio/full-tts-qa-v4.mp3": "d528cb5ea9a2b6cf0d9175c964d8b251e00111e9c1c4c07cba1128286e8b1d17",
+    "public/assets/audio/scene03-tts-v1.mp3": "0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c",
+    "public/assets/audio/full-tts-qa-v1.mp3": "b3b916d3b9c68de2dd707f32370f11f3989aac55d6681739913cf3aabc0a52c7",
+    "public/assets/audio/scene06-tts-v1.mp3": "3a66bfc5bdf2fd458f98e7920a8eedd050dde8f527f1e57ac2a951012605a596",
+    "public/assets/audio/full-tts-qa-v3.mp3": "92dff7b9e1f59bf5e194ca132d7d6d6725965f4d2eefcaffe8037e3a0de6c878",
+    "public/assets/audio/full-tts-qa-v2.mp3": "7dee3630b2abb093ce5806c3169648428aee7e704b468acb7a2b818e0cf879c0",
+    "public/assets/audio/scene06-tts-v2.mp3": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e",
+    "public/assets/audio/full-tts-qa-with-ending-v1.mp3": "eef068835a574135ab98e0713014047e4445f965b97c2fbf836253fef3156683",
+    "public/assets/audio/scene04-tts-v4.mp3": "b03012e5c69dccf7ceb5a55bb51fe44500868a00abe5e07432b68146687e26c1",
+    "public/assets/audio/scene01-tts-v1.mp3": "f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92",
+    "public/assets/audio/scene04-tts-v5.mp3": "ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78",
+    "public/assets/audio/scene04-tts-v1.mp3": "28a2d5f501bbab01f54728a962c9cb0e509c63cb3fbf55b7b797b8701d995680",
+    "public/assets/audio/scene04-tts-v2.mp3": "05a26769a1687aca30249ee19eed0518e68ca7deace8ecd5785dab4eba96b9bd",
+    "public/assets/audio/scene04-part-b-tts-v4.mp3": "eb1c5b1b1b3c7aa7fa3c78494adf6929110ae6a9add93db31e22cbb6c61e974c",
+    "public/assets/audio/scene04-tts-v3.mp3": "e620349cc75ec7dc468db944316d46b25507d2622874cb3a67e5a1aa07615550",
+    "public/assets/audio/scene04-part-a-tts-v4.mp3": "b4fb2341b1e7c6f4f66b66303c4a6b984b2f4aee08b1dd2e459798b3651034d7",
+    "public/assets/audio/scene02-tts-v1.mp3": "7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f",
+    "public/assets/audio/ending-approved-v3.mp3": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+    "public/assets/audio/scene05-tts-v1.mp3": "43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080",
+    "src/daesan-ending/DaesanEnding.tsx": "ecaecb554b6f8a87eca13ac6edbc9974831b912e119aeca030f15e03b88d6a43",
+    "src/daesan-ending/approved/fonts.ts": "d8385a75423c853e76eb444c863c3277d28d666f655085c6e661bfd66941a443",
+    "src/daesan-ending/approved/HeadquartersOverlay.tsx": "cc0c1c3cc027010334cfa41a865ba364762f973d5831b196348fadead4bab173",
+    "src/daesan-ending/approved/tokens.ts": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+    "src/daesan-ending/approved/brief.ts": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62"
+  }
+}

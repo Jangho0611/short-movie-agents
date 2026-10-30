@@ -1,0 +1,86 @@
+{
+  "originalPreservation": "PASS",
+  "endingDependencies": [
+    "src/daesan-ending/DaesanEnding.tsx",
+    "src/daesan-ending/approved/HeadquartersOverlay.tsx",
+    "src/daesan-ending/approved/fonts.ts",
+    "src/daesan-ending/approved/brief.ts",
+    "src/daesan-ending/approved/tokens.ts",
+    "public/assets/audio/ending-approved-v3.mp3",
+    "public/assets/fonts/Pretendard-SemiBold.woff2",
+    "public/assets/fonts/Pretendard-ExtraBold.woff2",
+    "public/assets/fonts/Pretendard-Medium.woff2",
+    "public/assets/logos/daesanlogo2.png",
+    "public/assets/video/headquarters-normal-speed-hold.mp4",
+    "public/references/IMG_3934.MOV",
+    "public/references/daesan-headquarters-ending-approved-v1.mp4",
+    "public/assets/images/daesani-cover-point-right.png",
+    "public/assets/images/daesani-cover-open-arms.png",
+    "public/assets/images/daesani-cover-point-left.png"
+  ],
+  "layoutCaptionsMotionAudioTimelineSourceUnchanged": "PASS",
+  "frame": 120,
+  "comparison": [
+    {
+      "scene": 1,
+      "diffBoundingBox": [
+        174,
+        455,
+        870,
+        985
+      ],
+      "comparison": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-2d-v1-v2-compare.png"
+    },
+    {
+      "scene": 2,
+      "diffBoundingBox": [
+        153,
+        652,
+        892,
+        843
+      ],
+      "comparison": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-2d-v1-v2-compare.png"
+    },
+    {
+      "scene": 3,
+      "diffBoundingBox": [
+        91,
+        393,
+        954,
+        1014
+      ],
+      "comparison": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-v1-v2-compare.png"
+    },
+    {
+      "scene": 4,
+      "diffBoundingBox": [
+        93,
+        567,
+        951,
+        984
+      ],
+      "comparison": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene04-2d-v1-v2-compare.png"
+    },
+    {
+      "scene": 5,
+      "diffBoundingBox": [
+        139,
+        622,
+        905,
+        875
+      ],
+      "comparison": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-2d-v1-v2-compare.png"
+    },
+    {
+      "scene": 6,
+      "diffBoundingBox": [
+        153,
+        575,
+        892,
+        766
+      ],
+      "comparison": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-2d-v1-v2-compare.png"
+    }
+  ],
+  "rights": "internal only; public rights unverified"
+}

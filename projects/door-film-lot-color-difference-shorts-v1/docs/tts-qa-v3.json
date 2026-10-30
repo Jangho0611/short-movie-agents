@@ -1,0 +1,198 @@
+{
+  "input": {
+    "scene04-tts-v3.mp3": "문짝이나 문틀을 나중에 추가로 주문할 경우, 기존 제품과 필름 로트가 달라질 수 있습니다.",
+    "scene06-tts-v2.mp3": "같은 색상 번호라도 생산 시점과 필름 로트에 따라 색차가 생길 수 있습니다. 이 점을 기억하세요."
+  },
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "synthesisCallsPerScene": 1,
+  "script": "scripts/generate_tts.py",
+  "authentication": "existing Google ADC",
+  "sequence": [
+    "scene01-tts-v1.mp3",
+    "scene02-tts-v1.mp3",
+    "scene03-tts-v1.mp3",
+    "scene04-tts-v3.mp3",
+    "scene05-tts-v1.mp3",
+    "scene06-tts-v2.mp3"
+  ],
+  "processing": "PCM concat, 192kbps MP3; no added silence/trim/speed/pitch/volume adjustment",
+  "previousDurations": {
+    "scene04-tts-v1.mp3": 6.864,
+    "scene04-tts-v2.mp3": 6.744,
+    "scene06-tts-v1.mp3": 6.264
+  },
+  "files": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v3.mp3",
+      "durationSeconds": 6.168,
+      "LUFS": -19.7,
+      "samplePeakDBFS": -2.302919441634429,
+      "truePeakDBTP": -2.3,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "e620349cc75ec7dc468db944316d46b25507d2622874cb3a67e5a1aa07615550"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene06-tts-v2.mp3",
+      "durationSeconds": 7.296,
+      "LUFS": -21.7,
+      "samplePeakDBFS": -3.154476953917758,
+      "truePeakDBTP": -3.2,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v3.mp3",
+      "durationSeconds": 36.072,
+      "LUFS": -20.5,
+      "samplePeakDBFS": -0.9033373935075268,
+      "truePeakDBTP": -0.9,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "92dff7b9e1f59bf5e194ca132d7d6d6725965f4d2eefcaffe8037e3a0de6c878"
+    }
+  ],
+  "preservation": "PASS all previous MP3 hashes unchanged",
+  "scene06SilenceReference": {
+    "-30": [
+      {
+        "start": 0.0,
+        "end": 0.544542,
+        "duration": 0.544542
+      },
+      {
+        "start": 0.629667,
+        "end": 0.711042,
+        "duration": 0.081375
+      },
+      {
+        "start": 1.7527080000000002,
+        "end": 2.147625,
+        "duration": 0.394917
+      },
+      {
+        "start": 2.5282917,
+        "end": 2.599625,
+        "duration": 0.0713333
+      },
+      {
+        "start": 2.9807083000000003,
+        "end": 3.063,
+        "duration": 0.0822917
+      },
+      {
+        "start": 3.4387497000000002,
+        "end": 3.500208,
+        "duration": 0.0614583
+      },
+      {
+        "start": 3.6134167,
+        "end": 3.706375,
+        "duration": 0.0929583
+      },
+      {
+        "start": 3.943208,
+        "end": 4.22675,
+        "duration": 0.283542
+      },
+      {
+        "start": 4.305375,
+        "end": 4.379625,
+        "duration": 0.07425
+      },
+      {
+        "start": 5.334499999999999,
+        "end": 6.093417,
+        "duration": 0.758917
+      },
+      {
+        "start": 6.4433753000000005,
+        "end": 6.513167,
+        "duration": 0.0697917
+      },
+      {
+        "start": 6.6025417,
+        "end": 6.681125,
+        "duration": 0.0785833
+      },
+      {
+        "start": 7.024208000000001,
+        "end": 7.296,
+        "duration": 0.271792
+      }
+    ],
+    "-40": [
+      {
+        "start": 0.0,
+        "end": 0.543542,
+        "duration": 0.543542
+      },
+      {
+        "start": 0.6477919999999999,
+        "end": 0.710792,
+        "duration": 0.063
+      },
+      {
+        "start": 1.756375,
+        "end": 2.080292,
+        "duration": 0.323917
+      },
+      {
+        "start": 2.9978336999999997,
+        "end": 3.062292,
+        "duration": 0.0644583
+      },
+      {
+        "start": 3.4469167,
+        "end": 3.500125,
+        "duration": 0.0532083
+      },
+      {
+        "start": 3.6208337,
+        "end": 3.705292,
+        "duration": 0.0844583
+      },
+      {
+        "start": 3.954083,
+        "end": 4.197875,
+        "duration": 0.243792
+      },
+      {
+        "start": 4.3210413,
+        "end": 4.373083,
+        "duration": 0.0520417
+      },
+      {
+        "start": 5.3485000000000005,
+        "end": 6.090167,
+        "duration": 0.741667
+      },
+      {
+        "start": 6.611500299999999,
+        "end": 6.672667,
+        "duration": 0.0611667
+      },
+      {
+        "start": 7.0475,
+        "end": 7.296,
+        "duration": 0.2485
+      }
+    ]
+  },
+  "silenceCaveat": "Threshold-based low-level intervals, not absolute silence. Sentence-boundary attribution requires listening/alignment; naturalness unverified.",
+  "listeningApproval": "PENDING",
+  "sentenceBoundaryCandidate": {
+    "startSeconds": 5.3485,
+    "endSeconds": 6.090167,
+    "durationSeconds": 0.741667,
+    "thresholdDB": -40,
+    "durationAtMinus30DB": 0.758917,
+    "status": "inferred from late internal pause; not verified by listening or alignment"
+  }
+}

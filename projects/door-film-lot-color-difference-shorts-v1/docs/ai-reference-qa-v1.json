@@ -1,0 +1,78 @@
+{
+  "generator": "built-in image_gen",
+  "prompts": "docs/ai-reference-prompts-v1.json",
+  "files": [
+    {
+      "scene": 1,
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-ai-reference-candidate-v1.png",
+      "sha256": "6bcd0fe018bba9762e238c65fe99461163c965c643711381a705b230580acbd3",
+      "size": [
+        941,
+        1672
+      ],
+      "requestedSize": [
+        1080,
+        1920
+      ],
+      "resolutionStatus": "NOT_MET",
+      "origin": "built-in image_gen; AI fictional explanatory imagery",
+      "candidateCount": 1,
+      "approval": "PENDING"
+    },
+    {
+      "scene": 3,
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-ai-reference-candidate-v1.png",
+      "sha256": "11c1ad498b19bc3d731dcf5177e437c95926ceb837c4349186674f3c084ad13c",
+      "size": [
+        941,
+        1672
+      ],
+      "requestedSize": [
+        1080,
+        1920
+      ],
+      "resolutionStatus": "NOT_MET",
+      "origin": "built-in image_gen; AI fictional explanatory imagery",
+      "candidateCount": 1,
+      "approval": "PENDING"
+    },
+    {
+      "scene": 5,
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-ai-reference-candidate-v1.png",
+      "sha256": "bbddd1e40e3cd99252db37bd66e61608639da40ad566943e70d2ca1f9cd69c9a",
+      "size": [
+        941,
+        1672
+      ],
+      "requestedSize": [
+        1080,
+        1920
+      ],
+      "resolutionStatus": "NOT_MET",
+      "origin": "built-in image_gen; AI fictional explanatory imagery",
+      "candidateCount": 1,
+      "approval": "PENDING"
+    }
+  ],
+  "qa": {
+    "1": [
+      "Two complete doors, handles and three hinges per visible edge; no obvious duplicate hardware or floating components",
+      "Daylight gradient means tint difference is partly confounded with lighting; controlled color comparison not verified",
+      "Fine grain similar, not pixel-identical; actual dimensions and construction not certified"
+    ],
+    "3": [
+      "Six leaves, padded rack and handle bores visible; no generated text/logo detected visually",
+      "No handles/hinges attached, appropriate uninstalled delivery depiction",
+      "Rack safety and exact thickness not technically verified; perspective affects apparent color"
+    ],
+    "5": [
+      "Two cylindrical rolls with elliptical cardboard cores and wound layers; no labels or generated text observed",
+      "Apparent height/width differs between rolls; same-width product consistency requires review",
+      "Thin layer/backing structure and winding direction not definitively certified from generated photo"
+    ]
+  },
+  "scene4": "HELD until user approves Scene1 basis; not generated",
+  "scene2and6": "existing real-photo tests reused as existing results, unchanged",
+  "canonical": "none registered; all pending user approval",
+  "restrictions": "No TTS, video, Flow/Veo, rendering, Cover/SNS, deletion/move, Git or common guide edits"
+}

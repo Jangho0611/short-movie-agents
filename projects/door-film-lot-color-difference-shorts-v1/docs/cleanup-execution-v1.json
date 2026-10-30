@@ -1,0 +1,2313 @@
+{
+  "approvedCount": 143,
+  "validated": 143,
+  "excluded": [],
+  "deleted": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-06.png",
+      "bytes": 370308,
+      "sha256": "f460dbbd77ee87122cf83807692310c07a67d71571d80d70553be7d9b40d30d6",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-ai-reference-candidate-v1.png",
+      "bytes": 2023090,
+      "sha256": "6bcd0fe018bba9762e238c65fe99461163c965c643711381a705b230580acbd3",
+      "purpose": "중단된 미승인 AI 실사 후보",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "프롬프트/QA 기록 보존 후 선택 삭제 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-02.png",
+      "bytes": 514768,
+      "sha256": "be85529b9662fe3e48adaef8ed94973f7eb6921a37e66035c4fc7ceb5bbd7d46",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-08.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-09.png",
+      "bytes": 370813,
+      "sha256": "174d5e4331acceee9d6587b5a24dc21989f5ff070d9fd0b2b06b627cb8794ca4",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-03.png",
+      "bytes": 514763,
+      "sha256": "2b9b9c6e432c248b3fdd35dd93e99ce3c6a115ccbf88b71740a81ba49aa5d2fc",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-07.png",
+      "bytes": 370292,
+      "sha256": "4de88333d6bbd5730ecca4b9d819361533cbdbc05d6cb2ca65b445cf60de9c36",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-preview-v1-qa.png",
+      "bytes": 107733,
+      "sha256": "0afc33426b4d9409c28a56f64b5d67d4474cbb56263995ad552638adc653b779",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-2d-preview-v1.png",
+      "bytes": 107148,
+      "sha256": "ba762cd8aeea6eed2c53a1b4847c41c3fc385e827171e1cdcfa223e5c11ebda8",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-11.png",
+      "bytes": 370256,
+      "sha256": "de5bb4e9c14b463b9b46bcffce5c18e415dea249945607186da7906ebbc2f60f",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-05.png",
+      "bytes": 518291,
+      "sha256": "8ceb18988b005fe008677fda97ca1391abfa836018114f328e4d740084bb719a",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-ai-reference-candidate-v2.png",
+      "bytes": 1952813,
+      "sha256": "bc88c2bdfc8baa49b3220689974d09d0890301e3acd77bc879b5e4ec44e0fe88",
+      "purpose": "중단된 미승인 AI 실사 후보",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "프롬프트/QA 기록 보존 후 선택 삭제 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-01.png",
+      "bytes": 514762,
+      "sha256": "fb2a079a132ca6deda32225f6dcd8988986b05a06d294bdf26e39275dcd7cd62",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-04.png",
+      "bytes": 518256,
+      "sha256": "2bef22368cf69ba509dfd87b360794d08fc87e2ef79404c8799b829919320038",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-10.png",
+      "bytes": 370324,
+      "sha256": "0821a92dbd5d9c87a2f56b6cd670727a7204796b00be9534f4052711920af2c0",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-preview-v1-qa.png",
+      "bytes": 92194,
+      "sha256": "f2ee1759dc00e674c025bd38c51c43755b4df7148ca285f63041e409106a5107",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-10.png",
+      "bytes": 370324,
+      "sha256": "0821a92dbd5d9c87a2f56b6cd670727a7204796b00be9534f4052711920af2c0",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-04.png",
+      "bytes": 514763,
+      "sha256": "2b9b9c6e432c248b3fdd35dd93e99ce3c6a115ccbf88b71740a81ba49aa5d2fc",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-05.png",
+      "bytes": 514765,
+      "sha256": "5521d01a167cc98b04451ba7bfca5f1bf8ba24b538deec8ce21f5ee864d778f7",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-11.png",
+      "bytes": 370256,
+      "sha256": "de5bb4e9c14b463b9b46bcffce5c18e415dea249945607186da7906ebbc2f60f",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-01.png",
+      "bytes": 518259,
+      "sha256": "683e8bc1b5b6dc8f8e854b895e75d6eedd8addc65cd462c814ef93ffefe38611",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-preview-v1-qa.png",
+      "bytes": 108500,
+      "sha256": "115fbe7dec2f58b956a8c63bdaf86746b3584a9d83e8bb9309d94d481a8cc5aa",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene04-2d-preview-v1.png",
+      "bytes": 106057,
+      "sha256": "0db95a951fc9d94f76e3ccfa757f4dacc121e0382b566c198eb9c583a191d40b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-03.png",
+      "bytes": 518212,
+      "sha256": "67e19ef88803b83d932087b1aa91d1ac52256d0d1b9cf92107b2fe157c6fd1eb",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-07.png",
+      "bytes": 370292,
+      "sha256": "4de88333d6bbd5730ecca4b9d819361533cbdbc05d6cb2ca65b445cf60de9c36",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-06.png",
+      "bytes": 370308,
+      "sha256": "f460dbbd77ee87122cf83807692310c07a67d71571d80d70553be7d9b40d30d6",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-02.png",
+      "bytes": 518247,
+      "sha256": "177fbb4cbe12fed27532ada08d6197452cb014202b2bead78f35e09e3e5d4f3b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-2d-preview-v1.png",
+      "bytes": 84569,
+      "sha256": "0fcc9f6e0fcfcf86c8eafbe061cf6e4812111d0d3017f995ed1d323401c539fd",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-09.png",
+      "bytes": 370668,
+      "sha256": "d052351c35892a74eb5e3452c7a1d1b409a290cbd508875ee014fa2b6e24d2b7",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-03.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-06.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-07.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-02.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-preview-v1-qa.png",
+      "bytes": 95692,
+      "sha256": "052330efe661be66d080afeda61339a55ab8791735cf5e5b2b60951a1195a0bd",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-08.png",
+      "bytes": 370671,
+      "sha256": "5a8be862925d821f787faf2965d3d0b16f1986666a4c8bc7bfd591cee8eb8d32",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-preview-v4.png",
+      "bytes": 501053,
+      "sha256": "2d65f289f221856aea9a301ae086d054a2881c194b10979dea095afac92fe165",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-05.png",
+      "bytes": 370325,
+      "sha256": "5ecd5b13d0a66560a1516914b94dbc8e232dcebc8c35d1d21342bd98314f7037",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-11.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-10.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-04.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-01.png",
+      "bytes": 370312,
+      "sha256": "7a16746de23b0e0d629025b18e16fb0e1a3c814c9fd87e1a16c25d5b25e40340",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-2d-preview-v1.png",
+      "bytes": 97829,
+      "sha256": "4fb851a9e0f8a05f1c88ecdf7bd152f42517978cdc89ea0c6db0e06f5b1c3e1e",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene04-preview-v1-qa.png",
+      "bytes": 100218,
+      "sha256": "9e2d8a5e61c0eb4171fe04da8636bb8901cf685edb7456338ed3fee3ac4be44b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-05.png",
+      "bytes": 370325,
+      "sha256": "5ecd5b13d0a66560a1516914b94dbc8e232dcebc8c35d1d21342bd98314f7037",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-11.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-09.png",
+      "bytes": 507692,
+      "sha256": "792a1c748822c21a224c848c78ef9c3a8ce249e2bf11082191b3d3d717e70ed3",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-08.png",
+      "bytes": 507645,
+      "sha256": "84e1bb20252cf4d043c649e037a8418dbe56793ea08350ec45088a830e96a21b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-01.png",
+      "bytes": 370312,
+      "sha256": "7a16746de23b0e0d629025b18e16fb0e1a3c814c9fd87e1a16c25d5b25e40340",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-10.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-04.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-preview-v2.png",
+      "bytes": 266473,
+      "sha256": "3ed4e1245cc69e0411120b43b97a335b87b3f9dcd4fa0760c1503cd96136336a",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-2d-preview-v1.png",
+      "bytes": 108543,
+      "sha256": "10da30408c3cda5418ed2131f72d2089ad7a892a6141cb0ddbb148b046c60ab5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-06.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-03.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-02.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-07.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-preview-v1.png",
+      "bytes": 102133,
+      "sha256": "ba0025ad423887850880c5b0d128450678eba701eb0ceaa3ec1ed38f0b6e9c6f",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-preview-v1-qa.png",
+      "bytes": 113738,
+      "sha256": "e328eb0cc4a004121cd7e7068aa4a3e91dec0441617d7e77c62489fb0b75b717",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-06.png",
+      "bytes": 507729,
+      "sha256": "3e9f81c4474d8e2d3ef563ea5d84a16d6e67310e98517f2d7076494c3143ab9b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-07.png",
+      "bytes": 507594,
+      "sha256": "00d2b1a51159b592bddcc0e31d3cfa96a77080bff007697ee1bd263c7a37f58a",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-01.png",
+      "bytes": 514763,
+      "sha256": "1a1f10a7c9227fc66b55de78b5047093ab468c1919eb78e790df45bb2ffb0078",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-09.png",
+      "bytes": 370313,
+      "sha256": "e355307d08470f91d5e6855844e13806b587ad2a67e07095ee43a833f0594833",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-03.png",
+      "bytes": 514776,
+      "sha256": "fe3bb5cef4689aed7c2fa1f61ce529c956b60f0730de1b6ec92d38d6595f65d5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-05.png",
+      "bytes": 307769,
+      "sha256": "40f88f07fb0c5258bd3ebe7361f360bca1eb78eebfe1a1816241b4dffc64d0d1",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-11.png",
+      "bytes": 507801,
+      "sha256": "27a6e0e6f9f6af8b52c6b9e5a1bc4463df68f150832cb676d7342ededd396d95",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-10.png",
+      "bytes": 507751,
+      "sha256": "b52a50bd10d182d99d93c2e82a2b9fc46cd72a5b1ca8daa8d28b8ff3275a81ac",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-04.png",
+      "bytes": 307804,
+      "sha256": "3cdd2dfb50209047ceb4e7292039da2375181f7800c43851dab36bfa32d853d6",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-02.png",
+      "bytes": 514776,
+      "sha256": "fe3bb5cef4689aed7c2fa1f61ce529c956b60f0730de1b6ec92d38d6595f65d5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v3-08.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/preview-v1-ending-qa.png",
+      "bytes": 2021536,
+      "sha256": "76f3225d171369c0658ca1e626930bf25ac4d8a7551ea7b576e3a609c45bd5e4",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-06.png",
+      "bytes": 370590,
+      "sha256": "35a3c6e3f50cdbb900eeebc8c8caccd62d4c6510483814f5781e9b82f4162fd9",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-09.png",
+      "bytes": 370313,
+      "sha256": "e355307d08470f91d5e6855844e13806b587ad2a67e07095ee43a833f0594833",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-01.png",
+      "bytes": 307110,
+      "sha256": "eea0db5e08dbdfe5158c170d51978566b22c8fd66d2e987a664eb890482b329d",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-08.png",
+      "bytes": 370300,
+      "sha256": "f93ee7753a428166039e3e03531752b2d63ada3acac536b1b8e11220034c9f5b",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-07.png",
+      "bytes": 370655,
+      "sha256": "9114cd3ea04cbf21b7986c0e122a13db8086d35983a469357aa96ae5a088e306",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-photo-preview-v1.png",
+      "bytes": 1297733,
+      "sha256": "db5b977fa052a6ef6b03ffa5afab4ded2c11fbdb814822df65495de6ef37e650",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-ai-reference-candidate-v2.png",
+      "bytes": 2179968,
+      "sha256": "b097d9e5252556467006c926467157b8de1d1af11760b1884431ce115a749083",
+      "purpose": "중단된 미승인 AI 실사 후보",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "프롬프트/QA 기록 보존 후 선택 삭제 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-11.png",
+      "bytes": 370733,
+      "sha256": "9a5ec9dd1efeefc76d26bf668389f49998dabd0209e46ee115e4151d88f8aa3c",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-05.png",
+      "bytes": 514770,
+      "sha256": "e9011d356f2b6dc320803141953d9854a5b9cd8426332482182a5a17286d9e49",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-03.png",
+      "bytes": 307694,
+      "sha256": "8f5090c3441a950a514c9819b9a3fcbaf096eff8ce3ed11f11fbd5402206ef12",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-02.png",
+      "bytes": 307106,
+      "sha256": "acdca38d1cf1dd005528ed938b887f4a47c566917bc7964317d607c59311a8f7",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-04.png",
+      "bytes": 514776,
+      "sha256": "fe3bb5cef4689aed7c2fa1f61ce529c956b60f0730de1b6ec92d38d6595f65d5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-10.png",
+      "bytes": 370710,
+      "sha256": "e1c737de727af68a0f90d8901adcb46dc83d1a9f20b0b45bce3ba516c3953d15",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-ai-reference-candidate-v1.png",
+      "bytes": 2289439,
+      "sha256": "11c1ad498b19bc3d731dcf5177e437c95926ceb837c4349186674f3c084ad13c",
+      "purpose": "중단된 미승인 AI 실사 후보",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "프롬프트/QA 기록 보존 후 선택 삭제 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-ai-reference-candidate-v1.png",
+      "bytes": 2370109,
+      "sha256": "bbddd1e40e3cd99252db37bd66e61608639da40ad566943e70d2ca1f9cd69c9a",
+      "purpose": "중단된 미승인 AI 실사 후보",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "프롬프트/QA 기록 보존 후 선택 삭제 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-01.png",
+      "bytes": 370806,
+      "sha256": "13a4370066cf2a3ddfb6754bfc2771c2e1b9e2f5151b1174b13fcdc891ed67e5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-ai-reference-candidate-v2.png",
+      "bytes": 2318954,
+      "sha256": "a4c2b8d924d362fc87f4d8f023ca57adbfe485da4b2b9516acf7696a21063169",
+      "purpose": "중단된 미승인 AI 실사 후보",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "프롬프트/QA 기록 보존 후 선택 삭제 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-02.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-08.png",
+      "bytes": 370302,
+      "sha256": "f25a6b61feeb2cec65db1f6baeaebf8223078c832653825700cc7cdc5d0110ea",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v3-09.png",
+      "bytes": 370319,
+      "sha256": "099f3c941ba8cc1477906b24915ab7744e419d673771ac8738e0dbe8ad4ba6a6",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-03.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-09.png",
+      "bytes": 370319,
+      "sha256": "099f3c941ba8cc1477906b24915ab7744e419d673771ac8738e0dbe8ad4ba6a6",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-07.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-06.png",
+      "bytes": 205625,
+      "sha256": "c8162374fdd51bfd208b682ff8929ab5f7e02c9555404a4ed52881d286f4350c",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-08.png",
+      "bytes": 370302,
+      "sha256": "f25a6b61feeb2cec65db1f6baeaebf8223078c832653825700cc7cdc5d0110ea",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-photo-preview-v1.png",
+      "bytes": 1301035,
+      "sha256": "53d4d9c684528a09bdffddebcafdc98d49c91840c48121a8747acc4326ad94b6",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-04.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-10.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-11.png",
+      "bytes": 370784,
+      "sha256": "cada23dbe4ec896fb045cf5207317c378983b079e97665619a65b3a7174fdef5",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-05.png",
+      "bytes": 370785,
+      "sha256": "5230e53083f85e85b41119b2a11b776a48b52dac70959cfe2d1a8866b70060ad",
+      "purpose": "중간 Scene 스틸 또는 프레임 QA",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "영상·비교시트에서 재추출 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-photo-preview-v1.mp4",
+      "bytes": 394808,
+      "sha256": "e3aa8ee81e0a8c0a9592625993e450f8a43bd986a29bcf355323bb01b86a8eb0",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-photo-preview-v1.mp4",
+      "bytes": 408424,
+      "sha256": "b0b3d11fc1504c69584eca3e7ada611fdd0782ece73d64ff41b8a8705249bf5c",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-preview-v1.mp4",
+      "bytes": 209146,
+      "sha256": "56b466c0d14691fb71ad00dd853de3b15d1e7b6799e1aa7c87cf5292f468e582",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-2d-preview-v1.mp4",
+      "bytes": 217405,
+      "sha256": "7b3ac9de72092fdfd4be8d896a836d8e6b527a62d02390aac7d16f5d6ca9ade5",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-preview-v1.mp4",
+      "bytes": 9841142,
+      "sha256": "58ce401733366517a6ee181e03043730c82d663ff3c5389138e77c027a7f4304",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-preview-v1.mp4",
+      "bytes": 230891,
+      "sha256": "1d0f4411d06b9794b3c0c7358563d41de7d3e196d4a2a154a8fb45888baa536d",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-2d-preview-v4.mp4",
+      "bytes": 277435,
+      "sha256": "43b5c74fb4c2386225423002af1ef129405c556b4ef0111fea36c3926ae2c762",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene05-preview-v1.mp4",
+      "bytes": 269211,
+      "sha256": "ff2b301ca9e53dd49bcefed985b67a9eb7a6770df8a1e5f44b89d48e4dc5854d",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-2d-preview-v1.mp4",
+      "bytes": 202947,
+      "sha256": "d7e5e3f26c7f094a9b18afd82791d77cc1e3108c678724121930be590e3e1328",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-2d-preview-v1.mp4",
+      "bytes": 266013,
+      "sha256": "897b33a4ca944df33c4e753ed7008613d3ffcacca4e61abdfb123dff0846b479",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-preview-v1.mp4",
+      "bytes": 225320,
+      "sha256": "fefe6d2339848260bfa2f349b4b4a8ba73377bd9c0c4cbbc6508138d9290c9d6",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-2d-preview-v2.mp4",
+      "bytes": 263672,
+      "sha256": "cc45b0dae10dfd6db121bcd0fb90003b052cad0261cd4cef38532433f33e61a9",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene05-2d-preview-v1.mp4",
+      "bytes": 256352,
+      "sha256": "57533d55e005170ab3efa8b27658eae24674ae9fadc0f000d74228ab74ffea1b",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v4.mp4",
+      "bytes": 10098549,
+      "sha256": "06b9b20bbcfc387b33261de4ffe60b1076c0b65dcd25d1b7e6c9cd7c82873ecc",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-preview-v1.mp4",
+      "bytes": 243432,
+      "sha256": "8c12c087cd6307d46b3b6cbd0c7a865fd23b7c338d81dd76fa57f35bb1d4f83c",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-2d-preview-v2.mp4",
+      "bytes": 302152,
+      "sha256": "d17d37627d79902cc91661ba47f26820d54ad4232e881852a05db822bcbffcc3",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene01-2d-preview-v1.mp4",
+      "bytes": 149468,
+      "sha256": "6bd127f88865acef67f2c02ccd6ebbea2e3b10d40d8cfcc1d673d5a580bec5ce",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v1.mp4",
+      "bytes": 9840293,
+      "sha256": "eb0995b6c2fc39a3cedf34d97d3838f35ae479300d358a043c3a058fcdb68f83",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v3.mp4",
+      "bytes": 10083397,
+      "sha256": "f84dcfa11e4436b8e3d2848fa17e26537368c31a6e21458299fd06c0e49b24de",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene01-preview-v1.mp4",
+      "bytes": 161394,
+      "sha256": "5ed39cfe701a9d793d0a138d3301238208344f1e56102f355b8d64975f00ad0e",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-2d-preview-v1.mp4",
+      "bytes": 240497,
+      "sha256": "1da600f78354f85b23164a8eb301113516d3cc321d30ca144afc802defd59713",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v2.mp4",
+      "bytes": 10110501,
+      "sha256": "d39c69cc83355d04ccbc87d2cd92923b560fdb4893a9d7410d22ecfcdc2d40af",
+      "purpose": "중간 Preview/Scene 렌더",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "최종 조립 미사용; 원소스/최종 QA 보존 조건",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene05-v2.log",
+      "bytes": 8967,
+      "sha256": "c4d53f4e50fc9a28b21bf6fa51cd0ed554f0a887677c97945c21e3b87668131f",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene05-v1.log",
+      "bytes": 8967,
+      "sha256": "bc8a7924cd0f8dc95ec75c802bf9d7c9da2a207c37c8571f84340a5bb96aa4d8",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-scene02-v1.log",
+      "bytes": 7097,
+      "sha256": "3656a63d499ce2187233e0a4c42b01fb7b2a5c4e9c016d49e86b081e1653a575",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-photo-scene02-v1.log",
+      "bytes": 7662,
+      "sha256": "5ca6077dcbfbf9717e9c48a6b2ebd433386b6fe63b6b0c8bc6a54965f19679ef",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene03-v1.log",
+      "bytes": 6912,
+      "sha256": "f57747d1e914f8c92ea70a2e8ace70156ee72d37a60770a6049f7f8cfe0fd843",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene03-v2.log",
+      "bytes": 6891,
+      "sha256": "573615a018612312ba7bd942ea779a1204cad64b2d1d73080873670fed616d2a",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-scene06-v1.log",
+      "bytes": 8633,
+      "sha256": "d603aad45dd62b6f08878042aeab0bb051582a56329f6f1a5eb69a499121bce6",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-photo-scene06-v1.log",
+      "bytes": 9062,
+      "sha256": "e97a6ce7ec977aaac94b7c224ede4f362129fb93a1f9d75987d4d7cd9bd16a58",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene01-v2.log",
+      "bytes": 6848,
+      "sha256": "2a80bc6689d82cbcdeb97e8c02f9a4165aad28b5fb63587703e83298c04358bb",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-scene04-v1.log",
+      "bytes": 7846,
+      "sha256": "b3c2fe23453a7be9e7785a09b4b37840e00ee40481a65cf750f34863ce8f85d2",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene01-v1.log",
+      "bytes": 5631,
+      "sha256": "ecbc22671966069383835d8cf308eb428fc72dedc48f50c16312398ee234fe5a",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene04-v1.log",
+      "bytes": 8242,
+      "sha256": "6a0bf0e21463a9dcd101fb0e16bf42e7cc14ae427e648ed522cceac061c0ca5f",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene04-v2.log",
+      "bytes": 8251,
+      "sha256": "fbf080fbac4244bc1ea088539b5ef84d156b46be484f03b039e0a63296c39e8b",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-scene01-v1.log",
+      "bytes": 5095,
+      "sha256": "eb50b132fc43c9596216e74ef5de383576f0955ef80e56eda4d367e704f5a109",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene06-v2.log",
+      "bytes": 9025,
+      "sha256": "b97afae325d25b3ec5d7f8dce8a144bccc9cd79dfdc2569bd65578a6424c1214",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-scene03-v1.log",
+      "bytes": 6498,
+      "sha256": "3c35c2e6d636b7d000e9603dd4cf3209c3f2269abe36e155aea0a61dbaa6e4db",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene06-v1.log",
+      "bytes": 9055,
+      "sha256": "cf1c2d730f051ce28ec7286113c183b57d604694c155dde968b386cf487c761d",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene02-v2.log",
+      "bytes": 7504,
+      "sha256": "76918f5406788eb3302a45cd945fbe7c8408869308c517bdb05a025fd3bd1961",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-ending-v1.log",
+      "bytes": 6629,
+      "sha256": "7cc4b512b31df1d06eaa0ddc0b0e04708180bf953aacbb8428fe44e8461dc6c4",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-2d-scene02-v1.log",
+      "bytes": 7487,
+      "sha256": "c5f1dc095bc443ebb26ccf1155d3375deea7e34adea0092d281b6d0c7087f541",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/render-scene05-v1.log",
+      "bytes": 8561,
+      "sha256": "ac53deccd14c09e51af0e417dd9457bc5bef13a31c11fb9fd40b665aa02c1097",
+      "purpose": "중간 렌더 로그",
+      "directDependency": "최종 조립 직접 입력 아님; 과거 소스/기록 참조 가능",
+      "reproductionOrQA": "성공결과/QA 기록으로 대체 가능",
+      "decision": "정리 권장"
+    }
+  ],
+  "failures": [],
+  "deletedBytes": 105250357,
+  "protectedAfter": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene01-2d-preview-v2.mp4",
+      "sha256": "541948457a74a5ed3f43c6d196279d3906f2736f830edfc1a7a67951cc53567b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-2d-preview-v2.mp4",
+      "sha256": "1cdeda0a191994aa51a666f562fad95b7fe43609bd08bdeffe77d412cdb163a9",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-2d-preview-v5.mp4",
+      "sha256": "5d51d9fb076c0440d77b99d70f396cbe65fc5539c68151eb887e83d0f13d9b23",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-2d-preview-v3.mp4",
+      "sha256": "505f527b0ab86823f94972266d33beec722ab13251b0855c501855132753c633",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene05-2d-preview-v2.mp4",
+      "sha256": "8127469e22855a0b207a524e6edd387c3976e10a2cc990d5e37eeac6b25f7413",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-2d-preview-v2.mp4",
+      "sha256": "684a9dbb19934bf14cffa761600c02980e4ab6aabd566184fe2589a81315aa0a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/ending-preview-v1.mp4",
+      "sha256": "0ea1abb5e897c781733a4b1a9ce9c0a73b823c66147e25be369bd44db56ecdac",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-2d-preview-v5.mp4",
+      "sha256": "db62b68b11ec9409115668b0ec4a02145a09c62ffc8e4c6358f4f62e11aef226",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene01-tts-v1.mp3",
+      "sha256": "f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene02-tts-v1.mp3",
+      "sha256": "7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene03-tts-v3.mp3",
+      "sha256": "8c9d5a2c0820fda6c0ef251f6739e33f7768f27c89c6ef6a18209f6e57ac432d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v5.mp3",
+      "sha256": "ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene05-tts-v1.mp3",
+      "sha256": "43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene06-tts-v2.mp3",
+      "sha256": "a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/daesan-ending/DaesanEnding.tsx",
+      "sha256": "ecaecb554b6f8a87eca13ac6edbc9974831b912e119aeca030f15e03b88d6a43",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/daesan-ending/approved/HeadquartersOverlay.tsx",
+      "sha256": "cc0c1c3cc027010334cfa41a865ba364762f973d5831b196348fadead4bab173",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/daesan-ending/approved/fonts.ts",
+      "sha256": "d8385a75423c853e76eb444c863c3277d28d666f655085c6e661bfd66941a443",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/daesan-ending/approved/brief.ts",
+      "sha256": "9053668490e85bf63b6c21dc7d5f507d4608b7c9b303ae39c6c1dc8818523d62",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/daesan-ending/approved/tokens.ts",
+      "sha256": "2f3fe1d910aab2aeda01a6d72ec85bad3d06e88bca38bc94d09a4df480076fff",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/ending-approved-v3.mp3",
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/fonts/Pretendard-SemiBold.woff2",
+      "sha256": "c863f76a7de5c1ddc1ed8b2fa794964530774592c4f31407a84e2a2ae93f17f0",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/fonts/Pretendard-ExtraBold.woff2",
+      "sha256": "dd7c1e156f508eb962acc7a33a7a1896d1e0b71e11156fad96e731689ceb6dc3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/fonts/Pretendard-Medium.woff2",
+      "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/logos/daesanlogo2.png",
+      "sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/headquarters-normal-speed-hold.mp4",
+      "sha256": "4cf27faed9cb1ebfdd0e738bb54575c9167e6698c136c08997034903dca12324",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/references/doormaster-series-sign-v2.png",
+      "sha256": "304024aa3f0b76d226afcab5b83201e59201e13f5a6e3246abf550699dea89e3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/fonts/Pretendard-Black.ttf",
+      "sha256": "0a7c1fd65a599f9d25de860cc832ea9ac40c207775e33eb4344a4647392a2b5d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/door-film-lot-cover-v1.png",
+      "sha256": "e73cbbea8a42dc1ea9978063477c1aebf641ac1f47430bf2c86a52926da5495c",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/Info2DV2.tsx",
+      "sha256": "e116cb4a2309398f4cfdee13b807ab47705fb4681e1902b6c79dbe367ea354c3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/Info2DV5.tsx",
+      "sha256": "5d27e9f767f2cb475d8e19762544184a8ecea888a77eef68703dfc5f01b59800",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/DoorMasterCoverV1.tsx",
+      "sha256": "5ff419de52eb6dd1ca7bd2b91ddd515330cf40da489cb31dc74ac8cedb4146df",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/timeline-v1.json",
+      "sha256": "da50d52554875c3dd544c6f3e782e0ca80b48ccfffef0faee826bbdc5431c5e6",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/timeline-v5.json",
+      "sha256": "84ac87ad6f86f0a82f04656366be31783a4759b157001538bd8ca703d156c344",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/door-film-lot-cover-v1-crop-contact.png",
+      "sha256": "a5812bf81cd3c69dc2fd2597f756be377f131e3a1c6a36d4b1fab10e8c295fe2",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/door-film-lot-cover-v1-mobile.png",
+      "sha256": "59534b3fcbabff485bd5dc2e24f3ee3c70f7db6517073a6c358535049401ffbe",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/door-film-lot-cover-v1-4x5.png",
+      "sha256": "358479f2ba6edc0dc8930ba8accc80fd16225ec520febcaeeae162bcc624b109",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/sign-top-measurement-v1.png",
+      "sha256": "f135fb19d73e794287dd68b04acdf6d3fdbf81f32744a3850b6a40c82b9f187b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/door-film-lot-cover-v1-reference-compare.png",
+      "sha256": "103c436474ac1ca7726ecccc19141b59ade699d1c0cc9ee7ab29214429de0971",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/approved-vs-lot-cover-v1.png",
+      "sha256": "a6e868d58bc9acaf9bc248f17eb736a010ff4b9d871ad1221e4aad61a7191664",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/door-film-lot-cover-v1-1x1.png",
+      "sha256": "e0452d1115d0f085e2c92b859456726d013c22497ec3b6869c435bad02288e8e",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/brush-three-way-comparison-v1.png",
+      "sha256": "428b4084458f2e2e6860997854c84461b87c70e37e7f2f76876a2949e2c2519a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/covers/qa/door-film-lot-cover-v1-3x4.png",
+      "sha256": "f8ed977fa40087c61576ac53a8aa334ff15624dc96dd693ef6e6a2357d53ab5a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-2d-preview-v2.png",
+      "sha256": "4e79da933ddb15950937ea152b1af50c970123201ec374f5eb672c7f4da2b9fe",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-2d-preview-v2.png",
+      "sha256": "848a89457b1d362f35c9e044ff4e95172e9b933a40d37aaa534bfda3c35c96c0",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-preview-v5.png",
+      "sha256": "2d65f289f221856aea9a301ae086d054a2881c194b10979dea095afac92fe165",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene04-2d-preview-v2.png",
+      "sha256": "16884c8a94086726ebdede51c048dae9850904a6c1ceb35e1b9cafef7e3218f3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-2d-preview-v2.png",
+      "sha256": "a196956d2f3d601eaf1341415e850784933169f35d642c2fe6e6ac35099b34db",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-2d-preview-v2.png",
+      "sha256": "1bad1fec9ebafe224f958ba545108a2f1eb3c67ed9bc24665edb4045cdbbd548",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-contact.png",
+      "sha256": "303eb1b5a6f514b4547a48236ce101f3836c548801f49a416057d8acd3ed86f4",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-01.png",
+      "sha256": "1f734accd6f6f42d1d743a66637b2eb4f78da2cbc0ac8c0ad0195a41d68c709a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-02.png",
+      "sha256": "1f734accd6f6f42d1d743a66637b2eb4f78da2cbc0ac8c0ad0195a41d68c709a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-03.png",
+      "sha256": "1f734accd6f6f42d1d743a66637b2eb4f78da2cbc0ac8c0ad0195a41d68c709a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-07.png",
+      "sha256": "b5a92152fc4e531fb922122f450ce7e8748c75be98de4dc52d18a8e549348f11",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-06.png",
+      "sha256": "badbdc40ebc75639bd624d3a0ee242f26264aab1c114c5a92e74828d430e9661",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-09.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-10.png",
+      "sha256": "200867e3864e96108ba9e3806fad8adccf99abd882bb3742324af2c9f828e5fc",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-04.png",
+      "sha256": "5a483ebfe14c1d36d9b8da97a642b8768ede7cc03c1f7208c30d5f68d5db592e",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-05.png",
+      "sha256": "541416299f1629aa88f188f27e292c198ad1f146336a56fb7de510dd6ab74a69",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-11.png",
+      "sha256": "5a4beb8e5232d876909ecbac15148bd933fb698b8627765bdd5bed7140ad1443",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-08.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-contact.png",
+      "sha256": "79995aa671daacc8716de2a24a75a6ba8c8177aed8f5a47e5380557faeafa75a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-08.png",
+      "sha256": "84e1bb20252cf4d043c649e037a8418dbe56793ea08350ec45088a830e96a21b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-09.png",
+      "sha256": "792a1c748822c21a224c848c78ef9c3a8ce249e2bf11082191b3d3d717e70ed3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-01.png",
+      "sha256": "eea0db5e08dbdfe5158c170d51978566b22c8fd66d2e987a664eb890482b329d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-contact.png",
+      "sha256": "1d4025b771996972ea24cc7debf067523b2987b0f00bd148a3772b111a78c12d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-02.png",
+      "sha256": "acdca38d1cf1dd005528ed938b887f4a47c566917bc7964317d607c59311a8f7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-03.png",
+      "sha256": "8f5090c3441a950a514c9819b9a3fcbaf096eff8ce3ed11f11fbd5402206ef12",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-07.png",
+      "sha256": "00d2b1a51159b592bddcc0e31d3cfa96a77080bff007697ee1bd263c7a37f58a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-06.png",
+      "sha256": "3e9f81c4474d8e2d3ef563ea5d84a16d6e67310e98517f2d7076494c3143ab9b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-04.png",
+      "sha256": "3cdd2dfb50209047ceb4e7292039da2375181f7800c43851dab36bfa32d853d6",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-10.png",
+      "sha256": "b52a50bd10d182d99d93c2e82a2b9fc46cd72a5b1ca8daa8d28b8ff3275a81ac",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-11.png",
+      "sha256": "27a6e0e6f9f6af8b52c6b9e5a1bc4463df68f150832cb676d7342ededd396d95",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s2-s3-05.png",
+      "sha256": "40f88f07fb0c5258bd3ebe7361f360bca1eb78eebfe1a1816241b4dffc64d0d1",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-11.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-05.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-08.png",
+      "sha256": "daa8e415222560536d8039e64537166543221a9848bce4f4ee8fb136447610a3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s3-s4-09.png",
+      "sha256": "fe6a9c94b9a169150cb498846aa9b30cbd2b6fab6b3e4a5560e7057892491cf9",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-04.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-10.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-06.png",
+      "sha256": "178b5a5c39a5880258fd0fbe3a45fd821f28236f71828ce09a2179e0979045fd",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-07.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-03.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-02.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v5-s4-error-check-01.png",
+      "sha256": "47ad235a33b3ae355474f5855abe144943b6aebc02115bea62dad389c7c658ec",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/sns-copy.md",
+      "sha256": "3d4c0b9c5cd1b5c74c2fbf5ba269224c564da28283ed00f821b009d7bab36e52",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/sns-copy-qa.md",
+      "sha256": "8b94d07bb2a4d6641bb3d8d975c1fee876dec5b3591ab967ef4b9c4e59d69541",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v5-qa.json",
+      "sha256": "82186ef4d83e640af46d8e85b68a1acc68be5ce70dbe864a3f5ae14716d87919",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/scene03-v5-report.txt",
+      "sha256": "0c5534345cbcc9bce540c0db8716a14919f2a85e26864ec44a0e68f21c535708",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/scene03-v5-resume-qa.json",
+      "sha256": "f7c3f731419f02ed7f89bea882e485397d84570449b75fc145d3f213e6089a7c",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/package.json",
+      "sha256": "0965738ad3441ed1a1f0d7264d0759e9b13688f9d5a7fd4a44a026c82a2b6091",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/package-lock.json",
+      "sha256": "f3ddba5f1bbeb6ec03da80c005f82951f004799de98b02531115968176137763",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/tsconfig.json",
+      "sha256": "dcfd46b39e5fe316ca85f140c9c94661135bdcb0dc370667385930c136293355",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/remotion.config.ts",
+      "sha256": "dbf456718b9f90178e87b1fea4ee827bdeea9b8b106dfe4f9642bc4110ee8009",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/check-2d-audio-sync-v2.py",
+      "sha256": "9e1dd857c5203274b27c30e4ffd5199c66f9252cc578a3fb3e88c7d25b3159e7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/qa-tts-v1.py",
+      "sha256": "cb51bf0b71fa8f28c8ea3e2c11628bfcb207633ae866445d7cbb2f8389e57dc2",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/render-preview-v1.py",
+      "sha256": "8cbd8f4ce9041b5d0ec7c96c3b0897d7761f0b0b102b93e28235d730102c0d50",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/assemble-qa-2d-preview-v3.py",
+      "sha256": "a6de650b9d5ecb708b48251151e3c508e62a5800e575810b186f55226ed0ff26",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/assemble-qa-2d-preview-v2.py",
+      "sha256": "97ae00950309154317ed96ca403617e350c65b2f0f3faa41e5561677afd678c6",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/render-2d-preview-v2.py",
+      "sha256": "d69bdb15b8649b43ccd1ff5add09e56a1daec5b64a1e57ea7bf319946fa968f2",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/assemble-qa-2d-preview-v5.py",
+      "sha256": "ed0fe7f1c6578691096d210b8121dff4954d8eb209b43fa96ca90ff71549ce82",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/assemble-qa-2d-preview-v1.py",
+      "sha256": "c305ac987906180272580bb9b3fa124dd9c7be111e00931038a18c98173c4816",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/render-2d-preview-v1.py",
+      "sha256": "dcc2c225855eb9b4ed7309667dcc77b9ea61dbc73932550585895e6737879b6f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/assemble-qa-2d-preview-v4.py",
+      "sha256": "d89e637a307c68c89f3f42ba50bea22e4642b3302b0557c088f5a98afd09ba96",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/assemble-qa-preview-v1.py",
+      "sha256": "947ce82e143456235dcf4c316640dee79a29413f60a145d1547549c55aa0017b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/scripts/check-2d-audio-sync-v1.py",
+      "sha256": "e820c5e469136bcaff29e1705e954dd60335fc922e23cb5546a4b05c6bcfa8cd",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/yl40-film-texture-2d-v2.png",
+      "sha256": "e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene05-2d-v1-v2-compare.png",
+      "sha256": "59c503c3afa7445bc64f8b2affd23c7697767d101f05267e934080c3d00678dc",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/flicker-v2-v3-comparison.png",
+      "sha256": "c14169fcd0e4a51dc9ba26d61c929c9d230545c4a444ba39de806cf955480600",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene01-2d-v1-v2-compare.png",
+      "sha256": "e6b4d8b85d68f0180059b074a953e99ae25a5204ae74d6de3009a08c822efb6f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene04-2d-v1-v2-compare.png",
+      "sha256": "6a626cc99e014d8a380856788a35bdeb027e10355cf40c6c02d3aa11de50d923",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-v3-comparison.png",
+      "sha256": "17076de7add6d09a0e4519d35a8df50874cfe0efc74eaebf850ad46395aa72e2",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-customer-door-sample.jpeg",
+      "sha256": "75287900dfa4f4880e19f40372df9f509270e996c58fa9b0f20f2c51a29cf0a1",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s3-s4-contact.png",
+      "sha256": "240ee6c09b01c393e731fd77b6b2095b9c06f1ac0324b61a311969a1ebd49492",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s4-error-check-contact.png",
+      "sha256": "9d2529a2aa61d3e092e294fc04d0a3fe3457a68b63dbfa35ebdefe727fba3a5f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/boundary-v2-contact.png",
+      "sha256": "f81ef6b474958f3cc8382708cb0193f1be2091efbef8e588b477f7ea9f457973",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-yl40-film-surface-crop-v1.png",
+      "sha256": "e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/v4-s2-s3-contact.png",
+      "sha256": "1d4025b771996972ea24cc7debf067523b2987b0f00bd148a3772b111a78c12d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene02-2d-v1-v2-compare.png",
+      "sha256": "ebe91a91e30501640dbf5147ae9b57656a89b85ab853c54a6b913a2b6ed08054",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene06-2d-v1-v2-compare.png",
+      "sha256": "80b8e46b695270775c9bd518f1736138d0bb7eaa7fbc8b36052562d05c3aa58e",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/scene03-2d-v1-v2-compare.png",
+      "sha256": "7c1d96effac6243e3036a242255165206a6315e1e0deaeac95d702a779c51092",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene03-tts-v2.mp3",
+      "sha256": "e4e4a3cab2501b0ed8d19a9bfa03b1b683b973415e0593eb5610661afb9ac6fc",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v5.mp3",
+      "sha256": "c08415ad423285ee99393466ba1f8eacd77a9a1f4ab9a66ff9378aaeaf3eafc7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v4.mp3",
+      "sha256": "d528cb5ea9a2b6cf0d9175c964d8b251e00111e9c1c4c07cba1128286e8b1d17",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene03-tts-v1.mp3",
+      "sha256": "0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v1.mp3",
+      "sha256": "b3b916d3b9c68de2dd707f32370f11f3989aac55d6681739913cf3aabc0a52c7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene06-tts-v1.mp3",
+      "sha256": "3a66bfc5bdf2fd458f98e7920a8eedd050dde8f527f1e57ac2a951012605a596",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v3.mp3",
+      "sha256": "92dff7b9e1f59bf5e194ca132d7d6d6725965f4d2eefcaffe8037e3a0de6c878",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v2.mp3",
+      "sha256": "7dee3630b2abb093ce5806c3169648428aee7e704b468acb7a2b818e0cf879c0",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-with-ending-v1.mp3",
+      "sha256": "eef068835a574135ab98e0713014047e4445f965b97c2fbf836253fef3156683",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v4.mp3",
+      "sha256": "b03012e5c69dccf7ceb5a55bb51fe44500868a00abe5e07432b68146687e26c1",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v1.mp3",
+      "sha256": "28a2d5f501bbab01f54728a962c9cb0e509c63cb3fbf55b7b797b8701d995680",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v2.mp3",
+      "sha256": "05a26769a1687aca30249ee19eed0518e68ca7deace8ecd5785dab4eba96b9bd",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-part-b-tts-v4.mp3",
+      "sha256": "eb1c5b1b1b3c7aa7fa3c78494adf6929110ae6a9add93db31e22cbb6c61e974c",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v3.mp3",
+      "sha256": "e620349cc75ec7dc468db944316d46b25507d2622874cb3a67e5a1aa07615550",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-part-a-tts-v4.mp3",
+      "sha256": "b4fb2341b1e7c6f4f66b66303c4a6b984b2f4aee08b1dd2e459798b3651034d7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/transition-v3-fix-qa.json",
+      "sha256": "561b888dd21dff171816ff13a67a6babd4176fbdba1cc846e4b8306cbd9acd91",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ai-reference-qa-v1.json",
+      "sha256": "c24ddcf799c278b11d74cf828d6b97c0648bec09b2b077d87d3ca1b3b9a67a7a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-before-v2-sha256.json",
+      "sha256": "bbec27a6235dae55e715d0406fffd9a729990b6ac76bf8d869b3ae0c0b756cab",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/scene03-tts-v2-attempt-v1.json",
+      "sha256": "c577f7a8fd9aae559c4fc4ac3f29d7a166312e1e2f5b8d3da752c7d9b30b1ef4",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v3-report.txt",
+      "sha256": "414eefb9f575d68efdd80941cb53abb8c69ffcd851d49980696f114fc3202517",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v4-qa.json",
+      "sha256": "6afb3a2fb9f24fbfdde54de55905d389d440a293c1d437eae0ed85d8f80637ab",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/photo-preview-v1-report.txt",
+      "sha256": "9eeb809858800f3299910a1f79d7bcc01352e48f4f31f0c1d9e439cbad14de55",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/preview-v1-input-lock.json",
+      "sha256": "628018a1bd565c9e984514619a763b433523c21fc38e31ec9dfcbfba65342ef9",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-v5-input-v1.json",
+      "sha256": "e828d28b228063d6137f168735c260e2928a2db4a68a0591340d0857c47fc69a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ending-canonical-sha256.json",
+      "sha256": "9901852b1d377563c8188211b1325bda32d5021278d6631a5eac409dc73d38e7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/preview-v1-report.txt",
+      "sha256": "cf301572c49317763d0c0aaa66cef5447b87ebe4d64711d2d18f1f7e681f4e0a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-before-v4-sha256.json",
+      "sha256": "2064431f922312b9e4a78205caa723e018adaa2e5f3325eaa78ec6baddacb61f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v1-input-lock.json",
+      "sha256": "bf721315055325e43ba5f6f93deca1a6424c434080ac3e4916dc770c44d04425",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/scene03-v4-resume-report.txt",
+      "sha256": "7179a03b3b026382515884d57f5525222b79ddf31613cef42132db411ef4b6be",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ai-reference-prompts-v1.json",
+      "sha256": "a3fd028645be1f7e44ae5de0f20d55a02fd9ff30c2e9a225b12a3d0eed2c0556",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/photo-preview-v1-qa.json",
+      "sha256": "a1f7cf46cc03ba8180979927db7b94fe39d34e89a3a7008f0d79c7a7f1e1e6d1",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-scene04-v2-input.json",
+      "sha256": "a36352f7ca3ffaa891331e7b70d59fb4ffd6435b76e040c58691059a89e3c06f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v1-report.txt",
+      "sha256": "a4e01f82f699699949f594492ef85af8b4d12a1359068ba894bd84290e97800a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/slim-copy-sha256.json",
+      "sha256": "251188d72a61a9fa25423affdf2b4e2565ea8fbfea0ee47e51e554b94422e310",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/transition-v3-diagnosis.json",
+      "sha256": "a83651dcfda76e4f1d2fe6b7e378adcc762804c06afbf7e6f1781e4b408a5c98",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/project-before-preview-v1.json",
+      "sha256": "6c81dfe9fc347459ec4127c30eaed09ec8fdde8d9fc38ca8bff94c238253da8b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ai-reference-report-v2.txt",
+      "sha256": "fdef0257d276b8079a8ad9e0506f29648ff6c4a0bae08c8e40ee2d87e19b7a36",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v2-report.txt",
+      "sha256": "c4d346b2add0a817aaf9f92a5980e5ba3042b324556e59d59d31707adaa0b670",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/cover-v1-assets.json",
+      "sha256": "fef7fa556266af9ddc76392db63e9cceeea0e52e7c6e93ebc194fed3b6bdbf99",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v2-qa.json",
+      "sha256": "14b1977be681aace8a05a774caae7f50461017e92fef4a46de0e650636533378",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ending-README.md",
+      "sha256": "3d128e52474b4f877a52ed49b34f735073e2bd5e4f8fd3574af32d78674d894b",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v3.json",
+      "sha256": "161135ce0803bbcccf692ff8cb27b1bc58f7672b7db5089374cd55dc7b4c3b0f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ai-reference-report-v1.txt",
+      "sha256": "a063ab861bce6c7fe34016d24729e7dfc58b5adeaeaade617c8971236b07e8e3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ai-reference-prompts-v2.json",
+      "sha256": "a172abf11a9c8e5f8eee5b46bbc82a0a2066eb74c1ddc51451a1bca5726d3638",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-v4-part-input.json",
+      "sha256": "59659b0990bbcdbc1ef9d9ec322b5bacf6535095a8290ef01c34e543ab721bb0",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/cover-v1-report.txt",
+      "sha256": "0861ae2d080b18aaec0274be6ba447ced2874aafa361bd78cec2fbd1cdb32629",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/preview-v1-qa.json",
+      "sha256": "3e7feef2dd2f865022cc634361b95688cdcc36423433b4d1cb999755735f3cb4",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-final-with-ending-qa-v1.json",
+      "sha256": "70d230cbbc4598defe6cd075fd6bedd3731a317d35e89982bb6298a3547c03e7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v2.json",
+      "sha256": "e1bbeb0d060f32433d7c14f72f2f1ddddc6f35e7dc4f50de7a193461bcec167f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-before-v3-sha256.json",
+      "sha256": "fa86ac9246fd550d7135261450df5ae1c7de2b9dc39cb3ce260f03144cbf6d09",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v3-qa.json",
+      "sha256": "7e34599f40d1c78931cc8591de4ae0880eec1cf9d04952bd0e67f370f6990ae7",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/photo-preview-v1-input-lock.json",
+      "sha256": "1d661f644b833814fad4cbbbc26512f16dde78bc7cb23a36bc37f44bb46304ac",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v5.json",
+      "sha256": "17caa25657d75d4e697d848283b8e478fbd99553dedc6da2dda615c766deba0d",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-v5-generation-qa-v1.json",
+      "sha256": "470a33bd6d0e972221427869a7daf395cd3c0300de349acb0e1c029f54122f78",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v2-input-lock.json",
+      "sha256": "cb66e8fc4eaf2999ac6c5314d9dedc5867428aaa1d0ca16e715510c017b40df2",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/26.10.28수정.md",
+      "sha256": "85b845a3103291c07ea4957f627c20465a6bc3104dcbdf97a61b901c3edf43a3",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v4.txt",
+      "sha256": "f6c715a01e19a7a775f1f37f44b6ee41cca66a33558c2bc56e8a90e4438b03e6",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-v3-input.json",
+      "sha256": "78d8a84fe5c1d329d45e597aa8ec5aee63eae468633c57f3a22ab9380fceb1ee",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v5.txt",
+      "sha256": "7aef98cac354ee8516f6c8328e9bb7db630c8b9de52b3df972b22281bdc7e8d9",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v1.md",
+      "sha256": "dddf67206c894c5cd3bb1048fdeb784d2cb76090e9aa70daf78f56b9071fb75e",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v1-qa.json",
+      "sha256": "67be9e42b0ae26ce8d2fe14fb3db3aa9f88c3ae24cc09bb4543b8e4b9f56e863",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-v5-scene04-input.json",
+      "sha256": "9089dd0e1965769968ee7161ce2e4aec25e9b6c2f8921925ffdedee39b3284af",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/scene03-v4-blocked-report.txt",
+      "sha256": "644cf1ebe2ca0681e3a3e1bebf9e22727a86cc872838f7e09d8762a11c9e0b7f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-before-v5-sha256.json",
+      "sha256": "81807ca22a055dea40b037192d5f4973cf587d80302bf214337ea26b2b685b8e",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/cover-v1-design-comparison-measurements.json",
+      "sha256": "251544e0e6f7298a06b67eb0eb082b02d430cba3d05840014528d61bcdbb00b4",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/setup-qa.json",
+      "sha256": "ace34db988e4209a16ee5ed94cc2bcf9a98fab7c1c10d241d5bd06e5ba641146",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/2d-preview-v2-visual-qa.json",
+      "sha256": "5f374bfa481b0899cb9e0a4e82b49e9b2e68f9ad6f0c17a9fcfdfaa8a7e4377f",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v2.txt",
+      "sha256": "9ffd9449cc29e80e29248c2fe524539e7aff926703c9de6015158b9fab5b1517",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/scene03-v4-resume-qa.json",
+      "sha256": "220fcef1ab9e7a5fa5af68dfa7ccd96635ce422eadaebaf42feed8e0fef2bc86",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/26.10.30수정.md",
+      "sha256": "3a35126122caf7afcc6a3f7be189df089979b11214e82c55a4c866b9494a4e67",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v3.txt",
+      "sha256": "cf127d7f99345ee8e332917ace5e483434684e63b6879396ba6e24df87c20a05",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-qa-v4.json",
+      "sha256": "bff91ad335cf0c86720e817435f957e4002931db9aa242c982603ca5f14ca15c",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/tts-final-with-ending-qa-v1.txt",
+      "sha256": "2f5ae9661146eafbc39e2caa56fdc0855f55f9b5473c8526b84a0aad380f1c13",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/ai-reference-qa-v2.json",
+      "sha256": "b56bc109e8af78851c08082b5c959ccbd2405173e387e202feee4705df551e2a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/docs/cover-v1-design-comparison-report.txt",
+      "sha256": "f63a8dc4615bd330ec65cedca02b5348293a24bb507426c364cfc1d6c50c4212",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/index.tsx",
+      "sha256": "42997a6477a26d022131c0be0bcde53df8219f66acfc0efec3a6f6785bc14179",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/timeline-v4.json",
+      "sha256": "7c060c7924ca5a2e7bc189c71e49a42ed766baa36f316e513def6f730db65ae5",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/project.json",
+      "sha256": "17dbd8ad37bd2aaf5b7e7a09d4d9ec57658571f0289a482c8926c49a41905aa9",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/Info2DV4-pending-tts.tsx",
+      "sha256": "0cf007f37a52d48f3b270785b3cc9e94917739fec0e20a306010f318c21b52ae",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/LotPreview.tsx",
+      "sha256": "37699aba2287f82e4d599c92463e224c3aecdd5f508307ae1a0874dbb04a3828",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/PhotoTestV1.tsx",
+      "sha256": "0c49c9774b6c92c30132e67f1bd5dbac2cc3b2ee43474d7f6ab9caf350c19fde",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/Info2DV1.tsx",
+      "sha256": "560491c8cc7d7ca399dd10ef9b6362e83af1875bef3c1d3066553765f98768b9",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/src/Info2DV4.tsx",
+      "sha256": "6f41ed3b5281ccb69e59e1b8e303a9ee25d5e487528f469968f21d22e82fac4c",
+      "status": "PASS"
+    }
+  ]
+}

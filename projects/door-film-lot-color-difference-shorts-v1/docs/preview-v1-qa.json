@@ -1,0 +1,125 @@
+{
+  "media": [
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene01-preview-v1.mp4",
+      "frames": 130,
+      "videoSeconds": 4.333333333333333,
+      "containerSeconds": 4.394667,
+      "decode": "PASS",
+      "sha256": "5ed39cfe701a9d793d0a138d3301238208344f1e56102f355b8d64975f00ad0e"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-preview-v1.mp4",
+      "frames": 184,
+      "videoSeconds": 6.133333333333334,
+      "containerSeconds": 6.186667,
+      "decode": "PASS",
+      "sha256": "fefe6d2339848260bfa2f349b4b4a8ba73377bd9c0c4cbbc6508138d9290c9d6"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene03-preview-v1.mp4",
+      "frames": 168,
+      "videoSeconds": 5.6,
+      "containerSeconds": 5.653333,
+      "decode": "PASS",
+      "sha256": "56b466c0d14691fb71ad00dd853de3b15d1e7b6799e1aa7c87cf5292f468e582"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene04-preview-v1.mp4",
+      "frames": 204,
+      "videoSeconds": 6.8,
+      "containerSeconds": 6.848,
+      "decode": "PASS",
+      "sha256": "1d0f4411d06b9794b3c0c7358563d41de7d3e196d4a2a154a8fb45888baa536d"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene05-preview-v1.mp4",
+      "frames": 223,
+      "videoSeconds": 7.433333333333334,
+      "containerSeconds": 7.488,
+      "decode": "PASS",
+      "sha256": "ff2b301ca9e53dd49bcefed985b67a9eb7a6770df8a1e5f44b89d48e4dc5854d"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-preview-v1.mp4",
+      "frames": 225,
+      "videoSeconds": 7.5,
+      "containerSeconds": 7.552,
+      "decode": "PASS",
+      "sha256": "8c12c087cd6307d46b3b6cbd0c7a865fd23b7c338d81dd76fa57f35bb1d4f83c"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/ending-preview-v1.mp4",
+      "frames": 170,
+      "videoSeconds": 5.666666666666667,
+      "containerSeconds": 5.666667,
+      "decode": "PASS",
+      "sha256": "0ea1abb5e897c781733a4b1a9ce9c0a73b823c66147e25be369bd44db56ecdac"
+    },
+    {
+      "file": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/door-film-lot-preview-v1.mp4",
+      "frames": 1304,
+      "videoSeconds": 43.46666666666667,
+      "containerSeconds": 43.466667,
+      "decode": "PASS",
+      "sha256": "58ce401733366517a6ee181e03043730c82d663ff3c5389138e77c027a7f4304"
+    }
+  ],
+  "audioSourcePreservation": "PASS",
+  "endingSourceHashes": "PASS at preflight",
+  "audioZeroLagCorrelation": [
+    -0.029145112715400344,
+    0.015995972591293428,
+    0.0074798305127105995,
+    -0.003627429440877172,
+    0.014370572547724218,
+    0.0008211210708710863,
+    0.03991614709598142
+  ],
+  "captionTiming": "whole-scene summaries visible from frame 0; per-word sync not intended",
+  "userVisualApproval": "PENDING",
+  "visuals": "original SVG/CSS explanatory graphics only; no real product photos",
+  "limitations": [
+    "not a measured real product color difference",
+    "simplified schematic geometry",
+    "mobile platform UI and continuous human viewing/listening pending"
+  ],
+  "audioAlignmentMeasured": [
+    {
+      "scene": 1,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.999952519176106
+    },
+    {
+      "scene": 2,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.9999694089166773
+    },
+    {
+      "scene": 3,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.9999682900611413
+    },
+    {
+      "scene": 4,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.9999652729862443
+    },
+    {
+      "scene": 5,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.999970820476522
+    },
+    {
+      "scene": 6,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.9999557618809977
+    },
+    {
+      "scene": 7,
+      "delaySeconds": 0.042666666666666665,
+      "alignedCorrelation": 0.9999718319137615
+    }
+  ],
+  "audioAlignmentNote": "AAC/Remotion offset measured; whole-scene captions are continuously visible. Not human lip-sync verification."
+}

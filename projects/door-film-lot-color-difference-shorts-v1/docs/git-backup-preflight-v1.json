@@ -1,0 +1,16 @@
+{
+  "sensitivePatternFindings": 0,
+  "largeFiles": [
+    {
+      "path": "projects/door-film-lot-color-difference-shorts-v1/public/references/IMG_3934.MOV",
+      "bytes": 19049859,
+      "sha256": "c4b52f3a215ad669b2facdd928742878ea24b79d3c05525abd02443443fd1114"
+    }
+  ],
+  "localOnly": [
+    "public/assets/images/photo-test-customer-door-sample.jpeg",
+    "public/assets/images/photo-test-yl40-film-surface-crop-v1.png"
+  ],
+  "rights": "YL40 public reuse unverified; Git backup is not publishing clearance",
+  "startingHead": "71c71c1b58123908d47cf110b04b8401e747c7a6"
+}

@@ -1,0 +1,28 @@
+본편 승인 TTS + 공통 엔딩 통합 청취 QA v1
+선정: 승인 문구·생성 기록·SHA256 대조 PASS. 사용자 최신 지시로 본편 승인 확인.
+본편 추가 무음 없는 연결 유지. 엔딩 앞 추가 무음 없음. 속도/pitch/음량/트림 조정 없음. 모든 기존 MP3 보존 PASS.
+
+scene01-tts-v1.mp3 | 4.104000초 | -20.7 LUFS | Sample Peak -4.66 dBFS | True Peak -4.7 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: f3fc858c1b6e49b2384e1881d2293fd2da33b552b4e27a118a2db6153e8d4a92
+scene02-tts-v1.mp3 | 5.904000초 | -20.6 LUFS | Sample Peak -2.33 dBFS | True Peak -2.3 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: 7588d69858f2b2b99c29c585adbd27c42c3799546a4aaf5d9341e6daf942004f
+scene03-tts-v1.mp3 | 5.376000초 | -18.9 LUFS | Sample Peak -0.46 dBFS | True Peak -0.5 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: 0815c471ddd1adc2d7193d1987c49ea60fa2ea1bd97251facadc8a8ce5786e7c
+scene04-tts-v5.mp3 | 6.576000초 | -18.4 LUFS | Sample Peak -1.80 dBFS | True Peak -1.8 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78
+scene05-tts-v1.mp3 | 7.224000초 | -19.4 LUFS | Sample Peak -1.28 dBFS | True Peak -1.3 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: 43800cfd10fecfb2e099edeea1c08fc25023a786e19ca782cd774ea9fb54f080
+scene06-tts-v2.mp3 | 7.296000초 | -21.7 LUFS | Sample Peak -3.15 dBFS | True Peak -3.2 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: a5176925d18ba828cc98464fb4e225469eedcca9a32f1814abf716e00fa19f6e
+ending-approved-v3.mp3 | 4.854000초 | -21.2 LUFS | Sample Peak -4.40 dBFS | True Peak -4.4 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181
+full-tts-qa-with-ending-v1.mp3 | 41.334000초 | -20.3 LUFS | Sample Peak -0.90 dBFS | True Peak -0.9 dBTP | 디코딩 PASS | full-scale 샘플 0
+SHA256: eef068835a574135ab98e0713014047e4445f965b97c2fbf836253fef3156683
+
+본편 총길이: 36.480000초
+엔딩 음성 길이: 4.854000초
+통합 청취본 길이: 41.334000초
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-with-ending-v1.mp3
+엔딩 SHA256 승인값 일치 PASS. 길이는 ffprobe 파일 길이이며 순수 음절 발화시간과 구분. 엔딩 컴포넌트 길이 5.667초와 음성 길이는 다름.
+최종 영상에는 Scene별 승인 MP3 및 승인 엔딩 컴포넌트 사용. 통합본은 청취 QA 전용.
+최종 통합본 사용자 청취 승인 대기. 엔딩 진입감·음량·호흡 확인 요청.

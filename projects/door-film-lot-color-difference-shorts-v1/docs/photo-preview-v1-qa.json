@@ -1,0 +1,64 @@
+{
+  "scope": "internal real-photo partial scene test",
+  "completeScenes": [
+    2,
+    6
+  ],
+  "heldScenes": [
+    1,
+    3,
+    4,
+    5
+  ],
+  "fullPreview": "HELD as requested; incomplete assets",
+  "assets": [
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/yl40-film-surface-crop-v1.png",
+      "copy": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-yl40-film-surface-crop-v1.png",
+      "sha256": "e75e58879a8310543bb1eefcd4c043027494a8d34b9af3718680a182ab300cae",
+      "use": "internal visual test only; public reuse unconfirmed",
+      "interpretation": "surface/door reference only, not proven LOT defect or additional-order evidence"
+    },
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/door-finish-color-difference-shorts-v1/public/assets/images/customer-door-sample.jpeg",
+      "copy": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/images/photo-test-customer-door-sample.jpeg",
+      "sha256": "75287900dfa4f4880e19f40372df9f509270e996c58fa9b0f20f2c51a29cf0a1",
+      "use": "internal visual test only; public reuse unconfirmed",
+      "interpretation": "surface/door reference only, not proven LOT defect or additional-order evidence"
+    }
+  ],
+  "qa": [
+    {
+      "scene": 2,
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene02-photo-preview-v1.mp4",
+      "frames": 184,
+      "videoSeconds": 6.133333333333334,
+      "containerSeconds": 6.186667,
+      "decode": "PASS",
+      "sha256": "e3aa8ee81e0a8c0a9592625993e450f8a43bd986a29bcf355323bb01b86a8eb0"
+    },
+    {
+      "scene": 6,
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/video/scene06-photo-preview-v1.mp4",
+      "frames": 225,
+      "videoSeconds": 7.5,
+      "containerSeconds": 7.552,
+      "decode": "PASS",
+      "sha256": "b0b3d11fc1504c69584eca3e7ada611fdd0782ece73d64ff41b8a8705249bf5c"
+    }
+  ],
+  "originalAudioAndEndingSourcePreservation": "PASS",
+  "visualQA": "representative frames; no hue/contrast/texture changes, aspect ratio preserved, crop only",
+  "unverified": [
+    "public reuse permissions",
+    "continuous human viewing/listening",
+    "mobile app overlays",
+    "full 70/30 target pending missing scenes"
+  ],
+  "requiredPhotos": {
+    "scene1": "2 same-code doors, matched frontal lighting/angle; 2 photos or one side-by-side photo plus detail; genuine LOT claim requires labels",
+    "scene3": "1 real photo with 4–8 identical doors stacked/upright; no composited duplicate doors",
+    "scene4": "2 frontal photos: installed original and later ordered product; verify provenance/time, same-code information; or one joint photo plus identifying detail",
+    "scene5": "3 photos: leftover and new rolls together; close-up of each original label; optional real wrapping work photo"
+  }
+}

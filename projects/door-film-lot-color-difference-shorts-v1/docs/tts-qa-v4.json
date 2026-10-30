@@ -1,0 +1,86 @@
+{
+  "input": {
+    "scene04-part-a-tts-v4.mp3": "문짝이나 문틀을 나중에 추가로 주문할 경우,",
+    "scene04-part-b-tts-v4.mp3": "기존 제품과 필름 로트가 달라질 수 있습니다."
+  },
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "unspecified",
+  "synthesisCallsPerPart": 1,
+  "script": "scripts/generate_tts.py",
+  "authentication": "Google ADC",
+  "insertedSilence": {
+    "samples": 3600,
+    "sampleRate": 24000,
+    "seconds": 0.15,
+    "pcmStartSeconds": 4.056,
+    "pcmEndSeconds": 4.206
+  },
+  "sourcePadding": "preserved in full; no trim",
+  "processing": "float PCM A + 3600 zero samples + B, MP3 192kbps; no speed/pitch/volume changes",
+  "sequence": [
+    "scene01-tts-v1.mp3",
+    "scene02-tts-v1.mp3",
+    "scene03-tts-v1.mp3",
+    "scene04-tts-v4.mp3",
+    "scene05-tts-v1.mp3",
+    "scene06-tts-v2.mp3"
+  ],
+  "files": [
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-part-a-tts-v4.mp3",
+      "durationSeconds": 4.056,
+      "LUFS": -19.6,
+      "samplePeakDBFS": -1.8631280792293803,
+      "truePeakDBTP": -1.8,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "b4fb2341b1e7c6f4f66b66303c4a6b984b2f4aee08b1dd2e459798b3651034d7"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-part-b-tts-v4.mp3",
+      "durationSeconds": 3.336,
+      "LUFS": -20.5,
+      "samplePeakDBFS": -3.955495970651607,
+      "truePeakDBTP": -3.9,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "eb1c5b1b1b3c7aa7fa3c78494adf6929110ae6a9add93db31e22cbb6c61e974c"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v4.mp3",
+      "durationSeconds": 7.542,
+      "LUFS": -20.5,
+      "samplePeakDBFS": -2.3089105831406735,
+      "truePeakDBTP": -2.3,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "b03012e5c69dccf7ceb5a55bb51fe44500868a00abe5e07432b68146687e26c1"
+    },
+    {
+      "path": "/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v4.mp3",
+      "durationSeconds": 37.446,
+      "LUFS": -20.6,
+      "samplePeakDBFS": -0.9033373935075268,
+      "truePeakDBTP": -0.9,
+      "samplesAtOrAboveFullScale": 0,
+      "overlevel": false,
+      "decode": "PASS",
+      "sha256": "d528cb5ea9a2b6cf0d9175c964d8b251e00111e9c1c4c07cba1128286e8b1d17"
+    }
+  ],
+  "boundaryLowLevelMinus40DB": [
+    {
+      "start": 3.828125,
+      "end": 4.594958,
+      "duration": 0.766833
+    }
+  ],
+  "caveat": "threshold low-level interval includes source padding, differs from inserted silence; not naturalness evidence",
+  "preservation": "PASS all previous MP3 hashes unchanged",
+  "listeningApproval": "PENDING",
+  "comparison020": "not created; await listening feedback"
+}

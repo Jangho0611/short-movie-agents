@@ -1,0 +1,16 @@
+Scene 4 v5 단일 발화 후보 완료 — 사용자 청취 승인 대기
+확정 문구: 나중에 추가로 발주할 때도 주의해야 합니다. 기존 제품과 필름 로트가 달라질 수 있기 때문이죠.
+ko-KR-Chirp3-HD-Alnilam / speakingRate 1.0 / pitch 미지정 / 단일 발화 1회 생성.
+Part 분리/SSML break/추가 무음/트림/속도/음량 조정 없음.
+기존 모든 MP3 SHA256 보존 PASS. 통합 순서: scene01-tts-v1.mp3, scene02-tts-v1.mp3, scene03-tts-v1.mp3, scene04-tts-v5.mp3, scene05-tts-v1.mp3, scene06-tts-v2.mp3
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v5.mp3
+6.576초 / 전체 디코딩 PASS / -18.4 LUFS / Sample Peak -1.80 dBFS / True Peak -1.8 dBTP / full-scale 샘플 0 / 오버레벨 미검출
+SHA256: ff4f0293836c7271defbcc85e135ee49fdbd15f00b862f810562ff2ec4560a78
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v5.mp3
+36.480초 / 전체 디코딩 PASS / -20.2 LUFS / Sample Peak -0.90 dBFS / True Peak -0.9 dBTP / full-scale 샘플 0 / 오버레벨 미검출
+SHA256: c08415ad423285ee99393466ba1f8eacd77a9a1f4ab9a66ff9378aaeaf3eafc7
+
+길이는 ffprobe 파일 전체 길이. 발음·억양·문장 사이 호흡 및 자연스러움은 미검증, 사용자 청취 승인 대기.
+이미지/영상 생성·본편 렌더·삭제/이동·Git·공통 가이드 수정 없음.

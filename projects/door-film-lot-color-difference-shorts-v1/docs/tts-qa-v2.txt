@@ -1,0 +1,17 @@
+Scene 4 TTS v2 수정 완료 — 사용자 청취 승인 대기
+Scene 4 v1 6.864초 → v2 6.744초 (-0.120초). 길이 감소가 자연스러움 개선을 의미하지는 않음.
+기존 Google TTS 스크립트/ADC, Chirp3 HD Alnilam, speakingRate 1.0, pitch 미지정. 합성 1회.
+추가 무음/트림/속도/음량 조정 없음. Scene 1·2·3·5·6 및 v1/통합 v1 SHA256 보존 PASS.
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/scene04-tts-v2.mp3
+길이 6.744초 / 디코딩 PASS / -19.8 LUFS / Sample Peak -2.20 dBFS / True Peak -2.2 dBTP
+full-scale 도달 샘플 0 / 오버레벨 미검출
+SHA256: 05a26769a1687aca30249ee19eed0518e68ca7deace8ecd5785dab4eba96b9bd
+
+/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1/public/assets/audio/full-tts-qa-v2.mp3
+길이 35.616초 / 디코딩 PASS / -20.4 LUFS / Sample Peak -0.90 dBFS / True Peak -0.9 dBTP
+full-scale 도달 샘플 0 / 오버레벨 미검출
+SHA256: 7dee3630b2abb093ce5806c3169648428aee7e704b468acb7a2b818e0cf879c0
+
+발음·억양·자연스러움 미검증. Scene 4 늘어지는 말투와 3→4→5 연결부를 직접 청취해 주세요.
+본편 렌더·이미지 생성·삭제·Git·공통 가이드 수정 없음.
