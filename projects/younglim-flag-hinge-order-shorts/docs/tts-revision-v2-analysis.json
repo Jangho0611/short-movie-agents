@@ -1,0 +1,76 @@
+[
+  {
+    "scene": 2,
+    "duration": 5.376,
+    "silences": [
+      [
+        0.0,
+        0.620833
+      ],
+      [
+        1.993208,
+        2.083542
+      ],
+      [
+        2.878125,
+        3.278958
+      ],
+      [
+        4.99275,
+        5.376
+      ]
+    ],
+    "loudness": {
+      "input_i": "-19.27",
+      "input_tp": "-2.10",
+      "input_lra": "0.50",
+      "input_thresh": "-29.80",
+      "output_i": "-16.01",
+      "output_tp": "-1.50",
+      "output_lra": "0.50",
+      "output_thresh": "-26.65",
+      "normalization_type": "dynamic",
+      "target_offset": "0.01"
+    },
+    "fullscale": 0
+  },
+  {
+    "scene": 5,
+    "duration": 4.968,
+    "silences": [
+      [
+        0.0,
+        0.432125
+      ],
+      [
+        1.515917,
+        2.193542
+      ],
+      [
+        3.296792,
+        3.378167
+      ],
+      [
+        3.601125,
+        3.847875
+      ],
+      [
+        4.776375,
+        4.968
+      ]
+    ],
+    "loudness": {
+      "input_i": "-19.88",
+      "input_tp": "-2.45",
+      "input_lra": "0.60",
+      "input_thresh": "-30.30",
+      "output_i": "-16.42",
+      "output_tp": "-1.50",
+      "output_lra": "0.30",
+      "output_thresh": "-26.93",
+      "normalization_type": "dynamic",
+      "target_offset": "0.42"
+    },
+    "fullscale": 0
+  }
+]

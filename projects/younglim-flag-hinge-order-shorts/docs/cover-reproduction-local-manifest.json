@@ -1,0 +1,27 @@
+[
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/doormaster-series-ep01-slim-frame-reform/public/covers/doormaster-slim-frame-cover-v5.png",
+    "local": "public/references/cover-reproduction/approved-doormaster-cover-v5.png",
+    "sha256": "ca5d3072607a072596bb04cfd75479091d273ee21cc76cffb049b4a5ca6fd76b"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/docs/design-styles/door-master/references/door-master-cover-reference-v1.png",
+    "local": "public/references/cover-reproduction/door-master-cover-reference-v1.png",
+    "sha256": "a4db7ed70a3c94801226167ed70cef7bd2e3462d00f66ead32b7fe0da29db2ae"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/doormaster-series-ep01-slim-frame-reform/src/cover-doormaster-v2/assets/logo.png",
+    "local": "public/references/doormaster-approved-brand-v5/logo.png",
+    "sha256": "da4fb4417970221c9caa2f00040ffd56f13eacaa86fdbad000b64606f35530ea"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/doormaster-series-ep01-slim-frame-reform/src/cover-doormaster-v2/assets/Pretendard-Black.ttf",
+    "local": "public/references/doormaster-approved-brand-v5/Pretendard-Black.ttf",
+    "sha256": "0a7c1fd65a599f9d25de860cc832ea9ac40c207775e33eb4344a4647392a2b5d"
+  },
+  {
+    "source": "/Users/janghokim/Documents/short-movie-agents/projects/doormaster-series-ep01-slim-frame-reform/src/cover-doormaster-v2/assets/Pretendard-Medium.woff2",
+    "local": "public/references/doormaster-approved-brand-v5/Pretendard-Medium.woff2",
+    "sha256": "d03481330eeba0659ab5b87f25ceb504a35de377dd90a0d0aba2982eb2d05e2c"
+  }
+]

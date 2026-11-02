@@ -1,0 +1,37 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "5.133333",
+        "nb_frames": "154",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "duration": "5.133333",
+        "nb_frames": "242"
+      }
+    ]
+  },
+  "audio_pcm_equal_to_existing_scene03": true,
+  "audio_pcm_sha256": "3badfe01e9f039b84003d87a992bc79fd891bce4f5c4e91d134d5fbd9e675cd5",
+  "existing_files_unchanged": {
+    "src/PreviewV1.tsx": true,
+    "public/assets/video/scene03-preview-v1.mp4": true,
+    "public/assets/audio/scene03-tts-script-v3-take-v1.mp3": true
+  },
+  "decode": "PASS",
+  "timing": "lower card fade preserved at frames 74–83; no product motion",
+  "visual_qa": "frame 100: product proportions preserved, two cards readable, no text-image overlap; white image wells avoid cutout damage",
+  "permission": "사용자 사용가능 확인; 대산 AFH-4350 판매 페이지 사진의 이번 영상 재사용",
+  "fact_basis": "좌우 공용은 사용자 확인 대산 판매·발주 운영 기준; 제조사 공식 사양 확인으로 표시하지 않음"
+}

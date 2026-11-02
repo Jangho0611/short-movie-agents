@@ -1,0 +1,178 @@
+{
+  "files": [
+    {
+      "file": "scene02-tts-revision-v2.mp3",
+      "duration_s": 5.376,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.620833,
+          "duration": 0.620833
+        },
+        {
+          "start": 1.993208,
+          "end": 2.083542,
+          "duration": 0.09033399999999991
+        },
+        {
+          "start": 2.878125,
+          "end": 3.278958,
+          "duration": 0.400833
+        },
+        {
+          "start": 4.99275,
+          "end": 5.376,
+          "duration": 0.3832500000000003
+        }
+      ],
+      "LUFS": -19.27,
+      "true_peak_dBTP": -2.1,
+      "fullscale_samples": 0,
+      "decode": "PASS",
+      "listening": "PENDING",
+      "sha256": "e5b0b54c0f5352c10b7e13a04107cab8aa58205801dc80ea5d1f788ef51c965c"
+    },
+    {
+      "file": "scene05-tts-revision-v3-pause200ms.mp3",
+      "duration_s": 4.490375,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.432125,
+          "duration": 0.432125
+        },
+        {
+          "start": 1.515875,
+          "end": 1.715917,
+          "duration": 0.20004199999999983
+        },
+        {
+          "start": 2.819167,
+          "end": 2.900542,
+          "duration": 0.08137499999999998
+        },
+        {
+          "start": 3.1235,
+          "end": 3.37025,
+          "duration": 0.24675000000000002
+        },
+        {
+          "start": 4.2935,
+          "end": 4.490375,
+          "duration": 0.19687500000000036
+        }
+      ],
+      "LUFS": -20.4,
+      "true_peak_dBTP": -2.9,
+      "fullscale_samples": 0,
+      "decode": "PASS",
+      "listening": "PENDING",
+      "sha256": "4420100ad64128ffb9eb194c0d0e7eab09ace7eebec9f6a416cbfa9a3b41fe67"
+    },
+    {
+      "file": "full-tts-qa-revision-v2.mp3",
+      "duration_s": 23.162375,
+      "silences": [
+        {
+          "start": 0.0,
+          "end": 0.317042,
+          "duration": 0.317042
+        },
+        {
+          "start": 1.420917,
+          "end": 1.513375,
+          "duration": 0.09245799999999993
+        },
+        {
+          "start": 1.849292,
+          "end": 2.687292,
+          "duration": 0.8379999999999999
+        },
+        {
+          "start": 4.054875,
+          "end": 4.147542,
+          "duration": 0.09266699999999961
+        },
+        {
+          "start": 4.942083,
+          "end": 5.342958,
+          "duration": 0.4008750000000001
+        },
+        {
+          "start": 7.052833,
+          "end": 7.685958,
+          "duration": 0.6331250000000006
+        },
+        {
+          "start": 8.792333,
+          "end": 8.898,
+          "duration": 0.1056670000000004
+        },
+        {
+          "start": 9.495417,
+          "end": 10.138917,
+          "duration": 0.6434999999999995
+        },
+        {
+          "start": 11.947292,
+          "end": 12.744,
+          "duration": 0.7967080000000006
+        },
+        {
+          "start": 13.553917,
+          "end": 13.685958,
+          "duration": 0.1320409999999992
+        },
+        {
+          "start": 16.108667,
+          "end": 16.294958,
+          "duration": 0.18629100000000065
+        },
+        {
+          "start": 18.410625,
+          "end": 19.104208,
+          "duration": 0.6935830000000003
+        },
+        {
+          "start": 20.187833,
+          "end": 20.387958,
+          "duration": 0.2001249999999999
+        },
+        {
+          "start": 21.491125,
+          "end": 21.572542,
+          "duration": 0.0814169999999983
+        },
+        {
+          "start": 21.795458,
+          "end": 22.04225,
+          "duration": 0.24679199999999923
+        },
+        {
+          "start": 22.965417,
+          "end": 23.162375,
+          "duration": 0.1969580000000022
+        }
+      ],
+      "LUFS": -19.86,
+      "true_peak_dBTP": -1.24,
+      "fullscale_samples": 0,
+      "decode": "PASS",
+      "listening": "PENDING",
+      "sha256": "4c0deddb39a4f592407d8f63ceeb04234b7f6b539acccdcaab5e040c9d6ab254"
+    }
+  ],
+  "concat_order": [
+    "scene01-tts-script-v3-take-v1.mp3",
+    "scene02-tts-revision-v2.mp3",
+    "scene03-tts-script-v3-take-v1.mp3",
+    "scene04-tts-script-v3-take-v1.mp3",
+    "scene05-tts-revision-v3-pause200ms.mp3"
+  ],
+  "removed_s": 0.477625,
+  "retained_gap_target_s": 0.2,
+  "method": "SSML single utterance; trim middle of first detected internal silence only; no speech stretch, split synthesis, gain or other pause edits",
+  "old_files_hashes_unchanged": true,
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0
+}

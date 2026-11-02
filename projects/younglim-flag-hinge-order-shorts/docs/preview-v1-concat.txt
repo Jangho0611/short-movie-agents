@@ -1,0 +1,4 @@
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/younglim-flag-hinge-main-timescale-preview-v1.mp4'
+duration 25.4
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4'
+duration 5.6666666667

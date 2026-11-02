@@ -1,0 +1,12 @@
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-01.mp4'
+duration 2.533333333333
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-02.mp4'
+duration 5.766666666667
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-03.mp4'
+duration 5.133333333333
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-04.mp4'
+duration 6.933333333333
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-05.mp4'
+duration 5.033333333333
+file '/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-06.mp4'
+duration 5.666666666667

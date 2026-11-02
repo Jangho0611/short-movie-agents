@@ -1,0 +1,51 @@
+{
+  "preview_exists": true,
+  "inputs_exist": true,
+  "media_not_newer_than_qa": true,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "nb_frames": "932",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "nb_frames": "1458"
+      }
+    ],
+    "format": {
+      "duration": "31.066667"
+    }
+  },
+  "tts_hash_match": {
+    "scene01-tts-script-v3-take-v1.mp3": true,
+    "scene02-tts-revision-v2.mp3": true,
+    "scene03-tts-script-v3-take-v1.mp3": true,
+    "scene04-tts-script-v3-take-v1.mp3": true,
+    "scene05-tts-revision-v3-pause200ms.mp3": true
+  },
+  "ending_dependencies": {
+    "src/daesan-ending/DaesanEnding.tsx": true,
+    "src/daesan-ending/approved/fonts.ts": true,
+    "src/daesan-ending/approved/HeadquartersOverlay.tsx": true,
+    "src/daesan-ending/approved/tokens.ts": true,
+    "src/daesan-ending/approved/brief.ts": true,
+    "public/daesan-ending/video/IMG_3934.MOV": true,
+    "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4": true,
+    "public/daesan-ending/video/headquarters-normal-speed-hold.mp4": true,
+    "public/daesan-ending/audio/ending-approved-v3.mp3": true,
+    "public/daesan-ending/logos/daesanlogo2.png": true,
+    "public/daesan-ending/fonts/Pretendard-SemiBold.woff2": true,
+    "public/daesan-ending/fonts/Pretendard-ExtraBold.woff2": true,
+    "public/daesan-ending/fonts/Pretendard-Medium.woff2": true
+  }
+}

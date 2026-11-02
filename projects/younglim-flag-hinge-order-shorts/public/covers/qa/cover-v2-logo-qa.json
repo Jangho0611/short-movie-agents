@@ -1,0 +1,17 @@
+{
+  "source": "doormaster-series-ep01-slim-frame-reform/src/cover-doormaster-v5/compose-v5.py H-approved-brand",
+  "native_opaque_brand_pixels_match_approved_cover": true,
+  "outside_logo_region_pixels_changed": 0,
+  "brand_scale": 1.7,
+  "brand_position": [
+    105,
+    1460
+  ],
+  "original": [
+    1080,
+    1920
+  ],
+  "3x4_brand_visible": true,
+  "4x5_brand_visible": true,
+  "status": "USER_REVIEW_PENDING"
+}

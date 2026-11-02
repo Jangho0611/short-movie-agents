@@ -1,0 +1,22 @@
+{
+  "source_file": "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/docs/sns-copy.md",
+  "source": "user supplied full text",
+  "roundtrip_blocks_equal": true,
+  "guide_version": "v1.6",
+  "youtube_title_unicode_length": 35,
+  "youtube_promo_exact": true,
+  "instagram_promo_exact": true,
+  "hashtag_counts": {
+    "youtube": 5,
+    "instagram": 5,
+    "naver": 5
+  },
+  "instagram_account_duplicate": false,
+  "naver_unicode_codepoints": 259,
+  "naver_utf16_units": 260,
+  "naver_LF_count": 8,
+  "naver_limit": 300,
+  "naver_pass": true,
+  "title_field": "not assumed; all Clip text counted",
+  "final_approval": "PENDING"
+}

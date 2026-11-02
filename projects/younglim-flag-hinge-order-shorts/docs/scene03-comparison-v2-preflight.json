@@ -1,0 +1,27 @@
+{
+  "status": "awaiting_image_reuse_confirmation",
+  "common_handedness": {
+    "scope": "대산 취급 일반 이지경첩",
+    "basis": "2026-10-30 사용자 확인: 대산 실제 판매·발주 운영상 좌용·우용 별도 구분 없음",
+    "manufacturer_spec_verified": false
+  },
+  "candidate": {
+    "model": "AFH-4350",
+    "source_page": "https://daesan.ai/product/afh-4350-이지경첩실버골드화이트블랙/912/",
+    "image_url": "https://ecimg.cafe24img.com/pg2383b21973322017/daesan3833/web/product/big/20260225/3e12803c0efd867aee8a57e638b9d509.png",
+    "resolution": [
+      500,
+      500
+    ],
+    "match": "대산 판매 페이지 품명 AFH-4350 및 사진 AFAC 각인 확인",
+    "note": "판매 페이지 제조 표기는 비플랜(중국); 제조사 확정은 하지 않음",
+    "reuse_permission": "사용자 확인 대기",
+    "research_file": "/tmp/daesan-afh4350-research-20261030.png"
+  },
+  "preserve": {
+    "frames": 154,
+    "fps": 30,
+    "audio": "public/assets/audio/scene03-tts-script-v3-take-v1.mp3"
+  },
+  "rendered": false
+}

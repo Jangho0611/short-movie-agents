@@ -1,0 +1,64 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "2.533333",
+        "nb_read_frames": "76",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "duration": "2.533333",
+        "nb_read_frames": "119"
+      }
+    ],
+    "format": {
+      "duration": "2.533333"
+    }
+  },
+  "decode": "PASS",
+  "tts_sha256": "7adfdac11abacd389f190d29c4effb570bdeae307963b105f09e2125f24f5e1a",
+  "blender": "5.2.3 LTS",
+  "render_frames": 76,
+  "model": "Concept only; not verified Younglim mechanism or handedness",
+  "keyframes_zero_based": {
+    "0": [
+      0,
+      0
+    ],
+    "6": [
+      0,
+      0
+    ],
+    "27": [
+      -90,
+      90
+    ],
+    "33": [
+      -90,
+      90
+    ],
+    "57": [
+      -180,
+      180
+    ],
+    "75": [
+      -180,
+      180
+    ]
+  },
+  "holes_per_leaf": 5,
+  "thickness_model_units": 0.3,
+  "axis_fixed": true,
+  "camera": "fixed orthographic; shallow oblique",
+  "approval": "PENDING"
+}

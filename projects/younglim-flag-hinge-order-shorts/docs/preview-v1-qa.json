@@ -1,0 +1,249 @@
+{
+  "files": [
+    {
+      "file": "younglim-flag-hinge-preview-v1.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "duration": "31.066667",
+            "nb_read_frames": "932",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "duration": "31.066667",
+            "nb_read_frames": "1457"
+          }
+        ],
+        "format": {
+          "duration": "31.066667"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    {
+      "file": "scene01-preview-v1.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "duration": "2.533333",
+            "nb_read_frames": "76",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1,
+            "r_frame_rate": "0/0",
+            "duration": "2.533333",
+            "nb_read_frames": "119"
+          }
+        ],
+        "format": {
+          "duration": "2.533333"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    {
+      "file": "scene02-preview-v1.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "duration": "5.766667",
+            "nb_read_frames": "173",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1,
+            "r_frame_rate": "0/0",
+            "duration": "5.766667",
+            "nb_read_frames": "271"
+          }
+        ],
+        "format": {
+          "duration": "5.766667"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    {
+      "file": "scene03-preview-v1.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "duration": "5.133333",
+            "nb_read_frames": "154",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1,
+            "r_frame_rate": "0/0",
+            "duration": "5.133333",
+            "nb_read_frames": "241"
+          }
+        ],
+        "format": {
+          "duration": "5.133333"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    {
+      "file": "scene04-preview-v1.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "duration": "6.933333",
+            "nb_read_frames": "208",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1,
+            "r_frame_rate": "0/0",
+            "duration": "6.933333",
+            "nb_read_frames": "325"
+          }
+        ],
+        "format": {
+          "duration": "6.933333"
+        }
+      },
+      "full_decode": "PASS"
+    },
+    {
+      "file": "scene05-preview-v1.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "duration": "5.033333",
+            "nb_read_frames": "151",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "48000",
+            "channels": 1,
+            "r_frame_rate": "0/0",
+            "duration": "5.033333",
+            "nb_read_frames": "236"
+          }
+        ],
+        "format": {
+          "duration": "5.033333"
+        }
+      },
+      "full_decode": "PASS"
+    }
+  ],
+  "ending": {
+    "frame_count": 170,
+    "reference_frame_count": 170,
+    "all_rgb_frame_hashes_equal": true,
+    "canonical_sha256": "2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5"
+  },
+  "ending_dependencies": {
+    "src/daesan-ending/DaesanEnding.tsx": true,
+    "src/daesan-ending/approved/fonts.ts": true,
+    "src/daesan-ending/approved/HeadquartersOverlay.tsx": true,
+    "src/daesan-ending/approved/tokens.ts": true,
+    "src/daesan-ending/approved/brief.ts": true,
+    "public/daesan-ending/video/IMG_3934.MOV": true,
+    "public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4": true,
+    "public/daesan-ending/video/headquarters-normal-speed-hold.mp4": true,
+    "public/daesan-ending/audio/ending-approved-v3.mp3": true,
+    "public/daesan-ending/logos/daesanlogo2.png": true,
+    "public/daesan-ending/fonts/Pretendard-SemiBold.woff2": true,
+    "public/daesan-ending/fonts/Pretendard-ExtraBold.woff2": true,
+    "public/daesan-ending/fonts/Pretendard-Medium.woff2": true
+  },
+  "tts_order": [
+    "scene01-tts-script-v3-take-v1.mp3",
+    "scene02-tts-revision-v2.mp3",
+    "scene03-tts-script-v3-take-v1.mp3",
+    "scene04-tts-script-v3-take-v1.mp3",
+    "scene05-tts-revision-v3-pause200ms.mp3"
+  ],
+  "source_sha256": {
+    "scene01-tts-script-v3-take-v1.mp3": "7adfdac11abacd389f190d29c4effb570bdeae307963b105f09e2125f24f5e1a",
+    "scene02-tts-revision-v2.mp3": "e5b0b54c0f5352c10b7e13a04107cab8aa58205801dc80ea5d1f788ef51c965c",
+    "scene03-tts-script-v3-take-v1.mp3": "0533ff71d443d8c9d6fdaceaafd466e39f88d2e2ef590b83945b749023a6b8de",
+    "scene04-tts-script-v3-take-v1.mp3": "caf4b0fb5a1b4d15780e88aef2c62e9502140def8572aa842a4d234aa04be775",
+    "scene05-tts-revision-v3-pause200ms.mp3": "4420100ad64128ffb9eb194c0d0e7eab09ace7eebec9f6a416cbfa9a3b41fe67"
+  },
+  "scene_frames": [
+    76,
+    173,
+    154,
+    208,
+    151
+  ],
+  "scene5_pause_original_s": [
+    1.515875,
+    1.715917
+  ],
+  "scene5_conclusion_reveal_s": [
+    1.7333333333333334,
+    1.9333333333333333
+  ],
+  "listening_naturalness": "USER_REVIEW_REQUIRED",
+  "image_rights": "User confirmed manufacturer image use allowed",
+  "hero_effective_height_px": 800
+}

@@ -1,0 +1,37 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "2.533333",
+        "nb_read_frames": "76",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "duration": "2.533333",
+        "nb_read_frames": "119"
+      }
+    ],
+    "format": {
+      "duration": "2.533333"
+    }
+  },
+  "full_decode": "PASS",
+  "decoded_audio_identical_to_v1": true,
+  "tts_sha256": "7adfdac11abacd389f190d29c4effb570bdeae307963b105f09e2125f24f5e1a",
+  "scene_source_only_image_path_changed": true,
+  "invariance": {
+    "all_76_frames_geometry_camera_transforms_equal": true,
+    "baseline_snapshot_sha256": "342a1cbb18b512ced46370cf2db5cb74dd3a549bf9accd25e36d77789c934453"
+  },
+  "visual_approval": "PENDING"
+}

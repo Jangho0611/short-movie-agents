@@ -1,0 +1,54 @@
+{
+  "moved": [
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/.DS_Store",
+      "destination": "/Users/janghokim/.Trash/younglim-flag-hinge-cleanup-20261102/.DS_Store",
+      "bytes": 8196
+    },
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/.DS_Store",
+      "destination": "/Users/janghokim/.Trash/younglim-flag-hinge-cleanup-20261102/public/.DS_Store",
+      "bytes": 8196
+    },
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/.DS_Store",
+      "destination": "/Users/janghokim/.Trash/younglim-flag-hinge-cleanup-20261102/public/assets/.DS_Store",
+      "bytes": 6148
+    },
+    {
+      "source": "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/node_modules",
+      "destination": "/Users/janghokim/.Trash/younglim-flag-hinge-cleanup-20261102/node_modules",
+      "bytes": 361572277
+    }
+  ],
+  "bytes": 361594817,
+  "trash": "/Users/janghokim/.Trash/younglim-flag-hinge-cleanup-20261102",
+  "preserved_file_hash_count": 374,
+  "all_preserved_hashes_identical": true,
+  "final_sha256": "f5b63f68e5ccfbb7ef094b60c00e6a0aa67f7edde2d13b97a278c11bfd4914fb",
+  "other_project_git_status_unchanged": true,
+  "dependency_check": {
+    "checked": 250,
+    "missing_cache": [],
+    "different": [],
+    "extra": [
+      "node_modules/.cache/webpack/remotion-production-4.0.523/00042bc6efe428b4aef7e841de23f9ca/index.pack",
+      "node_modules/.cache/webpack/remotion-production-4.0.523/00042bc6efe428b4aef7e841de23f9ca/0.pack"
+    ]
+  },
+  "reinstall": "isolated npm ci --offline succeeded; esbuild postinstall held by npm allowScripts policy; no rendering tested",
+  "remaining_intermediate_mp4": [
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-01.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-02.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-03.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-04.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-05.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-revision2-video-06.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-video-01.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-video-02.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-video-03.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-video-04.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-video-05.mp4",
+    "/Users/janghokim/Documents/short-movie-agents/projects/younglim-flag-hinge-order-shorts/public/assets/video/assembly-v2-video-06.mp4"
+  ]
+}
