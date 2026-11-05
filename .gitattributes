@@ -54,3 +54,8 @@ projects/doormaster-handle-replacement-v1/public/assets/video/doormaster-handle-
 
 # Approved stepdoor final assembly input
 projects/younglim-stepdoor-types-shorts-v1/public/assets/video/younglim-stepdoor-picture-silent-v8.mp4 filter=lfs diff=lfs merge=lfs -text
+
+projects/pocket-door-handle-reinforcement-shorts-v1/public/assets/video/pocket-door-doormaster-full-preview-v1.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/pocket-door-handle-reinforcement-shorts-v1/public/assets/video/pocket-door-doormaster-full-preview-v2-scene01-v5-preserved.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/pocket-door-handle-reinforcement-shorts-v1/public/assets/video/pocket-door-doormaster-full-preview-v2.mp4 filter=lfs diff=lfs merge=lfs -text
+projects/pocket-door-handle-reinforcement-shorts-v1/public/assets/video/pocket-door-doormaster-full-preview-v3.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,45 @@
+{
+  "v2_handle_camera_lights_preserved": true,
+  "preserved_objects": [
+    "Cut face grazing light",
+    "Large soft key",
+    "Macro cutaway camera",
+    "SH30NI front visual approximation",
+    "Simplified surface rib",
+    "Simplified surface rib.001",
+    "Simplified surface rib.002",
+    "Simplified surface rib.003",
+    "Simplified surface rib.004",
+    "Simplified surface rib.005",
+    "Simplified surface rib.006",
+    "Simplified surface rib.007",
+    "Simplified surface rib.008",
+    "Simplified surface rib.009",
+    "Simplified surface rib.010",
+    "Simplified surface rib.011",
+    "Soft fill",
+    "Visible grip bowl",
+    "Visible grip end",
+    "Visible grip end.001",
+    "Visible grip wall",
+    "Visible grip wall.001"
+  ],
+  "old_window_staging": [
+    1.1,
+    2.18
+  ],
+  "new_window_staging": [
+    0.78,
+    2.1
+  ],
+  "support_inner_clearance_x": [
+    -0.485,
+    -0.005
+  ],
+  "grip_bowl_x": [
+    -0.354,
+    -0.136
+  ],
+  "no_cyan_curves": true,
+  "concept_only": true
+}

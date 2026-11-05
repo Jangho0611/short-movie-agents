@@ -1,0 +1,13 @@
+# v13 educational support reveal — 2026-11-03
+
+One 540×960 still: public/assets/images/pocket-handle-reinforcement-cutaway-v13.png. Model and reproduction build_v13.py in this directory, overwrite refusal. Loaded v12 oblique .blend; original files untouched.
+
+Handle mesh/transforms/materials, receiving pocket and camera retained. A disjoint small side editorial volume is exposed with a partially transparent front skin (transparent/paint shader mix; not literal glass). A short upright support example sits behind that skin; top and side geometrically exposed, lower portion continues under unrevealed skin. No ring, shelf, long panel, ellipse, fastening or actual material specification. Wood appearance/count/location/size are invented educational choices authorized for this illustration. Receiving aperture not enlarged or merged with editorial reveal.
+
+QA: handle signature and camera exact-match assertions. Five receiving pocket ray measurements (±X,±Z,+Y from inside) identical before/after; pocket dimensions remain 0.24199998×1.261999985×0.151499993 scene units with X/Z axis (-0.2449999824,0.0769999921). New editorial region is spatially disjoint. Support's X bounds are separated from pocket by ~0.089 scene units, proving no overlap regardless of Y/Z. Support front y=-0.075 vs door exterior -0.2, recessed. This is model-space geometry, not real product fit/strength.
+
+Visual QA NOT PASS overall: complete grip stays in frame; narrow receiving pocket remains partly occluded by grip as in v12. Transparency makes wood visible behind exterior, but reduces contrast enough that the upright reads faintly and the connection to receiving position is weak. Core criteria 4/5/6 are conditional/insufficient; 7 geometric no-overlap passes. Separate reveal can appear like an additional rectangular window or wood insert if interpreted literally. Raw image without notice carries manufacturer-structure risk. No zero-risk technical PASS.
+
+328 pre-existing public/src/blender files unchanged; see preservation-qa.json and geometry-qa.json. One low-resolution render only. Blender emitted modifier-order informational warning; sampled pocket dimensions remained unchanged, and visible output reviewed. No new actual fixtures or replacement receiving geometry.
+
+Before any motion approval: user must approve support legibility. Potential next authorized revision should improve reveal edge/skin opacity contrast, not change verified handle/pocket or add support stock. Conceal explanation area before handle coupling; never imply actual SH30NI installation or universal support requirement. Future notice: '내부 보강 설명용 개념도 · 제품별 상이'. No further render, animation, high-res, TTS, AI, other scenes, ending/guides or Git work.

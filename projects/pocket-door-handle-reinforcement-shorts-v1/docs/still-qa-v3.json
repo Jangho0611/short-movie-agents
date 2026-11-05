@@ -1,0 +1,76 @@
+{
+  "existing_files_changed": [],
+  "frames": [
+    {
+      "file": "public/assets/images/s02-01-exterior-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "df25f969e613b75e3743daad0489b2966c1f6c1aa081f629c7995bccf1859e2c"
+    },
+    {
+      "file": "public/assets/images/s02-02-position-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "4b014ca696a51a3c1086e27ab2c71db564ace8854ee1be97f3e068b5958c7ea9"
+    },
+    {
+      "file": "public/assets/images/s02-03-conditions-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "2f062c98ef1e660ba2e4fcf626d65cb34f3da513af7dd86b711477ea69952455"
+    },
+    {
+      "file": "public/assets/images/s03-01-internal-check-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "293d5630d3421e4bad9aadceb0da4eca9b18096e925cc6f0bf573711c645764a"
+    },
+    {
+      "file": "public/assets/images/s03-02-location-check-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "a90e881d7259982bb5afb577b67ba3698172722f3f430fc11b46595c16b2bfd0"
+    },
+    {
+      "file": "public/assets/images/s04-01-basic-check-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "e9d9ee74575eeac535918226c0b8ff23d954ec10e6f905a9ef9c81d2dfabbd57"
+    },
+    {
+      "file": "public/assets/images/s04-02-lock-example-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "2e4ed1dcaae1995730831902b37c19fbf42b2147a48d2f8601854c81ec81fe23"
+    },
+    {
+      "file": "public/assets/images/s04-03-final-check-v3.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "3010cc15816ff73904b2074b7ffb95f58702fdca4b8468271c9438251a58ffcc"
+    }
+  ],
+  "scene3_to_scene4_diagram_identical": true,
+  "limitations": [
+    "SH30NI fixing and machining depth unverified; neither depicted",
+    "Door support region is abstract, not real reinforcement",
+    "DSL dimension text is not readable at mobile thumbnail size; not an installation guide",
+    "Scene3 does not claim verified mismatch or installation failure"
+  ]
+}

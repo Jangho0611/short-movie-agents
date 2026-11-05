@@ -1,0 +1,15 @@
+const fs=require('fs'),path=require('path'),{execFileSync:exec}=require('child_process');
+const {bundle}=require('@remotion/bundler'),{getCompositions,renderMedia,renderStill}=require('@remotion/renderer');
+(async()=>{process.chdir(path.resolve(__dirname,'..'));
+const out='public/assets/video/scene03-doormaster-preview-v2.mp4',sheet='public/assets/images/scene03-doormaster-preview-v2-qa.png';
+for(const n of [out,sheet])if(fs.existsSync(n))throw Error('collision: '+n);
+const temp=fs.mkdtempSync('/tmp/pocket-scene3-v2-');
+const serveUrl=await bundle({entryPoint:path.resolve('src/scene03-doormaster-preview-v2.tsx')});
+const [composition]=await getCompositions(serveUrl);
+for(const frame of [0,165,208])await renderStill({serveUrl,composition,output:path.join(temp,frame+'.png'),imageFormat:'png',frame});
+const silent=path.join(temp,'silent.mp4');
+await renderMedia({serveUrl,composition,outputLocation:silent,codec:'h264',pixelFormat:'yuv420p',crf:18,concurrency:2});
+exec('ffmpeg',['-v','error','-n','-i',silent,'-i','public/assets/audio/scene03-tts-v5.wav','-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart',out]);
+exec('ffmpeg',['-v','error','-n','-i',path.join(temp,'0.png'),'-i',path.join(temp,'165.png'),'-i',path.join(temp,'208.png'),'-filter_complex','[0:v]scale=360:640[a];[1:v]scale=360:640[b];[2:v]scale=360:640[c];[a][b][c]hstack=inputs=3[v]','-map','[v]','-frames:v','1',sheet]);
+console.log('DONE',temp);
+})().catch(e=>{console.error(e);process.exit(1)});

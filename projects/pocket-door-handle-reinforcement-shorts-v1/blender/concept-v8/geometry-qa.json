@@ -1,0 +1,15 @@
+{
+  "resolution": [
+    540,
+    960
+  ],
+  "single_still_only": true,
+  "handle_identical_to_v7": true,
+  "camera_horizontal_angle_degrees": 36.00465499259584,
+  "support_within_front_rear_envelope": true,
+  "support_clear_of_grip_space": true,
+  "support_clearance_scene_units": 0.01200000000000001,
+  "dimensions_are_not_construction_specs": true,
+  "no_fasteners": true,
+  "boundary_test_note": "1e-8 tolerance applied after initial false from -0.14500000000000002 floating point representation. Geometry unchanged; no rerender."
+}

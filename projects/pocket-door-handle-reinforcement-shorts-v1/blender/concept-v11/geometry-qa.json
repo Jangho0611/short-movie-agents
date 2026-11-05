@@ -1,0 +1,22 @@
+{
+  "camera_same_as_v10_B": true,
+  "scale_same": true,
+  "handle_in_frame": true,
+  "normal_only_displacement": 0.4,
+  "axis_xz_retained": true,
+  "receiving_width_height_scene_units": [
+    0.242,
+    1.262
+  ],
+  "support_clear_of_receiving_space": true,
+  "editorial_extension_connected_to_receiving_aperture": true,
+  "support_top_exposed_below_window_top": true,
+  "A_handle_screen_bounds": [
+    0.07177674770355225,
+    0.2944917678833008,
+    0.1308109015226364,
+    0.7890101075172424
+  ],
+  "existing_B_not_modified_or_rendered": true,
+  "not_manufacturer_dimensions": true
+}

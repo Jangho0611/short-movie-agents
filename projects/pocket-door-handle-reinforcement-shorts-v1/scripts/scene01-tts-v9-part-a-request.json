@@ -1,0 +1,18 @@
+{
+  "payload": {
+    "input": {
+      "text": "포켓도어에 오목이손잡이 설치할 때"
+    },
+    "voice": {
+      "languageCode": "ko-KR",
+      "name": "ko-KR-Chirp3-HD-Alnilam"
+    },
+    "audioConfig": {
+      "audioEncoding": "LINEAR16",
+      "speakingRate": 1.0
+    }
+  },
+  "characters": 18,
+  "maximum_list_price_usd": 0.00054,
+  "automatic_retries": 0
+}

@@ -1,0 +1,8 @@
+00:00.827  blend            | Read blend: "/Users/janghokim/Documents/short-movie-agents/projects/pocket-door-handle-reinforcement-shorts-v1/blender/concept-v3/pocket-handle-macro-cutaway-v3.blend"
+/Users/janghokim/Documents/short-movie-agents/projects/pocket-door-handle-reinforcement-shorts-v1/blender/concept-v4/build_cutaway_v4.py:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('Editorial section neutral no material claim');m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(.47,.47,.44,1);p.inputs['Roughness'].default_value=.7
+00:20.975  render           | Saved: '/Users/janghokim/Documents/short-movie-agents/projects/pocket-door-handle-reinforcement-shorts-v1/public/assets/images/pocket-handle-cutaway-v4.png'
+Info: Saved as "pocket-handle-cutaway-v4.blend"
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

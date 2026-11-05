@@ -1,0 +1,22 @@
+{
+  "original_and_display_meshes_transforms_preserved": true,
+  "section_height": 0.07699999213218689,
+  "physical_pockets": 1,
+  "support_representation": "3D spatial material domain on existing cap and pocket walls; no separate components",
+  "support_solid_intrusion_volume": 0,
+  "wood_boundary_shader_tolerance": 0.001,
+  "camera_rotation_preserved": true,
+  "camera_scale": 2.299999952316284,
+  "camera_location": [
+    1.8225810527801514,
+    -3.069397211074829,
+    3.500718116760254
+  ],
+  "projected_bounds": [
+    0.1352427750825882,
+    0.8647571206092834,
+    0.19396868348121643,
+    0.8060312867164612
+  ],
+  "concept_only": true
+}

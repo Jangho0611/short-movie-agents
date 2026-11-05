@@ -1,0 +1,83 @@
+{
+  "frames": [
+    {
+      "path": "public/assets/images/s02-01-exterior-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "d7cd3faa8562cc2d1d31fa4008b16f7f9634a8feee7ad2ad224b56988b603925"
+    },
+    {
+      "path": "public/assets/images/s02-02-recess-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "521b63d79a680f6047cb8e6f1783c94e5fe30f2f7d680ae4ad11d427d5e82016"
+    },
+    {
+      "path": "public/assets/images/s02-03-fixing-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "988172ee4935d4631ccd9e3cbc9004a867461069257159f4e8fb9e404088d6b9"
+    },
+    {
+      "path": "public/assets/images/s03-01-support-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "6ae2744fefbee3836fd7b9ac3f31c6c8e444cb6b2adcbaad4474b30889851a27"
+    },
+    {
+      "path": "public/assets/images/s03-02-mismatch-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "0342d66c005a1b0a05f875e3479023fd75c712628c530f132d1ad69b9461439d"
+    },
+    {
+      "path": "public/assets/images/s04-01-template-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "e57e7ea4d4c2a4bd9c23c12f6e2b9997f86d9f6060f461c681100f428eb5d9fa"
+    },
+    {
+      "path": "public/assets/images/s04-02-review-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha256": "e91e3315f1791bb5c12f5547167aefbee8c23b59c09c4af342f952f2e4313bd6"
+    }
+  ],
+  "notes": [
+    "Still renders only. Visual and mechanical QA do not establish product compatibility or strength."
+  ],
+  "scene3_to_4_unchanged_patches": {
+    "door_edge": true,
+    "support_left": true,
+    "lower_fixing": false,
+    "lower_fixing_explanation": "False is expected: the added template centerline crosses the unchanged fixing marker. Both states use the same (425,542.5) marker and same Diagram component."
+  },
+  "video_files": [],
+  "canonical_font_hashes_match": true,
+  "visual_review": {
+    "reviewed": [
+      "contact-sheet-scene02-04-v2.jpg",
+      "mobile-s04-review-v2.png",
+      "s03-02-mismatch-v1.png",
+      "s02-01-exterior-v1.png"
+    ],
+    "camera_and_scale": "Shared single SVG coordinate system; no camera transforms or support translation.",
+    "mobile": "Main headings, hatch, markers and mismatch outline identifiable at 360x640. Original drawing thumbnail dimensions require enlargement.",
+    "accuracy_limit": "Exterior is a simplified vector silhouette. Internal linework is derived from the official drawing, not CAD. No clip/snap mechanics, screw thread or penetration animation.",
+    "status": "Awaiting user visual approval"
+  }
+}

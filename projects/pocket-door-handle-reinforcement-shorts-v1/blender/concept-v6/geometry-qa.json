@@ -1,0 +1,43 @@
+{
+  "handle_mesh_transform_materials_identical_to_v4": true,
+  "no_support_components": true,
+  "projected_points": {
+    "check": [
+      643.23,
+      960.74
+    ],
+    "edge_top": [
+      600.96,
+      759.56
+    ],
+    "edge_bottom": [
+      600.96,
+      1217.37
+    ]
+  },
+  "objects": [
+    "SH30NI front visual approximation",
+    "Visible grip bowl",
+    "Visible grip wall",
+    "Visible grip wall.001",
+    "Visible grip end",
+    "Visible grip end.001",
+    "Simplified surface rib",
+    "Simplified surface rib.001",
+    "Simplified surface rib.002",
+    "Simplified surface rib.003",
+    "Simplified surface rib.004",
+    "Simplified surface rib.005",
+    "Simplified surface rib.006",
+    "Simplified surface rib.007",
+    "Simplified surface rib.008",
+    "Simplified surface rib.009",
+    "Simplified surface rib.010",
+    "Simplified surface rib.011",
+    "Large soft key",
+    "Soft fill",
+    "Cut face grazing light",
+    "Macro cutaway camera",
+    "Neutral door envelope - section convention NOT actual core"
+  ]
+}

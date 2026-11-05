@@ -1,0 +1,13 @@
+{
+  "input": {
+    "text": "손잡이가 들어갈 공간도 중요합니다. 하지만 제대로 고정될 구조도 필요하죠."
+  },
+  "voice": {
+    "languageCode": "ko-KR",
+    "name": "ko-KR-Chirp3-HD-Alnilam"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "speakingRate": 1.0
+  }
+}

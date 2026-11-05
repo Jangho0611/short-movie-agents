@@ -1,0 +1,29 @@
+{
+  "method": "Rendered visible ink pixel bounds including outline; no text motion/shadow; crop isolates text from leader lines",
+  "bounds": {
+    "headline": [
+      229,
+      280,
+      849,
+      452
+    ],
+    "B_explanation": [
+      601,
+      1065,
+      860,
+      1150
+    ],
+    "B_reinforcement_label": [
+      621,
+      1262,
+      769,
+      1347
+    ],
+    "notice": [
+      260,
+      1459,
+      819,
+      1493
+    ]
+  }
+}

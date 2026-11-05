@@ -1,0 +1,2 @@
+const fs=require('fs'),path=require('path');const {bundle}=require('@remotion/bundler'),{getCompositions,renderStill}=require('@remotion/renderer');
+(async()=>{const serveUrl=await bundle({entryPoint:path.resolve('src/scene01-handle-types-v4.tsx')});const cs=await getCompositions(serveUrl);await renderStill({serveUrl,composition:cs[0],frame:36,output:'/tmp/scene01-v4-edge.png',imageFormat:'png'});})().catch(e=>{console.error(e);process.exit(1)});

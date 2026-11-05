@@ -1,0 +1,10 @@
+{
+  "v4_grip_camera_lights_preserved": true,
+  "same_door_camera_scale": true,
+  "field_x_min": 0.08,
+  "grip_x_max": -0.06,
+  "reference_z": 0.02,
+  "A_field_z": 0.64,
+  "B_field_z": 0.02,
+  "no_keyframes_added": true
+}

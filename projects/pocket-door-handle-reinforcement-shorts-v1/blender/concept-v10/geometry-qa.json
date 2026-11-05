@@ -1,0 +1,25 @@
+{
+  "resolution": [
+    540,
+    960
+  ],
+  "camera_unchanged_from_v9": true,
+  "pre_post_normal_displacement_only": true,
+  "separation_scene_units": 0.2,
+  "flange_seating_normal_correction_scene_units": -0.007500004768371593,
+  "hole_body_center_xz": [
+    -0.2449999824166298,
+    0.07699999213218689
+  ],
+  "opening_width_height_scene_units": [
+    0.24199997985363006,
+    1.2619999852180481
+  ],
+  "body_proxy_inside_opening": true,
+  "flange_larger_than_opening": true,
+  "A_handle_in_frame": true,
+  "support_does_not_intersect_opening": true,
+  "B_cutaway_closed": true,
+  "all_values_conceptual_not_manufacturer_dimensions": true,
+  "B_flange_contact_plane_error": 2.980232227667301e-09
+}

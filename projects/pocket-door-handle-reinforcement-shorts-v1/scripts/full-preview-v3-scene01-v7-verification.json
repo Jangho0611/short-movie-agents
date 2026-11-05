@@ -1,0 +1,27 @@
+{
+  "total_frames": 1115,
+  "scene1_v7_identical": 147,
+  "v2_tail_identical": 968,
+  "audio_correlations": [
+    0.9999999999999998,
+    0.9999999999999999,
+    1.0,
+    1.0,
+    0.9999999999999999,
+    1.0
+  ],
+  "audio_peak": 0.9790946245193481,
+  "preserved_files": 63,
+  "streams": [
+    {
+      "codec": "h264",
+      "profile": "High",
+      "duration": "37.166667"
+    },
+    {
+      "codec": "aac",
+      "profile": "LC",
+      "duration": "37.166667"
+    }
+  ]
+}

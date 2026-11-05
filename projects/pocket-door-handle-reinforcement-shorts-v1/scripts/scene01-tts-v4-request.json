@@ -1,0 +1,18 @@
+{
+  "payload": {
+    "input": {
+      "text": "손잡이 구멍만 맞추면 끝일까요?"
+    },
+    "voice": {
+      "languageCode": "ko-KR",
+      "name": "ko-KR-Chirp3-HD-Alnilam"
+    },
+    "audioConfig": {
+      "audioEncoding": "LINEAR16",
+      "speakingRate": 0.95
+    }
+  },
+  "characters": 17,
+  "maximum_list_price_usd": 0.00051,
+  "automatic_retries": 0
+}

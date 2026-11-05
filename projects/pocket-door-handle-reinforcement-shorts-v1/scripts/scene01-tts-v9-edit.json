@@ -1,0 +1,16 @@
+{
+  "duration": 4.127541666666667,
+  "a_trim_end": 2.7369583333333334,
+  "b_trim_start": 0.5501666666666667,
+  "inserted_digital_silence": 0.05,
+  "guard_a": 0.1,
+  "guard_b": 0.1,
+  "gap_at_minus50db": 0.25,
+  "gain_db_both": 0.0,
+  "a_trim_start": 0.22925,
+  "edge_fades_seconds": 0.003,
+  "raw_a_fullscale": 0,
+  "raw_b_fullscale": 0,
+  "output_peak": 30296,
+  "sha256": "f25be0799125c61b4464c7d6fed721d87ef264ad455e13ebb9a779a4a811beea"
+}

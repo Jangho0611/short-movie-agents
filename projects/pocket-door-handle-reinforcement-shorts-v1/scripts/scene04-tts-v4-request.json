@@ -1,0 +1,13 @@
+{
+  "input": {
+    "text": "그래서 손잡이 모델에 맞는 가공 위치를 확인해야 합니다. 고정 방식과 내부 보강 조건도 함께 살펴봐야 하죠."
+  },
+  "voice": {
+    "languageCode": "ko-KR",
+    "name": "ko-KR-Chirp3-HD-Alnilam"
+  },
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "speakingRate": 1.0
+  }
+}
