@@ -1,8 +1,0 @@
-const path=require('path'),fs=require('fs'),crypto=require('crypto');
-const root=path.resolve(__dirname,'..');process.chdir(root);
-const {bundle}=require('@remotion/bundler');const {getCompositions,renderStill}=require('@remotion/renderer');
-const out='public/assets/images/pocket-door-sh30-internal-v1.png';
-const report='scripts/pocket-door-sh30-internal-v1-layout.json';
-const originals=['public/assets/images/pocket-door-sh30-exterior-v1.png','public/assets/images/pocket-door-clean-background-v1.png','public/assets/images/pocket-door-sh30-mask-v1.png','scripts/pocket-door-sh30-exterior-v1-layout.json','scripts/composite-sh30-exterior-v1.py'];
-const hashes=()=>Object.fromEntries(originals.map(p=>[p,crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')]));
-(async()=>{if(fs.existsSync(out)||fs.existsSync(report))throw Error('Refuse overwrite');const before=hashes();const serveUrl=await bundle({entryPoint:path.join(root,'src/sh30-internal-v1.tsx')});const [composition]=await getCompositions(serveUrl);await renderStill({serveUrl,composition,output:out,imageFormat:'png'});const after=hashes();if(JSON.stringify(before)!==JSON.stringify(after))throw Error('Source changed');fs.writeFileSync(report,JSON.stringify({commonPlate:originals[0],originalLayout:originals[3],product:{left:202,top:260,width:135,height:440,actualLayerCenter:[269.5,480]},review:{center:[270,480],x:177,y:235,width:186,height:490,meaning:'Confirmation area only; not reinforcement geometry or machining boundary'},layers:['locked A plate','review annotation excluding product and its shadow','short leader and area label','concept disclaimer'],originalHashes:before,preserved:true},null,2),{flag:'wx'});console.log(out)})().catch(e=>{console.error(e);process.exit(1)});

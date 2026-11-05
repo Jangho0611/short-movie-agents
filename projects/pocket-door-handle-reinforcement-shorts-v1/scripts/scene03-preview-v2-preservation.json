@@ -1,8 +1,0 @@
-{
-  "src/scene03-doormaster-preview-v1.tsx": "5c04f0aa312167100ebb071d9afe21caa28b438220e45144331d1758f37eef47",
-  "scripts/render-scene03-doormaster-preview-v1.cjs": "175f52e027c6565e526b976d711a5f309a9fc20ccd1e88de913689c5deb3ac5f",
-  "public/assets/video/scene03-doormaster-preview-v1.mp4": "c8e5c9a0c3784790e4087a139ef4b23352fade104ec6cfe6d2c9bd7851a9530d",
-  "public/assets/audio/scene03-tts-v5.wav": "7bf218e6d1674c32d0059b5f03dcc4383fdc3aaec016a9e0d75bc01f41072846",
-  "public/assets/video/scene01-doormaster-v2.mp4": "56f8ddf19eee3e2b2383679f64a40d2cadceb5c562afe59dfbf4c447a91c460a",
-  "public/assets/video/scene02-doormaster-v3.mp4": "80a34e7ace36827eb2285a89234546fa45efe69ebd6e2f9cd0a2ed43d9df65b4"
-}

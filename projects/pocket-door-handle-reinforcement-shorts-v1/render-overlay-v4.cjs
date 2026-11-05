@@ -1,2 +1,0 @@
-const {bundle}=require('@remotion/bundler');const {getCompositions,renderStill}=require('@remotion/renderer');const fs=require('fs');
-(async()=>{const output='public/assets/images/scene03-concept-overlay-v4.png';if(fs.existsSync(output))throw Error('Refuse overwrite');const serveUrl=await bundle({entryPoint:require('path').resolve('src/scene03-overlay-v4.tsx')});const [composition]=await getCompositions(serveUrl);await renderStill({serveUrl,composition,output,imageFormat:'png'});console.log(output)})();
