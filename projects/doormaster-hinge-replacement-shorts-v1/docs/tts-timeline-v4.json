@@ -1,0 +1,336 @@
+{
+  "fps": 30,
+  "sampleRate": 24000,
+  "frameConvention": "0-based absolute [start,end); TTS end frame rounded up, exact end in samples. Contiguous visuals; previous v3 gaps replaced.",
+  "audioPathBase": "public/",
+  "qaAudio": "public/assets/audio/full-tts-timing-qa-v4.mp3",
+  "scenes": [
+    {
+      "scene": 1,
+      "ttsFile": "assets/audio/scene01-tts-v3.mp3",
+      "ttsSamples": 81263,
+      "ttsSeconds": 3.3859583333333334,
+      "screenSeconds": 3.9,
+      "extraVisualSeconds": 0.5140416666666665,
+      "sceneFrames": [
+        0,
+        117
+      ],
+      "ttsFrames": [
+        2,
+        104
+      ],
+      "ttsEndSample": 82863,
+      "phases": [
+        {
+          "frames": [
+            0,
+            2
+          ],
+          "action": "간판과 질문 등장"
+        },
+        {
+          "frames": [
+            2,
+            104
+          ],
+          "action": "경첩 자리에 시선을 모은다"
+        },
+        {
+          "frames": [
+            104,
+            113
+          ],
+          "action": "질문과 경첩 자리 유지"
+        },
+        {
+          "frames": [
+            113,
+            117
+          ],
+          "action": "같은 위치에 비교 컷 연결"
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "ttsFile": "assets/audio/scene02-tts-v3.mp3",
+      "ttsSamples": 74932,
+      "ttsSeconds": 3.1221666666666668,
+      "screenSeconds": 4.166666666666667,
+      "extraVisualSeconds": 1.0445000000000002,
+      "sceneFrames": [
+        117,
+        242
+      ],
+      "ttsFrames": [
+        126,
+        220
+      ],
+      "ttsEndSample": 175732,
+      "phases": [
+        {
+          "frames": [
+            117,
+            126
+          ],
+          "action": "경첩 두 개를 같은 방향으로 배치"
+        },
+        {
+          "frames": [
+            126,
+            220
+          ],
+          "action": "발화 순서에 따라 두 날개 강조"
+        },
+        {
+          "frames": [
+            220,
+            236
+          ],
+          "action": "두 형태를 함께 두고 윤곽 강조만 걷는다"
+        },
+        {
+          "frames": [
+            236,
+            242
+          ],
+          "action": "기존 경첩 쪽으로 시선 이동"
+        }
+      ],
+      "fileGapBeforeSeconds": 0.7473750000000003,
+      "speechGapBeforeSeconds": 1.017875333333333,
+      "qaMeasuredSpeechGapBeforeSeconds": 1.017917
+    },
+    {
+      "scene": 3,
+      "ttsFile": "assets/audio/scene03-tts-v3.mp3",
+      "ttsSamples": 82991,
+      "ttsSeconds": 3.4579583333333335,
+      "screenSeconds": 4.3,
+      "extraVisualSeconds": 0.8420416666666664,
+      "sceneFrames": [
+        242,
+        371
+      ],
+      "ttsFrames": [
+        249,
+        353
+      ],
+      "ttsEndSample": 282191,
+      "phases": [
+        {
+          "frames": [
+            242,
+            249
+          ],
+          "action": "문틀과 홈 위치 먼저 표시"
+        },
+        {
+          "frames": [
+            249,
+            353
+          ],
+          "action": "홈 가장자리로 서서히 확대"
+        },
+        {
+          "frames": [
+            353,
+            366
+          ],
+          "action": "철거 후 남은 홈 윤곽 유지"
+        },
+        {
+          "frames": [
+            366,
+            371
+          ],
+          "action": "같은 홈 위치에서 단면으로 전환"
+        }
+      ],
+      "fileGapBeforeSeconds": 0.9778333333333338,
+      "speechGapBeforeSeconds": 1.2478750000000014,
+      "qaMeasuredSpeechGapBeforeSeconds": 1.248
+    },
+    {
+      "scene": 4,
+      "ttsFile": "assets/audio/scene04-tts-v3.mp3",
+      "ttsSamples": 155902,
+      "ttsSeconds": 6.495916666666667,
+      "screenSeconds": 7.8,
+      "extraVisualSeconds": 1.3040833333333328,
+      "sceneFrames": [
+        371,
+        605
+      ],
+      "ttsFrames": [
+        380,
+        575
+      ],
+      "ttsEndSample": 459902,
+      "phases": [
+        {
+          "frames": [
+            371,
+            380
+          ],
+          "action": "빈 홈 단면 노출"
+        },
+        {
+          "frames": [
+            380,
+            575
+          ],
+          "action": "홈 채우기 → 면 정리 → 필름 덮기"
+        },
+        {
+          "frames": [
+            575,
+            599
+          ],
+          "action": "완성 단면에서 표면선을 따라 강조"
+        },
+        {
+          "frames": [
+            599,
+            605
+          ],
+          "action": "필름층을 다음 비교의 문틀 면에 연결"
+        }
+      ],
+      "fileGapBeforeSeconds": 0.9087083333333332,
+      "speechGapBeforeSeconds": 1.1790416666666665,
+      "repairAnimationFrames": [
+        {
+          "action": "퍼티 메우기",
+          "frames": [
+            380,
+            485
+          ]
+        },
+        {
+          "action": "면 다듬기",
+          "frames": [
+            485,
+            520
+          ]
+        },
+        {
+          "action": "인테리어필름 덮기",
+          "frames": [
+            520,
+            575
+          ]
+        }
+      ],
+      "qaMeasuredSpeechGapBeforeSeconds": 1.183333
+    },
+    {
+      "scene": 5,
+      "ttsFile": "assets/audio/scene05-tts-v3.mp3",
+      "ttsSamples": 166682,
+      "ttsSeconds": 6.945083333333334,
+      "screenSeconds": 8.033333333333333,
+      "extraVisualSeconds": 1.0882499999999995,
+      "sceneFrames": [
+        605,
+        846
+      ],
+      "ttsFrames": [
+        616,
+        825
+      ],
+      "ttsEndSample": 659482,
+      "phases": [
+        {
+          "frames": [
+            605,
+            616
+          ],
+          "action": "문틀과 도어 마감 라벨 동시 노출"
+        },
+        {
+          "frames": [
+            616,
+            825
+          ],
+          "action": "조건절 뒤 두 표면을 동일 배율로 비교"
+        },
+        {
+          "frames": [
+            825,
+            840
+          ],
+          "action": "두 표면을 유지하고 라벨만 차례로 강조"
+        },
+        {
+          "frames": [
+            840,
+            846
+          ],
+          "action": "비교 강조 해제 후 확인 목록 연결"
+        }
+      ],
+      "fileGapBeforeSeconds": 1.370750000000001,
+      "speechGapBeforeSeconds": 1.6408326666666682,
+      "qaMeasuredSpeechGapBeforeSeconds": 1.641
+    },
+    {
+      "scene": 6,
+      "ttsFile": "assets/audio/scene06-tts-v3.mp3",
+      "ttsSamples": 174575,
+      "ttsSeconds": 7.273958333333334,
+      "screenSeconds": 7.933333333333334,
+      "extraVisualSeconds": 0.6593749999999998,
+      "sceneFrames": [
+        846,
+        1084
+      ],
+      "ttsFrames": [
+        850,
+        1069
+      ],
+      "ttsEndSample": 854575,
+      "phases": [
+        {
+          "frames": [
+            846,
+            850
+          ],
+          "action": "세 항목의 위치 노출"
+        },
+        {
+          "frames": [
+            850,
+            1069
+          ],
+          "action": "발화에 맞춰 확인 표시를 차례로 추가"
+        },
+        {
+          "frames": [
+            1069,
+            1080
+          ],
+          "action": "완성된 세 항목을 함께 유지"
+        },
+        {
+          "frames": [
+            1080,
+            1084
+          ],
+          "action": "강조 모션을 마치고 승인 엔딩 첫 프레임으로 컷"
+        }
+      ],
+      "fileGapBeforeSeconds": 0.8549166666666643,
+      "speechGapBeforeSeconds": 1.1254589999999958,
+      "qaMeasuredSpeechGapBeforeSeconds": 1.125542
+    }
+  ],
+  "bodyFrames": 1084,
+  "bodySeconds": 36.13333333333333,
+  "endingStartFrame": 1084,
+  "endingFrames": 170,
+  "endingSeconds": 5.666666666666667,
+  "totalFrames": 1254,
+  "totalSeconds": 41.8
+}

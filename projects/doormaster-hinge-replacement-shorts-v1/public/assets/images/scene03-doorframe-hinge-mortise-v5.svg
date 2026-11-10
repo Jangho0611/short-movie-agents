@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="sans-serif" fill="#303431">
+<title>설치 평면과 철거 후 문틀 설치면</title>
+<text x="45" y="55" font-size="35" font-weight="bold">설치 상태 · 위에서</text>
+<text x="500" y="55" font-size="35" font-weight="bold">철거 후 · 개구부에서</text>
+<g transform="translate(206 280) scale(2.3)">
+<!-- closed door touches stop at y=40. Rebate face x=0, door edge x=3. -->
+
+<path d="M-65 0H0V40H14V62H-65Z" fill="#c6ad91" stroke="#655b50"/>
+<rect x="3" y="0" width="72" height="40" fill="#e5e2d8" stroke="#73796f"/>
+<rect x="3" y="0" width="72" height="40" transform="rotate(-50 1.5 -5)" fill="#719188" fill-opacity=".09" stroke="#598073" stroke-dasharray="3 2"/>
+<!-- Leaves seated flush on opposite faces, with bent shoulders to the common pin. -->
+<path d="M-1 31V0L1.5 -5" fill="none" stroke="#625240" stroke-width="2"/>
+<path d="M4 31V0L1.5 -5" fill="none" stroke="#56746d" stroke-width="2"/>
+<circle cx="1.5" cy="-5" r="2.8" fill="#edd24a" stroke="#484439"/>
+</g>
+<g font-size="26"><text x="47" y="247">회전축</text><path d="M133 241 L206 268" fill="none" stroke="#665f52" stroke-width="2"/>
+<text x="252" y="341">닫힌 문짝</text><text x="84" y="465">스토퍼</text><path d="M162 448 L229 393" fill="none" stroke="#665f52" stroke-width="2"/>
+<text x="274" y="163" fill="#476c61">열림</text></g>
+<!-- Looking directly onto the fixed jamb: left is swing-side arris, right is stop. -->
+<path d="M509 104 L546 118 V497 L509 478Z" fill="#bda991"/>
+<rect x="546" y="118" width="160" height="379" fill="#dfd1bd"/>
+<path d="M706 118L721 109V485L706 497Z" fill="#998673"/>
+<rect x="721" y="109" width="57" height="376" fill="#c5b39b"/>
+<!-- 31/40 of the mounting strip; one leaf 140:350 and corresponding holes. -->
+<g transform="translate(546 147) scale(.885714)">
+<path d="M0 0H140V350H0Z" fill="#ac9175"/>
+<path d="M0 0H140V350L134 344V6H0Z" fill="#7a6654"/>
+<g fill="#443b31"><circle cx="80" cy="32" r="5"/><circle cx="111" cy="128" r="5"/><circle cx="111" cy="222" r="5"/><circle cx="80" cy="318" r="5"/></g></g>
+<text x="545" y="542" font-size="29">문틀 측 날개 자리</text></svg>

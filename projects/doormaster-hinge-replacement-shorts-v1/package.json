@@ -1,0 +1,16 @@
+{
+  "name": "doormaster-hinge-replacement-shorts-v1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "문도사의 그것이 알고싶도어 · 경첩 교체편",
+  "dependencies": {
+    "@remotion/cli": "4.0.523",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.523",
+    "sharp": "0.35.4"
+  },
+  "scripts": {
+    "studio": "remotion studio src/index.tsx"
+  }
+}
