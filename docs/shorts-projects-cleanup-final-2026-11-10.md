@@ -15,11 +15,11 @@
 |bathroom-door-moisture-shorts-v1|최종 영상 승인 미확정|⑤ 추가 확인 필요|0|0|기존 상태 유지|감사 A/B 15개 중 경로·내용 일치 15개 (LFS 포인터 0)|감사 C 없음 · 최종 승인 범위 확인|
 |darukki-vs-twobuy-webtoon-shorts|승인 근거 식별|① 정리 완료|0|0|기존 상태 유지|감사 A/B 2개 중 경로·내용 일치 2개 (LFS 포인터 0)|감사 C 없음|
 |door-closer-shorts-v1|승인 근거 식별|④ 백업 미완료|0|0|기존 상태 유지|감사 A/B 896개 중 경로·내용 일치 16개 (LFS 포인터 0) / 후속 복원 658개|정리 완료. 공식 자료 및 파생물 210개 보류, Cover v2 결손 · 감사 시 원격 경로 없는 비미디어 검토 항목 5개(필수 여부 별도)|
-|door-film-lot-color-difference-shorts-v1|승인 근거 식별|③ 승인 대기|0|0|기존 상태 유지|감사 A/B 72개 중 경로·내용 일치 72개 (LFS 포인터 0)|SNS 최종 승인 확인 필요|
-|door-finish-color-difference-shorts-v1|승인 근거 식별|④ 백업 미완료|0|0|기존 상태 유지|감사 A/B 25개 중 경로·내용 일치 0개 (LFS 포인터 0) / 후속 복원 14개|C 35개 보존, 원격 14개 완료·9개 보류·2개 범위 밖 · 감사 시 원격 경로 없는 비미디어 검토 항목 4개(필수 여부 별도)|
+|door-film-lot-color-difference-shorts-v1|SNS 최종 승인|① 정리 완료|0|0|기존 상태 유지|감사 A/B 72개 중 경로·내용 일치 72개 (LFS 포인터 0)|사용자 SNS 최종 승인|
+|door-finish-color-difference-shorts-v1|승인 근거 식별|④ 백업 미완료|0|0|기존 상태 유지|감사 A/B 25개 중 경로·내용 일치 0개 (LFS 포인터 0) / 후속 복원 14개|전체 231개 재검토(A 12/B 16/C 0/D 203), 삭제 승인 대기. 기존 25개 백업 점검 범위: 원격 14개 완료·9개 보류·2개 범위 밖 · 감사 시 원격 경로 없는 비미디어 검토 항목 4개(필수 여부 별도)|
 |door-frame-integrated-vs-separate-v1|승인 근거 식별|① 정리 완료|0|0|기존 상태 유지|감사 A/B 16개 중 경로·내용 일치 16개 (LFS 포인터 1)|감사 C 없음|
 |door-frame-order-tips-v1|승인 근거 식별|② 보존 확정|0|0|기존 상태 유지|감사 A/B 7개 중 경로·내용 일치 7개 (LFS 포인터 2)|13개 — out/qa/preview-v1 보존 명시|
-|door-frame-wall-thickness-v1|최종 영상 승인 미확정|③ 승인 대기|0|0|기존 상태 유지|감사 A/B 2개 중 경로·내용 일치 2개 (LFS 포인터 0)|Cover 승인 상태 확인 필요|
+|door-frame-wall-thickness-v1|Cover 최종 승인·영상 승인 미확정|⑤ 추가 확인 필요|0|0|기존 상태 유지|감사 A/B 2개 중 경로·내용 일치 2개 (LFS 포인터 0)|사용자 Cover 최종 승인|
 |door-handing-guide-shorts-v1|승인본 기록 확인|② 보존 확정|0|0|기존 상태 유지|감사 A/B 3개 중 경로·내용 일치 3개 (LFS 포인터 0)|3개 — out/qa 보존 기록|
 |door-order-mistakes-shorts-v1|승인 근거 식별|① 정리 완료|0|0|기존 상태 유지|감사 A/B 4개 중 경로·내용 일치 4개 (LFS 포인터 1)|감사 C 없음|
 |door-order-tips-v1|승인 근거 식별|① 정리 완료|0|0|기존 상태 유지|감사 A/B 15개 중 경로·내용 일치 15개 (LFS 포인터 0)|감사 C 없음 · 감사 시 원격 경로 없는 비미디어 검토 항목 4개(필수 여부 별도)|
@@ -79,7 +79,7 @@
 | `door-closer-shorts-v1` | 최종 Scene 1 Overlay 105장과 나머지 최종 입력, 공개 백업 보류 자산 |
 | `light-steel-vs-sosong-shorts-v1` | 승인 영상·Cover 및 보존 지정 QA 12개 |
 | `doormaster-series-ep01-slim-frame-reform` | 최종 조립 입력과 승인 Cover 크롭 증빙 2개 |
-| `door-finish-color-difference-shorts-v1` | 1차 제작본·Cover 검증 입력·최종 크롭 QA 등 C 후보 35개 전부 |
+| `door-finish-color-difference-shorts-v1` | 기존 35개 보존 중. 전체 231개 재판정은 영상별 승인 대장 기준 |
 | `xi-natural-gypsum-webtoon-shorts` | 독립 실행 번들이 읽는 `build/public/assets/` 파일 101개 |
 
 사용자가 보존 지정한 비교·복구용 자료와 레거시 경로의 승인본은 기존 위치에 유지한다.
@@ -88,20 +88,20 @@
 
 마지막 일괄 정리 커밋은 `465d4667c1172a569470fc98ec9eda75a478ae74`, 두 프로젝트 작업 기록에 push 결과를 남긴 기준 커밋은 `c19b60ad2fcf0aae073185d0e430ddee7b166cf4`다. 기준 커밋은 이 문서 작성 직전 실제 공개 원격 `origin/main`과 로컬 `main`에서 일치했다. 프로젝트별 Git LFS 포인터 일치와 실제 원격 복원 검증은 별도로 집계한다.
 
-## 6. 미해결 사항 4개
+## 6. 미해결 사항 2개 및 후속 승인 2개
 
 | 프로젝트 | 현재 상태 | 해결 확인 기준 |
 |---|---|---|
 | `projects/door-closer-shorts-v1` | 공개 백업 보류 210개. 승인 Cover v3의 편집 입력 `public/covers/door-closer-cover-v2.png` 누락. 승인 Final·Cover 유지. | 공개 재배포 근거 확인 및 기존 Cover v2 입력 원본 확보 |
 | `projects/door-finish-color-difference-shorts-v1` | 공개 백업 보류 9개. 최종 영상 `public/assets/video/door-finish-color-difference-preview-rewrite-v1.mp4`와 `public/covers/door-finish-color-difference-cover-v3.png`는 공개 원격 복원 불가. 로컬 승인본과 원본 보존. | 고객 사진·제조사 자료 및 파생물의 공개 권한 확인 후 원격 실파일 복원 검증 |
-| `projects/door-frame-wall-thickness-v1` | Cover 최종 승인 여부 미확인 | 승인한 버전과 사용자 승인 기록 확인 |
-| `projects/door-film-lot-color-difference-shorts-v1` | SNS 문구 최종 승인 여부 미확인 | 승인한 문구 버전과 사용자 승인 기록 확인 |
+| `projects/door-frame-wall-thickness-v1` | Cover 최종 승인 완료 | 이번 사용자 지시로 확인 |
+| `projects/door-film-lot-color-difference-shorts-v1` | SNS 문구 최종 승인 완료 | 이번 사용자 지시로 확인 |
 
 ## 7. 향후 처리 우선순위
 
 1. 필름 이색 편은 로컬 최종 영상과 Cover의 보존을 우선하고, 공개 권한이 확인된 범위에서 원격 복원 경로를 확보한다.
 2. 도어클로저 편은 기존 Cover v2 원본의 보관 위치와 보류 자산 210개의 공개 가능 범위를 확인한다.
-3. 문틀 벽두께 Cover와 도어 필름 로트 이색 SNS의 최종 승인 기록을 확인한 후 해당 상태를 갱신한다.
+3. 필름 이색 편은 231개 미디어 승인 대장의 그룹별 삭제 여부를 별도 확인한다.
 
 ### 공개 백업 보류 파일 명세
 
