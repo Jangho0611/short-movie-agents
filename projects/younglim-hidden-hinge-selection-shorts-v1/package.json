@@ -1,0 +1,15 @@
+{
+  "name": "younglim-hidden-hinge-selection-shorts-v1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "compositions": "remotion compositions src/index.tsx",
+    "studio": "remotion studio src/index.tsx"
+  },
+  "dependencies": {
+    "remotion": "4.0.523",
+    "@remotion/cli": "4.0.523",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}
