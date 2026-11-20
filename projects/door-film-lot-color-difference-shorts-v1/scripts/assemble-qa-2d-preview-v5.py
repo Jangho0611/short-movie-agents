@@ -16,7 +16,37 @@ for n,expected in zip(names+['door-film-lot-color-difference-shorts-v1-final.mp4
  run(['ffmpeg','-v','error','-xerror','-i',str(f),'-f','null','-'])
  rows.append({'file':str(f),'frames':expected,'videoSeconds':expected/30,'containerSeconds':float(probe['format']['duration']),'decode':'PASS','sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
 lock=json.loads((d/'preview-v1-input-lock.json').read_text())
-for n,h in lock['allOriginalAudio'].items():assert hashlib.sha256((p/n).read_bytes()).hexdigest()==h
+def verify_audio_sources(project, scenes, locked):
+    current = {'public/assets/audio/' + scene['file']: scene['sha256'] for scene in scenes}
+    ending = 'public/assets/audio/ending-approved-v3.mp3'
+    current[ending] = locked[ending]
+    for name, expected in current.items():
+        if locked.get(name, expected) != expected or hashlib.sha256((project / name).read_bytes()).hexdigest() != expected:
+            raise ValueError(f'Approved audio mismatch: {name}')
+
+    revision = '43c57edc382b477fee3ccc956999cd77cb3e4142'
+    def git_output(*args):
+        return subprocess.check_output(['git', *args], cwd=project)
+
+    prefix = git_output('rev-parse', '--show-prefix').decode().strip()
+    for name, expected in locked.items():
+        if name in current:
+            continue
+        data = git_output('show', f'{revision}:{prefix}{name}')
+        if data.startswith(b'version https://git-lfs.github.com/spec/v1\n'):
+            fields = dict(line.split(' ', 1) for line in data.decode().splitlines())
+            if fields['oid'] != f'sha256:{expected}':
+                raise ValueError(f'Archived audio pointer mismatch: {name}')
+            media_dir = next(line.removeprefix('LocalMediaDir=') for line in
+                             git_output('lfs', 'env').decode().splitlines() if line.startswith('LocalMediaDir='))
+            data = (Path(media_dir) / expected[:2] / expected[2:4] / expected).read_bytes()
+            if len(data) != int(fields['size']):
+                raise ValueError(f'Archived audio size mismatch: {name}')
+        if hashlib.sha256(data).hexdigest() != expected:
+            raise ValueError(f'Archived audio mismatch: {name}')
+
+
+verify_audio_sources(p, sc, lock['allOriginalAudio'])
 # Compare decoded output audio against unchanged source, allowing lossy codec error.
 correlations=[]
 for i,n in enumerate(names):
