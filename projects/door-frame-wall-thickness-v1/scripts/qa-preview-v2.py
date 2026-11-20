@@ -14,7 +14,7 @@ for r in manifest:
  if r['target'].startswith(('src/daesan-ending/','public/daesan-ending/')):assert hashlib.sha256((p/r['target']).read_bytes()).hexdigest()==r['targetSha256']
 reports=[qa(full,1445)];start=0
 for i,n in enumerate(frames,1):
- out=v/f'scene{i:02d}-preview-v2.mp4'
+ out=v/(f'scene{i:02d}-final.mp4' if i in (3,5) else f'scene{i:02d}-preview-v2.mp4')
  if not out.exists():run(['ffmpeg','-v','error','-n','-i',str(full),'-ss',str(start/30),'-t',str(n/30),'-c:v','libx264','-crf','18','-preset','fast','-c:a','aac','-b:a','192k','-frames:v',str(n),str(out)])
  reports.append(qa(out,n))
  at=0 if i==1 else min(n-1,100)

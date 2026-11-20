@@ -6,7 +6,7 @@ rows=json.loads((p/'docs/preview-v5-caption-bounds.json').read_text());out={}
 for i in range(1,6):
  data=[x for x in rows if x['scene']==i and x['frame']>=starts[i-1]]
  frames=[a+b for a in [starts[i-1],turns[i-1]] for b in [1,3,7,12]]
- raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(v/f'scene0{i}-preview-v5.mp4'),'-vf','crop=1080:360:0:1440,scale=540:180','-f','rawvideo','-pix_fmt','rgb24','-']);arr=np.frombuffer(raw,np.uint8).reshape(-1,180,540,3)
+ raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(v/f'scene0{i}-final.mp4'),'-vf','crop=1080:360:0:1440,scale=540:180','-f','rawvideo','-pix_fmt','rgb24','-']);arr=np.frombuffer(raw,np.uint8).reshape(-1,180,540,3)
  im=Image.new('RGB',(2160,420),'white');d=ImageDraw.Draw(im)
  for j,f in enumerate(frames):
   x=(j%4)*540;y=(j//4)*210;im.paste(Image.fromarray(arr[f]),(x,y));d.line([(x+270,y),(x+270,y+180)],fill='red',width=1);d.text((x+10,y+185),f'Scene {i} frame {f}; center guide x=540',fill='black')

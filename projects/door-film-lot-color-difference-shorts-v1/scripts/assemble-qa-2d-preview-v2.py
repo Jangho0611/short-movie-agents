@@ -2,7 +2,7 @@ from pathlib import Path
 import subprocess,json,hashlib,array,math
 p=Path('/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1');d=p/'docs';v=p/'public/assets/video'
 def run(c):return subprocess.run(c,check=True,capture_output=True)
-sc=json.loads((p/'src/timeline-v1.json').read_text());names=[f'scene{i:02d}-2d-preview-v2.mp4' for i in range(1,7)]+['ending-preview-v1.mp4'];frames=[s['frames'] for s in sc]+[170]
+sc=json.loads((p/'src/timeline-v1.json').read_text());names=[(f'scene{i:02d}-final.mp4' if i in (1,2,5,6) else f'scene{i:02d}-2d-preview-v2.mp4') for i in range(1,7)]+['ending-preview-v1.mp4'];frames=[s['frames'] for s in sc]+[170]
 args=['ffmpeg','-v','error','-n'];filters=[]
 for i,n in enumerate(names):
  args+=['-i',str(v/n)];filters.append(f'[{i}:v]setpts=PTS-STARTPTS[v{i}];[{i}:a]apad,atrim=duration={frames[i]/30:.9f},asetpts=PTS-STARTPTS[a{i}]')

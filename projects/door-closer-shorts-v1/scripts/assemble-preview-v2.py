@@ -17,7 +17,7 @@ ending=P/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4'
 assert sha(ending)=='2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5'
 videos=[]
 for i,n in enumerate(FRAMES,1):
-    out=V/f'scene{i:02d}-preview-v{2 if i in (1,4) else 1}.mp4';videos.append(out)
+    out=V/('scene01-preview-v2.mp4' if i==1 else f'scene{i:02d}-final.mp4');videos.append(out)
     if i not in (1,4):continue
     if out.exists():raise RuntimeError(f'Existing output: {out}')
     directory=I/f'DoorCloserOverlay{i}-v2'

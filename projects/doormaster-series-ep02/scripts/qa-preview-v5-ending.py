@@ -16,7 +16,7 @@ for label,start,dur in [('scene5',17.7,157/30),('ending',688/30,170/30),('transi
 with (p/'docs/preview-v5-ending-qa.json').open('x') as f:json.dump(r,f,indent=2)
 canvas=Image.new('RGB',(1080,1280),'white')
 for j,(scene,t) in enumerate([(1,.7),(1,2.2),(2,.8),(2,3),(3,.7),(3,3.4),(4,.9),(4,3.5),(5,1),(5,3.8),(6,1),(6,4.8)]):
- f=v/f'scene0{scene}-preview-v5.mp4' if scene<6 else end
+ f=v/f'scene0{scene}-final.mp4' if scene<6 else end
  b=run(['ffmpeg','-v','error','-ss',str(t),'-i',str(f),'-frames:v','1','-vf','scale=270:480','-f','image2pipe','-vcodec','png','-']).stdout
  im=Image.open(io.BytesIO(b));im.thumbnail((240,400));canvas.paste(im,((j%4)*270,(j//4)*426))
  ImageDraw.Draw(canvas).text(((j%4)*270,(j//4)*426+400),f'Scene {scene} / {t}s',fill='black')

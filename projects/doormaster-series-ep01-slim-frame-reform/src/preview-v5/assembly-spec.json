@@ -5,27 +5,27 @@
   "total_frames": 886,
   "inputs": [
     {
-      "path": "public/assets/video/scene01-final-approved-v3.mp4",
+      "path": "public/assets/video/scene01-final.mp4",
       "frames": 121
     },
     {
-      "path": "public/assets/video/scene02-final-approved-v3.mp4",
+      "path": "public/assets/video/scene02-final.mp4",
       "frames": 100
     },
     {
-      "path": "public/assets/video/scene03-final-approved-v3.mp4",
+      "path": "public/assets/video/scene03-final.mp4",
       "frames": 101
     },
     {
-      "path": "public/assets/video/scene04-final-approved-v4.mp4",
+      "path": "public/assets/video/scene04-final.mp4",
       "frames": 112
     },
     {
-      "path": "public/assets/video/scene05-final-approved-v5.mp4",
+      "path": "public/assets/video/scene05-final.mp4",
       "frames": 134
     },
     {
-      "path": "public/assets/video/scene06-final-approved-v3.mp4",
+      "path": "public/assets/video/scene06-final.mp4",
       "frames": 148
     },
     {

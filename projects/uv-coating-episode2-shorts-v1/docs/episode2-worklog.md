@@ -51,3 +51,31 @@
 - 제작 방식: Vertex AI `gemini-2.5-flash-image`가 제품·캐릭터·환경 비주얼을 생성하고, Codex/Remotion이 한글 타이포그래피와 승인 브랜드 로고를 후처리했다.
 - 주제: UV코팅판의 광택 표면과 무광 절단면 차이
 - 디자인: MAIN Notion / SECONDARY Apple
+
+## 2026-11-20 · 승인본 경로와 Slim Archive 후속 점검
+
+- UPLOAD_FINAL_VIDEO `public/assets/video/uv-coating-episode2-shorts-v1-final.mp4`
+- FINAL_SCENES 승인 구간·독립 파일 대응 확인 대기
+- UPLOAD_FINAL_COVER 승인 확인 대기 · `public/covers/square-safe/uv-coating-episode2-cover-square-safe-final.png`
+- UPLOAD_FINAL_SNS 승인 확인 대기 · `docs/2편-SNS업로드문구-확정.md`
+
+파일명 변경 전후 SHA256·바이트·해상도·FPS·프레임 수를 대조했다.
+- `public/previews/final/uv-coating-episode2-full-final.mp4` → `public/assets/video/uv-coating-episode2-shorts-v1-final.mp4` · 8888882 B · 1080×1920 · 30/1 fps · 1047f · `f4ec41d26d5196b90118dd7986e3b28135a9594fd945099ab0bf74df87f53c9c`
+
+신규 삭제 0건. 개별 삭제 승인과 잔여 파일 판정 대기.
+- 개별 Scene 승인·최종 화면 및 조립 입력 대응 확인 필요
+
+### 승인 경로 후속 대조 (2026-11-20)
+
+- UPLOAD_FINAL_VIDEO `public/assets/video/uv-coating-episode2-shorts-v1-final.mp4`
+- FINAL_SCENES `public/assets/video/scene01-final.mp4`, `public/assets/video/scene02-final.mp4`, `public/assets/video/scene03-final.mp4`, `public/assets/video/scene04-final.mp4`, `public/assets/video/scene05-final.mp4`, `public/assets/video/scene06-final.mp4`, `public/assets/video/scene07-final.mp4`
+- UPLOAD_FINAL_COVER 승인 확인 대기 · public/covers/square-safe/uv-coating-episode2-cover-square-safe-final.png
+- UPLOAD_FINAL_SNS 승인 확인 대기 · docs/2편-SNS업로드문구-확정.md
+- `public/previews/final/scene01-final.mp4` → `public/assets/video/scene01-final.mp4` · 1556308 B · 1080×1920 · 30/1 fps · 154f · SHA256 `10794c9d6e83a0bb5c6579edac18f5cccd013f0283dcaa9c237df39d8d03d392` 전후 일치
+- `public/previews/final/scene02-final.mp4` → `public/assets/video/scene02-final.mp4` · 167091 B · 1080×1920 · 30/1 fps · 60f · SHA256 `5e9f4d68098c76fca95c7722edb77be18d4450d30ec56f1512f375e79c544dcf` 전후 일치
+- `public/previews/final/scene03-final.mp4` → `public/assets/video/scene03-final.mp4` · 2207457 B · 1080×1920 · 30/1 fps · 194f · SHA256 `8112521075755d86450918cf93fab2e5839f4d7ef00ff2d0d451373c0fe1edcb` 전후 일치
+- `public/previews/final/scene04-final.mp4` → `public/assets/video/scene04-final.mp4` · 1961943 B · 1080×1920 · 30/1 fps · 135f · SHA256 `f8cd527ed3cabaab73a20d5b573bdf57a266aef98b7a6ab8c0d0c494ea27f312` 전후 일치
+- `public/previews/final/scene05-final.mp4` → `public/assets/video/scene05-final.mp4` · 1304228 B · 1080×1920 · 30/1 fps · 180f · SHA256 `6eabb92db44c441f615a102b1e4dac3613b5ee782203b0ff90a9dd36c9112def` 전후 일치
+- `public/previews/final/scene06-final.mp4` → `public/assets/video/scene06-final.mp4` · 1390258 B · 1080×1920 · 30/1 fps · 154f · SHA256 `4c12d4cbe80ca2c404b50e15586f095d47757fd4a8e8ce7b7364a234157840b5` 전후 일치
+- `public/previews/final/scene07-final.mp4` → `public/assets/video/scene07-final.mp4` · 464391 B · 1080×1920 · 24/1 fps · 136f · SHA256 `42f1698bf6eb7938bc2273cb88b2a05452b5e37ae75346020d7fbc2b0b498d45` 전후 일치
+신규 삭제 0건. 기존 승인 기록과 QA 결과는 보존했다.

@@ -5,7 +5,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "preview": "remotion studio src/index.ts",
-    "render:preview": "remotion render src/index.ts LightSteelVsSosong public/assets/video/light-steel-vs-sosong-preview-v5.mp4 --codec=h264 --crf=18 --audio-bitrate=192k --concurrency=2"
+    "render:preview": "remotion render src/index.ts LightSteelVsSosong public/assets/video/light-steel-vs-sosong-shorts-v1-final.mp4 --codec=h264 --crf=18 --audio-bitrate=192k --concurrency=2"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.523",

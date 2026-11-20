@@ -36,3 +36,16 @@
 5. 커버 이미지 제작
 6. SNS 문구 작성
 7. GitHub push
+
+## 2026-11-20 · 승인본 경로와 Slim Archive 후속 점검
+
+- UPLOAD_FINAL_VIDEO `public/assets/video/flame-retardant-episode2-shorts-v1-final.mp4`
+- FINAL_SCENES `public/assets/video/scene04-final.mp4`, `public/assets/video/scene06-final.mp4`
+- UPLOAD_FINAL_COVER 승인 확인 대기 · `public/covers/square-safe/flame-retardant-episode2-cover-square-safe-final.png`
+- UPLOAD_FINAL_SNS 승인 확인 대기 · `docs/episode2-sns-copy.md`
+
+파일명 변경 전후 SHA256·바이트·해상도·FPS·프레임 수를 대조했다.
+- `public/previews/flame-retardant-episode2-preview.mp4` → `public/assets/video/flame-retardant-episode2-shorts-v1-final.mp4` · 10410002 B · 1080×1920 · 30/1 fps · 1043f · `92fa43ab18478df01d67932ae1a9643eefeed9c49d996ac0c291956d3c658143`
+
+신규 삭제 0건. 개별 삭제 승인과 잔여 파일 판정 대기.
+- 기존 표준명 Scene의 승인 구간 대조 필요

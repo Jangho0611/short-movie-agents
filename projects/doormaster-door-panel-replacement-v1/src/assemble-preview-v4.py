@@ -23,5 +23,5 @@ for n in range(3,7):
 inputs.append(V/'daesan-headquarters-ending-approved-v1.mp4')
 with tempfile.TemporaryDirectory(prefix='doormaster-panel-concat-') as temp_dir:
  c=Path(temp_dir)/'concat.txt';c.write_text(''.join("file '"+str(p)+"'\nduration "+str(f/30)+'\n' for p,f in zip(inputs,[100,125,126,114,113,118,170])))
- out=V/'door-panel-replacement-preview-v4.mp4'
+ out=V/'doormaster-door-panel-replacement-v1-final.mp4'
  run(['ffmpeg','-v','error','-n','-f','concat','-safe','0','-i',str(c),'-i',str(V/'door-panel-replacement-preview-v3.mp4'),'-map','0:v','-map','1:a','-c','copy','-movflags','+faststart',str(out)])

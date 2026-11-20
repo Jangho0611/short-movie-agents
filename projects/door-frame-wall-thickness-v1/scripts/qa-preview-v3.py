@@ -11,7 +11,7 @@ def qa(f,n):
 reports=[qa(full,1429)];start=0
 for i,n in enumerate(frames,1):
  if i in [1,2,4,6]:
-  out=v/f'scene{i:02d}-preview-v3.mp4'
+  out=v/(f'scene{i:02d}-final.mp4' if i in (2,4,6) else f'scene{i:02d}-preview-v3.mp4')
   run(['ffmpeg','-v','error','-n','-i',str(full),'-ss',str(start/30),'-t',str(n/30),'-c:v','libx264','-crf','18','-preset','fast','-c:a','aac','-b:a','192k','-frames:v',str(n),str(out)])
   reports.append(qa(out,n))
   for frame in ([20,55,110] if i==1 else [55,117,200] if i==6 else [100]):

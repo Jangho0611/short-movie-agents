@@ -2,15 +2,15 @@ from pathlib import Path
 import subprocess,json,hashlib,array,math
 p=Path('/Users/janghokim/Documents/short-movie-agents/projects/door-film-lot-color-difference-shorts-v1');d=p/'docs';v=p/'public/assets/video'
 def run(c):return subprocess.run(c,check=True,capture_output=True)
-sc=json.loads((p/'src/timeline-v5.json').read_text());names=[f'scene{i:02d}-2d-preview-v2.mp4' for i in range(1,7)]+['ending-preview-v1.mp4'];names[2]='scene03-2d-preview-v5.mp4';names[3]='scene04-2d-preview-v3.mp4';frames=[s['frames'] for s in sc]+[170]
+sc=json.loads((p/'src/timeline-v5.json').read_text());names=[(f'scene{i:02d}-final.mp4' if i in (1,2,5,6) else f'scene{i:02d}-2d-preview-v2.mp4') for i in range(1,7)]+['ending-preview-v1.mp4'];names[2]='scene03-final.mp4';names[3]='scene04-final.mp4';frames=[s['frames'] for s in sc]+[170]
 args=['ffmpeg','-v','error','-n'];filters=[]
 for i,n in enumerate(names):
  args+=['-i',str(v/n)];filters.append(f'[{i}:v]setpts=PTS-STARTPTS[v{i}];[{i}:a]apad,atrim=duration={frames[i]/30:.9f},asetpts=PTS-STARTPTS[a{i}]')
 filters.append(''.join(f'[v{i}][a{i}]' for i in range(7))+'concat=n=7:v=1:a=1[outv][outa]')
-args+=['-filter_complex',';'.join(filters),'-map','[outv]','-map','[outa]','-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-r','30','-c:a','aac','-b:a','192k','-movflags','+faststart',str(v/'door-film-lot-2d-preview-v5.mp4')]
+args+=['-filter_complex',';'.join(filters),'-map','[outv]','-map','[outa]','-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-r','30','-c:a','aac','-b:a','192k','-movflags','+faststart',str(v/'door-film-lot-color-difference-shorts-v1-final.mp4')]
 run(args);print('ASSEMBLED',flush=True)
 rows=[]
-for n,expected in zip(names+['door-film-lot-2d-preview-v5.mp4'],frames+[sum(frames)]):
+for n,expected in zip(names+['door-film-lot-color-difference-shorts-v1-final.mp4'],frames+[sum(frames)]):
  f=v/n;probe=json.loads(run(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(f)]).stdout);vs=next(s for s in probe['streams'] if s['codec_type']=='video')
  assert (vs['width'],vs['height'],vs['r_frame_rate'],int(vs['nb_frames']))==(1080,1920,'30/1',expected)
  run(['ffmpeg','-v','error','-xerror','-i',str(f),'-f','null','-'])

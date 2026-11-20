@@ -17,7 +17,7 @@ ending=P/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4'
 assert sha(ending)=='2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5'
 videos=[]
 for i,n in enumerate(FRAMES,1):
-    out=V/f'scene{i:02d}-preview-v{3 if i==1 else 2 if i==4 else 1}.mp4';videos.append(out)
+    out=V/f'scene{i:02d}-final.mp4';videos.append(out)
     if i!=1:continue
     if out.exists():raise RuntimeError(f'Existing output: {out}')
     directory=I/f'DoorCloserOverlay{i}-v2'
@@ -53,7 +53,7 @@ filters=[f'[{i}:a]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stere
 filters+=[''.join(f'[a{i}]' for i in range(6))+'concat=n=6:v=0:a=1[out]']
 wav=A/'preview-v3-approved-sequence.wav'
 run(cmd+['-filter_complex',';'.join(filters),'-map','[out]','-c:a','pcm_s16le',str(wav)])
-preview=V/'door-closer-preview-v3.mp4'
+preview=V/'door-closer-shorts-v1-final.mp4'
 run(['ffmpeg','-v','warning','-n','-i',str(silent),'-i',str(wav),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart',str(preview)])
 with (P/'docs/preview-v3-render-commands.json').open('x') as f:json.dump(commands,f,ensure_ascii=False,indent=2)
 print('Preview complete:',preview,flush=True)

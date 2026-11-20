@@ -1,9 +1,9 @@
 from pathlib import Path
 import subprocess as sp,json,hashlib,tempfile
 p=Path(__file__).resolve().parents[1];root=p.parents[1];ending=root/'assets/daesan-ending'
-out=p/'public/assets/video/pocket-door-doormaster-full-preview-v3.mp4';sheet=p/'public/assets/images/pocket-door-doormaster-full-qa-v3.png'
+out=p/'public/assets/video/pocket-door-handle-reinforcement-shorts-v1-final.mp4';sheet=p/'public/assets/images/pocket-door-doormaster-full-qa-v3.png'
 for x in [out,sheet]:assert not x.exists(),x
-names=['scene01-doormaster-v7.mp4','scene02-doormaster-v3.mp4','scene03-doormaster-preview-v2.mp4','scene04-doormaster-preview-v5.mp4','scene05-doormaster-preview-v1.mp4']
+names=['scene01-final.mp4','scene02-final.mp4','scene03-final.mp4','scene04-final.mp4','scene05-final.mp4']
 files=[p/'public/assets/video'/n for n in names]+[ending/'video/daesan-headquarters-ending-approved-v1.mp4']
 frames=[147,165,213,255,165,170];dur=[n/30 for n in frames]
 manifest=json.loads((ending/'docs/asset-sha256.json').read_text())

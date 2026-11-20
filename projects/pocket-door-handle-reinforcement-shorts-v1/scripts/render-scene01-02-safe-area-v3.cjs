@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path'),{execFileSync:exec}=require('child_process');const {bundle}=require('@remotion/bundler'),{getCompositions,renderMedia}=require('@remotion/renderer');
-(async()=>{process.chdir(path.resolve(__dirname,'..'));const temp=fs.mkdtempSync('/tmp/pocket-safe-');const names=['scene01-doormaster-v2','scene02-doormaster-v3','scene01-02-doormaster-preview-v3'];for(const n of names)if(fs.existsSync('public/assets/video/'+n+'.mp4'))throw Error('collision');
+(async()=>{process.chdir(path.resolve(__dirname,'..'));const temp=fs.mkdtempSync('/tmp/pocket-safe-');const names=['scene01-doormaster-v2','scene02-final','scene01-02-doormaster-preview-v3'];for(const n of names)if(fs.existsSync('public/assets/video/'+n+'.mp4'))throw Error('collision');
 const background=exec('python3',['-c',"from PIL import Image,ImageOps;import io,base64;b=io.BytesIO();ImageOps.fit(Image.open('public/assets/images/pocket-door-clean-background-v1.png').convert('RGB'),(540,960),method=Image.Resampling.LANCZOS).save(b,format='PNG');print('data:image/png;base64,'+base64.b64encode(b.getvalue()).decode())"],{maxBuffer:8e6}).toString().trim();
 
 

@@ -11,3 +11,11 @@
 - 삭제: 실패·불채택 이미지, 영상, TTS, 이전 위치 전체 렌더 및 `.DS_Store` 총 34개
 - 확보 용량: 약 41.86 MiB
 - 검증: Scene1~7 최종 Preview, 전체 조립본 및 최종 채택 원본 자산 전 구간 디코딩 정상
+
+## 2026-11-20 · 보존 경로 확인
+
+- UPLOAD_FINAL_VIDEO 승인 확인 대기 · `public/previews/uv-coating-episode3-full-v1.mp4`
+- FINAL_SCENES 전체 조립본과 독립 파일의 승인 대응 확인 대기
+- UPLOAD_FINAL_COVER 승인 확인 대기 · public/covers/square-safe/uv-coating-episode3-cover-square-safe-final.png
+- UPLOAD_FINAL_SNS 승인 확인 대기 · docs/3편-SNS업로드문구-확정.md
+- 최신 통합 영상 승인 근거 미확정

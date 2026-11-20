@@ -1,7 +1,7 @@
 const fs=require('fs'),path=require('path'),{execFileSync:exec}=require('child_process');
 const {bundle}=require('@remotion/bundler'),{getCompositions,renderMedia,renderStill}=require('@remotion/renderer');
 (async()=>{process.chdir(path.resolve(__dirname,'..'));
-const out='public/assets/video/scene04-doormaster-preview-v5.mp4',sheet='public/assets/images/scene04-doormaster-preview-v5-qa.png';
+const out='public/assets/video/scene04-final.mp4',sheet='public/assets/images/scene04-doormaster-preview-v5-qa.png';
 for(const n of [out,sheet])if(fs.existsSync(n))throw Error('collision: '+n);
 const temp=fs.mkdtempSync('/tmp/pocket-scene4-v5-');
 const serveUrl=await bundle({entryPoint:path.resolve('src/scene04-doormaster-preview-v5.tsx')});

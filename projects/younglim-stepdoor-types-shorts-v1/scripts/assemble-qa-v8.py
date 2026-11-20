@@ -1,7 +1,7 @@
 from pathlib import Path
 import subprocess as sp,json,hashlib
 p=Path(__file__).resolve().parents[1];v=p/'public/assets/video';a=p/'public/assets/audio';t=json.loads((p/'src/timing-v2.json').read_text())
-clips=[v/f'scene{i:02}-v{8 if i==6 else 7 if i in (1,2,4) else 5}.mp4' for i in range(1,8)]+[p/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4']
+clips=[v/f'scene{i:02}-final.mp4' for i in range(1,8)]+[p/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4']
 assert all(x.exists() for x in clips), 'Missing input clip'
 # Each source has exact video frame duration. Video is stream copied; approved ending's decoded pixels remain unchanged.
 lst=p/'scripts/preview-v8-concat.txt';lst.write_text('\n'.join("file '"+str(x)+"'\nduration "+str((t[i]['frames'] if i<7 else 170)/30) for i,x in enumerate(clips))+'\n')
@@ -16,8 +16,8 @@ af+=[''.join(f'[b{i}]' for i in range(8))+'concat=n=8:v=0:a=1[out]']
 wav=a/'preview-v2-approved-sequence.wav'
 # The sample-aligned audio assembled successfully on the first attempt; reuse it.
 if not wav.exists(): sp.run(acmd+['-filter_complex',';'.join(af),'-map','[out]','-c:a','pcm_s24le',str(wav)],check=True)
-sp.run(['ffmpeg','-v','error','-n','-i',str(silent),'-i',str(wav),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart',str(v/'younglim-stepdoor-preview-v8.mp4')],check=True)
-preview=v/'younglim-stepdoor-preview-v8.mp4'
+sp.run(['ffmpeg','-v','error','-n','-i',str(silent),'-i',str(wav),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-movflags','+faststart',str(v/'younglim-stepdoor-types-shorts-v1-final.mp4')],check=True)
+preview=v/'younglim-stepdoor-types-shorts-v1-final.mp4'
 r=sp.run(['ffmpeg','-v','error','-i',str(preview),'-f','null','-'],capture_output=True,text=True)
 meta=json.loads(sp.check_output(['ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(preview)]))
 def hashes(path,vf=None):

@@ -1,7 +1,7 @@
 from pathlib import Path
 import subprocess as sp
 P=Path(__file__).resolve().parents[1]
-OLD=P/'public/assets/video/xps-staggered-joints-preview-v7.mp4'
+OLD=P/'public/assets/video/xps-staggered-joints-shorts-final.mp4'
 NEW=P/'public/assets/video/xps-staggered-joints-preview-v8.mp4'
 ENDING=P/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4'
 assert not NEW.exists(), 'Existing output is protected'

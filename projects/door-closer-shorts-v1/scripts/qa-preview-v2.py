@@ -13,7 +13,7 @@ subprocess.run(['ffmpeg','-v','error','-i',str(out),'-f','null','-'],check=True)
 h=hashes(out); assert len(h)==1071,len(h)
 checks={}
 for n,start,length in [(2,150,117),(3,267,129),(5,603,298)]:
- checks[f'scene{n}_identical']=h[start:start+length]==hashes(V/f'scene{n:02d}-preview-v1.mp4')
+ checks[f'scene{n}_identical']=h[start:start+length]==hashes(V/(f'scene{n:02d}-final.mp4' if n in (2,3,5) else f'scene{n:02d}-preview-v1.mp4'))
 checks['ending_identical']=h[901:]==hashes(P/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4')
 assert all(checks.values()),checks
 wav=P/'public/assets/audio/preview-v2-approved-sequence.wav'

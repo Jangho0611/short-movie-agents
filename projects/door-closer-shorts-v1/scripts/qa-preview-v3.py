@@ -2,7 +2,7 @@ from pathlib import Path
 import subprocess,json,hashlib,wave
 import numpy as np
 from PIL import Image,ImageDraw
-P=Path(__file__).resolve().parents[1];V=P/'public/assets/video'; out=V/'door-closer-preview-v3.mp4'
+P=Path(__file__).resolve().parents[1];V=P/'public/assets/video'; out=V/'door-closer-shorts-v1-final.mp4'
 def run(a):return subprocess.check_output(a)
 def hashes(p):
  s=run(['ffmpeg','-v','error','-i',str(p),'-map','0:v:0','-fps_mode','passthrough','-f','framemd5','-']).decode()
@@ -13,8 +13,8 @@ subprocess.run(['ffmpeg','-v','error','-i',str(out),'-f','null','-'],check=True)
 h=hashes(out); assert len(h)==1026,len(h)
 checks={}
 for n,start,length in [(2,105,117),(3,222,129),(5,558,298)]:
- checks[f'scene{n}_identical']=h[start:start+length]==hashes(V/f'scene{n:02d}-preview-v1.mp4')
-checks['scene4_identical']=h[351:558]==hashes(V/'scene04-preview-v2.mp4')
+ checks[f'scene{n}_identical']=h[start:start+length]==hashes(V/(f'scene{n:02d}-final.mp4' if n in (2,3,5) else f'scene{n:02d}-preview-v1.mp4'))
+checks['scene4_identical']=h[351:558]==hashes(V/'scene04-final.mp4')
 checks['s2_to_ending_identical_v2']=h[105:]==hashes(V/'door-closer-preview-v2.mp4')[150:]
 checks['ending_identical']=h[856:]==hashes(P/'public/daesan-ending/video/daesan-headquarters-ending-approved-v1.mp4')
 assert all(checks.values()),checks

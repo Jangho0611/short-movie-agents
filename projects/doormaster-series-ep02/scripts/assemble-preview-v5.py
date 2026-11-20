@@ -1,7 +1,7 @@
 import subprocess,tempfile,pathlib
 p=pathlib.Path(__file__).resolve().parents[1];v=p/'public/assets/video';a=p/'public/assets/audio'
 ns=[92,162,127,150,157,170]
-vids=[v/f'scene0{i}-preview-v5.mp4' for i in range(1,6)]+[v/'daesan-ending-gemini-alnilam-preview-v1.mp4']
+vids=[v/f'scene0{i}-final.mp4' for i in range(1,6)]+[v/'daesan-ending-gemini-alnilam-preview-v1.mp4']
 out=v/'doormaster-ep02-preview-v5.mp4'
 assert not out.exists()
 def run(x):subprocess.run(x,check=True)

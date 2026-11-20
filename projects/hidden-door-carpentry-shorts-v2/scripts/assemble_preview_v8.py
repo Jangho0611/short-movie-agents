@@ -1,11 +1,11 @@
 from pathlib import Path
 import subprocess,json,hashlib,sys
 root=Path(__file__).resolve().parents[1]; video=root/'public/assets/video'; docs=root/'docs'
-files=[video/(f'scene{i:02}-preview-v8.mp4' if i!=5 else 'scene05-preview-v8-label-fix.mp4') for i in range(1,6)]+[video/'daesan-headquarters-ending-approved-v1.mp4']
+files=[video/f'scene{i:02}-final.mp4' for i in range(1,6)]+[video/'daesan-headquarters-ending-approved-v1.mp4']
 frames=[112,185,134,183,180,170]
 
 # Locked final reproduction inputs; no historical QA dependency.
-INPUT_SHA256 = {'public/assets/video/scene01-preview-v8.mp4': 'a07b36a57d38844b1076597381a7f152d37bc5e587108b90c2a6e6e01a1bbd2a', 'public/assets/video/scene02-preview-v8.mp4': '22a6d4e9a586a9d1afeb2272fd5478c05349ea372e9b25fbbd07a36590b7706d', 'public/assets/video/scene03-preview-v8.mp4': '2615e805877e7fc90c66fd8ccfbfde70f59a2986dc8068153a6b1ebcc53e8ec6', 'public/assets/video/scene04-preview-v8.mp4': '57e9e71b46faa3a397b53a6c768326a5345cbf7391b15a6811747d9dca7c3693', 'public/assets/video/scene05-preview-v8-label-fix.mp4': '1a57efabe63b1652673176e9a582195b6b078a7fdd1689c6d8c15d22256719a7', 'public/assets/video/daesan-headquarters-ending-approved-v1.mp4': '2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5'}
+INPUT_SHA256 = {'public/assets/video/scene01-final.mp4': 'a07b36a57d38844b1076597381a7f152d37bc5e587108b90c2a6e6e01a1bbd2a', 'public/assets/video/scene02-final.mp4': '22a6d4e9a586a9d1afeb2272fd5478c05349ea372e9b25fbbd07a36590b7706d', 'public/assets/video/scene03-final.mp4': '2615e805877e7fc90c66fd8ccfbfde70f59a2986dc8068153a6b1ebcc53e8ec6', 'public/assets/video/scene04-final.mp4': '57e9e71b46faa3a397b53a6c768326a5345cbf7391b15a6811747d9dca7c3693', 'public/assets/video/scene05-final.mp4': '1a57efabe63b1652673176e9a582195b6b078a7fdd1689c6d8c15d22256719a7', 'public/assets/video/daesan-headquarters-ending-approved-v1.mp4': '2796948bc412c7abadb41d5b85c4d089cd6d89500b4054acff538bd5d6cbf4b5'}
 def verify_inputs():
  for name, expected in INPUT_SHA256.items():
   path = root/name
@@ -31,7 +31,7 @@ parts=[]
 for i,n in enumerate(frames):
  parts += [f'[{i}:v]setpts=PTS-STARTPTS,setsar=1[v{i}]',f'[{i}:a]aresample=48000,apad,atrim=duration={n/30:.9f},asetpts=PTS-STARTPTS[a{i}]']
 parts.append(''.join(f'[v{i}][a{i}]' for i in range(6))+'concat=n=6:v=1:a=1[v][a]')
-out=video/'hidden-door-carpentry-preview-v8.mp4'
+out=video/'hidden-door-carpentry-shorts-v2-final.mp4'
 cmd+=['-filter_complex',';'.join(parts),'-map','[v]','-map','[a]','-c:v','libx264','-crf','18','-preset','medium','-pix_fmt','yuv420p','-r','30','-c:a','aac','-b:a','192k','-movflags','+faststart',str(out)]
 run(cmd)
 run(['ffmpeg','-v','error','-xerror','-i',str(out),'-f','null','-'])

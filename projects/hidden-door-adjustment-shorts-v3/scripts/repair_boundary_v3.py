@@ -24,7 +24,7 @@ if '--check-inputs' in sys.argv:
     print('Final input SHA256 QA: PASS')
     raise SystemExit(0)
 
-out=V/'hidden-door-adjustment-preview-v3.mp4'
+out=V/'hidden-door-adjustment-shorts-v3-final.mp4'
 assert not out.exists()
 def run(cmd): return subprocess.check_output(cmd,text=True)
 def hashes(path):

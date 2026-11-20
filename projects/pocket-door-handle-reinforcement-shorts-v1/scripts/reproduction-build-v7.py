@@ -1,7 +1,7 @@
 from pathlib import Path
 import subprocess as s,numpy as np,json,hashlib
 from PIL import Image,ImageDraw
-p=Path('/Users/janghokim/Documents/short-movie-agents/projects/pocket-door-handle-reinforcement-shorts-v1');d=p/'public/assets/video';v=d/'scene01-doormaster-v6.mp4';out=d/'scene01-doormaster-v7.mp4';assert out.exists()
+p=Path(__file__).resolve().parents[1];d=p/'public/assets/video';v=d/'scene01-doormaster-v6.mp4';out=d/'scene01-final.mp4';assert out.exists()
 w,h=1080,1920;n=w*h*3//2
 def dec(f,fmt='yuv420p'):return s.check_output(['ffmpeg','-v','error','-i',str(f),'-pix_fmt',fmt,'-f','rawvideo','-'])
 a=dec(v);repls={i:dec('/tmp/scene01-v7-'+str(i)+'.png') for i in [0,18,60]}

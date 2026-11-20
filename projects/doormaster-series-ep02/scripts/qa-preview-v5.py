@@ -1,7 +1,7 @@
 import subprocess,json,pathlib,hashlib
 p=pathlib.Path(__file__).resolve().parents[1]
 def run(args):return subprocess.run(args,capture_output=True,text=True)
-files=[p/'public/assets/video'/f'scene0{i}-preview-v5.mp4' for i in range(1,6)]+[p/'public/assets/video/doormaster-ep02-preview-v5.mp4']
+files=[p/'public/assets/video'/f'scene0{i}-final.mp4' for i in range(1,6)]+[p/'public/assets/video/doormaster-ep02-preview-v5.mp4']
 r=[]
 for f in files:
  if not f.exists(): raise RuntimeError(str(f))

@@ -14,7 +14,7 @@ for f,h in json.loads((p/'docs/ending-asset-sha256.json').read_text()).items():
  raw=hashlib.sha256(dest.read_bytes()).hexdigest()
  normalized=hashlib.sha256(dest.read_text().replace('daesan-ending/','').encode()).hexdigest() if f.startswith('src/') else raw
  ending.append({'file':str(dest.relative_to(p)),'sha256':raw,'raw_match':raw==h,'match':normalized==h,'note':'existing project-relative path prefix only' if raw!=h and normalized==h else ''})
-preview=p/'public/assets/video/younglim-stepdoor-preview-v8.mp4'
+preview=p/'public/assets/video/younglim-stepdoor-types-shorts-v1-final.mp4'
 r=sp.run(['ffmpeg','-hide_banner','-i',str(preview),'-af','loudnorm=I=-18:TP=-1.5:LRA=11:print_format=json','-vn','-f','null','-'],capture_output=True,text=True,check=True)
 levels=json.JSONDecoder().raw_decode(r.stderr[r.stderr.rfind('{'):])[0]
 report={'approved_tts':hashes,'approved_scene_pcm_matches':matches,'ending_dependency_hashes':ending,'final_LUFS':levels['input_i'],'final_true_peak_dBTP':levels['input_tp'],'actual_full_listening':'not performed; user review required','ai_image_changes':False}

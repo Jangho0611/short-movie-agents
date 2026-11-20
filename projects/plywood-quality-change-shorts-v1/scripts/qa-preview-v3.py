@@ -7,8 +7,8 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def run(cmd):return subprocess.check_output(cmd)
 r={'preservation':{},'outputs':{},'audio':{}}
 for f,h in json.loads((Q/'before-sha256.json').read_text()).items():r['preservation'][f]=sha(P/f)==h
-full=V/'plywood-quality-change-preview-v3.mp4'
-for f,frames in [(V/f"scene{s['scene']:02d}-preview-v3.mp4",s['frames']) for s in scenes]+[(full,1348)]:
+full=V/'plywood-quality-change-shorts-v1-final.mp4'
+for f,frames in [(V/f"scene{s['scene']:02d}-final.mp4",s['frames']) for s in scenes]+[(full,1348)]:
  d=json.loads(run(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(f)]));v=next(s for s in d['streams'] if s['codec_type']=='video');a=next(s for s in d['streams'] if s['codec_type']=='audio')
  dec=subprocess.run(['ffmpeg','-v','error','-i',str(f),'-map','0:v','-map','0:a','-f','null','-'],capture_output=True,text=True)
  r['outputs'][f.name]={'width':v['width'],'height':v['height'],'fps':v['avg_frame_rate'],'frames':int(v['nb_frames']),'expected_frames':frames,'duration':float(v['duration']),'container_duration':float(d['format']['duration']),'audio_start':a['start_time'],'video_start':v['start_time'],'decode_pass':dec.returncode==0 and not dec.stderr,'decode_log':dec.stderr,'sha256':sha(f)}

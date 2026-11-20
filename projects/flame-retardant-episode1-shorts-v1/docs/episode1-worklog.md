@@ -43,3 +43,16 @@ Git 추적 파일 6개 삭제. 삭제 전 할당량 9,117,696 B. 삭제 전후 �
 
 기존 후보 중 보류 0개. 추가 검토 항목은 승인·의존성 확인까지 보존. 전체 작업의 데이터 볼륨 가용 공간 관측 차이 0 B.
 Git 이력은 이 절을 추가한 커밋 `Remove verified Shorts test outputs and record archive checks`에서 조회한다.
+
+## 2026-11-20 · 승인본 경로와 Slim Archive 후속 점검
+
+- UPLOAD_FINAL_VIDEO `public/assets/video/flame-retardant-episode1-shorts-v1-final.mp4`
+- FINAL_SCENES 승인 구간·독립 파일 대응 확인 대기
+- UPLOAD_FINAL_COVER 승인 확인 대기 · `public/covers/flame-retardant-episode1-cover-final.png`
+- UPLOAD_FINAL_SNS 승인 확인 대기 · `docs/episode1-sns-copy.md`
+
+파일명 변경 전후 SHA256·바이트·해상도·FPS·프레임 수를 대조했다.
+- `public/previews/flame-retardant-episode1-full-v1.mp4` → `public/assets/video/flame-retardant-episode1-shorts-v1-final.mp4` · 9390664 B · 1080×1920 · 30/1 fps · 1091f · `bb0053013f75d0c86cbe438897c623d415726786e2bcc82438eb5e6b4bd21763`
+
+신규 삭제 0건. 개별 삭제 승인과 잔여 파일 판정 대기.
+- 개별 Scene 승인·최종 화면 및 조립 입력 대응 확인 필요

@@ -5,7 +5,7 @@ p=Path(__file__).resolve().parents[1]
 def frames(file,start):
  b=subprocess.check_output(['ffmpeg','-v','error','-i',str(file),'-vf',f'trim=start_frame={start}:end_frame={start+127},setpts=PTS-STARTPTS,scale=180:320','-fps_mode','passthrough','-f','rawvideo','-pix_fmt','rgb24','-']);return np.frombuffer(b,np.uint8).reshape(-1,320,180,3)
 r={};arrays=[]
-for label,file,start in [('individual','scene03-preview-v5.mp4',0),('full','doormaster-ep02-preview-v5.mp4',254)]:
+for label,file,start in [('individual','scene03-final.mp4',0),('full','doormaster-ep02-preview-v5.mp4',254)]:
  a=frames(p/'public/assets/video'/file,start);arrays.append(a)
  roi=a[:,3:235,3:177];delta=np.abs(roi[1:].astype(float)-roi[:-1]).mean(axis=(1,2,3))
  jumps=[i for i,x in enumerate(delta,1) if x>4]
