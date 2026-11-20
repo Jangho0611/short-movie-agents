@@ -1,0 +1,9 @@
+{
+  "package_lock_match": true,
+  "approved_text_match": true,
+  "source_bundle_check": "PASS, write:false; no render",
+  "ending_audio_sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+  "new_scene_images": 0,
+  "render_performed": false,
+  "audio_approval": "pending"
+}

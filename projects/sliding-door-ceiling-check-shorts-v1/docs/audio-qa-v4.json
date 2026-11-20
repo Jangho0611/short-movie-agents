@@ -1,0 +1,235 @@
+{
+  "files": [
+    {
+      "scene": 1,
+      "file": "scene01-tts-v4.mp3",
+      "duration": 4.056,
+      "sha256": "314375a20c7433ba87bfcdfeb7483d60045a8264f709704fd5deca97449c7351",
+      "silence": {
+        "-30dB": {
+          "intervals": [
+            [
+              0.0,
+              0.525417
+            ],
+            [
+              2.884333,
+              3.058458
+            ],
+            [
+              3.835667,
+              4.056
+            ]
+          ],
+          "speech_start": 0.525417,
+          "speech_end": 3.835667,
+          "speech_span": 3.31025
+        },
+        "-40dB": {
+          "intervals": [
+            [
+              0.0,
+              0.504875
+            ],
+            [
+              2.890917,
+              3.056
+            ],
+            [
+              3.848292,
+              4.056
+            ]
+          ],
+          "speech_start": 0.504875,
+          "speech_end": 3.848292,
+          "speech_span": 3.3434169999999996
+        }
+      }
+    },
+    {
+      "scene": 2,
+      "file": "scene02-tts-v2.mp3",
+      "duration": 6.576,
+      "sha256": "73859e46bd576de2994d405e0e588b75075c296c4e88d195eb2a83844e549362",
+      "silence": {
+        "-30dB": {
+          "intervals": [
+            [
+              0.0,
+              0.409875
+            ],
+            [
+              1.352792,
+              1.658833
+            ],
+            [
+              3.697375,
+              4.113417
+            ],
+            [
+              6.322458,
+              6.576
+            ]
+          ],
+          "speech_start": 0.409875,
+          "speech_end": 6.322458,
+          "speech_span": 5.912583
+        },
+        "-40dB": {
+          "intervals": [
+            [
+              0.0,
+              0.39525
+            ],
+            [
+              1.363458,
+              1.656208
+            ],
+            [
+              2.821,
+              2.903583
+            ],
+            [
+              3.711375,
+              4.10875
+            ],
+            [
+              6.341375,
+              6.576
+            ]
+          ],
+          "speech_start": 0.39525,
+          "speech_end": 6.341375,
+          "speech_span": 5.946125
+        }
+      }
+    },
+    {
+      "scene": 3,
+      "file": "scene03-tts-v1.mp3",
+      "duration": 4.584,
+      "sha256": "de13b547b99794821bc1efeec02cf6e5d449b4124249f73431fcf8b73d89459c",
+      "silence": {
+        "-30dB": {
+          "intervals": [
+            [
+              0.0,
+              0.602042
+            ],
+            [
+              2.243167,
+              2.611042
+            ],
+            [
+              4.392917,
+              4.584
+            ]
+          ],
+          "speech_start": 0.602042,
+          "speech_end": 4.392917,
+          "speech_span": 3.7908749999999998
+        },
+        "-40dB": {
+          "intervals": [
+            [
+              0.0,
+              0.596667
+            ],
+            [
+              2.258917,
+              2.610958
+            ],
+            [
+              4.404625,
+              4.584
+            ]
+          ],
+          "speech_start": 0.596667,
+          "speech_end": 4.404625,
+          "speech_span": 3.807958
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "file": "scene04-tts-v1.mp3",
+      "duration": 5.376,
+      "sha256": "ed1894a3f98116705244227f502ec9157496af4bd0dbe39bb63ca52eede2580e",
+      "silence": {
+        "-30dB": {
+          "intervals": [
+            [
+              0.0,
+              0.325167
+            ],
+            [
+              1.787042,
+              2.036458
+            ],
+            [
+              3.074583,
+              3.382292
+            ],
+            [
+              4.33925,
+              4.450958
+            ],
+            [
+              5.115583,
+              5.376
+            ]
+          ],
+          "speech_start": 0.325167,
+          "speech_end": 5.115583,
+          "speech_span": 4.7904160000000005
+        },
+        "-40dB": {
+          "intervals": [
+            [
+              0.0,
+              0.276833
+            ],
+            [
+              1.79475,
+              2.036375
+            ],
+            [
+              3.083,
+              3.371
+            ],
+            [
+              3.643875,
+              3.736583
+            ],
+            [
+              4.157583,
+              4.247083
+            ],
+            [
+              4.347833,
+              4.432833
+            ],
+            [
+              5.133792,
+              5.376
+            ]
+          ],
+          "speech_start": 0.276833,
+          "speech_end": 5.133792,
+          "speech_span": 4.856959
+        }
+      }
+    }
+  ],
+  "full_duration": 20.592,
+  "composition": [
+    "scene01-tts-v4.mp3",
+    "scene02-tts-v2.mp3",
+    "scene03-tts-v1.mp3",
+    "scene04-tts-v1.mp3"
+  ],
+  "ending_included": false,
+  "edits": "none; direct PCM concatenation, no added silence",
+  "preservation": "all prior audio hashes unchanged",
+  "semantic_listening": "not verified; user review required; silence timestamps not aligned to words"
+}

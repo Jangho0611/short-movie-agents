@@ -1,0 +1,157 @@
+{
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "omitted",
+  "files": [
+    {
+      "scene": 1,
+      "file": "public/assets/audio/scene01-tts-v1.mp3",
+      "decoded_duration_seconds": 3.048,
+      "detected_start": 0.27975,
+      "detected_end": 2.918583,
+      "detected_span_seconds": 2.638833,
+      "silence_starts": [
+        0.0,
+        2.918583
+      ],
+      "silence_ends": [
+        0.27975,
+        3.048
+      ],
+      "max_volume": [
+        "-0.5 dB"
+      ],
+      "sha256": "d65b7f6ec8f885cdc35f7d4ab0b93e20a3083ed65745e1565d26893f3e78e966",
+      "loudness": {
+        "input_i": "-19.01",
+        "input_tp": "-0.45",
+        "input_lra": "0.10"
+      }
+    },
+    {
+      "scene": 2,
+      "file": "public/assets/audio/scene02-tts-v1.mp3",
+      "decoded_duration_seconds": 5.064,
+      "detected_start": 0.876167,
+      "detected_end": 4.8445,
+      "detected_span_seconds": 3.968333,
+      "silence_starts": [
+        0.0,
+        3.1495,
+        4.8445
+      ],
+      "silence_ends": [
+        0.876167,
+        3.475708,
+        5.064
+      ],
+      "max_volume": [
+        "-1.0 dB"
+      ],
+      "sha256": "be1eaa3919d04be74b4dd73ae265291172da3dafa7459d1e9e3c7eeaf9f265eb",
+      "loudness": {
+        "input_i": "-21.79",
+        "input_tp": "-1.00",
+        "input_lra": "3.30"
+      }
+    },
+    {
+      "scene": 3,
+      "file": "public/assets/audio/scene03-tts-v1.mp3",
+      "decoded_duration_seconds": 4.584,
+      "detected_start": 0.596667,
+      "detected_end": 4.404625,
+      "detected_span_seconds": 3.807958,
+      "silence_starts": [
+        0.0,
+        2.258917,
+        4.404625
+      ],
+      "silence_ends": [
+        0.596667,
+        2.610958,
+        4.584
+      ],
+      "max_volume": [
+        "-3.1 dB"
+      ],
+      "sha256": "de13b547b99794821bc1efeec02cf6e5d449b4124249f73431fcf8b73d89459c",
+      "loudness": {
+        "input_i": "-20.36",
+        "input_tp": "-3.11",
+        "input_lra": "0.70"
+      }
+    },
+    {
+      "scene": 4,
+      "file": "public/assets/audio/scene04-tts-v1.mp3",
+      "decoded_duration_seconds": 5.376,
+      "detected_start": 0.276833,
+      "detected_end": 5.133792,
+      "detected_span_seconds": 4.856959,
+      "silence_starts": [
+        0.0,
+        1.79475,
+        3.083,
+        3.643875,
+        4.157583,
+        4.347833,
+        5.133792
+      ],
+      "silence_ends": [
+        0.276833,
+        2.036375,
+        3.371,
+        3.736583,
+        4.247083,
+        4.432833,
+        5.376
+      ],
+      "max_volume": [
+        "-2.3 dB"
+      ],
+      "sha256": "ed1894a3f98116705244227f502ec9157496af4bd0dbe39bb63ca52eede2580e",
+      "loudness": {
+        "input_i": "-19.20",
+        "input_tp": "-2.29",
+        "input_lra": "2.90"
+      }
+    },
+    {
+      "scene": 5,
+      "file": "public/assets/audio/ending-approved-v3.mp3",
+      "decoded_duration_seconds": 4.854,
+      "detected_start": 0.710375,
+      "detected_end": 4.664208,
+      "detected_span_seconds": 3.9538330000000004,
+      "silence_starts": [
+        0.0,
+        2.560792,
+        4.664208
+      ],
+      "silence_ends": [
+        0.710375,
+        3.6145,
+        4.854
+      ],
+      "max_volume": [
+        "-4.4 dB"
+      ],
+      "sha256": "bd8d2a5616b0de179a78084cc3a94b73ce77210e7a34c5c59428fa69d13c4181",
+      "loudness": {
+        "input_i": "-21.74",
+        "input_tp": "-4.39",
+        "input_lra": "1.30"
+      }
+    }
+  ],
+  "concat": "original decoded audio, no trim/gain/speed/pitch edits; 0.15 s after scenes 1-4; ending pad to 170/30 s",
+  "full_duration_seconds": 24.338666666666665,
+  "listening_status": "pending user; agent cannot directly hear audio; acoustic analysis is not pronunciation verification",
+  "gaps_between_detected_speech": [
+    1.1555840000000002,
+    0.966167,
+    0.6062079999999994,
+    1.1025830000000005
+  ]
+}

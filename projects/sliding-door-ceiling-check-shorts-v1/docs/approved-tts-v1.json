@@ -1,0 +1,24 @@
+{
+  "status": "text approved; audio approval pending",
+  "voice": "ko-KR-Chirp3-HD-Alnilam",
+  "speakingRate": 1.0,
+  "pitch": "default; omitted",
+  "scenes": [
+    {
+      "scene": 1,
+      "text": "슬라이딩 도어, 천장부터 마감하면 어떻게 될까요?"
+    },
+    {
+      "scene": 2,
+      "text": "레일이 들어갈 자리와, 문짝을 달고 조정할 공간은 달라요."
+    },
+    {
+      "scene": 3,
+      "text": "나중에 부품을 점검하거나 교체할 수 있는지도 확인해야 합니다."
+    },
+    {
+      "scene": 4,
+      "text": "천장 마감 전에, 사용하는 철물의 설치도와 작업 공간을 꼭 확인하세요."
+    }
+  ]
+}

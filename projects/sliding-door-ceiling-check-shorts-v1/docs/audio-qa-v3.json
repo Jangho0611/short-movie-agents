@@ -1,0 +1,37 @@
+{
+  "method": "Part A/B; same voice rate1 pitch omitted; only boundary silence trimmed; 60ms guards retained",
+  "part_a_end_detected": 2.526208,
+  "part_b_start_detected": 0.283542,
+  "a_cut_sample": 62069,
+  "b_cut_sample": 5365,
+  "candidates": [
+    {
+      "file": "scene01-tts-v3-pause-025.mp3",
+      "target_gap": 0.25,
+      "inserted_digital_silence": 0.13,
+      "measured_join_silence": [
+        [
+          2.5235,
+          2.776208
+        ]
+      ],
+      "duration": 4.748666666666667
+    },
+    {
+      "file": "scene01-tts-v3-pause-035.mp3",
+      "target_gap": 0.35,
+      "inserted_digital_silence": 0.23,
+      "measured_join_silence": [
+        [
+          2.5235,
+          2.876208
+        ]
+      ],
+      "duration": 4.8486666666666665
+    }
+  ],
+  "full_duration": 21.734666666666666,
+  "full_selection": "0.25 s provisional; scenes2 v2,3 v1,4 v1; ending excluded",
+  "listening": "not verified; user approval pending",
+  "prior_audio_hashes": "all unchanged"
+}
