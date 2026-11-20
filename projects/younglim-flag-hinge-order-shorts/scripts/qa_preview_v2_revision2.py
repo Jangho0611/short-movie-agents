@@ -8,8 +8,8 @@ def hashes(f,flt=None):
  return [x.split(',')[-1].strip() for x in run(a+['-pix_fmt','rgb24','-f','framemd5','-']).decode().splitlines() if x and not x.startswith('#')]
 allh=hashes(out);offset=0;checks=[]
 for f,n in zip(q['files'],q['frames']):
- h=hashes(f);checks.append({'file':f,'frames':n,'decoded_pixel_identical':allh[offset:offset+n]==h});offset+=n
-for f in [out,p/'public/assets/video/scene02-preview-v2.mp4',p/'public/assets/video/scene05-preview-v2.mp4']:run(['ffmpeg','-v','error','-i',str(f),'-f','null','-'])
+ h=hashes(p/f);checks.append({'file':f,'frames':n,'decoded_pixel_identical':allh[offset:offset+n]==h});offset+=n
+for f in [out,p/'public/assets/video/scene02-final.mp4',p/'public/assets/video/scene05-final.mp4']:run(['ffmpeg','-v','error','-i',str(f),'-f','null','-'])
 probe=json.loads(run(['ffprobe','-v','error','-count_frames','-show_entries','stream=codec_name,width,height,r_frame_rate,nb_read_frames,duration:format=duration','-of','json',str(out)]))
 a=json.loads((p/'docs/preview-v1-qa.json').read_text())['source_sha256'];audio={n:hashlib.sha256((p/'public/assets/audio'/n).read_bytes()).hexdigest()==h for n,h in a.items()}
 r={'probe':probe,'all_scene_pixel_checks':checks,'tts_source_hashes_unchanged':audio,'full_decode':'PASS','review':'PENDING'}

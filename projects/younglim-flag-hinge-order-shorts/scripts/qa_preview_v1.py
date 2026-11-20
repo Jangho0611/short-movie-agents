@@ -8,7 +8,7 @@ def md5frames(f,flt=None):
  a+=['-pix_fmt','rgb24','-f','framemd5','-']
  return [x.split(',')[-1].strip() for x in run(a).decode().splitlines() if x and not x.startswith('#')]
 qa={'files':[]}
-for f in [final]+[v/f'scene{i:02}-preview-v1.mp4' for i in range(1,6)]:
+for f in [final]+[v/('scene04-final.mp4' if i == 4 else f'scene{i:02}-preview-v1.mp4') for i in range(1,6)]:
  info=json.loads(run(['ffprobe','-v','error','-count_frames','-show_entries','stream=codec_name,width,height,r_frame_rate,nb_read_frames,sample_rate,channels,duration:format=duration','-of','json',str(f)]))
  run(['ffmpeg','-v','error','-i',str(f),'-f','null','-']);qa['files'].append({'file':f.name,'probe':info,'full_decode':'PASS'})
 a=md5frames(final,'trim=start_frame=762,setpts=PTS-STARTPTS');b=md5frames(ending)

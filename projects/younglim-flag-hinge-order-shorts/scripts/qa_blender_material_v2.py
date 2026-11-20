@@ -1,7 +1,7 @@
 from pathlib import Path
 from PIL import Image,ImageDraw
 import subprocess,json,hashlib
-p=Path(__file__).resolve().parents[1];img=p/'public/assets/images';vid=p/'public/assets/video/scene01-blender-concept-test-v2.mp4'
+p=Path(__file__).resolve().parents[1];img=p/'public/assets/images';vid=p/'public/assets/video/scene01-final.mp4'
 frames=[1,28,46,76];sheet=Image.new('RGB',(4*360,1040),'#F7F4EE');d=ImageDraw.Draw(sheet)
 for row,v in enumerate([1,2]):
  for col,f in enumerate(frames):
