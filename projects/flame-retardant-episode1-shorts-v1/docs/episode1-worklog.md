@@ -23,3 +23,23 @@
 - Veo 캐릭터 장면은 입 모양 변형, 팔 자세 변화, 상하 검은 여백 문제가 반복되어 안정 구간 순수 트림, 마지막 프레임 freeze, scale-up crop으로 정리했다.
 - 커버 1차는 신규 Vertex Visual의 상·하단 분리감과 canonical 불일치가 문제였다. 2차는 Scene3 전체 프레임과 캐릭터 합성에서 실험 지그가 과도하게 강조됐다. 3차에서 Scene3의 판재·불꽃·토치만 누끼 처리하고 우측 bleed로 확대 배치했으며 canonical 대산이를 하단에 배치해 최종 후보 B를 채택했다.
 - 커버의 한글 타이포그래피와 승인 DAESAN 로고는 COVER.md의 역할 분리에 따라 Codex 후처리로 합성했다.
+
+
+## 2026-11-20 테스트 산출물 정리
+
+- UPLOAD_FINAL_VIDEO `public/previews/flame-retardant-episode1-full-v1.mp4`
+- UPLOAD_FINAL_COVER `NEEDS_APPROVAL`
+- UPLOAD_FINAL_SNS `NEEDS_APPROVAL (docs/episode1-sns-copy.md)`
+- SHA256 `public/previews/flame-retardant-episode1-full-v1.mp4` — `bb0053013f75d0c86cbe438897c623d415726786e2bcc82438eb5e6b4bd21763`
+
+Git 추적 파일 6개 삭제. 삭제 전 할당량 9,117,696 B. 삭제 전후 보존 파일 170개의 SHA256 일치.
+
+- `public/assets/video/scene06-veo-v3.mp4` (1,441,792 B) — episode1-worklog.md 최종 채택표와 Scene06 코드가 v2 선택. S1·2 v2 트림 원본 보존. 독립 Veo 시도본.
+- `public/assets/video/scene06-veo-v1.mp4` (1,417,216 B) — episode1-worklog.md 최종 채택표와 Scene06 코드가 v2 선택. S1·2 v2 트림 원본 보존. 독립 Veo 시도본.
+- `public/assets/video/scene01-veo-v1.mp4` (1,454,080 B) — episode1-worklog.md 최종 채택표와 Scene01 코드가 v2 선택. S1·2 v2 트림 원본 보존. 독립 Veo 시도본.
+- `public/assets/video/scene01-veo-v3.mp4` (1,576,960 B) — episode1-worklog.md 최종 채택표와 Scene01 코드가 v2 선택. S1·2 v2 트림 원본 보존. 독립 Veo 시도본.
+- `public/assets/video/scene02-veo-v1.mp4` (1,429,504 B) — episode1-worklog.md 최종 채택표와 Scene02 코드가 v2 선택. S1·2 v2 트림 원본 보존. 독립 Veo 시도본.
+- `public/assets/video/scene02-veo-v3.mp4` (1,798,144 B) — episode1-worklog.md 최종 채택표와 Scene02 코드가 v2 선택. S1·2 v2 트림 원본 보존. 독립 Veo 시도본.
+
+기존 후보 중 보류 0개. 추가 검토 항목은 승인·의존성 확인까지 보존. 전체 작업의 데이터 볼륨 가용 공간 관측 차이 0 B.
+Git 이력은 이 절을 추가한 커밋 `Remove verified Shorts test outputs and record archive checks`에서 조회한다.
