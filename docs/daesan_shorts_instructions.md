@@ -1,6 +1,6 @@
 # 대산 건축자재 Shorts/Reels/Naver Clip 제작 지침어 (통합본)
 
-- 버전: `v2.11` (Claude 세션에서 여러 영상 제작 경험을 통합 작성, ChatGPT 프로젝트 이관용)
+- 버전: `v2.12` (Claude 세션에서 여러 영상 제작 경험을 통합 작성, ChatGPT 프로젝트 이관용)
 - 작성 기준일: `2026-11-20`
 - `Shorts_제작_운영가이드.md`는 기존부터 사용해온 대산 Shorts의 기본 제작·운영 상세 가이드다. 이 문서는 운영가이드를 대체하지 않으며, 공통 가이드의 핵심 규칙을 요약하고 최근 사용자 승인으로 확정된 실행 방식·우선순위·보완 규칙을 추가하는 실행 지침이다. 일반 Shorts 작업에서는 두 문서를 기본 세트로 함께 적용하며, 이 문서에 요약되지 않은 운영가이드의 상세 규칙도 계속 유효하다.
 
@@ -143,7 +143,7 @@
 - 최종 세로 Cover·square QA/최종 square-safe·구현 소스·직접 참조 Hero/제품/캐릭터 이미지·승인 로고·재현용 폰트/자산을 함께 보존한다. 직접 참조 Hero/Source를 중간 후보로 오인해 정리하지 않는다.
 - 승인된 대산 로고 자산만 사용하고 AI로 로고를 생성하지 않는다.
 - Cover는 영상 첫 Scene과 별도 자산으로 관리한다.
-- 미승인 중간본은 최종 Cover 승인 후 사용자 확인을 받고서만 정리한다.
+- 미채택 Cover와 크롭 QA의 정리 시점·삭제 승인은 §8을 따른다.
 
 ## 6. SNS 업로드 문구 규칙
 
@@ -203,32 +203,33 @@
 
 ## 8. 정리 및 Git 규칙
 
-- **정리 순서**: 영상 최종 승인·파일명 확정 → Cover·SNS 최종 승인 → 정리 후보 보고·사용자 승인 → 승인 후보 정리 → 잔여 파일·업로드 경로 확인 → 날짜형 작업기록 및 SHA256/보안·LFS QA → 루트 commit/push → 원격 동기화 확인.
-- **최종 영상·Cover·SNS가 모두 승인되기 전에는 실패본·임시파일 정리를 하지 않는다.**
-- 정리 전 삭제(이동) 후보를 먼저 사용자에게 보고하고, **명시적 승인 없이 파일을 삭제/이동하지 않는다.**
-- §2-10의 최우선 규칙(Scene별 최종본 영구 보존)을 다시 확인한 뒤에만 정리를 실행한다.
-- macOS 환경에서는 영구 삭제 대신 `~/.Trash/<프로젝트>-cleanup-YYYYMMDD/`로 이동하는 방식을 기본으로 한다(복구 가능하게 유지).
+- 영상·Cover·SNS가 모두 최종 승인된 뒤에만 테스트 산출물을 정리한다. §8.1의 후보 검토와 승인 범위 정리는 필수 마무리 단계다.
+- 정리 전에 후보별 프로젝트 상대경로·용량·사유, 전체 수량·용량을 한 번에 보고한다. 최종 제작·조립·QA 의존성과 개별 보존 지시를 확인하고, Git 원본 바이트, LFS 실객체 또는 독립 백업에서 복원할 수 있는지 검증한다. 유일한 원본은 보존한다.
+- 사용자가 명시적으로 승인한 경로만 macOS의 `~/.Trash/<프로젝트>-cleanup-YYYYMMDD/`로 옮긴다. 프로젝트 상대경로를 유지하고 기존 사본과 충돌하면 보류한다. 이동 전후 후보의 SHA256·크기와 승인 final 자산의 무결성을 대조한다. 휴지통 전체 비우기에는 별도 사용자 승인이 필요하다.
 - `.env`, credential, service account JSON, API key, token, private key, client secret은 절대 stage/commit하지 않는다.
 - Git 명령은 Monorepo 루트에서 실행하고 관련 프로젝트·실제 변경 공통 가이드·필요 설정만 stage한다. 다른 영상 변경은 포함하지 않는다. 상세 LFS 및 종료 QA는 MONOREPO_WORKFLOW.md를 따른다.
 - force push는 하지 않는다. push 후 `git status`와 원격 추적 상태를 확인한다.
 - 정리 후 날짜형 작업기록 MD(`YY.MM.DD수정.md`)를 남기고, 실제 사용한 DESIGN.md 스타일을 Main/Scene별로 기록한다.
 - Git 종료 시 working tree가 clean인지 확인한다.
 
-### 최종 승인 영상의 이름과 참조 경로
+### 결과물별 승인과 final 파일명
 
-- 최신 승인 기록과 실제 조립 순서를 대조해 통합 영상과 각 Scene의 승인 파일을 식별한다. 기존 이름에 `preview`, `render`, `test`, `draft`, 버전 번호 또는 `final`이 있어도 승인 근거를 확인한다. 불명확하면 기존 경로를 유지하고 사용자에게 확인한다.
-- 최종 영상은 모두 `public/assets/video/`에 둔다. Scene은 실제 순서대로 `scene01-final.mp4`부터 `sceneNN-final.mp4`까지 확정한다. 실제 Scene 수만큼 번호를 매기며 100개 이상이면 전체 번호의 자릿수를 늘려 순서와 고유성을 유지한다. 통합 영상은 실제 프로젝트 식별자로 `<project-slug>-final.mp4`를 사용한다(예: `younglim-flag-hinge-order-final.mp4`).
-- 승인 파일은 재인코딩 없이 이름만 확정한다. 대상 이름이 다른 파일과 충돌하면 덮어쓰지 않고 확인한다. 변경 전후 SHA256·바이트 크기·프레임 수가 일치하는지 대조하고 최종 경로에서 재생을 확인한다.
-- Remotion 소스, 조립 스크립트, Scene 연결 설정, QA·Cover 스크립트, SNS 업로드 경로 등 종전 경로를 직접 사용하는 곳을 함께 갱신하고 새 경로로 파일을 읽는지 확인한다. 과거 승인 기록에는 당시 파일명을 보존한다. 최신 날짜형 작업기록에는 다음 네 항목을 프로젝트 상대경로로 남긴다.
+신규 제작에서는 작업 파일에 `preview`, `render`, `v1`, `v2` 등을 쓰고 사용자 승인 전에는 `final`을 붙이지 않는다. 사용자가 특정 결과물을 최종 승인하면 즉시 승인한 파일·버전과 실제 제작 순서를 대조하고 아래 경로로 확정한다. Scene 음원은 영상과 독립적으로 승인 상태를 기록하며 음원이 먼저 승인되면 그때 확정한다.
 
-| 작업기록 항목 | 기록할 경로 |
-|---|---|
-| `UPLOAD_FINAL_VIDEO` | `public/assets/video/<project-slug>-final.mp4` |
-| `FINAL_SCENES` | `public/assets/video/scene01-final.mp4`부터 마지막 Scene까지 실제 경로 전부 |
-| `UPLOAD_FINAL_COVER` | 승인된 Cover의 기존 경로와 파일명 |
-| `UPLOAD_FINAL_SNS` | 승인된 SNS 문서의 기존 경로와 파일명 |
+| 결과물 | 신규 승인본 경로 | 작업기록 항목 |
+|---|---|---|
+| 통합 영상 | `public/assets/video/<project-slug>-final.mp4` | `UPLOAD_FINAL_VIDEO` |
+| Scene 영상 | `public/assets/video/sceneNN-final.mp4` | `FINAL_SCENES`에 실제 순서대로 기록 |
+| Scene 이미지 | `public/assets/images/sceneNN-final.png` | 해당 Scene의 승인 이미지 |
+| Scene TTS | `public/assets/audio/sceneNN-tts-final.mp3` (실제 조립 음원이 WAV이면 `sceneNN-tts-final.wav`) | 해당 Scene의 승인 음원 |
+| Cover | `public/covers/<project-slug>-cover-final.png` | `UPLOAD_FINAL_COVER` |
+| SNS | 승인 문서의 기존 경로·파일명 | `UPLOAD_FINAL_SNS` |
 
-신규 제작부터 적용한다. 기존 47개 프로젝트는 별도 사용자 승인 범위 안에서 승인본을 확인한 뒤 적용한다. Git 추적 파일은 이름 변경과 직접 참조 수정을 함께 반영하고, LFS 파일은 포인터의 OID·크기와 실제 객체의 SHA256·크기를 대조한다.
+- `NN`은 실제 Scene 순서인 `01`부터 시작한다. 100개 이상이면 전체 번호의 자릿수를 늘린다. 승인 공통 엔딩·Canonical Reference는 기존 명칭을 유지하며, 제작 입력 이미지 시퀀스도 원래 이름과 순서를 유지할 수 있다.
+- 이름 확정 시 바이트를 그대로 보존한다. 변경 전후 SHA256·바이트 크기를 대조하고 영상은 프레임 수와 새 경로에서의 재생도 확인한다. 이름을 맞추기 위한 재렌더·재인코딩은 금지한다.
+- Remotion·조립·Scene 연결 설정·QA·Cover 스크립트와 업로드 경로의 직접 참조를 갱신하고 새 경로에서 실제 입력을 읽는지 검증한다. 날짜형 작업기록에 결과물별 승인 상태·버전, 이전·확정 경로, 크기·해시와 참조 검증 결과를 남긴다. 과거 승인 이력은 당시 경로를 유지한다.
+- 승인 후 수정은 새 작업 버전에서 진행한다. 재승인을 받은 뒤 이전 승인본의 바이트 복원을 확인하고 final을 갱신한다. 이름 충돌이 있거나 승인 근거가 불분명하면 덮어쓰지 않고 확인한다.
+- 기존 프로젝트는 별도 사용자 승인 범위에서만 적용한다. Git 추적 파일은 이름과 직접 참조 변경을 함께 반영하고 LFS 포인터의 OID·크기를 실제 객체의 SHA256·크기와 대조한다.
 
 ### 8.1 완료 프로젝트 Slim Archive
 
@@ -239,9 +240,11 @@
 - `node_modules`는 `package.json`과 lockfile(`package-lock.json` 등) 또는 설치 버전 고정 등 재현 근거가 확인되고, Git이 CLEAN/SYNC인 완료 프로젝트에서만 제거할 수 있다. 제거는 영구삭제보다 휴지통 이동을 우선한다.
 - `node_modules` 제거 대상은 실행환경일 뿐이다. 최종 영상, Scene별 최종 영상·이미지, 최종 TTS, Cover, 승인 Hero, canonical/reference, 제작 소스, 작업기록은 Slim 대상에 포함하지 않는다.
 - 미추적(`??`), 수정(`M`), 삭제(`D`) 파일이 있으면 자동 정리하지 않는다. 파일의 역할·승인 여부·최종본과의 관계를 먼저 확인하고, 불명확하면 그대로 보존한다.
-- 보존 대장에 실린 파일도 현재 용도와 개별 보존 지시를 대조한다. 미채택 Preview·Scene 렌더·Blender 테스트, 이전 TTS·통합 청취본, 실패 이미지·중복 QA 캡처·미채택 Cover, 임시 조립 목록·렌더 로그 등은 삭제 후보로 조사한다. 테스트 산출물과 그 판단을 설명하는 승인·QA 기록은 각각 평가한다. 실제 제품 원본, 승인 엔딩, 최종 조립 입력, Git/LFS 복원 자료와 사용자 지정 보존 파일은 보호한다. 후보별 경로와 삭제·보존 사유를 보고하고 승인된 범위만 정리한다.
-- 정리 후 Finder에 보이는 실제 목록을 기준으로 `public/assets/video/`, `public/assets/audio/`, `public/assets/images/`, `public/covers/`, `public/covers/qa/`, `docs/`를 다시 확인한다. 통합 영상과 각 Scene이 파일명으로 구별되는지, 작업기록의 네 업로드·Scene 항목이 실제 파일로 연결되는지 확인한다. 남은 테스트 파일은 경로별 보존 사유를 기록한다.
+- 보존 대장에 실린 파일도 현재 용도와 개별 보존 지시를 대조한다. 이전 통합 Preview, 실패 Scene 렌더, 미채택 Flow/Veo·Blender 테스트 결과, 이전 TTS take·임시 WAV/MP3·통합 청취본, 실패 이미지·중복 Cover QA·미채택 Cover, 임시 조립 산출물·중복 렌더 로그·재생성 가능한 테스트 폴더 등은 삭제 후보로 조사한다. 테스트 산출물과 그 판단을 설명하는 승인·QA 기록은 각각 평가한다. 실제 제품 원본, 승인 엔딩, 최종 조립 입력, Git/LFS 복원 자료와 사용자 지정 보존 파일은 보호한다.
+- 정리 후 Finder에 보이는 실제 목록을 기준으로 `public/assets/video/`, `public/assets/audio/`, `public/assets/images/`, `public/covers/`, `public/covers/qa/`, `docs/`를 다시 확인한다. 통합 영상과 각 Scene이 파일명으로 구별되는지, 작업기록의 승인 경로가 실제 파일로 연결되는지 확인한다. 남은 테스트 파일은 경로별 보존 사유를 기록한다.
 - 위 최종본 식별·이름 확정, 참조·재생·무결성 QA, 승인 범위 정리와 잔여 목록 확인, 날짜형 작업기록, commit/push 및 원격 동기화 확인까지 마쳐야 `CLEANUP_COMPLETE`로 보고한다. 미검증 또는 승인 대기 항목이 있으면 해당 항목과 현재 종료 상태를 보고한다.
+- 종료 보고에는 두 보조 상태를 각각 기록한다. `FILE_CLEANUP_COMPLETE`는 승인 후보 이동과 최종 자산 무결성 검증을 마치고 미승인 삭제 후보가 없으며, 작업기록·Git 반영까지 완료한 상태다. 삭제 승인을 기다리는 항목이 있으면 정리 대기로 기록한다.
+- `PRODUCTION_APPROVAL_COMPLETE`는 영상·Cover·SNS의 사용자 승인과 필요한 Scene별 승인 또는 예외가 확인된 상태다. 두 보조 상태와 기존 `CLEANUP_COMPLETE` 요건을 각각 판정한다.
 - 아래 Git object 절차는 별도 사용자 승인을 받은 Monorepo 루트 유지보수에만 적용한다. 영상별 Slim의 자동 단계가 아니며 프로젝트 내부 .git은 만들지 않는다.
 - 비정상적으로 큰 `.git`은 즉시 삭제하거나 history rewrite하지 않는다. 먼저 `.git` 용량, `git count-objects -vH`, refs, Codex checkpoint refs, main/all-refs reachable 객체, unreachable/garbage 객체를 조사한다.
 - `.git` object 정리가 필요한 경우 정리 전에 `git bundle create <backup>.bundle --all`로 Complete Bundle을 만들고 `git bundle verify`로 검증한다. 미추적 중요 자산이 있으면 파일 목록과 SHA256도 별도 기록한다.
@@ -249,7 +252,6 @@
 - Git 정리는 reflog 만료와 `git gc --prune=now` 등 일반 object 정리 범위에서 수행하며, main history rewrite와 force push는 하지 않는다.
 - Git 정리 후 `git fsck --full`, `git count-objects -vH`, `HEAD = origin/main`, working tree, 미추적 중요 자산 SHA256을 다시 검증한다.
 - Git history 자체에 필요한 최종 영상·reference가 포함돼 `.git`이 큰 경우에는 용량만을 이유로 history를 재작성하지 않는다.
-- 정리 파일은 macOS 휴지통의 작업별 폴더로 먼저 이동하고 검증이 끝난 뒤 사용자 승인 후 휴지통을 비운다.
 - Git 정리 전 생성한 Complete Bundle 안전백업은 즉시 삭제하지 않는다. 이후 실제 프로젝트 사용에 문제가 없음을 확인한 뒤 삭제 후보로 보고하고 사용자 승인 후 정리한다.
 - Slim 완료 후 프로젝트 용량, 제거한 실행환경 용량, Git 상태, 보존 자산, commit/push 결과를 해당 영상의 `docs/YY.MM.DD수정.md`에 기록한다.
 
@@ -433,6 +435,7 @@ Terminal 명령은 가능한 경우 하나의 실행 가능한 코드블록으�
 
 
 - v2.11 (2026-11-20): 승인 Scene·통합 영상의 표준 파일명과 Slim Archive 종료 검증을 확정.
+- v2.12 (2026-11-20): §8에 신규 결과물별 승인 직후 final 확정, 테스트 산출물 정리 절차와 두 종료 보조 상태를 반영.
 
 ## 모바일 자막 안전 영역 — 2026-11-04 사용자 승인 공통 원칙
 
